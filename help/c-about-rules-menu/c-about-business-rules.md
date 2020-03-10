@@ -84,10 +84,10 @@ De volgende stappen veronderstellen u de Visuele Bouwer van de Regel gebruikt.
 
    Voor de [!DNL Business Rules] pagina, gebruik de **[!UICONTROL Filter by tag]** eigenschap aan filter voor regels die een bepaald etiket aanpassen. 1. Voor de [!DNL Business Rule Builder] pagina, plaats de trekkers en de acties die u wilt gebruiken.
 
-       **De opties van de trekker**
- de     
-     Trekkers zijn de voorwaarden die moeten worden voldaan aan voor een bedrijfsregel te lopen. Wanneer een bedrijfsregel veelvoudige trekkers heeft, kunt u vormen hoe de trekkers gebruikend één van de volgende drie methodes antwoorden:
-   
+   **De opties van de trekker**
+
+   Trekkers zijn de voorwaarden die moeten worden voldaan aan voor een bedrijfsregel te lopen. Wanneer een bedrijfsregel veelvoudige trekkers heeft, kunt u vormen hoe de trekkers gebruikend één van de volgende drie methodes antwoorden:
+
    * Een reactie waar alle trekkers (standaard het plaatsen) zoals in het volgende voorbeeld waar moeten zijn:
 
       `if a AND b AND c then ...`

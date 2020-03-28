@@ -1,59 +1,59 @@
 ---
-description: ongeldig
-seo-description: ongeldig
-seo-title: Search&amp;Promote 8.9.4 Release Notes (01/17/2013)
+description: 'null'
+seo-description: 'null'
+seo-title: '&Zoeken;amp;Opmerkingen bij de release 8.9.4 promoten (17-01-2013)'
 solution: Target
-title: Search&amp;Promote 8.9.4 Release Notes (01/17/2013)
+title: '&Zoeken;amp;Opmerkingen bij de release 8.9.4 promoten (17-01-2013)'
 topic: Release Notes,Site search and merchandising
 uuid: a9d550f6-0a23-4c71-b123-c31b997e7384
 translation-type: tm+mt
-source-git-commit: ef818327e1cdaad79ac47575a8dfba1de3dc5c2e
+source-git-commit: ffdec2cfcb30e733c664a7d1ca23868b7a9a9aa5
 
 ---
 
 
-# Zoeken en promoten: 8.9.4 releasenota&#39;s (01/17/2013){#search-promote-release-notes}
+# Opmerkingen bij de release van 8.9.4 doorzoeken en promoten (17-01-2013){#search-promote-release-notes}
 
 <table> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> <p>Nieuwe functies en verbeteringen </p> </th> 
+   <th colname="col1" class="entry"> <p>Nieuwe en verbeterde functies </p> </th> 
    <th colname="col2" class="entry"> <p>Beschrijving </p> </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Regels </p> </td> 
-   <td colname="col2"> <p> Toegevoegd de capaciteit om gealigneerde nota's tot stand te brengen wanneer u de Regels van de Schoonmaak van de Vraag, Vooraf-Onderzoek Regels, en de Regels van het post-Onderzoek creeert. Het notitiegebied laat u de regels documenteren en verklaren. </p> <p>Zie <a href="../c-about-rules-menu/c-about-query-cleaning-rules.md#concept_17F3CDDC3C8A4128AF092A82B777B86C" format="dita" scope="local"> over het Schoonmaken van de Vraag Regels</a>. </p> <p>Zie <a href="../c-about-rules-menu/c-about-pre-search-rules.md#concept_5BF84BB6FACB4645BA9CB7496A01CD1F" format="dita" scope="local"> Voorspelregels</a>. </p> <p>Zie <a href="../c-about-rules-menu/c-about-post-search-rules.md#concept_AF6ADFCC0ADF4A788003964939917FDE" format="dita" scope="local"> Informatie over regels</a>na het zoeken. </p> </td> 
+   <td colname="col2"> <p> Toegevoegd de capaciteit om gealigneerde nota's tot stand te brengen wanneer u de Regels van de Schoonmaak van de Vraag, Regels pre-Onderzoek, en Regels na-Onderzoek creeert. In het veld Notities kunt u de regels documenteren en uitleggen. </p> <p>Zie <a href="../c-about-rules-menu/c-about-query-cleaning-rules.md#concept_17F3CDDC3C8A4128AF092A82B777B86C" format="dita" scope="local"> Informatie over de regels</a>voor het opschonen van query's. </p> <p>Zie <a href="../c-about-rules-menu/c-about-pre-search-rules.md#concept_5BF84BB6FACB4645BA9CB7496A01CD1F" format="dita" scope="local"> Informatie over regels</a>voor voorzoeken. </p> <p>Zie <a href="../c-about-rules-menu/c-about-post-search-rules.md#concept_AF6ADFCC0ADF4A788003964939917FDE" format="dita" scope="local"> Informatie over regels</a>voor na het zoeken. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Begeleide zoekopdracht </p> </td> 
-   <td colname="col2"> <p> Toegevoegde Geleide markeringen van het Onderzoek om op de totale tijd te wijzen die een onderzoek nam. </p> <p> <span class="codeph"> &lt;geleide-onderzoek-tijd&gt;</span> - identificeert hoe lang het onderzoek nam. De teruggekeerde waarde van de onderzoekstijd wordt gespecificeerd in ms. </p> <p> <span class="codeph"> &lt;guided-fall-through-search&gt;</span> - Geeft de telling van cores onderzoeken terug die worden gebruikt om de pagina van onderzoeksresultaten te bouwen. </p> <p> <span class="codeph"> &lt;geleid-als-val-door-onderzoek&gt;</span> - test als de telling van kernonderzoeken groter is dan 1. </p> <p>Zie ook Diverse Taal in de malplaatjemarkeringen <a href="../c-appendices/c-templates.md#reference_F1BBF616BCEC4AD7B2548ECD3CA74C64" format="dita" scope="local"> van de</a>Presentatie. </p> </td> 
+   <td colname="col1"> <p>Zoeken met instructies </p> </td> 
+   <td colname="col2"> <p> Toegevoegde tags voor Zoeken met instructies om de totale tijd aan te geven waarin een zoekopdracht is uitgevoerd. </p> <p> <span class="codeph"> &lt;guided-search-time&gt;</span> - Geeft aan hoe lang de zoekopdracht heeft geduurd. De geretourneerde waarde voor de zoektijd wordt opgegeven in ms. </p> <p> <span class="codeph"> &lt;guided-fall-through-search&gt;</span> - Retourneert het aantal zoekopdrachten met kernen dat wordt gebruikt om de pagina met zoekresultaten samen te stellen. </p> <p> <span class="codeph"> &lt;guided-if-fall-through-search&gt;</span> - Test of het aantal kernzoekopdrachten groter is dan 1. </p> <p>Zie ook Diverse Taal in sjabloonlabels <a href="../c-appendices/c-templates.md#reference_F1BBF616BCEC4AD7B2548ECD3CA74C64" format="dita" scope="local"> van de</a>presentatie. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**Fixes**
+**Oplossingen**
 
-* Het Rapport van Termen negeert nu het asteriskkarakter.
+* In het rapport Voorwaarden wordt nu het sterretje genegeerd.
 
-   Zie het [Bekijken van het Rapport van Termen of het Volledige Rapport van de Termijnen van het Onderzoek...](../c-about-reports-menu/c-about-reports-menu.md#task_53B7ED1582DD4B0E8376546A7AFC789A).
+   Zie [Het rapport met voorwaarden of het rapport Null-zoektermen weergeven...](../c-about-reports-menu/c-about-reports-menu.md#task_53B7ED1582DD4B0E8376546A7AFC789A).
 
-* Open Rapporten > het Volledige Rapport van de Termijnen van het Onderzoek, selecteer een tijdgroef en bekijk dan het rapport. Klik één woord in het rapport om het onderzoek te openen, en dan het Rapport van de Mening opnieuw te klikken. De onderzoekstelling van het sleutelwoord u klikte steeg tweemaal. Dit is nu opgelost.
+* Open **[!UICONTROL Reports > Null Search Terms Report]**, selecteer een tijdgroef en bekijk dan het rapport. Klik op één woord in het rapport om de zoekopdracht te openen en klik vervolgens nogmaals op Rapport weergeven. Het aantal zoekopdrachten van het trefwoord waarop u klikte, is tweemaal gestegen. Dit is nu opgelost.
 
-   Zie het [Bekijken van het Rapport van Termen of het Volledige Rapport van de Termijnen van het Onderzoek...](../c-about-reports-menu/c-about-reports-menu.md#task_53B7ED1582DD4B0E8376546A7AFC789A).
+   Zie [Het rapport met voorwaarden of het rapport Null-zoektermen weergeven...](../c-about-reports-menu/c-about-reports-menu.md#task_53B7ED1582DD4B0E8376546A7AFC789A).
 
-* Een prestatiesoptimalisering werd gemaakt voor wanneer u BedrijfsRegels levend duwt.
+* Er is een optimalisatie van de prestaties uitgevoerd wanneer u live gaat met de bedrijfsregels.
 
-   Zie [over de bedrijfsregels](../c-about-rules-menu/c-about-business-rules.md#concept_2A93D76216754D3D8412CDEA00BD26BD).
+   Zie [Informatie over bedrijfsregels](../c-about-rules-menu/c-about-business-rules.md#concept_2A93D76216754D3D8412CDEA00BD26BD).
 
-* Het vermogen om in Breadcrumbs te verwijderen werkte niet de hele tijd.
+* De mogelijkheid om in te verwijderen [!DNL Breadcrumbs] werkte niet de hele tijd.
 
-   Zie [over Breadcrumbs](../c-about-design-menu/c-about-breadcrumbs.md#concept_FB8A943C594A4A1593B118141DA61F03).
+   Zie [Informatie over broodkruimels](../c-about-design-menu/c-about-breadcrumbs.md#concept_FB8A943C594A4A1593B118141DA61F03).
 
-* Tenzij u Regenerate gebruikte, liet de Re-rank eigenschap geen veranderde Rangschikkende Regels toe om in onderzoeksresultaten van kracht te worden.
+* Tenzij u opnieuw genereerde, stond de re-rangschikkingseigenschap geen veranderde rangschikkingsregels toe om in onderzoeksresultaten van kracht te worden.
 
-   Zie [over rangschikkingsregels](../c-about-rules-menu/c-about-ranking-rules.md#concept_F555C076759B4E81B925441CFE707397).
+   Zie [Informatie over rangschikkingsregels](../c-about-rules-menu/c-about-ranking-rules.md#concept_F555C076759B4E81B925441CFE707397).
 
-   Zie [over Re-Rank Index](../c-about-index-menu/c-about-re-rank-index.md#concept_147B0A9FCD51451787DA898E06F7C692).
+   Zie [Informatie over de index](../c-about-index-menu/c-about-re-rank-index.md#concept_147B0A9FCD51451787DA898E06F7C692)opnieuw weergeven.
 

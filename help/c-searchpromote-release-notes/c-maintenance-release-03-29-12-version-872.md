@@ -1,26 +1,26 @@
 ---
-description: ongeldig
-seo-description: ongeldig
-seo-title: Search&amp;Promote 8.7.2 Release Notes (03/29/2012)
+description: 'null'
+seo-description: 'null'
+seo-title: '&Zoeken;amp;Opmerkingen bij de release 8.7.2 promoten (29-03-2012)'
 solution: Target
-title: Search&amp;Promote 8.7.2 Release Notes (03/29/2012)
+title: '&Zoeken;amp;Opmerkingen bij de release 8.7.2 promoten (29-03-2012)'
 topic: Release Notes,Site search and merchandising
 uuid: e8454d47-6444-4136-92d7-35b90bfb12ca
 translation-type: tm+mt
-source-git-commit: ef818327e1cdaad79ac47575a8dfba1de3dc5c2e
+source-git-commit: ffdec2cfcb30e733c664a7d1ca23868b7a9a9aa5
 
 ---
 
 
-# Zoeken en promoten: 8.7.2 Opmerkingen bij release (03/29/2012){#search-promote-release-notes}
+# Opmerkingen bij de release van 8.7.2 zoeken en promoten (29-03-2012){#search-promote-release-notes}
 
-## Productconfiguraties en -verbeteringen {#section_6B3602709FB04B3C999C5DFE103CFF7D}
+## Productcorrecties en -verbeteringen {#section_6B3602709FB04B3C999C5DFE103CFF7D}
 
-* Correcte een kwestie met BedrijfsRegels om de correcte facetten terug te keren.
-* Vast een kwestie met op resultaat-gebaseerde acties aan die niet met sommige gefaseerde onderzoeken werkten.
-* Vaste kwesties met directe klapgegevens die aan de cliëntkant en de serverkant dubbel-gecodeerd waren.
-* De vaste Bouwer van de Regel van Visual Studio om facetacties op Internet Explorer 7 en 8 voor bepaalde klanten nu te steunen.
-* Vast als kwestie met de tests van de het sleutelwoordgelijkheid van de BedrijfsRegels met pijpafbakening.
-* Vaste een kwestie met het uitgeven van Dynamische Klassieke de bannerparameters van Media.
-* Toegevoegde capaciteit om de grootte van een Dynamische Klassieke banner van Media te veranderen terwijl het handhaven van zijn aspectverhouding.
+* Correctie een kwestie met bedrijfsregels om de correcte facetten terug te keren.
+* Probleem verholpen met op resultaten gebaseerde acties die niet werkten met sommige gefaseerde zoekopdrachten.
+* Correctie van problemen met direct raakgegevens die dubbelgecodeerd waren aan de client- en serverzijde.
+* Vaste Visual Rule Builder om facetacties op Internet Explorer 7 en 8 voor bepaalde klanten nu te steunen.
+* Probleem opgelost met gelijkheidstests voor [!DNL Business Rules] trefwoorden met scheidingsteken voor pijpen.
+* Probleem verholpen met het bewerken van de parameters van Dynamic Media Classic voor banners.
+* Mogelijkheid toegevoegd om de grootte van een Dynamic Media Classic-banner te wijzigen terwijl de hoogte-breedteverhouding behouden blijft.
 

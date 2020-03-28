@@ -1,42 +1,42 @@
 ---
-description: ongeldig
-seo-description: ongeldig
-seo-title: Zoeken&amp;Promote 8.17.0 Release Notes (10/30/2014)
+description: 'null'
+seo-description: 'null'
+seo-title: '&Zoeken;amp;Opmerkingen bij de release 8.17.0 promoten (30-10-2014)'
 solution: Target
-title: Zoeken&amp;Promote 8.17.0 Release Notes (10/30/2014)
+title: '&Zoeken;amp;Opmerkingen bij de release 8.17.0 promoten (30-10-2014)'
 topic: Release Notes,Site search and merchandising
 uuid: ea1725df-778c-4875-a269-f33d0c367126
 translation-type: tm+mt
-source-git-commit: ef818327e1cdaad79ac47575a8dfba1de3dc5c2e
+source-git-commit: ffdec2cfcb30e733c664a7d1ca23868b7a9a9aa5
 
 ---
 
 
-# Zoeken en promoten: 8.17.0 Release Notes (10/30/2014){#search-promote-release-notes}
+# Opmerkingen bij de release van 8.17.0 doorzoeken en promoten (30-10-2014){#search-promote-release-notes}
 
 ## Nieuwe functies {#section_2A10EF6B40FC4F2CB2381FFA9FFA64BD}
 
-* Het zuiveren van de simulator - verstrekt extra informatie betreffende de plaatsing van elk individueel zichtbaar onderzoeksresultaat.
-* Markeringen voor bedrijfsregels - Toegevoegde capaciteit om bedrijfsregels met specifieke etiketten te etiketteren waardoor u voor regels laat filtreren die een bepaald etiket aanpassen.
+* Foutopsporing van de simulator - biedt aanvullende informatie over de plaatsing van elk afzonderlijk zichtbaar zoekresultaat.
+* Tags voor bedrijfsregels - Mogelijkheid toegevoegd om bedrijfsregels met specifieke labels te labelen, zodat u kunt filteren op regels die overeenkomen met een bepaald label.
 
-   Zie [over de bedrijfsregels](../c-about-rules-menu/c-about-business-rules.md#concept_2A93D76216754D3D8412CDEA00BD26BD).
+   Zie [Informatie over bedrijfsregels](../c-about-rules-menu/c-about-business-rules.md#concept_2A93D76216754D3D8412CDEA00BD26BD).
 
-## Fixen en verbeteringen {#section_22D1AFC99F394D569898828A0D3C419D}
+## Oplossingen en verbeteringen {#section_22D1AFC99F394D569898828A0D3C419D}
 
-* Verticale update-gebaseerde re-rangschikking - het sneller opnieuw rangschikken van de index resulteert nu in prestaties die beter representatief zijn voor wat uw echte ervaring van het Webverkeer.
+* Verticale update-based re-rangschikking - het sneller opnieuw rangschikken van de index resulteert nu in prestaties die beter representatief voor wat uw echte Webverkeer ervaart.
 
-   Zie [over Re-Rank Index](../c-about-index-menu/c-about-re-rank-index.md#concept_147B0A9FCD51451787DA898E06F7C692).
+   Zie [Informatie over de index](../c-about-index-menu/c-about-re-rank-index.md#concept_147B0A9FCD51451787DA898E06F7C692)opnieuw weergeven.
 
-* Wanneer **[!UICONTROL Ignore Apostrophes]** en **[!UICONTROL Ignore Hyphens]** binnen **[!UICONTROL Linguistics]** > **[!UICONTROL Words & Language]** wordt toegelaten, verwijdert de auto-voltooien nu weglatingen en koppeltekens uit de vraaggegevens zoals verwacht.
+* Wanneer **[!UICONTROL Ignore Apostrophes]** en **[!UICONTROL Ignore Hyphens]** is ingeschakeld in **[!UICONTROL Linguistics]** > **[!UICONTROL Words & Language]**, verwijdert Automatisch aanvullen nu apostroffen en afbreekstreepjes uit de querygegevens zoals u had verwacht.
 
-   Zie [Over Woorden en Taal](../c-about-linguistics-menu/c-about-words-and-language.md#concept_CEB4B9576F3C4E2EB87B352EEC738D79) en [over Automatisch aanvullen](../c-about-auto-complete.md#concept_093A9CD754864BA79B456FE4BEB64578).
+   Zie [Woorden en taal](../c-about-linguistics-menu/c-about-words-and-language.md#concept_CEB4B9576F3C4E2EB87B352EEC738D79) en [Info over Automatisch aanvullen](../c-about-auto-complete.md#concept_093A9CD754864BA79B456FE4BEB64578).
 
-* De procesmonitor start nu opnieuw de pijnprocessen.
-* Implementeerde een actie &quot;Object zichtbaar maken&quot; in bedrijfsregels.
-* Voor de [!DNL Adjust Ranking Weights] pagina, hebt u nu de capaciteit om het **[!UICONTROL Rule & Relevancy Balance]** plaatsen in 1% toename aan te passen.
+* Procesmonitor start nu opnieuw pijnprocessen.
+* Een actie &#39;Facet item onthullen&#39; is geïmplementeerd in [!DNL Business Rules].
+* Op de [!DNL Adjust Ranking Weights] pagina kunt u de **[!UICONTROL Rule & Relevancy Balance]** instelling nu in stappen van 1% aanpassen.
 
-   Zie Het [aanpassen van het gewicht verbonden aan het rangschikken van regels](../c-about-rules-menu/c-about-ranking-rules.md#task_3CB6FC92A66F4D99874A42D55825DB64).
+   Zie [Het gewicht aanpassen dat is gekoppeld aan waarderingsregels](../c-about-rules-menu/c-about-ranking-rules.md#task_3CB6FC92A66F4D99874A42D55825DB64).
 
-* Apache was aan het crashen met Kindle Fire&#39;s raadselaar.
-* Er is een probleem met een indexeringsfout opgelost.
+* Apache crashte met de Zijde van Kindle Fire, gebruikersagent.
+* Er is een probleem met indexeringsfouten opgelost.
 

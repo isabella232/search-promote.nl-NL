@@ -1,49 +1,49 @@
 ---
-description: De Dynamische Facets van het gebruik om nieuwe waaierselecties automatisch tot stand te brengen op het tijdstip van onderzoek. U kunt elk dynamisch facetgebied met maximaal één lijstnaam in uw Onderzoek&amp van Adobe naar keuze associëren;amp;Promote rekening. U past die lijstverhoudingen op onderzoek-tijd voor om het even welke dynamische facetgebieden toe betrokken bij het onderzoek.
-seo-description: De Dynamische Facets van het gebruik om nieuwe waaierselecties automatisch tot stand te brengen op het tijdstip van onderzoek. U kunt elk dynamisch facetgebied met maximaal één lijstnaam in uw Onderzoek&amp van Adobe naar keuze associëren;amp;Promote rekening. U past die lijstverhoudingen op onderzoek-tijd voor om het even welke dynamische facetgebieden toe betrokken bij het onderzoek.
-seo-title: Informatie over dynamische factoren
+description: Met Dynamische factoren kunt u automatisch nieuwe bereikselecties maken op het moment van de zoekopdracht. U kunt desgewenst elk dynamisch facetveld koppelen aan maximaal één tabelnaam in uw Adobe-zoek&stempel;amp;Promote-account. U past die tabelrelaties tijdens het zoeken toe op alle dynamische facetvelden die bij de zoekopdracht zijn betrokken.
+seo-description: Met Dynamische factoren kunt u automatisch nieuwe bereikselecties maken op het moment van de zoekopdracht. U kunt desgewenst elk dynamisch facetveld koppelen aan maximaal één tabelnaam in uw Adobe-zoek&stempel;amp;Promote-account. U past die tabelrelaties tijdens het zoeken toe op alle dynamische facetvelden die bij de zoekopdracht zijn betrokken.
+seo-title: Dynamische factoren
 solution: Target
 subtopic: Navigation
-title: Informatie over dynamische factoren
+title: Dynamische factoren
 topic: Design,Site search and merchandising
 uuid: 1ea91c22-dcc2-4173-aa50-ce618ad0a99c
 translation-type: tm+mt
-source-git-commit: 4270ea66ba645ad0f71c9c8b5c2a1fcc6eb02ad2
+source-git-commit: ffdec2cfcb30e733c664a7d1ca23868b7a9a9aa5
 
 ---
 
 
-# Informatie over dynamische factoren{#about-dynamic-facets}
+# Dynamische factoren{#about-dynamic-facets}
 
-De Dynamische Facets van het gebruik om nieuwe waaierselecties automatisch tot stand te brengen op het tijdstip van onderzoek. U kunt elk dynamisch facetgebied met maximaal één lijstnaam in uw Adobe Search&amp;Promote rekening naar keuze associëren. U past die lijstverhoudingen op onderzoek-tijd voor om het even welke dynamische facetgebieden toe betrokken bij het onderzoek.
+Met Dynamische factoren kunt u automatisch nieuwe bereikselecties maken op het moment van de zoekopdracht. U kunt desgewenst elk dynamisch facetveld koppelen aan maximaal één tabelnaam in uw Adobe Search&amp;Promote-account. U past die tabelrelaties tijdens het zoeken toe op alle dynamische facetvelden die bij de zoekopdracht zijn betrokken.
 
 ## Dynamische factoren gebruiken {#concept_E65A70C9C2E04804BF24FBE1B3CAD899}
 
 >[!NOTE]
 >
->Deze eigenschap wordt niet toegelaten binnen [!DNL Adobe Search&Promote], door gebrek. Neem contact op met Technische ondersteuning om de functie voor uw gebruik te activeren.
+>Deze functie is standaard niet ingeschakeld in [!DNL Adobe Search&Promote]. Neem contact op met Technische ondersteuning om de functie voor uw gebruik te activeren.
 
-Zonder het gebruik van Dynamische Facets, moest u verwante attributen in &quot;groeven&quot;samenvoegen, en slechts de groeven tonen die voor een bepaalde onderzoek homogeen waren. Namelijk konden zij slechts één logische waarden van attributen, zoals &quot;schoengrootte&quot;of &quot;ringsgrootte&quot;bevatten. Deze methode verstrekte adequate onderzoek-tijd prestaties met een grote reeks unieke attributen.
+Zonder het gebruik van Dynamische Facets, moest u verwante attributen in &quot;groeven&quot;samenvoegen, en slechts de groeven tonen die voor een bepaalde onderzoek homogeen waren. Dat wil zeggen dat ze alleen de waarden van één logisch kenmerk konden bevatten, zoals &quot;schoengrootte&quot; of &quot;ringgrootte&quot;. Deze methode leverde de juiste zoektijdprestaties met een grote set unieke kenmerken.
 
-Wanneer het Dynamische Faceting wordt gebruikt, echter, plaatst het geen grens op het aantal facetten dat het kernonderzoek kan efficiënt volgen. U kunt honderden dynamische facetten bepalen, waarvan het kernonderzoek de &quot;hoogste `N` dynamische facetten&quot;voor een bepaald onderzoek kan terugkeren, waar typisch een bescheidener waarde van 10-20 of minder `N` is. Deze methode elimineert de behoefte om de attributen te plaatsen-u kunt nu een uniek dynamisch facet voor attributen over uw website tot stand brengen.
+Wanneer Dynamic Faceting wordt gebruikt, geldt echter geen limiet voor het aantal facetten dat zoekopdrachten in de kern efficiënt kunnen volgen. U kunt honderden dynamische facetten bepalen, waarvan het kernonderzoek de &quot;hoogste `N` dynamische facetten&quot;voor een bepaalde onderzoek kan terugkeren, waar typisch een bescheidener waarde van 10-20 of minder `N` is. Met deze methode hoeft u de kenmerken niet meer te plakken. U kunt nu een unieke dynamische facet voor kenmerken op uw website maken.
 
-## Welke facetten moet je dynamisch maken? {#section_254EE034BCAD4250A5D09FBF6158C4A5}
+## Welke facetten moet u dynamisch maken? {#section_254EE034BCAD4250A5D09FBF6158C4A5}
 
-Facets die dunbevolkt zijn op uw website en alleen verschijnen voor een subset zoekopdrachten zijn goede kandidaten om dynamisch te worden. Bijvoorbeeld, kan een facet genoemd &quot;voorpootbreedte&quot;slechts worden bevolkt wanneer het zoeken naar schoenen of laarzen. Terwijl een ander facet genoemd &quot;de Numerieke Stijl van het Gezicht&quot;, met mogelijke waarden van &quot;Roman&quot;en &quot;Arabisch&quot;, slechts kan verschijnen wanneer het zoeken naar horloges of klokken.
+Facetten die dunbevolkt zijn op uw website en alleen worden weergegeven voor een subset zoekopdrachten, zijn goede kandidaten voor een dynamische weergave. Een facet met de naam &quot;breedte voorvoet&quot; mag bijvoorbeeld alleen worden gevuld wanneer u naar schoenen of laarzen zoekt. Terwijl een ander facet met de naam &quot;Gezichtsnummerstijl&quot;, met mogelijke waarden &quot;Romeins&quot; en &quot;Arabisch&quot;, alleen mag worden weergegeven wanneer u zoekt naar stalen of klokken.
 
-Als uw rekening een groot aantal dergelijke facetten heeft, verbetert het onderzoeksprestaties om dynamische facetten te gebruiken in plaats van altijd het selecteren van de volledige reeks mogelijke facetten voor elke onderzoek. Generieke facetten zoals &quot;SKU&quot; of &quot;merk&quot;, die normaal gesproken geschikt zijn om met de resultaten van elke zoekopdracht weer te geven, zijn doorgaans niet geschikt als dynamische facetten.
+Als uw account een groot aantal van dergelijke facetten heeft, worden de zoekprestaties verbeterd zodat dynamische facetten worden gebruikt in plaats van altijd de volledige set mogelijke facetten voor elke zoekopdracht te selecteren. Algemene facetten, zoals &quot;SKU&quot; of &quot;merk&quot;, die normaal gesproken geschikt zijn om met de resultaten van elke zoekactie te worden weergegeven, zijn doorgaans niet geschikt als dynamische facetten.
 
-## Verband tussen facetten en meta-tagvelden {#section_2869E5FCDA8B431A87BC6E5573F2B0A0}
+## Relatie tussen facetten en meta-tagvelden {#section_2869E5FCDA8B431A87BC6E5573F2B0A0}
 
-De gebieden worden gebouwd bovenop de gebieden van de meta- markering. Een meta markeringsgebied is een laag-vlakke, eigenschap van de de laag van het kernonderzoek van [!DNL Adobe Search&Promote]. De facetten, anderzijds maken deel uit van GS (Geleid Onderzoek) - de high-level, presentatielaag van het Onderzoek&amp;Promote van Adobe. Facets eigen meta markeringsgebieden, echter, weten de meta markeringsgebieden niets over facetten. Wanneer u dynamische facetten vormt, voegt u eerst facetten toe en voegt dan de gebieden van de meta- markering met de Dynamische optie van het Gebied toe die wordt geselecteerd om het geïdentificeerde die facet te plaatsen om dynamisch te zijn.
+Facetten worden boven op metatag-tagvelden gebouwd. Een metatag etiketgebied is een laag-vlakke, kernonderzoekslaageigenschap van [!DNL Adobe Search&Promote]. Facetten daarentegen maken deel uit van GS (Guided Search) - de laag op hoog niveau met presentaties van Adobe Search&amp;Promote. Facetten hebben echter eigen velden voor metatags, maar velden voor metatags weten niets over facetten. Wanneer u dynamische facetten configureert, voegt u eerst facetten toe en voegt u vervolgens metatag-tagvelden toe met de optie Dynamisch facet geselecteerd om het geïdentificeerde facet in te stellen op dynamisch.
 
 >[!NOTE]
 >
->Er is geen &quot;Dynamisch Facet&quot;plaatsend binnen **[!UICONTROL Design > Navigation > Facets]**. Wat een facet &quot;dynamisch&quot;maakt is dat zijn onderliggend &quot;gebied van de meta- markering&quot;dynamisch is zoals die in wordt geplaatst **[!UICONTROL Settings > Metadata > Definitions]**.
+>Er is geen instelling Dynamisch facet in **[!UICONTROL Design > Navigation > Facets]**. Wat een facet &#39;dynamisch&#39; maakt, is dat het onderliggende &#39;meta tag field&#39; dynamisch is, zoals ingesteld in **[!UICONTROL Settings > Metadata > Definitions]**.
 
 ## Voorbeelden van dynamische facetten in actie {#section_BC699A05E2E742EF94D41679163ACE84}
 
-Voorbeeld van dynamische facetten die na een onderzoek naar &quot;laarzen&quot;worden getoond:
+Voorbeeld van dynamische facetten die worden weergegeven na een zoekopdracht naar &quot;laarzen&quot;:
 
 ![](assets/dynamicfacets_boots.png)
 
@@ -53,13 +53,13 @@ Een ander voorbeeld van dynamische facetten die na een onderzoek naar &quot;horl
 
 Zie ook
 
-* [Backend onderzoek CGI parameters](../c-appendices/c-cgiparameters.md#reference_582E85C3886740C98FE88CA9DF7918E8)
-* [Sjabloonlabels voor presentatie](../c-appendices/c-templates.md#reference_F1BBF616BCEC4AD7B2548ECD3CA74C64)
-* [Labels transportsjabloon](../c-appendices/c-templates.md#reference_227D199F5A7248049BE1D405C0584751)
+* [CGI-parameters voor achtergrondzoekopdrachten](../c-appendices/c-cgiparameters.md#reference_582E85C3886740C98FE88CA9DF7918E8)
+* [Presentatiesjablooncodes](../c-appendices/c-templates.md#reference_F1BBF616BCEC4AD7B2548ECD3CA74C64)
+* [Labels voor transportsjablonen](../c-appendices/c-templates.md#reference_227D199F5A7248049BE1D405C0584751)
 
-## Het vormen dynamische facetten {#task_D17F484130E448258100BAC1EEC53F39}
+## Dynamische facetten configureren {#task_D17F484130E448258100BAC1EEC53F39}
 
-De Dynamische Facets van de vestiging in Onderzoek&amp;Promote.
+Dynamische facetten instellen in Zoeken&amp;promoveren.
 
 <!-- 
 
@@ -69,54 +69,54 @@ t_configuring_dynamic_facets.xml
 
 >[!NOTE]
 >
->Deze eigenschap wordt niet toegelaten in het Onderzoek&amp;Promote van Adobe, door gebrek. Neem contact op met Technische ondersteuning om de functie voor uw gebruik te activeren.
+>Deze functie is standaard niet ingeschakeld in Adobe Search&amp;Promote. Neem contact op met Technische ondersteuning om de functie voor uw gebruik te activeren.
 
-Alvorens de gevolgen van uw dynamische facetten aan klanten zichtbaar zijn, moet u uw plaatsindex herbouwen.
+Voordat de effecten van uw dynamische facetten zichtbaar zijn voor klanten, moet u de index van uw site opnieuw genereren.
 
 Zie ook
 
-* [Backend onderzoek CGI parameters](../c-appendices/c-cgiparameters.md#reference_582E85C3886740C98FE88CA9DF7918E8)
-* [Sjabloonlabels voor presentatie](../c-appendices/c-templates.md#reference_F1BBF616BCEC4AD7B2548ECD3CA74C64)
-* [Labels transportsjabloon](../c-appendices/c-templates.md#reference_227D199F5A7248049BE1D405C0584751)
+* [CGI-parameters voor achtergrondzoekopdrachten](../c-appendices/c-cgiparameters.md#reference_582E85C3886740C98FE88CA9DF7918E8)
+* [Presentatiesjablooncodes](../c-appendices/c-templates.md#reference_F1BBF616BCEC4AD7B2548ECD3CA74C64)
+* [Labels voor transportsjablonen](../c-appendices/c-templates.md#reference_227D199F5A7248049BE1D405C0584751)
 
-**Om dynamische facetten te vormen**
+**Dynamische facetten configureren**
 
-1. Zorg ervoor u reeds facetten hebt toegevoegd.
+1. Zorg ervoor dat u al facetten hebt toegevoegd.
 
    Zie Een nieuw facet [toevoegen](../c-about-design-menu/c-about-facets.md#task_FC07BFFA62CA4B718D6CBF4F2855C89B).
-1. Nadat uw facetten worden toegevoegd, zorg ervoor dat u de facetten aan nieuwe user-defined meta- markeringsgebieden hebt toegevoegd.
+1. Nadat uw facetten zijn toegevoegd, moet u ervoor zorgen dat u de facetten aan nieuwe user-defined meta markeringsgebieden hebt toegevoegd.
 
-   Zie [Een nieuw meta-tagveld](../c-about-settings-menu/c-about-metadata-menu.md#task_6DF188C0FC7F4831A4444CA9AFA615E5)toevoegen.
-1. Klik in het productmenu op **[!UICONTROL Settings]** > **[!UICONTROL Metadata]** > **[!UICONTROL Definitions.]**
-1. Voor de [!DNL Definitions] pagina, in de [!DNL User-defined fields] lijst, in de [!DNL Actions] kolom, klik het potloodpictogram (geef uit) in de rij van de naam van het meta- markeringsgebied verbonden aan het facet dat u dynamisch wilt maken.
-1. Op de [!DNL Edit Field] pagina, controleer **[!UICONTROL Dynamic Facet]**.
+   Zie [Een nieuw metatag toevoegen veld](../c-about-settings-menu/c-about-metadata-menu.md#task_6DF188C0FC7F4831A4444CA9AFA615E5).
+1. Klik in het menu Product op **[!UICONTROL Settings]** > **[!UICONTROL Metadata]****[!UICONTROL Definitions.]**
+1. Klik op de [!DNL Definitions] pagina in de [!DNL User-defined fields] tabel in de [!DNL Actions] kolom op het potloodpictogram (Bewerken) in de rij van de veldnaam van de metatag die is gekoppeld aan het facet dat u dynamisch wilt maken.
+1. Controleer op de [!DNL Edit Field] pagina **[!UICONTROL Dynamic Facet]**.
 
-   Zie de lijst van opties in het [Toevoegen van een nieuw gebied](../c-about-settings-menu/c-about-metadata-menu.md#task_6DF188C0FC7F4831A4444CA9AFA615E5)van de meta- markering.
+   Zie de optietabel in [Een nieuw metatag-tagveld](../c-about-settings-menu/c-about-metadata-menu.md#task_6DF188C0FC7F4831A4444CA9AFA615E5)toevoegen.
 1. Klik op **[!UICONTROL Save Changes]**.
-1. Klik **regenereren uw gefaseerde plaatsindex** in de blauwe doos om uw gefaseerde websiteindex snel te herbouwen.
+1. Klik in het blauwe vak op **Vernieuwen van uw gefaseerde site-index** om de gefaseerde website-index snel opnieuw te genereren.
 
-   Zie ook [Regenerating de index van een levende of gefaseerde website](../c-about-index-menu/c-about-regenerate-index.md#task_B28DE40C0E9A475ABCBCBC4FF993AACD).
-1. Bepaal het aantal dynamische facetten om voor een bepaald onderzoek te selecteren. U verwezenlijkt deze taak door één van beiden van het volgende te doen:
+   Zie ook De index van een live of gefaseerde website [](../c-about-index-menu/c-about-regenerate-index.md#task_B28DE40C0E9A475ABCBCBC4FF993AACD)opnieuw genereren.
+1. Bepaal het aantal dynamische facetten dat u voor een bepaalde zoekopdracht wilt selecteren. Voer een van de volgende twee handelingen uit om deze taak uit te voeren:
 
-   * Creeer een vraag schoonmaakregel met om het even welke gewenste voorwaarden, die de actie uitvoert, `set`, `backend parameter`om te waarderen `sp_sfvl_df_count` , waar `X`het gewenste aantal dynamische facetten is om op het tijdstip van onderzoek te verzoeken, en dan te klikken `X` **[!UICONTROL Add]**.
+   * Maak een regel voor het schoonmaken van query met de gewenste voorwaarden die de handeling uitvoert `set`, `backend parameter`, `sp_sfvl_df_count` op waarde `X`, waarbij `X` het gewenste aantal dynamische facetten op het moment van de zoekopdracht moet worden aangevraagd, en klik vervolgens **[!UICONTROL Add]**.
    ![](assets/querycleaningrule_dynamicfacets.png)
 
-   Zie [het Toevoegen van een vraag schoonmaakregel](../c-about-rules-menu/c-about-query-cleaning-rules.md#task_47F43988D3D9485F8AE1DFDA7E00BF54).
+   Zie Een regel voor het [opschonen van query&#39;s toevoegen](../c-about-rules-menu/c-about-query-cleaning-rules.md#task_47F43988D3D9485F8AE1DFDA7E00BF54).
 
-   Zie ook de parameters [van het Onderzoek CGI van het](../c-appendices/c-cgiparameters.md#reference_582E85C3886740C98FE88CA9DF7918E8)Backend, rij 40 in de lijst voor verdere verklaring van `sp_sfvl_df_count`.
+   Zie ook CGI-parameters [voor](../c-appendices/c-cgiparameters.md#reference_582E85C3886740C98FE88CA9DF7918E8)achtergrondzoekopdrachten, rij 40 in de tabel voor nadere uitleg over `sp_sfvl_df_count`.
 
-   * Voeg een onderzoek toe en plaats de &quot;douane&quot; `sp_sfvl_df_count` parameter aan de gewenste waarde, en klik **[!UICONTROL Add]**.
+   * Voeg een zoekopdracht toe en stel de parameter &#39;custom&#39; `sp_sfvl_df_count` in op de gewenste waarde en klik **[!UICONTROL Add]**.
    ![](assets/gs_addsearch_dynamic_facets.png)
 
    Zie [Een nieuwe zoekdefinitie](../c-about-settings-menu/c-about-searching-menu.md#task_98D3A168AB5D4F30A1ADB6E0D48AB648)toevoegen.
 
-   Zie ook de parameters [van het Onderzoek CGI van het](../c-appendices/c-cgiparameters.md#reference_582E85C3886740C98FE88CA9DF7918E8)Backend, rij 40 in de lijst voor verdere verklaring van `sp_sfvl_df_count`.
+   Zie ook CGI-parameters [voor](../c-appendices/c-cgiparameters.md#reference_582E85C3886740C98FE88CA9DF7918E8)achtergrondzoekopdrachten, rij 40 in de tabel voor nadere uitleg over `sp_sfvl_df_count`.
 
-1. Geef het aangewezen vervoermalplaatje aan output uit de dynamische facetten die het kernonderzoek terugkeert.
+1. Geef het aangewezen vervoermalplaatje uit om de dynamische facetten uit te voeren die het kernonderzoek terugkeert.
 
-   Zie Een presentatie [bewerken of een transportsjabloon](../c-about-design-menu/c-about-templates.md#task_800E0E2265C34C028C92FEB5A1243EC3).
+   Zie Een presentatie of een transportsjabloon [](../c-about-design-menu/c-about-templates.md#task_800E0E2265C34C028C92FEB5A1243EC3)bewerken.
 
-   Bijvoorbeeld, veronderstel dat uw vervoermalplaatje wordt genoemd `guided.tpl`. In zulk geval, op het productmenu, klik **[!UICONTROL Design > Templates]**. Voor de [!DNL Templates] pagina, bepaal de plaats `guided.tpl` in de lijst. en klik dan **[!UICONTROL Edit]** aan uiterst rechts van de naam. Voor de het Uitgeven pagina, voeg het volgende codeblok aan het eind van toe `</facets>`: JSON-uitvoer:
+   Stel dat uw transportsjabloon een naam heeft `guided.tpl`. Klik in dat geval in het productmenu op **[!UICONTROL Design > Templates]**. Zoek op de [!DNL Templates] pagina de tabel `guided.tpl` in. en klik vervolgens helemaal rechts van **[!UICONTROL Edit]** de naam. Voeg op de pagina Bewerken het volgende codeblok toe aan het einde van `</facets>`: JSON-uitvoer:
 
    ```
    ... 
@@ -131,11 +131,11 @@ Zie ook
    ...
    ```
 
-1. Geef het aangewezen presentatiemalplaatje of de malplaatjes uit om de dynamische facetten uit te voeren.
+1. Bewerk de desbetreffende presentatiesjabloon of sjablonen om de dynamische facetten weer te geven.
 
-   Zie Een presentatie [bewerken of een transportsjabloon](../c-about-design-menu/c-about-templates.md#task_800E0E2265C34C028C92FEB5A1243EC3).
+   Zie Een presentatie of een transportsjabloon [](../c-about-design-menu/c-about-templates.md#task_800E0E2265C34C028C92FEB5A1243EC3)bewerken.
 
-   Bijvoorbeeld, veronderstel dat u een malplaatje genoemd hebt `sim.tmpl` dat aan outputinhoud in de Simulator wordt gebruikt. Om dat malplaatje, op het productmenu uit te geven, klik **[!UICONTROL Design > Templates]**. Voor de [!DNL Templates] pagina, bepaal de plaats `sim.tmpl` in de lijst. en klik dan **[!UICONTROL Edit]** aan uiterst rechts van de naam. Voor de het Uitgeven pagina, voeg het volgende binnen het gebied van de facetvertoning van het malplaatje toe:
+   Stel dat u een sjabloon hebt met de naam `sim.tmpl` die wordt gebruikt voor de uitvoer van inhoud in de Simulator. Als u die sjabloon wilt bewerken, klikt u in het productmenu op **[!UICONTROL Design > Templates]**. Zoek op de [!DNL Templates] pagina de tabel `sim.tmpl` in. en klik vervolgens helemaal rechts van **[!UICONTROL Edit]** de naam. Voeg op de pagina Bewerken het volgende toe in het gebied met facetweergave van de sjabloon:
 
    ```
    <h6>DF RAIL</h6> 
@@ -165,11 +165,11 @@ Zie ook
    <h6>/DF RAIL</h6>
    ```
 
-   U zou een gelijkaardige wijziging aan andere malplaatjes van de Presentatie, zoals nodig ook aanbrengen `json.tmpl`.
+   U kunt desgewenst ook andere presentatiesjablonen wijzigen, zoals `json.tmpl`presentatiesjablonen.
 
-   Zeker ben dat u `__dynamic_facets` voor `gsname` in de `guided-facet-rail` markering specificeert. Deze markering is een vooraf bepaalde facetspoorstaaf die voor het outputs van om het even welke dynamische facetten wordt gereserveerd die voor een bepaalde onderzoek zijn teruggekeerd.
+   Zorg ervoor dat u `__dynamic_facets` voor de code `gsname` in de `guided-facet-rail` tag opgeeft. Dit label is een vooraf gedefinieerde facetrails die zijn gereserveerd voor het uitvoeren van alle dynamische facetten die worden geretourneerd voor een bepaalde zoekopdracht.
 
-   U kunt deze speciale facetspoorstaaf als Regels > BedrijfsRegels, en het gebruiken van de Geavanceerde Bouwer van de Regel ook naar keuze uitgeven zoals hieronder wordt gezien.
+   U kunt deze speciale facetrails optioneel ook bewerken door **[!UICONTROL Rules > Business Rules]** de onderstaande **[!UICONTROL Advanced Rule Builder]** afbeelding te gebruiken.
 
    ![](assets/dynamicfacetrail_businessrule.png)
 

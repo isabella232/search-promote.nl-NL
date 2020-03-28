@@ -1,27 +1,27 @@
 ---
-description: ongeldig
-seo-description: ongeldig
-seo-title: Search&amp;Promote 8.8.1 Release Notes (05/31/2012)
+description: 'null'
+seo-description: 'null'
+seo-title: '&Zoeken;amp;Opmerkingen bij de release 8.8.1 promoten (31-05-2012)'
 solution: Target
-title: Search&amp;Promote 8.8.1 Release Notes (05/31/2012)
+title: '&Zoeken;amp;Opmerkingen bij de release 8.8.1 promoten (31-05-2012)'
 topic: Release Notes,Site search and merchandising
 uuid: d2d3b02a-57a6-4dcd-9808-b0bf890ba4d3
 translation-type: tm+mt
-source-git-commit: ef818327e1cdaad79ac47575a8dfba1de3dc5c2e
+source-git-commit: ffdec2cfcb30e733c664a7d1ca23868b7a9a9aa5
 
 ---
 
 
-# Zoeken en promoten: 8.8.1 releasenota&#39;s (05/31/2012){#search-promote-release-notes}
+# Opmerkingen bij de release 8.8.1 doorzoeken en promoten (31-05-2012){#search-promote-release-notes}
 
-**Fixen en verbeteringen**
+**Oplossingen en verbeteringen**
 
-* De paginering miste de volgende verbinding toen er meer dan 1000 resultaten waren en de totalen werden komma gescheiden.
-* De paginering toonde GSPAGENAVPLACEHOLDER in de onderzoeksresultaten in plaats daarvan aan de daadwerkelijke paginering.
-* Verwijderde footer uit de Visuele Bouwer van de Regel.
-* De broodkruimels gebruiken nu de vertoningsnaam van de facetgroeven in plaats van de abstracte naam van het groefgezicht.
-* Adobe Scene7: U kunt een parameter nu uitgeven de tweede keer rond.
-* De de vertoningsnaam van de groeven van het gezicht kwam niet behoorlijk terug wanneer het facet een kleverig facet (of multi-select) is en geselecteerd.
-* `<search-description>` de markering toonde het lichaam in plaats daarvan wanneer de metatag voor de beschrijving lege inhoud had.
-* De blootgestelde Geleide Verzoeken van het Onderzoek onder Rapporten > de Verzoeken van het Onderzoek.
+* De volgende koppeling ontbreekt bij paginering als er meer dan 1000 resultaten waren en de totalen waren gescheiden door komma&#39;s.
+* Paginering gaf GSPAGENAVPLACEHOLDER weer in de zoekresultaten in plaats van de werkelijke paginering.
+* Voettekst is verwijderd uit de [!DNL Visual Rule Builder]lijst.
+* [!DNL Breadcrumbs] Gebruik nu de weergavenaam van de schermsleuven van facetten in plaats van de abstracte naam van de sleuf.
+* Adobe Scene7: U kunt een parameter nu de tweede keer bewerken.
+* De weergavenaam van de Facebook-sleuven is niet correct teruggekomen wanneer het facet een kleverig facet (of een multi-select) is en is geselecteerd.
+* `<search-description>` de tag toonde de hoofdtekst in plaats daarvan wanneer de metatag voor de beschrijving lege inhoud had.
+* Blootgesteld **[!UICONTROL Guided Search Requests]** onder **[!UICONTROL Reports > Search Requests]**.
 

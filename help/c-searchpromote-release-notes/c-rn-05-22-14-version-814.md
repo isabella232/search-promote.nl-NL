@@ -1,25 +1,25 @@
 ---
-description: ongeldig
-seo-description: ongeldig
-seo-title: Search&amp;Promote 8.14.0 Release Notes (05/22/2014)
+description: 'null'
+seo-description: 'null'
+seo-title: '&Zoeken;amp;Opmerkingen bij de release 8.14.0 promoten (22-05-2014)'
 solution: Target
-title: Search&amp;Promote 8.14.0 Release Notes (05/22/2014)
+title: '&Zoeken;amp;Opmerkingen bij de release 8.14.0 promoten (22-05-2014)'
 topic: Release Notes,Site search and merchandising
 uuid: 308d84a9-ec38-4fec-b146-e8a353e65be4
 translation-type: tm+mt
-source-git-commit: ef818327e1cdaad79ac47575a8dfba1de3dc5c2e
+source-git-commit: ffdec2cfcb30e733c664a7d1ca23868b7a9a9aa5
 
 ---
 
 
-# Zoeken en promoten: 8.14.0 Release Notes (05/22/2014){#search-promote-release-notes}
+# Opmerkingen bij de release 8.14.0 opzoeken (22-05-2014){#search-promote-release-notes}
 
-**Fixes**
+**Oplossingen**
 
-* Als [!DNL sqlite_open] ontbreekt, wordt het oude sqlite gegevensbestanddossier verplaatst uit de manier en nieuwe wordt gecreeerd van kras.
-* De onderzoeksresultaten van de kern waren inconsistent toen de zelfde onderzoek werd herhaald.
-* De verbetering van prestaties van malplaatjeverwerking wanneer er vele gebieden zijn die output per onderzoeksresultaat zijn.
-* Toegevoegde Nota&#39;s aan de Geschiedenis van de BedrijfsRegel.
-* Prestaties van de resultaat-gebaseerde trekkers en acties voorproef-index regeneratiefase, tijdens het indexeren verrichtingen, gestaag degraded in tijd.
-* De veranderde het geheime voorgeheugenoptie van de SPIN van het **Terugstellen optie** van boolean nr/volgende-looppas aan een tri-staat: nee/altijd/volgende vlucht.
+* Als dit [!DNL sqlite_open] mislukt, wordt het oude SQLite-databasebestand uit de weg geruimd en wordt er een geheel nieuw bestand gemaakt.
+* De resultaten van de kernzoekopdracht waren inconsistent wanneer dezelfde zoekopdracht werd herhaald.
+* Prestatieverbetering van sjabloonverwerking als er veel velden worden uitgevoerd per zoekresultaat.
+* Notities toegevoegd aan **[!UICONTROL Business Rule History]**.
+* Prestaties van de op resultaat-gebaseerde triggers en acties voorvertoning-index regeneratiefase, tijdens indexeringsbewerkingen, zijn in de loop der tijd gestaag verslechterd.
+* Gewijzigde **[!UICONTROL Reset SPIN cache]** optie van booleaanse nr./volgende-looppas in een tri-staat: no/always/next-run.
 

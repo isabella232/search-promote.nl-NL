@@ -7,7 +7,7 @@ title: Zoeken in formulieren
 topic: Appendices,Site search and merchandising
 uuid: 91153e3a-c437-47f3-8c2a-d9ac02965b8c
 translation-type: tm+mt
-source-git-commit: 55f48748f8c0a2f739dfbe30e8d42b73c8106b81
+source-git-commit: 4542702e1d2ba04c70d9f6b24bfa32e1f1c6acb5
 
 ---
 
@@ -151,7 +151,7 @@ Het configureren van framesets verloopt als volgt:
   <tr> 
    <td colname="col1"> <p>5 </p> </td> 
    <td colname="col02"> <p>Test het zoekformulier. </p> </td> 
-   <td colname="col2"> <p> <a scope="local" href="../c-appendices/c-searchforms.md#section_43D8D4A7BF524DC480DFE5442F6A2E3C" type="section" format="dita"> Het zoekformulier testen </a> </p> </td> 
+   <td colname="col2"> <p> <a scope="local" href="#section_43D8D4A7BF524DC480DFE5442F6A2E3C" type="section" format="dita"> Het zoekformulier testen </a> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -286,7 +286,7 @@ Met het volgende voorbeeld van het geavanceerde zoekformulier, ziet u in de rest
 
 U kunt de volledige geavanceerde HTML-code van het bovenstaande voorbeeld bekijken.
 
-Zie [Geavanceerde HTML-code](../c-appendices/c-searchforms.md#reference_9AAD4A46B68D4D48865508982CB86DB9)voor zoekformulieren.
+Zie [Geavanceerde HTML-code](#reference_9AAD4A46B68D4D48865508982CB86DB9)voor zoekformulieren.
 
 Zie CSS [automatisch aanvullen](../c-about-auto-complete.md#task_EECE35DEB6C94F4A8A5B42B4DED76D96)configureren.
 
@@ -435,7 +435,7 @@ Zie De HTML-code van het zoekformulier [kopiëren naar...](../c-about-auto-compl
 
 De HTML-formuliercode die wordt gebruikt voor het maken van het geavanceerde zoekformulier dat boven aan het onderwerp van het geavanceerde zoekformulier in het voorbeeld wordt weergegeven.
 
-Zie [Voorbeeld van een geavanceerd zoekformulier](../c-appendices/c-searchforms.md#reference_82E1051918744EBA88A01E9E6AE42C4A).
+Zie [Voorbeeld van een geavanceerd zoekformulier](#reference_82E1051918744EBA88A01E9E6AE42C4A).
 
 Als u deze code gebruikt, vergeet dan niet de `sp_a` waarde van `sp99999999` het account te vervangen door het werkelijke rekeningnummer.
 

@@ -1,22 +1,25 @@
 ---
-description: Een herhaling betreffende de syntaxis en de regels van het construeren van regelmatige uitdrukkingen.
-seo-description: Een herhaling betreffende de syntaxis en de regels van het construeren van regelmatige uitdrukkingen.
-seo-title: Regelmatige expressies
+description: Een vernieuwingsfunctie voor de syntaxis en regels voor het maken van reguliere expressies.
+seo-description: Een vernieuwingsfunctie voor de syntaxis en regels voor het maken van reguliere expressies.
+seo-title: Reguliere expressies
 solution: Target
-title: Regelmatige expressies
+title: Reguliere expressies
 topic: Appendices,Site search and merchandising
 uuid: 369b54f6-372a-41de-bb5d-3ae0bd640199
 translation-type: tm+mt
-source-git-commit: ef818327e1cdaad79ac47575a8dfba1de3dc5c2e
+source-git-commit: 7b883870bb16284d8070a21547cdb62cc79d7632
+workflow-type: tm+mt
+source-wordcount: '1058'
+ht-degree: 0%
 
 ---
 
 
-# Regelmatige expressies{#regular-expressions}
+# Reguliere expressies{#regular-expressions}
 
-Een herhaling betreffende de syntaxis en de regels van het construeren van regelmatige uitdrukkingen.
+Een vernieuwingsfunctie voor de syntaxis en regels voor het maken van reguliere expressies.
 
-Zie ook het [Vormen van een stijgende index van een gefaseerde website](../c-about-index-menu/c-about-incremental-index.md#task_46A367B0786C4C90BFFA5D3F95FD86C0).
+Zie ook Een incrementele index van een gefaseerde website [](../c-about-index-menu/c-about-incremental-index.md#task_46A367B0786C4C90BFFA5D3F95FD86C0)configureren.
 
 **Syntaxis van reguliere expressies**
 
@@ -25,16 +28,16 @@ Zie ook het [Vormen van een stijgende index van een gefaseerde website](../c-abo
   <tr> 
    <td colname="col1"> <p> <b>Tekst</b> </p> </td> 
    <td colname="col2"> </td> 
-   <td colname="col3"> <p>Elk teken </p> </td> 
+   <td colname="col3"> <p>Willekeurig teken </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
-   <td colname="col2"> <p> [klusjes] </p> </td> 
-   <td colname="col3"> <p> Tekenklasse: Een van de krijtjes </p> </td> 
+   <td colname="col2"> <p> [tekens] </p> </td> 
+   <td colname="col3"> <p> Tekenklasse: Een teken </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
-   <td colname="col2"> <p> [^chars] </p> </td> 
+   <td colname="col2"> <p> [^tekens] </p> </td> 
    <td colname="col3"> <p>Tekenklasse: Geen tekens </p> </td> 
   </tr> 
   <tr> 
@@ -43,24 +46,24 @@ Zie ook het [Vormen van een stijgende index van een gefaseerde website](../c-abo
    <td colname="col3"> <p> Alternatief: text1 of text2 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <b>Kwantitatieve bepalingen</b> </p> </td> 
+   <td colname="col1"> <p> <b>Kwantoren</b> </p> </td> 
    <td colname="col2"> </td> 
    <td colname="col3"> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
    <td colname="col2"> <p> ? </p> </td> 
-   <td colname="col3"> <p> 0 of 1 van de vorige tekst </p> </td> 
+   <td colname="col3"> <p> 0 of 1 van de voorgaande tekst </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
    <td colname="col2"> <p> * </p> </td> 
-   <td colname="col3"> <p> 0 of N van de vorige tekst (N &gt; 1) </p> </td> 
+   <td colname="col3"> <p> 0 of N van de voorafgaande tekst (N &gt; 1) </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
    <td colname="col2"> <p> + </p> </td> 
-   <td colname="col3"> <p>1 of N van de vorige tekst (N &gt; 1) </p> </td> 
+   <td colname="col3"> <p>1 of N van de voorgaande tekst (N &gt; 1) </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Groepering</b> </p> </td> 
@@ -70,7 +73,7 @@ Zie ook het [Vormen van een stijgende index van een gefaseerde website](../c-abo
   <tr> 
    <td colname="col1"> </td> 
    <td colname="col2"> <p> (tekst) </p> </td> 
-   <td colname="col3"> <p> Groepering van tekst, of om de grenzen van een alternatief te plaatsen of achterverwijzingen te maken waar de Negende groep op RHS van een RewriteRule met $N wordt gebruikt) </p> </td> 
+   <td colname="col3"> <p> Groepering van tekst, of om de grenzen van een alternatief te plaatsen of achterverwijzingen te maken waar de Nth groep op RHS van RewriteRule met $N wordt gebruikt) </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Ankers</b> </p> </td> 
@@ -88,123 +91,123 @@ Zie ook het [Vormen van een stijgende index van een gefaseerde website](../c-abo
    <td colname="col3"> <p> Einde van lijnanker. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <b>Escaperen</b> </p> </td> 
+   <td colname="col1"> <p> <b>Escaping</b> </p> </td> 
    <td colname="col2"> </td> 
    <td colname="col3"> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> </p> </td> 
    <td colname="col2"> <p>\char </p> </td> 
-   <td colname="col3"> <p>Vlucht de specifieke klusje. Bijvoorbeeld, om de klusjes " te specificeren.[]()" enzovoort. </p> </td> 
+   <td colname="col3"> <p>Escape het specifieke teken. Als u bijvoorbeeld de tekens "" wilt opgeven.[]()" enzovoort. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 **Regels voor reguliere expressies**
 
-* Een gewoon karakter-niet één van de speciale hieronder beschreven karakters is een één-karakter regelmatige uitdrukking die zich aanpast.
-* Een backslash (\) die door om het even welk speciaal karakter wordt gevolgd is een één-karakter regelmatige uitdrukking die het speciale karakter zelf aanpast. De speciale karakters omvatten het volgende:
+* Een gewoon teken, niet een van de speciale tekens die hieronder worden beschreven, is een reguliere expressie van één teken die met zichzelf overeenkomt.
+* Een backslash (\) gevolgd door een speciaal teken is een reguliere expressie van één teken die overeenkomt met het speciale teken zelf. Speciale tekens zijn onder andere:
 
-   * `.` (punt), `*` (asterisk), `?` (vraagteken), `+` (plus teken), `[` (linkervierkante haakje), `|` (verticale pijp), en `\` (backslash) zijn altijd speciale karakters, behalve wanneer zij binnen vierkante haakjes verschijnen.
-   * `^` (inlasteken of omtrek) is speciaal aan het begin van een regelmatige uitdrukking, of wanneer het onmiddellijk links van een paar vierkante haakjes volgt.
-   * `$` (dollarteken) is speciaal aan het eind van een regelmatige uitdrukking.
-   * `.` (periode) is een regelmatige uitdrukking van één karakter die om het even welk karakter aanpast, met inbegrip van extra codeset karakters met uitzondering van nieuw-lijn.
-   * Een niet-lege tekenreeks die in `[ ]` (links en rechts) vierkante haakjes is ingesloten, is een reguliere expressie van één teken die overeenkomt met één teken, inclusief aanvullende tekens van de codereeks, in die tekenreeks.
+   * `.` (punt), `*` (asterisk), `?` (vraagteken), `+` (plusteken), `[` (vierkant haakje openen), `|` (verticale pipe) en `\` (backslash) zijn altijd speciale tekens, behalve wanneer deze tussen vierkante haakjes staan.
+   * `^` (invoegpunt of omtrek) is speciaal aan het begin van een reguliere expressie of wanneer deze direct links van een paar vierkante haakjes staat.
+   * `$` (dollarteken) is speciaal aan het einde van een reguliere expressie.
+   * `.` (punt) is een reguliere expressie van één teken die overeenkomt met elk willekeurig teken, inclusief aanvullende tekens in codesets, met uitzondering van een nieuwe regel.
+   * Een niet-lege tekenreeks met tekens tussen vierkante haakjes `[ ]` (links en rechts) is een reguliere expressie van één teken die overeenkomt met één teken in die tekenreeks, inclusief aanvullende codesettekens.
 
-      Als, echter, het eerste karakter van het koord een `^` (omtrek) is, past de één-karakter regelmatige uitdrukking om het even welk karakter, met inbegrip van de extra codeset karakters, met uitzondering van nieuw-lijn en de resterende karakters in het koord aan.
+      Als het eerste teken van de tekenreeks echter een `^` (omtrek) is, komt de reguliere expressie van één teken overeen met elk willekeurig teken, inclusief aanvullende tekens in codesets, met uitzondering van de nieuwe regel en de overige tekens in de tekenreeks.
 
-      De `^` heeft deze speciale betekenis slechts als het eerst in het koord voorkomt. U kunt `-` (minus teken) gebruiken om op een waaier van opeenvolgende karakters, met inbegrip van extra codeset karakters te wijzen. Bijvoorbeeld, is [0-9] gelijkwaardig aan [0123456789].
+      De waarde `^` heeft deze speciale betekenis alleen als deze voorkomt in de tekenreeks. U kunt `-` (minteken) gebruiken om een reeks opeenvolgende tekens aan te geven, inclusief aanvullende tekens in de codeset. 0-9 [is bijvoorbeeld gelijk aan] 0123456789 [].
 
-      De karakters die de waaier specificeren moeten van de zelfde codeset zijn. Wanneer de karakters van verschillende codereeksen zijn, wordt één van de karakters die de waaier specificeren aangepast. Het `-` verliest deze speciale betekenis als het eerst (na een aanvankelijke `^`, als om het even welk) of laatste in het koord voorkomt. De `]` (juiste vierkante steun) beëindigt zulk een koord niet wanneer het het eerste karakter binnen het is, na een aanvankelijke `^`, als om het even welk is. Bijvoorbeeld, past []a-f] of een `]` (juiste vierkante steun) of één van de letters van ASCII a tot en met f aan. De vier karakters die als speciale karakters hierboven worden vermeld staan voor zich binnen zulk een koord van karakters.
+      Tekens die het bereik aangeven, moeten afkomstig zijn uit dezelfde codeset. Wanneer de tekens uit verschillende codesets afkomstig zijn, komt een van de tekens die het bereik aangeven, overeen. Deze speciale betekenis `-` gaat verloren als deze het eerst (na een eventuele eerste `^`waarde) of als laatste in de tekenreeks optreedt. Het `]` (rechte vierkant haakje sluiten) beëindigt een dergelijke tekenreeks niet wanneer het het eerste teken binnen de tekenreeks is, na een eventuele eerste `^`tekenreeks. Komt bijvoorbeeld `[]a-f]` ofwel overeen met een `]` (vierkant haakje sluiten) ofwel met een van de ASCII-letters a t/m f. De vier tekens die hierboven als speciale tekens worden vermeld, staan voor zichzelf in een dergelijke tekenreeks.
 
-**Regels voor het construeren van reguliere expressies uit één teken**
+**Regels voor het samenstellen van reguliere expressies op basis van reguliere expressies van één teken**
 
-U kunt de volgende regels gebruiken om regelmatige uitdrukkingen van één-karakter regelmatige uitdrukkingen te construeren:
+Met de volgende regels kunt u reguliere expressies maken op basis van reguliere expressies van één teken:
 
-* Een één-karakter regelmatige uitdrukking is een regelmatige uitdrukking die aanpast wat de één-karakter regelmatige uitdrukkingsgelijken aanpast.
-* Een één-karakter regelmatige uitdrukking die door een `*` (asterisk) wordt gevolgd is een regelmatige uitdrukking die nul of meer voorkomen van de één-karakter regelmatige uitdrukking aanpast, die een aanvullend karakter van de codeset kan zijn. Als er om het even welke keus is, wordt het langste uiterst linkse koord dat een gelijke toelaat gekozen.
-* Een één-karakter regelmatige uitdrukking die door een `?` (vraagteken) wordt gevolgd is een regelmatige uitdrukking die nul of één voorkomen van de één-karakter regelmatige uitdrukking aanpast, die een aanvullend karakter van de codeset kan zijn. Als er om het even welke keus is, wordt het langste uiterst linkse koord dat een gelijke toelaat gekozen.
-* Een één-karakter regelmatige uitdrukking die door een `+` (plus teken) wordt gevolgd is een regelmatige uitdrukking die één of meerdere voorkomen van de één-karakter regelmatige uitdrukking aanpast, die een aanvullend karakter van de codeset kan zijn. Als er om het even welke keus is, wordt het langste uiterst linkse koord dat een gelijke toelaat gekozen.
-* Een één-karakter regelmatige uitdrukking die door wordt gevolgd, `{m}`of `{m,}``{m,n}` is een regelmatige uitdrukking die een waaier van voorkomen van de één-karakter regelmatige uitdrukking aanpast. De waarden van m en n moeten niet-negatieve gehele getallen van minder dan 256 zijn; precies overeenkomt met m voorkomen; `{m}` `{m,}` overeenkomende met ten minste m voorkomen; `{m,n}` komt overeen met een willekeurig aantal voorvallen tussen m en n inclusief. Wanneer een keus bestaat, past de regelmatige uitdrukkingsgelijken zoveel mogelijk voorkomen aan.
-* De aaneenschakeling van regelmatige uitdrukkingen is een regelmatige uitdrukking die de aaneenschakeling van de koorden aanpast die door elke component van de regelmatige uitdrukking worden aangepast.
-* Een regelmatige uitdrukking die tussen de karakteropeenvolgingen ( en) wordt ingesloten is een regelmatige uitdrukking die aanpast wat de niet aangepaste regelmatige uitdrukkingsgelijken aanpast.
-* Een regelmatige uitdrukking die door een `|` (verticale pijp) wordt gevolgd door een regelmatige uitdrukking is een regelmatige uitdrukking die of de eerste regelmatige uitdrukking (vóór de verticale pijp) of de tweede regelmatige uitdrukking (na de verticale pijp) aanpast.
+* Een reguliere expressie van één teken is een reguliere expressie die overeenkomt met de reguliere expressie van één teken.
+* Een reguliere expressie van één teken, gevolgd door een `*` (asterisk), is een reguliere expressie die overeenkomt met nul of meer instanties van de reguliere expressie van één teken. Dit kan een aanvullend teken in de codeset zijn. Als er een keuze is, wordt de langste meest linkse tekenreeks gekozen die een overeenkomst toestaat.
+* Een reguliere expressie van één teken gevolgd door een `?` (vraagteken) is een reguliere expressie die overeenkomt met nul of één keer een reguliere expressie van één teken, wat een aanvullend teken in de codeset kan zijn. Als er een keuze is, wordt de langste meest linkse tekenreeks gekozen die een overeenkomst toestaat.
+* Een reguliere expressie van één teken, gevolgd door een `+` (plusteken), is een reguliere expressie die overeenkomt met een of meer instanties van de reguliere expressie van één teken. Dit kan een aanvullend teken in de codeset zijn. Als er een keuze is, wordt de langste meest linkse tekenreeks gekozen die een overeenkomst toestaat.
+* Een reguliere expressie van één teken, gevolgd door `{m}`, `{m,}`of `{m,n}` is een reguliere expressie die overeenkomt met een bereik van de reguliere expressie van één teken. De waarden van m en n moeten niet-negatieve gehele getallen van minder dan 256 zijn; `{m}` precies overeenkomt met m voorkomen; `{m,}` minimaal m voorkomen; `{m,n}` komt overeen met een willekeurig aantal voorvallen tussen m en n. Wanneer een keuze bestaat, komt de reguliere expressie overeen met zoveel mogelijk keren.
+* De samenvoeging van reguliere expressies is een reguliere expressie die overeenkomt met de samenvoeging van de tekenreeksen die door elke component van de reguliere expressie worden aangepast.
+* Een reguliere expressie die wordt ingesloten tussen de tekenreeksen ( en ), is een reguliere expressie die overeenkomt met de niet-geordende reguliere expressie.
+* Een reguliere expressie gevolgd door een `|` (verticale pipe) gevolgd door een reguliere expressie is een reguliere expressie die ofwel overeenkomt met de eerste reguliere expressie (vóór de verticale pipe) ofwel met de tweede reguliere expressie (na de verticale pipe).
 
-U kunt een regelmatige uitdrukking ook beperken om slechts een eerste segment of definitief segment van een lijn, of allebei aan te passen.
+U kunt een reguliere expressie ook beperken tot alleen een eerste of laatste segment van een regel, of beide.
 
-* Een `^` (omtrek) aan het begin van een regelmatige uitdrukking beperkt die regelmatige uitdrukking om een eerste segment van een lijn aan te passen.
+* Een `^` (omtrek) aan het begin van een reguliere expressie beperkt die reguliere expressie tot een eerste segment van een regel.
 * Een `$` (dollarteken) aan het eind van een volledige regelmatige uitdrukking beperkt die regelmatige uitdrukking om een definitief segment van een lijn aan te passen.
-* De bouw ^regular expression$ beperkt de regelmatige uitdrukking om de volledige lijn aan te passen.
+* De constructie ^reguliere expressie$ beperkt de reguliere expressie tot overeenstemming met de gehele regel.
 
-Er zijn sommige vooraf bepaalde namen van de karakterklasse die u in plaats van complexe steun kunt gebruiken regelmatige uitdrukkingen. Bijvoorbeeld, kan een cijfer door de één-karakter regelmatige uitdrukking [0-9] of door de karakterklasse worden vertegenwoordigd één-karakter regelmatige uitdrukking [[:cijfer:]].
+Er zijn enkele vooraf gedefinieerde tekenklassennamen die u kunt gebruiken in plaats van complexe, tussen haakjes geplaatste reguliere expressies. Een cijfer kan bijvoorbeeld worden vertegenwoordigd door de reguliere expressie [0-9] van één teken of door de reguliere expressie van één teken van de tekenklasse [[:digit:]].
 
-De vooraf bepaalde karakterklassen en hun betekenissen zijn de volgende:
+De vooraf gedefinieerde tekenklassen en hun betekenis zijn:
 
 <table> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> <p>Tekenklasse </p> </th> 
+   <th colname="col1" class="entry"> <p>Character, klasse </p> </th> 
    <th colname="col2" class="entry"> <p>Betekenis </p> </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
    <td colname="col1"> <p> [[:alnum:]] </p> </td> 
-   <td colname="col2"> <p> Een alfabetisch karakter of een cijfer. </p> </td> 
+   <td colname="col2"> <p> Een alfabetisch teken of een cijfer. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> [[:alfa:]] </p> </td> 
-   <td colname="col2"> <p>Een alfabetisch karakter. </p> </td> 
+   <td colname="col1"> <p> [[:alpha:]] </p> </td> 
+   <td colname="col2"> <p>Een alfabetisch teken. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> [[:blanco:]] </p> </td> 
-   <td colname="col2"> <p>Een ruimte of een lusje. </p> </td> 
+   <td colname="col1"> <p> [[:blank:]] </p> </td> 
+   <td colname="col2"> <p>Een spatie of tab. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> [[:cntrl:]] </p> </td> 
-   <td colname="col2"> <p> een controlecode; niet-afdrukbaar karakter. </p> </td> 
+   <td colname="col2"> <p> een controlecode; niet-afdrukbaar teken. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> [[:cijfer:]] </p> </td> 
+   <td colname="col1"> <p> [[:digit:]] </p> </td> 
    <td colname="col2"> <p>Een cijfer. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> [[:grafiek:]] </p> </td> 
-   <td colname="col2"> <p> Om het even welk drukkarakter behalve ruimte. </p> </td> 
+   <td colname="col2"> <p> Elk afdrukteken behalve spatie. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> [[:lager:]] </p> </td> 
-   <td colname="col2"> <p>Een alfabetisch kleine letter. </p> </td> 
+   <td colname="col1"> <p> [[:onderste:]] </p> </td> 
+   <td colname="col2"> <p>Een alfabetisch teken in kleine letters. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> [[:afdrukken:]] </p> </td> 
-   <td colname="col2"> <p> Om het even welk drukkarakter met inbegrip van ruimte. </p> </td> 
+   <td colname="col2"> <p> Elk afdrukteken inclusief spatie. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> [[:punct:]] </p> </td> 
-   <td colname="col2"> <p> Punctuatie. </p> </td> 
+   <td colname="col2"> <p> Leestekens. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> [[:ruimte:]] </p> </td> 
-   <td colname="col2"> <p> De witte ruimte zoals een ruimte, een lusje, of een eind-van-lijn. </p> </td> 
+   <td colname="col1"> <p> [[:space:]] </p> </td> 
+   <td colname="col2"> <p> Witruimte zoals een spatie, een tab of een regeleinde. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> [[:bovenaan:]] </p> </td> 
-   <td colname="col2"> <p> Een alfabetisch bovenliggend karakter. </p> </td> 
+   <td colname="col1"> <p> [[:bovenste:]] </p> </td> 
+   <td colname="col2"> <p> Een alfabetisch teken in hoofdletters. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> [[:xdigit:]] </p> </td> 
-   <td colname="col2"> <p> Een hexadecimaal cijfer, boven of onder-geval. </p> </td> 
+   <td colname="col2"> <p> Een hexadecimaal cijfer, hoofdletter of kleine letter. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Twee speciale namen van de karakterklasse passen de ongeldige ruimte bij het begin en het eind van een woord aan. Met andere woorden, zij passen geen werkelijk karakter aan. Een woord wordt beschouwd als om het even welke opeenvolging van alfabetische karakters, cijfers, of onderstreept (_).
+Twee speciale tekenklassenamen komen overeen met de lege ruimte aan het begin en het einde van een woord. Met andere woorden, ze komen niet overeen met een feitelijk teken. Een woord wordt beschouwd als een reeks alfabetische tekens, cijfers of onderstrepingstekens (_).
 
 <table> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> <p>Tekenklasse </p> </th> 
+   <th colname="col1" class="entry"> <p>Character, klasse </p> </th> 
    <th colname="col2" class="entry"> <p>Betekenis </p> </th> 
   </tr> 
  </thead>

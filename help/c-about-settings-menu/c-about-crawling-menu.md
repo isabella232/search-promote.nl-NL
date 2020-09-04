@@ -8,9 +8,9 @@ title: Het menu Crawling
 topic: Settings,Site search and merchandising
 uuid: a58c03bf-90f7-4b5b-91ff-988b95c246b0
 translation-type: tm+mt
-source-git-commit: e080a61e24a3809beff7c212ff3d088b2a8ad3b6
+source-git-commit: 552f93f1f630c64bbe3d5c8a87c4f5895ae6868c
 workflow-type: tm+mt
-source-wordcount: '11115'
+source-wordcount: '11033'
 ht-degree: 0%
 
 ---
@@ -52,45 +52,37 @@ U kwalificeert elk ingangspunt met één of meerdere van de volgende spatie-gesc
  <tbody> 
   <tr> 
    <td colname="col1"> <p>noindex </p> </td> 
-   <td colname="col2"> <p> Als u de tekst niet op de pagina met het ingangspunt wilt indexeren, maar u wel de koppelingen op de pagina wilt volgen, voegt u 
-     <userinput>
+   <td colname="col2"> <p> Als u de tekst niet op de pagina met het ingangspunt wilt indexeren, maar u wel de koppelingen op de pagina wilt volgen, voegt u <code>
        noindex 
-     </userinput> na het ingangspunt. </p> <p>Scheid het sleutelwoord van het ingangspunt met een ruimte zoals in het volgende voorbeeld: </p> <p> <code> https://www.my-additional-domain.com/more_pages/main.html&amp;nbsp;noindex </code> </p> <p>Dit trefwoord is gelijk aan een meta-tag voor robots met 
-     <userinput>
+     </code> na het ingangspunt toe. </p> <p>Scheid het sleutelwoord van het ingangspunt met een ruimte zoals in het volgende voorbeeld: </p> <p> <code> https://www.my-additional-domain.com/more_pages/main.html&amp;nbsp;noindex </code> </p> <p>Dit trefwoord is gelijk aan een meta-tag voor robots met <code>
        content="noindex" 
-     </userinput>) tussen de 
-     <userinput>
+     </code>) tussen de <code>
        &lt;head&gt; 
-     </userinput>... 
-     <userinput>
+     </code>.. 
+     <code>
        &lt;/head&gt; 
-     </userinput> -tags van de pagina met het ingangspunt. </p> </td> 
+     </code> -tags van de pagina met het ingangspunt. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>nofollow </p> </td> 
-   <td colname="col2"> <p> Als u de tekst op de pagina met het ingangspunt wilt indexeren, maar u wilt de koppelingen op de pagina niet volgen, voegt u 
-     <userinput>
+   <td colname="col2"> <p> Als u de tekst op de pagina met het ingangspunt wilt indexeren maar u wilt geen van de koppelingen van de pagina volgen, voegt u <code>
        nofollow 
-     </userinput> na het ingangspunt. </p> <p>Scheid het sleutelwoord van het ingangspunt met een ruimte zoals in het volgende voorbeeld: </p> <p> <code> https://www.domain.com/not_linked/directory_listing&amp;nbsp;nofollow </code> </p> <p>Dit trefwoord is gelijk aan een meta-tag voor robots met 
-     <userinput>
+     </code> na het ingangspunt toe. </p> <p>Scheid het sleutelwoord van het ingangspunt met een ruimte zoals in het volgende voorbeeld: </p> <p> <code> https://www.domain.com/not_linked/directory_listing&amp;nbsp;nofollow </code> </p> <p>Dit trefwoord is gelijk aan een meta-tag voor robots <code>
        content="nofollow" 
-     </userinput> tussen de 
-     <userinput>
+     </code> tussen de <code>
        &lt;head&gt; 
-     </userinput>... 
-     <userinput>
+     </code>.. 
+     <code>
        &lt;/head&gt; 
-     </userinput> -tag van een pagina met invoerpunten. </p> </td> 
+     </code> -tag van een pagina met invoerpunten. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>formulier </p> </td> 
-   <td colname="col2"> <p> Wanneer het ingangspunt een login pagina is, 
-     <userinput>
-       formulier 
-     </userinput> wordt doorgaans gebruikt, zodat de zoekrobot het aanmeldingsformulier kan verzenden en de juiste cookies kan ontvangen voordat hij naar de website gaat. Wanneer het trefwoord "form" wordt gebruikt, wordt de pagina met het ingangspunt niet geïndexeerd en markeert de zoekrobot de pagina met het ingangspunt niet als gesleept. Gebruiken 
-     <userinput>
+   <td colname="col2"> <p> Wanneer het ingangspunt een aanmeldingspagina is, <code>
+       form 
+     </code> wordt het doorgaans gebruikt, zodat de zoekrobot het aanmeldingsformulier kan verzenden en de juiste cookies kan ontvangen voordat hij naar de website gaat. Wanneer het trefwoord "form" wordt gebruikt, wordt de pagina met het ingangspunt niet geïndexeerd en markeert de zoekrobot de pagina met het ingangspunt niet als gesleept. Gebruik deze optie <code>
        nofollow 
-     </userinput> als u niet wilt dat de zoekrobot de koppelingen op de pagina volgt. </p> </td> 
+     </code> als u niet wilt dat de zoekrobot de koppelingen op de pagina volgt. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -237,7 +229,7 @@ Zie Een incrementele index van een gefaseerde website [](../c-about-index-menu/c
 
 ## Trefwoorden gebruiken met URL-maskers {#section_7609A7A6D79B482ABCA8900886541AAB}
 
-U kunt elk include-masker kwalificeren met een of meer gereserveerde woorden met spaties die bepalen hoe de overeenkomende pagina&#39;s worden geïndexeerd.
+U kunt elk include-masker kwalificeren met een of meer gereserveerde woorden met spaties. Deze trefwoorden zijn van invloed op de manier waarop de overeenkomende pagina&#39;s worden geïndexeerd.
 
 Een komma is niet geldig als scheidingsteken tussen het masker en het trefwoord. u kunt alleen spaties gebruiken.
 
@@ -251,54 +243,42 @@ Een komma is niet geldig als scheidingsteken tussen het masker en het trefwoord.
  <tbody> 
   <tr> 
    <td colname="col1"> <p>noindex </p> </td> 
-   <td colname="col2"> <p> Als u de tekst niet wilt indexeren op de pagina's die overeenkomen met het URL-masker, maar u wel de koppelingen voor de overeenkomende pagina's wilt volgen, voegt u 
-     <userinput>
+   <td colname="col2"> <p> Als u de tekst niet wilt indexeren op de pagina's die overeenkomen met het URL-masker, maar u de koppelingen naar de overeenkomende pagina's wilt volgen, voegt u de tekst toe <code>
        noindex 
-     </userinput> na het include-URL-masker. Zorg ervoor dat u het trefwoord scheidt van het masker met een spatie, zoals in het volgende voorbeeld: </p> <p> <code> include&amp;nbsp;*.swf&amp;nbsp;noindex </code> </p> <p>In het bovenstaande voorbeeld wordt opgegeven dat de zoekrobot alle koppelingen volgt vanuit bestanden met de 
-     <userinput>
+     </code> na het include URL-masker. Zorg ervoor dat u het trefwoord scheidt van het masker met een spatie, zoals in het volgende voorbeeld: </p> <p> <code> include&amp;nbsp;*.swf&amp;nbsp;noindex </code> </p> <p>In het bovenstaande voorbeeld wordt opgegeven dat de zoekrobot alle koppelingen volgt vanuit bestanden met de <code>
        .swf 
-     </userinput> , maar schakelt het indexeren van alle tekst in die bestanden uit. </p> <p>De 
-     <userinput>
+     </code> extensie, maar wordt het indexeren van alle tekst in die bestanden uitgeschakeld. </p> <p>Het <code>
        noindex 
-     </userinput> trefwoord is gelijk aan een meta-tag voor robot met 
-     <userinput>
+     </code> trefwoord is gelijk aan een metatag voor robot <code>
        content="noindex" 
-     </userinput> tussen de 
-     <userinput>
-       &lt;head&gt;..&lt;/head&gt; 
-     </userinput> codes van overeenkomende pagina's. </p> </td> 
+     </code> tussen de <code>
+       &lt;head&gt;...&lt;/head&gt; 
+     </code> tags van overeenkomende pagina's. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>nofollow </p> </td> 
-   <td colname="col2"> <p> Als u de tekst wilt indexeren op de pagina's die overeenkomen met het URL-masker, maar u de koppelingen op de overeenkomende pagina niet wilt volgen, voegt u 
-     <userinput>
+   <td colname="col2"> <p> Als u de tekst wilt indexeren op de pagina's die overeenkomen met het URL-masker, maar u de koppelingen van de overeenkomende pagina niet wilt volgen, voegt u <code>
        nofollow 
-     </userinput> na het include-URL-masker. Zorg ervoor dat u het trefwoord scheidt van het masker met een spatie, zoals in het volgende voorbeeld: </p> <p> <code> include&amp;nbsp;https://www.mydomain.com/photos&amp;nbsp;nofollow </code> </p> <p>De 
-     <userinput>
+     </code> na het include-URL-masker toe. Zorg ervoor dat u het trefwoord scheidt van het masker met een spatie, zoals in het volgende voorbeeld: </p> <p> <code> include&amp;nbsp;https://www.mydomain.com/photos&amp;nbsp;nofollow </code> </p> <p>Het <code>
        nofollow 
-     </userinput> trefwoord is gelijk aan een meta-tag voor robot met 
-     <userinput>
+     </code> trefwoord is gelijk aan een metatag voor robot <code>
        content="nofollow" 
-     </userinput> tussen de 
-     <userinput>
-       &lt;head&gt;..&lt;/head&gt; 
-     </userinput> codes van overeenkomende pagina's. </p> </td> 
+     </code> tussen de <code>
+       &lt;head&gt;...&lt;/head&gt; 
+     </code> tags van overeenkomende pagina's. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>regexp </p> </td> 
-   <td colname="col2"> <p>Wordt gebruikt voor zowel include- als exclude-maskers. </p> <p>Willekeurig URL-masker voorafgegaan door 
-     <userinput>
+   <td colname="col2"> <p>Wordt gebruikt voor zowel include- als exclude-maskers. </p> <p>Elk URL-masker dat met <code>
        regexp 
-     </userinput> wordt behandeld als een reguliere expressie. Als de zoekrobot documenten aantreft die overeenkomen met een expressie-URL-masker zonder reguliere expressie, worden deze documenten niet geïndexeerd. Als de zoekrobot documenten aantreft die overeenkomen met een regulier expressie-URL-masker, worden deze documenten geïndexeerd. Stel dat u het volgende URL-masker hebt: </p> <p> <code> exclude&amp;nbsp;regexp&amp;nbsp;^.*/products/.*\.html$ </code> </p> <p>De zoekrobot sluit overeenkomende bestanden uit, zoals 
-     <userinput>
+     </code> wordt voorafgegaan, wordt beschouwd als een reguliere expressie. Als de zoekrobot documenten aantreft die overeenkomen met een expressie-URL-masker zonder reguliere expressie, worden deze documenten niet geïndexeerd. Als de zoekrobot documenten aantreft die overeenkomen met een regulier expressie-URL-masker, worden deze documenten geïndexeerd. Stel dat u het volgende URL-masker hebt: </p> <p> <code> exclude&amp;nbsp;regexp&amp;nbsp;^.*/products/.*\.html$ </code> </p> <p>De zoekrobot sluit overeenkomende bestanden uit, zoals 
+     <code>
        https://www.mydomain.com/products/page1.html 
-     </userinput> </p> <p>Als u het volgende masker voor reguliere expressie-URL had: </p> <p> <code> exclude&amp;nbsp;regexp&amp;nbsp;^.*\?..*$ </code> </p> <p>De zoekrobot bevat geen URL die een CGI-parameter bevat, zoals 
-     <userinput>
+     </code> </p> <p>Als u het volgende masker voor reguliere expressie-URL had: </p> <p> <code> exclude&amp;nbsp;regexp&amp;nbsp;^.*\?..*$ </code> </p> <p>De zoekrobot hoeft geen URL te bevatten die een CGI-parameter zoals <code>
        https://www.mydomain.com/cgi/prog/?arg1=val1&amp;arg2=val2 
-     </userinput>. </p> <p>Als het volgende URL-masker voor reguliere expressie moet worden opgenomen: </p> <p> <code> include&amp;nbsp;regexp&amp;nbsp;^.*\.swf$&amp;nbsp;noindex </code> </p> <p>De zoekrobot volgt alle koppelingen van bestanden met de extensie ".swf". De 
-     <userinput>
+     </code>. </p> <p>Als het volgende URL-masker voor reguliere expressie moet worden opgenomen: </p> <p> <code> include&amp;nbsp;regexp&amp;nbsp;^.*\.swf$&amp;nbsp;noindex </code> </p> <p>De zoekrobot volgt alle koppelingen van bestanden met de extensie ".swf". Het <code>
        noindex 
-     </userinput> trefwoord geeft ook aan dat de tekst van overeenkomende bestanden niet wordt geïndexeerd. </p> <p>Zie <a href="../c-appendices/r-regular-expressions.md#reference_B5BA7D61D82E4109A01D2A2D964E3A6A" type="reference" format="dita" scope="local"> Reguliere expressies </a>. </p> </td> 
+     </code> trefwoord geeft ook op dat de tekst van overeenkomende bestanden niet wordt geïndexeerd. </p> <p>Zie <a href="../c-appendices/r-regular-expressions.md#reference_B5BA7D61D82E4109A01D2A2D964E3A6A" type="reference" format="dita" scope="local"> Reguliere expressies </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -395,7 +375,7 @@ Hier volgt een eenvoudig voorbeeld van een datummasker voor uitsluiten:
 exclude-days 90 https://www.mydomain.com/docs/archive
 ```
 
-Omdat dit een datummasker voor uitsluiten is, wordt elk bestand dat overeenkomt met het patroon niet geïndexeerd en is het 90 dagen oud of ouder. Wanneer u een document uitsluit, wordt er geen tekst geïndexeerd en worden er geen koppelingen van dat bestand gevolgd. Het bestand wordt genegeerd. In dit voorbeeld kunnen zowel bestanden als mappen overeenkomen met het opgegeven URL-patroon. Merk op dat zowel `https://www.mydomain.com/docs/archive.html` als `https://www.mydomain.com/docs/archive/index.html` het patroon en niet geïndexeerd zijn als zij 90 dagen oud of ouder zijn. Als u alleen bestanden in de `/docs/archive/` map wilt afstemmen, moet het datummasker een schuine streep aan het einde van de map bevatten, zoals in het volgende voorbeeld:
+Omdat dit een datummasker voor uitsluiten is, wordt elk bestand dat overeenkomt met het patroon niet geïndexeerd en is het 90 dagen oud of ouder. Wanneer u een document uitsluit, wordt er geen tekst geïndexeerd en worden er geen koppelingen van dat bestand gevolgd. Het bestand wordt genegeerd. In dit voorbeeld kunnen zowel bestanden als mappen overeenkomen met het opgegeven URL-patroon. Merk op dat zowel `https://www.mydomain.com/docs/archive.html` als `https://www.mydomain.com/docs/archive/index.html` het patroon aanpast en niet als zij 90 dagen oud of ouder zijn geïndexeerd. Als u alleen bestanden in de `/docs/archive/` map wilt afstemmen, moet het datummasker een schuine streep aan het einde van de map bevatten, zoals in het volgende voorbeeld:
 
 ```
 exclude-days 90 https://www.mydomain.com/docs/archive/
@@ -459,7 +439,7 @@ Zie Een incrementele index van een gefaseerde website [](../c-about-index-menu/c
 
 ## Trefwoorden gebruiken met datummaskers {#section_CCBB3E3FDBDE4725B2B571FD6594470C}
 
-U kunt elk include-masker kwalificeren met een of meer gereserveerde woorden met spaties die bepalen hoe de overeenkomende pagina&#39;s worden geïndexeerd.
+U kunt elk include-masker kwalificeren met een of meer gereserveerde woorden met spaties. Deze trefwoorden zijn van invloed op de manier waarop de overeenkomende pagina&#39;s worden geïndexeerd.
 
 Een komma is niet geldig als scheidingsteken tussen het masker en het trefwoord. u kunt alleen spaties gebruiken.
 
@@ -473,49 +453,39 @@ Een komma is niet geldig als scheidingsteken tussen het masker en het trefwoord.
  <tbody> 
   <tr> 
    <td colname="col1"> <p>noindex </p> </td> 
-   <td colname="col2"> <p> Als u de tekst niet wilt indexeren op de pagina's die gedateerd zijn op of vóór de datum die is opgegeven door het include-masker, voegt u 
-     <userinput>
+   <td colname="col2"> <p> Als u de tekst niet wilt indexeren op de pagina's die gedateerd zijn op of vóór de datum die is opgegeven door het include-masker, voegt u <code>
        noindex 
-     </userinput> na het include-datummasker, zoals in het volgende voorbeeld: </p> <p> <code> include-days&amp;nbsp;10&amp;nbsp;*.swf&amp;nbsp;noindex </code> </p> <p>Zorg ervoor dat u het trefwoord met een spatie scheidt van het masker. </p> <p>In het bovenstaande voorbeeld wordt opgegeven dat de zoekrobot alle koppelingen volgt van bestanden met de extensie ".swf" die 10 dagen oud of ouder zijn. Het indexeren van alle tekst in die bestanden wordt echter uitgeschakeld. </p> <p>Mogelijk wilt u dat de tekst voor oudere bestanden niet wordt geïndexeerd, maar wel alle koppelingen uit die bestanden volgt. In dergelijke gevallen gebruikt u een include-datummasker met het trefwoord "noindex" in plaats van een exclude-datummasker. </p> </td> 
+     </code> na het include-datummasker het volgende toe: </p> <p> <code> include-days&amp;nbsp;10&amp;nbsp;*.swf&amp;nbsp;noindex </code> </p> <p>Zorg ervoor dat u het trefwoord met een spatie scheidt van het masker. </p> <p>In het bovenstaande voorbeeld wordt opgegeven dat de zoekrobot alle koppelingen volgt van bestanden met de extensie ".swf" die 10 dagen oud of ouder zijn. Het indexeren van alle tekst in die bestanden wordt echter uitgeschakeld. </p> <p>Mogelijk wilt u dat de tekst voor oudere bestanden niet wordt geïndexeerd, maar wel alle koppelingen uit die bestanden volgt. In dergelijke gevallen gebruikt u een include-datummasker met het trefwoord "noindex" in plaats van een exclude-datummasker. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>nofollow </p> </td> 
-   <td colname="col2"> <p> Als u de tekst wilt indexeren op de pagina's die gedateerd zijn op of vóór de datum die is opgegeven door het include-masker, maar u wilt de koppelingen van de overeenkomende pagina niet volgen, voegt u 
-     <userinput>
+   <td colname="col2"> <p> Als u de tekst op de pagina's wilt indexeren die op of vóór de datum gedateerd zijn die door het include-masker wordt gespecificeerd, maar u wilt niet de overeenkomende koppelingen van de pagina volgen, voegt u <code>
        nofollow 
-     </userinput> na het include-datummasker, zoals in het volgende voorbeeld: </p> <p> <code> include-days&amp;nbsp;8&amp;nbsp;https://www.mydomain.com/photos&amp;nbsp;nofollow </code> </p> <p>Zorg ervoor dat u het trefwoord met een spatie scheidt van het masker. </p> <p>De 
-     <userinput>
+     </code> na het include-datummasker het volgende toe: </p> <p> <code> include-days&amp;nbsp;8&amp;nbsp;https://www.mydomain.com/photos&amp;nbsp;nofollow </code> </p> <p>Zorg ervoor dat u het trefwoord met een spatie scheidt van het masker. </p> <p>Het <code>
        nofollow 
-     </userinput> trefwoord is gelijk aan een meta-tag voor robot met 
-     <userinput>
+     </code> trefwoord is gelijk aan een meta-tag voor robot <code>
        content="nofollow" 
-     </userinput> tussen de 
-     <userinput>
-       &lt;head&gt;..&lt;/head&gt; 
-     </userinput> tag van overeenkomende pagina's. </p> </td> 
+     </code> tussen de <code>
+       &lt;head&gt;...&lt;/head&gt; 
+     </code> tag van overeenkomende pagina's. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>serverdatum </p> </td> 
-   <td colname="col2"> <p>Wordt gebruikt voor zowel include- als exclude-maskers. </p> <p>De zoekrobot downloadt en parseert doorgaans elk bestand voordat de datummaskers worden gecontroleerd. Dit gedrag treedt op omdat sommige bestandstypen een datum in het bestand zelf kunnen opgeven. Een HTML-document kan bijvoorbeeld metatags bevatten waarmee de datum van het bestand wordt ingesteld. </p> <p>Als u veel bestanden wilt uitsluiten op basis van de datum waarop ze zijn gemaakt, en u wilt geen onnodige belasting op de servers plaatsen, kunt u 
-     <userinput>
-       serverdatum 
-     </userinput> na de URL in het datummasker. </p> <p>Dit sleutelwoord draagt de onderzoekersrobot op om de datum van het dossier te vertrouwen dat door uw server in plaats van het ontleden van elk dossier is teruggekeerd. In het volgende datummasker voor uitsluiten worden bijvoorbeeld pagina's genegeerd die overeenkomen met de URL als de documenten 90 dagen of ouder zijn, afhankelijk van de datum die door de server wordt geretourneerd in de HTTP-headers: </p> <p> <code> exclude-days&amp;nbsp;90&amp;nbsp;https://www.mydomain.com/docs/archive&amp;nbsp;server-date </code> </p> <p> Als de datum die door de server wordt geretourneerd 90 dagen of langer is, 
-     <userinput>
-       serverdatum 
-     </userinput> Hiermee geeft u op dat de uitgesloten documenten niet van uw server mogen worden gedownload. Het resultaat is een snellere indexering van uw documenten en een lagere belasting op uw servers. Indien 
-     <userinput>
-       serverdatum 
-     </userinput> niet wordt opgegeven, negeert de zoekrobot de datum die door de server in de HTTP-headers wordt geretourneerd. In plaats daarvan wordt elk bestand gedownload en gecontroleerd om te zien of de datum is opgegeven. Als er geen datum in het bestand is opgegeven, gebruikt de zoekrobot de datum die door de server wordt geretourneerd. </p> <p>U mag het niet gebruiken 
-     <userinput>
-       serverdatum 
-     </userinput> als uw bestanden opdrachten bevatten die de serverdatum overschrijven. </p> </td> 
+   <td colname="col2"> <p>Wordt gebruikt voor zowel include- als exclude-maskers. </p> <p>De zoekrobot downloadt en parseert doorgaans elk bestand voordat de datummaskers worden gecontroleerd. Dit gedrag treedt op omdat sommige bestandstypen een datum in het bestand zelf kunnen opgeven. Een HTML-document kan bijvoorbeeld metatags bevatten waarmee de datum van het bestand wordt ingesteld. </p> <p>Als u veel bestanden wilt uitsluiten op basis van de datum en u wilt geen overbodige belasting op de servers plaatsen, kunt u <code>
+       server-date 
+     </code> na de URL in het datummasker gebruiken. </p> <p>Dit sleutelwoord draagt de onderzoekersrobot op om de datum van het dossier te vertrouwen dat door uw server in plaats van het ontleden van elk dossier is teruggekeerd. In het volgende datummasker voor uitsluiten worden bijvoorbeeld pagina's genegeerd die overeenkomen met de URL als de documenten 90 dagen of ouder zijn, afhankelijk van de datum die door de server wordt geretourneerd in de HTTP-headers: </p> <p> <code> exclude-days&amp;nbsp;90&amp;nbsp;https://www.mydomain.com/docs/archive&amp;nbsp;server-date </code> </p> <p> Als de datum die door de server wordt geretourneerd 90 dagen of langer is, <code>
+       server-date 
+     </code> geeft u op dat de uitgesloten documenten niet van de server mogen worden gedownload. Het resultaat is een snellere indexering van uw documenten en een lagere belasting op uw servers. Als <code>
+       server-date 
+     </code> niet wordt gespecificeerd, negeert de onderzoeksrobot de datum die door de server in de kopballen van HTTP is teruggekeerd. In plaats daarvan wordt elk bestand gedownload en gecontroleerd om te zien of de datum is opgegeven. Als er geen datum in het bestand is opgegeven, gebruikt de zoekrobot de datum die door de server wordt geretourneerd. </p> <p>U moet niet gebruiken <code>
+       server-date 
+     </code> als uw bestanden opdrachten bevatten die de serverdatum overschrijven. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>regexp </p> </td> 
-   <td colname="col2"> <p> Wordt gebruikt voor zowel include- als exclude-maskers. </p> <p>Datummasker dat wordt voorafgegaan door 
-     <userinput>
+   <td colname="col2"> <p> Wordt gebruikt voor zowel include- als exclude-maskers. </p> <p>Datummaskers die worden voorafgegaan door, <code>
        regexp 
-     </userinput> wordt behandeld als een reguliere expressie. </p> <p>Als de zoekrobot bestanden aantreft die overeenkomen met een reguliere-expressiedatummasker, worden deze bestanden niet geïndexeerd. </p> <p>Als de zoekrobot bestanden aantreft die overeenkomen met een regulier expressiedatummasker, worden deze documenten geïndexeerd. </p> <p>Stel dat u het volgende datummasker hebt: </p> <p> <code> exclude-days&amp;nbsp;180&amp;nbsp;regexp&amp;nbsp;.*archive.* </code> </p> <p>Het masker vertelt de zoekrobot om overeenkomende bestanden van 180 dagen of ouder uit te sluiten. Dat wil zeggen, bestanden die het woord "archief" in hun URL bevatten. </p> <p>Zie <a href="../c-appendices/r-regular-expressions.md#reference_B5BA7D61D82E4109A01D2A2D964E3A6A" type="reference" format="dita" scope="local"> Reguliere expressies </a>. </p> </td> 
+     </code> worden beschouwd als een reguliere expressie. </p> <p>Als de zoekrobot bestanden aantreft die overeenkomen met een reguliere-expressiedatummasker, worden deze bestanden niet geïndexeerd. </p> <p>Als de zoekrobot bestanden aantreft die overeenkomen met een regulier expressiedatummasker, worden deze documenten geïndexeerd. </p> <p>Stel dat u het volgende datummasker hebt: </p> <p> <code> exclude-days&amp;nbsp;180&amp;nbsp;regexp&amp;nbsp;.*archive.* </code> </p> <p>Het masker vertelt de zoekrobot om overeenkomende bestanden van 180 dagen of ouder uit te sluiten. Dat wil zeggen, bestanden die het woord "archief" in hun URL bevatten. </p> <p>Zie <a href="../c-appendices/r-regular-expressions.md#reference_B5BA7D61D82E4109A01D2A2D964E3A6A" type="reference" format="dita" scope="local"> Reguliere expressies </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -639,7 +609,7 @@ Zie Een incrementele index van een gefaseerde website [](../c-about-index-menu/c
 
 U kunt gebruiken [!DNL Content Types] om te selecteren welke bestandstypen u wilt kruipen en indexeren voor dit account.
 
-De inhoudstypes die u kunt verkiezen om te kruipen en te indexeren omvatten documenten PDF, tekstdocumenten, de films van de Flits van Adobe, dossiers van de toepassingen van Microsoft Office zoals Word, Excel, en Powerpoint, en tekst in MP3 dossiers. De tekst die binnen de geselecteerde inhoudstypen wordt gevonden, wordt samen met alle andere tekst op uw website doorzocht.
+De inhoudstypes die u kunt verkiezen om te kruipen en te indexeren omvatten documenten PDF, tekstdocumenten, Adobe Flash films, dossiers van de toepassingen van Microsoft Office zoals Word, Excel, en Powerpoint, en tekst in MP3 dossiers. De tekst die binnen de geselecteerde inhoudstypen wordt gevonden, wordt samen met alle andere tekst op uw website doorzocht.
 
 Voordat de effecten van de instellingen voor inhoudstypen zichtbaar zijn voor klanten, moet u de index van uw site opnieuw genereren.
 
@@ -682,7 +652,7 @@ Als u alleen wilt voorkomen dat bepaalde MP3-bestanden op uw website worden geï
 
 U kunt gebruiken [!DNL Content Types] om te selecteren welke bestandstypen u wilt kruipen en indexeren voor dit account.
 
-De inhoudstypes die u kunt verkiezen om te kruipen en te indexeren omvatten documenten PDF, tekstdocumenten, de films van de Flits van Adobe, dossiers van de toepassingen van Microsoft Office zoals Word, Excel, en Powerpoint, en tekst in MP3 dossiers. De tekst die binnen de geselecteerde inhoudstypen wordt gevonden, wordt samen met alle andere tekst op uw website doorzocht.
+De inhoudstypes die u kunt verkiezen om te kruipen en te indexeren omvatten documenten PDF, tekstdocumenten, Adobe Flash films, dossiers van de toepassingen van Microsoft Office zoals Word, Excel, en Powerpoint, en tekst in MP3 dossiers. De tekst die binnen de geselecteerde inhoudstypen wordt gevonden, wordt samen met alle andere tekst op uw website doorzocht.
 
 Voordat de effecten van de instellingen voor inhoudstypen zichtbaar zijn voor klanten, moet u de index van uw site opnieuw genereren.
 
@@ -782,61 +752,49 @@ Zie Een incrementele index van een gefaseerde website [](../c-about-index-menu/c
       </tr> 
       <tr> 
       <td colname="col1"> <p>Pagina-URL-masker </p> </td> 
-      <td colname="col2"> <p>Identificeer de webpagina of pagina's die het formulier bevatten. Als u een formulier wilt identificeren dat op één pagina wordt weergegeven, voert u de URL voor die pagina in, zoals in het volgende voorbeeld: </p> <p> <code> https://www.mydomain.com/login.html </code> </p> <p>Als u formulieren wilt identificeren die op meerdere pagina's voorkomen, geeft u een URL-masker op dat jokertekens gebruikt om de pagina's te beschrijven. Als u formulieren wilt identificeren die op een willekeurige ASP-pagina worden aangetroffen, geeft u bijvoorbeeld het volgende op: <code> https://www.mydomain.com/register/ </code> </p> <p> <code> https://www.mydomain.com/register/*.asp&amp;nbsp; </code> </p> <p>U kunt ook een reguliere expressie gebruiken om meerdere pagina's te identificeren. Geef de 
-      <userinput>
+      <td colname="col2"> <p>Identificeer de webpagina of pagina's die het formulier bevatten. Als u een formulier wilt identificeren dat op één pagina wordt weergegeven, voert u de URL voor die pagina in, zoals in het volgende voorbeeld: </p> <p> <code> https://www.mydomain.com/login.html </code> </p> <p>Als u formulieren wilt identificeren die op meerdere pagina's voorkomen, geeft u een URL-masker op dat jokertekens gebruikt om de pagina's te beschrijven. Als u formulieren wilt identificeren die op een willekeurige ASP-pagina worden aangetroffen, geeft u bijvoorbeeld het volgende op: <code> https://www.mydomain.com/register/ </code> </p> <p> <code> https://www.mydomain.com/register/*.asp&amp;nbsp; </code> </p> <p>U kunt ook een reguliere expressie gebruiken om meerdere pagina's te identificeren. Geef het <code>
         regexp 
-      </userinput> trefwoord vóór het URL-masker, zoals in het volgende voorbeeld: </p> <p> <code> regexp&amp;nbsp;^https://www\.mydomain\.com/.*/login\.html$ </code> </p> </td> 
+      </code> trefwoord op vóór het URL-masker, zoals in het volgende voorbeeld: </p> <p> <code> regexp&amp;nbsp;^https://www\.mydomain\.com/.*/login\.html$ </code> </p> </td> 
       </tr> 
       <tr> 
       <td colname="col1"> <p>Handeling-URL-masker </p> </td> 
-      <td colname="col2"> <p>Identificeert het actiekenmerk van 
-      <userinput>
+      <td colname="col2"> <p>Hiermee wordt het actiekenmerk van de <code>
         &lt;form&gt; 
-      </userinput> tag. </p> <p>Net als het pagina-URL-masker kan het actie-URL-masker de vorm aannemen van één URL, een URL met jokertekens of een reguliere expressie. </p> <p>Het URL-masker kan een van de volgende items zijn: 
+      </code> tag aangegeven. </p> <p>Net als het pagina-URL-masker kan het actie-URL-masker de vorm aannemen van één URL, een URL met jokertekens of een reguliere expressie. </p> <p>Het URL-masker kan een van de volgende items zijn: 
       <ul id="ul_EDFE7688D3DD4C0BBACCE5D4648D8E44"> 
       <li id="li_77550A448D954EF29FF33EE5E8B5E0F5"> Een volledig pad zoals in het volgende voorbeeld: <code> https://www.mydomain.com/products.html </code> </li> 
       <li id="li_F84E25553BBA41419BE153DC0709E011"> Een gedeeltelijk pad zoals in het volgende voorbeeld: <code> https://www.mydomain.com/products </code> </li> 
       <li id="li_8DADA1C8604740FCACBA30B4AAADB2A1"> Een URL die jokertekens gebruikt zoals in het volgende voorbeeld: <code> https://www.mydomain.com/*.html </code> </li> 
       <li id="li_1EF637B450654B509AA4B618F7FD3C2B"> Een reguliere expressie zoals in het volgende voorbeeld: <code> regexp&amp;nbsp^https://www\.mydomain\.com/.*/login\.html$ </code> </li> 
-      </ul> </p> <p>Als u de tekst niet wilt indexeren op pagina's die worden geïdentificeerd door een URL-masker of door een actie-URL-masker, of als u geen koppelingen op die pagina's wilt laten volgen, kunt u de opdracht 
-      <userinput>
+      </ul> </p> <p>Als u de tekst niet wilt indexeren op pagina's die worden geïdentificeerd door een URL-masker of door een actie-URL-masker, of als u geen koppelingen op die pagina's wilt laten volgen, kunt u de <code>
         noindex 
-      </userinput> en 
-      <userinput>
+      </code> trefwoorden en de <code>
         nofollow 
-      </userinput> trefwoorden. U kunt deze trefwoorden aan uw maskers toevoegen met behulp van URL-maskers of ingangspunten. </p> <p>Zie <a href="../c-about-settings-menu/c-about-crawling-menu.md#concept_5D857E3B5C124E85BC0B5AE77A509573" type="concept" format="dita" scope="local"> Informatie over URL-invoerpunten </a>. </p> <p>Zie <a href="../c-about-settings-menu/c-about-crawling-menu.md#concept_8039DFC53FF3410AA494D602F71BA164" type="concept" format="dita" scope="local"> Informatie over URL-maskers </a>. </p> </td> 
+      </code> trefwoorden gebruiken. U kunt deze trefwoorden aan uw maskers toevoegen met behulp van URL-maskers of ingangspunten. </p> <p>Zie <a href="../c-about-settings-menu/c-about-crawling-menu.md#concept_5D857E3B5C124E85BC0B5AE77A509573" type="concept" format="dita" scope="local"> Informatie over URL-invoerpunten </a>. </p> <p>Zie <a href="../c-about-settings-menu/c-about-crawling-menu.md#concept_8039DFC53FF3410AA494D602F71BA164" type="concept" format="dita" scope="local"> Informatie over URL-maskers </a>. </p> </td> 
       </tr> 
       <tr> 
       <td colname="col1"> <p>Masker voor formuliernaam </p> </td> 
-      <td colname="col2"> <p>Identificeert formulieren als de 
-      <userinput>
+      <td colname="col2"> <p>Identificeert formulieren als de <code>
         &lt;form&gt; 
-      </userinput> -tags op uw webpagina's bevatten een naamkenmerk. </p> <p>U kunt een eenvoudige naam gebruiken ( 
-      <userinput>
+      </code> codes in uw webpagina's een naamkenmerk bevatten. </p> <p>U kunt een eenvoudige naam ( <code>
         login_form 
-      </userinput>), een naam met een jokerteken ( 
-      <userinput>
-        formulier* 
-      </userinput>), of een reguliere expressie ( 
-      <userinput>
-        regexp ^.*autoriseren.*$ 
-      </userinput>). </p> <p>U kunt dit veld gewoonlijk leeg laten, omdat formulieren doorgaans geen naamkenmerk hebben. </p> </td> 
+      </code>), een naam met een vervanging ( <code>
+        form* 
+      </code>), of een regelmatige uitdrukking ( <code>
+        regexp ^.*authorize.*$ 
+      </code>) gebruiken. </p> <p>U kunt dit veld gewoonlijk leeg laten, omdat formulieren doorgaans geen naamkenmerk hebben. </p> </td> 
       </tr> 
       <tr> 
       <td colname="col1"> <p>Formulier-id-masker </p> </td> 
-      <td colname="col2"> <p>Identificeert formulieren als de 
-      <userinput>
+      <td colname="col2"> <p>Identificeert formulieren als de <code>
         &lt;form&gt; 
-      </userinput> -tags op uw webpagina's bevatten een id-kenmerk. </p> <p>U kunt een eenvoudige naam gebruiken ( 
-      <userinput>
+      </code> codes in uw webpagina's een id-kenmerk bevatten. </p> <p>U kunt een eenvoudige naam ( <code>
         login_form 
-      </userinput>), een naam met een jokerteken ( 
-      <userinput>
-        formulier* 
-      </userinput>), of een reguliere expressie ( 
-      <userinput>
-        regexp ^.*autoriseren.*$ 
-      </userinput>). </p> <p>U kunt dit veld gewoonlijk leeg laten, omdat formulieren doorgaans geen naamkenmerk hebben. </p> </td> 
+      </code>), een naam met een vervanging ( <code>
+        form* 
+      </code>), of een regelmatige uitdrukking ( <code>
+        regexp ^.*authorize.*$ 
+      </code>) gebruiken. </p> <p>U kunt dit veld gewoonlijk leeg laten, omdat formulieren doorgaans geen naamkenmerk hebben. </p> </td> 
       </tr> 
       <tr> 
       <td colname="col1"> <p>Parameters </p> </td> 
@@ -852,52 +810,43 @@ Zie Een incrementele index van een gefaseerde website [](../c-about-index-menu/c
       </tr> 
       <tr> 
       <td colname="col1"> <p>Overschrijvingsmethode </p> </td> 
-      <td colname="col2"> <p>Geef op wanneer het doel van het verzenden van het formulier afwijkt van wat wordt gebruikt in het actiekenmerk van het formulier en wanneer het verzenden van JavaScript de methode heeft gewijzigd. </p> <p>De standaardwaarden voor alle formulierparameters ( 
-      <userinput>
+      <td colname="col2"> <p>Geef op wanneer het doel van het verzenden van het formulier afwijkt van wat wordt gebruikt in het actiekenmerk van het formulier en wanneer het verzenden van JavaScript de methode heeft gewijzigd. </p> <p>De standaardwaarden voor alle formulierparameters ( <code>
         &lt;input&gt; 
-      </userinput> -tags, inclusief verborgen velden), de standaardinstelling 
-      <userinput>
+      </code> codes, inclusief verborgen velden), de standaardwaarden <code>
         &lt;option&gt; 
-      </userinput> van een 
-      <userinput>
+      </code> van een <code>
         &lt;select&gt; 
-      </userinput> en de standaardtekst tussen 
-      <userinput>
-        &lt;textarea&gt;..&lt;/textarea&gt; 
-      </userinput> -tags) worden gelezen van de webpagina. Elke parameter die in de sectie <span class="wintitle"> Formulierverzending </span> in het <span class="uicontrol"> veld </span> Parameters wordt vermeld, wordt echter vervangen door de standaardwaarden van het formulier. </p> </td> 
+      </code> code en de standaardtekst tussen <code>
+        &lt;textarea&gt;...&lt;/textarea&gt; 
+      </code> codes) worden gelezen van de webpagina. Elke parameter die in de sectie <span class="wintitle"> Formulierverzending </span> in het <span class="uicontrol"> veld </span> Parameters wordt vermeld, wordt echter vervangen door de standaardwaarden van het formulier. </p> </td> 
       </tr> 
       <tr> 
       <td colname="col1"> <p>Parameters </p> </td> 
-      <td colname="col2"> <p>U kunt parameters voor het verzenden van formulieren vooraf instellen op 
-      <userinput>
-        niet 
-      </userinput> trefwoord. </p> <p>Wanneer u een parameter voorstelt met 
-      <userinput>
-        niet 
-      </userinput>, wordt het niet ingediend als onderdeel van de indiening van het formulier. Dit gedrag is handig voor selectievakjes die moeten worden verzonden zonder selectie. </p> <p>Stel dat u de volgende parameters wilt verzenden: </p> <p> 
+      <td colname="col2"> <p>U kunt parameters voor het verzenden van formulieren vooraf instellen op het <code>
+        not 
+      </code> trefwoord. </p> <p>Wanneer u een parameter voorvoegsel met <code>
+        not 
+      </code>, wordt deze niet verzonden als onderdeel van de formulierverzending. Dit gedrag is handig voor selectievakjes die moeten worden verzonden zonder selectie. </p> <p>Stel dat u de volgende parameters wilt verzenden: </p> <p> 
       <ul id="ul_962D12BACF464FF189DB12BFAFCC93A6"> 
       <li id="li_830C6C3EC8D2448388A453BB8EDE5940"> De parameter e-mail met de waarde 
-      <userinput>
+      <code>
         nobody@mydomain.com 
-      </userinput> </li> 
+      </code> </li> 
       <li id="li_905497E3FACE472DBDD49392D5B45E01"> De parameter password met de waarde 
-      <userinput>
-        testament 
-      </userinput> </li> 
+      <code>
+        tryme 
+      </code> </li> 
       <li id="li_AAA411708ADC464793EADF0D821E282E"> De parameter mycheckbox is uitgeschakeld. </li> 
-      <li id="li_0D3DDE641E2B4BEF9F570C03FDB40ED2"> <p>Alle andere 
-      <userinput>
+      <li id="li_0D3DDE641E2B4BEF9F570C03FDB40ED2"> <p>Alle andere <code>
         &lt;form&gt; 
-      </userinput> parameters als standaardwaarden </p> </li> 
+      </code> parameters als standaardwaarden </p> </li> 
       </ul> </p> <p>Uw parameter voor het verzenden van formulieren ziet er als volgt uit: </p> <p> <code> email=nobody@mydomain.com 
         password=tryme 
-        not&nbsp;mycheckbox </code> </p> <p>Het methodeattribuut van 
-      <userinput>
+        not&nbsp;mycheckbox </code> </p> <p>Het methodekenmerk van de <code>
         &lt;form&gt; 
-      </userinput> -tag op de webpagina wordt gebruikt om te bepalen of de gegevens naar uw server worden verzonden met de methode GET of de methode POST. </p> <p>Als de 
-      <userinput>
+      </code> tag op de webpagina wordt gebruikt om te bepalen of de gegevens naar de server worden verzonden met de methode GET of POST. </p> <p>Als de <code>
         &lt;form&gt; 
-      </userinput> tag bevat geen methodekenmerk, het formulier wordt verzonden met de GET-methode. </p> </td> 
+      </code> tag geen methodekenmerk bevat, wordt het formulier verzonden met de methode GET. </p> </td> 
       </tr> 
     </tbody> 
     </table>
@@ -1044,7 +993,7 @@ Aangezien de documenten voor XML-crawls al zijn gescheiden in afzonderlijke best
 <a href="index:<ic_config_name>?url="{url}">
 ```
 
-Als de Adobe-instelling bijvoorbeeld de volgende koppelingen retourneert:
+Bijvoorbeeld, als de opstelling van de Adobe de volgende verbindingen terugkeerde:
 
 ```
 <a href="https://www.adobe.com/somepath/doc1.xml">doc 1</a> 
@@ -1156,10 +1105,9 @@ Voordat de effecten van de nieuwe en ingeschakelde definitie zichtbaar zijn voor
       <ul id="ul_1ADC3DFBC929467385F7465BE8E13635"> 
       <li id="li_64FCD749F55442BAB316BD474128D4F9"> <span class="uicontrol"> Tekst </span> <p>Eenvoudige, platte tekstbestanden, komma-afgebakende, tabgescheiden of andere consistent gescheiden indelingen. Elke nieuwe regel tekst die door een nieuwe regel wordt gescheiden, komt overeen met een afzonderlijk document en wordt met het opgegeven scheidingsteken geparseerd. </p> <p>U kunt elke waarde of kolom toewijzen aan een metagegevensveld waarnaar wordt verwezen door het kolomnummer, te beginnen bij 1 (één). </p> </li> 
       <li id="li_2A4F16CE6DCE4114B7F8E4FE156252BB"> <span class="uicontrol"> Feed </span> <p>Downloadt een primair XML-document dat meerdere "rijen" met informatie bevat. </p> </li> 
-      <li id="li_5A61C53522D74D4C9A5F65989604BDEF"> <span class="uicontrol"> XML </span> <p>Hiermee wordt een primair XML-document gedownload dat koppelingen bevat ( 
-      <userinput>
+      <li id="li_5A61C53522D74D4C9A5F65989604BDEF"> <span class="uicontrol"> XML </span> <p>Hiermee downloadt u een primair XML-document dat koppelingen ( <code>
         &lt;a&gt; 
-      </userinput>) aan afzonderlijke XML-documenten. </p> </li> 
+      </code>) naar afzonderlijke XML-documenten bevat. </p> </li> 
       </ul> </p> </td> 
       </tr> 
       <tr> 
@@ -1231,7 +1179,7 @@ Voordat de effecten van de nieuwe en ingeschakelde definitie zichtbaar zijn voor
       <ul id="ul_981AE2C6D30443BDBFC6575D413732A2"> 
       <li id="li_A42CB9DFFF8C45A7BAC2D471FE96CEBE"> <span class="uicontrol"> Kolom </span> <p> Hiermee geeft u een kolomnummer op, waarbij de eerste kolom 1 (één) is. Als u nieuwe kaartrijen wilt toevoegen voor elke kolom, klikt u onder <span class="wintitle"> Actie </span>op <span class="uicontrol"> + </span>. </p> <p>U hoeft niet naar elke kolom in de gegevensbron te verwijzen. In plaats daarvan kunt u ervoor kiezen waarden over te slaan. </p> </li> 
       <li id="li_26E8C9554A5D4BC5A5073D6385E3626F"> <span class="uicontrol"> Veld </span> <p>Definieert de waarde van het naamkenmerk die wordt gebruikt voor elke gegenereerde &lt;meta&gt;-tag. </p> </li> 
-      <li id="li_5DFA514B7F9549B98D6CBC095A66033C"> <span class="uicontrol"> Metagegevens? </span> <p>Hiermee wordt <span class="uicontrol"> Veld een vervolgkeuzelijst </span> waarin u gedefinieerde metagegevensvelden voor de huidige account kunt selecteren. </p> <p>De <span class="uicontrol"> </span> veldwaarde kan desgewenst een ongedefinieerd metagegevensveld zijn. Een niet-gedefinieerd metagegevensveld is soms handig om inhoud te maken die wordt gebruikt door Script <span class="wintitle"> filteren </span>. </p> <p>Zie <a href="../c-about-settings-menu/c-about-filtering-menu.md#concept_E56B73D625854AB2A899EF2D56CFCB47" type="concept" format="dita" scope="local"> Scripts filteren </a>. </p> <p>Wanneer de Schakelaar van de Index de documenten van XML met veelvoudige klappen op om het even welk kaartgebied verwerkt, worden de veelvoudige waarden samengevoegd in één enkele waarde in het resulterende caching document. Deze waarden worden standaard gecombineerd met een komma-scheidingsteken. Stel echter dat de corresponderende <span class="wintitle"> </span> veldwaarde een gedefinieerd metagegevensveld is. Bovendien is voor dat veld het <span class="wintitle"> kenmerk Lijsten </span> toestaan ingesteld. In dit geval wordt de waarde van Lijstscheidingstekens van het veld (het eerste gedefinieerde scheidingsteken) gebruikt bij de samenvoeging. </p> </li> 
+      <li id="li_5DFA514B7F9549B98D6CBC095A66033C"> <span class="uicontrol"> Metagegevens? </span> <p>Hiermee wordt <span class="uicontrol"> Veld een vervolgkeuzelijst </span> waarin u gedefinieerde metagegevensvelden voor de huidige account kunt selecteren. </p> <p>De <span class="uicontrol"> </span> veldwaarde kan desgewenst een ongedefinieerd metagegevensveld zijn. Een niet-gedefinieerd metagegevensveld is soms handig om inhoud te maken die wordt gebruikt door Script <span class="wintitle"> filteren </span>. </p> <p>Zie <a href="../c-about-settings-menu/c-about-filtering-menu.md#concept_E56B73D625854AB2A899EF2D56CFCB47" type="concept" format="dita" scope="local"> Scripts filteren </a>. </p> <p>Wanneer de Schakelaar van de Index de documenten van XML met veelvoudige klappen op om het even welk kaartgebied verwerkt, worden de veelvoudige waarden samengevoegd in één enkele waarde in het resulterende caching document. Deze waarden worden standaard gecombineerd met een komma-scheidingsteken. Stel echter dat de corresponderende <span class="wintitle"> </span> veldwaarde een gedefinieerd metagegevensveld is. Bovendien is voor dat veld het <span class="wintitle"> kenmerk </span> Lijsten van gewenste personen ingesteld. In dit geval wordt de waarde van Lijstscheidingstekens van het veld (het eerste gedefinieerde scheidingsteken) gebruikt bij de samenvoeging. </p> </li> 
       <li id="li_80DB205525094CE1AA6762BFC7892C95"> <span class="uicontrol"> Primaire sleutel? </span> <p>Slechts één kaartdefinitie wordt geïdentificeerd als primaire sleutel. Dit veld wordt de unieke referentie die wordt weergegeven wanneer dit document aan de index wordt toegevoegd. Deze waarde wordt gebruikt in de URL van het document in de index. </p> <p>De <span class="uicontrol"> Primaire Zeer belangrijke </span> waarden moeten over alle documenten uniek zijn die door de configuratie van de Schakelaar van de Index worden vertegenwoordigd - om het even welke gevonden duplicaten zullen worden genegeerd. Als uw brondocumenten geen unieke waarde voor gebruik als <span class="uicontrol"> Primaire Sleutel bevatten </span>, maar twee of meer velden samen <i>kunnen</i> een unieke identificatie vormen, kunt u de <span class="uicontrol"> Primaire Sleutel bepalen </span> door de veelvoudige waarden van de <span class="uicontrol"> </span> Kolom met een verticale bar ("|") te combineren die de waarden afbakenen. </p> </li> 
       <li id="li_80DB205525094CE1AA6762BFC7892D96"> <span class="uicontrol"> HTML verwijderen? </span> <p>Als deze optie is ingeschakeld, worden alle HTML-tags in de gegevens van dit veld verwijderd. </p> </li> 
       <li id="li_359D2902859B4C5BADB0BA26F0BA4DC0"> <span class="uicontrol"> Handeling </span> <p>Hiermee kunt u rijen toevoegen aan de kaart of rijen verwijderen van de kaart. De volgorde van de rijen is niet belangrijk. </p> </li> 
@@ -1319,7 +1267,7 @@ Voordat de effecten van de nieuwe en ingeschakelde definitie zichtbaar zijn voor
       <td colname="col1"> <p>Kaart </p> </td> 
       <td colname="col2"> <p>Hiermee kunt u XML-element-aan-metagegevenstoewijzingen opgeven met XPath-expressies. </p> <p> 
       <ul id="ul_604108C0277C4892AE8A40CA39889ABD"> 
-      <li id="li_0AF92270AE9F4BA8B2C7EE41FABC0F34"> <span class="uicontrol"> Tag </span> <p>Hiermee wordt een XPath-representatie van de geparseerde XML-gegevens opgegeven. Met behulp van het voorbeeld van het Adobe XML-document hierboven, onder de optie Item-tag, kan deze worden toegewezen met behulp van de volgende syntaxis: </p> <p> <code> /record/@displayurl&nbsp;-&gt;&nbsp;page-url 
+      <li id="li_0AF92270AE9F4BA8B2C7EE41FABC0F34"> <span class="uicontrol"> Tag </span> <p>Hiermee wordt een XPath-representatie van de geparseerde XML-gegevens opgegeven. Met behulp van het voorbeeld Adobe XML-document hierboven, onder de optie Item-tag, kan deze worden toegewezen met behulp van de volgende syntaxis: </p> <p> <code> /record/@displayurl&nbsp;-&gt;&nbsp;page-url 
       /record/metadata/meta[@name='title']/@content&nbsp;-&gt;&nbsp;title 
       /record/metadata/meta[@name='description']/@content&nbsp;-&gt;&nbsp;desc 
       /record/metadata/meta[@name='description']/@content&nbsp;-&gt;&nbsp;body </code> </p> <p>De bovenstaande syntaxis wordt als volgt vertaald: </p> <p> 
@@ -1330,7 +1278,7 @@ Voordat de effecten van de nieuwe en ingeschakelde definitie zichtbaar zijn voor
       <li id="li_E35EAE3D284D46D485D9064D7BB6AB13"> <code> /record/metadata/meta[@name='description']/@content&amp;nbsp;-&gt;&amp;nbsp;body </code> <p>Het <span class="codeph"> inhoudskenmerk </span> van een willekeurig <span class="codeph"> meta- </span> element dat zich in een <span class="codeph"> metagegevenselement bevindt, dat zich in het </span> record- <span class="codeph"> element bevindt, waarvan het naamkenmerk een </span> beschrijving is <span class="codeph"> </span><span class="codeph"> </span>, wijst toe aan de  tekst van het metagegevensveld. </p> </li> 
       </ul> </p> <p>XPath is een relatief gecompliceerde notatie. Meer informatie is beschikbaar op de volgende locatie: </p> <p>Zie <a href="https://www.w3schools.com/xpath/" scope="external" format="html"> https://www.w3schools.com/xpath/ </a> </p> </li> 
       <li id="li_8147075D7ACD4811A7ED335F23FE62A6"> <span class="uicontrol"> Veld </span> <p>Definieert de waarde van het naamkenmerk die wordt gebruikt voor elke gegenereerde <span class="codeph"> &lt;meta&gt;- </span> tag. </p> </li> 
-      <li id="li_2380199D63BF425A919606D8232FA6E2"> <span class="uicontrol"> Metagegevens? </span> <p>Hiermee wordt <span class="uicontrol"> Veld een vervolgkeuzelijst </span> waarin u gedefinieerde metagegevensvelden voor de huidige account kunt selecteren. </p> <p>De <span class="uicontrol"> </span> veldwaarde kan desgewenst een ongedefinieerd metagegevensveld zijn. Een niet-gedefinieerd metagegevensveld is soms handig om inhoud te maken die wordt gebruikt door Script <span class="wintitle"> filteren </span>. </p> <p>Zie <a href="../c-about-settings-menu/c-about-filtering-menu.md#concept_E56B73D625854AB2A899EF2D56CFCB47" type="concept" format="dita" scope="local"> Scripts filteren </a>. </p> <p>Wanneer de Schakelaar van de Index de documenten van XML met veelvoudige klappen op om het even welk kaartgebied verwerkt, worden de veelvoudige waarden samengevoegd in één enkele waarde in het resulterende caching document. Deze waarden worden standaard gecombineerd met een komma-scheidingsteken. Stel echter dat de corresponderende <span class="wintitle"> </span> veldwaarde een gedefinieerd metagegevensveld is. Bovendien is voor dat veld het <span class="wintitle"> kenmerk Lijsten </span> toestaan ingesteld. In dit geval wordt de waarde van Lijstscheidingstekens van het veld (het eerste gedefinieerde scheidingsteken) gebruikt bij de samenvoeging. </p> </li> 
+      <li id="li_2380199D63BF425A919606D8232FA6E2"> <span class="uicontrol"> Metagegevens? </span> <p>Hiermee wordt <span class="uicontrol"> Veld een vervolgkeuzelijst </span> waarin u gedefinieerde metagegevensvelden voor de huidige account kunt selecteren. </p> <p>De <span class="uicontrol"> </span> veldwaarde kan desgewenst een ongedefinieerd metagegevensveld zijn. Een niet-gedefinieerd metagegevensveld is soms handig om inhoud te maken die wordt gebruikt door Script <span class="wintitle"> filteren </span>. </p> <p>Zie <a href="../c-about-settings-menu/c-about-filtering-menu.md#concept_E56B73D625854AB2A899EF2D56CFCB47" type="concept" format="dita" scope="local"> Scripts filteren </a>. </p> <p>Wanneer de Schakelaar van de Index de documenten van XML met veelvoudige klappen op om het even welk kaartgebied verwerkt, worden de veelvoudige waarden samengevoegd in één enkele waarde in het resulterende caching document. Deze waarden worden standaard gecombineerd met een komma-scheidingsteken. Stel echter dat de corresponderende <span class="wintitle"> </span> veldwaarde een gedefinieerd metagegevensveld is. Bovendien is voor dat veld het <span class="wintitle"> kenmerk </span> Lijsten van gewenste personen ingesteld. In dit geval wordt de waarde van Lijstscheidingstekens van het veld (het eerste gedefinieerde scheidingsteken) gebruikt bij de samenvoeging. </p> </li> 
       <li id="li_DEA24003E97E406DA2510C43CCFDC70E"> <span class="uicontrol"> Primaire sleutel? </span> <p>Slechts één kaartdefinitie wordt geïdentificeerd als primaire sleutel. Dit veld wordt de unieke referentie die wordt weergegeven wanneer dit document aan de index wordt toegevoegd. Deze waarde wordt gebruikt in de URL van het document in de index. </p> <p>De <span class="uicontrol"> Primaire Zeer belangrijke </span> waarden moeten over alle documenten uniek zijn die door de configuratie van de Schakelaar van de Index worden vertegenwoordigd - om het even welke gevonden duplicaten zullen worden genegeerd. Als uw brondocumenten geen enkele unieke waarde voor gebruik als <span class="uicontrol"> primaire sleutel bevatten </span>, maar twee of meer velden samen een unieke id <i>kunnen</i> vormen, kunt u de <span class="uicontrol"> primaire sleutel definiëren </span> door meerdere <span class="uicontrol"> </span> tagdefinities te combineren met een verticale balk ("|") die de waarden afbakent. </p> </li> 
       <li id="li_DEA24003E97E406DA2510C43CCFDC81F"> <span class="uicontrol"> HTML verwijderen? </span> <p>Als deze optie is ingeschakeld, worden alle HTML-tags in de gegevens van dit veld verwijderd. </p> </li> 
       <li id="li_5E829D1D0DBD4BB7AAB5DB983053D248"> <span class="uicontrol"> Gebruiken voor Verwijderen? </span> <p>Wordt alleen gebruikt tijdens incrementele indexbewerkingen. Records die overeenkomen met dit XPath-patroon identificeren items voor verwijdering. De <span class="uicontrol"> Primaire Zeer belangrijke </span> waarde voor elk dergelijk verslag wordt gebruikt om "schrapping"verzoeken, zoals met de Weg van het Dossier van de Schrapping te construeren. </p> <p> <b>Opmerking</b>: Deze functie is niet standaard ingeschakeld. Neem contact op met Technische ondersteuning om de functie voor uw gebruik te activeren. </p> </li> 
@@ -1351,10 +1299,9 @@ Voordat de effecten van de nieuwe en ingeschakelde definitie zichtbaar zijn voor
       </tr> 
       <tr> 
       <td colname="col1"> <p>Bestandspad </p> </td> 
-      <td colname="col2"> <p>Hiermee wordt het pad opgegeven naar het primaire XML-document dat koppelingen bevat ( 
-      <userinput>
+      <td colname="col2"> <p>Hiermee geeft u het pad op naar het primaire XML-document dat koppelingen ( <code>
         &lt;a&gt; 
-      </userinput>) aan afzonderlijke XML-documenten. </p> <p>Het pad is relatief ten opzichte van de hoofdmap van het hostadres. </p> </td> 
+      </code>) naar afzonderlijke XML-documenten bevat. </p> <p>Het pad is relatief ten opzichte van de hoofdmap van het hostadres. </p> </td> 
       </tr> 
       <tr> 
       <td colname="col1"> <p>Protocol </p> </td> 
@@ -1375,7 +1322,7 @@ Voordat de effecten van de nieuwe en ingeschakelde definitie zichtbaar zijn voor
       <td colname="col1"> <p>Kaart </p> </td> 
       <td colname="col2"> <p>Hiermee kunt u kolom-naar-metagegevenstoewijzingen opgeven met behulp van kolomnummers. </p> <p> 
       <ul id="ul_06F50CBA0AA64C7CB1AFAE076E629A64"> 
-      <li id="li_0FA2502869BA40DC93D790B79E15A9D2"> <span class="uicontrol"> Tag </span> <p>Hiermee wordt een XPath-representatie van de geparseerde XML-gegevens opgegeven. Met behulp van het bovenstaande voorbeeld van het Adobe XML-document kunt u het document onder de optie Item-tag toewijzen met behulp van de volgende syntaxis: </p> <p> <code> /record/@displayurl&nbsp;-&gt;&nbsp;page-url 
+      <li id="li_0FA2502869BA40DC93D790B79E15A9D2"> <span class="uicontrol"> Tag </span> <p>Hiermee wordt een XPath-representatie van de geparseerde XML-gegevens opgegeven. Met behulp van het voorbeeld Adobe XML-document hierboven, onder de optie Item-tag, kunt u het toewijzen met de volgende syntaxis: </p> <p> <code> /record/@displayurl&nbsp;-&gt;&nbsp;page-url 
         /record/metadata/meta[@name='title']/@content&nbsp;-&gt;&nbsp;title 
         /record/metadata/meta[@name='description']/@content&nbsp;-&gt;&nbsp;desc 
         /record/metadata/meta[@name='description']/@content&nbsp;-&gt;&nbsp;body </code> </p> <p>De bovenstaande syntaxis wordt als volgt vertaald: </p> <p> 
@@ -1386,7 +1333,7 @@ Voordat de effecten van de nieuwe en ingeschakelde definitie zichtbaar zijn voor
       <li id="li_7FA6A53DFD3D42A98B7BA17CC29DDB81"> <code> /record/metadata/meta[@name='description']/@content&amp;nbsp;-&gt;&amp;nbsp;body </code> <p>Het <span class="codeph"> inhoudskenmerk </span> van een willekeurig <span class="codeph"> meta- </span> element dat zich in een <span class="codeph"> metagegevenselement bevindt, dat zich in het </span> record- <span class="codeph"> element bevindt, waarvan het naamkenmerk een </span> beschrijving is <span class="codeph"> </span><span class="codeph"> </span>, wijst toe aan de  tekst van het metagegevensveld. </p> </li> 
       </ul> </p> <p>XPath is een relatief gecompliceerde notatie. Meer informatie is beschikbaar op de volgende locatie: </p> <p>Zie <a href="https://www.w3schools.com/xpath/" scope="external" format="html"> https://www.w3schools.com/xpath/ </a> </p> </li> 
       <li id="li_84999D07E0AE4265BC7928BBB49957B9"> <span class="uicontrol"> Veld </span> <p>Definieert de waarde van het naamkenmerk die wordt gebruikt voor elke gegenereerde &lt;meta&gt;-tag. </p> </li> 
-      <li id="li_E125788D0F5242958BD790E26A675C20"> <span class="uicontrol"> Metagegevens? </span> <p>Hiermee wordt <span class="uicontrol"> Veld een vervolgkeuzelijst </span> waarin u gedefinieerde metagegevensvelden voor de huidige account kunt selecteren. </p> <p>De <span class="uicontrol"> </span> veldwaarde kan desgewenst een ongedefinieerd metagegevensveld zijn. Een niet-gedefinieerd metagegevensveld is soms handig om inhoud te maken die wordt gebruikt door Script <span class="wintitle"> filteren </span>. </p> <p>Zie <a href="../c-about-settings-menu/c-about-filtering-menu.md#concept_E56B73D625854AB2A899EF2D56CFCB47" type="concept" format="dita" scope="local"> Scripts filteren </a>. </p> <p>Wanneer de Schakelaar van de Index de documenten van XML met veelvoudige klappen op om het even welk kaartgebied verwerkt, worden de veelvoudige waarden samengevoegd in één enkele waarde in het resulterende caching document. Deze waarden worden standaard gecombineerd met een komma-scheidingsteken. Stel echter dat de corresponderende <span class="wintitle"> </span> veldwaarde een gedefinieerd metagegevensveld is. Bovendien is voor dat veld het <span class="wintitle"> kenmerk Lijsten </span> toestaan ingesteld. In dit geval wordt de waarde van Lijstscheidingstekens van het veld (het eerste gedefinieerde scheidingsteken) gebruikt bij de samenvoeging. </p> </li> 
+      <li id="li_E125788D0F5242958BD790E26A675C20"> <span class="uicontrol"> Metagegevens? </span> <p>Hiermee wordt <span class="uicontrol"> Veld een vervolgkeuzelijst </span> waarin u gedefinieerde metagegevensvelden voor de huidige account kunt selecteren. </p> <p>De <span class="uicontrol"> </span> veldwaarde kan desgewenst een ongedefinieerd metagegevensveld zijn. Een niet-gedefinieerd metagegevensveld is soms handig om inhoud te maken die wordt gebruikt door Script <span class="wintitle"> filteren </span>. </p> <p>Zie <a href="../c-about-settings-menu/c-about-filtering-menu.md#concept_E56B73D625854AB2A899EF2D56CFCB47" type="concept" format="dita" scope="local"> Scripts filteren </a>. </p> <p>Wanneer de Schakelaar van de Index de documenten van XML met veelvoudige klappen op om het even welk kaartgebied verwerkt, worden de veelvoudige waarden samengevoegd in één enkele waarde in het resulterende caching document. Deze waarden worden standaard gecombineerd met een komma-scheidingsteken. Stel echter dat de corresponderende <span class="wintitle"> </span> veldwaarde een gedefinieerd metagegevensveld is. Bovendien is voor dat veld het <span class="wintitle"> kenmerk </span> Lijsten van gewenste personen ingesteld. In dit geval wordt de waarde van Lijstscheidingstekens van het veld (het eerste gedefinieerde scheidingsteken) gebruikt bij de samenvoeging. </p> </li> 
       <li id="li_9F435EFB3EC74B409EC82A851824609F"> <span class="uicontrol"> Primaire sleutel? </span> <p>Slechts één kaartdefinitie wordt geïdentificeerd als primaire sleutel. Dit veld wordt de unieke referentie die wordt weergegeven wanneer dit document aan de index wordt toegevoegd. Deze waarde wordt gebruikt in de URL van het document in de index. </p> <p>De <span class="uicontrol"> Primaire Zeer belangrijke </span> waarden moeten over alle documenten uniek zijn die door de configuratie van de Schakelaar van de Index worden vertegenwoordigd - om het even welke gevonden duplicaten zullen worden genegeerd. Als uw brondocumenten geen enkele unieke waarde voor gebruik als <span class="uicontrol"> primaire sleutel bevatten </span>, maar twee of meer velden samen een unieke id <i>kunnen</i> vormen, kunt u de <span class="uicontrol"> primaire sleutel definiëren </span> door meerdere <span class="uicontrol"> </span> tagdefinities te combineren met een verticale balk ("|") die de waarden afbakent. </p> </li> 
       <li id="li_9F435EFB3EC74B409EC82A851824610G"> <span class="uicontrol"> HTML verwijderen? </span> <p>Als deze optie is ingeschakeld, worden alle HTML-tags in de gegevens van dit veld verwijderd. </p> </li> 
       <li id="li_6302D18971AD439FBECE27742649C56B"> <span class="uicontrol"> Handeling </span> <p>Hiermee kunt u rijen toevoegen aan de kaart of rijen verwijderen van de kaart. De volgorde van de rijen is niet belangrijk. </p> </li> 

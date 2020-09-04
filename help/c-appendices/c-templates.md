@@ -1,13 +1,16 @@
 ---
-description: ongeldig
-seo-description: ongeldig
+description: 'null'
+seo-description: 'null'
 seo-title: Sjablonen
 solution: Target
 title: Sjablonen
 topic: Appendices,Site search and merchandising
 uuid: 78299032-dc23-4dfe-b68f-cd57b2b6d7d8
 translation-type: tm+mt
-source-git-commit: f21a3f7fe0aeaab517a5ca36da43594873b3e69a
+source-git-commit: ca4156f80d7dbb85d2d56b6caf7c0f560299d86e
+workflow-type: tm+mt
+source-wordcount: '15139'
+ht-degree: 1%
 
 ---
 
@@ -16,53 +19,53 @@ source-git-commit: f21a3f7fe0aeaab517a5ca36da43594873b3e69a
 
 ## Sjablonen {#concept_A5CFB6BD805D49459A96219AF1B17842}
 
-## Sjabloonlabels voor presentatie {#reference_F1BBF616BCEC4AD7B2548ECD3CA74C64}
+## Presentatiesjablooncodes {#reference_F1BBF616BCEC4AD7B2548ECD3CA74C64}
 
-Een lijst van plaatsonderzoek/merchandising markeringen en attributen voor presentatiemalplaatjes.
+Een lijst met tags en kenmerken voor sitemalusjablonen voor het zoeken en verhandelen van sites.
 
 
-Een presentatiemalplaatje is een HTML- dossier dat de markeringen van het presentatiemalplaatje omvat dat het plaatsonderzoek/het merchandising bepaalt. Deze markeringen wijzen erop hoe de onderzoeksresultaten die de klanten zien geformatteerd zijn.
+Een presentatiesjabloon is een HTML-bestand dat sjabloontags voor presentaties bevat die door de zoekfunctie/merchandising van de site worden gedefinieerd. Deze tags geven aan hoe de zoekresultaten die klanten zien, zijn opgemaakt.
 
-Zie [over sjablonen](../c-about-design-menu/c-about-templates.md#concept_06EB481B14864E18A8AE2BCD1D6EF0B5).
+Zie [Informatie over sjablonen](../c-about-design-menu/c-about-templates.md#concept_06EB481B14864E18A8AE2BCD1D6EF0B5).
 
-U kunt uit de volgende groepen van de presentatiemarkering selecteren:
+U kunt uit de volgende groepen presentatiemarkeringen selecteren:
 
 * [Verklaringen](../c-appendices/c-templates.md#section_82C5CA734D2941EB858FEFE3B695D2EC)
 * [Resultaten](../c-appendices/c-templates.md#section_06F249C9F6AE4B0F8C32117E19DCC905)
-* [Facturen](../c-appendices/c-templates.md#section_EA4C5678D5864B89BAB4D0DFE62A4624)
-* [Breadcrumb](../c-appendices/c-templates.md#section_9B39B71FA6EC49FA8D88AD8A3BA987F7)
-* [Menus](../c-appendices/c-templates.md#section_1D489ADF041F4351A66E5D5742125CA8)
+* [Facetten](../c-appendices/c-templates.md#section_EA4C5678D5864B89BAB4D0DFE62A4624)
+* [Broodkruimel](../c-appendices/c-templates.md#section_9B39B71FA6EC49FA8D88AD8A3BA987F7)
+* [Menu&#39;s](../c-appendices/c-templates.md#section_1D489ADF041F4351A66E5D5742125CA8)
 * [Pagenav](../c-appendices/c-templates.md#section_2EE397635C514BBC8D668278EA314F35)
 * [Recente zoekopdrachten](../c-appendices/c-templates.md#section_8CD907521F584257B475595B01A5964B)
 * [Bedoelde je](../c-appendices/c-templates.md#section_C1EB3B9D8E1242798A6E04609D1E3543)
 * [Automatisch aanvullen](../c-appendices/c-templates.md#section_897316BEE1454E839A56B565CA4AF018)
 * [Winkel](../c-appendices/c-templates.md#section_A33E25DB5E67404A823BD9618665B773)
 * [Zones](../c-appendices/c-templates.md#section_B9B3179E000C42D492E1541F2FE44CB5)
-* [Loop-indicatoren](../c-appendices/c-templates.md#section_387322CA0AA843A2ACF2795C328673E9)
+* [Lus-indicatoren](../c-appendices/c-templates.md#section_387322CA0AA843A2ACF2795C328673E9)
 * [Diverse talen](../c-appendices/c-templates.md#section_BFE8DC98E26F4D7BB60FEC54D9A5DC6C)
 
 ## Verklaringen {#section_82C5CA734D2941EB858FEFE3B695D2EC}
 
-De verklaringen zijn speciale geleid-verklaar markeringen die u bij de bovenkant van een top-level presentatiemalplaatje kunt plaatsen. Om het even welke verdere verklaringen worden genegeerd, met inbegrip van verklaringen in inbegrepen malplaatjes.
+Declaraties zijn speciale labels voor declaraties met instructies die u boven aan een presentatiesjabloon op hoofdniveau kunt instellen. Eventuele volgende declaraties worden genegeerd, inclusief declaraties in opgenomen sjablonen.
 
 <table> 
  <thead> 
   <tr> 
    <th colname="col01" class="entry"> </th> 
-   <th colname="col1" class="entry"> <p>Markering </p> </th> 
+   <th colname="col1" class="entry"> <p>Tag </p> </th> 
    <th colname="col2" class="entry"> <p>Beschrijving </p> </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
    <td colname="col01"> <p>1 </p> </td> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;geleid-tevreden-type-kopbal content="content-type"&gt; </span> </p> </td> 
-   <td colname="col2"> <p>Door gebrek wordt het presentatiemalplaatje teruggestuurd met een mime-type van tekst/html. U kunt veranderen wat inhoud-type met deze markering wordt gebruikt. </p> <p>Verklaar deze markering zo hoog mogelijk in uw presentatiemalplaatje. Voeg geen andere tekst op de zelfde lijn met deze markering toe. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;guided-content-type-header content="content-type"&gt; </span> </p> </td> 
+   <td colname="col2"> <p>Standaard wordt de presentatiesjabloon teruggestuurd met een mime-type tekst/html. U kunt wijzigen welk inhoudstype wordt gebruikt met deze tag. </p> <p>Declareer deze markering zo hoog mogelijk in uw presentatiesjabloon. Voeg geen andere tekst op dezelfde regel met deze tag toe. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>2 </p> </td> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;geleid-xml-verklaar [charset="charset"]&gt; </span> </p> </td> 
-   <td colname="col2"> <p> Als u XML terugkeert, kunt u deze markering gebruiken om de verklaring van XML tot stand te brengen. Maak van deze markering de eerste lijn in uw presentatiemalplaatje. Wanneer u deze markering gebruikt, wordt het inhoud-type automatisch geplaatst aan tekst/xml, tenzij u het met <span class="codeph"> </span> &lt;geleid-inhoud-type-kopbal&gt; in de eerste lijn overheerst. Als u geen charset opgeeft, wordt UTF-8 standaard gebruikt. Deze markering resulteert in de volgende output in uw document van XML: </p> <p> <span class="codeph"> &lt;?xml version="1.0" encoding="charset-name" standalone="yes"?&gt; </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;guided-xml-declare [charset="charset"]&gt; </span> </p> </td> 
+   <td colname="col2"> <p> Als u XML retourneert, kunt u dit label gebruiken om de XML-declaratie te maken. Maak van dit label de eerste regel in uw presentatiesjabloon. Wanneer u dit label gebruikt, wordt het inhoudstype automatisch ingesteld op text/xml, tenzij u het in de eerste regel met <span class="codeph"> </span> &lt;guided-content-type-header&gt; overschrijft. Als u geen tekenset opgeeft, wordt standaard UTF-8 gebruikt. Deze tag resulteert in de volgende uitvoer in uw XML-document: </p> <p> <span class="codeph"> &lt;?xml version="1.0" encoding="charset-name" standalone="yes" ?&gt; </span> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -73,7 +76,7 @@ De verklaringen zijn speciale geleid-verklaar markeringen die u bij de bovenkant
  <thead> 
   <tr> 
    <th colname="col01" class="entry"> </th> 
-   <th colname="col1" class="entry"> <p>Markering </p> </th> 
+   <th colname="col1" class="entry"> <p>Tag </p> </th> 
    <th colname="col2" class="entry"> <p>Beschrijving </p> </th> 
   </tr> 
  </thead>
@@ -82,33 +85,33 @@ De verklaringen zijn speciale geleid-verklaar markeringen die u bij de bovenkant
    <td colname="col01"> <p>1 </p> </td> 
    <td colname="col1"> <p> 
      <!--In search-eng 1/31/13--> <span class="codeph"> &lt;guided-results [gsname="search name"]&gt;&lt;/guided-results&gt; </span> </p> </td> 
-   <td colname="col2"> <p>De geleide-resultatenmarkering bepaalt de grenzen van een resultatenlijn. Om het even welke reeks resultaten kan worden betreden door een <span class="codeph"> gsname </span> attribuut te specificeren. Als geen <span class="codeph"> gsname </span> wordt gegeven, dan worden de standaardonderzoeksresultaten getoond. </p> </td> 
+   <td colname="col2"> <p>De tag met instructies-resultaten definieert de grenzen van een resultatenlus. Om het even welke reeks resultaten kan worden betreden door een <span class="codeph"> gsname </span> attribuut te specificeren. Als er geen <span class="codeph"> gsname </span> is opgegeven, worden de standaardzoekresultaten weergegeven. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>2 </p> </td> 
    <td colname="col1"> <p> 
-     <!--In search-eng 1/31/13--> <span class="codeph"> &lt;guided-result-link [gsname="fieldname"] [attr="value"]+&gt;&lt;/guided-result-link&gt; </span> </p> </td> 
-   <td colname="col2"> <p>Om een verbinding aan een bepaald resultaat tot stand te brengen, gebruik de <span class="codeph"> geleid-resultaat-verbinding </span> markering. Door een <span class="codeph"> gsname- </span> attribuut te definiëren, kunt u een veld van de index gebruiken in plaats van de standaard "loc"-tag die verwijst naar de "search-url". Om het even welke andere attributen, zoals klasse en doel, kunnen eveneens worden overgegaan, die output in de resulterende ankermarkering zijn. </p> </td> 
+     <!--In search-eng 1/31/13--> <span class="codeph"> &lt;guided-result-link [gsname="fieldName"] [attr="value"]+&gt;&lt;/guided-result-link&gt; </span> </p> </td> 
+   <td colname="col2"> <p>Als u een koppeling naar een bepaald resultaat wilt maken, gebruikt u de <span class="codeph"> </span> tag guided-result-link. Door een <span class="codeph"> gsname- </span> kenmerk te definiëren, kunt u een veld uit de index gebruiken in plaats van de standaard "loc"-tag die naar de "search-url" verwijst. Andere kenmerken, zoals klasse en doel, kunnen ook worden doorgegeven. Deze worden uitgevoerd in de resulterende ankertag. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>3 </p> </td> 
    <td colname="col1"> <p> 
-     <!--In search-eng 1/31/13--> <span class="codeph"> &lt;guided result-img gsname="fieldname" [attr="value"]+&gt; </span> </p> </td> 
-   <td colname="col2"> <p>De <span class="codeph"> &lt;geleide-resultaat-img&gt; </span> markering helpt beeldmarkeringen tot stand te brengen eerder dan het inbedden variabelen binnen een ruwe <span class="codeph"> img </span> markering. </p> <p>Specificeer het gebied voor de beeldweg in de <span class="codeph"> gsname </span> attributen te gebruiken. Het resultaat is een <span class="codeph"> img- </span> markering met om het even welke standaardattributen van HTML die u bepaalde, door overging. Zo, het volgende voorbeeld: </p> <p> <code class="syntax html"> &lt;guided-result-img&nbsp;gsname="thumbnail" 
+     <!--In search-eng 1/31/13--> <span class="codeph"> &lt;guided-result-img gsname="fieldName" [attr="value"]+&gt; </span> </p> </td> 
+   <td colname="col2"> <p>Met de <span class="codeph"> &lt;guided-result-img&gt;- </span> tag kunt u afbeeldingstags maken in plaats van variabelen in een Raw <span class="codeph"> img- </span> tag in te sluiten. </p> <p>Geef het veld op dat u wilt gebruiken voor het afbeeldingspad in het <span class="codeph"> kenmerk gsname </span> . Het resultaat is een <span class="codeph"> img- </span> tag met alle standaard HTML-kenmerken die u hebt gedefinieerd en die u hebt doorgegeven. In het volgende voorbeeld: </p> <p> <code class="syntax html"> &lt;guided-result-img&nbsp;gsname="thumbnail" 
       &nbsp;class="thumb"&nbsp;border="0"/&gt; </code> </p> <p>wordt: </p> <p> <code class="syntax html"> &lt;img&nbsp;src="prod8172.jpg"&nbsp;class="thumb" 
       &nbsp;border="0"/&gt; </code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>4 </p> </td> 
    <td colname="col1"> <p> 
-     <!--Updated to match search-eng version, 1/31/13; search-eng version does not have [escape...] Added ijson on 8/28/2015--> <span class="codeph"> &lt;guided result-field gsname="fieldname" [escape="html|url|js|json|ijson|0"]/&gt; </span> </p> </td> 
-   <td colname="col2"> <p> Om het even welk stuk informatie in de resultaten wordt getoond als <span class="codeph"> &lt;geleid-resultaat-gebied&gt; </span> markering (behalve wanneer het gebruiken van auto-genererende markeringen zoals de <span class="codeph"> &lt;geleid-resultaat-img&gt; </span> markering). </p> <p>Specificeer de naam van het de indexgebied van het Onderzoek in <span class="codeph"> gsname </span>. Het nauwkeurige overgegaane koord is output in het malplaatje. </p> <p>U kunt een ontsnappingsoptie specificeren als u dit gebied wilt ontsnapten verschillend van wat in het vervoermalplaatje werd gespecificeerd. </p> <p>Deze codering wordt toegepast bovenop wat het coderen in het vervoermalplaatje werd gespecificeerd. </p> </td> 
+     <!--Updated to match search-eng version, 1/31/13; search-eng version does not have [escape...] Added ijson on 8/28/2015--> <span class="codeph"> &lt;guided-result-field gsname="fieldName" [escape="html|url|js|json|ijson|0"]/&gt; </span> </p> </td> 
+   <td colname="col2"> <p> Alle informatie die in de resultaten wordt weergegeven, wordt weergegeven als een <span class="codeph"> &lt;guided-result-field&gt;- </span> tag (behalve wanneer u automatische genererende tags gebruikt, zoals de <span class="codeph"> &lt;guided-result-img&gt;- </span> tag). </p> <p>Geef de naam van het veld Zoekindex op in <span class="codeph"> gsname </span>. De exacte tekenreeks die wordt doorgegeven, wordt in de sjabloon uitgevoerd. </p> <p>U kunt een vluchtoptie specificeren als u dit gebied op een andere manier van wat in het vervoermalplaatje werd gespecificeerd wilt ontsnapt. </p> <p>Deze codering wordt toegepast boven op de codering die in de transportsjabloon is opgegeven. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>5 </p> </td> 
    <td colname="col1"> <p> 
-     <span class="codeph"> &lt;guided-if[-not]-result-field gsname="fieldname&gt;&lt;/guided-if-resultaat-field&gt; </span> </p> </td> 
-   <td colname="col2"> <p>Deze reeks voorwaardelijke markeringen is waar als er inhoud op het specifieke gebied aan vertoning is. Als geen inhoud bestaat, is de voorwaarde vals. U kunt de markeringen gebruiken om te beslissen of het omringende HTML of niet wordt getoond als een waarde niet bestaat, of als een verschillend beeld, etc. wordt getoond. </p> <p> <code class="syntax html"> &lt;guided-if-result-field&nbsp;gsname="thumbnail"&gt; 
+     <span class="codeph"> &lt;guided-if[-not]-result-field gsname="fieldName&gt;&lt;/guided-if-result-field&gt; </span> </p> </td> 
+   <td colname="col2"> <p>Deze set voorwaardelijke tags is waar als er inhoud is in het specifieke veld dat moet worden weergegeven. Als er geen inhoud bestaat, is de voorwaarde onwaar. U kunt de labels gebruiken om te bepalen of omringende HTML wordt weergegeven als een waarde niet bestaat, of als een andere afbeelding wordt weergegeven, enzovoort. </p> <p> <code class="syntax html"> &lt;guided-if-result-field&nbsp;gsname="thumbnail"&gt; 
       &nbsp;&nbsp;&nbsp;&nbsp;&lt;guided-result-img&nbsp;gsname="thumbnail"&nbsp;class="thumb"&nbsp;/&gt; 
       &lt;guided-else-result-field&gt; 
       &nbsp;&nbsp;&nbsp;&nbsp;&lt;img&nbsp;src="nothumb.jpg"&nbsp;class="nothumb"&nbsp;/&gt; 
@@ -120,7 +123,7 @@ De verklaringen zijn speciale geleid-verklaar markeringen die u bij de bovenkant
      <code> &lt;guided-if[-not]-result-wrap&gt; 
       &lt;guided-else-result-wrap&gt; 
       &lt;/guided-if[-not]-result-wrap&gt; </code> </p> </td> 
-   <td colname="col2"> <p>Wanneer het tonen van resultaten in kolommen, wordt deze markering gebruikt om te identificeren of het huidige resultaat het eind van een kolom merkt. </p> <p>Wanneer de voorwaarde Van Boole waar is, wordt HTML toegevoegd aan het eind van het resultaat om van de rij te eindigen en nieuwe te beginnen. Wanneer het de laatste is, is een nieuwe rij niet begonnen. </p> <p>Zie <span class="codeph"> &lt;geleid-als-niet-laatste&gt; </span> om meer over die markering te leren. </p> <p> <code class="syntax html"> &lt;guided-if-result-wrap&gt; 
+   <td colname="col2"> <p>Wanneer het tonen van resultaten in kolommen, wordt dit markering gebruikt om te identificeren of het huidige resultaat het eind van een kolom merkt. </p> <p>Wanneer de Booleaanse voorwaarde waar is, wordt HTML toegevoegd aan het einde van het resultaat om de rij af te maken en een nieuwe te starten. Als dit de laatste rij is, wordt er geen nieuwe rij gestart. </p> <p>Zie <span class="codeph"> &lt;guided-if-not-last&gt; </span> voor meer informatie over die tag. </p> <p> <code class="syntax html"> &lt;guided-if-result-wrap&gt; 
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/div&gt; 
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;guided-if-not-last&gt; 
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;div&gt; 
@@ -131,33 +134,33 @@ De verklaringen zijn speciale geleid-verklaar markeringen die u bij de bovenkant
    <td colname="col01"> <p>7 </p> </td> 
    <td colname="col1"> <p> 
      <!--In search-eng version, 1/31/13--> <span class="codeph"> &lt;guided-results-found [gsname="search name"]/&gt; </span> </p> </td> 
-   <td colname="col2"> <p>Keert 1 terug als het achterste-eind onderzoeksverzoek resultaten en 0 terugkeerde als het niet deed. Als geen <span class="codeph"> gsname </span> wordt gespecificeerd, veronderstelt de markering het primaire onderzoek. Deze markering is nuttig om logica tot routines over te gaan JavaScript. </p> </td> 
+   <td colname="col2"> <p>Retourneert een 1 als het back-end zoekverzoek resultaten retourneert en 0 als dit niet het geval is. Als er geen <span class="codeph"> gsname </span> is opgegeven, wordt voor de tag uitgegaan van de primaire zoekopdracht. Deze tag is handig om logica door te geven aan JavaScript-routines. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>8 </p> </td> 
    <td colname="col1"> <p> 
-     <!--In search-eng version 1/31/13--> <span class="codeph"> &lt;geleid-resultaat-totaal [gsname="zoeknaam"]/&gt; </span> </p> </td> 
-   <td colname="col2"> <p>Keert het totale aantal resultaten in de gespecificeerde resultatenreeks terug. Veronderstelt het standaardonderzoek wanneer geen <span class="codeph"> gsname </span> wordt gegeven. </p> </td> 
+     <!--In search-eng version 1/31/13--> <span class="codeph"> &lt;guided-results-total [gsname="search name"]/&gt; </span> </p> </td> 
+   <td colname="col2"> <p>Retourneert het totale aantal resultaten in de opgegeven resultatenset. Hiermee wordt aangenomen dat de standaardzoekopdracht wordt uitgevoerd wanneer geen <span class="codeph"> gsname </span> is opgegeven. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>9 </p> </td> 
    <td colname="col1"> <p> 
      <!--In search-eng version 1/31/13--> <span class="codeph"> &lt;guided-results-lower [gsname="search name"]/&gt; </span> </p> </td> 
-   <td colname="col2"> <p>Keert het resultaataantal van het lagere resultaat op de pagina voor de gespecificeerde resultatenreeks terug. Veronderstelt het standaardonderzoek wanneer geen <span class="codeph"> gsname </span> wordt gegeven. </p> </td> 
+   <td colname="col2"> <p>Retourneert het resultaatnummer van het onderste resultaat op de pagina voor de opgegeven resultatenset. Hiermee wordt aangenomen dat de standaardzoekopdracht wordt uitgevoerd wanneer geen <span class="codeph"> gsname </span> is opgegeven. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>10 </p> </td> 
    <td colname="col1"> <p> 
-     <!--In search-eng version 1/31/13--> <span class="codeph"> &lt;geleid-resultaat-bovenaan [gsname="zoeknaam"]/&gt; </span> </p> </td> 
-   <td colname="col2"> <p>Keert het resultaataantal van het hogere resultaat op de pagina voor de gespecificeerde resultatenreeks terug. Veronderstelt het standaardonderzoek wanneer geen <span class="codeph"> gsname </span> wordt gegeven. </p> </td> 
+     <!--In search-eng version 1/31/13--> <span class="codeph"> &lt;guided-results-upper [gsname="search name"]/&gt; </span> </p> </td> 
+   <td colname="col2"> <p>Retourneert het resultaatnummer van het bovenste resultaat op de pagina voor de opgegeven resultatenset. Hiermee wordt aangenomen dat de standaardzoekopdracht wordt uitgevoerd wanneer geen <span class="codeph"> gsname </span> is opgegeven. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>11 </p> </td> 
    <td colname="col1"> <p> 
      <!--Updated to match search-eng version 1/31/13--> 
 
-    &amp;lt;/geleid-als[-niet]-resultaat-gevonden&amp;gt; &lt;/code> &lt;/p> &lt;/td>
-<td colname="col2"> <p>Toont inhoud wanneer de resultaten worden gevonden. Of, toont geen resultatenHTML wanneer de resultaten niet worden gevonden. </p> <p> <code class="syntax html"> &lt;guided-if-results-found&nbsp;gsname="products"&gt; 
+    &amp;lt;/guided-if[-not]-results-found&amp;gt; &lt;/code> &lt;/p> &lt;/td>
+<td colname="col2"> <p>Hiermee wordt inhoud weergegeven wanneer resultaten worden gevonden. Of geeft geen HTML-resultaten weer wanneer er geen resultaten worden gevonden. </p> <p> <code class="syntax html"> &lt;guided-if-results-found&nbsp;gsname="products"&gt; 
       &nbsp;&nbsp;&nbsp;&nbsp;&lt;guided-results&nbsp;gsname="products"&gt; 
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;... 
       &nbsp;&nbsp;&nbsp;&nbsp;&lt;/guided-results&gt; 
@@ -167,25 +170,25 @@ De verklaringen zijn speciale geleid-verklaar markeringen die u bij de bovenkant
   </tr> 
   <tr> 
    <td colname="col01"> <p>12 </p> </td> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;geleid resultaat-titel/&gt; </span> </p> </td> 
-   <td colname="col2"> <p>De <span class="codeph"> &lt;geleide-resultaat-titel&gt; </span> markering geeft waarde van het gebied van het malplaatje van het titelvervoer dat met <span class="codeph"> &lt;title&gt; </span> vervoermarkering wordt gespecificeerd. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;guided-result-title/&gt; </span> </p> </td> 
+   <td colname="col2"> <p>De <span class="codeph"> &lt;guided-result-title&gt;- </span> tag geeft de waarde van het sjabloonveld voor titelvervoer dat is opgegeven met de transporttag <span class="codeph"> &lt;title&gt; </span> . </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>13 </p> </td> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;beschrijving van het geleide resultaat/&gt; </span> </p> </td> 
-   <td colname="col2"> <p>De <span class="codeph"> &lt;geleide-resultaat-beschrijving&gt; </span> markering geeft waarde van het gebied van de beschrijvingsmalplaatje dat met <span class="codeph"> </span> &lt;description&gt; de vervoermarkering wordt gespecificeerd. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;guided-result-description/&gt; </span> </p> </td> 
+   <td colname="col2"> <p>De tag <span class="codeph"> &lt;guided-result-description&gt; </span> geeft de waarde van het beschrijvingssjabloonveld dat is opgegeven met de transporttag <span class="codeph"> &lt;description&gt; </span> . </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>14 </p> </td> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;geleid resultaat-lc/&gt; </span> </p> </td> 
-   <td colname="col2"> <p>De &lt; <span class="codeph"> geleide-resultaat-loc&gt; </span> markering geeft waarde van het gebied van het lokale vervoermalplaatje dat met <span class="codeph"> &lt;loc&gt; </span> vervoermarkering wordt gespecificeerd. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;guided-result-loc/&gt; </span> </p> </td> 
+   <td colname="col2"> <p>De tag &lt; <span class="codeph"> guided-result-loc&gt; </span> geeft de waarde van het sjabloonveld voor lokaal vervoer dat is opgegeven met de transporttag <span class="codeph"> &lt;loc&gt; </span> . </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>15 </p> </td> 
    <td colname="col1"> <p> 
 
-    &amp;lt;/geleid-als-resultaat-gebied&amp;gt; &lt;/code> &lt;/p> &lt;/td>
-<td colname="col2"> <p>Waar als er inhoud op het specifieke gebied aan vertoning is. Als geen inhoud bestaat, is de voorwaarde vals. Gebruik de markeringen om te beslissen of omringend HTML of niet wordt getoond als een waarde niet bestaat, of als een verschillend beeld, etc. wordt getoond. </p> <p> <code class="syntax html"> &lt;guided-if-result-field&nbsp;gsname="thumbnail"&gt; 
+    &amp;lt;/guided-if-result-field&amp;gt; &lt;/code> &lt;/p> &lt;/td>
+<td colname="col2"> <p>True if there is content in the specific field to display. Als er geen inhoud bestaat, is de voorwaarde onwaar. Gebruik de tags om te bepalen of omringende HTML wordt weergegeven of niet als een waarde niet bestaat, of als een andere afbeelding wordt weergegeven, enzovoort. </p> <p> <code class="syntax html"> &lt;guided-if-result-field&nbsp;gsname="thumbnail"&gt; 
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;guided-result-img&nbsp;gsname="thumbnail"&nbsp;class="thumb"/&gt; 
       &lt;guided-else-result-field&gt; 
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;img&nbsp;src="nothumb.jpg"&nbsp;class="nothumb"/&gt; 
@@ -193,62 +196,62 @@ De verklaringen zijn speciale geleid-verklaar markeringen die u bij de bovenkant
   </tr> 
   <tr> 
    <td colname="col01"> <p>16 </p> </td> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;geleid resultaat-attribuut-lijst gsname="tabelnaam"&gt; </span> </p> </td> 
-   <td colname="col2"> <p>Deze markering verstrekt een lijn door attributenlijst die in het vervoermalplaatje wordt bepaald met <span class="codeph"> &lt;attribuut_table&gt; </span> vervoermarkering. Er is <span class="codeph"> &lt;geleid-resultaat-attribuut-lijst-gebied&gt; </span> markering voor het tonen van het gebiedswaarden van de attributenlijst. Ook is het mogelijk om duidelijke <span class="codeph"> geleid-resultaat-gebied </span> markeringsbinnenlijn te gebruiken voor het tonen van andere resultaatgebieden. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;guided-result-attribute-table gsname="tablename"&gt; </span> </p> </td> 
+   <td colname="col2"> <p>Deze markering verstrekt een lijn door attributenlijst die in het vervoermalplaatje met <span class="codeph"> &lt;attribute_table&gt; </span> vervoermarkering wordt bepaald. Er is <span class="codeph"> &lt;guided-result-attribute-table-field&gt;- </span> tag voor het weergeven van veldwaarden voor kenmerktabellen. Het is ook mogelijk om normale <span class="codeph"> guided-result-field </span> tag inside loop te gebruiken voor het weergeven van andere resultaatvelden. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>17 </p> </td> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;guided result-attribuut-table-field gsname="fieldname" [escape="html|url|js|json|0"]/&gt; </span> </p> </td> 
-   <td colname="col2"> <p>Het gebied van de attributenlijst van vertoningen zoals die in vervoermalplaatje wordt bepaald. </p> <p> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;guided-result-attribute-table-field gsname="fieldName" [escape="html|url|js|json|0"]/&gt; </span> </p> </td> 
+   <td colname="col2"> <p>Toont het gebied van de attributenlijst zoals die in vervoermalplaatje wordt bepaald. </p> <p> 
 
     ...
     
     &amp;lt;ul&amp;gt;
     
-    &amp;lt;geleide-resultaat-attribuut-tabel&amp;nbsp;gsname=&quot;downloads&quot;&amp;gt;
-    &amp;nbsp;amp;nbsp;&amp;nbsp;&amp;nbsp;
-    &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;amp;amp;nbsp;&amp;nbsp;&amp;nbsp; sp;&amp;nbsp;&amp;lt;a&amp;nbsp;href=&quot;&amp;lt;guided-result-attribuut-table-field&amp;nbsp;gbsp;sap=&quot;download_link&quot;&amp;nbsp;/&amp;gt;
-    &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;nbsp;
+    &amp;lt;guided-result-attribute-attribute-table&amp;nbsp;gsname=&quot;downloads&quot;&amp;gt;
+    &amp;nbsp;amp;nbsp;&amp;lt;li&amp;
     &amp;nbsp;
-    &amp;nbsp;&amp;nbsp;&amp;bsp;nbsp;&amp;nbsp;nbsp;amp;lt;/a&amp;gt;&amp;nbsp;(&amp;nbsp;lt;geleide-resultaat-veld&amp;nbsp;nbsp;gp=&quot;title&quot;/&amp;gt;
-    &amp;nbsp;&amp;nbsp;&amp;lt&amp;;gt;
+    &amp;nbsp;amp;amp;nbsp;&amp; sp;&amp;nbsp;&amp;lt;a&amp;nbsp;href=&quot;&amp;lt;guided-result-attribute-table-field&amp;nbsp;gsname=&quot;download_link&quot;&amp;nbsp;/&amp;gt;&quot;&amp;gt;
+    &amp;nbsp;&amp;nbsp;&amp; &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;lt;lt;guided-result-attribute-table-field&amp;nbsp;gsname=&quot;download_title&quot;&amp;nbsp;/&amp;
+    &amp;nbsp;&amp;amp &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;lt;/a&amp;gt;&amp;nbsp;(&amp;lt;guided-result-field&amp;nbsp;gsname=&quot;title&quot;/&amp;gt;)
+    &amp;nbsp;&amp;nbsp;&amp;lt;/li;gt;
     
-    &amp;lt;/geleid-resultaat-attribuut-attribuut-lijst&amp;gt;
+    &amp;lt;/guided-result-attribute-table&amp;gt;
     
-    &amp;lt;/ul&amp;gt;...
+    &amp;lt;/ul&amp;gt;..
     
-    &amp;lt;/geleide-resultaten&amp;gt; &lt;/code> &lt;/p> &lt;/td>
+    &amp;lt;/guided-results&amp;gt; &lt;/code> &lt;/p> &lt;/td>
 </tr> 
   <tr> 
    <td colname="col01"> <p>18 </p> </td> 
    <td colname="col1"> <p> 
-     <!--NEW for S&P 8.17.0 release in October 2014--> <span class="codeph"> &lt;guided-trace [gsname="zoeknaam"]/&gt; </span> </p> </td> 
-   <td colname="col2"> <p>Output de spoorinformatie die binnen de spoorgegevens binnen de algemene sectie van de JSON gegevensoutput door het vervoermalplaatje voor de bepaalde opsporing wordt gevonden. </p> <p>Als geen onderzoeksnaam wordt gegeven, wordt het <span class="codeph"> gebrek verondersteld </span> . </p> </td> 
+     <!--NEW for S&P 8.17.0 release in October 2014--> <span class="codeph"> &lt;guided-trace [gsname="search name"]/&gt; </span> </p> </td> 
+   <td colname="col2"> <p>Hiermee wordt de traceerinformatie uitgevoerd die wordt gevonden binnen de traceergegevens in het algemene gedeelte van de JSON-gegevensuitvoer door de transportsjabloon voor de opgegeven zoekopdracht. </p> <p>Als er geen zoeknaam wordt gegeven, wordt <span class="codeph"> standaard </span> aangenomen. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>19 </p> </td> 
    <td colname="col1"> <p> 
-     <!--NEW for S&P 8.17.0 release on October 30, 2014)--> <span class="codeph"> &lt;geleid resultaat-spoor/&gt; </span> </p> </td> 
-   <td colname="col2"> <p>Output de inhoud JSON die binnen de resultaten &gt; spoorinformatie van de JSON gegevensoutput door het vervoermalplaatje voor het huidige onderzoeksresultaat wordt gevonden. </p> <p>Deze markering is slechts geldig binnen de <span class="codeph"> &lt;geleide-resultaten&gt;&lt;/geleide-resultaten&gt; </span> lijn. </p> </td> 
+     <!--NEW for S&P 8.17.0 release on October 30, 2014)--> <span class="codeph"> &lt;guided-result-trace/&gt; </span> </p> </td> 
+   <td colname="col2"> <p>Hiermee wordt de JSON-inhoud uitgevoerd die is gevonden in de resultaten &gt; traceerinformatie van de JSON-gegevensuitvoer via de transportsjabloon voor het huidige zoekresultaat. </p> <p>Deze tag is alleen geldig in de <span class="codeph"> &lt;/guided-results&gt;- </span> lus. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Facturen {#section_EA4C5678D5864B89BAB4D0DFE62A4624}
+## Facetten {#section_EA4C5678D5864B89BAB4D0DFE62A4624}
 
-De gebieden zijn navigatie componenten die u in onderzoeksresultaten laten boren. U kunt de facetmarkeringen gebruiken om diverse facetten op uw presentatiemalplaatje te tonen. U refereert facetten door naam.
+Facetten zijn navigatiecomponenten waarmee u naar zoekresultaten kunt gaan. U kunt de facetlabels gebruiken om verschillende facetten in uw presentatiesjabloon weer te geven. U verwijst facetten op naam.
 
-Zie [Over Facets](../c-about-design-menu/c-about-facets.md#concept_FA912B3B41EE493DB2F492D188457FF5).
+Zie [Informatie over facetten](../c-about-design-menu/c-about-facets.md#concept_FA912B3B41EE493DB2F492D188457FF5).
 
-Zie [over de facetrails](../c-about-design-menu/c-about-facet-rails.md#concept_1FDC8BCDFFC84A0889DA670F63D5F6DB).
+Zie [Informatie over facetrails](../c-about-design-menu/c-about-facet-rails.md#concept_1FDC8BCDFFC84A0889DA670F63D5F6DB).
 
-Zie [over Dynamische Facets](../c-about-design-menu/c-about-dynamic-facets.md#concept_E65A70C9C2E04804BF24FBE1B3CAD899).
+Zie [Dynamische factoren](../c-about-design-menu/c-about-dynamic-facets.md#concept_E65A70C9C2E04804BF24FBE1B3CAD899).
 
 <table> 
  <thead> 
   <tr> 
    <th colname="col01" class="entry"> </th> 
-   <th colname="col1" class="entry"> <p>Markering </p> </th> 
+   <th colname="col1" class="entry"> <p>Tag </p> </th> 
    <th colname="col2" class="entry"> <p>Beschrijving </p> </th> 
   </tr> 
  </thead>
@@ -256,46 +259,46 @@ Zie [over Dynamische Facets](../c-about-design-menu/c-about-dynamic-facets.md#co
   <tr> 
    <td colname="col01"> <p>1 </p> </td> 
    <td colname="col1"> <p> 
-     <!--NEW 02/27/2014--> <span class="codeph"> &lt;geleide-dynamische-facetten&gt;&lt;/geleide-dynamische-facetten&gt; </span> </p> </td> 
+     <!--NEW 02/27/2014--> <span class="codeph"> &lt;guided-dynamic-facets&gt;&lt;/guided-dynamic-facets&gt; </span> </p> </td> 
    <td colname="col2"> 
-    <!--NEW 2/2/2014--> <p>Een het van een lus voorzien context voor om het even welke dynamische facetten voor een bepaald onderzoek. </p> <p>De markering van het <span class="codeph"> &lt;geleide-facet&gt; </span> van het presentatiemalplaatje wordt uitgegeven zodat het attribuut gsname automatisch door de <span class="codeph"> &lt;geleide-dynamisch-facetten&gt; van een lus voorziende context wordt verstrekt </span> . </p> </td> 
+    <!--NEW 2/2/2014--> <p>Een luscontext voor om het even welke dynamische facetten voor een bepaalde onderzoek. </p> <p>De sjabloontag <span class="codeph"> &lt;guided-facet&gt; van de presentatie wordt bewerkt, zodat het kenmerk gsname automatisch wordt opgegeven door de </span> &lt;guided-dynamic-facets&gt;- <span class="codeph"> </span> luscontext. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>2 </p> </td> 
    <td colname="col1"> <p> <span class="codeph"> &lt;guided-facet-display-name gsname=" <span class="varname"> facetname </span>"/&gt; </span> </p> </td> 
-   <td colname="col2"> <p>Keert het vertoningsetiket van het facet terug. </p> <p>Als het facet de <span class="codeph"> &lt;display-name&gt; </span> markering op het vervoermalplaatje gebruikt, wordt de inhoud van die markering het etiket. </p> </td> 
+   <td colname="col2"> <p>Retourneert het weergavelabel van het facet. </p> <p>Als de facet de <span class="codeph"> &lt;display-name&gt;- </span> tag op de transportsjabloon gebruikt, wordt de inhoud van die tag het label. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>3 </p> </td> 
    <td colname="col1"> <p> 
-     <!--In search-eng version 1/31/13--> <span class="codeph"> &lt;geleidende facet-rail&gt;&lt;/geleide facet-rail&gt; </span> </p> </td> 
-   <td colname="col2"> <p> Bepaalt een sectie op het presentatiemalplaatje dat als herhalend patroon voor elk facet in de facetspoorstaaf wordt gebruikt. </p> <p> Elk facet dat tot de facetspoorstaaf behoort gebruikt dit deel om zijn output te evalueren. </p> <p>Het volgende is een voorbeeld van een facetspoorstaaf: </p> <p> <code class="syntax html"> &lt;guided-facet-rail&gt; 
+     <!--In search-eng version 1/31/13--> <span class="codeph"> &lt;guided-facet-rail&gt;&lt;/guided-facet-rail&gt; </span> </p> </td> 
+   <td colname="col2"> <p> Definieert een sectie op de presentatiesjabloon die wordt gebruikt als een herhalingspatroon voor elk facet in de facetrails. </p> <p> Elk facet dat tot de facetspoorstaaf behoort gebruikt dit gedeelte om zijn output te evalueren. </p> <p>Hier volgt een voorbeeld van een facetrails: </p> <p> <code class="syntax html"> &lt;guided-facet-rail&gt; 
       &nbsp;&nbsp;&lt;guided-facet&gt; 
       &nbsp;&nbsp;&nbsp;&nbsp;&lt;guided-facet-display-name/&gt; 
       &nbsp;&nbsp;&nbsp;&nbsp;... 
       &nbsp;&nbsp;&nbsp;&nbsp;&lt;/guided-facet&gt; 
-      &nbsp;&nbsp;&lt;/guided-facet-rail&gt; </code> </p> <p>Merk op dat de volgende markeringen geen <span class="codeph"> gsname </span> attribuut wanneer binnen <span class="codeph"> </span> &lt;geleid-facet-rail&gt; markering nodig hebben aangezien de waarde dynamisch in onderzoekstijdstip wordt bepaald en behoorlijk wordt gesubstitueerd: </p> 
+      &nbsp;&nbsp;&lt;/guided-facet-rail&gt; </code> </p> <p>Voor de volgende tags is het <span class="codeph"> kenmerk gsname niet nodig </span> wanneer de tag <span class="codeph"> &lt;guided-facet-rail&gt; </span> zich in de tag bevindt, aangezien de waarde tijdens het zoeken dynamisch wordt bepaald en correct wordt vervangen: </p> 
     <ul id="ul_5B5ACAFD2B8848DDB27471AB9DA7BE6E"> 
-     <li id="li_5A07E78D51FE4708879DD742C877FFFF">begeleid facet </li> 
-     <li id="li_B875DCACD7AB4FC890A456A6939AB657">begeleide-facet vertoning-naam </li> 
-     <li id="li_B70450749E864DE7BA401E3CD6EF5EB3">aantal begeleide facetten </li> 
-     <li id="li_DECDF5EF6FF7454F86C236D322F2BFEA">gelaatsverbinding ongedaan maken </li> 
-     <li id="li_176949227AC14E8CA643A419E10F7B5A">geleid-facet-undo-weg </li> 
-     <li id="li_B32D981281744462BC680F6EFEAC0069">begeleid gedrag </li> 
-    </ul> <p>De soortcriteria op de <span class="wintitle"> pagina van de Spoorstaaf van het Gebied </span> bepalen de positie van de facetten. U kunt de soortorde van de drop-down lijst van de Methode van de Facets van de Soort kiezen. </p> <p> 
-     <!--NEW 02/27/2014-->Deze markering kan naar keuze een waarde van de gsname attributen van <span class="codeph"> _dynamic_facets goedkeuren </span>, die een het van een lus voorzien context voor om het even welke dynamische facetten voor dit onderzoek verstrekt. Deze vooraf gedefinieerde facetrail wordt ook in de Business Rules user interface voor action <span class="codeph"> push facet X in facet rail '_dynamic_facets' blootgesteld aan positie Y </span>". </p> <p>Zie <a href="../c-about-design-menu/c-about-facet-rails.md#concept_1FDC8BCDFFC84A0889DA670F63D5F6DB" format="dita" scope="local"> over de facetrails </a>. </p> <p>Zie ook <a href="../c-about-design-menu/c-about-dynamic-facets.md#concept_E65A70C9C2E04804BF24FBE1B3CAD899" format="dita" scope="local"> over Dynamische Facets </a>. </p> </td> 
+     <li id="li_5A07E78D51FE4708879DD742C877FFFF">met instructies </li> 
+     <li id="li_B875DCACD7AB4FC890A456A6939AB657">guided-facet-display-name </li> 
+     <li id="li_B70450749E864DE7BA401E3CD6EF5EB3">met instructies-facet-total-count </li> 
+     <li id="li_DECDF5EF6FF7454F86C236D322F2BFEA">guided-facet-undo-link </li> 
+     <li id="li_176949227AC14E8CA643A419E10F7B5A">guided-facet-undo-path </li> 
+     <li id="li_B32D981281744462BC680F6EFEAC0069">met instructies, gedrag </li> 
+    </ul> <p>De sorteercriteria op de <span class="wintitle"> pagina Facet Rail </span> bepalen de positie van de facetten. U kunt de sorteervolgorde kiezen in de vervolgkeuzelijst Methode voor sorteerfactoren. </p> <p> 
+     <!--NEW 02/27/2014-->Deze tag kan optioneel de waarde van het kenmerk gsname van <span class="codeph"> _dynamic_facets accepteren </span>, wat een herhalingscontext biedt voor alle dynamische facetten voor deze zoekopdracht. Deze vooraf gedefinieerde facetrail wordt ook weergegeven in de Business Rules-gebruikersinterface voor action <span class="codeph"> push facet X in facet rail '_dynamic_facets' to position Y </span>". </p> <p>Zie <a href="../c-about-design-menu/c-about-facet-rails.md#concept_1FDC8BCDFFC84A0889DA670F63D5F6DB" format="dita" scope="local"> Informatie over facetrails </a>. </p> <p>Zie ook <a href="../c-about-design-menu/c-about-dynamic-facets.md#concept_E65A70C9C2E04804BF24FBE1B3CAD899" format="dita" scope="local"> Informatie over dynamische factoren </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>4 </p> </td> 
    <td colname="col1"> <p> 
      <!--Updated to match current search-eng version 1/31/13--> <span class="codeph"> &lt;guided-facet gsname=" <span class="varname"> facetname </span>" height=" <span class="varname"> 60px </span>" width=" <span class="varname"> 120px </span>"&gt;&lt;/guided-facet&gt; </span> </p> </td> 
-   <td colname="col2"> <p>Gebruik de <span class="codeph"> geleide-facet </span> markering om een gebied te bepalen waarin alle facetmarkeringen op een specifiek facet betrekking hebben. Deze markering is ook een markering Van Boole die alle inhoud verbergt als geen waarden in het facet bestaan. In een dergelijk geval heeft het geen zin de facetwaarden uit te dragen). </p> <p>De hoogte en breedteattributen zijn facultatief en de afmetingen worden gespecificeerd in pixel (px). De visuele Bouwer van de Regel (VRB) gebruikt deze twee attributen, en toont een gestippelde doos als interactieve placeholder wanneer het facet verborgen is. </p> <p> Wanneer de vertoningsnaam in het facet is en het facet verborgen is, is de naam ook verborgen. Nochtans, als de naam buiten het facet is, kunt u de naam verbergen slechts als een <span class="codeph"> streekmarkering of een </span> geleid-als-facet-zichtbare <span class="codeph"> </span> markering rond het worden verpakt. </p> </td> 
+   <td colname="col2"> <p>Met de <span class="codeph"> </span> tag met instructies-facet kunt u een gebied definiëren waarbinnen alle facettags betrekking hebben op een bepaald facet. Dit label is ook een Booleaanse tag die alle inhoud verbergt als er geen waarden in het facet bestaan. In dat geval heeft het geen zin de waarden van de facetten uit te voeren. </p> <p>De kenmerken height en width zijn optioneel en de afmetingen worden opgegeven in pixels (px). De Visuele Bouwer van de Regel (VRB) gebruikt deze twee attributen, en toont een gestippelde doos als interactieve placeholder wanneer de facet verborgen is. </p> <p> Wanneer de weergavenaam zich in het facet bevindt en het facet verborgen is, wordt de naam ook verborgen. Als de naam zich echter buiten het facet bevindt, kunt u de naam alleen verbergen als er een <span class="codeph"> zone- </span> tag of een <span class="codeph"> geleide-if-facet-visible </span> -tag omheen wordt gewikkeld. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>5 </p> </td> 
    <td colname="col1"> <p> 
      <!--NEW, brought in from search-eng version, 1/31/13--> <span class="codeph"> &lt;guided-if[-not]-facet-long [gsname="facetname"]&gt;&lt;/guided-if[-not]-facet-long&gt; </span> </p> </td> 
-   <td colname="col2"> <p>Deze voorwaardelijke markering is waar wanneer het aantal facetwaarden over de lengte-drempel is die in de configuratie wordt bepaald. Gebruik het om een facet als verschillend element UI (zoals een beknot lijst of een roldoos) te tonen wanneer de lijst te lang is. </p> <p> <code class="syntax xml"> &lt;guided-facet&nbsp;name="category"&gt; 
+   <td colname="col2"> <p>Deze voorwaardelijke tag is waar wanneer het aantal facetwaarden groter is dan de lengte-drempel die in de configuratie is gedefinieerd. Gebruik deze optie om een facet weer te geven als een ander interface-element (zoals een afgekapte lijst of een schuifvak) wanneer de lijst te lang is. </p> <p> <code class="syntax xml"> &lt;guided-facet&nbsp;name="category"&gt; 
       &nbsp;&nbsp;&nbsp;&nbsp;&lt;guided-if-facet-long&gt; 
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;select&gt; 
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;guided-facet-values&gt; 
@@ -307,7 +310,7 @@ Zie [over Dynamische Facets](../c-about-design-menu/c-about-dynamic-facets.md#co
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;guided-facet-value-link&gt;&lt;guided-facet-value&nbsp;/&gt;&lt;/guided-facet-link&gt; 
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/guided-facet-values&gt; 
       &nbsp;&nbsp;&nbsp;&nbsp;&lt;/guided-if-facet-long&gt; 
-      &lt;/guided-facet&gt; </code> </p> <p>U kunt deze voorwaarde buiten de context van een genoemd <span class="codeph"> geleid-facet </span> blok ook gebruiken door een specifiek facet direct door gebruik van de <span class="codeph"> gsname </span> attributen van verwijzingen te voorzien. </p> <p> <code class="syntax html"> &lt;guided-if-facet-long&nbsp;gsname="category"&gt; 
+      &lt;/guided-facet&gt; </code> </p> <p>U kunt deze voorwaarde ook buiten de context van een genoemd <span class="codeph"> geleide-facetblok gebruiken door rechtstreeks naar een specifiek facet te verwijzen door het gebruik van het </span> gsname- <span class="codeph"> </span> kenmerk. </p> <p> <code class="syntax html"> &lt;guided-if-facet-long&nbsp;gsname="category"&gt; 
       &nbsp;&nbsp;&nbsp;&nbsp;The&nbsp;category&nbsp;facet&nbsp;is&nbsp;very&nbsp;long! 
       &lt;/guided-if-facet-long&gt; </code> </p> </td> 
   </tr> 
@@ -315,7 +318,7 @@ Zie [over Dynamische Facets](../c-about-design-menu/c-about-dynamic-facets.md#co
    <td colname="col01"> <p>6 </p> </td> 
    <td colname="col1"> <p> 
      <!--NEW, brought in from search-eng version, 1/31/13--> <span class="codeph"> &lt;guided-if[-not]-facet-selected [gsname="facetname"]&gt;&lt;/guided-if[-not]-facet-selected&gt; </span> </p> </td> 
-   <td colname="col2"> <p>Deze voorwaardelijke markering is waar wanneer het facet minstens eens wordt geklikt en een facetwaarde momenteel wordt geselecteerd. Het wordt gebruikt om de markeringen van HTML of van gs te tonen of te verbergen afhankelijk van of een facet werd geklikt. </p> <p> <code class="syntax html"> &lt;guided-facet&nbsp;name="category"&gt; 
+   <td colname="col2"> <p>Deze voorwaardelijke tag is waar wanneer ten minste één keer op het facet wordt geklikt en er momenteel een facetwaarde is geselecteerd. Het wordt gebruikt om HTML- of tags gs weer te geven of te verbergen, afhankelijk van het feit of er op een facet is geklikt. </p> <p> <code class="syntax html"> &lt;guided-facet&nbsp;name="category"&gt; 
       &nbsp;&nbsp;&nbsp;&nbsp;&lt;guided-if-facet-selected&gt; 
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This&nbsp;facet&nbsp;has&nbsp;been&nbsp;selected.&nbsp;&nbsp;You&nbsp;can&nbsp;no&nbsp;longer&nbsp;refine&nbsp;it. 
       &nbsp;&nbsp;&nbsp;&nbsp;&lt;guided-else-facet-selected&gt; 
@@ -323,7 +326,7 @@ Zie [over Dynamische Facets](../c-about-design-menu/c-about-dynamic-facets.md#co
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;guided-facet-value-link&gt;&lt;guided-facet-value&nbsp;/&gt;&lt;/guided-facet-link&gt; 
       &nbsp;&nbsp;&nbsp;&nbsp;&lt;/guided-facet-values&gt; 
       &nbsp;&nbsp;&nbsp;&nbsp;&lt;/guided-if-facet-selected&gt; 
-      &lt;/guided-facet&gt; </code> </p> <p>U kunt deze voorwaarde buiten de context van een genoemd <span class="codeph"> geleid-facet </span> blok ook gebruiken door een specifiek facet direct door gebruik van de <span class="codeph"> gsname </span> attributen van verwijzingen te voorzien. </p> <p> <code> &lt;guided-if-facet-selected&nbsp;gsname="category"&gt; 
+      &lt;/guided-facet&gt; </code> </p> <p>U kunt deze voorwaarde ook buiten de context van een genoemd <span class="codeph"> geleide-facetblok gebruiken door rechtstreeks naar een specifiek facet te verwijzen door het gebruik van het </span> gsname- <span class="codeph"> </span> kenmerk. </p> <p> <code> &lt;guided-if-facet-selected&nbsp;gsname="category"&gt; 
       &nbsp;&nbsp;&nbsp;&nbsp;The&nbsp;category&nbsp;facet&nbsp;is&nbsp;selected! 
       &lt;/guided-if-facet-selected&gt; </code> </p> </td> 
   </tr> 
@@ -331,7 +334,7 @@ Zie [over Dynamische Facets](../c-about-design-menu/c-about-dynamic-facets.md#co
    <td colname="col01"> <p>7 </p> </td> 
    <td colname="col1"> <p> 
      <!--NEW, brought in from search-eng version, 1/31/13--> <span class="codeph"> &lt;guided-if[-not]-facet-single [gsname="facetname"]&gt;&lt;/guided-if[-not]-facet-single&gt; </span> </p> </td> 
-   <td colname="col2"> <p>Deze voorwaardelijke markering is waar wanneer er slechts één facetwaarde is. Gebruik de markering om de vertoning van het facet te veranderen wanneer het niet de capaciteit heeft om de resultaten te raffineren. </p> <p> <code class="syntax html"> &lt;guided-facet&nbsp;name="category"&gt; 
+   <td colname="col2"> <p>Deze voorwaardelijke tag is waar wanneer er slechts één facetwaarde is. Gebruik de tag om de weergave van het facet te wijzigen als het niet mogelijk is de resultaten te verfijnen. </p> <p> <code class="syntax html"> &lt;guided-facet&nbsp;name="category"&gt; 
       &nbsp;&nbsp;&nbsp;&nbsp;&lt;guided-if-facet-single&gt; 
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Facet&nbsp;is&nbsp;not&nbsp;refinable. 
       &nbsp;&nbsp;&nbsp;&nbsp;&lt;guided-else-facet-single&gt; 
@@ -339,7 +342,7 @@ Zie [over Dynamische Facets](../c-about-design-menu/c-about-dynamic-facets.md#co
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;guided-facet-value-link&gt;&lt;guided-facet-value&nbsp;/&gt;&lt;/guided-facet-link&gt; 
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/guided-facet-values&gt; 
       &nbsp;&nbsp;&nbsp;&nbsp;&lt;/guided-if-facet-single&gt; 
-      &lt;/guided-facet&gt; </code> </p> <p>U kunt deze voorwaarde buiten de context van een genoemd <span class="codeph"> geleid-facet </span> blok ook gebruiken door een specifiek facet direct door gebruik van de <span class="codeph"> gsname </span> attributen van verwijzingen te voorzien. </p> <p> <code class="syntax html"> &lt;guided-if-facet-single&nbsp;gsname="category"&gt; 
+      &lt;/guided-facet&gt; </code> </p> <p>U kunt deze voorwaarde ook buiten de context van een genoemd <span class="codeph"> geleide-facetblok gebruiken door rechtstreeks naar een specifiek facet te verwijzen door het gebruik van het </span> gsname- <span class="codeph"> </span> kenmerk. </p> <p> <code class="syntax html"> &lt;guided-if-facet-single&nbsp;gsname="category"&gt; 
       &nbsp;&nbsp;&nbsp;&nbsp;There&nbsp;is&nbsp;only&nbsp;one&nbsp;value&nbsp;in&nbsp;the&nbsp;category&nbsp;facet! 
       &lt;/guided-if-facet-single&gt; </code> </p> </td> 
   </tr> 
@@ -347,42 +350,42 @@ Zie [over Dynamische Facets](../c-about-design-menu/c-about-dynamic-facets.md#co
    <td colname="col01"> <p>8 </p> </td> 
    <td colname="col1"> <p> 
      <!--Added 7/15/2014--> <span class="codeph"> &lt;guided-if[-not]-facet-multiselect [gsname="facetname"]&gt;&lt;/guided-if[-not]-facet-multiselect&gt; </span> </p> </td> 
-   <td colname="col2"> <p>Deze voorwaardelijke markering is waar wanneer het facet multi-select is. Gebruik de markering om de vertoning van het facet te veranderen binnen <span class="codeph"> &lt;geleide-facet-rail&gt; </span> of <span class="codeph"> &lt;geleide-dynamisch-facetten&gt; </span> markeringen. </p> <p> 
+   <td colname="col2"> <p>Deze voorwaardelijke tag is waar wanneer het facet meerdere selecties heeft. Gebruik de tag om de weergave van het facet te wijzigen binnen <span class="codeph"> &lt;guided-facet-rail&gt; </span> - of <span class="codeph"> &lt;guided-dynamic-facets&gt;- </span> -tags. </p> <p> 
 
-    &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;lt;geleide-if-facet-multiselect&amp;gt;
-    &amp;nbsp;....
-    &amp;nbsp;&amp;lt;geleid-else-facet-multiselect&amp;gt;
+    &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;lt;guided-if-facet-multiselect&amp;gt;
     &amp;nbsp;...
-    &amp;nbsp;&amp;lt;/geleide-if-facet-multiselect&amp;gt;
+    &amp;nbsp;&amp;lt;guided-else-facet-multiselect&amp;gt;
+    &amp;nbsp;...
+    &amp;nbsp;&amp;lt;/guided-if-facet-multiselect&amp;gt;
     &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;...
-    &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;lt;/geleide-facet&amp;gt;
-    &amp;nbsp;&amp;nbsp;&amp;lt;/geleide-facet-rail&amp;gt; &lt;/code> &lt;/p> &lt;/td>
+    &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;lt;/guided-facet&amp;gt;
+    &amp;nbsp;&amp;nbsp;&amp;lt;/guided-facet-rail&amp;gt; &lt;/code> &lt;/p> &lt;/td>
 </tr> 
   <tr> 
    <td colname="col01"> <p>9 </p> </td> 
    <td colname="col1"> <p> 
-     <!--In search-eng version 1/31/13--> <span class="codeph"> &lt;guided-facet-waardes [gsname=" <span class="varname"> facetname </span>"]&gt;&lt;/guided-facet-waardes&gt; </span> </p> </td> 
-   <td colname="col2"> <p>Dit is de de iteratormarkering van de gevelwaarde lijn. U kunt het binnen de context van een genoemd <span class="codeph"> geleid-facet </span> blok bepalen, waarbij u <span class="codeph"> gsname kunt weglaten <span class="varname"> </span> </span>. Of, u kunt het buiten om het even welk <span class="codeph"> geleid-facet </span> blok bepalen, maar het zou de <span class="codeph"> <span class="varname"> gsname </span> - </span> attributen vereisen om te identificeren welke reeks facetwaarden worden getoond. </p> <p>U kunt deze markering ook gebruiken om de facetwaarden buiten de context van een genoemd <span class="codeph"> geleid-facetblok te tonen </span> . U verwijst rechtstreeks een specifiek facet door de <span class="codeph"> gsname <span class="varname"> - </span> </span> attributen te gebruiken. </p> <p> <code class="syntax html"> &lt;script&gt; 
+     <!--In search-eng version 1/31/13--> <span class="codeph"> &lt;guided-facet-values [gsname=" <span class="varname"> facetname </span>"]&gt;&lt;/guided-facet-values&gt; </span> </p> </td> 
+   <td colname="col2"> <p>Dit is de iteratortag van de facetwaardelus. U kunt deze definiëren binnen de context van een benoemd <span class="codeph"> guided-facet- </span> blok. In dat geval kunt u de <span class="codeph"><span class="varname"> gsname weglaten </span> </span>. Of u kunt het buiten elk <span class="codeph"> blok met instructies-facetten definiëren, maar hiervoor is het </span><span class="codeph"> kenmerk gsname <span class="varname"></span> </span> nodig om te bepalen welke set met facetwaarden wordt weergegeven. </p> <p>U kunt deze tag ook gebruiken om de waarden van facetten weer te geven buiten de context van een benoemd <span class="codeph"> Geleide-facetblok </span> . U verwijst rechtstreeks naar een specifiek facet door het <span class="codeph"> gsname- <span class="varname"></span> </span> kenmerk te gebruiken. </p> <p> <code class="syntax html"> &lt;script&gt; 
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;registerFacetValues('category',&nbsp;'&lt;guided-facet-values&nbsp;gsname="category"&gt;&lt;guided-facet-value/&gt;,&lt;/guided-facet-values&gt;'); 
       &lt;/script&gt; </code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>10 </p> </td> 
    <td colname="col1"> <p> 
-     <!--Updated to match search-eng version 1/31/13--> <span class="codeph"> &lt;guided-facet-waarde [escape="html|url|js|json|0"]/&gt; </span> </p> </td> 
-   <td colname="col2"> <p>Output het koord van de huidige facetwaarde. </p> <p>Door gebrek is de waarde ontsnapte HTML. U kunt de vluchtoptie gebruiken om te veranderen hoe de waarde is ontsnapt. </p> </td> 
+     <!--Updated to match search-eng version 1/31/13--> <span class="codeph"> &lt;guided-facet-value [escape="html|url|js|json|0"]/&gt; </span> </p> </td> 
+   <td colname="col2"> <p>Geeft als uitvoer de tekenreeks van de huidige facetwaarde. </p> <p>De standaardwaarde is HTML escape. Met de optie Escape kunt u bepalen hoe de waarde wordt beschermd. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>11 </p> </td> 
    <td colname="col1"> <p> 
-     <!--In search-eng version 1/31/13--> <span class="codeph"> &lt;aantal geleidefacetten/&gt; </span> </p> </td> 
-   <td colname="col2"> <p>Output het aantal resultaten die de huidige facetwaarde aanpassen. </p> </td> 
+     <!--In search-eng version 1/31/13--> <span class="codeph"> &lt;guided-facet-count/&gt; </span> </p> </td> 
+   <td colname="col2"> <p>Hiermee geeft u het aantal resultaten weer dat overeenkomt met de huidige waarde van de facet. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>12 </p> </td> 
    <td colname="col1"> <p> 
-     <!--NEW, brought in from search-eng version, 1/31/13--> <span class="codeph"> &lt;geleide-facet-waarde-link [attr="waarde"]+&gt;&lt;/geleide-facet-waarde-link&gt; </span> </p> </td> 
-   <td colname="col2"> <p>Creeert een verbinding rond het koord van de facetwaarde voor de plaatsbezoeker om te klikken. De weg wordt automatisch geproduceerd om de resultaten door de huidige facetwaarde te versmallen. Het steunt het overgaan van om het even welke attributen direct tot de ankermarkering. </p> <p> <code class="syntax html"> &lt;guided-facet-values&gt; 
+     <!--NEW, brought in from search-eng version, 1/31/13--> <span class="codeph"> &lt;guided-facet-value-link [attr="value"]+&gt;&lt;/guided-facet-value-link&gt; </span> </p> </td> 
+   <td colname="col2"> <p>Hiermee maakt u een koppeling rond de tekenreeks met de facetwaarde waarop de bezoeker van de site moet klikken. Het pad wordt automatisch gegenereerd om de resultaten met de huidige facetwaarde te beperken. Het doorgeven van alle kenmerken rechtstreeks naar de ankertag wordt ondersteund. </p> <p> <code class="syntax html"> &lt;guided-facet-values&gt; 
       &nbsp;&nbsp;&nbsp;&nbsp;&lt;guided-facet-value-link&nbsp;class="facetlink"&gt;&lt;guided-facet-value&nbsp;/&gt;&lt;/guided-facet-value-link&gt; 
       &lt;/guided-facet-values&gt; </code> </p> </td> 
   </tr> 
@@ -393,7 +396,7 @@ Zie [over Dynamische Facets](../c-about-design-menu/c-about-dynamic-facets.md#co
       &lt;guided-else-facet- 
       value-selected&gt; 
       &lt;/guided-if-facet-value-selected&gt; </code> </p> </td> 
-   <td colname="col2"> <p>Verandert de vertoning van de facetwaarde wanneer het momenteel wordt geselecteerd. Als het al is gekozen, is het in de meeste gevallen niet meer met elkaar te verbinden. </p> <p> <code class="syntax html"> &lt;guided-facet-values&gt; 
+   <td colname="col2"> <p>Hiermee wijzigt u de weergave van de facetwaarde wanneer deze momenteel is geselecteerd. Als het al is gekozen, is het in de meeste gevallen niet langer koppelbaar. </p> <p> <code class="syntax html"> &lt;guided-facet-values&gt; 
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;guided-if-facet-value-selected&gt; 
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;b&gt;&lt;guided-facet-value/&gt;&lt;/b&gt; 
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;guided-else-facet-value-selected&gt; 
@@ -406,8 +409,8 @@ Zie [over Dynamische Facets](../c-about-design-menu/c-about-dynamic-facets.md#co
    <td colname="col1"> <p> 
      <!--Updated to match search-eng version 1/31/13--> 
 
-    &amp;lt;/guided-if[-not]-facet-waarde-spook&amp;gt; &lt;/code> &lt;/p> &lt;/td>
-<td colname="col2"> <p>Verandert de vertoning van de facetwaarde wanneer het een spookwaarde is. Wanneer een facetwaarde een spookwaarde is, wordt het typisch getoond in cursieve teksten om erop te wijzen dat de waarde mist of "ghosted". </p> <p>Het volgende codeuittreksel is een voorbeeld van een facetblok: </p> <p> <code class="syntax html"> &lt;guided-facet-values&gt; 
+    &amp;lt;/guided-if[-not]-facet-value-spook&amp;gt; &lt;/code> &lt;/p> &lt;/td>
+<td colname="col2"> <p>Wijzigt de weergave van de waarde van de facet als het een spookwaarde is. Wanneer een waarde van een facet een spookwaarde is, wordt deze doorgaans cursief weergegeven om aan te geven dat de waarde ontbreekt of wordt "gehost". </p> <p>Het volgende codefragment is een voorbeeld van een facetblok: </p> <p> <code class="syntax html"> &lt;guided-facet-values&gt; 
       &nbsp;&nbsp;&nbsp;&nbsp;&lt;guided-if-facet-value-selected&gt; 
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;b&gt;&lt;guided-facet-value&nbsp;/&gt;&nbsp;(&lt;guided-facet-count&nbsp;/&gt;)&lt;/b&gt; 
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;guided-else-facet-value-selected&gt; 
@@ -423,14 +426,15 @@ Zie [over Dynamische Facets](../c-about-design-menu/c-about-dynamic-facets.md#co
    <td colname="col01"> <p>15 </p> </td> 
    <td colname="col1"> <p> 
      <!--Updated to match search-eng version 1/31/13--> <span class="codeph"> &lt;guided-facet-undo-link gsname=" <span class="varname"> facetname </span>"&gt;&lt;/guided-facet-undo-link&gt; </span> </p> </td> 
-   <td colname="col2"> <p>Toont ongedaan maken verbinding voor een bepaald facet. Als er multi-select facetten zijn, schrapt deze verbinding alle waarden van het bepaalde facet. Geef het facet een naam. Als het facet momenteel niet wordt geselecteerd dan is de verbinding de huidige weg. </p> <p>Het volgende is een voorbeeld van het gebruik van deze markering: </p> <p> <code class="syntax html"> &lt;guided-if-facet-selected&nbsp;gsname="category"&gt; 
+   <td colname="col2"> <p>Hiermee wordt een koppeling voor ongedaan maken voor een bepaald facet weergegeven. Als er meerdere facetten zijn, heft deze koppeling de selectie van alle waarden van de desbetreffende facet op. Geef het facet een naam. Als het facet momenteel niet is geselecteerd, is de koppeling het huidige pad. </p> <p>Hieronder ziet u een voorbeeld van het gebruik van deze tag: </p> <p> <code class="syntax html"> &lt;guided-if-facet-selected&nbsp;gsname="category"&gt; 
       &nbsp;&nbsp;&nbsp;&nbsp;&lt;guided-facet-undo-link&nbsp;gsname="category"&gt;Undo&nbsp;Category&lt;/guided-facet-undo-link&gt; 
       &lt;/guided-if-facet-selected&gt; </code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>16 </p> </td> 
-   <td colname="col1"> <p> <varname></varname> </p> </td> 
-   <td colname="col2"> <p>Deze voorwaardelijke markering is waar wanneer het aantal facetwaarden over de lengte-drempel is die in de configuratie wordt bepaald. Gebruik het om een facet als verschillend gebruikersinterfaceelement (zoals een beknot lijst of een roldoos) te tonen wanneer de lijst te lang is. </p> <p> <code class="syntax html"> &lt;guided-facet&nbsp;gsname="category"&gt; 
+   <td colname="col1"> <p> <code> &lt;guided-if-facet-long [gsname="facetname"]&gt; 
+      &lt;guided-else-facet-long&gt;&lt;/guided-if-facet-long&gt; </code> </p> </td> 
+   <td colname="col2"> <p>Deze voorwaardelijke tag is waar wanneer het aantal facetwaarden groter is dan de lengte-drempel die in de configuratie is gedefinieerd. Gebruik deze optie om een facet weer te geven als een ander interface-element (zoals een afgekapte lijst of een schuifvak) wanneer de lijst te lang is. </p> <p> <code class="syntax html"> &lt;guided-facet&nbsp;gsname="category"&gt; 
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;guided-if-facet-long&gt; 
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;div&nbsp;class="long_facet"&gt; 
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;guided-facet-values&gt; 
@@ -444,7 +448,7 @@ Zie [over Dynamische Facets](../c-about-design-menu/c-about-dynamic-facets.md#co
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/guided-facet-values&gt; 
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/div&gt; 
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/guided-if-facet-long&gt; 
-      &nbsp;&lt;/guided-facet&gt; </code> </p> <p>U kunt deze voorwaarde buiten de context van een genoemd <span class="codeph"> geleid-facet </span> blok ook gebruiken door een specifiek facet direct door gebruik van de <span class="codeph"> <span class="varname"> gsname </span> - </span> attributen van verwijzingen te voorzien. </p> <p> <code class="syntax html"> &lt;guided-if-facet-long&nbsp;gsname="category"&gt; 
+      &nbsp;&lt;/guided-facet&gt; </code> </p> <p>U kunt deze voorwaarde ook buiten de context van een genoemd <span class="codeph"> geleide-facet </span> blok gebruiken door rechtstreeks naar een specifiek facet te verwijzen door het gebruik van het <span class="codeph"> <span class="varname"> gsname </span> - </span> attribuut. </p> <p> <code class="syntax html"> &lt;guided-if-facet-long&nbsp;gsname="category"&gt; 
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The&nbsp;category&nbsp;facet&nbsp;is&nbsp;very&nbsp;long! 
       &lt;/guided-if-facet-long&gt; </code> </p> </td> 
   </tr> 
@@ -452,7 +456,7 @@ Zie [over Dynamische Facets](../c-about-design-menu/c-about-dynamic-facets.md#co
    <td colname="col01"> <p>17 </p> </td> 
    <td colname="col1"> <p> <code> &lt;guided-if-facet-selected [gsname="facetname"]&gt; 
       &lt;guided-else-facet-selected&gt;&lt;/guided-if-facet-selected&gt; </code> </p> </td> 
-   <td colname="col2"> <p>Deze voorwaardelijke markering is waar wanneer het facet minstens eens wordt geklikt en een facetwaarde momenteel wordt geselecteerd. Het kan worden gebruikt om de markeringen van HTML of van gs te tonen of te verbergen afhankelijk van of een facet wordt geklikt. </p> <p> <code class="syntax html"> &lt;guided-facet&nbsp;gsname="category"&gt; 
+   <td colname="col2"> <p>Deze voorwaardelijke tag is waar wanneer ten minste één keer op het facet wordt geklikt en er momenteel een facetwaarde is geselecteerd. Het kan worden gebruikt om HTML- of gs-tags weer te geven of te verbergen, afhankelijk van het feit of op een facet wordt geklikt. </p> <p> <code class="syntax html"> &lt;guided-facet&nbsp;gsname="category"&gt; 
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;guided-if-facet-selected&gt; 
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This&nbsp;facet&nbsp;has&nbsp;been&nbsp;selected.&nbsp;&nbsp;You&nbsp;can&nbsp;no&nbsp;longer&nbsp;refine&nbsp;it. 
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;guided-else-facet-selected&gt; 
@@ -460,14 +464,15 @@ Zie [over Dynamische Facets](../c-about-design-menu/c-about-dynamic-facets.md#co
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;guided-facet-link&gt;&lt;guided-facet-value/&gt;&lt;/guided-facet-link&gt; 
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/guided-facet-values&gt; 
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/guided-if-facet-selected&gt; 
-      &lt;/guided-facet&gt; </code> </p> <p>U kunt deze voorwaarde buiten de context van een genoemd <span class="codeph"> geleid-facet </span> blok ook gebruiken door een specifiek facet direct door gebruik van de <span class="codeph"> gsname </span> attributen van verwijzingen te voorzien. </p> <p> <code class="syntax html"> &lt;guided-if-facet-selected&nbsp;gsname="category"&gt; 
+      &lt;/guided-facet&gt; </code> </p> <p>U kunt deze voorwaarde ook buiten de context van een genoemd <span class="codeph"> geleide-facetblok gebruiken door rechtstreeks naar een specifiek facet te verwijzen door het gebruik van het </span> gsname- <span class="codeph"> </span> kenmerk. </p> <p> <code class="syntax html"> &lt;guided-if-facet-selected&nbsp;gsname="category"&gt; 
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The&nbsp;category&nbsp;facet&nbsp;is&nbsp;selected! 
       &lt;/guided-if-facet-selected&gt; </code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>18 </p> </td> 
-   <td colname="col1"> <p> <varname></varname> </p> </td> 
-   <td colname="col2"> <p>Deze voorwaardelijke markering is waar wanneer er slechts één facetwaarde is. Het kan worden gebruikt om de vertoning van het facet te veranderen wanneer het niet de capaciteit heeft om de resultaten te raffineren. </p> <p> <code class="syntax html"> &lt;guided-facet&nbsp;gsname="category"&gt; 
+   <td colname="col1"> <p> <code> &lt;guided-if-facet-single [gsname="facetname"]&gt; 
+      &lt;guided-else-facet-single&gt;&lt;/guided-if-facet-single&gt; </code> </p> </td> 
+   <td colname="col2"> <p>Deze voorwaardelijke tag is waar wanneer er slechts één facetwaarde is. Deze kan worden gebruikt om de weergave van het facet te wijzigen wanneer de resultaten niet kunnen worden verfijnd. </p> <p> <code class="syntax html"> &lt;guided-facet&nbsp;gsname="category"&gt; 
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;guided-if-facet-single&gt; 
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Facet&nbsp;is&nbsp;not&nbsp;refinable. 
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;guided-else-facet-single&gt; 
@@ -475,48 +480,49 @@ Zie [over Dynamische Facets](../c-about-design-menu/c-about-dynamic-facets.md#co
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;guided-facet-link&gt;&lt;guided-facet-value/&gt;&lt;/guided-facet-link&gt; 
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/guided-facet-values&gt; 
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/guided-if-facet-single&gt; 
-      &lt;/guided-facet&gt; </code> </p> <p>U kunt deze voorwaarde buiten de context van een genoemd <span class="codeph"> geleid-facet </span> blok ook gebruiken door een specifiek facet direct door gebruik van de <span class="codeph"> <span class="varname"> gsname </span> - </span> attributen van verwijzingen te voorzien. </p> <p> <code class="syntax html"> &lt;guided-if-facet-single&nbsp;gsname="category"&gt; 
+      &lt;/guided-facet&gt; </code> </p> <p>U kunt deze voorwaarde ook buiten de context van een genoemd <span class="codeph"> geleide-facet </span> blok gebruiken door rechtstreeks naar een specifiek facet te verwijzen door het gebruik van het <span class="codeph"> <span class="varname"> gsname </span> - </span> attribuut. </p> <p> <code class="syntax html"> &lt;guided-if-facet-single&nbsp;gsname="category"&gt; 
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;There&nbsp;is&nbsp;only&nbsp;one&nbsp;value&nbsp;in&nbsp;the&nbsp;category&nbsp;facet! 
       &lt;/guided-if-facet-single&gt; </code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>19 </p> </td> 
-   <td colname="col1"> <p> <varname></varname> </p> </td> 
-   <td colname="col2"> <p>Deze voorwaarde laat u controleren of heeft het gespecificeerde facet om het even welke waarden bij allen. Je kunt het gebruiken om een ander facet te tonen in plaats van een lege. </p> </td> 
+   <td colname="col1"> <p> <code> &lt;guided-if-facet-has-values [gsname="facetname"]&gt; 
+      &lt;guided-else-facet-has-values&gt;&lt;/guided-if-facet-has-values&gt; </code> </p> </td> 
+   <td colname="col2"> <p>Met deze voorwaarde kunt u controleren of het opgegeven facet al waarden heeft. U kunt het gebruiken voor het tonen van een ander facet in plaats van een leeg facet. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>20 </p> </td> 
    <td colname="col1"> <p> <span class="codeph"> &lt;guided-facet-total-count gsname=" <span class="varname"> facetname </span>"/&gt; </span> </p> </td> 
-   <td colname="col2"> <p>Output het totale aantal resultaten die binnen het bepaalde facet zijn. </p> </td> 
+   <td colname="col2"> <p>Hiermee wordt het totale aantal resultaten binnen de opgegeven facet uitgevoerd. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>21 </p> </td> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;guided-facet-waarde gsname=" <span class="varname"> geassocieerde waarde van het douanefacet </span>" [escape="html|url|js|json|0"]/&gt; </span> </p> </td> 
-   <td colname="col2"> <p>Output het koord van een waarde die met het facet wordt geassocieerd. U kunt 0 of meer gebieden hebben verbonden aan een facet. Het hebben van bijbehorende gebieden is zeldzaam en om dergelijke te steunen vormt u het vervoermalplaatje. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;guided-facet-value gsname=" <span class="varname"> bijbehorende aangepaste facetwaarde </span>" [escape="html|url|js|json|0"]/&gt; </span> </p> </td> 
+   <td colname="col2"> <p>Hiermee wordt de tekenreeks uitgevoerd van een waarde die aan het facet is gekoppeld. Er kunnen 0 of meer velden zijn gekoppeld aan een facet. Het hebben van bijbehorende gebieden is zeldzaam en om zulk te steunen vormt u het vervoermalplaatje. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>22 </p> </td> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;guided-if-facet-waarde gsname=" <span class="varname"> bijbehorende waarde van het douanefacet </span>"/&gt;&lt;geleid-anders-facet-waarde&gt;&lt;/geleid-als-facet-waarde&gt; </span> </p> </td> 
-   <td colname="col2"> <p>Tests als de facetwaarde een bijbehorende gebiedswaarde heeft. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;guided-if-facet-value gsname=" <span class="varname"> bijbehorende aangepaste facetwaarde </span>"/&gt;&lt;guided-else-facet-value&gt;&lt;/guided-if-facet-value&gt; </span> </p> </td> 
+   <td colname="col2"> <p>Test of de waarde van de facet een bijbehorende veldwaarde heeft. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>23 </p> </td> 
    <td colname="col1"> <p> <span class="codeph"> &lt;guided-facet-link [attr=" <span class="varname"> value </span>"]+&gt;&lt;/guided-facet-link&gt; </span> </p> </td> 
-   <td colname="col2"> <p>Creeert een verbinding rond het koord van de facetwaarde voor de klant om te klikken. De weg wordt automatisch geproduceerd om de resultaten door de huidige facetwaarde te versmallen. Het steunt het overgaan van om het even welke attributen direct tot de ankermarkering. </p> <p> <code class="syntax html"> &lt;guided-facet-values&gt; 
+   <td colname="col2"> <p>Hiermee maakt u een koppeling rond de tekenreeks met de facetwaarde waarop de klant moet klikken. Het pad wordt automatisch gegenereerd om de resultaten met de huidige facetwaarde te beperken. Het doorgeven van alle kenmerken rechtstreeks naar de ankertag wordt ondersteund. </p> <p> <code class="syntax html"> &lt;guided-facet-values&gt; 
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;guided-facet-link&nbsp;class="facetlink"&gt;&lt;guided-facet-value/&gt;&lt;/guided-facet-link&gt; 
       &lt;/guided-facet-values&gt; </code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>24 </p> </td> 
    <td colname="col1"> <p> <span class="codeph"> &lt;guided-facet-value-path [escape="html|url|js|json|0"]/&gt; </span> </p> </td> 
-   <td colname="col2"> <p>Creeert uw eigen verbinding aan een facetwaarde. </p> <p> <code class="syntax html"> &lt;guided-facet-values&gt; 
+   <td colname="col2"> <p>Hiermee maakt u uw eigen koppeling naar een facetwaarde. </p> <p> <code class="syntax html"> &lt;guided-facet-values&gt; 
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;guided-lt/&gt;a&nbsp;href="&lt;guided-facet-value-path/&gt;"&lt;guided-gt/&gt;&lt;guided-facet-value/&gt;&lt;/a&gt; 
-      &lt;/guided-facet-values&gt; </code> </p> <p>Door gebrek, is de waarde ontsnapte URL. U kunt, echter, een andere laag van het coderen toevoegen door te specificeren welke wijze van het ontsnappen u als vluchtparameter wilt gebruiken. </p> </td> 
+      &lt;/guided-facet-values&gt; </code> </p> <p>De standaardwaarde is URL escape. U kunt echter een andere coderingslaag toevoegen door op te geven welke modus voor escape-tekens u wilt gebruiken met de escape-parameter. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>25 </p> </td> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;geleide-facet-waarde-kinderen&gt;&lt;/geleide-facet-waarde-kinderen&gt; </span> </p> </td> 
-   <td colname="col2"> <p>Zoals <span class="codeph"> </span> &lt;geleid-facet-waarden&gt; door elke facetwaarde herhalen, herhaalt deze markering door alle kindwaarden van een genesteld facet. Binnen deze markering, gebruik de typische facetmarkeringen voor het creëren van verbindingen, het creëren maak verbindingen ongedaan, en het tonen van facetwaarden ongedaan. Deze markering moet binnen <span class="codeph"> &lt;geleid-facet-waarden&gt; zijn </span> omdat het genestelde van een lus voorzien. </p> <p>Een voorbeeld om deze markering te gebruiken is het volgende: </p> <p> <code class="syntax html"> &lt;guided-facet-values&gt; 
+   <td colname="col1"> <p> <span class="codeph"> &lt;guided-facet-value-children&gt;&lt;/guided-facet-value-children&gt; </span> </p> </td> 
+   <td colname="col2"> <p>Wanneer <span class="codeph"> &lt;guided-facet-values&gt; elke facetwaarde </span> doorloopt, doorloopt deze tag alle onderliggende waarden van een genest facet. Binnen deze tag gebruikt u de typische facettags voor het maken van koppelingen, het maken van koppelingen voor ongedaan maken en het weergeven van facetwaarden. Deze tag moet zich binnen <span class="codeph"> &lt;guided-facet-values&gt; bevinden, </span> omdat de tag wel genest is. </p> <p>Een voorbeeld van het gebruik van deze tag is: </p> <p> <code class="syntax html"> &lt;guided-facet-values&gt; 
       &nbsp;&nbsp;&lt;guided-facet-link&nbsp;title='&lt;guided-facet-value&nbsp;/&gt;'&gt;&lt;guided-facet-value&nbsp;/&gt;&nbsp;(&lt;guided-facet-count&nbsp;/&gt;)&lt;/guided-facet-link&gt; 
       &nbsp;&nbsp;&lt;guided-if-facet-value-has-children&gt; 
       &nbsp;&nbsp;&nbsp;&lt;guided-facet-value-children&gt; 
@@ -531,84 +537,85 @@ Zie [over Dynamische Facets](../c-about-design-menu/c-about-dynamic-facets.md#co
       &lt;guided-else-facet- 
       value-has-children&gt; 
       &lt;/guided-if-facet-value-has-children&gt; </code> </p> </td> 
-   <td colname="col2"> <p>Tests als de huidige facetwaarde kindwaarden heeft. Aanbevolen om te gebruiken alvorens de <span class="codeph"> &lt;geleide-facet-waarde-kinderen&gt; </span> markeringen te gebruiken. De "else"clausule is facultatief. </p> </td> 
+   <td colname="col2"> <p>Test of de huidige facetwaarde onderliggende waarden heeft. Aanbevolen om te gebruiken alvorens de <span class="codeph"> &lt;guided-facet-value-children&gt; </span> markeringen te gebruiken. De component "else" is optioneel. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>27 </p> </td> 
    <td colname="col1"> <p> 
 
-    &amp;lt;geleid-else[-not]-facet-waarde-boven-lengte-drempel&amp;gt;
+    &amp;lt;guided-else[-not]-facet-value-above length-threshold&amp;gt;
     
-    &amp;lt;/geleid-als[-niet]-facet-waarde-boven-lengte-drempel&amp;gt; &lt;/code> &lt;/p> &lt;/td>
-<td colname="col2"> <p>Bepaalt als de huidige facetwaarde binnen de facet-waarden lijn, boven de lengtedrempel is. Het wordt typisch gebruikt aan slechts vertoningswaarden onder de drempel op een lang facet (tenzij de gebruiker eerder een "zie meer"verbinding die onder het facet wordt getoond selecteerde). </p> </td> 
+    &amp;lt;/guided-if[-not]-facet-value-above length-threshold&amp;gt; &lt;/code> &lt;/p> &lt;/td>
+<td colname="col2"> <p>Hiermee wordt bepaald of de huidige waarde van de facet binnen de lusbewerking voor waarden boven de lengtedrempel ligt. Deze wordt doorgaans gebruikt om alleen waarden onder de drempelwaarde weer te geven op een lang facet (tenzij de gebruiker eerder een koppeling 'Meer zien' heeft geselecteerd die onder de facet wordt weergegeven). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>28 </p> </td> 
    <td colname="col1"> <p> 
 
-    &amp;lt;geleide-else[-not]-facet-waarde-evenaart-lengte-drempel&amp;gt;
+    &amp;lt;guided-else[-not]-facet-value-equals-length-threshold&amp;gt;
     
-    &amp;lt;/geleid-als[-niet]-facet-waarde-evenaart-lengte-drempel&amp;gt; &lt;/code> &lt;/p> &lt;/td>
-<td colname="col2"> <p>Bepaalt als de huidige facetwaarde binnen de facet-waarden lijn, aan de lengtedrempel gelijk is. </p> </td> 
+    &amp;lt;/guided-if[-not]-facet-value-equals-length-threshold&amp;gt; &lt;/code> &lt;/p> &lt;/td>
+<td colname="col2"> <p>Hiermee wordt bepaald of de huidige waarde van de facet binnen de lusbewerking voor waarden gelijk is aan de lengtedrempel. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>29 </p> </td> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;geleid-facet-waarde-undo-link&gt;&lt;/geleid-facet-waarde-undo-link&gt; </span> </p> </td> 
-   <td colname="col2"> <p>Toont ongedaan maken verbinding voor een bepaalde geselecteerde facetwaarde. Gebruik het om te tonen undo verbinding naast een geselecteerde facetwaarde. Omdat deze undo verbinding slechts ongedaan maakt maakt die bepaalde geselecteerde waarde, verschilt het van <span class="codeph"> &lt;geleid-facet-undo-link&gt; </span> die alle geselecteerde waarden schrapt. </p> <p> <p>Opmerking:  Als het facet geen multi-select gedrag heeft dan hebben twee undo verbindingen het zelfde gedrag. Namelijk kan het facet slechts één geselecteerde waarde hebben. </p> </p> <p>Als het facet momenteel niet wordt geselecteerd dan is de verbinding de huidige weg. Gebruik deze markering slechts binnen een <span class="codeph"> geleid-facet-waarden </span> lijn. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;guided-facet-value-undo-link&gt;&lt;/guided-facet-value-undo-link&gt; </span> </p> </td> 
+   <td colname="col2"> <p>Hiermee wordt een koppeling voor ongedaan maken weergegeven voor een bepaalde geselecteerde facetwaarde. Gebruik deze optie om een koppeling voor ongedaan maken weer te geven naast een geselecteerde facetwaarde. Omdat deze koppeling voor ongedaan maken alleen die bepaalde geselecteerde waarde ongedaan maakt, verschilt deze van <span class="codeph"> &lt;guided-facet-undo-link&gt; </span> waarmee alle geselecteerde waarden worden uitgeschakeld. </p> <p> <p>Opmerking:  Als het facet geen multi-select gedrag heeft, dan hebben de twee undo verbindingen het zelfde gedrag. Dat wil zeggen dat het facet slechts één geselecteerde waarde kan hebben. </p> </p> <p>Als het facet momenteel niet is geselecteerd, is de koppeling het huidige pad. Gebruik dit label alleen in een <span class="codeph"> lus met </span> instructies-facetwaarden. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>30 </p> </td> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;geleid-facet-waarde-undo-weg/&gt; </span> </p> </td> 
-   <td colname="col2"> <p>Maak je eigen facetwaarde en maak de link ongedaan. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;guided-facet-value-undo-path/&gt; </span> </p> </td> 
+   <td colname="col2"> <p>Maak uw eigen facetwaarde en maak de koppeling ongedaan. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>31 </p> </td> 
    <td colname="col1"> <p> <span class="codeph"> &lt;guided-facet-undo-path gsname=" <span class="varname"> facetname </span>"/&gt; </span> </p> </td> 
-   <td colname="col2"> <p>Maak je eigen facet los link. </p> <p> Gelijkaardig aan de <span class="codeph"> &lt;geleid-facet-undo-link&gt; </span> markering behalve dat geeft het u de ruwe weg om uw te bouwen ongedaan maak verbinding ongedaan. </p> </td> 
+   <td colname="col2"> <p>Maak uw eigen koppeling Ongedaan maken facet. </p> <p> Vergelijkbaar met de <span class="codeph"> &lt;guided-facet-undo-link&gt;- </span> tag, behalve dat u hiermee het onbewerkte pad hebt om uw eigen koppeling voor ongedaan maken samen te stellen. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>32 </p> </td> 
-   <td colname="col1"> <p> <varname></varname> </p> </td> 
-   <td colname="col2"> <p>Voorwaardelijk toon HTML wanneer het bepaalde facet de geselecteerde of enige waarde "waarde"heeft. Deze reeks markeringen wordt vaak gebruikt om een facet te tonen dat op de waarde wordt gebaseerd die in een ander facet wordt geselecteerd. </p> </td> 
+   <td colname="col1"> <p> <code> &lt;guided-if-facet-value-matches facetname="facetname" value="value"&gt;&lt;guided-else-facet-value-matches&gt; 
+      &lt;/guided-if-facet-value-matches&gt; </code> </p> </td> 
+   <td colname="col2"> <p>Geef voorwaardelijk HTML weer wanneer het bepaalde facet de geselecteerde of enige waarde "waarde" heeft. Deze reeks labels wordt vaak gebruikt om een facet weer te geven op basis van de waarde die in een ander facet is geselecteerd. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>33 </p> </td> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;guided-facet-gedrag gsname=" <span class="varname"> facetname </span>"/&gt; </span> </p> </td> 
-   <td colname="col2"> <p>Bepaal het gedrag van een facet, zoals normaal, kleverig, of multi-uitgezochte. Het is nuttig voor klanten die de resultaten van XML ontvangen en willen dynamisch veranderen hoe het facet gebaseerd op zijn gedrag wordt getoond. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;guided-facet-behavior gsname=" <span class="varname"> facetname </span>"/&gt; </span> </p> </td> 
+   <td colname="col2"> <p>Bepaal het gedrag van een facet, zoals normaal, kleverig, of multi-select. Het is nuttig voor klanten die de resultaten van XML ontvangen en willen dynamisch veranderen hoe de facet op zijn gedrag wordt getoond. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>34 </p> </td> 
-   <td colname="col1"> <p> <varname></varname>
+   <td colname="col1"> <p> 
 
     &amp;lt;/guided-if-facet[-not]-visible&amp;gt; &lt;/code> &lt;/p> &lt;/td>
-<td colname="col2"> <p>De inhoud dat deze markeringsomslag of verborgen of onthuld gebaseerd op de zichtstatus van het facet is. Als een bedrijfsregel het facet verbergt of direct openbaart, wordt om het even welke inhoud binnen het facet verborgen of onthuld. Het is niet noodzakelijk dat deze markeringen rond het facet verpakken. </p> <p> Een gemeenschappelijk gebruik voor deze markering moet de vertoningsnaam verbergen wanneer de naam buiten het facet is. Het verpakken van deze markering rond de vertoningsnaam maakt de naam verdwijnen wanneer het facet wordt verborgen. </p> <p>Deze markering vervangt de streek en heeft veel van de zelfde prestatiesvoordelen zoals het gebruiken van streken. </p> </td> 
+<td colname="col2"> <p>De inhoud van deze tag wordt verborgen of onthuld op basis van de zichtbaarheidsstatus van het facet. Als een bedrijfsregel het facet direct verbergt of onthult, wordt alle inhoud binnen het facet verborgen of onthuld. Deze labels hoeven niet om de facet te lopen. </p> <p> Deze tag wordt vaak gebruikt om de weergavenaam te verbergen wanneer de naam zich buiten het facet bevindt. Als u deze tag rondom de weergavenaam plaatst, verdwijnt de naam wanneer het facet verborgen is. </p> <p>Deze tag vervangt de zone en biedt veel van dezelfde prestatievoordelen als het gebruik van zones. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Breadcrumb {#section_9B39B71FA6EC49FA8D88AD8A3BA987F7}
+## Broodkruimel {#section_9B39B71FA6EC49FA8D88AD8A3BA987F7}
 
-Zie [over Breadcrumbs](../c-about-design-menu/c-about-breadcrumbs.md#concept_FB8A943C594A4A1593B118141DA61F03).
+Zie [Informatie over broodkruimels](../c-about-design-menu/c-about-breadcrumbs.md#concept_FB8A943C594A4A1593B118141DA61F03).
 
 <table> 
  <thead> 
   <tr> 
    <th colname="col01" class="entry"> </th> 
-   <th colname="col1" class="entry"> <p>Markering </p> </th> 
+   <th colname="col1" class="entry"> <p>Tag </p> </th> 
    <th colname="col2" class="entry"> <p>Beschrijving </p> </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
    <td colname="col01"> <p>1 </p> </td> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;guided-breadcrumb [gsname=" <span class="varname"> breadcrumbname </span>"]&gt;&lt;/geleide breadcrumb&gt; </span> </p> </td> 
-   <td colname="col2"> <p>De lijnmarkering voor de broodkruimel. Om het even welke inhoud binnen tussen de het openen en sluitende markeringen wordt herhaald voor elk vraag-aantal van de huidige staat. </p> <p>Als <span class="codeph"> gsname <span class="varname"> </span> </span> wordt weggelaten, dan wordt de broodkruimel genoemd "gebrek"gebruikt. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;guided-breadcrumb [gsname=" <span class="varname"> breadcrumbname </span>"]&gt;&lt;/guided-breadcrumb&gt; </span> </p> </td> 
+   <td colname="col2"> <p>De lustag voor de breadcrumb. Alle inhoud tussen de openingstag en de afsluitende tag wordt herhaald voor elk querynummer van het huidige frame. </p> <p>Als <span class="codeph"> gsname <span class="varname"> </span> </span> wordt weggelaten, wordt de breadcrumb met de naam "default" gebruikt. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>2 </p> </td> 
    <td colname="col1"> <p> 
-     <!--Matched search-eng version, 2/1/2013--> <span class="codeph"> &lt;guided-breadcrumb-link [gsname="goto|remove|drop"] [attr="value"]+&gt;&lt;/geleide-breadcrumb-link&gt; </span> </p> </td> 
-   <td colname="col2"> <p>Creeert een verbinding in de broodkruimel. Het standaardgedrag is het "goto"gedrag. Als de verbinding zich verschillend gedraagt, gebruik de <span class="codeph"><span class="varname"> facultatieve attributen van de </span> gsname </span> om "te specificeren verwijder"of "daling". Om het even welk attribuut inbegrepen in de markering wordt overgegaan door tot de resulterende ankermarkering. </p> <p> <code class="syntax html"> &lt;guided-breadcrumb&gt; 
+     <!--Matched search-eng version, 2/1/2013--> <span class="codeph"> &lt;guided-breadcrumb-link [gsname="goto|remove|drop"] [attr="value"]+&gt;&lt;/guided-breadcrumb-link&gt; </span> </p> </td> 
+   <td colname="col2"> <p>Maakt een koppeling in de broodkruimel. Het standaardgedrag is het goto-gedrag. Als de koppeling zich anders gedraagt, gebruikt u het <span class="codeph"> optionele kenmerk gsname <span class="varname"> </span> </span> om "remove" of "drop" op te geven. Kenmerken die in de tag zijn opgenomen, worden doorgegeven aan de resulterende ankertag. </p> <p> <code class="syntax html"> &lt;guided-breadcrumb&gt; 
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;guided-breadcrumb-link&nbsp;gsname="remove"&nbsp;class="bc_link"&gt; 
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;guided-breadcrumb-value/&gt; 
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/guided-breadcrumb-link&gt; 
@@ -617,8 +624,8 @@ Zie [over Breadcrumbs](../c-about-design-menu/c-about-breadcrumbs.md#concept_FB8
   <tr> 
    <td colname="col01"> <p>3 </p> </td> 
    <td colname="col1"> <p> 
-     <!--Updated to search-eng version, 2/1/2013--> <span class="codeph"> &lt;geleide-breadcrumb-waarde /&gt; </span> </p> </td> 
-   <td colname="col2"> <p>De waardemarkering drukt uit de getransformeerde waarde van de huidige broodkruimeliteratie. Het wordt alleen gebruikt in de context van een <span class="codeph"> geleide-broodkruimelblok </span> . </p> <p> <code class="syntax html"> &lt;guided-breadcrumb&gt; 
+     <!--Updated to search-eng version, 2/1/2013--> <span class="codeph"> &lt;guided-breadcrumb-value /&gt; </span> </p> </td> 
+   <td colname="col2"> <p>De waardetag drukt uit de getransformeerde waarde van de huidige broodkruimeliteratie. Het wordt alleen gebruikt in de context van een <span class="codeph"> geleide-breadcrumb- </span> blok. </p> <p> <code class="syntax html"> &lt;guided-breadcrumb&gt; 
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;guided-breadcrumb-link&gt; 
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;guided-breadcrumb-value/&gt; 
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/guided-breadcrumb-link&gt; 
@@ -627,8 +634,8 @@ Zie [over Breadcrumbs](../c-about-design-menu/c-about-breadcrumbs.md#concept_FB8
   <tr> 
    <td colname="col01"> <p>4 </p> </td> 
    <td colname="col1"> <p> 
-     <!--Updated to search-eng version, 2/1/2013--> <span class="codeph"> &lt;label met rondkorrelige geleiding /&gt; </span> </p> </td> 
-   <td colname="col2"> <p>De etiketmarkeringoutput een etiket voor een broodkruimelwaarde detailleert die facet werd geselecteerd om dat broodkruimelpunt te produceren. Het wordt slechts gebruikt in de context van een <span class="codeph"> geleide-broodkruimelblok </span> . </p> <p> <code class="syntax html"> &lt;guided-breadcrumb&gt; 
+     <!--Updated to search-eng version, 2/1/2013--> <span class="codeph"> &lt;guided-breadcrumb-label /&gt; </span> </p> </td> 
+   <td colname="col2"> <p>Met de labeltag wordt een label voor een waarde van een breadcrumb weergegeven, waarin wordt aangegeven welke facet is geselecteerd om dat item van de breadcrumb te genereren. Het wordt alleen gebruikt in de context van een <span class="codeph"> geleide-breadcrumb- </span> blok. </p> <p> <code class="syntax html"> &lt;guided-breadcrumb&gt; 
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;guided-breadcrumb-link&gt; 
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;guided-breadcrumb-label/&gt;:&nbsp;&lt;guided-breadcrumb-value/&gt; 
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/guided-breadcrumb-link&gt; 
@@ -641,7 +648,7 @@ Zie [over Breadcrumbs](../c-about-design-menu/c-about-breadcrumbs.md#concept_FB8
       &lt;guided-else- 
       breadcrumb-label&gt; 
       &lt;guided-if-breadcrumb-label /&gt; </code> </p> </td> 
-   <td colname="col2"> <p>Deze voorwaardelijke markering wordt gebruikt om inhoud voorwaardelijk te tonen als de huidige broodkruimelwaarde een etiket heeft. Het wordt gebruikt om etiketten en verwante inhoud slechts te tonen wanneer een etiket daadwerkelijk bestaat. Het wordt slechts gebruikt in de context van een <span class="codeph"> geleide-broodkruimelblok </span> . </p> <p> <code class="syntax html"> &lt;guided-breadcrumb&gt; 
+   <td colname="col2"> <p>Deze voorwaardelijke tag wordt gebruikt om inhoud voorwaardelijk weer te geven als de huidige breadcrumb-waarde een label heeft. Het wordt alleen gebruikt om labels en bijbehorende inhoud weer te geven wanneer er een label daadwerkelijk bestaat. Het wordt alleen gebruikt in de context van een <span class="codeph"> geleide-breadcrumb- </span> blok. </p> <p> <code class="syntax html"> &lt;guided-breadcrumb&gt; 
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;guided-breadcrumb-link&gt; 
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;guided-if-breadcrumb-label&gt; 
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;guided-breadcrumb-label/&gt;: 
@@ -652,20 +659,20 @@ Zie [over Breadcrumbs](../c-about-design-menu/c-about-breadcrumbs.md#concept_FB8
   <tr> 
    <td colname="col01"> <p>6 </p> </td> 
    <td colname="col1"> <p> <span class="codeph"> &lt;guided-breadcrumb-path [gsname="goto|remove|drop"]/&gt; </span> </p> </td> 
-   <td colname="col2"> <p>Gebruikt om uw eigen broodkruimelverbinding te bouwen. </p> </td> 
+   <td colname="col2"> <p>Wordt gebruikt om uw eigen broodkruimelkoppeling te maken. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Menus {#section_1D489ADF041F4351A66E5D5742125CA8}
+## Menu&#39;s {#section_1D489ADF041F4351A66E5D5742125CA8}
 
-Zie [over menu&#39;s](../c-about-design-menu/c-about-menus.md#concept_68123CE5CF4447B59217B5D721424E32).
+Zie [Menu&#39;s](../c-about-design-menu/c-about-menus.md#concept_68123CE5CF4447B59217B5D721424E32).
 
 <table> 
  <thead> 
   <tr> 
    <th colname="col01" class="entry"> </th> 
-   <th colname="col1" class="entry"> <p>Markering </p> </th> 
+   <th colname="col1" class="entry"> <p>Tag </p> </th> 
    <th colname="col2" class="entry"> <p>Beschrijving </p> </th> 
   </tr> 
  </thead>
@@ -674,23 +681,23 @@ Zie [over menu&#39;s](../c-about-design-menu/c-about-menus.md#concept_68123CE5CF
    <td colname="col01"> <p>1 </p> </td> 
    <td colname="col1"> <p> 
      <!--Matched search-eng version, 2/1/2013--> <span class="codeph"> &lt;guided-menu gsname="menuname"&gt;&lt;/guided-menu&gt; </span> </p> </td> 
-   <td colname="col2"> <p>Dit is de iteratormarkering van de de lusjelijn van de menuwaarde. Gebruik de <span class="codeph"> gsname- </span> attributen om te identificeren welke reeks menupunten wordt getoond. </p> </td> 
+   <td colname="col2"> <p>Dit is de iteratortag van de menumarteruslus. Gebruik het <span class="codeph"> kenmerk gsname </span> om te bepalen welke set menu-items wordt weergegeven. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>2 </p> </td> 
    <td colname="col1"> <p> 
      <!--Matched search-eng version, 2/1/2013--> <span class="codeph"> &lt;guided-menu-item-link [attr="value"]+&gt;&lt;/guided-menu-item-link&gt; </span> </p> </td> 
-   <td colname="col2"> <p>Geeft u URL voor het raffineren van de huidige onderzoek naar het menupunt. </p> </td> 
+   <td colname="col2"> <p>Hiermee geeft u de URL voor het verfijnen van de huidige zoekopdracht naar het menu-item. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>3 </p> </td> 
    <td colname="col1"> <p> 
-     <!--Matched search-eng version, 2/1/2013--> <span class="codeph"> &lt;guided-menu-item-optie [attr="value"]+/&gt; </span> </p> </td> 
-   <td colname="col2"> <p>Typisch wordt een menu getoond in een uitgezochte controle op een malplaatje. Deze markering maakt het construeren van de uitgezochte controle gemakkelijker omdat het HTML voor het produceren van de optie voor de uitgezochte controle produceert. </p> <p>Bijvoorbeeld, het volgende codeblok: </p> <p> <code class="syntax html"> &lt;select&nbsp;name="sort"&nbsp;onchange="gcGo(this);"&gt; 
+     <!--Matched search-eng version, 2/1/2013--> <span class="codeph"> &lt;guided-menu-item-option [attr="value"]+ /&gt; </span> </p> </td> 
+   <td colname="col2"> <p>Gewoonlijk wordt een menu getoond in een uitgezochte controle op een malplaatje. Deze markering maakt het construeren van de uitgezochte controle gemakkelijker omdat het HTML voor het produceren van de optie voor de uitgezochte controle produceert. </p> <p>Het volgende codeblok bijvoorbeeld: </p> <p> <code class="syntax html"> &lt;select&nbsp;name="sort"&nbsp;onchange="gcGo(this);"&gt; 
       &lt;guided-menu&nbsp;gsname="sort"&gt; 
       &lt;guided-menu-item-option/&gt; 
       &lt;/guided-menu&gt; 
-      &lt;/select&gt; </code> </p> <p>Kan HTML als het volgende produceren: </p> <p> <code class="syntax html"> &lt;select&nbsp;name="sort"&nbsp;onchange="gcGo(this);"&gt; 
+      &lt;/select&gt; </code> </p> <p>Kan als volgt HTML genereren: </p> <p> <code class="syntax html"> &lt;select&nbsp;name="sort"&nbsp;onchange="gcGo(this);"&gt; 
       &nbsp;&nbsp;&lt;option&nbsp;value="?sort=relevance;sp_sfvl_field=product-type|category|size;"&nbsp;selected="selected"&gt;Sort&nbsp;by&nbsp;Relevance&lt;/option&gt; 
       &nbsp;&nbsp;&lt;option&nbsp;value="?sort=avail-code;sp_sfvl_field=product-type|category|size;"&gt;Sort&nbsp;by&nbsp;Availability&lt;/option&gt; 
       &nbsp;&nbsp;&lt;option&nbsp;value="?sort=price;sp_sfvl_field=product-type|category|size;"&gt;Sort&nbsp;by&nbsp;Price&lt;/option&gt; 
@@ -699,20 +706,20 @@ Zie [over menu&#39;s](../c-about-design-menu/c-about-menus.md#concept_68123CE5CF
   <tr> 
    <td colname="col01"> <p>4 </p> </td> 
    <td colname="col1"> <p> 
-     <!--Matched search-eng version, 2/1/2013--> <span class="codeph"> &lt;guided-menu-item-waarde /&gt; </span> </p> </td> 
-   <td colname="col2"> <p>Keert het koord van de waarde terug die met het menu wordt geassocieerd. </p> </td> 
+     <!--Matched search-eng version, 2/1/2013--> <span class="codeph"> &lt;guided-menu-item-value /&gt; </span> </p> </td> 
+   <td colname="col2"> <p>Retourneert de tekenreeks van de waarde die aan het menu is gekoppeld. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>5 </p> </td> 
    <td colname="col1"> <p> 
      <!--Matched search-eng version, 2/1/2013--> <span class="codeph"> &lt;guided-menu-item-label /&gt; </span> </p> </td> 
-   <td colname="col2"> <p>Keert het koord van het etiket terug dat met het menu wordt geassocieerd. </p> </td> 
+   <td colname="col2"> <p>Retourneert de tekenreeks van het label dat aan het menu is gekoppeld. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>6 </p> </td> 
    <td colname="col1"> <p> 
-     <!--Matched search-eng version, 2/1/2013--> <span class="codeph"> &lt;geleid-menu-item-pad /&gt; </span> </p> </td> 
-   <td colname="col2"> <p>Keert het wegkoord terug. Gebruik de markering als u een parameter aan de weg wilt toevoegen en een douaneverbinding tot stand brengen. </p> </td> 
+     <!--Matched search-eng version, 2/1/2013--> <span class="codeph"> &lt;guided-menu-item-path /&gt; </span> </p> </td> 
+   <td colname="col2"> <p>Retourneert de padtekenreeks. Gebruik de tag als u een parameter wilt toevoegen aan het pad en een aangepaste koppeling wilt maken. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>7 </p> </td> 
@@ -721,20 +728,20 @@ Zie [over menu&#39;s](../c-about-design-menu/c-about-menus.md#concept_68123CE5CF
       &lt;guided-else-menu- 
       item-selected&gt; 
       &lt;/guided-if-menu-item-selected&gt; </code> </p> </td> 
-   <td colname="col2"> <p>Keert 1 terug of 0 erop wijst die als het huidige menupunt wordt geselecteerd. </p> </td> 
+   <td colname="col2"> <p>Retourneert een 1 of 0 die aangeeft of het huidige menu-item is geselecteerd. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Pagenav {#section_2EE397635C514BBC8D668278EA314F35}
 
-De markeringen van de paginavigatie kunnen worden gebruikt om een reeks verbindingen te bouwen die een gebruiker toestaan om door de onderzoeksresultaten te pagineren.
+Met de paginanavigatietags kunt u een set koppelingen maken waarmee een gebruiker door de zoekresultaten kan bladeren.
 
 <table> 
  <thead> 
   <tr> 
    <th colname="col01" class="entry"> </th> 
-   <th colname="col1" class="entry"> <p>Markering </p> </th> 
+   <th colname="col1" class="entry"> <p>Tag </p> </th> 
    <th colname="col2" class="entry"> <p>Beschrijving </p> </th> 
   </tr> 
  </thead>
@@ -742,26 +749,26 @@ De markeringen van de paginavigatie kunnen worden gebruikt om een reeks verbindi
   <tr> 
    <td colname="col01"> <p>1 </p> </td> 
    <td colname="col1"> <p> 
-     <!--Matched search-eng version, 2/1/2013--> <span class="codeph"> &lt;leid-pagina's&gt;&lt;/geleide pagina's&gt; </span> </p> </td> 
-   <td colname="col2"> <p>De lijnmarkering voor de paginavigatie. Om het even welke inhoud tussen de het openen en sluitende markeringen wordt herhaald voor elke pagina. </p> </td> 
+     <!--Matched search-eng version, 2/1/2013--> <span class="codeph"> &lt;guided-pages&gt;&lt;/guided-pages&gt; </span> </p> </td> 
+   <td colname="col2"> <p>De lustag voor de paginanavigatie. Alle inhoud tussen de openingstag en de afsluitende tag wordt herhaald voor elke pagina. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>2 </p> </td> 
    <td colname="col1"> <p> 
-     <!--Matched search-eng version, 2/1/2013--> <span class="codeph"> &lt;geleid-pagina-verbinding [attr="waarde"]+&gt;&lt;/geleide-pagina-link&gt; </span> </p> </td> 
-   <td colname="col2"> <p>Creeert een verbinding in de paginavigatie. </p> </td> 
+     <!--Matched search-eng version, 2/1/2013--> <span class="codeph"> &lt;guided-page-link [attr="value"]+&gt;&lt;/guided-page-link&gt; </span> </p> </td> 
+   <td colname="col2"> <p>Maakt een koppeling in de paginanavigatie. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>3 </p> </td> 
    <td colname="col1"> <p> 
-     <!--Matched search-eng version, 2/1/2013--> <span class="codeph"> &lt;guided page-link gsname="first|prev|next|last|viewall|viewpage" [attr="value"]+&gt;&lt;/guided-page-link&gt; </span> </p> </td> 
-   <td colname="col2"> <p>Creeert een verbinding aan de eerste, vorige, volgende, of laatste pagina. Het kan een verbinding ook tot stand brengen om alle pagina's op één pagina te bekijken. </p> </td> 
+     <!--Matched search-eng version, 2/1/2013--> <span class="codeph"> &lt;guided-page-link gsname="first|prev|next|last|viewall|viewpages" [attr="value"]+&gt;&lt;/guided-page-link&gt; </span> </p> </td> 
+   <td colname="col2"> <p>Hiermee maakt u een koppeling naar de eerste, vorige, volgende of laatste pagina. Er kan ook een koppeling worden gemaakt om alle pagina's op één pagina weer te geven. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>4 </p> </td> 
    <td colname="col1"> <p> 
-     <!--Matched search-eng version, 2/1/2013--> <span class="codeph"> &lt;nummer van de geleide pagina /&gt; </span> </p> </td> 
-   <td colname="col2"> <p> Keert een koord met het huidige paginaaantal terug. </p> </td> 
+     <!--Matched search-eng version, 2/1/2013--> <span class="codeph"> &lt;guided-page-number /&gt; </span> </p> </td> 
+   <td colname="col2"> <p> Retourneert een tekenreeks met het huidige paginanummer. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>5 </p> </td> 
@@ -770,7 +777,7 @@ De markeringen van de paginavigatie kunnen worden gebruikt om een reeks verbindi
       &lt;guided-else-page- 
       selected&gt; 
       &lt;/guided-if-page-selected&gt; </code> </p> </td> 
-   <td colname="col2"> <p>Deze reeks voorwaardelijke markeringen is waar als de pagina die momenteel wordt herhaald over wordt geselecteerd. Het wordt typisch gebruikt om het paginaaantal in de pagina-navigatie controle verschillend te tonen. </p> </td> 
+   <td colname="col2"> <p>Deze set voorwaardelijke tags is waar als de pagina is geselecteerd waarop momenteel wordt herhaald. Het wordt typisch gebruikt om het paginaaantal in de pagina-navigatie controle verschillend te tonen. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>6 </p> </td> 
@@ -779,7 +786,7 @@ De markeringen van de paginavigatie kunnen worden gebruikt om een reeks verbindi
       &lt;guided-else-page- 
       prev&gt; 
       &lt;/guided-if[-not]-page-prev&gt; </code> </p> </td> 
-   <td colname="col2"> <p> Deze reeks voorwaardelijke markeringen is waar als de huidige pagina een vorige pagina heeft. Het wordt typisch gebruikt om een vorige verbinding in de paginavigatie te tonen, wanneer het steek houdt. </p> </td> 
+   <td colname="col2"> <p> Deze set voorwaardelijke tags is true als de huidige pagina een vorige pagina heeft. Het wordt doorgaans gebruikt om een vorige koppeling in de paginanavigatie weer te geven wanneer dat zinvol is. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>7 </p> </td> 
@@ -788,7 +795,7 @@ De markeringen van de paginavigatie kunnen worden gebruikt om een reeks verbindi
       &lt;guided-else-page- 
       next&gt; 
       &lt;/guided-if[-not]-page-next&gt; </code> </p> </td> 
-   <td colname="col2"> <p> Deze reeks voorwaardelijke markeringen is waar als de huidige pagina een volgende pagina heeft. Het wordt typisch gebruikt om een vorige verbinding in de paginavigatie te tonen, wanneer het steek houdt. </p> </td> 
+   <td colname="col2"> <p> Deze set voorwaardelijke tags is true als de huidige pagina een volgende pagina heeft. Het wordt doorgaans gebruikt om een vorige koppeling in de paginanavigatie weer te geven wanneer dat zinvol is. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>8 </p> </td> 
@@ -797,7 +804,7 @@ De markeringen van de paginavigatie kunnen worden gebruikt om een reeks verbindi
       &lt;guided-else-page- 
       viewall&gt; 
       &lt;/guided-if[-not]-page-viewall&gt; </code> </p> </td> 
-   <td colname="col2"> <p> Wanneer een onderzoek een grote resultaatreeks terugkeert zou u niet de capaciteit kunnen willen aanbieden om alle resultaten te bekijken. Daarom kunt u deze reeks voorwaardelijke markeringen gebruiken om te bepalen wanneer om de Mening te tonen Al verbinding. </p> </td> 
+   <td colname="col2"> <p> Wanneer een zoekopdracht een grote resultaatset oplevert, wilt u mogelijk niet alle resultaten weergeven. Daarom kunt u deze reeks voorwaardelijke markeringen gebruiken om te bepalen wanneer om de Mening te tonen Al verbinding. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>9 </p> </td> 
@@ -806,35 +813,35 @@ De markeringen van de paginavigatie kunnen worden gebruikt om een reeks verbindi
       &lt;guided-else-page- 
       viewpages&gt; 
       &lt;/guided-if[-not]-page-viewpages&gt; </code> </p> </td> 
-   <td colname="col2"> <p>U kunt deze reeks voorwaardelijke markeringen gebruiken om te bepalen wanneer om de verbinding van de Pagina's van de Mening te tonen. Het wordt typisch gebruikt om een klant toe te staan om bepaalde pagina's te bekijken. </p> </td> 
+   <td colname="col2"> <p>Met deze set voorwaardelijke tags kunt u bepalen wanneer de koppeling Pagina's weergeven wordt weergegeven. Dit wordt doorgaans gebruikt om een klant toe te staan bepaalde pagina's weer te geven. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>10 </p> </td> 
    <td colname="col1"> <p> 
      <!--Updated to match search-eng version, 2/1/2013--> 
 
-    &amp;lt;geleid-anders-pagina-pagina-verbinding&amp;gt;
-    &amp;lt;/geleid-als[-niet]-pagina-verbinding&amp;gt; &lt;/code> &lt;/p> &lt;/td>
-<td colname="col2"> <p>Tests als de paginavigatie een eerste pagina, vorige pagina, volgende pagina, etc. heeft. </p> </td> 
+    &amp;lt;guided-else-page-link&amp;gt;
+    &amp;lt;/guided-if[-not]-page-link&amp;gt; &lt;/code> &lt;/p> &lt;/td>
+<td colname="col2"> <p>Hiermee wordt getest of de paginanavigatie een eerste pagina, vorige pagina, volgende pagina enzovoort bevat. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>11 </p> </td> 
    <td colname="col1"> <p> 
-     <!--Matched search-eng version, 2/1/2013--> <span class="codeph"> &lt;aantal pagina's met begeleiding /&gt; </span> </p> </td> 
-   <td colname="col2"> <p> Keert een koord met het totale aantal pagina's van onderzoeksresultaten terug. </p> </td> 
+     <!--Matched search-eng version, 2/1/2013--> <span class="codeph"> &lt;guided-page-total /&gt; </span> </p> </td> 
+   <td colname="col2"> <p> Retourneert een tekenreeks met het totale aantal pagina's met zoekresultaten. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>12 </p> </td> 
    <td colname="col1"> <p> <code> &lt;guided-pagination gsname= 
       "pagination_name"&gt;&lt;/guided-pagination&gt; </code> </p> </td> 
-   <td colname="col2"> <p>Gebruik de <span class="codeph"> geleide-paginering </span> markering om een gebied te bepalen waarin alle pagineringsmarkeringen op een specifieke paginering betrekking hebben die plaatst voor het geval dat u weinig bepaalde Montages van de Navigatie van de Pagina hebt. </p> </td> 
+   <td colname="col2"> <p>Gebruik de <span class="codeph"> tag </span> met instructies-paginering om een gebied te definiëren waarin alle pagineringscodes betrekking hebben op een specifieke pagineringsinstelling voor het geval er weinig instellingen voor paginanavigatie zijn gedefinieerd. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>13 </p> </td> 
    <td colname="col1"> <p> 
 
-    volgende|last|viewall|viewpage]/&amp;gt; &lt;/code> &lt;/p> &lt;/td>
-<td colname="col2"> <p>Creeert uw eigen verbinding in de paginavigatie. </p> </td> 
+    next|last|viewall|viewpages]/&amp;gt; &lt;/code> &lt;/p> &lt;/td>
+<td colname="col2"> <p>Hiermee maakt u een eigen koppeling in de paginanavigatie. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>14 </p> </td> 
@@ -842,25 +849,25 @@ De markeringen van de paginavigatie kunnen worden gebruikt om een reeks verbindi
       &lt;guided-else-page- 
       high-eq-last&gt; 
       &lt;/guided-if-page-high-eq-last&gt; </code> </p> </td> 
-   <td colname="col2"> <p>Tests als de hoogste pagina in de paginavigatie aan het totale aantal pagina's gelijk is. </p> </td> 
+   <td colname="col2"> <p>Hiermee wordt getest of de hoogste pagina in de paginanavigatie gelijk is aan het totale aantal pagina's. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>15 </p> </td> 
    <td colname="col1"> <p> <code> &lt;guided-if-page-low-eq-first&gt; 
       &lt;guided-else-page-low-eq-first&gt; &lt;/guided-if-page-low-eq-first&gt; </code> </p> </td> 
-   <td colname="col2"> <p>Tests als de laagste pagina in de paginavigatie aan gelijk is. </p> </td> 
+   <td colname="col2"> <p>Hiermee wordt getest of de laagste pagina in de paginanavigatie gelijk is aan de laagste pagina. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>16 </p> </td> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;geleid-als-pagina-is-meerpagina&gt; &lt;geleid-anders-pagina-is-multipage&gt; &lt;/geleid-als-pagina-is-is-meerpagina&gt; </span> </p> </td> 
-   <td colname="col2"> <p>Tests als er één enkele pagina van resultaten of veelvoudige pagina's van resultaten is. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;guided-if-page-is-multipage&gt; &lt;guided-else-page-is-multipage&gt; &lt;/guided-if-page-is-multipage-&gt; </span> </p> </td> 
+   <td colname="col2"> <p>Test of er één pagina met resultaten of meerdere pagina's met resultaten is. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Recente zoekopdrachten {#section_8CD907521F584257B475595B01A5964B}
 
-U kunt recente onderzoeksmarkeringen gebruiken om een reeks verbindingen te bouwen die een gebruiker laat snel een vorig onderzoek, zoals in het volgende voorbeeld in werking stellen:
+U kunt recente zoekcodes gebruiken om een set koppelingen te maken waarmee een gebruiker snel een vorige zoekopdracht kan uitvoeren, zoals in het volgende voorbeeld:
 
 ```
 <guided-if-recent-searches> 
@@ -872,61 +879,61 @@ U kunt recente onderzoeksmarkeringen gebruiken om een reeks verbindingen te bouw
 </guided-if-recent-searches>
 ```
 
-Zie recente zoekopdrachten [configureren](../c-about-design-menu/t-configuring-recent-searches.md#task_E9E8ACA04C90484F8AFD5262167B2562).
+Zie Recente zoekopdrachten [configureren](../c-about-design-menu/t-configuring-recent-searches.md#task_E9E8ACA04C90484F8AFD5262167B2562).
 
 <table> 
  <thead> 
   <tr> 
    <th colname="col01" class="entry"> </th> 
-   <th colname="col1" class="entry"> <p>Markering </p> </th> 
+   <th colname="col1" class="entry"> <p>Tag </p> </th> 
    <th colname="col2" class="entry"> <p>Beschrijving </p> </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
    <td colname="col01"> <p>1 </p> </td> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;geleid-recent-onderzoeken&gt;&lt;/geleid-recent-onderzoeken&gt; </span> </p> </td> 
-   <td colname="col2"> <p>De lijnmarkering voor recente onderzoeken. Om het even welke inhoud tussen de het openen en sluitende markeringen wordt herhaald voor elke pagina. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;guided-recent-search&gt;&lt;/guided-recent-search&gt; </span> </p> </td> 
+   <td colname="col2"> <p>De lustag voor recente zoekopdrachten. Alle inhoud tussen de openingstag en de afsluitende tag wordt herhaald voor elke pagina. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>2 </p> </td> 
    <td colname="col1"> <p> <code> &lt;guided-recent-searches-link [attr="value"]+&gt; 
       &lt;/guided-recent-searches-link&gt; </code> </p> </td> 
-   <td colname="col2"> <p>Laat u een verbinding aan een recent onderzoek bouwen. Het steunt het overgaan van om het even welke attributen van HTML rechtstreeks tot de ankermarkering. </p> </td> 
+   <td colname="col2"> <p>Hiermee kunt u een koppeling naar een recente zoekopdracht maken. Het ondersteunt het rechtstreeks doorgeven van HTML-kenmerken naar de ankertag. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>3 </p> </td> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;geleid-recent-onderzoeken-weg/&gt; </span> </p> </td> 
-   <td colname="col2"> <p>Laat u de relatieve weg URL voor een recent onderzoek, binnen een <span class="codeph"> geleid-recent-onderzoek </span> lijn grijpen. Typisch zou u leiden-recent-onderzoek-verbinding gebruiken <span class="codeph"> </span>. Nochtans, als u uw eigen verbinding wilde bouwen kon u deze markering gebruiken. Het volgende is een voorbeeld: </p> <p> <code class="syntax html"> &lt;guided-lt/&gt;a&amp;nbsp;href="&lt;guided_recent_searches_path&gt;"&gt;&lt;guided-recent-searches-value&gt;&lt;/a&gt; </code> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;guided-recent-searches-path/&gt; </span> </p> </td> 
+   <td colname="col2"> <p>Hiermee kunt u het relatieve URL-pad voor een recente zoekopdracht vastleggen in een <span class="codeph"> lus met </span> instructies-recent zoeken. Meestal gebruikt u <span class="codeph"> koppelingen met instructies-recente zoekopdrachten </span>. Als u echter uw eigen koppeling wilt maken, kunt u deze tag gebruiken. Hieronder ziet u een voorbeeld: </p> <p> <code class="syntax html"> &lt;guided-lt/&gt;a&amp;nbsp;href="&lt;guided_recent_searches_path&gt;"&gt;&lt;guided-recent-searches-value&gt;&lt;/a&gt; </code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>4 </p> </td> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;geleid-recent-onderzoeken-waarde&gt; </span> </p> </td> 
-   <td colname="col2"> <p>Laat u de vraagtermijn grijpen die met een recent onderzoek wordt geassocieerd. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;guided-recent-search-value&gt; </span> </p> </td> 
+   <td colname="col2"> <p>Hiermee kunt u de queryterm vastleggen die aan een recente zoekopdracht is gekoppeld. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>5 </p> </td> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;geleid-recent-onderzoeken-duidelijk-verbinding [attr="waarde"]+&gt;&lt;/geleid-recent-onderzoeken-duidelijk-verbinding&gt; </span> </p> </td> 
-   <td colname="col2"> <p>Laat u uw klanten de capaciteit aanbieden om onlangs bewaarde onderzoeken te ontruimen. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;guided-recent-search-clear-link [attr="value"]+&gt;&lt;/guided-recent-search-clear-link&gt; </span> </p> </td> 
+   <td colname="col2"> <p>Hiermee kunt u uw klanten de mogelijkheid bieden om onlangs opgeslagen zoekopdrachten te wissen. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>6 </p> </td> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;geleid-recent-onderzoeken-duidelijk-weg/&gt; </span> </p> </td> 
-   <td colname="col2"> <p>Keert de weg terug die <span class="codeph"> </span> &lt;geleid-recent-onderzoeken-duidelijk-verbinding&gt; gebruikt zodat u uw eigen verbinding kunt bouwen. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;guided-recent-search-clear-path/&gt; </span> </p> </td> 
+   <td colname="col2"> <p>Retourneert het pad dat <span class="codeph"> &lt;guided-recent-search-clear-link&gt; </span> gebruikt, zodat u uw eigen koppeling kunt maken. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>7 </p> </td> 
    <td colname="col1"> <p> 
 
-    &amp;lt;/geleid-als-recent-onderzoeken&amp;gt; &lt;/code> &lt;/p> &lt;/td>
-<td colname="col2"> <p>Laat u de recente onderzoeken tonen wanneer een klant een recente onderzoek heeft uitgevoerd. </p> </td> 
+    &amp;lt;/guided-if-recent-search&amp;gt; &lt;/code> &lt;/p> &lt;/td>
+<td colname="col2"> <p>Hiermee kunt u de recente zoekopdrachten weergeven wanneer een klant een recente zoekopdracht heeft uitgevoerd. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Bedoelde je {#section_C1EB3B9D8E1242798A6E04609D1E3543}
 
-U kunt gebruiken bedoelde markeringen om een reeks verbindingen aan suggesties te bouwen wanneer een onderzoek geen resultaten terugkeert en de termijn van het Onderzoek niet in het woordenboek van de rekening is. Het volgende is een voorbeeld van het gebruiken van Bedoelde markeringen:
+U kunt de tags Op maat maken gebruiken om een set koppelingen naar suggesties te maken wanneer een zoekopdracht geen resultaten oplevert en de zoekterm niet in het accountwoordenboek staat. Hieronder ziet u een voorbeeld van het gebruik van de labels Do You Mean:
 
 ```
 <guided-if-suggestions> 
@@ -943,7 +950,7 @@ Zie [over wat je bedoelt](../c-about-linguistics-menu/c-about-did-you-mean.md#co
  <thead> 
   <tr> 
    <th colname="col01" class="entry"> </th> 
-   <th colname="col1" class="entry"> <p>Markering </p> </th> 
+   <th colname="col1" class="entry"> <p>Tag </p> </th> 
    <th colname="col2" class="entry"> <p>Beschrijving </p> </th> 
   </tr> 
  </thead>
@@ -951,19 +958,19 @@ Zie [over wat je bedoelt](../c-about-linguistics-menu/c-about-did-you-mean.md#co
   <tr> 
    <td colname="col01"> <p>1 </p> </td> 
    <td colname="col1"> <p> 
-     <!--Matches search-eng version, 2/1/2013--> <span class="codeph"> &lt;geleid suggesties&gt;&lt;/geleide-suggesties&gt; </span> </p> </td> 
-   <td colname="col2"> <p>Dit is de lijnmarkering voor het van een lus voorzien over de suggesties. </p> </td> 
+     <!--Matches search-eng version, 2/1/2013--> <span class="codeph"> &lt;guided-Suggesties&gt;&lt;/guided-Suggesties&gt; </span> </p> </td> 
+   <td colname="col2"> <p>Dit is de lustag voor het doorlopen van de suggesties. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>2 </p> </td> 
    <td colname="col1"> <p> 
-     <!--Matches search-eng version, 2/1/2013--> <span class="codeph"> &lt;guided-suggestie-link [attr="value"]+&gt;&lt;/guided-link&gt; </span> </p> </td> 
-   <td colname="col2"> <p>Maakt een link naar de gegeven suggestie. </p> </td> 
+     <!--Matches search-eng version, 2/1/2013--> <span class="codeph"> &lt;guided-suggestie-link [attr="value"]+&gt;&lt;/guided-suggestie-link&gt; </span> </p> </td> 
+   <td colname="col2"> <p>Maakt een koppeling naar de opgegeven suggestie. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>3 </p> </td> 
    <td colname="col1"> <p> 
-     <!--Newly added from search-eng version, 2/1/2013--> <span class="codeph"> &lt;geleide suggestiewaarde /&gt; </span> </p> </td> 
+     <!--Newly added from search-eng version, 2/1/2013--> <span class="codeph"> &lt;guided-suggestie-value /&gt; </span> </p> </td> 
    <td colname="col2"> </td> 
   </tr> 
   <tr> 
@@ -971,34 +978,34 @@ Zie [over wat je bedoelt](../c-about-linguistics-menu/c-about-did-you-mean.md#co
    <td colname="col1"> <p> 
      <!--Updated to match search-eng version, 2/1/2013--> <code> &lt;guided-if[-not]-suggestions&gt;&lt;guided-else[-not]- 
       suggestions&gt;&lt;/guided-if[-not]-suggestions&gt; </code> </p> </td> 
-   <td colname="col2"> <p>Laat u testen als er om het even welke suggesties zijn. </p> </td> 
+   <td colname="col2"> <p>Hiermee kunt u testen of er suggesties zijn. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>5 </p> </td> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;geleid suggestiepad/&gt; </span> </p> </td> 
-   <td colname="col2"> <p>Keert het wegkoord op de suggestie terug. U kunt het gebruiken om uw eigen ankermarkering te bouwen. Typisch, <span class="codeph"> geleid-suggestie-verbinding </span> wordt in plaats daarvan gebruikt. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;guided-suggestie-path/&gt; </span> </p> </td> 
+   <td colname="col2"> <p>Retourneert de padtekenreeks naar de suggestie. U kunt het gebruiken om uw eigen ankermarkering te bouwen. In plaats daarvan wordt doorgaans de koppeling <span class="codeph"> guided-suggestie </span> gebruikt. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>6 </p> </td> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;guided suggestie/&gt; </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;guided-suggestie/&gt; </span> </p> </td> 
    <td colname="col2"> <p>Een suggestie. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>7 </p> </td> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;geleid suggestie-resultaat-telling/&gt; </span> </p> </td> 
-   <td colname="col2"> <p>Resultaat telt mee voor de suggestie. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;guided-suggestie-result-count/&gt; </span> </p> </td> 
+   <td colname="col2"> <p>Resultaatbepaling voor de suggestie. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>8 </p> </td> 
    <td colname="col1"> <p> <code> &lt;guided-if[-not]-suggestion-autosearch&gt; 
       &lt;guided-else[-not]-suggestion-autosearch&gt; 
       &lt;/guided-if[-not]-suggestion-autosearch&gt; </code> </p> </td> 
-   <td colname="col2"> <p>Laat u testen als autosearch door suggestie op nul resultaten werd uitgevoerd, voor het geval dat deze eigenschap is. </p> </td> 
+   <td colname="col2"> <p>Hiermee kunt u testen of automatisch zoeken op suggestie is uitgevoerd op nul resultaten, voor het geval deze functie is ingeschakeld. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>9 </p> </td> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;geleid-suggestie-origineel-query/&gt; </span> </p> </td> 
-   <td colname="col2"> <p>Keert de originele vraag terug als autosearch werd uitgevoerd. </p> <p>Voorbeeld van het gebruik: </p> <p> <code class="syntax html"> &lt;guided-if-suggestion-autosearch&gt; 
+   <td colname="col1"> <p> <span class="codeph"> &lt;guided-suggestie-original-query/&gt; </span> </p> </td> 
+   <td colname="col2"> <p>Retourneert de oorspronkelijke query als autosearch is uitgevoerd. </p> <p>Voorbeeld van het gebruik: </p> <p> <code class="syntax html"> &lt;guided-if-suggestion-autosearch&gt; 
       &nbsp;&nbsp;&nbsp;&nbsp;Search&nbsp;for&nbsp;&lt;guided-query-param&nbsp;gsname="q"&nbsp;/&gt;&nbsp;instead&nbsp;of&nbsp;&lt;guided-suggestion-original-query&nbsp;/&gt; 
       &lt;/guided-if-suggestion-autosearch&gt; </code> </p> </td> 
   </tr> 
@@ -1007,7 +1014,7 @@ Zie [over wat je bedoelt](../c-about-linguistics-menu/c-about-did-you-mean.md#co
    <td colname="col1"> <p> <code> &lt;guided-if[-not]-suggestion-low-results&gt; 
       &lt;guided-else[-not]-suggestion-low-results&gt; 
       &lt;/guided-if[-not]-suggestion-low-results&gt; </code> </p> </td> 
-   <td colname="col2"> <p>Deze voorwaarde is waar als er suggesties toe te schrijven aan een lage resultaattelling zijn, voor het geval dat deze eigenschap is. </p> <p>Het volgende is een voorbeeld om deze markering te gebruiken: </p> <p> <code class="syntax html"> &lt;guided-if-suggestion-low-results&gt; 
+   <td colname="col2"> <p>Deze voorwaarde geldt als er suggesties zijn die te wijten zijn aan een laag aantal resultaten, voor het geval deze functie is ingeschakeld. </p> <p>Hieronder ziet u een voorbeeld van het gebruik van deze tag: </p> <p> <code class="syntax html"> &lt;guided-if-suggestion-low-results&gt; 
       &nbsp;&nbsp;&nbsp;You&nbsp;have&nbsp;a&nbsp;low&nbsp;result&nbsp;count&nbsp;for&nbsp;&lt;guided-query-param&nbsp;gsname="q"&nbsp;/&gt;. 
       &nbsp;&nbsp;&nbsp;Did&nbsp;you&nbsp;mean:&nbsp;&lt;guided-suggestions&gt; 
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;guided-suggestion-link&gt; 
@@ -1021,69 +1028,69 @@ Zie [over wat je bedoelt](../c-about-linguistics-menu/c-about-did-you-mean.md#co
 
 ## Automatisch aanvullen {#section_897316BEE1454E839A56B565CA4AF018}
 
-De volgende markeringen kunnen worden gebruikt om autocompleteren aan uw onderzoeksvorm toe te voegen. De hoofd-inhoud en vorm-inhoud markeringen worden vereist om autocomplete functie correct te maken. Het wordt geadviseerd u de markeringen in tegenstelling tot hard het coderen van autocomplete Javascript en CSS in uw presentatiemalplaatje gebruikt. De reden is omdat de markeringen uw malplaatjes toelaten om het even welke nieuwe nederlaag geheime voorgeheugen IDs op te nemen wanneer u uw autocomplete montages zonder de behoefte verandert om uw malplaatje manueel bij te werken.
+Met de volgende codes kunt u automatisch aanvullen toevoegen aan uw zoekformulier. De kopinhoud en de tags voor de inhoud van het formulier zijn vereist om de functie Automatisch aanvullen correct uit te voeren. U wordt aangeraden de labels te gebruiken in plaats van de automatisch aangevulde JavaScript- en CSS-tags in uw presentatiesjabloon te coderen. De reden hiervoor is dat tags het mogelijk maken dat uw sjablonen nieuwe cache-id&#39;s ophalen wanneer u de instellingen voor automatisch aanvullen wijzigt zonder dat u de sjabloon handmatig hoeft bij te werken.
 
-Zie [over auto-Voltooid](../c-about-auto-complete.md#concept_093A9CD754864BA79B456FE4BEB64578).
+Zie [Informatie over Automatisch aanvullen](../c-about-auto-complete.md#concept_093A9CD754864BA79B456FE4BEB64578).
 
 <table> 
  <thead> 
   <tr> 
    <th colname="col01" class="entry"> </th> 
-   <th colname="col1" class="entry"> <p>Markering </p> </th> 
+   <th colname="col1" class="entry"> <p>Tag </p> </th> 
    <th colname="col2" class="entry"> <p>Beschrijving </p> </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
    <td colname="col01"> <p>1 </p> </td> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;geleid-als-autocomplete&gt; &lt;geleid-anders-autocomplete&gt; &lt;/geleid-als-autocomplete&gt; </span> </p> </td> 
-   <td colname="col2"> <p>Ontdekt als de autocomplete eigenschap wordt toegelaten. U kon de markeringen gebruiken om naar keuze de hoofd en vorminhoud op te nemen die voor autocompleteren worden vereist. Omgekeerd, laat dit u de eigenschap aan en uit van een knevel voorzien en niet uw presentatiemalplaatjes moeten veranderen. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;guided-if-autocomplete&gt; &lt;guided-else-autocomplete&gt; &lt;/guided-if-autocomplete&gt; </span> </p> </td> 
+   <td colname="col2"> <p>Detecteert of de functie Automatisch aanvullen is ingeschakeld. U kunt de codes gebruiken om desgewenst de kop- en formulierinhoud op te halen die vereist is voor automatisch aanvullen. Hierdoor kunt u de functie in- en uitschakelen en hoeft u de presentatiesjablonen niet te wijzigen. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>2 </p> </td> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;geleid-ac-css/&gt; </span> </p> </td> 
-   <td colname="col2"> <p>Gebruikt in het hoofd van het presentatiemalplaatje en vervangen door het aangewezen CSS manuscript omvat voor autocomplete. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;guided-ac-css/&gt; </span> </p> </td> 
+   <td colname="col2"> <p>Wordt gebruikt in de kop van de presentatiesjabloon en wordt vervangen door het desbetreffende CSS-script voor automatisch aanvullen. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>3 </p> </td> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;inhoud van de geleide-ac-vorm/&gt; </span> </p> </td> 
-   <td colname="col2"> <p>Gebruikt in de onderzoeksvorm (tussen de <span class="codeph"> &lt;form&gt; </span> en <span class="codeph"> &lt;/form&gt; </span> markeringen) van de presentatiemalplaatje in plaats van de harde codering van de autocomplete markeringen binnen het formulier. De markeringen worden vervangen met aangewezen HTML dat wordt vereist om het autocomplete werk te maken. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;guided-ac-form-content/&gt; </span> </p> </td> 
+   <td colname="col2"> <p>Wordt gebruikt in het zoekformulier (tussen de tags <span class="codeph"> &lt;form&gt; </span> en <span class="codeph"> &lt;/form&gt; </span> ) van de presentatiesjabloon in plaats van de automatische codering van de codes in het formulier. De tags worden vervangen door de juiste HTML die is vereist om automatisch aanvullen te laten werken. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>4 </p> </td> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;geleid-ac-javascript/&gt; </span> </p> </td> 
-   <td colname="col2"> <p>Produceert de verbindingen aan Autocomplete JavaScript. Voor beste prestaties is het raadzaam deze tag onder aan de pagina te plaatsen voordat de tag 'body' wordt gesloten. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;guided-ac-javascript/&gt; </span> </p> </td> 
+   <td colname="col2"> <p>Hiermee worden de koppelingen naar JavaScript automatisch aanvullen gegenereerd. Voor de beste prestaties is het raadzaam deze tag onder aan de pagina vóór de afsluitende tag 'body' te plaatsen. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Winkel {#section_A33E25DB5E67404A823BD9618665B773}
 
-Gebruik de volgende markeringen om de opslag te testen en te tonen die een gebruiker momenteel in is.
+Gebruik de volgende labels om de winkel waarin een gebruiker zich momenteel bevindt, te testen en weer te geven.
 
 <table> 
  <thead> 
   <tr> 
    <th colname="col01" class="entry"> </th> 
-   <th colname="col1" class="entry"> <p>Markering </p> </th> 
+   <th colname="col1" class="entry"> <p>Tag </p> </th> 
    <th colname="col2" class="entry"> <p>Beschrijving </p> </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
    <td colname="col01"> <p>1 </p> </td> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;geleide-store/&gt; </span> </p> </td> 
-   <td colname="col2"> <p>Output de huidige opslag. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;guided-store/&gt; </span> </p> </td> 
+   <td colname="col2"> <p>Hiermee wordt de huidige winkel uitgevoerd. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>2 </p> </td> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;geleid-als-store-defined&gt; &lt;geleid-else-store-defined&gt; &lt;/geleid-if-store-defined&gt; </span> </p> </td> 
-   <td colname="col2"> <p>Ontdekt als de gebruiker in een opslag is. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;guided-if-store-defined&gt; &lt;guided-else-store-defined&gt; &lt;/guided-if-store-defined&gt; </span> </p> </td> 
+   <td colname="col2"> <p>Detecteert of de gebruiker zich in een winkel bevindt. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>3 </p> </td> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;geleid-als-opslag gsname="store"&gt; &lt;mede-else-store&gt; &lt;/guided-if-store&gt; </span> </p> </td> 
-   <td colname="col2"> <p>Ontdekt als de gebruiker in de opslag is die de <span class="codeph"> gsname </span> parameter specificeert. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;guided-if-store gsname="store"&gt; &lt;guided-else-store&gt; &lt;/guided-if-store&gt; </span> </p> </td> 
+   <td colname="col2"> <p>Detecteert of de gebruiker zich in de winkel bevindt die door de <span class="codeph"> parameter gsname wordt </span> opgegeven. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -1094,7 +1101,7 @@ Gebruik de volgende markeringen om de opslag te testen en te tonen die een gebru
  <thead> 
   <tr> 
    <th colname="col01" class="entry"> </th> 
-   <th colname="col1" class="entry"> <p>Markering </p> </th> 
+   <th colname="col1" class="entry"> <p>Tag </p> </th> 
    <th colname="col2" class="entry"> <p>Beschrijving </p> </th> 
   </tr> 
  </thead>
@@ -1102,31 +1109,31 @@ Gebruik de volgende markeringen om de opslag te testen en te tonen die een gebru
   <tr> 
    <td colname="col01"> <p>1 </p> </td> 
    <td colname="col1"> <p> <span class="codeph"> &lt;guided zone gsname="zone area" [search="associated search"] [facet="associated facet"] [width="xx" height="yy"]&gt; </span> </p> </td> 
-   <td colname="col2"> <p>U kunt om het even welke inhoud in streekmarkeringen verpakken om een streek uit dat gebied tot stand te brengen. Dit laat u bedrijfsregels gebruiken om de streek te tonen zoals nodig. Door gebrek, worden de streken altijd getoond. U kunt de facultatieve onderzoek en facetparameters gebruiken om te wijzen op welk onderzoek of facet met de streek wordt geassocieerd. Dergelijke functionaliteit laat de softwareskip onderzoeken of facetten wanneer een streek verborgen is, verbeterend onderzoek-tijd prestaties. De hoogte en breedteattributen zijn facultatief en worden gebruikt om te vormen hoe placeholder in de Visuele Bouwer van de Regel wordt getoond wanneer een streek wordt verwijderd. </p> <p> Gebruik de <span class="codeph"> geleide-als-facet [-niet]-zichtbare </span> markering in plaats van de streek waar mogelijk. Het vereenvoudigt het presentatiemalplaatje. </p> </td> 
+   <td colname="col2"> <p>U kunt inhoud in zonetags laten omlopen om een zone buiten dat gebied te maken. Dit laat u bedrijfsregels gebruiken om de streek te tonen zoals nodig. Standaard worden zones altijd weergegeven. U kunt de optionele parameters search en facet gebruiken om aan te geven welke zoekopdracht of facet aan de zone is gekoppeld. Met deze functionaliteit kan de software zoekopdrachten of facetten overslaan wanneer een zone verborgen is, waardoor de zoekprestaties verbeteren. De hoogte en breedtekenmerken zijn facultatief en worden gebruikt om te vormen hoe placeholder in de Visuele Bouwer van de Regel wordt getoond wanneer een streek wordt verwijderd. </p> <p> Gebruik waar mogelijk de <span class="codeph"> </span> tag guided-if-facet[-not]-visible in plaats van de zone. De presentatiesjabloon wordt vereenvoudigd. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>2 </p> </td> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;guided-if-zone gsname="zone"&gt; &lt;guided-else-zone&gt; &lt;/guided-if-zone&gt; </span> </p> </td> 
-   <td colname="col2"> <p>Deze reeks markeringen laat het testen toe als een streek momenteel wordt getoond. Het is nuttig wanneer u inhoud elders op de pagina hebt die u slechts wilt tonen wanneer de streek wordt getoond. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;guided-if-zone gsname="zone area"&gt; &lt;guided-else-zone&gt; &lt;/guided-if-zone&gt; </span> </p> </td> 
+   <td colname="col2"> <p>Deze reeks markeringen laat het testen als een streek momenteel wordt getoond toe. Het is handig als u elders op de pagina inhoud hebt die u alleen wilt weergeven als de zone wordt weergegeven. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Loop-indicatoren {#section_387322CA0AA843A2ACF2795C328673E9}
+## Lus-indicatoren {#section_387322CA0AA843A2ACF2795C328673E9}
 
-U kunt elk van de volgende lijnindicatoren in om het even welk van deze lijnblokken gebruiken:
+U kunt elk van de volgende lusindicatoren in om het even welk van deze lusjeblokken gebruiken:
 
-* begeleide resultaten
+* geleide resultaten
 * geleide-facetwaarden
-* begeleide broodkruimel
-* menu-items
-* begeleide pagina&#39;s
+* met instructies-breadcrumb
+* menu-items met instructies
+* geleide pagina&#39;s
 
 <table> 
  <thead> 
   <tr> 
    <th colname="col01" class="entry"> </th> 
-   <th colname="col1" class="entry"> <p>Markering </p> </th> 
+   <th colname="col1" class="entry"> <p>Tag </p> </th> 
    <th colname="col2" class="entry"> <p>Beschrijving </p> </th> 
   </tr> 
  </thead>
@@ -1136,68 +1143,68 @@ U kunt elk van de volgende lijnindicatoren in om het even welk van deze lijnblok
    <td colname="col1"> <p> 
      <!--Updated to match search-eng version, 2/1/2013--> <code> &lt;guided-if[-not]-first&gt;&lt;guided-else[-not]-first&gt; 
       &lt;/guided-if[-not]-first&gt; </code> </p> </td> 
-   <td colname="col2"> <p>Deze voorwaarde is waar wanneer de huidige herhaling de eerste herhaling van de lijn is. Dat betekent niet noodzakelijk het eerste resultaat of de eerste pagina, maar de eerste getoond. Als de bezoeker van de plaats op pagina 2 van een resultaatreeks is die 10 per pagina is, is de eerste herhaling resultaat 11. </p> </td> 
+   <td colname="col2"> <p>Deze voorwaarde is waar wanneer de huidige herhaling de eerste herhaling van de lijn is. Dat betekent niet noodzakelijkerwijs het eerste resultaat of de eerste pagina, maar de eerste weergegeven pagina. Als de sitebezoeker zich op pagina 2 bevindt van een resultatenset van 10 per pagina, is de eerste iteratie resultaat 11. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>2 </p> </td> 
    <td colname="col1"> <p> 
      <!--Updated to match search-eng version, 2/1/2013--> <code> &lt;guided-if[-not]-last&gt;&lt;guided-else[-not]-last&gt; 
       &lt;/guided-if[-not]-last&gt; </code> </p> </td> 
-   <td colname="col2"> <p>Deze voorwaarde is waar wanneer de huidige herhaling de laatste herhaling van de lijn is. Dat betekent niet noodzakelijk het laatste resultaat of de laatste pagina, maar laatste getoond in de huidige context (pagina). Als de bezoeker van de plaats op pagina 1 van een resultaatreeks is die 200 resultaten maar slechts 10 resultaten per pagina bevat, is de laatste herhaling resultaat 10 in plaats van resultaat 200. </p> </td> 
+   <td colname="col2"> <p>Deze voorwaarde is waar wanneer de huidige herhaling de laatste herhaling van de lijn is. Dat betekent niet noodzakelijkerwijs het laatste resultaat of de laatste pagina, maar de laatste die in de huidige context (pagina) wordt getoond. Als de bezoeker van de site zich op pagina 1 bevindt van een resultatenset die 200 resultaten bevat maar slechts 10 resultaten per pagina bevat, is de laatste herhaling resultaat 10 in plaats van resultaat 200. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>3 </p> </td> 
    <td colname="col1"> <p> 
      <!--Updated to match search-eng version, 2/1/2013--> <code> &lt;guided-if[-not]-odd&gt;&lt;guided-else[-not]-odd&gt; 
       &lt;/guided-if[-not]-odd&gt; </code> </p> </td> 
-   <td colname="col2"> <p>Deze voorwaarde is waar wanneer de huidige herhaling een oneven herhaling van de lijn (tegenover een gelijke herhaling) is. Dit is nuttig voor het tonen van variërende rijkleuren. </p> </td> 
+   <td colname="col2"> <p>Deze voorwaarde is waar wanneer de huidige herhaling een oneven herhaling van de lijn (tegenover een even herhaling) is. Dit is handig voor het weergeven van verschillende rijkleuren. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>4 </p> </td> 
    <td colname="col1"> <p> <code> &lt;guided-if[-not]-even&gt;&lt;guided-else[-not]-even&gt; 
       &lt;/guided-if[-not]-even&gt; </code> </p> </td> 
-   <td colname="col2"> <p>Deze voorwaarde is waar wanneer de huidige herhaling een gelijke herhaling van de lijn (tegenover een oneven herhaling) is. Dit is nuttig voor het tonen van variërende rijkleuren. </p> </td> 
+   <td colname="col2"> <p>Deze voorwaarde is waar wanneer de huidige iteratie een even herhaling van de lijn (tegenover een oneven herhaling) is. Dit is handig voor het weergeven van verschillende rijkleuren. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>5 </p> </td> 
    <td colname="col1"> <p> <code> &lt;guided-if[-not]-alt&gt;&lt;guided-else[-not]-alt&gt; 
       &lt;/guided-if[-not]-alt&gt; </code> </p> </td> 
-   <td colname="col2"> <p>Deze voorwaarde is waar wanneer de huidige herhaling een gelijke herhaling van de lijn is. Dit is nuttig voor het tonen van variërende rijkleuren. </p> </td> 
+   <td colname="col2"> <p>Deze voorwaarde is waar wanneer de huidige herhaling een gelijke herhaling van de lijn is. Dit is handig voor het weergeven van verschillende rijkleuren. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>6 </p> </td> 
    <td colname="col1"> <p> <code> &lt;guided-if[-not]-inner&gt;&lt;guided-else[-not]-inner&gt; 
       &lt;/guided-if[-not]-inner&gt; </code> </p> </td> 
-   <td colname="col2"> <p>Omvat de tekst tussen hen als de huidige herhaling noch de eerste noch de laatste is. </p> </td> 
+   <td colname="col2"> <p>Hiermee neemt u de tekst tussen de koppelingen op als de huidige herhaling noch de eerste, noch de laatste is. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>7 </p> </td> 
    <td colname="col1"> <p> <code> &lt;guided-if[-not]-outer&gt;&lt;guided-else[-not]-outer&gt; 
       &lt;/guided-if[-not]-outer&gt; </code> </p> </td> 
-   <td colname="col2"> <p>Omvat de tekst tussen hen als de huidige herhaling de eerste of laatste is. </p> </td> 
+   <td colname="col2"> <p>Hiermee neemt u de tekst tussen de koppelingen op als de huidige herhaling de eerste of de laatste is. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>8 </p> </td> 
    <td colname="col1"> <p> <span class="codeph"> &lt;guided-loop-index&gt; </span> </p> </td> 
-   <td colname="col2"> <p>Een geheel (beginnend van 0) de waarvan waardetoename voor elke herhaling van de lijn. </p> </td> 
+   <td colname="col2"> <p>Een geheel getal (te beginnen bij 0) waarvan de waarde voor elke herhaling van de lus wordt verhoogd. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>9 </p> </td> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;guided-loop-teller&gt; </span> </p> </td> 
-   <td colname="col2"> <p>Een geheel (beginnend van 1) de waarvan waardetoename voor elke herhaling van de lijn. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;guided-loop-counter&gt; </span> </p> </td> 
+   <td colname="col2"> <p>Een geheel getal (vanaf 1) waarvan de waarde voor elke herhaling van de lus wordt verhoogd. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Diverse talen {#section_BFE8DC98E26F4D7BB60FEC54D9A5DC6C}
 
-De volgende markeringen zijn beschikbaar om u te laten geavanceerdere dingen met uw malplaatje doen, zoals het bouwen van uw eigen mini-facet.
+De volgende labels zijn beschikbaar zodat u meer geavanceerde dingen kunt doen met uw sjabloon, zoals het bouwen van uw eigen minifacet.
 
 <table> 
  <thead> 
   <tr> 
    <th colname="col01" class="entry"> </th> 
-   <th colname="col1" class="entry"> <p>Markering </p> </th> 
+   <th colname="col1" class="entry"> <p>Tag </p> </th> 
    <th colname="col2" class="entry"> <p>Beschrijving </p> </th> 
   </tr> 
  </thead>
@@ -1205,14 +1212,14 @@ De volgende markeringen zijn beschikbaar om u te laten geavanceerdere dingen met
   <tr> 
    <td colname="col01"> <p>1 </p> </td> 
    <td colname="col1"> <p> 
-     <!--Updated to match search-eng, 2/1/2013--> <span class="codeph"> &lt;geleid-huidig-weg [escape="html|url|js|json|0"] /&gt; </span> </p> </td> 
-   <td colname="col2"> <p>Geeft u de huidige weg die wordt gebruikt. Typisch wordt het gebruikt om een verbinding tot stand te brengen die op een nieuwe parameter aan het bestaande onderzoek toevoegt. Door gebrek is de weg ontsnapte URL. U kunt specificeren welke wijze van het ontsnappen u als vluchtparameter wilt gebruiken. </p> <p>Voorbeeld: </p> <p> <code class="syntax html"> &lt;a&nbsp;href="&lt;guided-current-path&nbsp;/&gt;&amp;lang=fr"&gt; 
-      French&nbsp;Version </code> </p> <p>In dit voorbeeld, gebruikt een regel van de onderzoeksverwerking lang om de Franse versie te selecteren. </p> <p>De huidige weg heeft altijd minstens één vraagparameter. Als geen andere vraagparameters bestaan wordt het geplaatst aan <span class="codeph"> q=* </span> makend het gemakkelijker om meer parameters toe te voegen. </p> </td> 
+     <!--Updated to match search-eng, 2/1/2013--> <span class="codeph"> &lt;guided-current-path [escape="html|url|js|json|0"] /&gt; </span> </p> </td> 
+   <td colname="col2"> <p>Geeft u het huidige pad dat wordt gebruikt. Doorgaans wordt het gebruikt om een koppeling te maken die een nieuwe parameter aan de bestaande zoekopdracht toevoegt. Standaard is het pad URL met escape-teken. U kunt opgeven welke modus voor escape-tekens u wilt gebruiken via de parameter escape. </p> <p>Voorbeeld: </p> <p> <code class="syntax html"> &lt;a&nbsp;href="&lt;guided-current-path&nbsp;/&gt;&amp;lang=fr"&gt; 
+      French&nbsp;Version </code> </p> <p>In dit voorbeeld gebruikt een regel voor zoekverwerking lang om de Franse versie te selecteren. </p> <p>Het huidige pad heeft altijd ten minste één queryparameter. Als geen andere vraagparameters bestaan wordt het geplaatst aan <span class="codeph"> q=* </span> makend het gemakkelijker om meer parameters toe te voegen. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>2 </p> </td> 
    <td colname="col1"> <p> <span class="codeph"> Basispad </span> </p> </td> 
-   <td colname="col2"> <p> Als u een verbinding wilt tot stand brengen gebruikend basepath, gebruik <span class="codeph"> / </span> bij het begin van uw <span class="codeph"> href </span> en voeg op parameters toe. </p> <p> <code class="syntax html"> &lt;a&nbsp;href="/"&gt;All&nbsp;Products&lt;/a&gt; 
+   <td colname="col2"> <p> Als u een koppeling wilt maken met behulp van het basispad, gebruikt u / <span class="codeph"> aan het begin van de </span> href <span class="codeph"> </span> en voegt u parameters toe. </p> <p> <code class="syntax html"> &lt;a&nbsp;href="/"&gt;All&nbsp;Products&lt;/a&gt; 
       Would&nbsp;create&nbsp;a&nbsp;link&nbsp;"All&nbsp;Products"&nbsp;to&nbsp;your 
       basepath,&nbsp;for&nbsp;example&nbsp;https://search.mycompany.com/ 
        </code> </p> </td> 
@@ -1221,23 +1228,23 @@ De volgende markeringen zijn beschikbaar om u te laten geavanceerdere dingen met
    <td colname="col01"> <p>3 </p> </td> 
    <td colname="col1"> <p> 
      <!--Updated to match search-eng, 2/1/2013--> <span class="codeph"> &lt;guided-query-param gsname="query_parameter" [escape="html|url"] /&gt; </span> </p> </td> 
-   <td colname="col2"> <p>Laat u de bestaande waarde van een vraagparameter grijpen die op URL is. Als uw parameter niet bestaat, keert deze markering een leeg koord terug. Als u geen vluchtoptie specificeert is het teruggekeerde koord automatisch ontsnapte aan HTML, kunt u of HTML of URL specificeren ontsnapend. </p> <p>Voorbeeld: </p> <p> 
+   <td colname="col2"> <p>Hiermee kunt u de bestaande waarde ophalen van een queryparameter die zich op de URL bevindt. Als de parameter niet bestaat, wordt met deze tag een lege tekenreeks geretourneerd. Als u geen escape-optie opgeeft, wordt de geretourneerde tekenreeks automatisch als HTML-escape weergegeven, kunt u HTML- of URL-escape opgeven. </p> <p>Voorbeeld: </p> <p> 
 
-    &amp;lt;geleide-query-param&amp;nbsp;gbsp;sap=&quot;q&quot;&amp;nbsp;nbsp;gt;gt;
-    geeft&amp;nbsp;u&amp;nbsp;waarde&amp;nbsp;pants
+    &amp;lt;guided-query-param&amp;nbsp;gsname=&quot;q&quot;&amp;nbsp;/&amp;gt;
+    giving&amp;nbsp;u&amp;nbsp;the&amp;value&amp;nbsp;opslag
     
-    &amp;lt;geleide-query-param&amp;nbsp;gbsp;gpsp;gp=&quot;gps lang&quot;&amp;nbsp;/&amp;gt;
-    geeft&amp;nbsp;u&amp;nbsp;nbsp;waarde&amp;nbsp;nbsp;waarde&amp;nbsp;nbsp;nbsp;nbsp;
+    &amp;lt;guided-query-param&amp;nbsp;gsname=&quot;lang&quot;&amp;nbsp;/&amp;
+    gt;
     
-    geeft&amp;
-    nbsp;nbsp;nbsp;nbsp;/&amp;gt;u&amp;nbsp;an&amp;nbsp;leeg&amp;nbsp;string
-    &amp;nbsp;
+    render&amp;nbsp;nbsp;the&amp;nbsp;value&amp;nbsp;nbsp;nbsp;en
+    &amp;lt;guided-query-param&amp;nbsp;gsname=&quot;test&quot;&amp;nbsp;/&amp;gt;
+    amp;nbsp;u&amp;nbsp;an&amp;nbsp;empty&amp;nbsp;string
     &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/code> &lt;/p> &lt;/td>
 </tr> 
   <tr> 
    <td colname="col01"> <p>4 </p> </td> 
    <td colname="col1"> <p> <span class="codeph"> &lt;guided-query-param-name gsname="param#" offset="offset_number"/&gt; </span> </p> </td> 
-   <td colname="col2"> <p>Het geleide Onderzoek heeft het begrip van een vraagaantal, dat in de broodkruimelcontrole wordt gebruikt. <span class="codeph"> geleid-vraag-param-naam </span> laat u parameters als deel van een verbinding in het presentatiemalplaatje bepalen waar de Geleide cijfers van het Onderzoek het correcte vraagaantal voor u uit. De <span class="codeph"> gsname </span> heeft een "x"in het, die Geleide Onderzoek met het correcte aantal vervangt. De compensatiewaarde kan 0 - 15 zijn, waar 0 erop wijst dat het volgende beschikbare vraagaantal wordt gebruikt. A1 wijst erop dat u 1 aan het wilt toevoegen, etc. </p> <p>In combinatie met <span class="codeph"> geleide-huidig-weg </span>, kunt u uw eigen mini facetverbinding bouwen of een extra boor-benedenniveau toestaan. </p> <p>Voorbeeld: </p> <p> <code class="syntax html"> &lt;a&nbsp;href="&lt;guided-current-path 
+   <td colname="col2"> <p>De Begeleide Onderzoek heeft het begrip van een vraagaantal, dat in de broodkruimelecontrole wordt gebruikt. <span class="codeph"> Met guided-query-param-name </span> kunt u parameters definiëren als onderdeel van een koppeling in de presentatiesjabloon waarin Met instructies zoeken het juiste querynummer voor u wordt weergegeven. De <span class="codeph"> gsname </span> heeft een 'x', die wordt vervangen door het juiste nummer. De verschuivingswaarde kan 0 - 15 zijn, waarbij 0 aangeeft dat het volgende beschikbare querynummer wordt gebruikt. A1 geeft aan dat u er 1 aan wilt toevoegen, enzovoort. </p> <p>Gecombineerd met <span class="codeph"> geleide-huidige-weg </span>, kunt u uw eigen mini facetverbinding bouwen of een extra boor-benedenniveau toestaan. </p> <p>Voorbeeld: </p> <p> <code class="syntax html"> &lt;a&nbsp;href="&lt;guided-current-path 
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/&gt;&amp;&lt;guided-query-param-name&nbsp;gsname="q#"&nbsp;offset="0" 
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/&gt;=mens&amp;&lt;guided-query-param-name&nbsp;gsname="x#"&nbsp;offset="0" 
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/&gt;=category"&nbsp;&gt;Category:Men&lt;/a&gt;&nbsp; 
@@ -1250,147 +1257,147 @@ De volgende markeringen zijn beschikbaar om u te laten geavanceerdere dingen met
   </tr> 
   <tr> 
    <td colname="col01"> <p>5 </p> </td> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;geleid-omvat gsfile="filename" /&gt; </span> </p> </td> 
-   <td colname="col2"> <p> Laat u andere malplaatjedossiers omvatten. Deze functionaliteit betekent dat u veelvoudige malplaatjes kunt tot stand brengen gebruikend submalplaatjes als modules. </p> <p>In het volgende voorbeeld, zijn de <span class="filepath"> broodkruimels </span> en de <span class="filepath"> facetten </span> - dossiers inbegrepen: </p> <p> <code class="syntax html"> &lt;guided-include&nbsp;gsfile='breadcrumbs.tmpl'&nbsp;/&gt; 
-      &lt;guided-include&nbsp;gsfile='facets.tmpl'&nbsp;/&gt; </code> </p> <p>Dynamisch omvat niet wordt gesteund. Met andere woorden, <span class="codeph"> kan gsfile </span> geen variabele zijn. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;guided-include gsfile="filename" /&gt; </span> </p> </td> 
+   <td colname="col2"> <p> Hiermee kunt u andere sjabloonbestanden opnemen. Deze functionaliteit betekent dat u meerdere sjablonen kunt maken met subsjablonen als modules. </p> <p>In het volgende voorbeeld worden de <span class="filepath"> bestanden met broodkruimels </span> en <span class="filepath"> facetten </span> opgenomen: </p> <p> <code class="syntax html"> &lt;guided-include&nbsp;gsfile='breadcrumbs.tmpl'&nbsp;/&gt; 
+      &lt;guided-include&nbsp;gsfile='facets.tmpl'&nbsp;/&gt; </code> </p> <p>Dynamische include-bestanden worden niet ondersteund. Met andere woorden, het <span class="codeph"> gsfile </span> kan geen variabele zijn. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>6 </p> </td> 
    <td colname="col1"> <p> 
-     <!--NEW 1/17/2013--> <span class="codeph"> &lt;tijd voor begeleide zoekopdrachten&gt; </span> </p> </td> 
-   <td colname="col2"> <p> Geeft aan hoe lang de zoekopdracht duurde. De teruggekeerde waarde van de onderzoekstijd wordt gespecificeerd in ms. </p> </td> 
+     <!--NEW 1/17/2013--> <span class="codeph"> &lt;guided-search-time&gt; </span> </p> </td> 
+   <td colname="col2"> <p> Hiermee wordt aangegeven hoe lang de zoekopdracht heeft geduurd. De geretourneerde waarde voor de zoektijd wordt opgegeven in ms. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>7 </p> </td> 
    <td colname="col1"> <p> 
-     <!--NEW 1/17/2013--> <span class="codeph"> &lt;geleid-val-door-onderzoeken&gt; </span> </p> </td> 
-   <td colname="col2"> <p> Keert de telling van kernen onderzoeken terug die worden gebruikt om de pagina van onderzoeksresultaten te bouwen. </p> </td> 
+     <!--NEW 1/17/2013--> <span class="codeph"> &lt;guided-fall-through-search&gt; </span> </p> </td> 
+   <td colname="col2"> <p> Retourneert het aantal zoekopdrachten in kernen dat wordt gebruikt om de pagina met zoekresultaten samen te stellen. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>8 </p> </td> 
    <td colname="col1"> <p> 
-     <!--NEW 1/17/2013--> <span class="codeph"> &lt;geleid-als-val-door-onderzoek&gt;&lt;/geleide-als-door-val-door-onderzoek&gt; </span> </p> </td> 
-   <td colname="col2"> <p>Tests als de telling van kernonderzoeken groter is dan één. </p> </td> 
+     <!--NEW 1/17/2013--> <span class="codeph"> &lt;guided-if-fall-through-search&gt;&lt;/guided-if-fall-through-search&gt; </span> </p> </td> 
+   <td colname="col2"> <p>Test of het aantal kernzoekopdrachten groter is dan één. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>9 </p> </td> 
    <td colname="col1"> <p> <code> &lt;guided-if[-not]-even&gt;&lt;guided-else[-not]-even&gt; 
       &lt;/guided-if[-not]-even&gt; </code> </p> </td> 
-   <td colname="col2"> <p>Deze voorwaarde is waar wanneer de huidige herhaling een gelijke herhaling van de lijn (tegenover een oneven herhaling) is. Dit is nuttig voor het tonen van variërende rijkleuren. </p> </td> 
+   <td colname="col2"> <p>Deze voorwaarde is waar wanneer de huidige iteratie een even herhaling van de lijn (tegenover een oneven herhaling) is. Dit is handig voor het weergeven van verschillende rijkleuren. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>10 </p> </td> 
    <td colname="col1"> <p> <code> &lt;guided-if[-not]-alt&gt;&lt;guided-else[-not]-alt&gt; 
       &lt;/guided-if[-not]-alt&gt; </code> </p> </td> 
-   <td colname="col2"> <p>Deze voorwaarde is waar wanneer de huidige herhaling een gelijke herhaling van de lijn is. Dit is nuttig voor het tonen van variërende rijkleuren. </p> </td> 
+   <td colname="col2"> <p>Deze voorwaarde is waar wanneer de huidige herhaling een gelijke herhaling van de lijn is. Dit is handig voor het weergeven van verschillende rijkleuren. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>11 </p> </td> 
    <td colname="col1"> <p> <code> &lt;guided-if[-not]-inner&gt;&lt;guided-else[-not]-inner&gt; 
       &lt;/guided-if[-not]-inner&gt; </code> </p> </td> 
-   <td colname="col2"> <p>Omvat de tekst tussen hen als de huidige herhaling noch de eerste noch de laatste is. </p> </td> 
+   <td colname="col2"> <p>Hiermee neemt u de tekst tussen de koppelingen op als de huidige herhaling noch de eerste, noch de laatste is. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>12 </p> </td> 
    <td colname="col1"> <p> <code> &lt;guided-if[-not]-outer&gt;&lt;guided-else[-not]-outer&gt; 
       &lt;/guided-if[-not]-outer&gt; </code> </p> </td> 
-   <td colname="col2"> <p>Omvat de tekst tussen hen als de huidige herhaling de eerste of laatste is. </p> </td> 
+   <td colname="col2"> <p>Hiermee neemt u de tekst tussen de koppelingen op als de huidige herhaling de eerste of de laatste is. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>13 </p> </td> 
    <td colname="col1"> <p> <code> &lt;guided-if-first-search&gt;&lt;guided-else-first-search&gt; 
       &lt;/guided-if-first-search&gt; </code> </p> </td> 
-   <td colname="col2"> <p>Laat u controleren of u op het aanvankelijke onderzoek of niet bent (de vraag was het resultaat van een onderzoek van de onderzoeksdoos). </p> </td> 
+   <td colname="col2"> <p>Hiermee kunt u controleren of de oorspronkelijke zoekopdracht wordt uitgevoerd (de zoekopdracht is het resultaat van een zoekopdracht in het zoekvak). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>14 </p> </td> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;geleid zoeken-url/&gt; </span> </p> </td> 
-   <td colname="col2"> <p>U kunt deze markering in uw malplaatje gebruiken om u te bewaren van het hardcoderen van de actie van de onderzoeksvorm. Het ontdekt wanneer u in het Staged of Levende milieu bent en verandert dienovereenkomstig. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;guided-search-url/&gt; </span> </p> </td> 
+   <td colname="col2"> <p>U kunt deze tag in de sjabloon gebruiken om de hardcodering van de actie van het zoekformulier te voorkomen. Het detecteert wanneer u zich in de Stage- of Live-omgeving bevindt en wijzigt dienovereenkomstig. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>15 </p> </td> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;geleid-als-vraag-param-bepaalde gsname="query_parameter"&gt; &lt;geleid-anders-vraag-param-defined&gt; &lt;/geleid-als-vraag-param-bepaald&gt; </span> </p> </td> 
-   <td colname="col2"> <p>Deze reeks markeringen laat u testen welke parameters van CGI in de onderzoeksweg worden bepaald. U kunt de waarden van de parameters testen slechts als zij worden bepaald. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;guided-if-query-param-defined gsname="query_parameter"&gt; &lt;guided-else-query-param-defined&gt; &lt;/guided-if-query-param-defined&gt; </span> </p> </td> 
+   <td colname="col2"> <p>Met deze set labels kunt u testen welke CGI-parameters zijn gedefinieerd in het zoekpad. U kunt de waarden van de parameters alleen testen als deze zijn gedefinieerd. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>16 </p> </td> 
    <td colname="col1"> <p> <span class="codeph"> &lt;guided-next-query-number [gsname="offset"] /&gt; </span> </p> </td> 
-   <td colname="col2"> <p>De geleide motor van het Onderzoek die het malplaatje drijft heeft het begrip van het drijven vraagaantallen waar elke nieuwe verbinding die de motor produceert, het volgende beschikbare vraagaantal gebruikt. Deze markering laat u het volgende vraagaantal of de compensatie grijpen zodat u douaneverbindingen kunt bouwen die in de resultaatreeks boren. De compensatie laat u in het volgende vraagaantal compenseren. Bijvoorbeeld, als u één facet hebt geselecteerd, is het volgende vraagaantal 2, met een compensatie van 1 het teruggekeerde vraagaantal is 3. </p> </td> 
+   <td colname="col2"> <p>De zoekengine met instructies die de sjabloon aandrijft, heeft het idee van zwevende querynummers waar elke nieuwe koppeling die de engine genereert, het volgende beschikbare querynummer gebruikt. Met deze tag kunt u het volgende querynummer of de volgende verschuivingen ophalen, zodat u aangepaste koppelingen kunt maken die naar de resultatenset gaan. Met Verschuiving kunt u verschuiven naar het volgende querynummer. Bijvoorbeeld, als u één facet hebt geselecteerd, is het volgende vraagaantal 2, met een compensatie van 1 het teruggekeerde vraagaantal is 3. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>17 </p> </td> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;geleid-douane-var gsname="custom_variable" [escape="html|url|js|json|0"]/&gt; </span> </p> </td> 
-   <td colname="col2"> <p>Laat u de bestaande waarde van een douanevariabele grijpen die uw verwerkingsregels bepalen. Als u geen vluchtoptie specificeert is het teruggekeerde koord automatisch ontsnapte HTML, kunt u of <span class="codeph"> html </span>, <span class="codeph"> url </span>, <span class="codeph"> js </span>, of <span class="codeph"> 0 specificeren </span>. Als u een verwerkingsregel gebruikt om een inkomende parameter van CGI aan een douanevariabele te kopiëren en dan die variabele in uw malplaatje met het ontsnappen te tonen of te gebruiken die aan niets of Js wordt geplaatst, dan kunt u een kwetsbaarheid XSS in uw onderzoek tot stand brengen. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;guided-custom-var gsname="custom_variable" [escape="html|url|js|json|0"]/&gt; </span> </p> </td> 
+   <td colname="col2"> <p>Hiermee kunt u de bestaande waarde vastleggen van een aangepaste variabele die uw verwerkingsregels definiëren. Als u geen escape-optie opgeeft, wordt de geretourneerde tekenreeks automatisch als HTML beschermd weergegeven, kunt u <span class="codeph"> HTML </span>, <span class="codeph"> url </span>, <span class="codeph"> js </span>of <span class="codeph"> </span>0 opgeven. Als u een verwerkingsregel gebruikt om een inkomende parameter van CGI aan een douanevariabele te kopiëren en dan die variabele in uw malplaatje te tonen of te gebruiken met ontsnapt aan niets of js wordt geplaatst, dan kunt u een kwetsbaarheid XSS in uw onderzoek tot stand brengen. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>18 </p> </td> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;geleid-als-douane-var-defined gsname="custom_variable"&gt; &lt;geleid-anders-douane-var-defined&gt; &lt;/geleid-als-douane-var-defined&gt; </span> </p> </td> 
-   <td colname="col2"> <p>Laat het testen toe als een douanevariabele in de verwerkingsregels (vraag het schoonmaken, pre-onderzoeksverwerking en post-onderzoeksverwerking) wordt bepaald. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;guided-if-custom-var-defined gsname="custom_variable"&gt; &lt;guided-else-custom-var-defined&gt; &lt;/guided-if-custom-var-defined&gt; </span> </p> </td> 
+   <td colname="col2"> <p>Laat het testen toe als een douanevariabele in de verwerkingsregels (vraagreiniging, pre-onderzoek verwerking en post-onderzoek verwerking) wordt bepaald. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>19 </p> </td> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;guided-general-field gsname="zoekname" field="fieldname" [escape="html|url|js|json|0"]/&gt; </span> </p> </td> 
-   <td colname="col2"> <p>Laat u de inhoud van een algemeen gebied tonen dat in het vervoermalplaatje wordt bepaald. Als u geen vluchtoptie specificeert wordt het teruggekeerde koord gecodeerd in het formaat u in het vervoermalplaatje voor dat gebied hebt gespecificeerd. Het specificeren van een vluchtoptie is bovenop van toepassing welk formaat u het gebied zoals in uw vervoermalplaatje codeert. U kunt of <span class="codeph"> html </span>, <span class="codeph"> url </span>, <span class="codeph"> js </span>, <span class="codeph"> json </span>, of <span class="codeph"> 0 specificeren </span>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;guided-general-field gsname="searchName" field="fieldName" [escape="html|url|js|json|0"]/&gt; </span> </p> </td> 
+   <td colname="col2"> <p>Hiermee kunt u de inhoud weergeven van een algemeen veld dat is gedefinieerd in de transportsjabloon. Als u geen escape-optie opgeeft, wordt de geretourneerde tekenreeks gecodeerd in de indeling die u in de transportsjabloon voor dat veld hebt opgegeven. Het specificeren van een ontsnappingsoptie is van toepassing bovenop welk formaat u het gebied zoals in uw vervoermalplaatje codeert. U kunt <span class="codeph"> html </span>, <span class="codeph"> url </span>, <span class="codeph"> js </span>, <span class="codeph"> json </span>of <span class="codeph"> </span>0 opgeven. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>20 </p> </td> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;guided-if-general-field gsname="search-name" field="fieldname"&gt; &lt;guided-else-general-field&gt; &lt;/guided-if-general-field&gt; </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;guided-if-general-field gsname="searchName" field="fieldName"&gt; &lt;guided-else-general-field&gt; &lt;/guided-if-general-field&gt; </span> </p> </td> 
    <td colname="col2"> <p>Laat het testen toe als de inhoud van een algemeen gebied, zoals die in het vervoermalplaatje wordt bepaald, bestaat. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>21 </p> </td> 
    <td colname="col1"> <p> <span class="codeph"> &lt;guided-cookie-value gsname="cookie_name" [escape="html|url|js|json|0"]/&gt; </span> </p> </td> 
-   <td colname="col2"> <p>Laat u de waarde van een koekje grijpen, veronderstellend dat het koekje beschikbaar is. Als u geen ontsnappingsoptie specificeert is het teruggekeerde koord automatisch ontsnapte HTML, kunt u of <span class="codeph"> html </span>, <span class="codeph"> url </span>, <span class="codeph"> js </span>, <span class="codeph"> json </span>, of <span class="codeph"> 0 specificeren </span>. </p> </td> 
+   <td colname="col2"> <p>Hiermee kunt u de waarde van een cookie ophalen, ervan uitgaande dat de cookie beschikbaar is. Als u geen escape-optie opgeeft, wordt de geretourneerde tekenreeks automatisch HTML escape-teken weergegeven, kunt u <span class="codeph"> HTML opgeven, of </span>html, <span class="codeph"> url </span>, <span class="codeph"> js </span>, <span class="codeph"> json </span>of <span class="codeph"> 0 </span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>22 </p> </td> 
    <td colname="col1"> <p> <span class="codeph"> &lt;guided-if-cookie gsname="cookie_name"&gt; &lt;guided-else-cookie&gt; &lt;/guided-if-cookie&gt; </span> </p> </td> 
-   <td colname="col2"> <p>Laat het testen toe als een koekje bestaat. </p> </td> 
+   <td colname="col2"> <p>Hiermee kunt u testen of een cookie bestaat. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>23 </p> </td> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;geleid banner gsname="banner area" [escape="html|url|js|json|0"] [width="xx" height="yy"]/&gt; </span> </p> </td> 
-   <td colname="col2"> <p>Output de banner voor een bepaald gebied. De facultatieve breedte en hoogteattributen worden gebruikt in de Visuele Bouwer van de Regel om de vertoning van een zinvolle plaats-houder toe te laten om gebruikers te laten een banner selecteren. Door gebrek zijn de banners niet ontsnapt. In plaats daarvan, wilt u HTML in het presentatiemalplaatje injecteren. Nochtans, als u een malplaatje JSON bouwt denk na gebruikend Js het ontsnappen optie. </p> <p>Voorbeeld: </p> <p> <code class="syntax html"> &lt;guided-banner&nbsp;gsname="top"&nbsp;width="400px" 
+   <td colname="col1"> <p> <span class="codeph"> &lt;guided-banner gsname="banner area" [escape="html|url|js|json|0"] [width="xx" height="yy"]/&gt; </span> </p> </td> 
+   <td colname="col2"> <p>Hiermee wordt de banner voor een bepaald gebied uitgevoerd. De facultatieve breedte en hoogtekenmerken worden gebruikt in de Visuele Bouwer van de Regel om de vertoning van een zinvolle plaats-houder toe te laten om gebruikers een banner te laten selecteren. Standaard worden banners niet beschermd. In plaats daarvan wilt u HTML in de presentatiesjabloon injecteren. Als u echter een JSON-sjabloon maakt, kunt u de optie JS escape gebruiken. </p> <p>Voorbeeld: </p> <p> <code class="syntax html"> &lt;guided-banner&nbsp;gsname="top"&nbsp;width="400px" 
       &nbsp;height="50px"/&gt; </code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>24 </p> </td> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;guided-if-banner-set gsname="banner area"&gt; &lt;aantal geleide-else-banner-set&gt; &lt;/guided-if-banner-set&gt; </span> </p> </td> 
-   <td colname="col2"> <p>Laat het testen toe als een bannergebied wordt geplaatst. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;guided-if-banner-set gsname="banner area"&gt; &lt;guided-else-banner-set&gt; &lt;/guided-if-banner-set&gt; </span> </p> </td> 
+   <td colname="col2"> <p>Hiermee schakelt u testen in als een bannergebied is ingesteld. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>25 </p> </td> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;guided-if-simulator-modus&gt; &lt;guided-else-simulator-modus&gt; &lt;/guided-if-simulator-modus&gt; </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;guided-if-simulator-mode&gt; &lt;guided-else-simulator-mode&gt; &lt;/guided-if-simulator-mode&gt; </span> </p> </td> 
    <td colname="col2"> <p>Laat u ontdekken wanneer u uw onderzoek in Simulator of de Visuele Bouwer van de Regel bekijkt. Het wordt normaal gebruikt om extra te tonen zuivert informatie voor u. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>26 </p> </td> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;geleid-als-tnt-zaken-regels&gt; &lt;geleid-anders-tnt-zaken-regels&gt; &lt;/geleid-als-tnt-zaken-regels&gt; </span> </p> </td> 
-   <td colname="col2"> <p>Laat u ontdekken als u om het even welke bedrijfsregels hebt die van verwijzingen voorzien een campagne van het Doel van <span class="keyword"> Adobe </span> verwijzen. Het wordt normaal gebruikt als deel van de integratie met het Doel van <span class="keyword"> Adobe </span> om het raken van de <span class="keyword"> </span> servers van het Doel te verhinderen wanneer het niet noodzakelijk is. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;guided-if-tnt-business-rules&gt; &lt;guided-else-tnt-business-rules&gt; &lt;/guided-if-tnt-business-rules&gt; </span> </p> </td> 
+   <td colname="col2"> <p>Laat u ontdekken als u om het even welke bedrijfsregels hebt die op een <span class="keyword"> Adobe Target </span> campagne van verwijzingen voorzien. Het wordt gewoonlijk gebruikt als onderdeel van de integratie met <span class="keyword"> Adobe Target </span> om te voorkomen dat de <span class="keyword"> Target- </span> servers worden getroffen wanneer dit niet nodig is. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>27 </p> </td> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;geleid omleiden/&gt; </span> </p> </td> 
-   <td colname="col2"> <p>Door gebrek richt automatisch opnieuw wordt uitgevoerd. Nochtans, als u plaatsonderzoek/merchandising hebt gevormd om een reactie van XML of van JSON op uw Web-toepassing terug te keren, kunt u verkiezen om of de reactie 302/301 in uw Web-toepassing te ontleden of te hebben opnieuw richt tot u als deel van de resultaatreeks wordt overgegaan die. Als u doorgeeft richt opnieuw als deel van de resultaatreeks, dan kan deze markering in het malplaatje aan output worden gebruikt de herdirecte plaats. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;guided-redirect/&gt; </span> </p> </td> 
+   <td colname="col2"> <p>Standaard worden omleidingen automatisch uitgevoerd. Als u echter de zoekfunctie/merchandising van sites hebt geconfigureerd om een XML- of JSON-reactie op uw webtoepassing te retourneren, kunt u de 302/301-reactie parseren in uw webtoepassing of de omleiding laten doorgeven als onderdeel van de resultatenset. Als u de omleiding doorgeeft als onderdeel van de resultatenset, kan deze tag in de sjabloon worden gebruikt om de omleidingslocatie uit te voeren. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>28 </p> </td> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;geleid-als-omleiden&gt; &lt;geleid-anders-omleiden&gt; &lt;/geleid-als-omleiden&gt; </span> </p> </td> 
-   <td colname="col2"> <p>Wanneer u plaatsonderzoek/merchandising hebt gevormd om in de resultaatreeks opnieuw te richten, kan deze reeks markeringen worden gebruikt om te bepalen als er aan output opnieuw is gericht. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;guided-if-redirect&gt; &lt;guided-else-redirect&gt; &lt;/guided-if-redirect&gt; </span> </p> </td> 
+   <td colname="col2"> <p>Wanneer u plaatsonderzoek/handel hebt gevormd om redirects in de resultaatreeks terug te keren, kan deze reeks markeringen worden gebruikt om te bepalen als er redirect aan output is. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>29 </p> </td> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;geleid-lt/&gt; &lt;geleid-bt/&gt; </span> </p> </td> 
-   <td colname="col2"> <p>Deze reeks markeringen laat u geleide malplaatjemarkeringen binnen de attributen van HTML inbedden. </p> <p>Voorbeeld: </p> <p> <code class="syntax html"> &lt;guided-lt/&gt;div&nbsp;&lt;guided-if-facet-long&gt; 
+   <td colname="col1"> <p> <span class="codeph"> &lt;guided-lt/&gt; &lt;guided-gt/&gt; </span> </p> </td> 
+   <td colname="col2"> <p>Met deze set tags kunt u Geleide sjabloontags insluiten in HTML-kenmerken. </p> <p>Voorbeeld: </p> <p> <code class="syntax html"> &lt;guided-lt/&gt;div&nbsp;&lt;guided-if-facet-long&gt; 
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;style="height:&nbsp;125px;&nbsp;overflow: 
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;auto;"&lt;/guided-if-facet-long&gt;&lt;guided-gt/&gt; </code> </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Labels transportsjabloon {#reference_227D199F5A7248049BE1D405C0584751}
+## Labels voor transportsjablonen {#reference_227D199F5A7248049BE1D405C0584751}
 
-De malplaatjes van het vervoer zijn de malplaatjes van XML die gegevens van het achterste deelonderzoek tot de Begeleide de presentatielaag van het Onderzoek overgaan.
+De malplaatjes van het vervoer zijn de malplaatjes van XML die gegevens van het achterste eind onderzoek tot de Geleide presentatielaag van het Onderzoek overgaan.
 
 <!-- 
 
@@ -1398,29 +1405,29 @@ r_transport_template_tags.xml
 
  -->
 
-In uw presentatielaag, kunt u één enkel presentatiemalplaatje hebben dat de resultaten van veelvoudige onderzoeken voorstelt. Elk onderzoek kon het zelfde vervoermalplaatje of een malplaatje van het douanevervoer gebruiken om de gegevens tot de presentatielaag over te gaan.
+In uw presentatielaag kunt u één presentatiesjabloon gebruiken waarin de resultaten van meerdere zoekopdrachten worden weergegeven. Elke zoekopdracht kan dezelfde transportsjabloon of een aangepaste transportsjabloon gebruiken om de gegevens door te geven aan de presentatielaag.
 
-Omdat het vervoermalplaatje slechts wordt gebruikt om gegevens tot de presentatielaag over te gaan, heeft het geen HTML dat met het tonen van de onderzoeksresultaten betrokken is. Het vervoermalplaatje gebruikt de markeringen van XML van het vervoermalplaatje om de onderzoeksresultaten over te gaan voor het bevolken van de Geleide componenten van het Onderzoek, zoals facetten, broodkruimels, en menu&#39;s. Binnen deze markeringen worden de standaard markeringen van het onderzoeksmalplaatje gebruikt om de daadwerkelijke waarden te tonen.
+Omdat het vervoermalplaatje slechts wordt gebruikt om gegevens tot de presentatielaag over te gaan, heeft het geen HTML die met het tonen van de onderzoeksresultaten betrokken is. De vervoermalplaatje gebruikt de markeringen van XML van het vervoermalplaatje om de onderzoeksresultaten voor het bevolken van de Geleide componenten van het Onderzoek, zoals facetten, broodkruimels, en menu&#39;s over te gaan. Binnen deze tags worden standaardtags voor zoeksjablonen gebruikt om de werkelijke waarden weer te geven.
 
-Zie Een presentatie [bewerken of een transportsjabloon](../c-about-design-menu/c-about-templates.md#task_800E0E2265C34C028C92FEB5A1243EC3).
+Zie Een presentatie of een transportsjabloon [](../c-about-design-menu/c-about-templates.md#task_800E0E2265C34C028C92FEB5A1243EC3)bewerken.
 
-Zie [Zoeksjabloontags](../c-appendices/c-templates.md#reference_F7AA3FF602314E42842BBC740D2CA1A4).
+Zie Sjabloontags [](../c-appendices/c-templates.md#reference_F7AA3FF602314E42842BBC740D2CA1A4)zoeken.
 
 <table> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> <p>Transportsjabloon tag </p> </th> 
+   <th colname="col1" class="entry"> <p>Tag voor transportsjabloon </p> </th> 
    <th colname="col2" class="entry"> <p>Beschrijving </p> </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;geleid-xml&gt;&lt;/geleide-xml&gt; </span> </p> </td> 
-   <td colname="col2"> <p>De markeringen van wortelXML die de presentatielaag gebruikt om te ontdekken wat uit het vervoermalplaatje wordt ontleed. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;guided-xml&gt;&lt;/guided-xml&gt; </span> </p> </td> 
+   <td colname="col2"> <p>De wortelXML markeringen die de presentatielaag gebruikt om te ontdekken wat uit het vervoermalplaatje wordt ontleed. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;algemeen&gt;&lt;/general&gt; </span> </p> </td> 
-   <td colname="col2"> <p>De markeringen omringen de markeringen van het onderzoeksmalplaatje die summiere gegevens verstrekken die op de resultaatreeks worden gebaseerd. Typisch, bevatten deze markeringen onderzoeksmarkeringen voor totaal aantal resultaten, lager resultaat, en hoogste resultaat. U kunt om het even welk aantal extra globale gebieden bepalen die u met de <span class="codeph"> algemeen-gebied </span> markering, zoals in het volgende voorbeeld wilt: </p> <p> <code class="syntax html"> &lt;general&gt; 
+   <td colname="col1"> <p> <span class="codeph"> &lt;general&gt;&lt;/general&gt; </span> </p> </td> 
+   <td colname="col2"> <p>Tags rondom zoekopdrachtsjabloontags met samenvattingsgegevens op basis van de resultatenset. Deze tags bevatten meestal zoekcodes voor het totale aantal resultaten, het lagere resultaat en het hoogste resultaat. U kunt elk gewenst aantal aanvullende globale velden definiëren met de <span class="codeph"> </span> code algemeen veld, zoals in het volgende voorbeeld: </p> <p> <code class="syntax html"> &lt;general&gt; 
       &nbsp;&nbsp;&lt;total&gt;&lt;search-total&nbsp;/&gt;&lt;/total&gt; 
       &nbsp;&nbsp;&lt;lower&gt;&lt;search-lower&nbsp;/&gt;&lt;/lower&gt; 
       &nbsp;&nbsp;&lt;upper&gt;&lt;search-upper&nbsp;/&gt;&lt;/upper&gt; 
@@ -1429,11 +1436,11 @@ Zie [Zoeksjabloontags](../c-appendices/c-templates.md#reference_F7AA3FF602314E42
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> &lt;resultaten&gt;&lt;/resultaten&gt; </span> </p> </td> 
-   <td colname="col2"> <p>De markeringen worden verpakt rond de onderzoeksresultaten, zodat Geleid Onderzoek weet waar te om hen te zoeken. </p> </td> 
+   <td colname="col2"> <p>Tags worden rondom de zoekresultaten geplaatst, zodat de zoekfunctie met instructies weet waar ze naartoe moeten zoeken. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;resultaat&gt;&lt;/resultaat&gt; </span> </p> </td> 
-   <td colname="col2"> <p>De markeringen worden verpakt rond elk onderzoeksresultaat, zodat Geleid Onderzoek erkent waar de inhoud voor één enkel onderzoeksresultaat begint en beëindigt, zoals in het volgende voorbeeld beëindigt: </p> <code class="syntax html"> &lt;results&gt; 
+   <td colname="col1"> <p> <span class="codeph"> &lt;result&gt;&lt;/result&gt; </span> </p> </td> 
+   <td colname="col2"> <p>Tags worden rondom elk zoekresultaat geplaatst, zodat met instructies wordt herkend waar de inhoud voor één zoekresultaat begint en eindigt, zoals in het volgende voorbeeld: </p> <code class="syntax html"> &lt;results&gt; 
      &nbsp;&nbsp;&lt;search-results&gt; 
      &nbsp;&nbsp;&nbsp;&nbsp;&lt;result&gt; 
      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;index&gt;&lt;search-index&nbsp;/&gt;&lt;/index&gt; 
@@ -1443,8 +1450,8 @@ Zie [Zoeksjabloontags](../c-appendices/c-templates.md#reference_F7AA3FF602314E42
      &lt;/results&gt; </code> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;attribuut-lijst name="tabelnaam"&gt; </span> </p> </td> 
-   <td colname="col2"> <p>Laat u door elk punt in een multi-waardelijst voor één enkel resultaat van een lus voorzien. Gebruik deze markering slechts binnen een resultaat. Zijn doel is u te laten over attributen herhalen die tot een resultaatgebied, zoals in het volgende voorbeeld behoren: </p> <code class="syntax html"> &lt;results&gt; 
+   <td colname="col1"> <p> <span class="codeph"> &lt;attribute-table name="tablename"&gt; </span> </p> </td> 
+   <td colname="col2"> <p>Hiermee kunt u elk item in een lijst met meerdere waarden doorlopen voor één resultaat. Gebruik deze tag alleen binnen een resultaat. Het doel is om u over attributen te laten herhalen die tot een resultaatgebied behoren, zoals in het volgende voorbeeld: </p> <code class="syntax html"> &lt;results&gt; 
      &nbsp;&nbsp;&lt;search-results&gt; 
      &nbsp;&nbsp;&nbsp;&nbsp;&lt;result&gt; 
      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;index&gt;&lt;search-index&nbsp;/&gt;&lt;/index&gt; 
@@ -1459,17 +1466,17 @@ Zie [Zoeksjabloontags](../c-appendices/c-templates.md#reference_F7AA3FF602314E42
      &lt;/results&gt; </code> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;facetten&gt;&lt;/facetten&gt; </span> </p> </td> 
-   <td colname="col2"> <p>Gaat op de resultaten over die de facetten bevolken. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;facets&gt;&lt;/facets&gt; </span> </p> </td> 
+   <td colname="col2"> <p>Geeft de resultaten door die de facetten vullen. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> 
-     <!--NEW 2/27/2014--> <span class="codeph"> &lt;dynamisch facet&gt;&lt;/dynamic facet&gt; </span> </p> </td> 
-   <td colname="col2"> <p> U kunt een facet aanwijzen als zowel een dynamisch facet als een lid van een facetspoorstaaf. De behandeling ervan is echter onafhankelijk van de gerelateerde sjabloontags voor presentaties. </p> <p>Met andere woorden, het nestelen van een facetspoorloopingscontext binnen een dynamische facetloopingscontext, of vice versa, wordt niet toegestaan. </p> <p>Voor facetten die zowel dynamisch als geschraapt zijn, slechts zijn die dynamische facetten die voor een bepaalde opsporing zijn teruggekeerd zichtbaar binnen de van de facetspoorlijnen looping context. </p> </td> 
+     <!--NEW 2/27/2014--> <span class="codeph"> &lt;dynamic-facet&gt;&lt;/dynamic-facet&gt; </span> </p> </td> 
+   <td colname="col2"> <p> U kunt een facet aanwijzen als zowel een dynamisch facet als een lid van een facetrail. De behandeling ervan is echter onafhankelijk van de gerelateerde sjablooncodes voor presentaties. </p> <p>Met andere woorden, het nesten van een facetspoorloopingcontext binnen een dynamische facetloopingcontext, of vice versa, is niet toegestaan. </p> <p>Voor facetten die zowel dynamisch als geklonterd zijn, zijn slechts die dynamische facetten die voor een bepaalde onderzoek werden teruggekeerd zichtbaar binnen de facetspoorloopingcontext. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> &lt;facet name="name"&gt;&lt;/facet&gt; </span> </p> </td> 
-   <td colname="col2"> <p> Elke facet heeft zijn eigen facetmarkeringen waar de naamparameter de facetnaam aanpast. De markeringen van het onderzoek worden gebruikt binnen de facetmarkeringen voor de facetwaarden, zoals in het volgende voorbeeld: </p> <code class="syntax html"> &lt;facets&gt; 
+   <td colname="col2"> <p> Elke facet heeft zijn eigen facetmarkeringen waar de naamparameter de facetnaam aanpast. Zoekcodes worden gebruikt binnen de facettags voor de waarden van facetten, zoals in het volgende voorbeeld: </p> <code class="syntax html"> &lt;facets&gt; 
      &nbsp;&nbsp;&lt;facet&nbsp;name="brand"&gt; 
      &nbsp;&nbsp;&nbsp;&nbsp;&lt;values&gt;&lt;search-field-value-list&nbsp;name="brand"&nbsp;quotes="no"&nbsp;commas="yes"&nbsp;data="values"&nbsp;sortby="values"&nbsp;/&gt;&lt;/values&gt; 
      &nbsp;&nbsp;&nbsp;&nbsp;&lt;counts&gt;&lt;search-field-value-list&nbsp;name="brand"&nbsp;quotes="no"&nbsp;commas="yes"&nbsp;data="counts"&nbsp;sortby="values"&nbsp;/&gt;&lt;/counts&gt; 
@@ -1478,7 +1485,7 @@ Zie [Zoeksjabloontags](../c-appendices/c-templates.md#reference_F7AA3FF602314E42
      &nbsp;&nbsp;&nbsp;&nbsp;&lt;values&gt;&lt;search-field-value-list&nbsp;name="category"&nbsp;quotes="no"&nbsp;commas="yes"&nbsp;data="values"&nbsp;sortby="values"&nbsp;/&gt;&lt;/values&gt; 
      &nbsp;&nbsp;&nbsp;&nbsp;&lt;counts&gt;&lt;search-field-value-list&nbsp;name="category"&nbsp;quotes="no"&nbsp;commas="yes"&nbsp;data="counts"&nbsp;sortby="values"&nbsp;/&gt;&lt;/counts&gt; 
      &nbsp;&nbsp;&lt;/facet&gt; 
-     &lt;/facets&gt; </code> <p> De rekeningen die vangnetten gebruiken kunnen de dynamische markering en de vertoning-namen markering gebruiken. Beide markeringen helpen de afbeelding tussen sterke facetten en echte facetten te vergemakkelijken terwijl het creëren van bedrijfsregels. </p> <code class="syntax html"> &lt;facets&gt; 
+     &lt;/facets&gt; </code> <p> Voor accounts die gebruikmaken van een steunkleur, kunnen de tag dynamic en de tag display-names worden gebruikt. Beide tags helpen u bij het maken van bedrijfsregels de koppeling tussen bepaalde facetten en echte facetten te vergemakkelijken. </p> <code class="syntax html"> &lt;facets&gt; 
      &nbsp;&nbsp;&lt;facet&nbsp;name="facet_values01"&gt; 
      &nbsp;&lt;dynamic&gt;1&lt;/dynamic&gt; 
      &nbsp;&lt;display-names&gt;&lt;search-field-value-list&nbsp;name="facet_names01"&nbsp;quotes="no"&nbsp;commas="yes"&nbsp;data="values"&nbsp;sortby="values"&nbsp;/&gt;&lt;/display-names&gt; 
@@ -1488,28 +1495,28 @@ Zie [Zoeksjabloontags](../c-appendices/c-templates.md#reference_F7AA3FF602314E42
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> &lt;search-display-field separator=","&gt; </span> </p> </td> 
-   <td colname="col2"> <p>Het <span class="codeph"> separatorattribuut </span> laat de afbakening veranderen die wordt gebruikt wanneer u output onderzoek-vertoning-gebied gegevens voor lijsten. Het gebrek is een komma. </p> <p>Over het algemeen, zou de afbakening u gebruikt iets moeten zijn dat niet gemakkelijk in uw gebiedsinhoud verschijnt. </p> </td> 
+   <td colname="col2"> <p>Met het <span class="codeph"> scheidingskenmerk </span> kunt u het scheidingsteken wijzigen dat wordt gebruikt wanneer u zoekopdrachten-weergaveveldgegevens voor lijsten uitvoert. De standaardwaarde is een komma. </p> <p>Over het algemeen moet het scheidingsteken dat u gebruikt iets zijn dat niet gemakkelijk in de inhoud van het veld wordt weergegeven. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;suggesties&gt;&lt;/suggesties&gt; </span> </p> </td> 
-   <td colname="col2"> <p> Verpak uw Bedoelde u suggesties met markeringen zodat het Begeleide Onderzoek erkent welke knopen van XML suggesties bevatten. </p> <p>Zie <a href="../c-about-linguistics-menu/c-about-did-you-mean.md#concept_7D4F3C29EF184B538B8AE2ECAE0CDC5E" type="concept" format="dita" scope="local"> over wat je bedoelt</a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;suggesties&gt;&lt;/Suggesties&gt; </span> </p> </td> 
+   <td colname="col2"> <p> Plaats uw Bedoelde u suggesties met markeringen zodat Geleide Onderzoek herkent welke knopen van XML suggesties bevatten. </p> <p>Zie <a href="../c-about-linguistics-menu/c-about-did-you-mean.md#concept_7D4F3C29EF184B538B8AE2ECAE0CDC5E" type="concept" format="dita" scope="local"> Info Bedoelde je</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> &lt;suggestie&gt;&lt;/suggestie&gt; </span> </p> </td> 
-   <td colname="col2"> <p>De omslag elk Bedoelde u suggestie met markeringen, zoals in het volgende voorbeeld: </p> <code class="syntax html"> &lt;search-if-suggestions&gt; 
+   <td colname="col2"> <p>Bedoelt u elk met labels, zoals in het volgende voorbeeld: </p> <code class="syntax html"> &lt;search-if-suggestions&gt; 
      &nbsp;&nbsp;&lt;suggestions&gt; 
      &nbsp;&nbsp;&nbsp;&nbsp;&lt;search-suggestions&gt; 
      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;suggestion&gt;&lt;search-suggestion-text&nbsp;/&gt;&lt;/suggestion&gt; 
      &nbsp;&nbsp;&nbsp;&nbsp;&lt;/search-suggestions&gt; 
      &nbsp;&nbsp;&lt;/suggestions&gt; 
-     &lt;/search-if-suggestions&gt; </code> <p>Zie <a href="../c-about-linguistics-menu/c-about-did-you-mean.md#concept_7D4F3C29EF184B538B8AE2ECAE0CDC5E" type="concept" format="dita" scope="local"> over wat je bedoelt</a>. </p> </td> 
+     &lt;/search-if-suggestions&gt; </code> <p>Zie <a href="../c-about-linguistics-menu/c-about-did-you-mean.md#concept_7D4F3C29EF184B538B8AE2ECAE0CDC5E" type="concept" format="dita" scope="local"> Info Bedoelde je</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Zoeksjabloontags {#reference_F7AA3FF602314E42842BBC740D2CA1A4}
+## Sjabloontags zoeken {#reference_F7AA3FF602314E42842BBC740D2CA1A4}
 
-Een onderzoekstemplate is een HTML- dossier dat malplaatjemarkeringen omvat die de plaatsonderzoek/de handel drijven bepaalt. Deze markeringen wijzen erop hoe uw onderzoeksresultaten geformatteerd zijn. De volgende verwijzing bevat een korte beschrijving van elke markering van het onderzoeksmalplaatje en zijn attributen.
+Een zoeksjabloon is een HTML-bestand dat sjabloontags bevat die worden gedefinieerd door zoeken/verhandelen van sites. Deze tags geven aan hoe de zoekresultaten zijn opgemaakt. De volgende naslaggids bevat een korte beschrijving van elke zoeksjabloontag en de bijbehorende kenmerken.
 
 <!-- 
 
@@ -1519,63 +1526,63 @@ r_search_template_tags.xml
 
 >[!NOTE]
 >
->Gebruik slechts de markeringen van het onderzoeksmalplaatje in de dossiers van het vervoermalplaatje (.tpl).
+>Gebruik alleen sjabloontags voor zoekopdrachten in transportsjabloonbestanden (.tpl).
 
 U kunt uit de volgende de markeringsgroepen en verwijzingsmateriaal van het onderzoeksmalplaatje selecteren.
 
-De markeringen die slechts binnen de resultatenlijn geldig zijn omvatten het volgende:
+Tags die alleen binnen de resultatenlus geldig zijn, zijn onder andere:
 
-* [Over Resultaatlijnen](../c-appendices/c-templates.md#section_D4DC7B4560144663972E8DBC3369C629)
-* [Resultaatreeksen](../c-appendices/c-templates.md#section_80D68334E8D04A33937A6E58ABAAA320)
-* [Resultaatlus voorwaardelijke tags](../c-appendices/c-templates.md#section_35C367969E384A06A9865E388F1F9360)
-* [Resultaatankerkoppelingtags](../c-appendices/c-templates.md#section_C5FAEF520E9E42ADAD1F90651922AA02)
-* [Voorwaardelijke tags voor positie laden](../c-appendices/c-templates.md#section_E0C29DDA09E043C9A396F36334F05EBB)
+* [Over Resultaten-lustags](../c-appendices/c-templates.md#section_D4DC7B4560144663972E8DBC3369C629)
+* [Resultaten van reekscodes](../c-appendices/c-templates.md#section_80D68334E8D04A33937A6E58ABAAA320)
+* [Resultaten voorwaardelijke tags in lus](../c-appendices/c-templates.md#section_35C367969E384A06A9865E388F1F9360)
+* [Resultaten koppelingstags voor herhalen](../c-appendices/c-templates.md#section_C5FAEF520E9E42ADAD1F90651922AA02)
+* [Voorwaardelijke tags voor positie herhalen](../c-appendices/c-templates.md#section_E0C29DDA09E043C9A396F36334F05EBB)
 
-De markeringen die door het malplaatje geldig zijn omvatten het volgende:
+Tags die geldig zijn in de gehele sjabloon, zijn onder andere:
 
-* [Labels in lijst met velden](../c-appendices/c-templates.md#section_D3298B5F976447DBA0032B883DCC91B1)
-* [Lijstcodes van lijst met velden](../c-appendices/c-templates.md#section_0717FA09F0FC449CB916883B0500A60E)
+* [Lijstlabels voor veldwaarden](../c-appendices/c-templates.md#section_D3298B5F976447DBA0032B883DCC91B1)
+* [Lijstlabels voor veldwaarden](../c-appendices/c-templates.md#section_0717FA09F0FC449CB916883B0500A60E)
 * [Tags voorstellen](../c-appendices/c-templates.md#section_C28EB8B4F7DC4E278A0F143BCFEEB1AC)
-* [Sjabloonreekscodes](../c-appendices/c-templates.md#section_67E3D529661F4F03A1FF469D9D658CAF)
-* [Sjabloonankerkoppelingtags](../c-appendices/c-templates.md#section_3A51D27616C541E2B818CC52B2B856BA)
-* [Voorwaardelijke tags voor template](../c-appendices/c-templates.md#section_18D9BC66DE484881932FD2F7EA9D170D)
-* [Sjabloonformulierbesturingscodes](../c-appendices/c-templates.md#section_45AFC414ACA74825B72FEAA8456F8DD2)
+* [Tags voor sjabloonreeksen](../c-appendices/c-templates.md#section_67E3D529661F4F03A1FF469D9D658CAF)
+* [Koppelingstags voor sjabloonanker](../c-appendices/c-templates.md#section_3A51D27616C541E2B818CC52B2B856BA)
+* [Voorwaardelijke tags sjabloon](../c-appendices/c-templates.md#section_18D9BC66DE484881932FD2F7EA9D170D)
+* [Tags voor formulierbeheer](../c-appendices/c-templates.md#section_45AFC414ACA74825B72FEAA8456F8DD2)
 
-Referentieonderwerpen Zoeksjabloon zoeken
+Zoeksjabloonverwijzingsonderwerpen
 
-* [Datumformaatstrings](../c-appendices/c-templates.md#section_4BBDBBEF2B96414497617CD4B52D96E4)
-* [Taalidentificatie](../c-appendices/c-templates.md#section_0490DECC00E34691ADE5A9ED90A6D911)
-* [Het specificeren van de inhoud-type HTTP- kopbal](../c-appendices/c-templates.md#section_AEED823E9938448A9EDB2F286D9CFD90)
-* [Het specificeren van een karakter dat in een malplaatje van HTML wordt geplaatst](../c-appendices/c-templates.md#section_E0D1816ABB5846BEBE9C26D5980CCBE6)
-* [Het specificeren van een karakter dat in een malplaatje van XML wordt geplaatst](../c-appendices/c-templates.md#section_17DC31CDCC104F5F8081466B41A96E9D)
-* [Inclusief een zoekopdrachtsjabloon in een andere](../c-appendices/c-templates.md#section_7D1FCD3D9E2340C291E354C9720E8BC0)
+* [Tekenreeksen datumnotatie](../c-appendices/c-templates.md#section_4BBDBBEF2B96414497617CD4B52D96E4)
+* [Taalid&#39;s](../c-appendices/c-templates.md#section_0490DECC00E34691ADE5A9ED90A6D911)
+* [De HTTP-header van het inhoudstype opgeven](../c-appendices/c-templates.md#section_AEED823E9938448A9EDB2F286D9CFD90)
+* [Een tekenset opgeven in een HTML-sjabloon](../c-appendices/c-templates.md#section_E0D1816ABB5846BEBE9C26D5980CCBE6)
+* [Een tekenset opgeven in een XML-sjabloon](../c-appendices/c-templates.md#section_17DC31CDCC104F5F8081466B41A96E9D)
+* [Een zoeksjabloon opnemen in een andere sjabloon](../c-appendices/c-templates.md#section_7D1FCD3D9E2340C291E354C9720E8BC0)
 
-## Over Resultaatlijnen {#section_D4DC7B4560144663972E8DBC3369C629}
+## Over Resultaten-lustags {#section_D4DC7B4560144663972E8DBC3369C629}
 
-De markering van de resultatenlijn is het werkpaard van het malplaatjesysteem. Wanneer de markering tijdens een onderzoek wordt ontmoet, wordt HTML herhaald en andere markeringen tussen het begin en het einde van resultatenlijn markeringen, die een andere markeringen vervangen met uw onderzoeksresultaten.
+De resultatenlustag is het werkpaard van het sjabloonsysteem. Wanneer de tag tijdens een zoekopdracht wordt aangetroffen, wordt de HTML herhaald en worden andere tags tussen de tags voor de begin- en eindresultatenlus geplaatst, waarbij eventuele andere tags worden vervangen door uw zoekresultaten.
 
 `<search-results> ... </search-results>`
 
-De codes van de resultatenlijn omringen HTML dat de onderzoeksresultaten toont. HTML tussen de markeringen wordt herhaald voor elk resultaat en op de pagina getoond.
+De resultatenlustags staan rondom de HTML die de zoekresultaten weergeeft. De HTML tussen de labels wordt voor elk resultaat herhaald en wordt op de pagina weergegeven.
 
-De volgende markeringen zijn geldig slechts binnen de resultatenlijn:
+De volgende tags zijn alleen geldig in de resultatenlus:
 
-* [Resultaatreeksen](../c-appendices/c-templates.md#section_80D68334E8D04A33937A6E58ABAAA320)
-* [Resultaatlus voorwaardelijke tags](../c-appendices/c-templates.md#section_35C367969E384A06A9865E388F1F9360)
-* [Resultaatankerkoppelingtags](../c-appendices/c-templates.md#section_C5FAEF520E9E42ADAD1F90651922AA02)
-* [Voorwaardelijke tags voor positie laden](../c-appendices/c-templates.md#section_E0C29DDA09E043C9A396F36334F05EBB)
+* [Resultaten van reekscodes](../c-appendices/c-templates.md#section_80D68334E8D04A33937A6E58ABAAA320)
+* [Resultaten voorwaardelijke tags in lus](../c-appendices/c-templates.md#section_35C367969E384A06A9865E388F1F9360)
+* [Resultaten koppelingstags voor herhalen](../c-appendices/c-templates.md#section_C5FAEF520E9E42ADAD1F90651922AA02)
+* [Voorwaardelijke tags voor positie herhalen](../c-appendices/c-templates.md#section_E0C29DDA09E043C9A396F36334F05EBB)
 
-## Resultaatreeksen {#section_80D68334E8D04A33937A6E58ABAAA320}
+## Resultaten van reekscodes {#section_80D68334E8D04A33937A6E58ABAAA320}
 
-De volgende markeringen keren een koord terug.
+De volgende labels retourneren een tekenreeks.
 
-Zie [Over Resultaatlusjes](../c-appendices/c-templates.md#section_D4DC7B4560144663972E8DBC3369C629).
+Zie [Informatie over Resultaatlustags](../c-appendices/c-templates.md#section_D4DC7B4560144663972E8DBC3369C629).
 
 <table> 
  <thead> 
   <tr> 
    <th colname="col01" class="entry"> </th> 
-   <th colname="col1" class="entry"> <p>Markering </p> </th> 
+   <th colname="col1" class="entry"> <p>Tag </p> </th> 
    <th colname="col2" class="entry"> <p>Beschrijving </p> </th> 
   </tr> 
  </thead>
@@ -1583,93 +1590,93 @@ Zie [Over Resultaatlusjes](../c-appendices/c-templates.md#section_D4DC7B45601446
   <tr> 
    <td colname="col01"> <p>1 </p> </td> 
    <td colname="col1"> <p> <span class="codeph"> &lt;search-index&gt; </span> </p> </td> 
-   <td colname="col2"> <p>Keert de numerieke index van het huidige resultaat terug. </p> </td> 
+   <td colname="col2"> <p>Retourneert de numerieke index van het huidige resultaat. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>2 </p> </td> 
    <td colname="col1"> <p> <span class="codeph"> &lt;search-title length="XX"&gt; </span> </p> </td> 
-   <td colname="col2"> <p>Keert de paginatitel van het huidige resultaat terug. Het facultatieve lengteattribuut wordt gebruikt om de lengte van getoonde koorden, met een gebrek van 80 karakters te beperken. </p> </td> 
+   <td colname="col2"> <p>Retourneert de paginatitel van het huidige resultaat. Het optionele kenmerk length wordt gebruikt om de lengte van de weergegeven tekenreeksen te beperken, met standaard 80 tekens. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>3 </p> </td> 
    <td colname="col1"> <p> <span class="codeph"> &lt;search-body text length="XX" encoding="html/javascript/json/perl/url/none" &gt; </span> </p> </td> 
-   <td colname="col2"> <p>Keert de lichaamstekst terug die van de bovenkant van de pagina begint. Relevante termen worden vetgedrukt weergegeven. Het facultatieve lengteattribuut wordt gebruikt om de lengte van getoonde koorden, met een gebrek van 80 karakters te beperken. Het coderende attribuut is facultatief en het kan outputkarakters met het coderen van HTML (gebrek) coderen, het coderen Javascript, het coderen Perl, of niets coderen. </p> </td> 
+   <td colname="col2"> <p>Retourneert de hoofdtekst vanaf de bovenkant van de pagina. Relevante termen worden vet weergegeven. Het optionele kenmerk length wordt gebruikt om de lengte van de weergegeven tekenreeksen te beperken, met standaard 80 tekens. Het coderingskenmerk is optioneel en kan uitvoertekens coderen met HTML-codering (standaard), Javascript-codering, Perl-codering of geen. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>4 </p> </td> 
    <td colname="col1"> <p> <span class="codeph"> &lt;search-description length="XX" encoding="html/javascript/json/perl/url/none"&gt; </span> </p> </td> 
-   <td colname="col2"> <p> Keert de beschrijving van het huidige resultaat terug. Als de meta beschrijvingsmarkering bestaat en het inhoudsattribuut niet leeg is, wordt die tekst getoond. Anders, wordt het begin van de lichaamstekst van de pagina getoond. Het facultatieve lengteattribuut wordt gebruikt om de lengte van getoonde koorden, met een gebrek van 80 karakters te beperken. </p> <p>De facultatieve <span class="codeph"> het coderen </span> attributen controleert of de output gecodeerde HTML is, JavaScript gecodeerd, Perl gecodeerd, URL gecodeerd of niet gecodeerd, voor output op de resultatenpagina wordt gecodeerd. De standaardwaarde van het <span class="codeph"> coderen </span> is <span class="codeph"> html </span>. Normaal, te hoeven u niet om de het coderen attributen te specificeren. </p> </td> 
+   <td colname="col2"> <p> Retourneert de beschrijving van het huidige resultaat. Als de metatag bestaat en het inhoudskenmerk niet leeg is, wordt die tekst weergegeven. Anders wordt het begin van de hoofdtekst van de pagina weergegeven. Het optionele kenmerk length wordt gebruikt om de lengte van de weergegeven tekenreeksen te beperken, met standaard 80 tekens. </p> <p>Het optionele <span class="codeph"> </span> coderingskenmerk bepaalt of de uitvoer HTML-gecodeerd, JavaScript-gecodeerd, Perl-gecodeerd, URL-gecodeerd of niet gecodeerd is voor uitvoer op de resultatenpagina. De standaardwaarde van <span class="codeph"> het coderen </span> is <span class="codeph"> html </span>. Normaal gesproken hoeft u het coderingskenmerk niet op te geven. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>5 </p> </td> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;zoekscore rank="dynamisch/statisch/dynamisch-ruw/statisch-ruw/finaal-ruw" precision="XX"&gt; </span> </p> </td> 
-   <td colname="col2"> <p>Keert de score van het huidige resultaat terug, dat een aantal 0 - 100 is. Als u een rangschikkingsgebied onder <span class="uicontrol"> Opties </span> &gt; <span class="uicontrol"> Meta-gegevens </span> &gt; <span class="uicontrol"> Definities hebt bepaald </span>, kunt u de dynamische paginagang tonen door de rangtelattributen aan dynamisch te plaatsen ( <span class="codeph"> &lt;search-score rank="dynamic"&gt; </span>). U kunt de statische paginarang tonen door de rangtelattributen aan statisch te plaatsen ( <span class="codeph"> &lt;search-score rank="statisch"&gt; </span>). U kunt de facultatieve precisiekenmerken gebruiken om het aantal decimalen aan vertoning te specificeren. Het gebrek is 0 die de geheelscore toont). </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;search-score rank="dynamic/static/dynamic-raw/static-raw/final-raw" precision="XX"&gt; </span> </p> </td> 
+   <td colname="col2"> <p>Geeft de score van het huidige resultaat. Dit is een getal 0 - 100. Als u een rangtelveld hebt gedefinieerd onder <span class="uicontrol"> Opties </span> &gt; <span class="uicontrol"> Metagegevens </span> &gt; <span class="uicontrol"> Definities </span>, kunt u de positie van de dynamische pagina weergeven door het randeattribuut in te stellen op dynamisch ( <span class="codeph"> &lt;search-score rank="dynamic"&gt; </span>). U kunt de statische paginatieregel weergeven door het randeattribuut in te stellen op statisch ( <span class="codeph"> &lt;search-score rank="static"&gt; </span>). U kunt het optionele precisiekenmerk gebruiken om het aantal decimalen op te geven dat moet worden weergegeven. De standaardwaarde is 0, waarmee de gehele-getalscore wordt weergegeven. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>6 </p> </td> 
    <td colname="col1"> <p> <span class="codeph"> &lt;search-date length="XX" none="text" date-format="date-format-string" gmt="yes/no" language="0/2/language-id"&gt; </span> </p> </td> 
-   <td colname="col2"> <p>Keert de datum van het huidige resultaat terug. De facultatieve "niets"tekstwaarde wordt getoond als er geen datum verbonden aan het huidige resultaat is. Als de facultatieve "niets"waarde niet wordt gegeven, wordt de tekst "Geen Datum"getoond als er geen datum verbonden aan het huidige resultaat is. </p> <p>Het attribuut "date-format" neemt een UNIX-tekenreeks met datumnotatie voor de stijl zoals "%A, %B %d, %Y" (voor "Maandag, 25 juli, 2016"). "gmt" staat in gebreke aan "ja" en controleert of het tijdgedeelte van het datumkoord output in GMT ("ja") of de de tijdzone van de rekening ("neen") zou moeten zijn. </p> <p>Het "taal"attribuut controleert de taal en de scèneovereenkomsten van het koord van de outputdatum. "0" (de standaardinstelling) betekent "Account Language gebruiken". "2" betekent "Documenttaal gebruiken". De waarde "1" voor "taal" is gereserveerd voor toekomstig gebruik. Een andere "taal"-waarde wordt geïnterpreteerd als een specifieke taalidentifier, bijvoorbeeld "en_US" betekent "Engels (Verenigde Staten)". </p> <p>Het facultatieve lengteattribuut wordt gebruikt om de lengte van getoonde koorden, met een gebrek van 80 karakters te beperken. </p> </td> 
+   <td colname="col2"> <p>Retourneert de datum van het huidige resultaat. De optionele tekstwaarde "none" wordt weergegeven als er geen datum is gekoppeld aan het huidige resultaat. Als de optionele waarde "none" niet wordt gegeven, wordt de tekst "No Date" weergegeven als er geen datum is gekoppeld aan het huidige resultaat. </p> <p>Het kenmerk "date-format" heeft een datumnotatietekenreeks in de UNIX-stijl, zoals "%A, %B %d, %Y" (voor "maandag, 25 juli 2016"). "gmt" is standaard ingesteld op "yes" en bepaalt of het tijdgedeelte van de datumtekenreeks moet worden uitgevoerd in GMT ("yes") of in de tijdzone van de account ("no"). </p> <p>Het kenmerk "language" bestuurt de taal- en landinstellingconventies van de tekenreeks met de uitvoerdatum. "0" (de standaardwaarde) betekent "Account Language gebruiken". "2" betekent "Documenttaal gebruiken". De waarde "taal" "1" is gereserveerd voor toekomstig gebruik. Elke andere "taal"-waarde wordt geïnterpreteerd als een specifieke taal-id, bijvoorbeeld "en_US" betekent "Engels (Verenigde Staten)". </p> <p>Het optionele kenmerk length wordt gebruikt om de lengte van de weergegeven tekenreeksen te beperken, met standaard 80 tekens. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>7 </p> </td> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;grootte van zoekopdrachten&gt; </span> </p> </td> 
-   <td colname="col2"> <p>Keert de grootte van het huidige resultaat in bytes terug. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;search-size&gt; </span> </p> </td> 
+   <td colname="col2"> <p>Geeft de grootte van het huidige resultaat in bytes. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>8 </p> </td> 
    <td colname="col1"> <p> <span class="codeph"> &lt;search-url length="XX" encoding="html/javascript/json/perl/url/none" &gt; </span> </p> </td> 
-   <td colname="col2"> <p>Keert URL van het huidige resultaat terug. </p> <p>Gebruik de facultatieve <span class="codeph"> lengteattributen </span> om de lengte van getoonde koorden, met een gebrek van onbeperkte karakters te beperken. </p> <p>Het <span class="codeph"> het coderen </span> attribuut is facultatief en het kan outputkarakters met het coderen van HTML, het coderen Javascript, het coderen Perl coderen, of niets coderen. </p> </td> 
+   <td colname="col2"> <p>Retourneert de URL van het huidige resultaat. </p> <p>Gebruik het optionele <span class="codeph"> length- </span> kenmerk om de lengte van de weergegeven tekenreeksen te beperken, met standaard een onbeperkt aantal tekens. </p> <p>Het <span class="codeph"> coderingskenmerk </span> is optioneel en kan uitvoertekens coderen met HTML-codering, Javascript-codering, Perl-codering of geen. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>9 </p> </td> 
    <td colname="col1"> <p> <span class="codeph"> &lt;search-url-path-query length="XX"&gt; </span> </p> </td> 
-   <td colname="col2"> <p>Keert de weg en vraaggedeelten met inbegrip van het vraagteken van URL van het huidige resultaat terug. </p> <p>Gebruik de facultatieve <span class="codeph"> lengteattributen </span> om de lengte van getoonde koorden, met een gebrek van onbeperkte karakters te beperken. </p> </td> 
+   <td colname="col2"> <p>Retourneert het pad en querydelen inclusief het vraagteken van de URL van het huidige resultaat. </p> <p>Gebruik het optionele <span class="codeph"> length- </span> kenmerk om de lengte van de weergegeven tekenreeksen te beperken, met standaard een onbeperkt aantal tekens. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>10 </p> </td> 
    <td colname="col1"> <p> <span class="codeph"> &lt;search-context length="XX" encoding="html/javascript/json/perl/url/none" &gt; </span> </p> </td> 
-   <td colname="col2"> <p>Keert de volgende lijn van context voor de onderzoekstermijn terug. Relevante termen worden vetgedrukt weergegeven. Oproepen deze markering herhaaldelijk om meer dan één contextlijn voor het huidige resultaat te tonen. </p> <p>Gebruik de facultatieve <span class="codeph"> lengteattributen </span> om de lengte van getoonde koorden, met een gebrek van 80 karakters te beperken. Het <span class="codeph"> lengteattribuut wordt </span> genegeerd als deze markering door of <span class="codeph"> &lt;search-if-context&gt; </span> of <span class="codeph"> </span> &lt;search-if-any-context&gt; de markeringsreeksen wordt ingesloten die een lengteattribuut bevatten. </p> <p>Het <span class="codeph"> het coderen </span> attribuut is facultatief en het kan outputkarakters met het coderen van HTML (gebrek) coderen, het coderen Javascript, het coderen Perl, of niets coderen. </p> </td> 
+   <td colname="col2"> <p>Retourneert de volgende regel context voor de zoekterm. Relevante termen worden vet weergegeven. Roep deze tag herhaaldelijk aan om meerdere contextlijnen voor het huidige resultaat weer te geven. </p> <p>Gebruik het optionele <span class="codeph"> length- </span> kenmerk om de lengte van tekenreeksen te beperken, met standaard 80 tekens. Het <span class="codeph"> kenmerk length wordt </span> genegeerd als deze tag wordt ingesloten door <span class="codeph"> &lt;search-if-context&gt; </span> of <span class="codeph"> &lt;search-if-any-context&gt; </span> tagsets die een lengtekenmerk bevatten. </p> <p>Het <span class="codeph"> coderingskenmerk </span> is optioneel en kan uitvoertekens coderen met HTML-codering (standaard), Javascript-codering, Perl-codering of geen. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>11 </p> </td> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;search-display-field name="field-name" length="XX" none="text" date-format="date-format-string" gmt="yes/no" language="0/2/language-id" encoding="html/javascript/json/perl/url/none" quotes="yes/no" commas="yes/no" units="yes/no" units="kilometers="mijlen/kilometers" scheidingsteken="|"&gt; </span> </p> </td> 
-   <td colname="col2"> <p>Deze geavanceerde markering toont de inhoud van het meta-gegevensgebied (url, titel, bureau, sleutels, doel, lichaam, alt, datum, charset, en taal of de gebieden die onder <span class="uicontrol"> Opties worden bepaald &gt; </span> Meta-gegevens <span class="uicontrol"> &gt; Definities) in de </span> naam <span class="codeph"> </span> attributen, voor het huidige resultaat worden gespecificeerd. Bijvoorbeeld: </p> <p> <span class="codeph"> &lt;search-display-field name="title" length="70" none="no title"&gt; </span> </p> <p>Voert de titel van de pagina voor een onderzoeksresultaat uit. Als de optionele <span class="codeph"> none- </span> eigenschap is opgegeven, wordt de waarde alleen weergegeven op de resultatenpagina als er geen inhoud aan het veld is gekoppeld. </p> <p>De <span class="codeph"> datum-formaat </span>, <span class="codeph"> gmt </span> en <span class="codeph"> taal- </span> attributen zijn slechts relevant als het inhoudstype van het gespecificeerde gebied <span class="codeph"> datum is </span>. </p> <p>Het <span class="codeph"> date-format </span> attribuut neemt een koord van het de formaatformaat van de de stijldatum van UNIX zoals <span class="codeph"> %A, %B %d, %Y </span> (voor Maandag, 25 Juli, 2016). <span class="codeph"> gmt </span> blijft aan <span class="codeph"> ja in gebreke </span> en controleert of het tijdgedeelte van het datumkoord output in GMT ( <span class="codeph"> ja </span>) of de tijdzone van de rekening ( <span class="codeph"> neen </span>) is. </p> <p>Zie <a href="../c-appendices/c-templates.md#section_4BBDBBEF2B96414497617CD4B52D96E4" type="section" format="dita" scope="local"> Datumformaatstrings</a>. </p> <p>Het <span class="codeph"> taalattribuut </span> controleert de taal en scèneovereenkomsten van het koord van de outputdatum. <span class="codeph"> 0 </span> (het gebrek) betekent "de Taal van de Rekening van het Gebruik". <span class="codeph"> 2 </span> "Documenttaal gebruiken". De <span class="codeph"> taalwaarde </span> 1 <span class="codeph"> </span> is gereserveerd voor toekomstig gebruik). Een andere <span class="codeph"> taalwaarde wordt </span> geïnterpreteerd als een specifieke taalidentifier, bijvoorbeeld, <span class="codeph"> en_US </span> betekent "Engels (Verenigde Staten)". </p> <p>Zie <a href="../c-appendices/c-templates.md#section_0490DECC00E34691ADE5A9ED90A6D911" type="section" format="dita" scope="local"> Taalkenmerken</a>. </p> <p>Het facultatieve <span class="codeph"> lengteattribuut wordt </span> gebruikt om de lengte van getoonde koorden, met een gebrek van 80 karakters te beperken. </p> <p>De facultatieve <span class="codeph"> het coderen </span> attributen controleert of de output gecodeerde HTML is, JavaScript gecodeerd, Perl gecodeerd, URL gecodeerd of niet gecodeerd, voor output op de resultatenpagina wordt gecodeerd. De standaardwaarde van het <span class="codeph"> coderen </span> is <span class="codeph"> html </span>. Normaal, te hoeven u niet om de het coderen attributen te specificeren. </p> <p>De facultatieve <span class="codeph"> citaten </span> attribuut controleert of de individuele puntenoutput door dubbel-citaten (of enig-citaten, als het <span class="codeph"> coderen=perl </span>) wordt omringd. De standaardwaarde van <span class="codeph"> citaten </span> is <span class="codeph"> neen </span>. </p> <p>De facultatieve <span class="codeph"> komma's </span> attributen controleert of de individuele puntenoutput door komma's wordt gescheiden. De standaardwaarde van <span class="codeph"> komma's </span> is <span class="codeph"> ja </span>. Het <span class="codeph"> komma- </span> attribuut wordt genegeerd voor niet-lijst-type gebieden. </p> <p>Het optionele <span class="codeph"> unit- </span> kenmerk bepaalt de afstand-eenheden die worden toegepast op een veld voor zoekresultaten in de nabijheid. De standaardwaarde van <span class="codeph"> eenheden </span> wordt bepaald van de instelling "Standaardeenheden" van het locatie-type veld dat is gekoppeld aan het gegeven veld voor zoekresultaten in de nabijheid. </p> <p>Zie <a href="../c-appendices/r-about-proximity-search.md#reference_45AC6BB50609431ABD31DA46EE65360D" type="reference" format="dita" scope="local"> over nabijheidsonderzoek</a>. </p> <p>Het facultatieve <span class="codeph"> separatorattribuut </span> bepaalt het enige karakter, of afbakening, dat tussen de waarden van de output voor lijst-type gebieden wordt opgenomen. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;search-display-field name="field-name" length="XX" none="text" date-format="date-format-string" gmt="yes/no" language="0/2/language-id" encoding="html/javascript/json/perl/url/none" quotes="yes/no" commas="yes/no" units="mile/kilometers" separator="|"&gt; </span> </p> </td> 
+   <td colname="col2"> <p>Met deze geavanceerde tag wordt de inhoud weergegeven van het metagegevensveld (url, title, desc, keys, target, body, alt, date, charset en taal of velden die zijn gedefinieerd onder <span class="uicontrol"> Opties </span> &gt; <span class="uicontrol"> Metagegevens </span> &gt; Definities) dat is opgegeven in het <span class="codeph"> name- </span> kenmerk, voor het huidige resultaat. Bijvoorbeeld: </p> <p> <span class="codeph"> &lt;search-display-field name="title" length="70" none="no title"&gt; </span> </p> <p>Hiermee wordt de titel van de pagina uitgevoerd voor een zoekresultaat. Als het optionele <span class="codeph"> none- </span> kenmerk wordt opgegeven, wordt de waarde ervan alleen op de resultatenpagina weergegeven als er geen inhoud aan het veld is gekoppeld. </p> <p>De <span class="codeph"> datum-notatie </span>, <span class="codeph"> gmt </span> en <span class="codeph"> taalkenmerken </span> zijn alleen relevant als het inhoudstype van het opgegeven veld <span class="codeph"> datum is </span>. </p> <p>Het <span class="codeph"> kenmerk date-format heeft een datumnotatie in UNIX-stijl, zoals </span> %A, %B %d, %Y <span class="codeph"> </span> (voor maandag, 25 juli 2016). <span class="codeph"> gmt </span> blijft <span class="codeph"> ja </span> en controleert of het tijdgedeelte van het datumkoord output in GMT ( <span class="codeph"> ja </span>) of de tijdzone van de rekening ( <span class="codeph"> neen </span>) is. </p> <p>Zie Tekenreeksen <a href="../c-appendices/c-templates.md#section_4BBDBBEF2B96414497617CD4B52D96E4" type="section" format="dita" scope="local"></a>datumnotatie. </p> <p>Het <span class="codeph"> taalkenmerk </span> bestuurt de taal- en landinstellingen van de tekenreeks met de uitvoerdatum. <span class="codeph"> 0 </span> (standaard) betekent "Account Language gebruiken". <span class="codeph"> 2 </span> betekent "Documenttaal gebruiken". De <span class="codeph"> taalwaarde </span> 1 <span class="codeph"> </span> is gereserveerd voor toekomstig gebruik.) Elke andere <span class="codeph"> taalwaarde wordt </span> geïnterpreteerd als een specifieke taalid, bijvoorbeeld <span class="codeph"> en_US </span> betekent "Engels (Verenigde Staten)". </p> <p>Zie <a href="../c-appendices/c-templates.md#section_0490DECC00E34691ADE5A9ED90A6D911" type="section" format="dita" scope="local"> Taalid's</a>. </p> <p>Het optionele <span class="codeph"> length- </span> kenmerk wordt gebruikt om de lengte van weergegeven tekenreeksen te beperken, met standaard 80 tekens. </p> <p>Het optionele <span class="codeph"> </span> coderingskenmerk bepaalt of de uitvoer HTML-gecodeerd, JavaScript-gecodeerd, Perl-gecodeerd, URL-gecodeerd of niet gecodeerd is voor uitvoer op de resultatenpagina. De standaardwaarde van <span class="codeph"> het coderen </span> is <span class="codeph"> html </span>. Normaal gesproken hoeft u het coderingskenmerk niet op te geven. </p> <p>Het optionele <span class="codeph"> aanhalingsteken </span> bepaalt of de afzonderlijke items die worden uitgevoerd, worden omringd door dubbele aanhalingstekens (of enkele aanhalingstekens, als <span class="codeph"> encoding=perl </span>). De standaardwaarde van <span class="codeph"> aanhalingstekens </span> is <span class="codeph"> nee </span>. </p> <p>Het optionele <span class="codeph"> </span> kommakenmerk bepaalt of de afzonderlijke items die worden uitgevoerd, door komma's worden gescheiden. De standaardwaarde van <span class="codeph"> komma's </span> is <span class="codeph"> ja </span>. Het <span class="codeph"> </span> kommakenmerk wordt genegeerd voor velden die geen lijsttype zijn. </p> <p>Het optionele <span class="codeph"> </span> eenheidkenmerk bepaalt de afstand-eenheden die worden toegepast op een nabijheidsveld voor zoekopdrachten. De standaardwaarde van <span class="codeph"> eenheden </span> wordt bepaald door de instelling Standaardeenheden van het locatie-type veld dat is gekoppeld aan het opgegeven veld voor zoeken in nabijheid. </p> <p>Zie <a href="../c-appendices/r-about-proximity-search.md#reference_45AC6BB50609431ABD31DA46EE65360D" type="reference" format="dita" scope="local"> Informatie over nabijheid zoeken</a>. </p> <p>Het optionele <span class="codeph"> separator- </span> kenmerk definieert het ene teken (of scheidingsteken) dat wordt ingevoegd tussen de waarden van de uitvoer voor lijsttekstvelden. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>12 </p> </td> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;search-display-field-values name="field-name"&gt; ...&lt;zoek-vertoning-gebied-waarden&gt; </span> </p> </td> 
-   <td colname="col2"> <p>Deze markering leidt tot een lijn voor het opsommen van de waarden van het meta-gegevensgebied (url, titel, bureau, sleutels, doel, lichaam, alt, datum, charset, en taal of gebieden die onder <span class="uicontrol"> Opties </span> &gt; <span class="uicontrol"> Meta-gegevens </span> &gt; <span class="uicontrol"> Definities </span>) worden bepaald voor het huidige resultaat. Nesten deze markering niet binnen een andere <span class="codeph"> &lt;search-display-field-values&gt; </span> markering. Het <span class="codeph"> naam </span> attribuut specificeert de naam van het gebied dat de op te sommen waarden bevat. Deze markering is het nuttigst met gebieden die de <span class="uicontrol"> Allow gecontroleerde attributen van Lijsten hebben (onder </span> Opties <span class="uicontrol"> &gt; </span> Meta-gegevens <span class="uicontrol"> &gt; </span> - Definities <span class="uicontrol"> </span>). </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;search-display-field-values name="field-name"&gt; ...&lt;search-display-field-values&gt; </span> </p> </td> 
+   <td colname="col2"> <p>Met dit label wordt een lus gemaakt voor het opsommen van waarden in metagegevensvelden (URL, titel, desc, keys, target, body, alt, date, charset en taal of velden die zijn gedefinieerd onder <span class="uicontrol"> Opties </span> &gt; <span class="uicontrol"> Metagegevens </span> &gt; <span class="uicontrol"> Definities </span>) voor het huidige resultaat. Nest deze tag niet in een andere <span class="codeph"> &lt;search-display-field-values&gt;- </span> tag. Het <span class="codeph"> name- </span> kenmerk geeft de naam op van het veld met de waarden die moeten worden opgesomd. Deze tag is vooral handig voor velden waarvoor het <span class="uicontrol"> kenmerk </span> Lijsten van gewenste personen is ingeschakeld (onder <span class="uicontrol"> Opties </span> &gt; <span class="uicontrol"> Metagegevens </span> &gt; <span class="uicontrol"> Definities </span>). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>13 </p> </td> 
    <td colname="col1"> <p> <span class="codeph"> &lt;search-display-field-value date-format="date-format-string" gmt="yes/no" language="0/language-id" encoding="html/javascript/json/perl/url/none"&gt; </span> </p> </td> 
-   <td colname="col2"> <p>Deze markering voert de waarde van het meta-gegevensgebied (url, titel, bureau, sleutels, doel, lichaam, alt, datum, charset, en taal of de gebieden uit die onder <span class="uicontrol"> Opties </span> &gt; <span class="uicontrol"> Meta-gegevens </span> &gt; <span class="uicontrol"> Definities </span>) worden bepaald voor de huidige <span class="codeph"> &lt;zoek-vertoning-gebied-waarden&gt; </span> lijnherhaling. Deze markering is slechts geldig binnen een <span class="codeph"> &lt;onderzoek-vertoning-gebied-waarden&gt; </span> lijn. De <span class="codeph"> datum-formaat </span>, <span class="codeph"> gmt </span> en <span class="codeph"> taal </span> attributen zijn slechts relevant als het inhoudstype van de gebiedsnaam die in de bijgevoegde <span class="codeph"> &lt;zoek-vertoning-gebied-waarden&gt; </span> markering wordt gespecificeerd datum is <span class="codeph"> </span>. Het <span class="codeph"> date-format </span> attribuut neemt een koord van het de formaatformaat van de de stijldatum van UNIX zoals <span class="codeph"> "%A </span>, <span class="codeph"> %B </span> %d <span class="codeph"> , </span>%Y <span class="codeph"> </span>" (voor "Maandag, Juli 25, 2016"). Het <span class="codeph"> gmt </span> attribuut blijft aan ja in gebreke <span class="codeph"> en controleert of het tijdgedeelte van het datumkoord output in GMT ( </span> ja <span class="codeph"> ) of de de tijdzone van de rekening ( </span>neen <span class="codeph"> </span>) is. </p> <p>Het <span class="codeph"> taalattribuut </span> controleert de taal en scèneovereenkomsten van het koord van de outputdatum. <span class="codeph"> 0 </span> (het gebrek) betekent "de Taal van de Rekening van het Gebruik". Een andere <span class="codeph"> taalwaarde wordt </span> geïnterpreteerd als een specifieke taalidentifier, bijvoorbeeld, <span class="codeph"> en_US </span> betekent "Engels (Verenigde Staten)". </p> <p>De facultatieve <span class="codeph"> het coderen </span> attributen controleert of de output gecodeerde HTML is, JavaScript gecodeerd, Perl gecodeerd, URL gecodeerd of niet gecodeerd, voor output op de resultatenpagina wordt gecodeerd. De standaardwaarde van het <span class="codeph"> coderen </span> is <span class="codeph"> html </span>. Normaal, te hoeven u niet om de het coderen attributen te specificeren. </p> </td> 
+   <td colname="col2"> <p>Met dit label wordt de waarde van het metagegevensveld (url, title, desc, keys, target, body, alt, date, charset en taal of velden die zijn gedefinieerd onder <span class="uicontrol"> Opties </span> &gt; <span class="uicontrol"> Metagegevens </span> &gt; <span class="uicontrol"> Definities </span>) weergegeven voor de huidige herhaling van de <span class="codeph"> &lt;search-display-field-values&gt;- </span> lus. Deze tag is alleen geldig binnen een <span class="codeph"> &lt;search-display-field-values&gt;- </span> lus. De <span class="codeph"> datum-notatie </span>, <span class="codeph"> gmt </span> en <span class="codeph"> taal- </span> kenmerken zijn alleen relevant als het inhoudstype van de veldnaam die is opgegeven in de insluitende <span class="codeph"> &lt;search-display-field-values&gt;- </span> tag datum is <span class="codeph"></span>. Het <span class="codeph"> date-format- </span> kenmerk heeft een UNIX-stijl datumnotatietekenreeks zoals <span class="codeph"> "%A </span>, <span class="codeph"> %B </span> %d <span class="codeph"> , </span>%Y <span class="codeph"> </span>" (voor "maandag, juli 25, 2016"). Het <span class="codeph"> gmt- </span> kenmerk is standaard ingesteld op <span class="codeph"> ja </span> en bepaalt of het tijdgedeelte van de datumtekenreeks wordt uitgevoerd in GMT ( <span class="codeph"> ja </span>) of in de tijdzone van de account ( <span class="codeph"> nee </span>). </p> <p>Het <span class="codeph"> taalkenmerk </span> bestuurt de taal- en landinstellingen van de tekenreeks met de uitvoerdatum. <span class="codeph"> 0 </span> (standaard) betekent "Account Language gebruiken". Elke andere <span class="codeph"> taalwaarde wordt </span> geïnterpreteerd als een specifieke taalid, bijvoorbeeld <span class="codeph"> en_US </span> betekent "Engels (Verenigde Staten)". </p> <p>Het optionele <span class="codeph"> </span> coderingskenmerk bepaalt of de uitvoer HTML-gecodeerd, JavaScript-gecodeerd, Perl-gecodeerd, URL-gecodeerd of niet gecodeerd is voor uitvoer op de resultatenpagina. De standaardwaarde van <span class="codeph"> het coderen </span> is <span class="codeph"> html </span>. Normaal gesproken hoeft u het coderingskenmerk niet op te geven. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>14 </p> </td> 
    <td colname="col1"> <p> <span class="codeph"> &lt;search-display-field-value-count name="field-name"&gt; </span> </p> </td> 
-   <td colname="col2"> <p>Output het totale aantal waarden in het huidige resultaat voor het meta-gegevensgebied (url, titel, desc, sleutels, doel, lichaam, alt, datum, charset, en taal of de gebieden die onder <span class="uicontrol"> Opties </span> &gt; <span class="uicontrol"> Meta-gegevens </span> &gt; <span class="uicontrol"> Definities worden bepaald </span>) met de naamattributen worden gespecificeerd. Deze markering kan overal in de resultatenlijn verschijnen. </p> </td> 
+   <td colname="col2"> <p>Hiermee geeft u het totale aantal waarden in het huidige resultaat weer voor het metagegevensveld (url, title, desc, keys, target, body, alt, date, charset en taal of velden gedefinieerd onder <span class="uicontrol"> Opties </span> &gt; <span class="uicontrol"> Metagegevens </span> &gt; <span class="uicontrol"> Definities </span>) dat is opgegeven met het naamkenmerk. Deze tag kan overal in de resultatenlus worden weergegeven. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>15 </p> </td> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;zoek-display-field-value-teller&gt; </span> </p> </td> 
-   <td colname="col2"> <p>Output de rangschikkende teller (1, 2, 3, etc.) voor de huidige <span class="codeph"> &lt;onderzoek-vertoning-gebied-waarden&gt; </span> lijnherhaling. Deze markering is slechts geldig binnen een <span class="codeph"> &lt;onderzoek-vertoning-gebied-waarden&gt; </span> lijn. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;search-display-field-value-counter&gt; </span> </p> </td> 
+   <td colname="col2"> <p>Hiermee wordt de ordinale teller (1, 2, 3, enzovoort) uitgevoerd voor de huidige herhaling van de <span class="codeph"> &lt;search-display-field-values&gt;- </span> lus. Deze tag is alleen geldig binnen een <span class="codeph"> &lt;search-display-field-values&gt;- </span> lus. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>16 </p> </td> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;zoek-dynamisch-facetvelden&gt; </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;search-dynamic-facet-fields&gt; </span> </p> </td> 
    <td colname="col2"> <p>Begint een het van een lus voorzien context voor om het even welke dynamisch-facet-gebieden die voor dit onderzoek zijn teruggekeerd. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>17 </p> </td> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;zoek-dynamisch-facet-gebied-naam&gt; </span> </p> </td> 
-   <td colname="col2"> <p>Output de naam van het huidige dynamisch-facet-gebied, voor deze lijnherhaling. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;search-dynamic-facet-field-name&gt; </span> </p> </td> 
+   <td colname="col2"> <p>Hiermee wordt de naam van het huidige dynamische facet-veld voor deze lusherhaling uitgevoerd. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>18 </p> </td> 
    <td colname="col1"> <p> 
-     <!--NEW for S&P 8.17.0 release on October 30 2014--> <span class="codeph"> &lt;search-result-trace encoding="html/javascript/json/perl/url/none"&gt; </span> </p> </td> 
-   <td colname="col2"> <p>De informatie van de output met betrekking tot de plaatsing van het huidige resultaat, bijvoorbeeld, om het even welke op resultaten-gebaseerde acties die de positie van het resultaat beïnvloedden. </p> <p>Het outputformaat van deze markering is JSON zoals in het volgende voorbeeld: </p> <p> <code> { 
+     <!--NEW for S&P 8.17.0 release on October 30 2014--> <span class="codeph"> &lt;search-result-trace encoding="html/javascript/ json/perl/url/none"&gt; </span> </p> </td> 
+   <td colname="col2"> <p>Output-informatie met betrekking tot de plaatsing van het huidige resultaat, bijvoorbeeld acties op basis van resultaten die de positie van het resultaat beïnvloedden. </p> <p>De uitvoerindeling van deze tag is JSON, zoals in het volgende voorbeeld: </p> <p> <code> { 
       &nbsp;&nbsp;"sliceID":&nbsp;5, 
       &nbsp;&nbsp;"indexID":&nbsp;5894, 
       &nbsp;&nbsp;"finalScore":&nbsp;98.5, 
@@ -1679,22 +1686,22 @@ Zie [Over Resultaatlusjes](../c-appendices/c-templates.md#section_D4DC7B45601446
       &nbsp;&nbsp;"rbtaActionListID":&nbsp;117, 
       &nbsp;&nbsp;"rbtaActionID":&nbsp;57 
       } </code> </p> 
-    <!--<p> Results added to the results set by way of <codeph>rbta</codeph> have a "naturalPosition" value of -1. </p>--> <p>Het <span class="codeph"> het coderen </span> attribuut is facultatief; de standaardwaarde is <span class="codeph"> html </span>. </p> <p> <p>Opmerking:  Deze markering heeft slechts output als <span class="codeph"> sp_trace=1 </span> met de de vraagparameters van het kernonderzoek wordt gespecificeerd. </p> </p> <p>Zie rij 48 in de lijst die in de parameters <a href="../c-appendices/c-cgiparameters.md#reference_582E85C3886740C98FE88CA9DF7918E8" format="dita" scope="local"> wordt gevonden van het Onderzoek van de</a>Achtergrond CGI. </p> </td> 
+    <!--<p> Results added to the results set by way of <codeph>rbta</codeph> have a "naturalPosition" value of -1. </p>--> <p>Het <span class="codeph"> coderingskenmerk </span> is optioneel. de standaardwaarde is <span class="codeph"> html </span>. </p> <p> <p>Opmerking:  Deze markering heeft slechts output als <span class="codeph"> sp_trace=1 met de parameters van de kernonderzoeksvraag </span> wordt gespecificeerd. </p> </p> <p>Zie rij 48 in de lijst die in Achterste onderzoek CGI parameters <a href="../c-appendices/c-cgiparameters.md#reference_582E85C3886740C98FE88CA9DF7918E8" format="dita" scope="local"></a>wordt gevonden. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Resultaatlus voorwaardelijke tags {#section_35C367969E384A06A9865E388F1F9360}
+## Resultaten voorwaardelijke tags in lus {#section_35C367969E384A06A9865E388F1F9360}
 
-De volgende markeringen omvatten voorwaardelijk HTML tussen hen.
+De volgende tags bevatten onder andere de HTML.
 
-Zie [Over Resultaatlusjes](../c-appendices/c-templates.md#section_D4DC7B4560144663972E8DBC3369C629).
+Zie [Informatie over Resultaatlustags](../c-appendices/c-templates.md#section_D4DC7B4560144663972E8DBC3369C629).
 
 <table> 
  <thead> 
   <tr> 
    <th colname="col01" class="entry"> </th> 
-   <th colname="col1" class="entry"> <p>Markering </p> </th> 
+   <th colname="col1" class="entry"> <p>Tag </p> </th> 
    <th colname="col2" class="entry"> <p>Beschrijving </p> </th> 
   </tr> 
  </thead>
@@ -1702,83 +1709,83 @@ Zie [Over Resultaatlusjes](../c-appendices/c-templates.md#section_D4DC7B45601446
   <tr> 
    <td colname="col01"> <p>1 </p> </td> 
    <td colname="col1"> <p> <span class="codeph"> &lt;search-if-title&gt; ... &lt;/search-if-title&gt; </span> </p> <p> <span class="codeph"> &lt;search-if-not-title&gt; ... &lt;/search-if-not-title&gt; </span> </p> </td> 
-   <td colname="col2"> <p>Deze markeringen omvatten HTML tussen hen als de volgende vraag aan <span class="codeph"> &lt;zoek-titel&gt; </span> (of niet terugkeert) tekst van de documenttitel terugkeert. </p> </td> 
+   <td colname="col2"> <p>Deze tags bevatten de HTML tussen de tags als de volgende aanroep van <span class="codeph"> &lt;search-title&gt; tekst uit de documenttitel </span> retourneert (of niet retourneert). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>2 </p> </td> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;search-if-description length="XX"&gt; ... /search-if-description&gt; </span> </p> <p> <span class="codeph"> &lt;search-if-not-description&gt; ... &lt;/search-if-not description&gt; </span> </p> </td> 
-   <td colname="col2"> <p> Deze markeringen omvatten HTML tussen hen als de volgende vraag aan <span class="codeph"> &lt;zoek-beschrijving&gt; </span> (of niet terugkeert) tekst van de documentbeschrijving terugkeert. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;search-if-description length="XX"&gt; ... /search-if-description&gt; </span> </p> <p> <span class="codeph"> &lt;search-if-not-description&gt; ... &lt;/search-if-not-description&gt; </span> </p> </td> 
+   <td colname="col2"> <p> Deze tags bevatten de HTML tussen de tags als bij de volgende aanroep van <span class="codeph"> &lt;search-description&gt; tekst uit de documentbeschrijving wordt </span> geretourneerd (of niet wordt geretourneerd). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>3 </p> </td> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;search-if-body text&gt; ... &lt;/search-if-body text&gt; </span> </p> <p> <span class="codeph"> &lt;search-if-not-body text&gt; ... &lt;/search-if-not-body text&gt; </span> </p> </td> 
-   <td colname="col2"> <p>Deze markeringen omvatten HTML tussen hen als de volgende vraag aan <span class="codeph"> &lt;search-body text&gt; </span> (of niet terugkeert) tekst van het documentlichaam terugkeert. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;search-if-body text&gt;... &lt;/search-if-body text&gt; </span> </p> <p> <span class="codeph"> &lt;search-if-not-body text&gt; ... &lt;/search-if-not-body text&gt; </span> </p> </td> 
+   <td colname="col2"> <p>Deze tags bevatten de HTML tussen de tags als de volgende aanroep van <span class="codeph"> &lt;search-body text&gt; tekst uit de hoofdtekst van het document </span> retourneert (of niet retourneert). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>4 </p> </td> 
    <td colname="col1"> <p> <span class="codeph"> &lt;search-if-context length="XX"&gt; ... &lt;/search-if-context&gt; </span> </p> <p> <span class="codeph"> &lt;search-if-not-context&gt; ... &lt;/search-if-not-context&gt; </span> </p> </td> 
-   <td colname="col2"> <p>Deze markeringen omvatten HTML tussen hen als de volgende vraag aan <span class="codeph"> &lt;search-context&gt; </span> terugkeert (of niet terugkeert) een niet lege contextkoord. Het lengteattribuut treedt de lengteattributen op om het even welke ingesloten <span class="codeph"> &lt;zoek-context&gt; </span> markering met voeten. </p> </td> 
+   <td colname="col2"> <p>Deze tags bevatten de HTML tussen de tags als de volgende aanroep van <span class="codeph"> &lt;search-context&gt; een niet-lege contexttekenreeks </span> retourneert (of niet retourneert). Het kenmerk length heeft voorrang op het kenmerk length in een omsloten <span class="codeph"> &lt;search-context&gt;- </span> tag. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>5 </p> </td> 
    <td colname="col1"> <p> <span class="codeph"> &lt;search-if-any-context length="XX"&gt; ... /search-if-any-context&gt; </span> </p> <p> <span class="codeph"> &lt;search-if-not-any-context&gt; ... &lt;/search-if-not-any-context&gt; </span> </p> </td> 
-   <td colname="col2"> <p>Deze markeringen omvatten HTML tussen hen als er (of niet) een contextkoord verbonden aan het resultaat is. Het lengteattribuut treedt de lengteattributen op om het even welke ingesloten <span class="codeph"> &lt;zoek-context&gt; </span> markering met voeten. </p> </td> 
+   <td colname="col2"> <p>Deze tags bevatten de HTML tussen de tags als er een contexttekenreeks aan het resultaat is gekoppeld (of niet). Het kenmerk length heeft voorrang op het kenmerk length in een omsloten <span class="codeph"> &lt;search-context&gt;- </span> tag. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>6 </p> </td> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;search-if-score lower="XX" upper="yy" rank="dynamic/statische/dynamic-raw/statische-raw/final-raw"&gt; ... &lt;/search-if-score&gt; </span> </p> <p> <span class="codeph"> &lt;search-if-not-score lower=XX upper=yy rank="dynamic/statische"&gt; ... &lt;/search-if-not-score&gt; </span> </p> </td> 
-   <td colname="col2"> <p>Deze markeringen omvatten HTML tussen hen als de score van het huidige resultaat (of niet) tussen XX en YY is. Nuttig voor het toevoegen van kogels of grafiek om te tonen hoe relevant het resultaat is. Als u een rank-type gebied onder <span class="uicontrol"> Opties </span> &gt; <span class="uicontrol"> Meta-gegevens </span> &gt; <span class="uicontrol"> Definities hebt bepaald </span>, kunt u de dynamische paginagang controleren door de rangtelattributen aan dynamisch te plaatsen ( <span class="codeph"> &lt;search-if-score rank="dynamic" lower=XX upper=YY&gt; </span>). U kunt de statische paginarang controleren door de rangtelattributen aan statisch te plaatsen ( <span class="codeph"> &lt;search-if-score rank="statisch"lower=XX upper=YY&gt; </span>). </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;search-if-score lower="XX" upper="yy" rank="dynamic/static-raw/static-raw/final-raw"&gt; ... &lt;/search-if-score&gt; </span> </p> <p> <span class="codeph"> &lt;search-if-not-score lower=XX upper=yy rank="dynamic/static"&gt; ... &lt;/search-if-not-score&gt; </span> </p> </td> 
+   <td colname="col2"> <p>Deze tags bevatten de HTML tussen de tags als de score van het huidige resultaat al dan niet ligt tussen XX en YY. Nuttig voor het toevoegen van opsommingstekens of afbeeldingen om aan te geven hoe relevant het resultaat is. Als u een rank-type gebied onder <span class="uicontrol"> Opties </span> &gt; <span class="uicontrol"> Meta-gegevens </span> &gt; <span class="uicontrol"> Definities hebt bepaald </span>, kunt u de dynamische paginatieregel controleren door de rangteligenschap in te stellen aan dynamisch ( <span class="codeph"> &lt;search-if-score rank="dynamic" lower=XX upper=YY&gt; </span>). U kunt de statische paginatieregel controleren door het rank kenmerk in te stellen op statisch ( <span class="codeph"> &lt;search-if-score rank="static" lower=XX upper=YY&gt; </span>). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>7 </p> </td> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;search-if-field name="field-name" value="value"&gt; ... &lt;/search-if-veld&gt; </span> </p> <p> <span class="codeph"> &lt;search-if-not-field name="field-name" value="value"&gt; ... &lt;/search-if-not-field&gt; </span> </p> </td> 
-   <td colname="col2"> <p>Deze geavanceerde markeringen omvatten HTML tussen hen gebaseerd op of het gebied dat in het "naam"attribuut wordt gespecificeerd inhoud of niet heeft. Als de optionele "waarde"-eigenschap is opgegeven, wordt de HTML-code tussen de tags gegeven op basis van de vraag of de gegeven waarde overeenkomt (of niet overeenkomt) met de waarde voor het veld in het huidige resultaat. Deze markeringen functioneren slechts binnen de resultatenlijn (tussen <span class="codeph"> &lt;search-results&gt; </span> en <span class="codeph"> &lt;/search-results&gt; </span> markeringen). </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;search-if-field name="field-name" value="value"&gt;.. &lt;/search-if-field&gt; </span> </p> <p> <span class="codeph"> &lt;search-if-not-field name="field-name" value="value"&gt;.. &lt;/search-if-not-field&gt; </span> </p> </td> 
+   <td colname="col2"> <p>Deze geavanceerde tags bevatten de HTML tussen de tags op basis van het feit of het veld dat is opgegeven in het kenmerk "name" inhoud bevat. Als het optionele kenmerk "value" is opgegeven, bevatten de tags de HTML tussen de tags op basis van het feit of de gegeven waarde overeenkomt met (of niet overeenkomt met) de waarde voor het veld in het huidige resultaat. Deze tags werken alleen binnen de resultatenlus (tussen de tags <span class="codeph"> &lt;search-results&gt; </span> en <span class="codeph"> &lt;/search-results&gt; </span> ). </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Resultaatankerkoppelingtags {#section_C5FAEF520E9E42ADAD1F90651922AA02}
+## Resultaten koppelingstags voor herhalen {#section_C5FAEF520E9E42ADAD1F90651922AA02}
 
-Zie [Over Resultaatlusjes](../c-appendices/c-templates.md#section_D4DC7B4560144663972E8DBC3369C629).
+Zie [Informatie over Resultaatlustags](../c-appendices/c-templates.md#section_D4DC7B4560144663972E8DBC3369C629).
 
 <table> 
  <thead> 
   <tr> 
    <th colname="col01" class="entry"> </th> 
-   <th colname="col1" class="entry"> <p>Markering </p> </th> 
+   <th colname="col1" class="entry"> <p>Tag </p> </th> 
    <th colname="col2" class="entry"> <p>Beschrijving </p> </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
    <td colname="col01"> <p>1 </p> </td> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;search-link target="frame-name" hbx-enable="yes/no" hbx-linkid-name="field-name" hbx-linkid-none="text" hbx-linkid-length="XX" &gt;... &lt;/search-link&gt; </span> </p> </td> 
-   <td colname="col2"> <p>Dit paar markeringen leidt tot een ankerverbinding rond HTML tussen hen. Wanneer de verbinding wordt geklikt, de vertoningen van de resultatenpagina. Een facultatief doelattribuut specificeert het genoemde venster waarin kader-geschikt browsers de resultatenpagina zouden moeten tonen. </p> <p>Plaats hbx-toelaten attributen aan "ja"om uit de analyses voordeel te halen beschikbaar door HBX. De vastgestelde hbx-linkid-naam aan de naam van een meta-gegeven gebied u zou willen volgen. Bijvoorbeeld, om onderzoeksresultaten door aantal van SKU te volgen, plaats hbx-linkid-name aan de naam van het meta-gegeven gebied dat de informatie van SKU bevat. </p> <p>Datumtype velden worden momenteel niet ondersteund. De waarde van hbx-linkid-name wordt toegevoegd aan verbindingsidentiteitskaart in het geproduceerde anker. De waarde van hbx-linkid-none attributen wordt toegevoegd aan verbindingsidentiteitskaart wanneer het genoemde meta-gegeven gebied leeg is. De waarde van hbx-linkid-length beperkt het aantal karakters die van de markering van Meta worden gehaald en worden getoond. Het standaardaantal karakters is 12. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;search-link target="frame-name" hbx-enable="yes/no" hbx-linchild-name="field-name" hbx-linchild-none="text" hbx-linchild-length="XX" &gt;.. &lt;/search-link&gt; </span> </p> </td> 
+   <td colname="col2"> <p>Dit paar tags maakt een ankerkoppeling rondom de HTML tussen de tags. Wanneer op de koppeling wordt geklikt, wordt de resultatenpagina weergegeven. Een facultatief doelattribuut specificeert het genoemde venster waarin kader-geschikt browsers de resultatenpagina zouden moeten tonen. </p> <p>Stel het kenmerk hbx-enable in op "yes" om te profiteren van de analyses die beschikbaar zijn via HBX. Stel hbx-linchild-name in op de naam van een metagegevensveld dat u wilt bijhouden. Bijvoorbeeld, om onderzoeksresultaten door aantal SKU te volgen, plaats hbx-linchild-name aan de naam van het meta-gegeven gebied dat SKU informatie bevat. </p> <p>Datumtype velden worden momenteel niet ondersteund. De waarde van hbx-linchild-name wordt toegevoegd aan verbindingsidentiteitskaart in het geproduceerde anker. De waarde van het hbx-linchild-none-kenmerk wordt toegevoegd aan de koppelings-id wanneer het benoemde metagegevensveld leeg is. De waarde van hbx-linchild-length beperkt het aantal tekens dat van de tag Meta wordt opgehaald en weergegeven. Het standaardaantal tekens is 12. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>2 </p> </td> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;search-smart-link target="frame-name" hbx-enable="yes/no" hbx-linkid-name="field-name" hbx-linkid-none="text" hbx-linkid-length="XX"&gt; ... &lt;/search-smart-link&gt; </span> </p> </td> 
-   <td colname="col2"> <p>Dit paar markeringen is gelijkaardig aan <span class="codeph"> &lt;search-link&gt;.. &lt;/search-link&gt; </span> -tags. Wanneer de geproduceerde ankerverbindingen worden geklikt, de vertoningen van de resultatenpagina, maar met de pagina aan de meest dichtbijgelegen ankermarkering die het resultaat voorafgaat wordt gescrold. Voor verbindingen PDF, toont de kijker van de Acrobaat de pagina die het resultaat bevat. Een facultatief doelattribuut specificeert het genoemde venster waarin kader-geschikt browsers de resultatenpagina zouden moeten tonen. </p> <p>Plaats hbx-toelaten attributen aan "ja"om uit de analyses voordeel te halen beschikbaar door HBX. De vastgestelde hbx-linkid-naam aan de naam van een meta-gegeven gebied u zou willen volgen. Bijvoorbeeld, om onderzoeksresultaten door aantal van SKU te volgen, plaats hbx-linkid-name aan de naam van het meta-gegeven gebied dat de informatie van SKU bevat. </p> <p>Datumtype velden worden momenteel niet ondersteund. De waarde van hbx-linkid-name wordt toegevoegd aan verbindingsidentiteitskaart in het geproduceerde anker. De waarde van hbx-linkid-none attributen wordt toegevoegd aan verbindingsidentiteitskaart wanneer het genoemde meta-gegeven gebied leeg is. De waarde van hbx-linkid-length beperkt het aantal karakters die van de markering van Meta worden gehaald en worden getoond. Het standaardaantal karakters is 12. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;search-smart-link target="frame-name" hbx-enable="yes/no" hbx-linchild-name="field-name" hbx-linchild-none="text" hbx-linchild-length="XX"&gt;.. &lt;/search-smart-link&gt; </span> </p> </td> 
+   <td colname="col2"> <p>Dit paar tags is vergelijkbaar met de <span class="codeph"> &lt;search-link&gt; ... &lt;/search-link&gt; </span> -tags. Wanneer op de gegenereerde ankerkoppelingen wordt geklikt, wordt de resultatenpagina weergegeven, maar wordt de pagina naar de dichtstbijzijnde ankertag vóór het resultaat geschoven. Voor PDF-koppelingen wordt in de Acrobat-viewer de pagina weergegeven die het resultaat bevat. Een facultatief doelattribuut specificeert het genoemde venster waarin kader-geschikt browsers de resultatenpagina zouden moeten tonen. </p> <p>Stel het kenmerk hbx-enable in op "yes" om te profiteren van de analyses die beschikbaar zijn via HBX. Stel hbx-linchild-name in op de naam van een metagegevensveld dat u wilt bijhouden. Bijvoorbeeld, om onderzoeksresultaten door aantal SKU te volgen, plaats hbx-linchild-name aan de naam van het meta-gegeven gebied dat SKU informatie bevat. </p> <p>Datumtype velden worden momenteel niet ondersteund. De waarde van hbx-linchild-name wordt toegevoegd aan verbindingsidentiteitskaart in het geproduceerde anker. De waarde van het hbx-linchild-none-kenmerk wordt toegevoegd aan de koppelings-id wanneer het benoemde metagegevensveld leeg is. De waarde van hbx-linchild-length beperkt het aantal tekens dat van de tag Meta wordt opgehaald en weergegeven. Het standaardaantal tekens is 12. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>3 </p> </td> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;search-if-link-extension&gt; ... &lt;/search-if-link-extensie&gt; </span> </p> <p> <span class="codeph"> &lt;search-if-not-link-extension&gt; ... &lt;/search-if-not-link-extension&gt; </span> </p> </td> 
-   <td colname="col2"> <p>Deze markeringen omvatten HTML tussen hen als een waardeattribuut een uitbreiding specificeert die het eind van URL voor het resultaat aanpast. Deze markering is nuttig om grafisch in de onderzoeksresultaten te omvatten die op de verbindingsuitbreiding worden gebaseerd. Het waardeattribuut is een lijst van één of meerdere uitbreidingen (gescheiden ruimte) als volgt: VALUE=".pdf" of VALUE=".html .htm". </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;search-if-link-extension&gt; ... &lt;/search-if-link-extension&gt; </span> </p> <p> <span class="codeph"> &lt;search-if-not-link-extension&gt; ... &lt;/search-if-not-link-extension&gt; </span> </p> </td> 
+   <td colname="col2"> <p>Deze tags bevatten de HTML tussen de tags als een waardekenmerk een extensie opgeeft die overeenkomt met het einde van de URL voor het resultaat. Deze tag is handig als u een afbeelding wilt opnemen in de zoekresultaten op basis van de extensie van de koppeling. Het kenmerk value is als volgt een lijst met een of meer extensies (spaties gescheiden): VALUE=".pdf" of VALUE=".html .htm". </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Voorwaardelijke tags voor positie laden {#section_E0C29DDA09E043C9A396F36334F05EBB}
+## Voorwaardelijke tags voor positie herhalen {#section_E0C29DDA09E043C9A396F36334F05EBB}
 
-De volgende markeringen omvatten voorwaardelijk de tekst tussen hen. Zij kunnen slechts binnen de &quot;het van een lus voorzien&quot;markeringen verschijnen: &lt; `search-results>` en `<search-field-values>`. Zij worden gebruikt om de positie van het huidige resultaat binnen de resultaatreeks te testen.
+De volgende labels bevatten voorwaardelijk de tekst tussen de labels. Ze kunnen alleen worden weergegeven binnen de tags &#39;lussen&#39;: &lt; `search-results>` en `<search-field-values>`. Deze worden gebruikt om de positie van het huidige resultaat binnen de resultaatset te testen.
 
-Zie [Over Resultaatlusjes](../c-appendices/c-templates.md#section_D4DC7B4560144663972E8DBC3369C629).
+Zie [Informatie over Resultaatlustags](../c-appendices/c-templates.md#section_D4DC7B4560144663972E8DBC3369C629).
 
 <table> 
  <thead> 
   <tr> 
    <th colname="col01" class="entry"> </th> 
-   <th colname="col1" class="entry"> <p>Markering </p> </th> 
+   <th colname="col1" class="entry"> <p>Tag </p> </th> 
    <th colname="col2" class="entry"> <p>Beschrijving </p> </th> 
   </tr> 
  </thead>
@@ -1786,12 +1793,12 @@ Zie [Over Resultaatlusjes](../c-appendices/c-templates.md#section_D4DC7B45601446
   <tr> 
    <td colname="col01"> <p>1 </p> </td> 
    <td colname="col1"> <p> <span class="codeph"> &lt;search-if-first&gt; ... &lt;/search-if-first&gt; </span> </p> <p> <span class="codeph"> &lt;search-if-not-first&gt; ... &lt;/search-if-not-first&gt; </span> </p> </td> 
-   <td colname="col2"> <p>Deze markeringen omvatten de tekst tussen hen als het huidige resultaat (of is niet) het eerste resultaat op de pagina (wanneer gebruikt binnen <span class="codeph"> &lt;zoek-resultaten&gt; </span>) of de eerste gebiedswaarde (wanneer gebruikt binnen <span class="codeph"> &lt;zoek-gebied-waarden&gt; </span>) is. </p> </td> 
+   <td colname="col2"> <p>Deze tags bevatten de tekst tussen de tags als het huidige resultaat het eerste resultaat op de pagina is (of niet is) (indien gebruikt binnen <span class="codeph"> &lt;search-results&gt; </span>) of de eerste veldwaarde (indien gebruikt binnen <span class="codeph"> &lt;search-field-values&gt; </span>). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>2 </p> </td> 
    <td colname="col1"> <p> <span class="codeph"> &lt;search-if-last&gt; ... &lt;/search-if-last&gt; </span> </p> <p> <span class="codeph"> &lt;search-if-not-last&gt; ... &lt;/search-if-not-last&gt; </span> </p> </td> 
-   <td colname="col2"> <p>Deze markeringen omvatten de tekst tussen hen als het huidige resultaat (of is niet) het laatste resultaat op de pagina (wanneer gebruikt binnen <span class="codeph"> &lt;zoek-resultaten&gt; </span>) of de laatste gebiedswaarde (wanneer gebruikt binnen <span class="codeph"> &lt;zoek-gebied-waarden&gt; </span>) is. Deze markering kan worden gebruikt om een separator tussen resultaten op te nemen. Bijvoorbeeld, neemt dit een <span class="codeph"> &lt;hr&gt; </span> markering tussen resultaten op: </p> <p> <code class="syntax html"> &lt;search-results&gt; 
+   <td colname="col2"> <p>Deze tags bevatten de tekst tussen de tags als het huidige resultaat het laatste resultaat op de pagina is (of niet is) (indien gebruikt binnen <span class="codeph"> &lt;search-results&gt; </span>) of de laatste veldwaarde (indien gebruikt binnen <span class="codeph"> &lt;search-field-values&gt; </span>). Met dit label kunt u een scheidingsteken invoegen tussen de resultaten. Hiermee voegt u bijvoorbeeld een <span class="codeph"> &lt;hr&gt;- </span> tag in tussen de resultaten: </p> <p> <code class="syntax html"> &lt;search-results&gt; 
       &nbsp;&nbsp;&nbsp;&lt;search-lt&gt;tr&lt;search-if-alt&gt;&nbsp;class="alt"&lt;/search-if-alt&gt;&lt;search-gt&gt; 
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;&lt;search-url&gt;&lt;/td&gt; 
       &nbsp;&nbsp;&nbsp;&lt;/tr&gt; 
@@ -1800,12 +1807,12 @@ Zie [Over Resultaatlusjes](../c-appendices/c-templates.md#section_D4DC7B45601446
   <tr> 
    <td colname="col01"> <p>3 </p> </td> 
    <td colname="col1"> <p> <span class="codeph"> &lt;search-if-inner&gt; ... &lt;/search-if-inner&gt; </span> </p> <p> <span class="codeph"> &lt;search-if-not-inner&gt; ... &lt;/search-if-not-inner&gt; </span> </p> </td> 
-   <td colname="col2"> <p>Deze markeringen omvatten de tekst tussen hen als het huidige resultaat niet het eerste of het laatste resultaat op de pagina (wanneer gebruikt binnen <span class="codeph"> &lt;zoek-resultaten&gt; </span>) is of niet de eerste of laatste gebiedswaarde (wanneer gebruikt binnen <span class="codeph"> &lt;zoek-gebied-waarden&gt; </span>) is. De niet versie van de markeringstests of het resultaat of het eerste of laatste is. </p> </td> 
+   <td colname="col2"> <p>Deze tags bevatten de tekst tussen de tags als het huidige resultaat niet het eerste of laatste resultaat op de pagina is (wanneer gebruikt binnen <span class="codeph"> &lt;search-results&gt; </span>) of niet de eerste of laatste veldwaarde is (wanneer gebruikt binnen <span class="codeph"> &lt;search-field-values&gt; </span>). De niet-versie van de tag test of het resultaat het eerste of laatste is. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>4 </p> </td> 
    <td colname="col1"> <p> <span class="codeph"> &lt;search-if-alt&gt; ... &lt;/search-if-alt&gt; </span> </p> <p> <span class="codeph"> &lt;search-if-not-alt&gt; ... &lt;/search-if-not-alt&gt; </span> </p> </td> 
-   <td colname="col2"> <p>Deze markeringen omvatten de tekst tussen hen als het huidige resultaat (of is niet) een afwisselend resultaat op de pagina (wanneer gebruikt binnen <span class="codeph"> &lt;zoek-resultaten&gt; </span>) of een afwisselende gebiedswaarde (wanneer gebruikt binnen <span class="codeph"> &lt;zoek-gebied-waarden&gt; </span>) is. De "afwisselende"resultaten zijn tweede, vierde, zesde, etc., op de pagina. Dit voorbeeld past een verschillende klasse op afwisselende lijstrijen toe. Neem nota van het gebruik van <span class="codeph"> &lt;search-lt&gt; </span> en <span class="codeph"> &lt;search-gt&gt; </span> om toe te staan dat de <span class="codeph"> &lt;search-if-alt&gt; </span> markering "binnen"de <span class="codeph"> &lt;tr&gt; </span> markering wordt geplaatst. </p> <p> <code class="syntax html"> &nbsp;&nbsp;&nbsp;&nbsp;&lt;search-results&gt; 
+   <td colname="col2"> <p>Deze tags bevatten de tekst tussen de tags als het huidige resultaat een alternatief resultaat op de pagina is (wanneer gebruikt binnen <span class="codeph"> &lt;search-results&gt; </span>) of een alternatieve veldwaarde (wanneer gebruikt binnen <span class="codeph"> &lt;search-field-values&gt; </span>). De "afwisselende"resultaten zijn tweede, vierde, zesde, etc., op de pagina. In dit voorbeeld wordt een andere klasse toegepast op alternatieve tabelrijen. Let op het gebruik van <span class="codeph"> &lt;search-lt&gt; </span> en <span class="codeph"> &lt;search-gt&gt; </span> zodat de <span class="codeph"> &lt;search-if-alt&gt;- </span> tag 'inside' de <span class="codeph"> &lt;tr&gt;- </span> tag kan worden geplaatst. </p> <p> <code class="syntax html"> &nbsp;&nbsp;&nbsp;&nbsp;&lt;search-results&gt; 
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;search-lt&gt;tr&lt;search-if-alt&gt;&nbsp;class="alt"&lt;/search-if-alt&gt;&lt;search-gt&gt; 
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;&lt;search-url&gt;&lt;/td&gt; 
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/tr&gt; 
@@ -1814,7 +1821,7 @@ Zie [Over Resultaatlusjes](../c-appendices/c-templates.md#section_D4DC7B45601446
   <tr> 
    <td colname="col01"> <p>5 </p> </td> 
    <td colname="col1"> <p> <span class="codeph"> &lt;search-if-even&gt; ... &lt;/search-if-even&gt; </span> </p> <p> <span class="codeph"> &lt;search-if-not-even&gt; ... &lt;/search-if-not-even&gt; </span> </p> </td> 
-   <td colname="col2"> <p>Deze markeringen omvatten de tekst tussen hen als het huidige resultaat (of niet) een gelijk-genummerd resultaat is (wanneer gebruikt binnen <span class="codeph"> &lt;zoek-resultaten&gt; </span>) of een gelijk-genummerde gebiedswaarde (wanneer gebruikt binnen <span class="codeph"> &lt;zoek-gebied-waarden&gt; </span>). Een onderzoeksresultaat is gelijk-genummerd als zijn <span class="codeph"> &lt;zoek-index&gt; </span> waarde zelfs is. Met andere woorden, als zijn positie binnen de volledige resultaatreeks gelijk is. Dit kan van <span class="codeph"> &lt;search-if-alt&gt; verschillend zijn </span> die de positie van een resultaat op de pagina, niet binnen de volledige resultaatreeks test. De volgende twee lijsten illustreren het verschil: </p> </td> 
+   <td colname="col2"> <p>Deze tags bevatten de tekst tussen de tags als het huidige resultaat een even-genummerd resultaat is (of niet is) (indien gebruikt binnen <span class="codeph"> &lt;search-results&gt; </span>) of een even-genummerde veldwaarde (indien gebruikt binnen <span class="codeph"> &lt;search-field-values&gt; </span>). Een zoekresultaat is even genummerd als de waarde <span class="codeph"> &lt;search-index&gt; </span> gelijk is. Met andere woorden, als de positie binnen de gehele resultaatset gelijk is. Dit kan verschillen van <span class="codeph"> &lt;search-if-alt&gt; </span> die de positie van een resultaat op de pagina test, niet binnen de volledige resultaatreeks. De volgende twee tabellen illustreren het verschil: </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -1884,13 +1891,13 @@ Zie [Over Resultaatlusjes](../c-appendices/c-templates.md#section_D4DC7B45601446
   </tr> 
   <tr> 
    <td colname="col1"> <p>11 </p> </td> 
-   <td colname="col2"> <p>Elfde resultaat </p> </td> 
+   <td colname="col2"> <p>Leventiende resultaat </p> </td> 
    <td colname="col3"> <p>Nee </p> </td> 
    <td colname="col4"> <p>Ja </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>12 </p> </td> 
-   <td colname="col2"> <p>Twaalf resultaat </p> </td> 
+   <td colname="col2"> <p>Twaalf resultaten </p> </td> 
    <td colname="col3"> <p>Ja </p> </td> 
    <td colname="col4"> <p>Nee </p> </td> 
   </tr> 
@@ -1909,212 +1916,212 @@ Zie [Over Resultaatlusjes](../c-appendices/c-templates.md#section_D4DC7B45601446
  </tbody> 
 </table>
 
-Tot slot merk op dat altijd het zelfde als `<search-if-even>` voor de waarden van het onderzoeksgebied `<search-if-alt>` is aangezien de gebiedswaarden niet worden gepagineerd.
+Tot slot `<search-if-even>` is dit altijd hetzelfde als `<search-if-alt>` bij waarden in zoekvelden, omdat veldwaarden niet worden geplakt.
 
-## Labels in lijst met velden {#section_D3298B5F976447DBA0032B883DCC91B1}
+## Lijstlabels voor veldwaarden {#section_D3298B5F976447DBA0032B883DCC91B1}
 
-De volgende geavanceerde waarden van het de gebiedsgebied van de markeringen en verwante gegevens van de volledige reeks onderzoeksresultaten. Deze markeringen brengen slechts output voor gebieden op die door de parameters van CGI in de onderzoeksvraag worden gespecificeerd. `sp-sfvl-field`
+Met de volgende geavanceerde tags worden de uitvoerveldwaarden en verwante gegevens uit de volledige set zoekresultaten weergegeven. Deze labels leveren alleen uitvoer op voor velden die zijn opgegeven door de CGI-parameters in de zoekquery. `sp-sfvl-field`
 
 <table> 
  <thead> 
   <tr> 
    <th colname="col01" class="entry"> </th> 
-   <th colname="col1" class="entry"> <p>Markering </p> </th> 
+   <th colname="col1" class="entry"> <p>Tag </p> </th> 
    <th colname="col2" class="entry"> <p>Beschrijving </p> </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
    <td colname="col01"> <p>1 </p> </td> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;search-field-value-list name="field-name" quotes="yes/no" commas="yes/no" data="values/count/results" separator="X" sortby="none/values/results" max-items="XX" date-format="date-format-string" gmt="yes/no" language="0/language-id" encoding="html /javascript/json/perl/url/none"&gt; </span> </p> </td> 
-   <td colname="col2"> <p>Deze markering toont een lijst van unieke gebiedswaarden, waardetellingen, of resultaattellingen binnen de volledige resultaatreeks. </p> <p>Deze markering brengt slechts output voor gebieden op die door de parameters <span class="codeph"> sp_sfvl_field CGI in de onderzoeksvraag worden gespecificeerd </span> . De facultatieve "citaten"attributen controleert of de individuele puntenoutput door dubbel-citaten (of enig-citaten, als het coderen=perl) wordt omringd. De standaardwaarde van "citaten"is "ja". De optionele eigenschap "komma's" bepaalt of de afzonderlijke items die worden uitgevoerd, worden gescheiden door komma's. De standaardwaarde van "komma's"is "ja". De optionele eigenschap "data" bepaalt of elke unieke veldwaarde output is (data="values"), de totale telling van elke unieke veldwaarde output is (data="count"), of het aantal resultaten dat elke unieke waarde bevat (data="results") is output. De standaardwaarde van "gegevens" is "waarden". Voor niet-lijst-type gebieden, zijn data="tellingen"en data="resultaten"gelijkwaardig. Het separatorattribuut bepaalt het enige karakter, of afbakening, dat tussen de waarden van de output moet worden opgenomen. Het optionele "sortby"-kenmerk bepaalt de volgorde van de uitvoer. sortby="none" means no specific order, sortby="values" means sort by field values (in oplopende of aflopende volgorde volgens de sorterende eigenschap van het veld), sortby="count" means sort in dalende volgorde van veldwaardetellingen, and sortby="results" means sort in dalende volgorde van het aantal resultaten dat elke waarde bevat. </p> <p>Merk op dat sortby="tellingen"en sortby="resultaten"voor niet-lijst-type gebieden gelijkwaardig zijn. Het optionele kenmerk "max-items" beperkt het aantal items tot uitvoer. De standaardwaarde van "maximum-punten" is -1, zo betekent "output alle punten". </p> <p>Er is een absolute grens van 100 voor maximum-punten. De attributen "date-format", "gmt" en "language" zijn alleen relevant als het inhoudstype van het gespecificeerde veld "date" is. Het attribuut "date-format" neemt een UNIX-tekenreeks met datumnotatie voor de stijl zoals "%A, %B %d, %Y" (voor "Maandag, 25 juli, 2016"). "gmt" staat in gebreke aan "ja" en controleert of het tijdgedeelte van het datumkoord output in GMT ("ja") of de de tijdzone van de rekening ("neen") zou moeten zijn. </p> <p>Zie <a href="../c-appendices/c-templates.md#section_4BBDBBEF2B96414497617CD4B52D96E4" type="section" format="dita" scope="local"> Datumformaatstrings</a>. </p> <p>Het "taal"attribuut controleert de taal en de scèneovereenkomsten van het koord van de outputdatum. "0" (de standaardinstelling) betekent "Account Language gebruiken". Een andere "taal"-waarde wordt geïnterpreteerd als een specifieke taalidentifier, bijvoorbeeld "en_US" betekent "Engels (Verenigde Staten)". Het optionele kenmerk "coderen" bepaalt of de uitvoertekenreekskarakters HTML-code zijn, JavaScript-code, Perl-gecodeerd, URL-code al dan niet gecodeerd voor uitvoer op de resultatenpagina. De standaardwaarde van "het coderen"is "html". </p> <p>Zie <a href="../c-appendices/c-templates.md#section_0490DECC00E34691ADE5A9ED90A6D911" type="section" format="dita" scope="local"> Taalkenmerken</a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;search-field-value-list name="field-name" quotes="yes/no" commas="yes/no" data="values/counts/results" separator="X" sortby="none/values/counts/results" max-items="XX" date-format="date-format-string" gmt="yes/no" language="0/language-id" encoding="html /javascript/json/perl/url/none"&gt; </span> </p> </td> 
+   <td colname="col2"> <p>Met dit label geeft u een lijst weer met unieke veldwaarden, tellingen van waarden of tellingen van resultaten binnen de gehele resultaatset. </p> <p>Dit label geeft alleen uitvoer voor velden die zijn opgegeven met de CGI-parameters <span class="codeph"> sp_sfvl_field </span> in de zoekquery. Het optionele kenmerk "quotes" bepaalt of de afzonderlijke items die worden uitgevoerd, worden omringd door dubbele aanhalingstekens (of enkele aanhalingstekens, als encoding=perl). De standaardwaarde van "quotes" is "yes". Het optionele kenmerk "komma's" bepaalt of de afzonderlijke items die worden uitgevoerd, door komma's worden gescheiden. De standaardwaarde van "komma's" is "ja". Het optionele kenmerk "data" bepaalt of elke unieke veldwaarde uitvoer is (data="values"), het totale aantal van elke unieke veldwaarde uitvoer is (data="counts") of het aantal resultaten dat elke unieke waarde bevat (data="results") wordt uitgevoerd. De standaardwaarde van "data" is "values". Voor niet-list-type velden zijn data="counts" en data="results" gelijk. Het scheidingskenmerk definieert het ene teken (scheidingsteken) dat tussen de waarden van de uitvoer moet worden ingevoegd. Het optionele kenmerk "sortby" bepaalt de volgorde van de uitvoer. sortby="none" betekent geen bepaalde volgorde, sortby="values" betekent sorteren op veldwaarden (in oplopende of aflopende volgorde volgens de sorteereigenschap van het veld), sortby="counts" betekent sorteren in aflopende volgorde van veldwaardetelling, en sortby="results" betekent sorteren in aflopende volgorde van het aantal resultaten dat elke waarde bevat. </p> <p>Merk op dat sortby="counts" en sortby="resultaten" gelijkwaardig zijn voor niet-list-type gebieden. Het optionele kenmerk "max-items" beperkt het aantal items dat moet worden uitgevoerd. De standaardwaarde van "max-items" is -1, wat betekent "alle items uitvoeren". </p> <p>Er geldt een absolute limiet van 100 voor max-items. De kenmerken "date-format", "gmt" en "language" zijn alleen relevant als het inhoudstype van het opgegeven veld "date" is. Het kenmerk "date-format" heeft een datumnotatietekenreeks in de UNIX-stijl, zoals "%A, %B %d, %Y" (voor "maandag, 25 juli 2016"). "gmt" is standaard ingesteld op "yes" en bepaalt of het tijdgedeelte van de datumtekenreeks moet worden uitgevoerd in GMT ("yes") of in de tijdzone van de account ("no"). </p> <p>Zie Tekenreeksen <a href="../c-appendices/c-templates.md#section_4BBDBBEF2B96414497617CD4B52D96E4" type="section" format="dita" scope="local"></a>datumnotatie. </p> <p>Het kenmerk "language" bestuurt de taal- en landinstellingconventies van de tekenreeks met de uitvoerdatum. "0" (de standaardwaarde) betekent "Account Language gebruiken". Elke andere "taal"-waarde wordt geïnterpreteerd als een specifieke taal-id, bijvoorbeeld "en_US" betekent "Engels (Verenigde Staten)". Het optionele kenmerk "encoding" bepaalt of de tekens van de uitvoertekenreeks HTML-gecodeerd, JavaScript-gecodeerd, Perl-gecodeerd, URL-gecodeerd of niet gecodeerd zijn voor uitvoer op de resultatenpagina. De standaardwaarde van "encoding" is "html". </p> <p>Zie <a href="../c-appendices/c-templates.md#section_0490DECC00E34691ADE5A9ED90A6D911" type="section" format="dita" scope="local"> Taalid's</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>2 </p> </td> 
    <td colname="col1"> <p> <span class="codeph"> &lt;search-field-value-list-count name="field-name" value="field-value" results="yes/no"&gt; </span> </p> </td> 
-   <td colname="col2"> <p>Deze markering toont tellingsinformatie voor een bepaalde onderzoek-gebied-waarde-lijst. Er zijn drie verschillende toepassingen voor deze markering. Als slechts het "naam"attribuut wordt geleverd, output deze markering het aantal unieke waarden voor het genoemde gebied binnen de volledige resultaatreeks. Als de kenmerken "name" en "waarde" beide worden geleverd, wordt met deze tag ofwel de totale telling van de gegeven waarde binnen de gehele resultatenreeks (voor results="no"), ofwel de totale telling van de resultaten die de gegeven waarde in de volledige resultatenreeks bevatten (voor results="yes") uitgevoerd. De standaardwaarde van "resultaten" is "nee". Opmerking: Voor niet-lijst-type gebieden, zijn de resultaten="ja"en de resultaten="nee"gelijkwaardig. De waarde van "resultaten" wordt genegeerd als het kenmerk "waarde" niet wordt geleverd. Deze markering brengt slechts output voor gebieden op die door de <span class="codeph"> </span> sp-sfvl-gebiedCGI parameters in de onderzoeksvraag worden gespecificeerd. </p> </td> 
+   <td colname="col2"> <p>Deze markering toont telinformatie voor een bepaalde onderzoek-gebied-waarde-lijst. Er zijn drie verschillende toepassingen voor deze tag. Als alleen het kenmerk "name" wordt opgegeven, geeft deze tag als uitvoer het aantal unieke waarden voor het benoemde veld binnen de volledige resultatenset. Als de kenmerken "name" en "value" beide worden opgegeven, genereert dit label ofwel het totale aantal van de opgegeven waarde binnen de volledige resultatenset (voor results="no"), ofwel het totale aantal resultaten dat de opgegeven waarde bevat in de volledige resultatenset (voor results="yes"). De standaardwaarde van "resultaten" is "nee". Opmerking: Voor niet-list-type velden zijn results="yes" en results="no" gelijk. De waarde van "results" wordt genegeerd als het kenmerk "value" niet wordt opgegeven. Met deze tag wordt alleen uitvoer gegenereerd voor velden die zijn opgegeven met de CGI-parameters van <span class="codeph"> </span> sp-sfvl-field in de zoekquery. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>3 </p> </td> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;search-if-field-value-list-count name="field-name" value="field-value"&gt; ... &lt;/search-if-field-value-list-count&gt; </span> </p> <p> <span class="codeph"> &lt;search-if-not-field-value-list-count name="field-name" value="field-value"&gt; ... &lt;/search-if-not-field-value-list-count&gt; </span> </p> </td> 
-   <td colname="col2"> <p>Deze markeringen tonen HTML tussen hen als de gelijkwaardige vraag aan <span class="codeph"> &lt;search-field-value-count name="field-name" value="field-value" waarde&gt; </span> met de bepaalde attributen (of niet) een waarde groter dan nul zou terugkeren. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;search-if-field-value-list-count name="field-name" value="field-value"&gt;.. &lt;/search-if-field-value-list-count&gt; </span> </p> <p> <span class="codeph"> &lt;search-if-not-field-value-list-count name="field-name" value="field-value"&gt; ... &lt;/search-if-not-field-value-list-count&gt; </span> </p> </td> 
+   <td colname="col2"> <p>Deze tags geven de HTML tussen de tags weer als de equivalente aanroep van <span class="codeph"> &lt;search-field-value-list-count name="field-name" value="field-value"&gt; </span> met de opgegeven kenmerken een waarde groter dan nul zou (of niet) opleveren. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>4 </p> </td> 
    <td colname="col1"> <p> <span class="codeph"> &lt;search-if-single-field-value-list-count name="field-name"&gt; ... &lt;/search-if-single-field-value-list-count&gt; </span> </p> </td> 
-   <td colname="col2"> <p>Deze markeringen tonen de inhoud tussen hen als de gelijkwaardige vraag aan <span class="codeph"> &lt;search-field-value-count name="field-name" value="field-value"&gt; </span> met de bepaalde attributen (of niet) één enkele waarde zou terugkeren. Dit wordt typisch gebruikt wanneer een rekening facetgroeven gebruikt. Met gezichtsgroeven, wilt u typisch slechts de waarde-groef tonen wanneer de bijbehorende naam-groef één enkel punt heeft. Het doen van deze controle in het vervoermalplaatje is efficiënter dan het doen van het in de presentatielaag. </p> </td> 
+   <td colname="col2"> <p>Deze tags geven de inhoud tussen de tags weer als de equivalente aanroep van <span class="codeph"> &lt;search-field-value-list-count name="field-name" value="field-value"&gt; </span> met de opgegeven kenmerken één waarde zou (of niet) retourneren. Dit wordt doorgaans gebruikt wanneer een account sleuven voor facetten gebruikt. Met facetgroeven, wilt u typisch slechts de waarde-groef tonen wanneer de bijbehorende naam-groef één enkel punt heeft. Het uitvoeren van deze controle in het vervoermalplaatje is efficiënter dan het doen van het in de presentatielaag. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Lijstcodes van lijst met velden {#section_0717FA09F0FC449CB916883B0500A60E}
+## Lijstlabels voor veldwaarden {#section_0717FA09F0FC449CB916883B0500A60E}
 
-De volgende geavanceerde markeringen somt en de waarden van het outputgebied en verwante gegevens van de volledige reeks onderzoeksresultaten op gebruikend een het van een lus voorzien concept. Deze markeringen brengen slechts output voor gebieden op die door de parameters van CGI in de onderzoeksvraag worden gespecificeerd. `sp-sfvl-field`
+Met de volgende geavanceerde tags worden waarden van uitvoervelden en verwante gegevens uit de gehele set zoekresultaten opgesomd met behulp van een lusconstructie. Deze labels leveren alleen uitvoer op voor velden die zijn opgegeven door de CGI-parameters in de zoekquery. `sp-sfvl-field`
 
 <table> 
  <thead> 
   <tr> 
    <th colname="col01" class="entry"> </th> 
-   <th colname="col1" class="entry"> <p>Markering </p> </th> 
+   <th colname="col1" class="entry"> <p>Tag </p> </th> 
    <th colname="col2" class="entry"> <p>Beschrijving </p> </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
    <td colname="col01"> <p>1 </p> </td> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;zoek-gebied-waarden name="gebied-naam"sortby="niets/waarden/tellingen/resultaten" max-items="XX"&gt;.. &lt;/search-field-waarden&gt; </span> </p> </td> 
-   <td colname="col2"> <p>Deze markering leidt tot een lijn voor het opsommen van gebiedswaarden en verwante gegevens voor een bepaald gebied binnen de volledige resultaatreeks. Nest deze markering niet binnen een andere <span class="codeph"> &lt;zoek-gebied-waarden&gt; </span> markering. Het "naam"attribuut specificeert de naam van het gebied dat de op te sommen waarden bevat. Het facultatieve "sortby"attribuut controleert de opsommingsorde: "niets" betekent geen bepaalde orde, "waarden"betekent soort door gebiedswaarden (in stijgende of dalende orde volgens het het Sorteren bezit van het gebied), sortby="tellingen"betekent soort in dalende orde van de tellingen van de gebiedswaarde, en sortby="resultaten"betekent soort in dalende orde van het aantal resultaten die elke waarde bevatten. </p> <p>Merk op dat sortby="tellingen"en sortby="resultaten"voor niet-lijst-type gebieden gelijkwaardig zijn. . Het optionele kenmerk "max-items" beperkt het aantal iteraties tot de gegeven waarde. De standaardwaarde voor "maximum-punten"is -1, wat betekent "opsommen alle waarden". </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;search-field-values name="field-name" sortby="none/values/counts/results" max-items="XX"&gt;.. &lt;/search-field-values&gt; </span> </p> </td> 
+   <td colname="col2"> <p>Met deze tag wordt een lus gemaakt voor het opsommen van veldwaarden en verwante gegevens voor een bepaald veld binnen de volledige resultatenset. Nest deze tag niet in een andere <span class="codeph"> &lt;search-field-values&gt;- </span> tag. Het kenmerk "name" geeft de naam op van het veld met de waarden die moeten worden opgesomd. Het optionele kenmerk "sortby" bepaalt de volgorde van de opsommingen: "none" betekent geen bepaalde volgorde, "waarden" betekent sorteren op veldwaarden (in oplopende of aflopende volgorde volgens de eigenschap Sorteren van het veld), sortby="counts" betekent sorteren in aflopende volgorde van veldwaardetelling, en sortby="resultaten" betekent sorteren in aflopende volgorde van het aantal resultaten dat elke waarde bevat. </p> <p>Merk op dat sortby="counts" en sortby="resultaten" gelijkwaardig zijn voor niet-list-type gebieden. . Het optionele kenmerk "max-items" beperkt het aantal herhalingen tot de opgegeven waarde. De standaardwaarde voor "max-items" is -1, wat betekent "alle waarden opsommen". </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>2 </p> </td> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;search-field-value date-format="date-format-string-string" encoding="html/javascript/json/perl/url/none" gmt="yes/no" language="0/language-id"&gt; </span> </p> </td> 
-   <td colname="col2"> <p>Deze markering voert de gebiedswaarde voor de huidige &lt;zoek-gebied-waarden&gt; lusjeriteratie uit. Deze markering is slechts geldig binnen een <span class="codeph"> &lt;zoek-gebied-waarden&gt; </span> lijn. De attributen "date-format", "gmt" en "language" zijn alleen relevant als het inhoudstype van de veldnaam die is opgegeven in de bijgevoegde tag &lt;search-field-waardes&gt; "date" is. Het attribuut "date-format" neemt een UNIX-tekenreeks met datumnotatie voor de stijl zoals "%A, %B %d, %Y" (voor "Maandag, 25 juli, 2020"). </p> <p>Zie <a href="../c-appendices/c-templates.md#section_4BBDBBEF2B96414497617CD4B52D96E4" type="section" format="dita" scope="local"> Datumformaatstrings</a>. </p> <p>Het optionele kenmerk "coderen" bepaalt of de uitvoertekenreekskarakters HTML-code zijn, JavaScript-code, Perl-gecodeerd, URL-code al dan niet gecodeerd voor uitvoer op de resultatenpagina. De standaardwaarde van "het coderen"is "niets". Normaal, te hoeven u niet om de het coderen attributen te specificeren. "gmt" staat in gebreke aan "ja" en controleert of het tijdgedeelte van het datumkoord output in GMT ("ja") of de de tijdzone van de rekening ("neen") zou moeten zijn. Het "taal"attribuut controleert de taal en de scèneovereenkomsten van het koord van de outputdatum. "0" (de standaardinstelling) betekent "Account Language gebruiken". Een andere "taal"-waarde wordt geïnterpreteerd als een specifieke taalidentifier, bijvoorbeeld "en_US" betekent "Engels (Verenigde Staten)". </p> <p>Zie <a href="../c-appendices/c-templates.md#section_0490DECC00E34691ADE5A9ED90A6D911" type="section" format="dita" scope="local"> Taalkenmerken</a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;search-field-value date-format="date-format-string" encoding="html/javascript/json/perl/url/none" gmt="yes/no" language="0/language-id"&gt; </span> </p> </td> 
+   <td colname="col2"> <p>Deze tag geeft de veldwaarde weer voor de huidige herhaling van de &lt;search-field-values&gt;-lus. Deze tag is alleen geldig binnen een <span class="codeph"> &lt;search-field-values&gt;- </span> lus. De kenmerken "date-format", "gmt" en "language" zijn alleen relevant als het inhoudstype van de veldnaam die is opgegeven in de bijgevoegde tag &lt;search-field-values&gt; "date" is. Het kenmerk "date-format" heeft een datumnotatietekenreeks in de UNIX-stijl, zoals "%A, %B %d, %Y" (voor "maandag, 25 juli 2020"). </p> <p>Zie Tekenreeksen <a href="../c-appendices/c-templates.md#section_4BBDBBEF2B96414497617CD4B52D96E4" type="section" format="dita" scope="local"></a>datumnotatie. </p> <p>Het optionele kenmerk "encoding" bepaalt of de tekens van de uitvoertekenreeks HTML-gecodeerd, JavaScript-gecodeerd, Perl-gecodeerd, URL-gecodeerd of niet gecodeerd zijn voor uitvoer op de resultatenpagina. De standaardwaarde van "encoding" is "none". Normaal gesproken hoeft u het coderingskenmerk niet op te geven. "gmt" is standaard ingesteld op "yes" en bepaalt of het tijdgedeelte van de datumtekenreeks moet worden uitgevoerd in GMT ("yes") of in de tijdzone van de account ("no"). Het kenmerk "language" bestuurt de taal- en landinstellingconventies van de tekenreeks met de uitvoerdatum. "0" (de standaardwaarde) betekent "Account Language gebruiken". Elke andere "taal"-waarde wordt geïnterpreteerd als een specifieke taal-id, bijvoorbeeld "en_US" betekent "Engels (Verenigde Staten)". </p> <p>Zie <a href="../c-appendices/c-templates.md#section_0490DECC00E34691ADE5A9ED90A6D911" type="section" format="dita" scope="local"> Taalid's</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>3 </p> </td> 
    <td colname="col1"> <p> <span class="codeph"> &lt;search-field-value-count results="yes/no"&gt; </span> </p> </td> 
-   <td colname="col2"> <p>Deze markeringsoutput de telling verbonden aan de huidige <span class="codeph"> &lt;zoek-gebied-waarden&gt; </span> lijnherhaling. De outputtelling is of het aantal resultaten in de volledige resultaatreeks die de gebiedswaarde (results="ja") bevat, of de totale telling voor de gebiedswaarde in de volledige resultaatreeks. De standaardwaarde van "resultaten" is "nee". </p> <p>Voor niet-lijst-type gebieden, zijn de resultaten="ja"en de resultaten="nee"gelijkwaardig. Deze markering is slechts geldig binnen een <span class="codeph"> &lt;zoek-gebied-waarden&gt; </span> lijn. </p> </td> 
+   <td colname="col2"> <p>Deze tag geeft het aantal weer dat is gekoppeld aan de huidige herhaling van de <span class="codeph"> &lt;search-field-values&gt;- </span> lus. De uitvoerwaarde is ofwel het aantal resultaten in de volledige resultatenset die de veldwaarde bevat (results="yes"), ofwel het totale aantal voor de veldwaarde in de volledige resultatenset. De standaardwaarde van "resultaten" is "nee". </p> <p>Voor niet-list-type velden zijn results="yes" en results="no" gelijk. Deze tag is alleen geldig binnen een <span class="codeph"> &lt;search-field-values&gt;- </span> lus. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>4 </p> </td> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;zoek-gebied-waarde-teller&gt; </span> </p> </td> 
-   <td colname="col2"> <p>Deze markeringsoutput de rangschikkende teller voor de huidige <span class="codeph"> &lt;zoek-gebied-waarden&gt; </span> lijnherhaling. Deze markering is slechts geldig binnen een <span class="codeph"> &lt;zoek-gebied-waarden&gt; </span> lijn. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;search-field-value-counter&gt; </span> </p> </td> 
+   <td colname="col2"> <p>Deze tag geeft de rangtellerwaarde weer voor de huidige herhaling van de <span class="codeph"> &lt;search-field-values&gt;- </span> lus. Deze tag is alleen geldig binnen een <span class="codeph"> &lt;search-field-values&gt;- </span> lus. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Tags voorstellen {#section_C28EB8B4F7DC4E278A0F143BCFEEB1AC}
 
-Suggest verstrekt een gebruikersvriendelijk &quot;Bedoelde u?&quot; dienst voor het voorstellen van alternatieve onderzoekstermijnen. Als een gebruiker een onderzoekstermijn verkeerd heeft gespeld, bijvoorbeeld, stel voor kan de gebruiker helpen resultaten vinden door een correcte spelling voor te stellen. Het systeem kan verwante sleutelwoorden ook voorstellen die een gebruiker kunnen helpen resultaten ontdekken. Wanneer het produceren van suggesties, gebruikt de dienst van de Samenvatting twee woordenboeken: één gebaseerd op de rekeningstaal (ingesteld onder **[!UICONTROL Indexing]** > **[!UICONTROL Words and Languages]** > **[!UICONTROL Language]**), en de andere op basis van de trefwoorden in de accountindex.
+Suggestie biedt een gebruiksvriendelijke &quot;Bedoelde u?&quot; dienst voor het voorstellen van alternatieve zoektermen. Als een gebruiker bijvoorbeeld een zoekterm verkeerd heeft gespeld, kunt u met Suggestie resultaten vinden door een correcte spelling voor te stellen. Het systeem kan verwante sleutelwoorden ook voorstellen die een gebruiker kunnen helpen resultaten ontdekken. Bij het genereren van suggesties gebruikt de dienst Suggestie twee woordenboeken: een gebaseerd op de accounttaal (ingesteld onder **[!UICONTROL Indexing]** > **[!UICONTROL Words and Languages]** > **[!UICONTROL Language]**) en een ander op basis van de trefwoorden in de accountindex.
 
 >[!NOTE]
 >
->De dienst van de Samenvatting werkt niet voor Chinees, Japanner, of Koreaan.
+>De dienst Suggest werkt niet voor Chinees, Japans, of Koreaans.
 
 <table> 
  <thead> 
   <tr> 
    <th colname="col01" class="entry"> </th> 
-   <th colname="col1" class="entry"> <p>Markering </p> </th> 
+   <th colname="col1" class="entry"> <p>Tag </p> </th> 
    <th colname="col2" class="entry"> <p>Beschrijving </p> </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
    <td colname="col01"> <p>1 </p> </td> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;zoek-als-suggesties&gt; ... &lt;/search-if-suggesties&gt; </span> </p> </td> 
-   <td colname="col2"> <p>Omring deze markeringen met om het even welke "Voorstellen"malplaatjemarkeringen, zoals <span class="codeph"> &lt;zoek-suggestie&gt; </span>, <span class="codeph"> &lt;search-suggestie-verbinding&gt; </span>, etc. Als het onderzoek suggesties produceert, verwerkt de output van de onderzoeksmotor en alles tussen de open en dichte markering. Als het onderzoek geen suggesties produceert, is geen van de genestelde inhoud output. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;search-if-Suggesties&gt;... &lt;/search-if-Suggesties&gt; </span> </p> </td> 
+   <td colname="col2"> <p>Omring deze tags met eventuele 'Suggest'-sjabloontags, zoals <span class="codeph"> &lt;search-suggestie&gt; </span>, <span class="codeph"> &lt;search-suggestie-link&gt; </span>, enzovoort. Als de zoekopdracht suggesties genereert, voert de zoekmachine alles uit en verwerkt deze tussen de tag open en close. Als de zoekopdracht geen suggesties oplevert, wordt geen van de geneste inhoud uitgevoerd. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>2 </p> </td> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;zoeksuggesties&gt; ... &lt;/search-suggesties&gt; </span> </p> </td> 
-   <td colname="col2"> <p>Deze markering produceert de "Suggest"lijn, die een lijst van voorgestelde onderzoekstermijnen bevat (bijvoorbeeld, "voorgenomen", "voorgenomen"en "is van plan", voor een vraag oorspronkelijk ingegaan als "bedoeling"). Wanneer het produceren van de lijst van termijnen, herhaalt de onderzoeksmotor om het even welke genestelde markeringen van HTML en/of van het malplaatje tot vijf keer, dat het maximumaantal suggesties is. Gebruik de tellingsattributen om het aantal geproduceerde suggesties (tussen 0-5) te specificeren. </p> <p>De <span class="codeph"> &lt;zoek-suggesties&gt; </span> markering kan veelvoudige tijden op de pagina verschijnen om de lijst van suggesties te herhalen. De veelvoudige suggesties worden gesorteerd volgens het aantal resultaten elke opbrengst. </p> <p>Nest de <span class="codeph"> &lt;search-suggereer&gt; </span> markering tussen open en dichte <span class="codeph"> &lt;search-if-suggesties&gt; </span> markeringen. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;zoek-suggesties&gt;... &lt;/search-Suggesties&gt; </span> </p> </td> 
+   <td colname="col2"> <p>Met deze tag wordt de lus "Suggest" gegenereerd, die een lijst bevat met voorgestelde zoektermen (bijvoorbeeld "bedoeling", "voorgenomen" en "bedoeling" voor een query die oorspronkelijk is ingevoerd als "bedoeling"). Bij het genereren van de lijst met termen worden geneste HTML- en/of sjabloontags maximaal vijf keer door het zoekprogramma herhaald. Dit is het maximumaantal suggesties. Gebruik het kenmerk Count om het aantal gegenereerde suggesties (tussen 0 en 5) op te geven. </p> <p>De <span class="codeph"> &lt;search-Suggesties&gt;- </span> tag kan meerdere keren op de pagina worden weergegeven om de lijst met suggesties te herhalen. Meerdere suggesties worden gesorteerd op basis van het aantal resultaten dat elk resultaat oplevert. </p> <p>Nest de <span class="codeph"> &lt;search-Suggesties&gt;- </span> tag tussen open en sluit <span class="codeph"> &lt;search-if-Suggesties&gt;- </span> tags. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>3 </p> </td> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;zoek-suggestie-verbinding&gt; ... &lt;/search-suggestie-link&gt; </span> </p> </td> 
-   <td colname="col2"> <p>Deze markering produceert een verbinding aan de originele onderzoeksvraag gebruikend de geselecteerde voorgestelde onderzoekstermijn in plaats van de originele termijn. De markering keurt en drukt eenvoudig uit om het even welke attributen van HTML zoals klasse, doel, en stijl goed. De markering kan een attribuut URL ook goedkeuren, waarvan de waarde als basis URL voor de geproduceerde verbinding wordt gebruikt. De markeringen kunnen slechts binnen de <span class="codeph"> &lt;zoek-suggesties&gt; </span> lijn verschijnen. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;search-suggestie-link&gt; ... &lt;/search-suggestie-link&gt; </span> </p> </td> 
+   <td colname="col2"> <p>Met deze tag wordt een koppeling naar de oorspronkelijke zoekquery gegenereerd met de geselecteerde voorgestelde zoekterm in plaats van de oorspronkelijke term. De tag accepteert en drukt eenvoudig alle HTML-kenmerken af, zoals klasse, doel en stijl. De tag kan ook een URL-kenmerk accepteren waarvan de waarde wordt gebruikt als basis-URL voor de gegenereerde koppeling. De tags kunnen alleen worden weergegeven in de <span class="codeph"> &lt;search-Suggesties&gt;- </span> lus. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>4 </p> </td> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;zoek-suggestie-tekst/&gt; </span> </p> </td> 
-   <td colname="col2"> <p>Deze markering drukt uit de momenteel voorgestelde vraagtermijn (bijvoorbeeld, "van plan"voor een vraag die oorspronkelijk als "bedoeling"was ingegaan). De markering heeft geen attributen en kan slechts binnen de <span class="codeph"> &lt;zoek-suggesties&gt; </span> lijn verschijnen. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;search-suggestie-text/&gt; </span> </p> </td> 
+   <td colname="col2"> <p>Met deze tag wordt de momenteel voorgestelde zoekterm afgedrukt (bijvoorbeeld 'Doel' voor een query die oorspronkelijk is ingevoerd als 'Doel'). De tag heeft geen kenmerken en kan alleen worden weergegeven in de <span class="codeph"> &lt;search-Suggesties&gt;- </span> lus. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>5 </p> </td> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;zoek-als-niet-suggesties&gt; ... &lt;/search-if-not-suggesties&gt; </span> </p> </td> 
-   <td colname="col2"> <p>Als het onderzoek geen suggesties produceert, verwerkt de output van de onderzoeksmotor en alles tussen de open en dichte markering. Als het onderzoek suggesties produceert, is geen van de genestelde inhoud output. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;search-if-not-Suggesties&gt;... &lt;/search-if-not-Suggesties&gt; </span> </p> </td> 
+   <td colname="col2"> <p>Als de zoekopdracht geen suggesties genereert, voert de zoekmachine alles uit en verwerkt het tussen de tag open en close. Als de zoekopdracht suggesties genereert, wordt geen van de geneste inhoud uitgevoerd. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>6 </p> </td> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;search-if[-not]-first-suggestie&gt; ... &lt;/search-if[-not]-first suggestie&gt; </span> </p> </td> 
-   <td colname="col2"> <p>Deze voorwaardelijke markeringen omvatten HTML tussen hen die worden gebaseerd op of de voorgestelde termijn de eerste termijn in de lijn van de Samenvatting is. De markeringen moeten tussen open en dichte <span class="codeph"> &lt;zoek-suggestie&gt; </span> markeringen verschijnen. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;search-if[-not]-first-suggestie&gt; ... &lt;/search-if[-not]-first-suggestie&gt; </span> </p> </td> 
+   <td colname="col2"> <p>Deze voorwaardelijke tags bevatten de HTML tussen de tags op basis van het feit of de voorgestelde term de eerste term in de lus Suggest is. De tags moeten worden weergegeven tussen de tags open en close <span class="codeph"> &lt;search-suggestie&gt; </span> . </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>7 </p> </td> 
    <td colname="col1"> <p> <span class="codeph"> &lt;search-if[-not]-last-suggestie&gt; ... &lt;/search-if[-not]-last-suggestie&gt; </span> </p> </td> 
-   <td colname="col2"> <p>Deze voorwaardelijke markeringen omvatten HTML tussen hen die worden gebaseerd op of de voorgestelde termijn de laatste termijn in de lijn van de Samenvatting is. De markeringen moeten tussen open en dichte <span class="codeph"> &lt;zoek-suggestie&gt; </span> markeringen verschijnen. </p> </td> 
+   <td colname="col2"> <p>Deze voorwaardelijke tags bevatten de HTML tussen de tags op basis van het feit of de voorgestelde term de laatste term in de lus Suggest is. De tags moeten worden weergegeven tussen de tags open en close <span class="codeph"> &lt;search-suggestie&gt; </span> . </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>8 </p> </td> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;zoek-suggestie-index&gt; </span> </p> </td> 
-   <td colname="col2"> <p>Deze markering keert de numerieke index van de huidige voorgestelde onderzoekstermijn terug. De markering moet tussen open en dichte <span class="codeph"> &lt;search-suggestie&gt; </span> markeringen verschijnen. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;search-suggestie-index&gt; </span> </p> </td> 
+   <td colname="col2"> <p>Deze tag retourneert de numerieke index van de huidige voorgestelde zoekterm. De tag moet worden weergegeven tussen de tags open en close <span class="codeph"> &lt;search-suggestie&gt; </span> . </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>9 </p> </td> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;zoek-suggestie-totaal&gt; </span> </p> </td> 
-   <td colname="col2"> <p>Deze markering keert het totale aantal geproduceerde voorgestelde onderzoekstermijnen terug. De markering moet tussen open en dichte <span class="codeph"> &lt;search-suggestie&gt; </span> markeringen verschijnen. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;search-suggestie-total&gt; </span> </p> </td> 
+   <td colname="col2"> <p>Met dit label wordt het totale aantal gegenereerde voorgestelde zoektermen geretourneerd. De tag moet worden weergegeven tussen de tags open en close <span class="codeph"> &lt;search-suggestie&gt; </span> . </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>10 </p> </td> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;zoek-suggestie-resultaat-telling&gt; </span> </p> </td> 
-   <td colname="col2"> <p>Deze markering keert het totale aantal resultaten voor voorgestelde onderzoekstermijn terug. De markering moet tussen open en dichte <span class="codeph"> &lt;search-suggestie&gt; </span> markeringen verschijnen. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;search-suggestie-result-count&gt; </span> </p> </td> 
+   <td colname="col2"> <p>Met deze tag wordt het totale aantal resultaten voor de voorgestelde zoekterm geretourneerd. De tag moet worden weergegeven tussen de tags open en close <span class="codeph"> &lt;search-suggestie&gt; </span> . </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Sjabloonreekscodes {#section_67E3D529661F4F03A1FF469D9D658CAF}
+## Tags voor sjabloonreeksen {#section_67E3D529661F4F03A1FF469D9D658CAF}
 
-De volgende markeringsoutput een koord in HTML op dat punt in het malplaatje.
+Met de volgende tags wordt een tekenreeks uitgevoerd naar de HTML op dat punt in de sjabloon.
 
 <table> 
  <thead> 
   <tr> 
    <th colname="col01" class="entry"> </th> 
-   <th colname="col1" class="entry"> <p>Markering </p> </th> 
+   <th colname="col1" class="entry"> <p>Tag </p> </th> 
    <th colname="col2" class="entry"> <p>Beschrijving </p> </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
    <td colname="col01"> <p>1 </p> </td> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;zoek-body&gt; </span> </p> </td> 
-   <td colname="col2"> <p>De het lichaamsmarkering van HTML met om het even welke montages van de Kleur van de Verbinding van het Onderzoek die de BasisSectie van de Blik onder de verbinding van het Malplaatje plaatst. Voeg een achtergrondattribuut aan deze markering aan vertoningsachtergrondbeelden op de resultatenpagina toe. Om het even welke kleurenattributen die aan deze markering worden toegevoegd treden de montages van de Kleur van de Verbinding van het Onderzoek met voeten die de Basissectie van de Blik plaatst. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;search-body&gt; </span> </p> </td> 
+   <td colname="col2"> <p>De HTML-body-tag met de instellingen voor Kleur van koppeling zoeken die de sectie Standaard zoeken onder de koppeling Sjabloon instelt. Voeg een achtergrondkenmerk aan deze tag toe om achtergrondafbeeldingen op de resultatenpagina weer te geven. Alle kleurkenmerken die aan deze tag worden toegevoegd, overschrijven de instellingen in de sectie Standaard zoeken in kleur. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>2 </p> </td> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;zoekkoptekst&gt; </span> </p> </td> 
-   <td colname="col2"> <p>HTML voor de Kopbal van de Resultaten van het Onderzoek zoals die in de Basissectie van de Blik onder de verbinding van het Malplaatje wordt geplaatst. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;search-header&gt; </span> </p> </td> 
+   <td colname="col2"> <p>De HTML voor de Kopbal van Resultaten van het Onderzoek zoals die in de Basissectie van de Kijker onder de verbinding van het Malplaatje wordt geplaatst. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>3 </p> </td> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;zoekgegevens&gt; ... &lt;/search-cdata&gt; </span> </p> </td> 
-   <td colname="col2"> <p>De onderzoek-gegevens markeringen worden vervangen met hun equivalenten van XML: <span class="codeph"> &lt;search-cdata&gt; </span> wordt vervangen door <span class="codeph"> &lt;![CDATA[" en de &lt;/search-data&gt;- </span> tag worden vervangen door " <span class="codeph"> ]&gt; </span>". Een syntactische parser van XML ontleedt geen informatie tussen de open en dichte markering. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;search-data&gt; ... &lt;/search-data&gt; </span> </p> </td> 
+   <td colname="col2"> <p>De tags search-data worden vervangen door hun XML-equivalenten: <span class="codeph"> &lt;search-data&gt; </span> wordt vervangen door <span class="codeph"> &lt;![CDATA[" en de tag &lt;/search-data&gt; </span> worden vervangen door " <span class="codeph"> ]&gt; </span>". Een XML-parser parseert geen informatie tussen de open en close-tag. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>4 </p> </td> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;search-query query-number="XX" encoding="html/javascript/json/perl/url/none"&gt; </span> </p> </td> 
-   <td colname="col2"> <p>De vraag die de bezoeker inging. De geavanceerde, facultatieve "vraag-aantal"attributencontroles die het genummerde vraagkoord output door deze markering is. Bijvoorbeeld, <span class="codeph"> &lt;search-query-number=1&gt; </span> output de inhoud van de <span class="codeph"> sp_q_1 </span> cgi parameter. Als "vraag-aantal"niet wordt gespecificeerd, of als vraag-aantal "0"is, is de belangrijkste vraag ( <span class="codeph"> sp_q </span>) output. Het optionele kenmerk "coderen" bepaalt of de uitvoer HTML-code is, JavaScript-code, Perl-gecodeerd, URL-code al dan niet gecodeerd voor uitvoer op de resultatenpagina. De standaardwaarde van "het coderen"is "html". Normaal, te hoeven u niet om de het coderen attributen te specificeren. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;search-query query query-number="XX" encoding="html/javascript/json/perl/url/none"&gt; </span> </p> </td> 
+   <td colname="col2"> <p>De query die de bezoeker heeft ingevoerd. Het geavanceerde, optionele kenmerk "query-number" bepaalt welke genummerde querytekenreeks wordt uitgevoerd door deze tag. Bijvoorbeeld, <span class="codeph"> &lt;search-query-number=1&gt; </span> output de inhoud van de <span class="codeph"> sp_q_1 </span> cgi parameter. Als "vraag-aantal"niet wordt gespecificeerd, of als vraag-aantal "0"is, is de belangrijkste vraag ( <span class="codeph"> sp_q </span>) output. Het optionele kenmerk "encoding" bepaalt of de uitvoer HTML-gecodeerd, JavaScript-gecodeerd, Perl-gecodeerd, URL-gecodeerd of niet gecodeerd is voor uitvoer op de resultatenpagina. De standaardwaarde van "encoding" is "html". Normaal gesproken hoeft u het coderingskenmerk niet op te geven. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>5 </p> </td> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;zoek-totaal&gt; </span> </p> </td> 
-   <td colname="col2"> <p>De totale telling van resultaten voor deze onderzoek. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;search-total&gt; </span> </p> </td> 
+   <td colname="col2"> <p>Het totale aantal resultaten voor deze zoekopdracht. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>6 </p> </td> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;aantal zoekopdrachten&gt; </span> </p> </td> 
-   <td colname="col2"> <p>De telling van resultaten die voor deze pagina worden gemeld. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;search-count&gt; </span> </p> </td> 
+   <td colname="col2"> <p>Het aantal resultaten dat voor deze pagina wordt gerapporteerd. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>7 </p> </td> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;zoekopdrachtlager&gt; </span> </p> </td> 
-   <td colname="col2"> <p>Het aantal van het eerste resultaat dat voor deze pagina wordt gemeld. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;search-lower&gt; </span> </p> </td> 
+   <td colname="col2"> <p>Het nummer van het eerste resultaat dat voor deze pagina wordt gerapporteerd. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>8 </p> </td> 
    <td colname="col1"> <p> <span class="codeph"> &lt;search-upper&gt; </span> </p> </td> 
-   <td colname="col2"> <p>Het aantal van het laatste resultaat dat voor deze pagina wordt gemeld. </p> </td> 
+   <td colname="col2"> <p>Het nummer van het laatste resultaat dat voor deze pagina is gerapporteerd. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>9 </p> </td> 
    <td colname="col1"> <p> <span class="codeph"> &lt;search-prev-count&gt; </span> </p> </td> 
-   <td colname="col2"> <p>Het aantal resultaten dat voor de vorige pagina wordt gemeld. </p> </td> 
+   <td colname="col2"> <p>Het aantal resultaten dat is gerapporteerd voor de vorige pagina. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>10 </p> </td> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;zoek-volgende-telling&gt; </span> </p> </td> 
-   <td colname="col2"> <p>Het aantal resultaten dat voor de volgende pagina wordt gemeld. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;search-next-count&gt; </span> </p> </td> 
+   <td colname="col2"> <p>Het aantal resultaten dat wordt gerapporteerd voor de volgende pagina. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>11 </p> </td> 
@@ -2124,177 +2131,177 @@ De volgende markeringsoutput een koord in HTML op dat punt in het malplaatje.
   <tr> 
    <td colname="col01"> <p>12 </p> </td> 
    <td colname="col1"> <p> <span class="codeph"> &lt;search-logo&gt; </span> </p> </td> 
-   <td colname="col2"> <p>HTML voor het logo van het Onderzoek dat voor uw rekening, als om het even welk wordt gevormd. Dit logo is de afbeelding die krediet biedt voor zoeken/verkopen op de site </p> <p>De meeste accounts hebben momenteel geen gekoppeld zoeklogo. </p> </td> 
+   <td colname="col2"> <p>De HTML voor het zoeklogo dat voor uw account is geconfigureerd, indien aanwezig. Dit logo is de afbeelding die krediet biedt voor het zoeken/verhandelen van sites </p> <p>De meeste accounts beschikken momenteel niet over een gekoppeld zoeklogo. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>13 </p> </td> 
    <td colname="col1"> <p> <span class="codeph"> &lt;search-collection all="name"&gt; </span> </p> </td> 
-   <td colname="col2"> <p>De inzameling van de resultaten voor dit onderzoek. Het facultatieve "alle"attribuut wordt gebruikt om de naam van de inzameling te geven die de volledige website vertegenwoordigt. </p> </td> 
+   <td colname="col2"> <p>De verzameling van de resultaten voor deze zoekopdracht. Het optionele kenmerk "all" wordt gebruikt om de naam te geven van de verzameling die de gehele website vertegenwoordigt. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>14 </p> </td> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;zoekformulier&gt; ...&lt;/zoekformulier&gt; </span> </p> </td> 
-   <td colname="col2"> <p>De tussenvoegsels beginnen en beëindigen vormmarkeringen. Neemt de methode en actiekenmerken in de begin vormmarkering op. Accepteert extra attributen met inbegrip van dir="RTL"attributen voor taal evenals op JavaScript betrekking hebbende "naam"en "opSubmit"attributen. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;zoekformulier&gt; ...&lt;/search-form&gt; </span> </p> </td> 
+   <td colname="col2"> <p>Hiermee voegt u begin- en eindformuliercodes in. Hiermee voegt u de methode- en actiekenmerken in de beginformuliertag in. Accepteert aanvullende kenmerken, zoals het kenmerk dir="RTL" voor taal en JavaScript-gerelateerde "name"- en "onSubmit"-kenmerken. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>15 </p> </td> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;account voor zoekopdrachten-invoer&gt; </span> </p> </td> 
-   <td colname="col2"> <p>Neemt een markering van de vorminput op die uw rekeningsaantal specificeert. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;search-input-account&gt; </span> </p> </td> 
+   <td colname="col2"> <p>Hiermee voegt u een formulierinvoertag in die uw accountnummer opgeeft. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>16 </p> </td> 
    <td colname="col1"> <p> <span class="codeph"> &lt;search-input-gallery&gt; </span> </p> </td> 
-   <td colname="col2"> <p>Neemt een markering van de vorminput op die het galerijaantal specificeert. </p> </td> 
+   <td colname="col2"> <p>Hiermee voegt u een formulierinvoertag in die het galerienummer opgeeft. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>17 </p> </td> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;search-input-query query-number="XX"&gt; </span> </p> </td> 
-   <td colname="col2"> <p>Neemt een markering van de vorminput op die het vraagkoord specificeert. De geavanceerde, facultatieve "vraag-aantal"attributencontroles die de genummerde vraag voor de markering van de vorminput worden gebruikt. Bijvoorbeeld, <span class="codeph"> &lt;search-input-query vraag-number=1&gt; </span> output een markering van de vorminput voor de <span class="codeph"> sp_q_1 </span> vraag. Als "vraag-aantal"niet wordt gespecificeerd, of als "vraag-aantal""0"is, wordt een inputmarkering voor de belangrijkste <span class="codeph"> sp_q vraag </span> opgenomen. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;search-input-query-number="XX"&gt; </span> </p> </td> 
+   <td colname="col2"> <p>Hiermee voegt u een formulierinvoertag in die de queryreeks opgeeft. Het geavanceerde, optionele kenmerk "query-number" bepaalt welke genummerde query wordt gebruikt voor de formulierinvoertag. Zo geeft <span class="codeph"> &lt;search-input-query-number=1&gt; </span> een formulierinvoertag voor de <span class="codeph"> sp_q_1- </span> query uit. Als "vraag-aantal"niet wordt gespecificeerd, of als "vraag-aantal""0"is, wordt een inputmarkering voor de belangrijkste <span class="codeph"> sp_q </span> vraag opgenomen. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>18 </p> </td> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;search-input-collecties all="name"&gt; </span> </p> </td> 
-   <td colname="col2"> <p>Neemt een vorm uitgezochte markering en bijbehorende HTML op die het menu van de inzamelingsselectie tonen. Het facultatieve "alle"attribuut wordt gebruikt om de naam van de inzameling te geven die de volledige website vertegenwoordigt. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;search-input-collections all="name"&gt; </span> </p> </td> 
+   <td colname="col2"> <p>Hiermee voegt u een formulierselectietag en de bijbehorende HTML in waarin het menu voor het selecteren van verzamelingen wordt weergegeven. Het optionele kenmerk "all" wordt gebruikt om de naam te geven van de verzameling die de gehele website vertegenwoordigt. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>19 </p> </td> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;zoek-lt&gt; </span> </p> </td> 
-   <td colname="col2"> <p>Neemt de output van één van de het malplaatjemarkeringen van het Onderzoek binnen andere markeringen van HTML of van het malplaatje op de resultatenpagina op. <span class="codeph"> &lt;search-lt&gt; </span> neemt minder dan karakter op. Het gebruik van <span class="codeph"> &lt;search-lt&gt; </span> en <span class="codeph"> &lt;search-gt&gt; </span> verstrekt een manier om de definitie van een markering te ontsnappen zodat u de het malplaatjemarkeringen van het Onderzoek als attributenwaarden kunt gebruiken. Wanneer het malplaatje in antwoord op een onderzoek wordt teruggegeven, vervangt een minder dan teken (&lt;) de <span class="codeph"> &lt;search-lt&gt; </span> markering. Bijvoorbeeld, <span class="codeph"> &lt;search-link&gt; </span> is gelijkwaardig aan <span class="codeph"> &lt;search-lt&gt;a href="&lt;search-url&gt;"&lt;search-gt&gt; </span>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;search-lt&gt; </span> </p> </td> 
+   <td colname="col2"> <p>Hiermee voegt u de uitvoer van een van de sjabloontags voor zoeken in andere HTML- of sjabloontags in op de resultatenpagina. <span class="codeph"> &lt;search-lt&gt; </span> voegt een kleiner dan teken in. Met <span class="codeph"> &lt;search-lt&gt; </span> en <span class="codeph"> &lt;search-gt&gt; </span> kunt u de definitie van een tag omzeilen, zodat u sjabloontags zoeken kunt gebruiken als kenmerkwaarden. Wanneer de sjabloon wordt weergegeven als reactie op een zoekopdracht, vervangt een kleiner-dan-teken (&lt;) de <span class="codeph"> &lt;search-lt&gt;- </span> tag. Bijvoorbeeld, <span class="codeph"> &lt;search-link&gt; </span> is gelijkwaardig aan <span class="codeph"> &lt;search-lt&gt;a href="&lt;search-url&gt;"&lt;search-gt&gt; </span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>20 </p> </td> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;zoek-gt&gt; </span> </p> </td> 
-   <td colname="col2"> <p>Neemt de output van één van de het malplaatjemarkeringen van het Onderzoek binnen andere markeringen van HTML of van het malplaatje op de resultatenpagina op. <span class="codeph"> &lt;search-gt&gt; </span> neemt een groter dan karakter op. Het gebruik van <span class="codeph"> &lt;search-lt&gt; </span> en <span class="codeph"> &lt;search-gt&gt; </span> verstrekt een manier om de definitie van een markering te ontsnappen zodat u andere malplaatjemarkeringen als attributenwaarden kunt gebruiken. Wanneer het malplaatje in antwoord op een onderzoek wordt teruggegeven, vervangt een groter-dan teken (&gt;) de <span class="codeph"> &lt;zoek-gt&gt; </span> markering. Bijvoorbeeld, <span class="codeph"> &lt;search-link&gt; </span> is gelijkwaardig aan <span class="codeph"> &lt;search-lt&gt;a href="&lt;search-url&gt;"&lt;search-gt&gt; </span>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;search-gt&gt; </span> </p> </td> 
+   <td colname="col2"> <p>Hiermee voegt u de uitvoer van een van de sjabloontags voor zoeken in andere HTML- of sjabloontags in op de resultatenpagina. <span class="codeph"> &lt;search-gt&gt; </span> voegt een groter teken in dan. Met <span class="codeph"> &lt;search-lt&gt; </span> en <span class="codeph"> &lt;search-gt&gt; </span> kunt u de definitie van een tag omzeilen, zodat u andere sjabloontags kunt gebruiken als kenmerkwaarden. Wanneer de sjabloon wordt weergegeven als reactie op een zoekopdracht, wordt de <span class="codeph"> &lt;search-gt&gt;- </span> tag vervangen door een groter dan-teken (&gt;). Bijvoorbeeld, <span class="codeph"> &lt;search-link&gt; </span> is gelijkwaardig aan <span class="codeph"> &lt;search-lt&gt;a href="&lt;search-url&gt;"&lt;search-gt&gt; </span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>21 </p> </td> 
    <td colname="col1"> <p> <span class="codeph"> &lt;search-param name="param-name" length="XX" encoding="html/javascript/json/perl/url/none"&gt; </span> </p> </td> 
-   <td colname="col2"> <p>Keert de waarde van de cgi parameter genoemd terug "param-name"van het huidige onderzoeksverzoek. Het optionele kenmerk "coderen" bepaalt of de uitvoer HTML-code is, JavaScript-code, Perl-gecodeerd, URL-code al dan niet gecodeerd voor uitvoer op de resultatenpagina. De standaardwaarde van "het coderen"is "html". Normaal, te hoeven u niet om de het coderen attributen te specificeren. </p> </td> 
+   <td colname="col2"> <p>Retourneert de waarde van de cgi-parameter met de naam "param-name" in de huidige zoekopdracht. Het optionele kenmerk "encoding" bepaalt of de uitvoer HTML-gecodeerd, JavaScript-gecodeerd, Perl-gecodeerd, URL-gecodeerd of niet gecodeerd is voor uitvoer op de resultatenpagina. De standaardwaarde van "encoding" is "html". Normaal gesproken hoeft u het coderingskenmerk niet op te geven. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>22 </p> </td> 
    <td colname="col1"> <p> 
-     <!--NEW for S&P 8.17.0 release on October 30 2014--> <span class="codeph"> &lt;search-trace encoding="html/javascript/json/perl/url/none"&gt; </span> </p> </td> 
+     <!--NEW for S&P 8.17.0 release on October 30 2014--> <span class="codeph"> &lt;search-trace encoding="html/javascript/ json/perl/url/none"&gt; </span> </p> </td> 
    <td colname="col2"> 
-    <!--<p>This global core search template tag outputs a representation of the submitted core search query, including any "fuzzy-search" query term expansions that happen by way of synonyms, sound-alikes, and so forth. </p>--> <p>Het <span class="codeph"> het coderen </span> attribuut is facultatief; de standaardwaarde is <span class="codeph"> json </span>. </p> <p> <p>Opmerking:  Deze markering heeft slechts output als <span class="codeph"> sp_trace=1 </span> met de de vraagparameters van het kernonderzoek wordt gespecificeerd. </p> </p> <p>Zie rij 48 in de lijst die in de parameters <a href="../c-appendices/c-cgiparameters.md#reference_582E85C3886740C98FE88CA9DF7918E8" format="dita" scope="local"> wordt gevonden van het Onderzoek van de</a>Achtergrond CGI. </p> </td> 
+    <!--<p>This global core search template tag outputs a representation of the submitted core search query, including any "fuzzy-search" query term expansions that happen by way of synonyms, sound-alikes, and so forth. </p>--> <p>Het <span class="codeph"> coderingskenmerk </span> is optioneel. de standaardwaarde is <span class="codeph"> json </span>. </p> <p> <p>Opmerking:  Deze markering heeft slechts output als <span class="codeph"> sp_trace=1 met de parameters van de kernonderzoeksvraag </span> wordt gespecificeerd. </p> </p> <p>Zie rij 48 in de lijst die in Achterste onderzoek CGI parameters <a href="../c-appendices/c-cgiparameters.md#reference_582E85C3886740C98FE88CA9DF7918E8" format="dita" scope="local"></a>wordt gevonden. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Sjabloonankerkoppelingtags {#section_3A51D27616C541E2B818CC52B2B856BA}
+## Koppelingstags voor sjabloonanker {#section_3A51D27616C541E2B818CC52B2B856BA}
 
-Het volgende is markeringen die een ankerverbinding veroorzaken om HTML tussen hen te omringen. Wanneer geklikt, verzoekt de ankerverbinding een andere pagina van resultaten aan vertoning. De facultatieve attributen &quot;telling&quot;verzoekt om dat vele resultaten op de pagina aan vertoning. Als gespecificeerd niet, wordt de telling gevraagd op de huidige pagina gebruikt. De geavanceerde, facultatieve &quot;URL&quot;attributen controleert het domein waaraan de bijbehorende verbinding wordt geleid. Door gebrek is het domein `https://search.atomz.com/search/`, maar u kunt dit veranderen gebruikend de attributen URL.
+De volgende tags zorgen ervoor dat er een ankerkoppeling wordt aangebracht rondom de HTML tussen de tags. Wanneer op de ankerkoppeling wordt geklikt, wordt een andere pagina met resultaten weergegeven. Het optionele kenmerk &quot;count&quot; vraagt om veel resultaten op de pagina die moet worden weergegeven. Als u geen waarde opgeeft, wordt het aantal dat op de huidige pagina is aangevraagd, gebruikt. Het geavanceerde, optionele kenmerk &quot;URL&quot; bepaalt het domein waarnaar de gekoppelde koppeling wordt geleid. Standaard is het domein wel `https://search.atomz.com/search/`, maar u kunt dit wijzigen met het URL-kenmerk.
 
 <table> 
  <thead> 
   <tr> 
    <th colname="col01" class="entry"> </th> 
-   <th colname="col1" class="entry"> <p>Markering </p> </th> 
+   <th colname="col1" class="entry"> <p>Tag </p> </th> 
    <th colname="col2" class="entry"> <p>Beschrijving </p> </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
    <td colname="col01"> <p>1 </p> </td> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;zoek-volgende URL="https://search.yourdomain.com/search/"&gt; ... &lt;/search-next&gt; </span> </p> <p> <span class="codeph"> &lt;search-prev URL="https://search.yourdomain.com/search/"&gt; ... &lt;/search-prev&gt; </span> </p> </td> 
-   <td colname="col2"> <p>Toont de volgende of vorige pagina van de resultaten. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;search-next URL="https://search.yourdomain.com/search/"&gt; ... &lt;/search-next&gt; </span> </p> <p> <span class="codeph"> &lt;search-prev URL="https://search.yourdomain.com/search/"&gt; ... &lt;/search-prev&gt; </span> </p> </td> 
+   <td colname="col2"> <p>Hiermee geeft u de volgende of vorige pagina van de resultaten weer. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>2 </p> </td> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;search-sort-by-date URL="https://search.yourdomain.com/search/"&gt; ... &lt;/search-by-date&gt; </span> </p> <p> <span class="codeph"> &lt;search-by-score URL="https://search.yourdomain.com/search/"&gt; ... &lt;/search-by-score&gt; </span> </p> </td> 
-   <td colname="col2"> <p>Sorteert de resultaten door datum of door relevantie. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;search-sort-by-date URL="https://search.yourdomain.com/search/"&gt; ... &lt;/search-sort-by-date&gt; </span> </p> <p> <span class="codeph"> &lt;search-sort-by-score URL="https://search.yourdomain.com/search/"&gt; ... &lt;/search-sort-by-score&gt; </span> </p> </td> 
+   <td colname="col2"> <p>Hiermee sorteert u de resultaten op datum of op relevantie. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>3 </p> </td> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;search-show-vat URL="https://search.yourdomain.com/search/"&gt;... &lt;/search-show-samenvattingen&gt; </span> </p> <p> <span class="codeph"> &lt;zoek-huid-samenvattingen URL="https://search.yourdomain.com/search/"&gt; ... &lt;/search-hide-samenvattingen&gt; </span> </p> </td> 
-   <td colname="col2"> <p>Toont of verbergt de samenvattingen. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;search-show-amenies URL="https://search.yourdomain.com/search/"&gt; ... &lt;/search-show-amenvattingen&gt; </span> </p> <p> <span class="codeph"> &lt;search-hide-amenies URL="https://search.yourdomain.com/search/"&gt; ... &lt;/search-hide-amenvattingen&gt; </span> </p> </td> 
+   <td colname="col2"> <p>Hiermee toont of verbergt u de overzichten. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Voorwaardelijke tags voor template {#section_18D9BC66DE484881932FD2F7EA9D170D}
+## Voorwaardelijke tags sjabloon {#section_18D9BC66DE484881932FD2F7EA9D170D}
 
-De markeringen die u voorwaardelijk HTML tussen hen laten omvatten.
+Tags waarmee u voorwaardelijk HTML tussen de tags kunt opnemen.
 
 <table> 
  <thead> 
   <tr> 
    <th colname="col01" class="entry"> </th> 
-   <th colname="col1" class="entry"> <p>Markering </p> </th> 
+   <th colname="col1" class="entry"> <p>Tag </p> </th> 
    <th colname="col2" class="entry"> <p>Beschrijving </p> </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
    <td colname="col01"> <p>1 </p> </td> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;search-if-results&gt; ... &lt;/search-if-resultaten&gt; </span> </p> <p> <span class="codeph"> &lt;search-if-not-results&gt; ...&lt;/search-if-not-results&gt; </span> </p> </td> 
-   <td colname="col2"> <p>Deze markeringen omvatten HTML als de huidige pagina om het even welke (of geen) onderzoeksresultaten bevat. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;search-if-results&gt; ... &lt;/search-if-results&gt; </span> </p> <p> <span class="codeph"> &lt;search-if-not-results&gt; ...&lt;/search-if-not-results&gt; </span> </p> </td> 
+   <td colname="col2"> <p>Deze tags zijn onder andere HTML als de huidige pagina zoekresultaten bevat (of geen). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>2 </p> </td> 
    <td colname="col1"> <p> <span class="codeph"> &lt;search-if-prev-count&gt; ... &lt;/search-if-prev-count&gt; </span> </p> <p> <span class="codeph"> &lt;search-if-not-prev-count&gt; ... &lt;/search-if-not-prev-count&gt; </span> </p> <p> <span class="codeph"> &lt;search-if-next-count&gt; ... &lt;/search-if-next-count&gt; </span> </p> <p> <span class="codeph"> &lt;search-if-not-next-count&gt; ... &lt;/search-if-not-next-count&gt; </span> </p> </td> 
-   <td colname="col2"> <p>Deze markeringen omvatten HTML als de vorige pagina of de volgende pagina om het even welke (of niets) resultaten verbonden aan het hebben. </p> </td> 
+   <td colname="col2"> <p>Deze labels bevatten HTML als er aan de vorige of volgende pagina (of geen) resultaten zijn gekoppeld. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>3 </p> </td> 
    <td colname="col1"> <p> <span class="codeph"> &lt;search-if-sort-by-score&gt; ... &lt;/search-if-sort-by-score&gt; </span> </p> <p> <span class="codeph"> &lt;search-if-not-sort-by-score&gt; ... &lt;/search-if-not-sort-by-score&gt; </span> </p> <p> <span class="codeph"> &lt;search-if-sort-by-date&gt; ... &lt;/search-if-sort-by-date&gt; </span> </p> <p> <span class="codeph"> &lt;search-if-not-sort-by-date&gt; ... &lt;/search-if-not-sort-by-date&gt; </span> </p> </td> 
-   <td colname="col2"> <p>Deze markeringen omvatten HTML als de huidige pagina, of niet, gesorteerd op relevantie of door datum is. </p> </td> 
+   <td colname="col2"> <p>Deze labels bevatten HTML als de huidige pagina al dan niet op relevantie of datum is gesorteerd. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>4 </p> </td> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;search-if-show-vat&gt; ... &lt;/search-if-show-samenvattingen&gt; </span> </p> <p> <span class="codeph"> &lt;zoek-als-huid-samenvattingen&gt; ... &lt;/search-if-hide-samenvattingen&gt; </span> </p> </td> 
-   <td colname="col2"> <p>Deze markeringen omvatten HTML als de huidige pagina samenvattingen toont of verbergt. U kunt deze markeringen gebruiken om het even welk gedeelte van het onderzoeksresultaat te omvatten of uit te sluiten. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;search-if-show-summary&gt;... &lt;/search-if-show-summary's&gt; </span> </p> <p> <span class="codeph"> &lt;search-if-hide-summary&gt;... &lt;/search-if-hide-summary&gt; </span> </p> </td> 
+   <td colname="col2"> <p>Deze labels bevatten HTML als op de huidige pagina samenvattingen worden weergegeven of verborgen. U kunt deze tags gebruiken om een gedeelte van het zoekresultaat op te nemen of uit te sluiten. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>5 </p> </td> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;search-if-input-collecties&gt; ... &lt;/search-if-input-verzamelingen&gt; </span> </p> <p> <span class="codeph"> &lt;search-if-not-input-collections&gt; ... &lt;/search-if-not-input-collecties&gt; </span> </p> </td> 
-   <td colname="col2"> <p>Deze markeringen omvatten HTML als een inzameling in de generatie van onderzoeksresultaten voor de huidige pagina werd gespecificeerd. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;search-if-input-collections&gt; ... &lt;/search-if-input-collections&gt; </span> </p> <p> <span class="codeph"> &lt;search-if-not-input-collections&gt; ... &lt;/search-if-not-input-collections&gt; </span> </p> </td> 
+   <td colname="col2"> <p>Deze tags bevatten HTML als een verzameling is opgegeven in het genereren van zoekresultaten voor de huidige pagina. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>6 </p> </td> 
    <td colname="col1"> <p> <span class="codeph"> &lt;search-if-advanced&gt; ... &lt;/search-if-advanced&gt; </span> </p> <p> <span class="codeph"> &lt;search-if-not-advanced&gt; ... &lt;/search-if-not-advanced&gt; </span> </p> </td> 
-   <td colname="col2"> <p>Deze markeringen omvatten HTML als de <span class="codeph"> sp_advanced=1 </span> CGI parameter voor de onderzoeksvraag werd gespecificeerd. </p> </td> 
+   <td colname="col2"> <p>Deze markeringen omvatten HTML als de <span class="codeph"> </span> sp_advanced=1 parameter CGI voor de onderzoeksvraag werd gespecificeerd. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>7 </p> </td> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;search-if-bad-param name="parameter-naam"&gt; ... &lt;/search-if-bad-param&gt; </span> </p> <p> <span class="codeph"> &lt;search-if-not-bad-param name="parameter-name"&gt; ... &lt;/search-if-not-bad-param&gt; </span> </p> </td> 
-   <td colname="col2"> <p>Deze markeringen omvatten of sluiten HTML tussen hen uit als de bepaalde parameter, of niet, ongeldig is. </p> <p>Momenteel slechts wordt de <span class="codeph"> sp_q_location [_#] </span> parameter gesteund. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;search-if-bad-param name="parameter-name"&gt; ... &lt;/search-if-bad-param&gt; </span> </p> <p> <span class="codeph"> &lt;search-if-not-bad-param name="parameter-name"&gt; ... &lt;/search-if-not-bad-param&gt; </span> </p> </td> 
+   <td colname="col2"> <p>Deze tags bevatten of sluiten de HTML tussen deze tags uit als de opgegeven parameter ongeldig is of niet. </p> <p>Momenteel wordt alleen de <span class="codeph"> sp_q_location[_#]- </span> parameter ondersteund. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>8 </p> </td> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;search-if-param name="param-name" value="param-value"&gt; ... &lt;/search-if-param&gt; </span> </p> <p> <span class="codeph"> &lt;search-if-not-param name="param-name"value="param-value"&gt; ... &lt;/search-if-not-param&gt; </span> </p> </td> 
-   <td colname="col2"> <p>Deze geavanceerde markeringen omvatten HTML tussen hen gebaseerd op of de parameter van CGI die in het "naam"attribuut wordt gespecificeerd de waarde heeft die in de "waarde"attributen wordt gespecificeerd. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;search-if-param name="param-name" value="param-value"&gt; ... &lt;/search-if-param&gt; </span> </p> <p> <span class="codeph"> &lt;search-if-not-param name="param-name" value="param-value"&gt; ... &lt;/search-if-not-param&gt; </span> </p> </td> 
+   <td colname="col2"> <p>Deze geavanceerde tags bevatten de HTML tussen de tags op basis van het feit of de CGI-parameter die is opgegeven in het kenmerk "name" de waarde heeft die is opgegeven in het kenmerk "value". </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>9 </p> </td> 
    <td colname="col1"> <p> <span class="codeph"> &lt;search-if-sort-by-field name="field-name"&gt; ... &lt;/search-if-sort-by-field&gt; </span> </p> <p> <span class="codeph"> &lt;search-if-not-sort-by-field name="field-name"&gt; ... &lt;/search-if-not-sort-by-field&gt; </span> </p> </td> 
-   <td colname="col2"> <p>Deze geavanceerde markeringen omvatten HTML tussen hen als de huidige pagina, of niet, gesorteerd door de bepaalde gebied-naam is. </p> </td> 
+   <td colname="col2"> <p>Deze geavanceerde tags bevatten de HTML tussen de tags als de huidige pagina wordt of niet wordt gesorteerd op de opgegeven veldnaam. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Sjabloonformulierbesturingscodes {#section_45AFC414ACA74825B72FEAA8456F8DD2}
+## Tags voor formulierbeheer {#section_45AFC414ACA74825B72FEAA8456F8DD2}
 
-De markeringen die u de standaardselectiestaat voor controledozen, radioknopen, en lijstvakjes binnen een `<form>` op het onderzoeksmalplaatje laten controleren.
+Tags waarmee u de standaardselectiestatus voor selectievakjes, keuzerondjes en keuzelijsten in een `<form>` zoeksjabloon kunt bepalen.
 
 <table> 
  <thead> 
   <tr> 
    <th colname="col01" class="entry"> </th> 
-   <th colname="col1" class="entry"> <p>Markering </p> </th> 
+   <th colname="col1" class="entry"> <p>Tag </p> </th> 
    <th colname="col2" class="entry"> <p>Beschrijving </p> </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
    <td colname="col01"> <p>1 </p> </td> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;zoek-invoer&gt; </span> </p> </td> 
-   <td colname="col2"> <p>Gebruikt in een malplaatje in plaats van een <span class="codeph"> &lt;input&gt; </span> markering. Wanneer de markering aan browser wordt geschreven, <span class="codeph"> vervangt de woordinput </span> onderzoek-input <span class="codeph"> </span> en alle andere informatie in de markering is output zoals-is. Bovendien als de <span class="codeph"> naam die in de markering wordt </span> gespecificeerd als parameter van CGI vermeld is en als de <span class="codeph"> waarde die in de markering wordt </span> gespecificeerd de waarde voor die parameter van CGI is, dan wordt het <span class="codeph"> </span> gecontroleerde woord toegevoegd aan het eind van de markering. Op deze manier, kunt u de standaardradioknoop of checkbox staat in uw onderzoeksresultaat automatisch maken het zelfde als de huidige vraag. </p> <p>Bijvoorbeeld, zou de code van HTML voor een controledoos als het volgende kunnen kijken: </p> <p> <span class="codeph"> &lt;invoertype=checkbox name="sp_w" value="exact"&gt;Geen overeenkomend geluid </span> </p> <p>De overeenkomstige malplaatjecode voor dat checkbox is het volgende: </p> <p> <span class="codeph"> &lt;search-input type=checkbox name="sp_w" value="exact"&gt;Geen overeenkomend geluid </span> </p> <p>Als het CGI parameterkoord voor de vraag <span class="codeph"> sp_w=exact bevat </span>, dan kijkt de markering die aan browser met de onderzoeksresultaten wordt geschreven als het volgende (het <span class="codeph"> gecontroleerde woord </span> wordt opgenomen aan het eind van de markering): </p> <p> <span class="codeph"> &lt;invoertype=checkbox name="sp_w" value="exact" ingeschakeld&gt;Geen overeenkomend geluid </span> </p> <p>Als het CGI parameterkoord voor de vraag niet <span class="codeph"> sp_w=exact bevat </span>, dan kijkt de markering die aan browser met de onderzoeksresultaten wordt geschreven als het volgende (het <span class="codeph"> gecontroleerde woord </span> is niet vermeld in de markering): </p> <p> <span class="codeph"> &lt;invoertype=checkbox name="sp_w" value="exact"&gt;Geen overeenkomend geluid </span> </p> <p>De <span class="codeph"> </span> &lt;search-input&gt; markering is nuttig om controledozen en radioknopen in uw onderzoeksmalplaatje te zetten. Als u controledozen of radioknopen hebt die u aan <span class="codeph"> &lt;form&gt; </span> in uw onderzoeksmalplaatje wilt toevoegen, gebruik <span class="codeph"> &lt;search-input...&gt; </span> in plaats van <span class="codeph"> &lt;input..&gt; </span>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;search-input&gt; </span> </p> </td> 
+   <td colname="col2"> <p>Wordt gebruikt in een sjabloon in plaats van een <span class="codeph"> &lt;input&gt;- </span> tag. Wanneer de tag naar de browser wordt geschreven, <span class="codeph"> vervangt het woord </span> invoer <span class="codeph"> zoekgegevens </span> en wordt alle andere informatie in de tag 'ongewijzigd' uitgevoerd. Als de <span class="codeph"> naam </span> die in de tag is opgegeven als een CGI-parameter wordt vermeld en als de <span class="codeph"> waarde die in de tag wordt </span> opgegeven de waarde voor die CGI-parameter is, wordt bovendien het <span class="codeph"> gecontroleerde woord </span> toegevoegd aan het einde van de tag. Op deze manier kunt u automatisch de status van het standaardkeuzerondje of selectievakje in uw zoekresultaat gelijk maken aan die van de huidige query. </p> <p>De HTML-code voor een selectievakje kan er bijvoorbeeld als volgt uitzien: </p> <p> <span class="codeph"> &lt;input type=checkbox name="sp_w" value="exact"&gt;Geen overeenkomende geluiden </span> </p> <p>De overeenkomstige malplaatjecode voor dat checkbox is het volgende: </p> <p> <span class="codeph"> &lt;search-input type=checkbox name="sp_w" value="exact"&gt;Geen overeenkomende geluiden </span> </p> <p>Als de CGI-parametertekenreeks voor de query <span class="codeph"> sp_w=exact bevat </span>, ziet de tag die naar de browser wordt geschreven met de zoekresultaten er als volgt uit (het <span class="codeph"> gecontroleerde woord </span> wordt ingevoegd aan het einde van de tag): </p> <p> <span class="codeph"> &lt;input type=checkbox name="sp_w" value="exact" checked&gt;Geen overeenkomende geluiden </span> </p> <p>Als de CGI-parametertekenreeks voor de query geen <span class="codeph"> sp_w=exact bevat </span>, ziet de tag die met de zoekresultaten naar de browser wordt geschreven er als volgt uit (het <span class="codeph"> gecontroleerde woord </span> wordt niet vermeld in de tag): </p> <p> <span class="codeph"> &lt;input type=checkbox name="sp_w" value="exact"&gt;Geen overeenkomende geluiden </span> </p> <p>De <span class="codeph"> tag &lt;search-input&gt; </span> is handig als u selectievakjes en keuzerondjes in de zoeksjabloon wilt plaatsen. Als u selectievakjes of keuzerondjes hebt die u wilt toevoegen aan <span class="codeph"> &lt;form&gt; </span> in uw zoeksjabloon, gebruikt u <span class="codeph"> &lt;search-input...&gt; </span> in plaats van <span class="codeph"> &lt;input..&gt; </span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>2 </p> </td> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;search-select&gt; ... &lt;/search-select&gt; </span> </p> <p> <span class="codeph"> &lt;zoek-optie&gt; ... &lt;/search-optie&gt; </span> </p> </td> 
-   <td colname="col2"> <p>De drop-down lijstvakjes in een <span class="codeph"> &lt;form&gt; </span> markering worden begonnen met een <span class="codeph"> &lt;select&gt; </span> markering en met een <span class="codeph"> &lt;/select&gt; </span> markering gebeëindigd. De <span class="codeph"> naam </span> voor de bijbehorende parameter van CGI is vermeld binnen de <span class="codeph"> &lt;select&gt; </span> markering. Na de <span class="codeph"> &lt;select&gt; </span> markering is een lijst van <span class="codeph"> &lt;option&gt; </span> markeringen die de waarden specificeren om binnen de lijstdoos te tonen. </p> <p>De <span class="codeph"> &lt;search-select&gt; </span>, <span class="codeph"> &lt;/search-select&gt; </span>, <span class="codeph"> &lt;search-option&gt; </span>, en <span class="codeph"> &lt;/search-option&gt; </span> tags bieden een vergelijkbare functionaliteit als de <span class="codeph"> &lt;search-input&gt; </span> tag. Namelijk wordt het <span class="codeph"> geselecteerde woord </span> automatisch toegevoegd aan het eind van de <span class="codeph"> &lt;option&gt; </span> markering die naar browser wordt verzonden als de <span class="codeph"> naam </span> in de <span class="codeph"> &lt;search-select&gt; </span> markering als parameter van CGI vermeld is en als de <span class="codeph"> waarde </span> <span class="codeph"> </span> <span class="codeph"> </span> van die CGI parameter als waarde  waarde in een bepaalde &lt;search-option&gt;  markering vermeld is. Op deze manier, kunt u de keus van het standaardlijstvakje in uw onderzoeksresultaat automatisch maken het zelfde als de huidige vraag. </p> <p>Bijvoorbeeld, kijkt een typische lijstvakje als het volgende: </p> <p> <code class="syntax html"> &lt;select&nbsp;name="sp_x"&nbsp;size=1&gt; 
+   <td colname="col1"> <p> <span class="codeph"> &lt;search-select&gt;.. &lt;/search-select&gt; </span> </p> <p> <span class="codeph"> &lt;search-option&gt; ... &lt;/search-option&gt; </span> </p> </td> 
+   <td colname="col2"> <p>Vervolgkeuzelijsten in een <span class="codeph"> &lt;form&gt;- </span> tag worden gestart met een <span class="codeph"> &lt;select&gt;- </span> tag en eindigen met een <span class="codeph"> &lt;/select&gt;- </span> tag. De <span class="codeph"> naam </span> voor de bijbehorende CGI-parameter wordt vermeld in de <span class="codeph"> &lt;select&gt;- </span> tag. Na de <span class="codeph"> &lt;select&gt;- </span> tag volgt een lijst met <span class="codeph"> &lt;option&gt;- </span> tags waarmee de waarden worden aangegeven die in het lijstvak moeten worden weergegeven. </p> <p>De <span class="codeph"> &lt;search-select&gt; </span>, <span class="codeph"> &lt;/search-select&gt; </span>, <span class="codeph"> &lt;search-option&gt; </span>en <span class="codeph"> &lt;/search-option&gt; </span> -tags bieden een vergelijkbare functionaliteit als de <span class="codeph"> &lt;search-input&gt;- </span> tag. Het woord <span class="codeph"> selected </span> wordt dus automatisch toegevoegd aan het einde van de tag <span class="codeph"> &lt;option&gt; </span> die naar de browser wordt verzonden als de <span class="codeph"> naam </span> in de tag <span class="codeph"> &lt;search-select&gt; </span> als CGI-parameter wordt vermeld en als de <span class="codeph"> waarde </span> <span class="codeph"> </span> <span class="codeph"> </span> van die CGI-parameter wordt vermeld als de  waarde in een bepaalde tag  &lt;search-option&gt;. Op deze manier kunt u de standaardkeuzelijst in uw zoekresultaat automatisch gelijk maken aan de huidige query. </p> <p>Een keuzelijst die standaard bijvoorbeeld als volgt wordt weergegeven: </p> <p> <code class="syntax html"> &lt;select&nbsp;name="sp_x"&nbsp;size=1&gt; 
       &lt;option&nbsp;value="any"&nbsp;selected&gt;Anywhere&lt;/option&gt; 
       &lt;option&nbsp;value="title"&gt;Title&lt;/option&gt; 
       &lt;option&nbsp;value="desc"&gt;Description&lt;/option&gt; 
@@ -2303,7 +2310,7 @@ De markeringen die u de standaardselectiestaat voor controledozen, radioknopen, 
       &lt;option&nbsp;value="alt"&gt;Alternate&nbsp;text&lt;/option&gt; 
       &lt;option&nbsp;value="url"&gt;URL&lt;/option&gt; 
       &lt;option&nbsp;value="target"&gt;Target&lt;/option&gt; 
-      &lt;/select&gt; </code> </p> <p>De overeenkomstige malplaatjecode voor dat lijstvakje is het volgende: </p> <p> <code class="syntax html"> &lt;search-select&nbsp;name="sp_x"&nbsp;size=1&gt; 
+      &lt;/select&gt; </code> </p> <p>De bijbehorende sjablooncode voor dat lijstvak is als volgt: </p> <p> <code class="syntax html"> &lt;search-select&nbsp;name="sp_x"&nbsp;size=1&gt; 
       &lt;search-option&nbsp;value="any"&gt;Anywhere&lt;/search-option&gt; 
       &lt;search-option&nbsp;value="title"&gt;Title&lt;/search-option&gt; 
       &lt;search-option&nbsp;value="desc"&gt;Description&lt;/search-option&gt; 
@@ -2312,123 +2319,123 @@ De markeringen die u de standaardselectiestaat voor controledozen, radioknopen, 
       &lt;search-option&nbsp;value="alt"&gt;Alternate&nbsp;text&lt;/search-option&gt; 
       &lt;search-option&nbsp;value="url"&gt;URL&lt;/search-option&gt; 
       &lt;search-option&nbsp;value="target"&gt;Target&lt;/search-option&gt; 
-      &lt;/search-select&gt; </code> </p> <p>Als u lijstvakjes hebt die u aan <span class="codeph"> &lt;form&gt; </span> in uw onderzoeksmalplaatje wilt toevoegen, gebruik <span class="codeph"> &lt;search-select...&gt; </span> in plaats van <span class="codeph"> &lt;select...&gt; </span>, <span class="codeph"> &lt;/search-select&gt; </span> in plaats van <span class="codeph"> &lt;/select&gt; </span><span class="codeph"> </span> <span class="codeph"> </span><span class="codeph"> </span> <span class="codeph"> </span>&lt;search-option....&gt; in plaats van .............................................................................................................................................................................. optie&gt; </p> </td> 
+      &lt;/search-select&gt; </code> </p> <p>Als u keuzelijsten hebt die u wilt toevoegen aan het <span class="codeph"> &lt;form&gt; </span> in uw zoeksjabloon, gebruikt u <span class="codeph"> &lt;search-select...&gt; </span> in plaats van <span class="codeph"> &lt;select...&gt; </span>, <span class="codeph"> &lt;/search-select&gt; </span> in plaats van <span class="codeph"> &lt;/select&gt; </span><span class="codeph"> </span> <span class="codeph"> </span><span class="codeph"> </span> <span class="codeph"> </span>...&gt;..&gt; in plaats van &lt;option..&gt;  &lt;/search-option&gt;, en &lt;/search-option&gt; in plaats van het pictogram. optie&gt; </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>3 </p> </td> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;search-sort-by-field name="field-name" count="XX"&gt; ... &lt;/search-by-field&gt; </span> </p> </td> 
-   <td colname="col2"> <p>Deze geavanceerde markeringen leiden tot een ankerverbinding rond HTML tussen hen. Wanneer dit anker wordt geklikt, wordt een pagina van resultaten getoond die op het bepaalde gebied worden gesorteerd. Het facultatieve <span class="codeph"> tellingsattribuut </span> specificeert het aantal resultaten aan vertoning op de resultaatpagina. Als de <span class="codeph"> telling </span> wordt weggelaten, wordt de telling die op de huidige pagina wordt gebruikt gebruikt gebruikt. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;search-sort-by-field name="field-name" count="XX"&gt; ... &lt;/search-sort-by-field&gt; </span> </p> </td> 
+   <td colname="col2"> <p>Deze geavanceerde tags maken een ankerkoppeling rondom de HTML. Wanneer op dit anker wordt geklikt, wordt een pagina met resultaten weergegeven die in het opgegeven veld zijn gesorteerd. Het optionele <span class="codeph"> count- </span> kenmerk geeft het aantal resultaten op dat op de resultatenpagina moet worden weergegeven. Als het <span class="codeph"> aantal </span> wordt weggelaten, wordt het aantal gebruikt op de huidige pagina. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Datumformaatstrings {#section_4BBDBBEF2B96414497617CD4B52D96E4}
+## Tekenreeksen datumnotatie {#section_4BBDBBEF2B96414497617CD4B52D96E4}
 
-U kunt de volgende omzettingsspecificaties in de koorden van het datumformaat gebruiken:
+U kunt de volgende omzettingsspecificaties in datumformaatkoorden gebruiken:
 
 <table> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> <p>Datumindelingstekenreeks </p> </th> 
+   <th colname="col1" class="entry"> <p>Tekenreeks datumnotatie </p> </th> 
    <th colname="col2" class="entry"> <p>Beschrijving </p> </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
    <td colname="col1"> <p>%A </p> </td> 
-   <td colname="col2"> <p> Past de nationale vertegenwoordiging van de volledige weekdagnaam aan, bijvoorbeeld, "Maandag." De instelling in <span class="uicontrol"> Taalkunde </span> &gt; <span class="uicontrol"> Woorden &amp; Talen </span> &gt; <span class="uicontrol"> Taal </span> bepaalt de nationale vertegenwoordiging. </p> <p>Zie <a href="../c-about-linguistics-menu/c-about-words-and-language.md#concept_CEB4B9576F3C4E2EB87B352EEC738D79" type="concept" format="dita" scope="local"> over woorden en taal</a>. </p> </td> 
+   <td colname="col2"> <p> Komt overeen met de nationale representatie van de volledige weekdagnaam, bijvoorbeeld "maandag". De instelling in <span class="uicontrol"> Taalkunde </span> &gt; Woorden <span class="uicontrol"> &amp; talen </span> &gt; <span class="uicontrol"> Taal </span> bepaalt de nationale vertegenwoordiging. </p> <p>Zie Woorden en taal <a href="../c-about-linguistics-menu/c-about-words-and-language.md#concept_CEB4B9576F3C4E2EB87B352EEC738D79" type="concept" format="dita" scope="local"></a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>%a </p> </td> 
-   <td colname="col2"> <p> Komt overeen met de nationale afbeelding van de afgekorte weekdagnaam, waarbij de afkorting de eerste drie tekens is, bijvoorbeeld "Mon". De instelling in <span class="uicontrol"> Taalkunde </span> &gt; <span class="uicontrol"> Woorden &amp; Talen </span> &gt; <span class="uicontrol"> Taal </span> bepaalt de nationale vertegenwoordiging. </p> <p>Zie <a href="../c-about-linguistics-menu/c-about-words-and-language.md#concept_CEB4B9576F3C4E2EB87B352EEC738D79" type="concept" format="dita" scope="local"> over woorden en taal</a>. </p> </td> 
+   <td colname="col2"> <p> Komt overeen met de nationale representatie van de afgekorte weekdagnaam, waarbij de afkorting de eerste drie tekens is, bijvoorbeeld "Mon". De instelling in <span class="uicontrol"> Taalkunde </span> &gt; Woorden <span class="uicontrol"> &amp; talen </span> &gt; <span class="uicontrol"> Taal </span> bepaalt de nationale vertegenwoordiging. </p> <p>Zie Woorden en taal <a href="../c-about-linguistics-menu/c-about-words-and-language.md#concept_CEB4B9576F3C4E2EB87B352EEC738D79" type="concept" format="dita" scope="local"></a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>%B </p> </td> 
-   <td colname="col2"> <p> Komt overeen met de nationale vertegenwoordiging van de volledige naam van de maand, bijvoorbeeld "June". De instelling in <span class="uicontrol"> Taalkunde </span> &gt; <span class="uicontrol"> Woorden &amp; Talen </span> &gt; <span class="uicontrol"> Taal </span> bepaalt de nationale vertegenwoordiging. </p> <p>Zie <a href="../c-about-linguistics-menu/c-about-words-and-language.md#concept_CEB4B9576F3C4E2EB87B352EEC738D79" type="concept" format="dita" scope="local"> over woorden en taal</a>. </p> </td> 
+   <td colname="col2"> <p> Komt overeen met de nationale vertegenwoordiging van de volledige naam van de maand, bijvoorbeeld "June". De instelling in <span class="uicontrol"> Taalkunde </span> &gt; Woorden <span class="uicontrol"> &amp; talen </span> &gt; <span class="uicontrol"> Taal </span> bepaalt de nationale vertegenwoordiging. </p> <p>Zie Woorden en taal <a href="../c-about-linguistics-menu/c-about-words-and-language.md#concept_CEB4B9576F3C4E2EB87B352EEC738D79" type="concept" format="dita" scope="local"></a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>%b </p> </td> 
-   <td colname="col2"> <p> Komt overeen met de nationale afbeelding van de afgekorte naam van de maand, waarbij de afkorting de eerste drie tekens is, bijvoorbeeld "Jun". De instelling in <span class="uicontrol"> Taalkunde </span> &gt; <span class="uicontrol"> Woorden &amp; Talen </span> &gt; <span class="uicontrol"> Taal </span> bepaalt de nationale vertegenwoordiging. </p> <p>Zie <a href="../c-about-linguistics-menu/c-about-words-and-language.md#concept_CEB4B9576F3C4E2EB87B352EEC738D79" type="concept" format="dita" scope="local"> over woorden en taal</a>. </p> </td> 
+   <td colname="col2"> <p> Komt overeen met de nationale representatie van de afgekorte naam van de maand, waarbij de afkorting de eerste drie tekens is, bijvoorbeeld "Jun". De instelling in <span class="uicontrol"> Taalkunde </span> &gt; Woorden <span class="uicontrol"> &amp; talen </span> &gt; <span class="uicontrol"> Taal </span> bepaalt de nationale vertegenwoordiging. </p> <p>Zie Woorden en taal <a href="../c-about-linguistics-menu/c-about-words-and-language.md#concept_CEB4B9576F3C4E2EB87B352EEC738D79" type="concept" format="dita" scope="local"></a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>%D </p> </td> 
-   <td colname="col2"> <p>Equivalent aan "%m/%d/%y", bijvoorbeeld "07/25/13". </p> </td> 
+   <td colname="col2"> <p>Gelijk aan "%m/%d/%y", bijvoorbeeld "07/25/13". </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>%d </p> </td> 
-   <td colname="col2"> <p> Komt de dag van de maand als decimaal aantal (01-31) overeen. </p> </td> 
+   <td colname="col2"> <p> Komt overeen met de dag van de maand als een decimaal getal (01-31). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>%e </p> </td> 
-   <td colname="col2"> <p> Komt de dag van maand als decimaal aantal (1-31) overeen. Een lege gaat enige cijfers vooraf. </p> </td> 
+   <td colname="col2"> <p> Komt overeen met de dag van de maand als een decimaal getal (1-31). Een lege waarde komt voor één cijfer. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>%H </p> </td> 
-   <td colname="col2"> <p> Past de klok van 24 uur als decimaal aantal (00-23) aan. </p> </td> 
+   <td colname="col2"> <p> Komt de klok van 24 uur als decimaal aantal (00-23) aan. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>%h </p> </td> 
-   <td colname="col2"> <p> Komt overeen met de nationale afbeelding van de afgekorte naam van de maand, waarbij de afkorting de eerste drie tekens is, bijvoorbeeld "Jun" (hetzelfde als %b). </p> </td> 
+   <td colname="col2"> <p> Komt overeen met de nationale representatie van de afgekorte naam van de maand, waarbij de afkorting de eerste drie tekens is, bijvoorbeeld "Jun" (gelijk aan %b). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>%I </p> </td> 
-   <td colname="col2"> <p> Past de klok van 12 uur als decimaal aantal (01-12) aan. </p> </td> 
+   <td colname="col2"> <p> Komt de klok van 12 uur als decimaal aantal (01-12) aan. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>%j </p> </td> 
-   <td colname="col2"> <p> Komt overeen met de dag van het jaar als decimaal getal (001-366). </p> </td> 
+   <td colname="col2"> <p> Komt overeen met de dag van het jaar als een decimaal getal (001-366). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>%k </p> </td> 
-   <td colname="col2"> <p> Past de (24 uurklok als decimaal aantal (0-23) aan. Een lege gaat enige cijfers vooraf. </p> </td> 
+   <td colname="col2"> <p> Komt overeen met de (24-uurs klok als decimaal aantal (0-23). Een lege waarde komt voor één cijfer. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>%l </p> </td> 
-   <td colname="col2"> <p> Past de klok van 12 uur als decimaal aantal (1-12) aan. Een lege gaat enige cijfers vooraf. </p> </td> 
+   <td colname="col2"> <p> Komt de uurklok van 12 uur als decimaal aantal (1-12) aan. Een lege waarde komt voor één cijfer. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>%M </p> </td> 
-   <td colname="col2"> <p> Past de minuut als decimaal aantal (00-59) aan. </p> </td> 
+   <td colname="col2"> <p> Komt overeen met de minuut als een decimaal getal (00-59). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>%m </p> </td> 
-   <td colname="col2"> <p> Komt overeen met de maand als decimaal (01-12). </p> </td> 
+   <td colname="col2"> <p> Komt overeen met de maand als een decimaal getal (01-12). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>%p </p> </td> 
-   <td colname="col2"> <p> Komt overeen met de nationale vertegenwoordiging van "ante meridiem" of "post meridiem", al naargelang het geval, bijvoorbeeld "PM". De instelling in <span class="uicontrol"> Taalkunde </span> &gt; <span class="uicontrol"> Woorden &amp; Talen </span> &gt; <span class="uicontrol"> Taal </span> bepaalt de nationale vertegenwoordiging. </p> <p>Zie <a href="../c-about-linguistics-menu/c-about-words-and-language.md#concept_CEB4B9576F3C4E2EB87B352EEC738D79" type="concept" format="dita" scope="local"> over woorden en taal</a>. </p> </td> 
+   <td colname="col2"> <p> Komt overeen met de nationale vertegenwoordiging van "ante meridiem" of "post meridiem", zoals toepasselijk, bijvoorbeeld "PM". De instelling in <span class="uicontrol"> Taalkunde </span> &gt; Woorden <span class="uicontrol"> &amp; talen </span> &gt; <span class="uicontrol"> Taal </span> bepaalt de nationale vertegenwoordiging. </p> <p>Zie Woorden en taal <a href="../c-about-linguistics-menu/c-about-words-and-language.md#concept_CEB4B9576F3C4E2EB87B352EEC738D79" type="concept" format="dita" scope="local"></a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>%R </p> </td> 
-   <td colname="col2"> <p>Equivalent aan "%H:%M", bijvoorbeeld, "13:23". </p> </td> 
+   <td colname="col2"> <p>Equivalent met "%H:%M", bijvoorbeeld "13:23". </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>%r </p> </td> 
-   <td colname="col2"> <p>Equivalent aan "%I:%M:%S %p", bijvoorbeeld "01:23:45 PM". </p> </td> 
+   <td colname="col2"> <p>Equivalent met "%I:%M:%S %p", bijvoorbeeld "01:23:45 PM". </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>%S </p> </td> 
-   <td colname="col2"> <p> Past de tweede als decimaal aantal (00-60) aan. </p> </td> 
+   <td colname="col2"> <p> Komt overeen met het tweede getal als een decimaal getal (00-60). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>%T </p> </td> 
-   <td colname="col2"> <p>Equivalent aan "%H:%M:%S", bijvoorbeeld, "13:26:47". </p> </td> 
+   <td colname="col2"> <p>Equivalent met "%H:%M:%S", bijvoorbeeld "13:26:47". </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>%U </p> </td> 
-   <td colname="col2"> <p> Komt overeen met het weekaantal van het jaar (zondag als de eerste dag van de week) als decimaal getal (00-53). </p> </td> 
+   <td colname="col2"> <p> Komt overeen met het weeknummer van het jaar (zondag als de eerste dag van de week) als een decimaal getal (00-53). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>%v </p> </td> 
-   <td colname="col2"> <p>Equivalent aan "%e-%b-%Y", bijvoorbeeld, "25-jul-2013". </p> </td> 
+   <td colname="col2"> <p>Equivalent met "%e-%b-%Y", bijvoorbeeld "25-jul-2013". </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>%Y </p> </td> 
-   <td colname="col2"> <p> Past het jaar met eeuw als decimaal aantal aan, bijvoorbeeld, "2013". </p> </td> 
+   <td colname="col2"> <p> Komt overeen met het jaar met eeuw als decimaal getal, bijvoorbeeld "2013". </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>%y </p> </td> 
-   <td colname="col2"> <p> Komt overeen met het jaar zonder eeuw als decimaal (00-99). </p> </td> 
+   <td colname="col2"> <p> Komt overeen met het jaar zonder eeuw als decimaal getal (00-99). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>%Z </p> </td> 
@@ -2441,23 +2448,23 @@ U kunt de volgende omzettingsspecificaties in de koorden van het datumformaat ge
  </tbody> 
 </table>
 
-## Taalidentificatie {#section_0490DECC00E34691ADE5A9ED90A6D911}
+## Taalid&#39;s {#section_0490DECC00E34691ADE5A9ED90A6D911}
 
-De volgende lijst bevat de taalherkenningstekens voor elke gesteunde taal. U kunt deze herkenningstekens als waarden voor de facultatieve &quot;taal&quot;attributen in de volgende malplaatjemarkeringen gebruiken:
+De volgende tabel bevat de taal-id&#39;s voor elke ondersteunde taal. U kunt deze id&#39;s gebruiken als waarden voor het optionele kenmerk &quot;language&quot; in de volgende sjabloontags:
 
 * `search-date` en `search-display-field`.
 
-   Zie [Resultaatreeksen](../c-appendices/c-templates.md#section_80D68334E8D04A33937A6E58ABAAA320).
+   Zie [Resultaten reekscodes](../c-appendices/c-templates.md#section_80D68334E8D04A33937A6E58ABAAA320)van de lus.
 
-* `search-field-value-list` Zie [de markeringen](../c-appendices/c-templates.md#section_D3298B5F976447DBA0032B883DCC91B1)van de waardelijst van het Gebied.
+* `search-field-value-list` Zie [Lijstlabels](../c-appendices/c-templates.md#section_D3298B5F976447DBA0032B883DCC91B1)voor veldwaarden.
 
-* `search-field-value` Zie [de lijnmarkeringen](../c-appendices/c-templates.md#section_0717FA09F0FC449CB916883B0500A60E)van de waardelijst van het Gebied.
+* `search-field-value` Zie [Lustags](../c-appendices/c-templates.md#section_0717FA09F0FC449CB916883B0500A60E)in de lijst met veldwaarden.
 
 <table> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>Taal </p> </th> 
-   <th colname="col2" class="entry"> <p>Taalidentificatiecode </p> </th> 
+   <th colname="col2" class="entry"> <p>Taalid </p> </th> 
   </tr> 
  </thead>
  <tbody> 
@@ -2482,7 +2489,7 @@ De volgende lijst bevat de taalherkenningstekens voor elke gesteunde taal. U kun
    <td colname="col2"> <p> zh_TW </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Tsjechië (Tsjechië) </p> </td> 
+   <td colname="col1"> <p>Tsjechisch (Tsjechië) </p> </td> 
    <td colname="col2"> <p> cs_CZ </p> </td> 
   </tr> 
   <tr> 
@@ -2507,11 +2514,11 @@ De volgende lijst bevat de taalherkenningstekens voor elke gesteunde taal. U kun
   </tr> 
   <tr> 
    <td colname="col1"> <p>Engels (Groot-Brittannië) </p> </td> 
-   <td colname="col2"> <p> NL_GB </p> </td> 
+   <td colname="col2"> <p> en_GB </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Engels (Verenigde Staten) </p> </td> 
-   <td colname="col2"> <p> en_US </p> </td> 
+   <td colname="col2"> <p> nl_NL </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Frans (België) </p> </td> 
@@ -2555,7 +2562,7 @@ De volgende lijst bevat de taalherkenningstekens voor elke gesteunde taal. U kun
   </tr> 
   <tr> 
    <td colname="col1"> <p>Italiaans (Italië) </p> </td> 
-   <td colname="col2"> <p> IT_IT </p> </td> 
+   <td colname="col2"> <p> it_IT </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Japans (Japan) </p> </td> 
@@ -2567,7 +2574,7 @@ De volgende lijst bevat de taalherkenningstekens voor elke gesteunde taal. U kun
   </tr> 
   <tr> 
    <td colname="col1"> <p>Noors (Noorwegen) </p> </td> 
-   <td colname="col2"> <p> neen_NO </p> </td> 
+   <td colname="col2"> <p> no_NO </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Pools (Polen) </p> </td> 
@@ -2582,7 +2589,7 @@ De volgende lijst bevat de taalherkenningstekens voor elke gesteunde taal. U kun
    <td colname="col2"> <p> pt_PT </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Russisch (voormalige Sovjetunie) </p> </td> 
+   <td colname="col1"> <p>Russisch (voormalige Sovjet-Unie) </p> </td> 
    <td colname="col2"> <p> ru_SU </p> </td> 
   </tr> 
   <tr> 
@@ -2608,79 +2615,79 @@ De volgende lijst bevat de taalherkenningstekens voor elke gesteunde taal. U kun
  </tbody> 
 </table>
 
-## Het specificeren van de inhoud-type HTTP- kopbal {#section_AEED823E9938448A9EDB2F286D9CFD90}
+## De HTTP-header van het inhoudstype opgeven {#section_AEED823E9938448A9EDB2F286D9CFD90}
 
-U kunt de tevreden-Type HTTP- reactiekopbal specificeren door de volgende markering te gebruiken:
+U kunt de HTTP-antwoordheader van het type Content-Type opgeven met behulp van de volgende tag:
 
 `<search-content-type-header [content="MIME-type"] [charset="charset-name"]>`
 
-De kenmerken `content` en `charset` kenmerken zijn optioneel. Deze markering zou zo vroeg mogelijk in het malplaatje moeten verschijnen. Het wordt ook geadviseerd dat het vóór of `<search-html-meta-charset>` `<search-xml-decl>`of verschijnt, omdat het het gedrag van die markeringen beïnvloedt.
+De kenmerken `content` en `charset` kenmerken zijn optioneel. Deze tag moet zo vroeg mogelijk in de sjabloon worden weergegeven. Het wordt ook aanbevolen deze vóór `<search-html-meta-charset>` of `<search-xml-decl>`, omdat deze het gedrag van deze tags beïnvloedt, weer te geven.
 
-Als u niet de `content` attributen specificeert, dan blijft de waarde van `MIME-type` gebreken aan de waarde die in **[!UICONTROL Settings]** > **[!UICONTROL Crawling]** > **[!UICONTROL Content Types]** wordt geplaatst. Als u een `content` attribuut specificeert, wordt het gebruikt als standaardattribuut `content` voor de `<search-html-meta-charset>` markering.
+Als u het `content` kenmerk niet opgeeft, krijgt de waarde van `MIME-type` default de waarde die is ingesteld in **[!UICONTROL Settings]** > **[!UICONTROL Crawling]** > **[!UICONTROL Content Types]**. Als u een `content` kenmerk opgeeft, wordt dit gebruikt als het standaardkenmerk `content` voor de `<search-html-meta-charset>` tag.
 
-Als u niet het `charset` attribuut specificeert, dan wordt geen `charset` waarde geschreven aan de `content-type` kopbal.
+Als u het `charset` kenmerk niet opgeeft, wordt er geen `charset` waarde naar de `content-type` koptekst geschreven.
 
-Als u `charset="1"` dan specificeert is de daadwerkelijke waarde voor de waarde van de parameter van `charset-name` `sp_f` CGI. Als geen parameter van `sp_f` `charset-name` CGI met het onderzoek wordt voorgelegd, dan wordt de daadwerkelijke waarde voor gelezen van uw rekeningsmontages. U kunt de tekenset bekijken of wijzigen die aan uw account is gekoppeld onder **[!UICONTROL Settings]** > **[!UICONTROL My Profile]** > **[!UICONTROL Personal Information]** > **[!UICONTROL Character Encoding]**.
+Als u opgeeft `charset="1"` is de werkelijke waarde voor `charset-name` de waarde van de parameter `sp_f` CGI. Als er bij de zoekopdracht geen `sp_f` CGI-parameter wordt verzonden, wordt de werkelijke waarde voor `charset-name` gelezen uit uw accountinstellingen. U kunt de tekenset die aan uw account is gekoppeld, weergeven of wijzigen via **[!UICONTROL Settings]** > **[!UICONTROL My Profile]** > **[!UICONTROL Personal Information]** > **[!UICONTROL Character Encoding]**.
 
-Zie Je persoonlijke gebruikersgegevens [configureren](../c-about-settings-menu/c-about-my-profile-menu.md#task_A11A3BE2527B4204B896E04303B04AA6).
+Zie Uw persoonlijke gebruikersgegevens [configureren](../c-about-settings-menu/c-about-my-profile-menu.md#task_A11A3BE2527B4204B896E04303B04AA6).
 
-U kunt een specifieke karakter kiezen - vastgestelde naam door het aan te bieden als `charset` waarde, als `charset="iso-8859-1"` of `charset="Shift-JIS"`.
+U kunt een specifieke naam van een tekenset kiezen door deze als de `charset` waarde op te geven, bijvoorbeeld `charset="iso-8859-1"` of `charset="Shift-JIS"`.
 
-Als u een `charset` attribuut specificeert, dan wordt het gebruikt als standaardattribuut `charset` voor de `<search-html-meta-charset>` en `<search-xml-decl>` markeringen, evenals het zijn output aan de `content-type` kopbal.
+Als u een `charset` attribuut specificeert, dan wordt het gebruikt als standaardattribuut voor de `charset` en `<search-html-meta-charset>` markeringen, evenals output aan de `<search-xml-decl>` `content-type` kopbal.
 
-## Het specificeren van een karakter dat in een malplaatje van HTML wordt geplaatst {#section_E0D1816ABB5846BEBE9C26D5980CCBE6}
+## Een tekenset opgeven in een HTML-sjabloon {#section_E0D1816ABB5846BEBE9C26D5980CCBE6}
 
-De standaardmalplaatjes van het HTML- onderzoeksresultaat specificeren de karakterreeks verbonden aan de huidige rekening via de volgende markering:
+De standaard HTML-zoekresultaatsjablonen geven de tekenset aan die aan het huidige account is gekoppeld via de volgende tag:
 
 `<search-html-meta-charset [content="MIME-type"] [charset="charset-name"]>`
 
-De inhoud en de charsetattributen zijn facultatief. Deze markering moet in de `<head>` sectie van HTML van het malplaatje verschijnen. Deze markering resulteert in de volgende markering op de HTML- pagina die van het malplaatje wordt geproduceerd:
+De kenmerken voor inhoud en tekensets zijn optioneel. Deze tag moet worden weergegeven in de HTML- `<head>` sectie van de sjabloon. Deze tag resulteert in de volgende tag op de HTML-pagina die wordt gegenereerd op basis van de sjabloon:
 
 `<meta http-equiv="content-type" content="MIME-type; charset=charset-name">`
 
-Als u niet de inhoudsattributen specificeert, dan blijft de daadwerkelijke waarde van `MIME-type` gebreken aan één van twee waarden. Als de `<search-content-type-header>` markering een `content` attribuut specificeerde, dan wordt die waarde gebruikt. Anders, is de gebruikte waarde één reeks in **[!UICONTROL Templates]** > **[!UICONTROL Settings]** > **[!UICONTROL Content Type]** tabel.
+Als u het inhoudskenmerk niet opgeeft, wordt voor de werkelijke waarde van de standaardinstelling een van de twee waarden gebruikt. `MIME-type` Als de `<search-content-type-header>` tag een `content` kenmerk heeft opgegeven, wordt die waarde gebruikt. Anders wordt de waarde gebruikt die is ingesteld op het tabblad **[!UICONTROL Templates]** > **[!UICONTROL Settings]** > **[!UICONTROL Content Type]** .
 
-Als u niet de `charset` attributen specificeert, dan blijft de daadwerkelijke waarde van `charset-name` gebreken aan één van twee waarden. Als de `<search-content-type-header>` markering een `charset` attribuut specificeerde, dan wordt die waarde gebruikt. Anders, wordt de daadwerkelijke waarde voor gelezen van uw rekeningsmontages. `charset-name` U kunt de tekenset bekijken of wijzigen die aan uw account is gekoppeld onder **[!UICONTROL Settings]** > **[!UICONTROL My Profile]** > **[!UICONTROL Personal Information]** > **[!UICONTROL Character Encoding]**.
+Als u het `charset` `charset-name` kenmerk niet opgeeft, wordt voor de werkelijke waarde van de standaardwaarde een van de twee waarden gebruikt. Als de `<search-content-type-header>` tag een `charset` kenmerk heeft opgegeven, wordt die waarde gebruikt. Anders wordt de werkelijke waarde voor `charset-name` gelezen uit uw accountinstellingen. U kunt de tekenset die aan uw account is gekoppeld, weergeven of wijzigen via **[!UICONTROL Settings]** > **[!UICONTROL My Profile]** > **[!UICONTROL Personal Information]** > **[!UICONTROL Character Encoding]**.
 
-Zie Je persoonlijke gebruikersgegevens [configureren](../c-about-settings-menu/c-about-my-profile-menu.md#task_A11A3BE2527B4204B896E04303B04AA6).
+Zie Uw persoonlijke gebruikersgegevens [configureren](../c-about-settings-menu/c-about-my-profile-menu.md#task_A11A3BE2527B4204B896E04303B04AA6).
 
-Als u `charset="1"` dan specificeert is de daadwerkelijke waarde voor de waarde van de parameter van `charset-name` `sp_f` CGI. Als geen parameter van `sp_f` CGI met het onderzoek wordt voorgelegd, dan is de daadwerkelijke waarde voor `charset-name` of de waarde die in de `<search-content-type-header>` markering wordt geplaatst als het werd gespecificeerd, of de waarde die in uw rekeningsmontages wordt geplaatst.
+Als u opgeeft `charset="1"` is de werkelijke waarde voor `charset-name` de waarde van de parameter `sp_f` CGI. Als er bij de zoekopdracht geen `sp_f` CGI-parameter wordt verzonden, is de werkelijke waarde voor `charset-name` ofwel de waarde die is ingesteld in de `<search-content-type-header>` tag als deze is opgegeven, ofwel de waarde die is ingesteld in de accountinstellingen.
 
-U kunt een specifieke karakter specificeren - vastgestelde naam, zoals in `charset="charset-name"`. For example, `charset="iso-8859-1"` or `charset="Shift-JIS"`.
+U kunt een specifieke naam voor een tekenset opgeven, zoals in `charset="charset-name"`dit voorbeeld. For example, `charset="iso-8859-1"` or `charset="Shift-JIS"`.
 
-De `<search-html-meta-charset>` tag is optioneel. Als u het verwijdert, browser veronderstelt de standaardwaarden voor, `content-type`die het volgende is: `content="text/html; charset=ISO-8859-1"`. U kunt ook verkiezen om de `<search-html-meta-charset>` markering met uw eigen `http-equiv` markering te vervangen.
+De `<search-html-meta-charset>` tag is optioneel. Als u het verwijdert, neemt browser de standaardwaarden voor `content-type`, die het volgende is: `content="text/html; charset=ISO-8859-1"`. U kunt er ook voor kiezen om de `<search-html-meta-charset>` tag door uw eigen `http-equiv` tag te vervangen.
 
-## Het specificeren van een karakter dat in een malplaatje van XML wordt geplaatst {#section_17DC31CDCC104F5F8081466B41A96E9D}
+## Een tekenset opgeven in een XML-sjabloon {#section_17DC31CDCC104F5F8081466B41A96E9D}
 
-Het standaardmalplaatje van het het onderzoeksresultaat van XML specificeert de karakterreeks verbonden aan de huidige rekening als volgende markering:
+In de standaard XML-zoekresultaatsjabloon wordt de tekenset opgegeven die aan de huidige account is gekoppeld met de volgende tag:
 
 `<search-xml-decl [charset="charset-name"]>`
 
-Het `charset` kenmerk is optioneel. Deze markering moet bij de bovenkant van het malplaatje, maar na om het even welke `<search-content-type-header>` markering verschijnen. Deze markering resulteert in de volgende markering op het document van XML dat van het malplaatje wordt geproduceerd:
+Het `charset` kenmerk is optioneel. Dit label moet boven aan de sjabloon staan, maar na elke `<search-content-type-header>` tag. Deze tag resulteert in de volgende tag in het XML-document dat wordt gegenereerd op basis van de sjabloon:
 
 `<?xml version="1.0" encoding="charset-name" standalone="yes" ?>`
 
-Als u niet specificeert `charset`, dan blijft de daadwerkelijke waarde van `charset-name` gebreken aan één van twee waarden. Als `<search-content-type-header>` gespecificeerd een `charset` attribuut, dan wordt die waarde gebruikt. Anders, wordt de daadwerkelijke waarde voor gelezen van uw rekeningsmontages. `charset-name` U kunt de tekenset bekijken of wijzigen die aan uw account is gekoppeld onder **[!UICONTROL Settings]** > **[!UICONTROL My Profile]** > **[!UICONTROL Personal Information]** > **[!UICONTROL Character Encoding]**.
+Als u de waarde niet opgeeft `charset`, wordt de standaardwaarde van `charset-name` standaard ingesteld op een van twee waarden. Als `<search-content-type-header>` een `charset` kenmerk is opgegeven, wordt die waarde gebruikt. Anders wordt de werkelijke waarde voor `charset-name` gelezen uit uw accountinstellingen. U kunt de tekenset die aan uw account is gekoppeld, weergeven of wijzigen via **[!UICONTROL Settings]** > **[!UICONTROL My Profile]** > **[!UICONTROL Personal Information]** > **[!UICONTROL Character Encoding]**.
 
-Zie Je persoonlijke gebruikersgegevens [configureren](../c-about-settings-menu/c-about-my-profile-menu.md#task_A11A3BE2527B4204B896E04303B04AA6).
+Zie Uw persoonlijke gebruikersgegevens [configureren](../c-about-settings-menu/c-about-my-profile-menu.md#task_A11A3BE2527B4204B896E04303B04AA6).
 
-Als u `charset="1"` dan specificeert is de daadwerkelijke waarde voor de waarde van de parameter van `charset-name` `sp_f` CGI. Als geen parameter van `sp_f` CGI met het onderzoek wordt voorgelegd, dan is de daadwerkelijke waarde voor `charset-name` of de waarde die in de `<search-content-type-header>` markering wordt geplaatst als het werd gespecificeerd, of de waarde die in uw rekeningsmontages wordt geplaatst.
+Als u opgeeft `charset="1"` is de werkelijke waarde voor `charset-name` de waarde van de parameter `sp_f` CGI. Als er bij de zoekopdracht geen `sp_f` CGI-parameter wordt verzonden, is de werkelijke waarde voor `charset-name` ofwel de waarde die is ingesteld in de `<search-content-type-header>` tag als deze is opgegeven, ofwel de waarde die is ingesteld in de accountinstellingen.
 
-U kunt een specifieke karakter specificeren - vastgestelde naam, zoals in, `charset="charset-name"`als u dit wenst. Bijvoorbeeld, `charset="iso-8859-1" or charset="Shift-JIS"`.
+U kunt desgewenst een specifieke naam voor een tekenset opgeven, zoals in `charset="charset-name"`het venster. Bijvoorbeeld, `charset="iso-8859-1" or charset="Shift-JIS"`.
 
-U kunt verkiezen om de `<search-xml-decl>` markering met uw eigen `?xml` markering te vervangen.
+U kunt de `<search-xml-decl>` tag vervangen door uw eigen `?xml` tag.
 
-## Inclusief een zoekopdrachtsjabloon in een andere {#section_7D1FCD3D9E2340C291E354C9720E8BC0}
+## Een zoeksjabloon opnemen in een andere sjabloon {#section_7D1FCD3D9E2340C291E354C9720E8BC0}
 
-Om één onderzoeksmalplaatje in een andere te omvatten, gebruik de `<search-include>` markering, plaatsend de dossierattributen aan de naam van het malplaatjedossier dat u zoals in het volgende voorbeeld wilt omvatten:
+Als u een zoeksjabloon in een andere sjabloon wilt opnemen, gebruikt u de `<search-include>` tag, waarbij het bestandskenmerk wordt ingesteld op de naam van het sjabloonbestand dat u wilt opnemen, zoals in het volgende voorbeeld:
 
 `<search-include file="seo/seo_search_title.tpl" />`
 
-De segmenten van het het onderzoeksmalplaatje van SEO zijn in `seo/` subfolder en de normale onderzoeksmalplaatjes zijn in `templates/` subfolder. Slechts .tpl de dossiers zijn zinvol om in deze context te omvatten.
+Sjabloonsegmenten voor SEO-zoekopdrachten bevinden zich in de `seo/` submap en normale zoeksjablonen bevinden zich in de `templates/` submap. Alleen .tpl-bestanden zijn relevant voor opname in deze context.
 
-## Meerdere transportsjablonen beheren voor uw website {#reference_12AAB3B9F4C74C11956F1DBA95714C2F}
+## Meerdere transportsjablonen voor uw website beheren {#reference_12AAB3B9F4C74C11956F1DBA95714C2F}
 
-U kunt de verschijning van onderzoeksresultaten over uw website controleren door verschillende malplaatjes van het onderzoeksvervoer voor elk gebied te gebruiken.
+U kunt de weergave van zoekresultaten op uw website bepalen door voor elk gebied verschillende sjablonen voor zoekopdrachten te gebruiken.
 
 <!-- 
 
@@ -2688,16 +2695,16 @@ r_managing_multiple_templates.xml
 
  -->
 
-Om dit soort onderzoeksfunctionaliteit te verwezenlijken, kunt u uw vervoermalplaatjes in plaatsonderzoek/merchandising beheren. Of, u kunt uw vervoermalplaatjes in Publish beheren. Als plaatsonderzoek/merchandising, publiceer laat u uitgeven, voorproef, en de veelvoudige malplaatjes van het onderzoeksvervoer publiceren.
+Om dit soort onderzoeksfunctionaliteit te verwezenlijken, kunt u uw vervoermalplaatjes in plaatsonderzoek/handel beheren. Of u kunt uw transportsjablonen beheren in Publiceren. Net als bij het zoeken/verhandelen van sites kunt u met Publiceren meerdere sjablonen voor zoekopdrachten bewerken, voorvertonen en publiceren.
 
-Aan opstelling gebruikt uw onderzoeksvormen om een specifiek vervoermalplaatje (buiten het gebrek) te gebruiken, de `sp_t` vraagparameter. Bijvoorbeeld, veronderstel u een onderzoeksmalplaatje genoemd &quot;goedkeuring&quot;voor het duidelijk-benedenverkoopgebied van uw website hebt. U gebruikt het standaard HTML-zoekformulier met de volgende aanvullende formuliercode:
+Als u uw zoekformulieren wilt instellen voor het gebruik van een specifieke transportsjabloon (anders dan de standaardsjabloon), gebruikt u de parameter `sp_t` query. Stel dat u een zoeksjabloon hebt met de naam &quot;klaring&quot; voor het gemarkeerde verkoopgebied van uw website. U gebruikt het standaard HTML-zoekformulier met de volgende aanvullende formuliercode:
 
 `<input type=hidden name="sp_t" value="clearance">`
 
-Wanneer een klant een standaardvorm klikt die deze lijn van code bevat, wordt het malplaatje van het het onderzoeksvervoer van de &quot;klaring&quot;getoond samen met hun onderzoeksresultaten.
+Wanneer een klant op een standaardformulier klikt dat deze coderegel bevat, wordt de transportsjabloon voor het zoeken naar &#39;klaring&#39; samen met de zoekresultaten weergegeven.
 
-Zie [Inzamelingen gebruiken in zoekformulieren](../c-appendices/c-searchforms.md#reference_5A079AEEEFB84457892EF0870D0605C3).
+Zie Verzamelingen [gebruiken in zoekformulieren](../c-appendices/c-searchforms.md#reference_5A079AEEEFB84457892EF0870D0605C3).
 
-Zie frames [gebruiken met formulieren](../c-appendices/c-searchforms.md#reference_82CDDDA1E37042E4849EBF7EA05407C5).
+Zie Frames [gebruiken met formulieren](../c-appendices/c-searchforms.md#reference_82CDDDA1E37042E4849EBF7EA05407C5).
 
-Zie [Voorbeeld van geavanceerd zoekformulier](../c-appendices/c-searchforms.md#reference_82E1051918744EBA88A01E9E6AE42C4A).
+Zie [Voorbeeld van een geavanceerd zoekformulier](../c-appendices/c-searchforms.md#reference_82E1051918744EBA88A01E9E6AE42C4A).

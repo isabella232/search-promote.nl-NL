@@ -1,39 +1,42 @@
 ---
-description: Met Scripted Index kunt u, stijgende indexerende opties schrijven bijwerken en handhaven zonder de behoefte aan login. De onderzoeksrobot leest instructies van een tekstdossier dat op uw server wordt ontvangen.
-seo-description: Met Scripted Index kunt u, stijgende indexerende opties schrijven bijwerken en handhaven zonder de behoefte aan login. De onderzoeksrobot leest instructies van een tekstdossier dat op uw server wordt ontvangen.
-seo-title: Over Scripted Index
+description: Met Scripted Index kunt u stijgende indexeringsopties schrijven, bijwerken en handhaven zonder de behoefte aan login. De zoekrobot leest instructies uit een tekstbestand dat op uw server wordt gehost.
+seo-description: Met Scripted Index kunt u stijgende indexeringsopties schrijven, bijwerken en handhaven zonder de behoefte aan login. De zoekrobot leest instructies uit een tekstbestand dat op uw server wordt gehost.
+seo-title: Over Scriptindex
 solution: Target
 subtopic: Scripted Index
-title: Over Scripted Index
+title: Over Scriptindex
 topic: Index,Site search and merchandising
 uuid: 51e726ad-414b-4cbd-8a68-fefc3cf9b565
 translation-type: tm+mt
-source-git-commit: f21a3f7fe0aeaab517a5ca36da43594873b3e69a
+source-git-commit: 552f93f1f630c64bbe3d5c8a87c4f5895ae6868c
+workflow-type: tm+mt
+source-wordcount: '1761'
+ht-degree: 0%
 
 ---
 
 
-# Over Scripted Index{#about-scripted-index}
+# Over Scriptindex{#about-scripted-index}
 
-Met Scripted Index kunt u, stijgende indexerende opties schrijven bijwerken en handhaven zonder de behoefte aan login. De onderzoeksrobot leest instructies van een tekstdossier dat op uw server wordt ontvangen.
+Met Scripted Index kunt u stijgende indexeringsopties schrijven, bijwerken en handhaven zonder de behoefte aan login. De zoekrobot leest instructies uit een tekstbestand dat op uw server wordt gehost.
 
-## Scripted Index gebruiken {#concept_34F58D551BC04BFB8ADC294B9DA9199D}
+## Scriptindex gebruiken {#concept_34F58D551BC04BFB8ADC294B9DA9199D}
 
-## Ongeveer vormend scripted stijgende indexering {#section_161D254065E143F3A39F3FC09C400090}
+## Informatie over het configureren van incrementele indexering met scripts {#section_161D254065E143F3A39F3FC09C400090}
 
-Om Scripted Index te gebruiken, gebruikt u de pagina van de Configuratie van de Index van Scripted Incremental om URL aan een manuscriptdossier (een duidelijk tekstdossier) te specificeren dat op uw server wordt gevestigd. Bijvoorbeeld, `https://www.mysite.com/indexlist.txt`. Aangezien uw plaats verandert, kunt u bevelblokken aan het tekstdossier of manueel of automatisch toevoegen (met een manuscript dat door de aankomst van informatie van een nieuwsvoer, voorraadticker, of ander veranderd dossier wordt teweeggebracht).
+Als u Scripted Index wilt gebruiken, gebruikt u de pagina Configuratie van incrementele index met scripts om de URL op te geven naar een scriptbestand (een tekstbestand zonder opmaak) dat zich op uw server bevindt. Bijvoorbeeld, `https://www.mysite.com/indexlist.txt`. Als uw site verandert, kunt u handmatig of automatisch opdrachtblokken aan het tekstbestand toevoegen (met een script dat wordt geactiveerd door de aankomst van informatie uit een nieuwsfeed, voorraadkiezer of ander gewijzigd bestand).
 
-Wanneer de scripted stijgende index begint, leest de onderzoeksrobot het tekstdossier en stelt de nieuwe bevelen in werking die in dat dossier worden gevonden. Door gebrek, verwerkt de onderzoeksrobot slechts de nieuwe bevelen, die door de dossierdatum worden bepaald. Tenzij u **[!UICONTROL Clear Date]** tegelijkertijd controleert u Scripted Index vormt, herinnert de onderzoeksrobot &quot;de datum-specifier&quot;van het onlangs verwerkte blok.
+Wanneer de gescripte incrementele index begint, leest de zoekrobot het tekstbestand en voert de nieuwe opdrachten uit die in dat bestand staan. Standaard verwerkt de zoekrobot alleen de nieuwe opdrachten, die worden bepaald door de bestandsdatum. Tenzij u controleert **[!UICONTROL Clear Date]** op het tijdstip dat u Scripted Index vormt, &quot;herinnert de onderzoeksrobot&quot;de datum-specifier van het onlangs verwerkte blok.
 
-## Ongeveer het manuscriptdossier {#section_B312E40539F44C6583B4F9637D428E19}
+## Informatie over het scriptbestand {#section_B312E40539F44C6583B4F9637D428E19}
 
-Het manuscriptdossier dat u in URL specificeert is een duidelijk tekstdossier dat op uw server wordt gevestigd. U kunt vervoerwinst, lijnvoer, of allebei voor de eind-van-lijn opeenvolging gebruiken. Een lege lijn bevat nul of meer witte ruimtekarakters die door een eind-van-lijn opeenvolging worden gevolgd. Alle bevelen zijn case-insensitive.
+Het scriptbestand dat u in de URL opgeeft, is een tekstbestand zonder opmaak dat zich op uw server bevindt. U kunt looppasterugkeer, lijnvoer, of allebei voor de eind-van-lijn opeenvolging gebruiken. Een lege regel bevat nul of meer spatietekens gevolgd door een regeleinde. Alle opdrachten zijn hoofdlettergevoelig.
 
-Het tekstdossier wordt georganiseerd in blokken die de informatie beschrijven die de onderzoeksrobot gebruikt wanneer het een scripted stijgende index uitvoert.
+Het tekstbestand is ingedeeld in blokken die de informatie beschrijven die de zoekrobot gebruikt wanneer deze een gescripte incrementele index uitvoert.
 
-De blokken worden bevolen door datum, met de oudste blokken bij de bovenkant van het tekstdossier, en de meest recente blokken bij de bodem. Elk blok begint met één enkele lijn datum-bevel en een datum-specifier bevel, en beëindigt met een spatie-lijn separator zoals in het volgende blokvoorbeeld (binnen tussen zijn verscheidene bevelen):
+Blokken worden op datum geordend, met de oudste blokken boven aan het tekstbestand en de meest recente blokken onder aan. Elk blok begint met één enkele lijn datum-bevel en een datum-specifier bevel, en eindigt met een leeg-lijn separator zoals in het volgende blokvoorbeeld (binnen zijn verscheidene bevelen):
 
-Een belangrijke nul wordt vereist voor alle rangschikkende data lager dan 10th wanneer het gebruiken van de stijl van HTTP 1.1. Bijvoorbeeld, 6 November is 06 Nov, niet 6 nov.
+Een voorloopnul is vereist voor alle rangsdatums lager dan de tiende bij gebruik van de HTTP 1.1-stijl. 6 november is bijvoorbeeld 06 nov, niet 6 nov.
 
 <table> 
  <thead> 
@@ -45,136 +48,124 @@ Een belangrijke nul wordt vereist voor alle rangschikkende data lager dan 10th w
  <tbody> 
   <tr> 
    <td colname="col1"> <p>date-command </p> </td> 
-   <td colname="col2"> <p>De eerste lijn van elk blok begint met één van twee datumbevelen: </p> <p> 
+   <td colname="col2"> <p>De eerste regel van elk blok begint met een van twee datumopdrachten: </p> <p> 
      <ul id="ul_9C1B229B7F1846C490B853FC34989E77"> 
-      <li id="li_31FEF1A7163842BDBB0ABE779D07045A"> <span class="codeph"> datum </span> <p>Gebruik het "datum"bevel om erop te wijzen dat date-specifier uit een dag, een datum, een tijd, en een tijdzone zal bestaan. </p> </li> 
-      <li id="li_0918D5B090014C1A852CB80BB7C2867C"> <span class="codeph"> seconden </span> <p>De <span class="codeph"> seconden van het gebruik </span> om erop te wijzen dat date-specifier uit een tijd in epoch seconden (bijvoorbeeld, 784111777) zal bestaan. Wanneer het gebruiken van <span class="codeph"> seconden </span>, zorg ervoor dat het aantal seconden tussen blokken stijgt. </p> </li> 
+      <li id="li_31FEF1A7163842BDBB0ABE779D07045A"> <span class="codeph"> date </span> <p>Gebruik het "datum"bevel om erop te wijzen dat date-specifier uit een dag, een datum, een tijd, en een tijdzone zal bestaan. </p> </li> 
+      <li id="li_0918D5B090014C1A852CB80BB7C2867C"> <span class="codeph"> seconden </span> <p>Gebruik <span class="codeph"> seconden </span> om aan te geven dat de date-specifier uit een tijd in epoch seconden zal bestaan (bijvoorbeeld, 78411777). Wanneer het gebruiken van <span class="codeph"> seconden </span>, zorg ervoor dat het aantal seconden tussen blokken stijgt. </p> </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>date-specifier </p> </td> 
-   <td colname="col2"> <p>Het <span class="codeph"> date-specifier </span> bevel registreert typisch of de rangschikkende datum en de tijd (datumbevel) of de tijd in epoch seconden (secondenbevel) dat de blokinformatie aan het dossier werd toegevoegd. Bijvoorbeeld: </p> <p> <code> date&nbsp;Sun,&nbsp;06&nbsp;Nov&nbsp;1994&nbsp;08:49:37&nbsp;GMT&nbsp;(HTTP&nbsp;1.1&nbsp;style) 
+   <td colname="col2"> <p>De <span class="codeph"> date-specifier </span> bevel registreert typisch of de normale datum en de tijd (datumbevel) of de tijd in epoch seconden (secondenbevel) dat de blokinformatie aan het dossier werd toegevoegd. Bijvoorbeeld: </p> <p> <code> date&nbsp;Sun,&nbsp;06&nbsp;Nov&nbsp;1994&nbsp;08:49:37&nbsp;GMT&nbsp;(HTTP&nbsp;1.1&nbsp;style) 
       date&nbsp;Sunday,&nbsp;06-Nov-94&nbsp;08:49:37&nbsp;GMT&nbsp;(HTTP&nbsp;1.0&nbsp;style) 
       date&nbsp;Sun&nbsp;Nov&nbsp;6&nbsp;08:49:37&nbsp;1994&nbsp;(Unix&nbsp;asctime()&nbsp;date&nbsp;style) 
-      seconds&nbsp;784111777&nbsp;(Unix&nbsp;epoch-seconds&nbsp;style) </code> </p> <p>Een belangrijke nul wordt vereist voor alle rangschikkende data lager dan 10th wanneer het gebruiken van de stijl van HTTP 1.1. Bijvoorbeeld, 6 November is 06 Nov, niet 6 nov. </p> <p>De onderzoeksrobot "herinnert"date-specifier van het onlangs verwerkte blok en slechts indexeert informatie die het "nieuwer"beschouwt. (Real-time doet er niet toe voor de zoekrobot. In plaats daarvan, is de tijd met betrekking tot andere eerder verwerkte tijden wat van belang is.) </p> <p>Nadat de onderzoeksrobot een blok met een date-specifier van 10:00 p.m. leest, bijvoorbeeld, het geen blokken die tijden vóór 10:00 p.m. registreren, ongeacht wanneer de indexverrichting loopt. In een worst-case scenario, zou u verkeerd het jaar "2040"in plaats van "2004"in uw date-specifier kunnen ingaan. In zo'n geval, indexeert de onderzoeksrobot het blok van 2040 tijdens de volgende het indexeren verrichting en weigert dan om het even welke andere blokken van informatie te lezen (tenzij één post-data 2040). Als dit zou moeten gebeuren, verwijder alle eerder verwerkte blokken uit het tekstdossier, klik <span class="uicontrol"> Duidelijke Datum </span>, en duw dan het levend. </p> </td> 
+      seconds&nbsp;784111777&nbsp;(Unix&nbsp;epoch-seconds&nbsp;style) </code> </p> <p>Een voorloopnul is vereist voor alle rangsdatums lager dan de tiende bij gebruik van de HTTP 1.1-stijl. 6 november is bijvoorbeeld 06 nov, niet 6 nov. </p> <p>De zoekrobot "onthoudt" de date-specifier van het laatst verwerkte blok en indexeert alleen de informatie die het als "nieuwer" beschouwt. (Real-time is niet van belang voor de zoekrobot. In plaats daarvan is de tijd in vergelijking met andere eerder verwerkte tijden van belang.) </p> <p>Nadat de zoekrobot een blok met een date-specifier van 10:00 p.m. leest het bijvoorbeeld geen blokken die tijden vóór 10:00 p.m. registreren, ongeacht wanneer de indexverrichting loopt. In een worst-case scenario, zou u het jaar "2040"in plaats van "2004"in uw date-specifier verkeerd kunnen ingaan. In zo'n geval, indexeert de onderzoeksrobot het 2040 blok tijdens de volgende het indexeren verrichting en dan weigert om het even welke andere blokken van informatie te lezen (tenzij één post-data 2040). Als dit zou moeten gebeuren, verwijder alle eerder verwerkte blokken uit het tekstdossier, klik <span class="uicontrol"> Duidelijke Datum </span>, en duw dan het live. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>commentaarlijn </p> </td> 
-   <td colname="col2"> <p>Beginnen met commentaarlijnen met het karakter "#". </p> <p>Elke commentaarlijn moet een lijn van zijn zijn zijn; u kunt geen eind-van-lijn commentaren typen. </p> <p>Een commentaarlijn wordt niet beschouwd als een lege lijn. Het kan overal in een blok, zelfs vóór een datum of een secondenbevel zoals in het volgende voorbeeld ook verschijnen: </p> <p> <code> &nbsp;&nbsp;&nbsp;&nbsp;#Added&nbsp;by&nbsp;Cathy&nbsp;Read&nbsp;after&nbsp;the&nbsp;Y2K&nbsp;seminar 
+   <td colname="col1"> <p>opmerkingsregel </p> </td> 
+   <td colname="col2"> <p>Begin commentaarregels met het teken "#". </p> <p>Elke commentaarregel moet een eigen regel zijn; u kunt geen opmerkingen aan het einde van de regel typen. </p> <p>Een commentaarregel wordt niet als een lege regel beschouwd. Het kan ook overal in een blok, zelfs vóór een datum of secondenbevel zoals in het volgende voorbeeld verschijnen: </p> <p> <code> &nbsp;&nbsp;&nbsp;&nbsp;#Added&nbsp;by&nbsp;Cathy&nbsp;Read&nbsp;after&nbsp;the&nbsp;Y2K&nbsp;seminar 
       &nbsp;&nbsp;&nbsp;&nbsp;date&nbsp;Mon,&nbsp;29&nbsp;Dec&nbsp;1999&nbsp;09:32:20&nbsp;GMT&nbsp; </code> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>actie-opdracht </p> </td> 
-   <td colname="col2"> <p>Elk tekstblok kan zo vele actiebevelen bevatten aangezien u wilt. De volgende actie-bevel opties beantwoorden aan die voor standaard het stijgende indexeren: </p> <p> 
+   <td colname="col1"> <p>action-command </p> </td> 
+   <td colname="col2"> <p>Elk tekstblok kan zoveel handelingsopdrachten bevatten als u wilt. De volgende actie-bevel opties beantwoorden aan die voor standaard stijgende indexering: </p> <p> 
      <ul id="ul_8E1435350A0F416BB8F7826CD3886E74"> 
       <li id="li_22181666628C48A28A6A0BA1F7CA8E77"> 
-       <userinput>
-         toevoegen 
-       </userinput> <p>Gebruik met URL. De onderzoeksrobot indexeert slechts gespecificeerde URLs die sinds uw laatste het indexeren verrichting zijn veranderd. Bovendien, volgt de onderzoeksrobot verbindingen die binnen gespecificeerde documenten en indexen slechts die documenten bevat zijn die zijn veranderd. </p> <p>U kunt URL met volgen 
-        <userinput>
-          onopvolgzaam 
-        </userinput> of 
-        <userinput>
+       <code>
+         add 
+       </code> <p>Gebruik met URL. De zoekrobot indexeert alleen de opgegeven URL's die zijn gewijzigd sinds de laatste indexeringsbewerking. Bovendien volgt de zoekrobot koppelingen binnen opgegeven documenten en indexeert alleen de documenten die zijn gewijzigd. </p> <p>U kunt de URL volgen met <code>
+          nofollow 
+        </code> of met <code>
           noindex 
-        </userinput> sleutelwoorden zoals in het volgende voorbeeld: </p> <p> <code> add&amp;nbsp;https://www.mydomain.com/&amp;nbsp;noindex </code> </p> </li> 
+        </code> trefwoorden zoals in het volgende voorbeeld: </p> <p> <code> add&amp;nbsp;https://www.mydomain.com/&amp;nbsp;noindex </code> </p> </li> 
       <li id="li_8E47BF07DB24417083883F5BF40D6B9E"> 
-       <userinput>
-         bijwerken 
-       </userinput> <p>Gebruik met masker URL. De onderzoeksrobot vindt en werkt alle documenten bij die het gespecificeerde masker URL aanpassen. </p> <p>U kunt URL met volgen 
-        <userinput>
-          onopvolgzaam 
-        </userinput> of 
-        <userinput>
+       <code>
+         update 
+       </code> <p>Gebruiken met URL-masker. De zoekrobot zoekt en werkt alle documenten bij die overeenkomen met het opgegeven URL-masker. </p> <p>U kunt de URL volgen met <code>
+          nofollow 
+        </code> of met <code>
           noindex 
-        </userinput> sleutelwoorden zoals in het volgende voorbeeld: </p> <p> <code> update&amp;nbsp;https://www.mydomain.com/products/ </code> </p> </li> 
+        </code> trefwoorden zoals in het volgende voorbeeld: </p> <p> <code> update&amp;nbsp;https://www.mydomain.com/products/ </code> </p> </li> 
       <li id="li_B3EC8B1670D54F66A1D8411A694EF7E4"> 
-       <userinput>
-         omvatten 
-       </userinput> of 
-       <userinput>
-         uitsluiten 
-       </userinput> <p>Gebruik met masker URL. De onderzoeksrobot vindt en indexen ("omvat") of negeert ("sluit") documenten uit die op het gespecificeerde type van masker worden gebaseerd. </p> <p>Bijvoorbeeld: </p> <p> <code> include&amp;nbsp;https://www.mydomain.com/products/household/lightbulbs*.html </code> </p> <p>of </p> <p> <code> exclude&amp;nbsp;https://www.mydomain.com/archive/ </code> </p> </li> 
+       <code>
+         include 
+       </code> of 
+       <code>
+         exclude 
+       </code> <p>Gebruiken met URL-masker. De zoekrobot zoekt en indexeert ("include") of negeert ("exclude") documenten op basis van het opgegeven type masker. </p> <p>Bijvoorbeeld: </p> <p> <code> include&amp;nbsp;https://www.mydomain.com/products/household/lightbulbs*.html </code> </p> <p>of </p> <p> <code> exclude&amp;nbsp;https://www.mydomain.com/archive/ </code> </p> </li> 
       <li id="li_050B54B735F0475E93806455FA6DC6A5"> 
-       <userinput>
-         incassodatum 
-       </userinput> of 
-       <userinput>
-         uitsluitingsdatum 
-       </userinput> <p>Gebruik met masker URL. De onderzoeksrobot vindt en indexen ("omvat") of negeert ("sluit") documenten uit die op zowel URL als de datum van documenten worden gebaseerd. De volgende soorten maskers zijn beschikbaar: </p> <p> 
+       <code>
+         include-date 
+       </code> of 
+       <code>
+         exclude-date 
+       </code> <p>Gebruiken met URL-masker. De zoekrobot zoekt en indexeert ("include") of negeert ("exclude") documenten op basis van zowel de URL als de datum van documenten. De volgende typen maskers zijn beschikbaar: </p> <p> 
         <ul id="ul_23A15CB492214B86BE84D8E6EA1820AE"> 
          <li id="li_0C7051AC3B5A4C57A3E477F7B6246611"> 
-          <userinput>
-            aantal dagen NNN 
-          </userinput> <p>De onderzoeksrobot indexeert alle documenten die het gespecificeerde masker URL aanpassen en NNN dagen of meer oud zijn. </p> <p>U kunt het masker URL met de sleutelwoorden volgen 
-           <userinput>
-             onopvolgzaam 
-           </userinput>, 
-           <userinput>
+          <code>
+            include-days NNN 
+          </code> <p>De zoekrobot indexeert alle documenten die overeenkomen met het opgegeven URL-masker en die NNN days of ouder zijn. </p> <p>U kunt het URL-masker volgen met de trefwoorden <code>
+             nofollow 
+           </code>, <code>
              noindex 
-           </userinput>en/of 
-           <userinput>
-             serverdatum 
-           </userinput>. </p> </li> 
+           </code>en/of <code>
+             server-date 
+           </code>. </p> </li> 
          <li id="li_983A10E2ED5D434EA9031F32143F4EF4"> 
-          <userinput>
-            inclusiedatum JJJJ-MM-DD 
-          </userinput> <p> De onderzoeksrobot indexeert alle documenten die het gespecificeerde Url- masker aanpassen en zijn zo oud of ouder dan de datum JJJJ-MM-DD, waar "JJJJ"het 4 cijferjaar is, "MM"is de één of twee-cijfermaand (1-12), en "DD"is de één of twee-cijferige dag (1-31). </p> <p>U kunt het masker URL met de sleutelwoorden volgen 
-           <userinput>
-             onopvolgzaam 
-           </userinput>, 
-           <userinput>
+          <code>
+            include-date YYYY-MM-DD 
+          </code> <p> De zoekrobot indexeert alle documenten die overeenkomen met het opgegeven URL-masker en die even oud of ouder zijn dan de datum YYYY-MM-DD, waarbij "YYYY" het jaartal in 4 cijfers is, "MM" de maand met 1 of 2 cijfers (1-12) en "DD" de dag met 1 of 2 cijfers (1-31). </p> <p>U kunt het URL-masker volgen met de trefwoorden <code>
+             nofollow 
+           </code>, <code>
              noindex 
-           </userinput>en/of 
-           <userinput>
-             serverdatum 
-           </userinput>. </p> </li> 
+           </code>en/of <code>
+             server-date 
+           </code>. </p> </li> 
          <li id="li_733CE1B748024CECA7FBE00D7BC7B88A"> 
-          <userinput>
-            uitsluitingsdagen NNN 
-          </userinput> <p> Maakt het indexeren van alle documenten onbruikbaar die het gespecificeerde masker URL aanpassen en NNN dagen of meer oud zijn. </p> <p>U kunt het masker URL met het sleutelwoord volgen 
-           <userinput>
-             serverdatum 
-           </userinput>. </p> </li> 
+          <code>
+            exclude-days NNN 
+          </code> <p> Hiermee schakelt u het indexeren uit van alle documenten die overeenkomen met het opgegeven URL-masker en die NNN days of ouder zijn. </p> <p>U kunt het URL-masker volgen met het trefwoord <code>
+             server-date 
+           </code>. </p> </li> 
          <li id="li_90056A0B96CC4DA3854711860A15CE89"> 
-          <userinput>
-            exclusief datum JJJJ-MM-DD 
-          </userinput> <p>Maakt het indexeren van alle documenten onbruikbaar die het gespecificeerde masker URL aanpassen en zijn zo oud of ouder dan de datum JJJJ-MM-DD. </p> <p>U kunt het masker URL met het sleutelwoord volgen 
-           <userinput>
-             serverdatum 
-           </userinput>. </p> </li> 
+          <code>
+            exclude-date YYYY-MM-DD 
+          </code> <p>Hiermee schakelt u het indexeren uit van alle documenten die overeenkomen met het opgegeven URL-masker en die even oud of ouder zijn dan de datum YYYY-MM-DD. </p> <p>U kunt het URL-masker volgen met het trefwoord <code>
+             server-date 
+           </code>. </p> </li> 
         </ul> </p> </li> 
       <li id="li_AA78F22B60FE4535BE73BA87A8992C08"> 
-       <userinput>
-         verwijderen 
-       </userinput> <p>URL's opgeven. De onderzoeksrobot verwijdert documenten uit de index die door URL worden geïdentificeerd. </p> </li> 
+       <code>
+         delete 
+       </code> <p>Geef URL's op. De zoekrobot verwijdert documenten uit de index die door de URL worden geïdentificeerd. </p> </li> 
       <li id="li_9C63061568AA4D57A4FEBCF6DB9194EC"> 
-       <userinput>
+       <code>
          deletemask 
-       </userinput> <p>De onderzoeksrobot verwijdert documenten uit de index die het gespecificeerde masker URL aanpast. </p> </li> 
+       </code> <p>De zoekrobot verwijdert documenten uit de index die overeenkomen met het opgegeven URL-masker. </p> </li> 
      </ul> </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Zie ook [over Maskers](../c-about-settings-menu/c-about-crawling-menu.md#concept_8039DFC53FF3410AA494D602F71BA164)URL.
+Zie ook [Informatie over URL-maskers](../c-about-settings-menu/c-about-crawling-menu.md#concept_8039DFC53FF3410AA494D602F71BA164).
 
-## Script-bestandsvoorbeeld {#section_9F580F20E7214751B157A28B392BD64E}
+## Voorbeeld van scriptbestand {#section_9F580F20E7214751B157A28B392BD64E}
 
-In het volgende voorbeeld van het manuscriptdossier, verwerkt de onderzoeksrobot de blokken op voorwaarde dat date-specifiers post-date date datum-specifier van het onlangs verwerkte blok. Als dat het geval is, dan komen de volgende het indexeren verrichtingen voor:
+In het volgende voorbeeld van het manuscriptdossier, verwerkt de onderzoeksrobot de blokken op voorwaarde dat date-specifiers de datum-specifier van het onlangs verwerkte blok post-date. Als dat het geval is, vinden de volgende indexeringsverrichtingen plaats:
 
-* Schrapt `y2k-problems.html` van de index.
+* Verwijdert `y2k-problems.html` uit de index.
 * Voegt `no-y2k-problems.html` aan de onderzoeksindex toe en volgt geen van de verbindingen voor `no-y2k-problems.html`.
 
-* Terwijl het kruipen, sluit URLs uit die `housewares.htm` en `lightfixtures.htm`l van de onderzoeksindex aanpassen.
+* Sluit tijdens het horizontaal schuiven URL&#39;s die overeenkomen `housewares.htm` en `lightfixtures.htm`l uit van de zoekindex.
 
-* Neem alle andere directory&#39;s en documenten onder op `www.mydomain.com`.
-* Werk alle documenten binnen de `products` en `information` folders bij, kruipend en indexerend alle dochterverbindingen die sinds de laatste het indexeren verrichting zijn veranderd.
+* Neem alle andere mappen en documenten op onder `www.mydomain.com`.
+* Werk alle documenten binnen de `products` en `information` folders bij, die en alle secundaire verbindingen kruipen indexeren die sinds de laatste het indexeren verrichting zijn veranderd.
 
-* Terwijl het kruipen, sluit URLs in de `archive` sectie van de website uit als zij op of vóór 1 Januari, 1999 gedateerd zijn.
-* Sluit URLs uit die `housewares.html` en van de onderzoeksindex aanpassen `lightfixtures.html` .
+* Sluit tijdens het kruipen URL&#39;s uit in het `archive` gedeelte van de website als ze dateren van of vóór 1 januari 1999.
+* Sluit URL&#39;s uit die overeenkomen met `housewares.html` en niet deel uitmaken `lightfixtures.html` van de zoekindex.
 
-* De dossiers van de index in de `help` folder, maar kruipen of indexeren geen verbindingen van die dossiers.
-* Kruip en indexeer om het even welke andere dossiers die voor worden ontmoet `www.mydomain.com`.
+* Indexeert bestanden in de `help` map, maar kruipt of indexeert geen koppelingen uit die bestanden.
+* Blader en indexeer eventuele andere bestanden die worden aangetroffen voor `www.mydomain.com`.
 
 ```
 # Start of file. 
@@ -201,88 +192,88 @@ update regexp ^https://www\.mydomain\.com/information/.*$
 # End of file.
 ```
 
-## Het vormen van een scripted stijgende index {#task_05AE040FE75E40FFAA5E10B6B6D4D255}
+## Een gescripte incrementele index configureren {#task_05AE040FE75E40FFAA5E10B6B6D4D255}
 
-U kunt een manuscript specificeren dat u hebt gecreeerd dat schrijft, bijwerkt, en handhaaft een stijgende index, zonder de behoefte aan login. De onderzoeksrobot leest instructies van het tekstdossier dat op uw server wordt ontvangen om de stijgende index uit te voeren.
+U kunt een script opgeven dat u hebt gemaakt en dat een incrementele index schrijft, bijwerkt en onderhoudt, zonder dat u zich hoeft aan te melden. De zoekrobot leest instructies uit het tekstbestand dat op uw server wordt gehost om de incrementele index uit te voeren.
 
-**Om een scripted stijgende index te vormen**
+**Een gescripte incrementele index configureren**
 
-1. Klik in het productmenu op **[!UICONTROL Index]** > **[!UICONTROL Scripted Index]** > **[!UICONTROL Configuration]**.
-1. Voor de **[!UICONTROL Scripted Incremental Index Configuration]** pagina, in **[!UICONTROL Script File URL]**, ga URL aan het manuscript van het tekstdossier in dat op uw server wordt gevestigd.
+1. Klik in het menu Product op **[!UICONTROL Index]** > **[!UICONTROL Scripted Index]** > **[!UICONTROL Configuration]**.
+1. Voer op de **[!UICONTROL Scripted Incremental Index Configuration]** pagina in het **[!UICONTROL Script File URL]** tekstbestand de URL in naar het script voor het tekstbestand dat zich op uw server bevindt.
 
-   Zie [over Scripted Index](../c-about-index-menu/c-about-scripted-index.md#concept_34F58D551BC04BFB8ADC294B9DA9199D).
-1. (Facultatief) controleer **[!UICONTROL Clear Date]** als u niet de onderzoeksrobot de datum-specifier van het onlangs verwerkte blok wilt &quot;herinneren&quot;.
+   Zie [Informatie over Scriptindex](../c-about-index-menu/c-about-scripted-index.md#concept_34F58D551BC04BFB8ADC294B9DA9199D).
+1. (Optioneel) Controleer **[!UICONTROL Clear Date]** of u niet wilt dat de zoekrobot de datum-aanduiding van het laatst verwerkte blok onthoudt.
 
-   Door gebrek, verwerkt de onderzoeksrobot slechts nieuwe blokken van bevelen die in het tekstdossier worden gevonden, dat door de datum van het dossier wordt bepaald. Als u niet het gebrek wilt, controleer **[!UICONTROL Clear Date]**.
+   Standaard verwerkt de zoekrobot alleen nieuwe opdrachtblokken die in het tekstbestand worden gevonden. Dit wordt bepaald door de datum van het bestand. Als u niet het gebrek wilt, controleer **[!UICONTROL Clear Date]**.
 1. Klik op **[!UICONTROL Save Changes]**.
-1. (Facultatief) doe één van het volgende:
+1. (Optioneel) Voer een van de volgende handelingen uit:
 
-   * Klik **[!UICONTROL History]** om het even welke veranderingen terug te keren die u hebt aangebracht.
+   * Klik **[!UICONTROL History]** om de aangebrachte wijzigingen terug te draaien.
 
       Zie De optie [Historie](../t-using-the-history-option.md#task_70DD3F87A67242BBBD2CB27156F43002)gebruiken.
 
    * Klik op **[!UICONTROL Live]**.
 
-      Zie live-instellingen [bekijken](../c-about-staging.md#task_401A0EBDB5DB4D4CA933CBA7BECDC10F).
+      Zie Live-instellingen [weergeven](../c-about-staging.md#task_401A0EBDB5DB4D4CA933CBA7BECDC10F).
 
    * Klik op **[!UICONTROL Push Live]**.
 
-      Zie [Stadsmontages van het Pushing leven](../c-about-staging.md#task_44306783B4C0408AAA58B471DAF2D9A4).
+      Zie [Werkgebiedinstellingen live](../c-about-staging.md#task_44306783B4C0408AAA58B471DAF2D9A4)spoelen.
 
-## Het plaatsen van het scripted stijgende indexprogramma voor een levende website {#task_B3A87AC4AC784507859C23B9062BA11C}
+## Het gescripte incrementele-indexschema voor een live website instellen {#task_B3A87AC4AC784507859C23B9062BA11C}
 
-U kunt scripted stijgende indexering plannen om met regelmatige intervallen door de dag voor te komen.
+U kunt de gescripte stijgende indexering plannen om met regelmatige intervallen door de dag voor te komen.
 
 De basistijd die u selecteert is lokaal volgens de tijdzone die in de Montages van de Rekening wordt gevormd.
 
-Zie [Je accountinstellingen](../c-about-settings-menu/c-about-account-options-menu.md#task_80A38D0C8E4F453395BD67B81E4B45D9)configureren.
+Zie [Uw accountinstellingen](../c-about-settings-menu/c-about-account-options-menu.md#task_80A38D0C8E4F453395BD67B81E4B45D9)configureren.
 
-De servers van het Web zijn vaak gepland om voor onderhoud in het midden van de nacht neer te gaan. Als uw server tijdens een geplande indextijd neer is, zal het het indexeren proces ontbreken. Zeker ben dat u een tijd van dag selecteert wanneer uw Webserver beschikbaar is.
+Webservers zullen vaak halverwege de nacht naar beneden gaan voor onderhoud. Als uw server tijdens een geplande indextijd neer is, zal het indexeren proces ontbreken. Zorg ervoor dat u een tijdstip van de dag selecteert waarop uw webserver beschikbaar is.
 
-Het indexprogramma is slechts op uw levende index van toepassing; u kunt gefaseerde stijgende indexen niet plannen.
+Het indexschema is alleen van toepassing op uw live index. u kunt gefaseerde incrementele indexen niet plannen.
 
-**Om het scripted stijgende indexprogramma voor een levende website te plaatsen**
+**Het gescripte incrementele-indexschema voor een live website instellen**
 
-1. Klik in het productmenu op **[!UICONTROL Index]** > **[!UICONTROL Scripted Index]** > **[!UICONTROL Live Schedule]**.
-1. Voor de **[!UICONTROL Scripted Incremental Index Schedule]** pagina, in de **[!UICONTROL Read the Scripted Incrementally Indexing File]** drop-down lijst, selecteer de frequentie dat u het scripted stijgende dossier van de indextekst, in uren of notulen wilt lopen.
-1. In de **[!UICONTROL Base Time]** drop-down lijst, selecteer de beginnende tijd wanneer u een nieuwe scripted stijgende index wilt regenereren.
+1. Klik in het menu Product op **[!UICONTROL Index]** > **[!UICONTROL Scripted Index]** > **[!UICONTROL Live Schedule]**.
+1. Selecteer op de **[!UICONTROL Scripted Incremental Index Schedule]** pagina in de **[!UICONTROL Read the Scripted Incrementally Indexing File]** vervolgkeuzelijst de frequentie waarmee het gescripte incrementele-indextekstbestand moet worden uitgevoerd, in uren of minuten.
+1. Selecteer in de **[!UICONTROL Base Time]** vervolgkeuzelijst de begintijd waarop u een nieuwe gescripte incrementele index opnieuw wilt genereren.
 1. Klik op **[!UICONTROL Save Changes]**.
 
-## Het runnen van een scripted stijgende index van een levende of gefaseerde website {#task_6E6FC76EE1E84A5FADB3B67AD7B1DACB}
+## Een gescripte incrementele index van een actieve of gefaseerde website uitvoeren {#task_6E6FC76EE1E84A5FADB3B67AD7B1DACB}
 
-U kunt de Stijgende Index van Scripted gebruiken om &quot;stukken&quot;van uw levende of gefaseerde website, zoals een inzameling van vaak veranderde pagina&#39;s te indexeren, allen zonder de behoefte aan login.
+U kunt Scripted Incrementele Index gebruiken om &quot;stukken&quot; van uw actieve of gefaseerde website te indexeren, zoals een verzameling pagina&#39;s die vaak worden gewijzigd, zonder dat u zich hoeft aan te melden.
 
-Om deze eigenschap te gebruiken, ben zeker dat u een scripted stijgende dossier van de indextekst hebt gevormd.
+Als u deze functie wilt gebruiken, moet u een gescript incrementeel indextekstbestand configureren.
 
-Zie het [Vormen van een scripted stijgende index](../c-about-index-menu/c-about-scripted-index.md#task_05AE040FE75E40FFAA5E10B6B6D4D255).
+Zie [Een gescripte incrementele index](../c-about-index-menu/c-about-scripted-index.md#task_05AE040FE75E40FFAA5E10B6B6D4D255)configureren.
 
-**Om een scripted stijgende index van een levende of gefaseerde website in werking te stellen**
+**Een gescripte incrementele index van een actieve of gefaseerde website uitvoeren**
 
-1. Voor het productmenu, doe één van het volgende:
+1. Voer een van de volgende handelingen uit in het menu Product:
 
    * Klik op **[!UICONTROL Index]** > **[!UICONTROL Scripted Index]** > **[!UICONTROL Live Index]**.
    * Klik op **[!UICONTROL Index]** > **[!UICONTROL Scripted Index]** > **[!UICONTROL Staged Index]**.
 
 1. Klik op **[!UICONTROL Scripted Index Now]**.
-1. (Facultatief) als het indexeren fouten voorkwamen, klik **[!UICONTROL View Errors]** om het bijbehorende logboek te bekijken.
+1. (Optioneel) Als er indexatiefouten zijn opgetreden, klikt u **[!UICONTROL View Errors]** om het gekoppelde logboek weer te geven.
 
-## Het bekijken van het scripted stijgende indexlogboek van een levende of gefaseerde website {#task_CBFCE9B9A87B4DF7A2A35A6E83DE93D7}
+## Het gescripte incrementele-indexlogboek van een live of gefaseerde website weergeven {#task_CBFCE9B9A87B4DF7A2A35A6E83DE93D7}
 
-Wanneer een levende volledige scripted index of een gefaseerde volledige scripted index volledig is, kunt u zijn bijbehorend logboek bekijken om het even welke fouten problemen op te lossen die voorkwamen.
+Wanneer een live volledige scriptindex of een gefaseerde volledige scriptindex is voltooid, kunt u het bijbehorende logboek weergeven om eventuele fouten op te lossen.
 
-U kunt geen logboeken uitvoeren, noch hen bewaren. Nochtans, blijft het logboek beschikbaar voor het bekijken tot de nieuwe index voorkomt.
+U kunt logboeken niet exporteren of opslaan. Het logboek blijft echter beschikbaar voor weergave totdat de nieuwe index wordt weergegeven.
 
-**Om het stijgende indexlogboek van een levende of gefaseerde website te bekijken**
+**Het incrementele indexlogboek van een live of gefaseerde website weergeven**
 
-1. Voor het productmenu, doe één van het volgende:
+1. Voer een van de volgende handelingen uit in het menu Product:
 
    * Klik op **[!UICONTROL Index]** > **[!UICONTROL Scripted Index]** > **[!UICONTROL Live Log]**.
 
    * Klik op **[!UICONTROL Index]** > **[!UICONTROL Scripted Index]** > **[!UICONTROL Staged Log]**.
 
-1. Voor de logboekpagina, bij de bovenkant of de bodem, doe om het even welke volgend:
+1. Voer een of meerdere van de volgende handelingen uit op de logpagina, boven of onder:
 
-   * Gebruik de navigatieopties **[!UICONTROL First]**, **[!UICONTROL Prev]**, **[!UICONTROL Next]**, **[!UICONTROL Last]**, of **[!UICONTROL Go to line]** om zich door het logboek te bewegen.
+   * Gebruik de navigatieopties **[!UICONTROL First]**, **[!UICONTROL Prev]**, **[!UICONTROL Next]**, **[!UICONTROL Last]**, of **[!UICONTROL Go to line]** om door het logboek te bewegen.
 
-   * Gebruik de vertoningsopties **[!UICONTROL Errors only]**, **[!UICONTROL Wrap line]**, of **[!UICONTROL Show]** om te raffineren wat u ziet.
+   * Gebruik de weergaveopties **[!UICONTROL Errors only]**, **[!UICONTROL Wrap line]** of **[!UICONTROL Show]** om te verfijnen wat u ziet.
 

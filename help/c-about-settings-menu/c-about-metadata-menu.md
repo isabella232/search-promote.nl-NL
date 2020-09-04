@@ -8,9 +8,9 @@ title: Het menu Metagegevens
 topic: Settings,Site search and merchandising
 uuid: f12fc863-a140-45e8-b219-3dbfdef099cd
 translation-type: tm+mt
-source-git-commit: e080a61e24a3809beff7c212ff3d088b2a8ad3b6
+source-git-commit: 552f93f1f630c64bbe3d5c8a87c4f5895ae6868c
 workflow-type: tm+mt
-source-wordcount: '8064'
+source-wordcount: '8039'
 ht-degree: 0%
 
 ---
@@ -68,10 +68,9 @@ Voordat de effecten van de nieuwe definitie van de meta-tag zichtbaar zijn voor 
       </tr> 
       <tr> 
       <td colname="col1"> <p>Naam/namen metatag </p> </td> 
-      <td colname="col2"> <p>Bepaalt de inhoud die aan het gedefinieerde veld is gekoppeld. </p> <p>De lijst met namen kan maximaal 255 tekens lang zijn. En naam kan alle tekens bevatten die zijn toegestaan in het naamkenmerk van een HTML-metatag. </p> <p>U kunt meerdere metatags opgeven in één velddefinitie. </p> <p>Meerdere waarden moeten door komma's van elkaar worden gescheiden en de naam van de meest linkse meta-tag die op een bepaalde webpagina wordt gevonden, krijgt voorrang. </p> <p>Stel dat u een veld met de naam "auth" hebt gedefinieerd. De veldnaam heeft de bijbehorende metatags "auteur, dc.auteur". In dit geval wordt de inhoud van de metatag "auteur" geïndexeerd en wordt deze doorzocht op die van "dc.auteur" als beide metatags op een webpagina worden weergegeven. </p> <p>Door de gebruiker gedefinieerde velden moeten minstens één metatag-tagnaam in hun definitie hebben. Vooraf gedefinieerde velden hoeven geen bijbehorende metatag te hebben. Als er echter een of meer metatags zijn opgegeven, heeft de inhoud van de metatags voorrang op de huidige gegevensbron voor elke tag. </p> <p>Als de metatag 'dc.title' bijvoorbeeld is gekoppeld aan het vooraf gedefinieerde veld 'title', wordt de inhoud van de metatag 'dc.title' geïndexeerd op die van de metatag 
-      <userinput>
+      <td colname="col2"> <p>Bepaalt de inhoud die aan het gedefinieerde veld is gekoppeld. </p> <p>De lijst met namen kan maximaal 255 tekens lang zijn. En naam kan alle tekens bevatten die zijn toegestaan in het naamkenmerk van een HTML-metatag. </p> <p>U kunt meerdere metatags opgeven in één velddefinitie. </p> <p>Meerdere waarden moeten door komma's van elkaar worden gescheiden en de naam van de meest linkse meta-tag die op een bepaalde webpagina wordt gevonden, krijgt voorrang. </p> <p>Stel dat u een veld met de naam "auth" hebt gedefinieerd. De veldnaam heeft de bijbehorende metatags "auteur, dc.auteur". In dit geval wordt de inhoud van de metatag "auteur" geïndexeerd en wordt deze doorzocht op die van "dc.auteur" als beide metatags op een webpagina worden weergegeven. </p> <p>Door de gebruiker gedefinieerde velden moeten minstens één metatag-tagnaam in hun definitie hebben. Vooraf gedefinieerde velden hoeven geen bijbehorende metatag te hebben. Als er echter een of meer metatags zijn opgegeven, heeft de inhoud van de metatags voorrang op de huidige gegevensbron voor elke tag. </p> <p>Als bijvoorbeeld de metatag "dc.title" is gekoppeld aan het vooraf gedefinieerde veld "title", wordt de inhoud van de metatag "dc.title" geïndexeerd boven die van de <code>
         &lt;title&gt; 
-      </userinput> -code voor een bepaald document. </p> <p>Voorbeelden zijn: </p> <p> 
+      </code> tag voor een bepaald document. </p> <p>Voorbeelden zijn: </p> <p> 
       <ul id="ul_0132E15FC19E4C0CA13CD5A12EA3BBEC"> 
       <li id="li_ECD3B194FECB4C2090CAEC8449320D3F"> dc.date </li> 
       <li id="li_09C76BC7AC7348859D01989697212E31"> beschrijving </li> 
@@ -96,38 +95,31 @@ Voordat de effecten van de nieuwe definitie van de meta-tag zichtbaar zijn voor 
       </ul> </p> </td> 
       </tr> 
       <tr> 
-      <td colname="col1"> <p>Lijsten toestaan </p> </td> 
-      <td colname="col2"> <p>Alleen beschikbaar als het gegevenstype <span class="uicontrol"> Tekst </span>of <span class="uicontrol"> Getal </span> is geselecteerd. </p> <p>Door indexering gescheiden waarden in de metagegevensinhoud van dit veld. </p> <p>De inhoud "Rood, Geel, Groen, Blauw" wordt bijvoorbeeld behandeld als vier aparte waarden in plaats van één als "Lijsten toestaan" is geselecteerd. Deze behandeling is vooral handig bij het zoeken naar bereiken (met 
-      <userinput>
+      <td colname="col1"> <p>lijsten van gewenste personen </p> </td> 
+      <td colname="col2"> <p>Alleen beschikbaar als het gegevenstype <span class="uicontrol"> Tekst </span>of <span class="uicontrol"> Getal </span> is geselecteerd. </p> <p>Door indexering gescheiden waarden in de metagegevensinhoud van dit veld. </p> <p>De inhoud "Rood, Geel, Groen, Blauw" wordt bijvoorbeeld behandeld als vier aparte waarden in plaats van één als "Lijsten van gewenste personen" is geselecteerd. Deze behandeling is het meest nuttig bij het zoeken van het bereik (met <code>
         sp_q_min 
-      </userinput>, 
-      <userinput>
+      </code>, <code>
         sp_q_max 
-      </userinput>, of 
-      <userinput>
+      </code>of <code>
         sp_q_exact 
-      </userinput>) en met de 
-      <userinput>
+      </code>) en met de <code>
         &lt;search-field-value-list&gt; 
-      </userinput>, 
-      <userinput>
+      </code>, <code>
         &lt;search-field-values&gt; 
-      </userinput>, en 
-      <userinput>
+      </code>, en <code>
         &lt;search-display-field-values&gt; 
-      </userinput>. </p> <p>Niet beschikbaar als het gegevenstype Versie is geselecteerd. </p> </td> 
+      </code>. </p> <p>Niet beschikbaar als het gegevenstype Versie is geselecteerd. </p> </td> 
       </tr> 
       <tr> 
       <td colname="col1"> <p> Dynamisch facet </p> </td> 
       <td colname="col2"> <p> 
-        <!--NEW 2/2/2014--> <p>Opmerking:  Deze functie is niet standaard ingeschakeld. Neem contact op met Technische ondersteuning om deze te activeren voor gebruik. Nadat deze is geactiveerd, wordt deze weergegeven in de gebruikersinterface. </p> </p> <p>Hiermee wordt het geïdentificeerde facet ingesteld op dynamisch. </p> <p>Facetten worden boven op metatag-tagvelden gebouwd. Een metatag-tagveld is een laag, kernzoeklaag van Adobe Search&amp;Promote. Facets daarentegen maken deel uit van GS (Guided Search), de laag op hoog niveau waarop Adobe Search&amp;Promote wordt weergegeven. Facetten hebben echter eigen velden voor metatags, maar velden voor metatags weten niets over facetten. </p> <p>Zie <a href="../c-about-design-menu/c-about-dynamic-facets.md#concept_E65A70C9C2E04804BF24FBE1B3CAD899" format="dita" scope="local"> Informatie over dynamische factoren </a>. </p> </td> 
+        <!--NEW 2/2/2014--> <p>Opmerking:  Deze functie is niet standaard ingeschakeld. Neem contact op met Technische ondersteuning om deze te activeren voor gebruik. Nadat deze is geactiveerd, wordt deze weergegeven in de gebruikersinterface. </p> </p> <p>Hiermee wordt het geïdentificeerde facet ingesteld op dynamisch. </p> <p>Facetten worden boven op metatag-tagvelden gebouwd. Een metatag etiketgebied is een laag-vlakke, kernonderzoekslaag van Adobe Search&amp;Promote. Facetten daarentegen maken deel uit van GS (Guided Search) - de presentatielaag op hoog niveau van Adobe Search&amp;Promote. Facetten hebben echter eigen velden voor metatags, maar velden voor metatags weten niets over facetten. </p> <p>Zie <a href="../c-about-design-menu/c-about-dynamic-facets.md#concept_E65A70C9C2E04804BF24FBE1B3CAD899" format="dita" scope="local"> Informatie over dynamische factoren </a>. </p> </td> 
       </tr> 
       <tr> 
       <td colname="col1"> <p>Dedupe toestaan </p> </td> 
-      <td colname="col2"> <p>Schakel deze optie in als u deduplicatie wilt inschakelen voor dit veld. Dat wil zeggen dat dit veld tijdens het zoeken kan worden opgegeven met de opdracht 
-        <userinput>
+      <td colname="col2"> <p>Schakel deze optie in als u deduplicatie wilt inschakelen voor dit veld. Dat wil zeggen dat dit veld tijdens het zoeken kan worden opgegeven met de parameter <code>
           sp_dedupe_field 
-        </userinput> Doorzoek de CGI-parameter. </p> <p>Zie <a href="../c-appendices/c-cgiparameters.md#reference_DA27A8B0728246DA94994885E1353890" type="reference" format="dita" scope="local"> CGI-parameters zoeken </a>. </p> </td> 
+        </code> Search CGI. </p> <p>Zie <a href="../c-appendices/c-cgiparameters.md#reference_DA27A8B0728246DA94994885E1353890" type="reference" format="dita" scope="local"> CGI-parameters zoeken </a>. </p> </td> 
       </tr> 
       <tr> 
       <td colname="col1"> <p>Tabelnaam </p> </td> 
@@ -135,7 +127,7 @@ Voordat de effecten van de nieuwe definitie van de meta-tag zichtbaar zijn voor 
       </tr> 
       <tr> 
       <td colname="col1"> <p>Lijstscheidingstekens </p> </td> 
-      <td colname="col2"> <p>Alleen beschikbaar als Lijsten <span class="uicontrol"> toestaan </span> is geselecteerd. </p> <p>Geeft aan welke tekens afzonderlijke lijstwaarden scheiden. U kunt meerdere tekens opgeven, die elk als waardescheidingsteken worden behandeld. </p> </td> 
+      <td colname="col2"> <p>Alleen beschikbaar als <span class="uicontrol"> Lijsten van gewenste personen </span> is geselecteerd. </p> <p>Geeft aan welke tekens afzonderlijke lijstwaarden scheiden. U kunt meerdere tekens opgeven, die elk als waardescheidingsteken worden behandeld. </p> </td> 
       </tr> 
       <tr> 
       <td colname="col1"> <p>Standaard zoeken </p> </td> 
@@ -151,10 +143,9 @@ Voordat de effecten van de nieuwe definitie van de meta-tag zichtbaar zijn voor 
       </tr> 
       <tr> 
       <td colname="col1"> <p>Sorteren </p> </td> 
-      <td colname="col2"> <p>Hiermee geeft u aan wanneer de resultaten op het benoemde veld worden gesorteerd via de optie 
-        <userinput>
+      <td colname="col2"> <p>Hiermee geeft u aan wanneer de resultaten worden gesorteerd op het benoemde veld via de parameter <code>
           sp_s 
-        </userinput> Doorzoek de CGI-parameter. </p> <p>Zie <a href="../c-appendices/c-cgiparameters.md#reference_DA27A8B0728246DA94994885E1353890" type="reference" format="dita" scope="local"> CGI-parameters zoeken </a>. </p> </td> 
+        </code> Search CGI. </p> <p>Zie <a href="../c-appendices/c-cgiparameters.md#reference_DA27A8B0728246DA94994885E1353890" type="reference" format="dita" scope="local"> CGI-parameters zoeken </a>. </p> </td> 
       </tr> 
       <tr> 
       <td colname="col1"> <p>Taal </p> </td> 
@@ -186,16 +177,13 @@ Voordat de effecten van de nieuwe definitie van de meta-tag zichtbaar zijn voor 
       </tr> 
       <tr> 
       <td colname="col1"> <p>Standaardeenheden </p> </td> 
-      <td colname="col2"> <p>Alleen beschikbaar als het gegevenstype <span class="uicontrol"> Locatie </span> is geselecteerd als gegevenstype. </p> <p>Bepaalt de behandeling van afstandswaarden voor zoeken in nabijheid. </p> <p>Als u de standaardeenheden op <span class="uicontrol"> Miles plaatst </span>, dan om het even welke nabijheidsonderzoek minimum/maximumafstandscriteria die op dit gebied (als 
-      <userinput>
+      <td colname="col2"> <p>Alleen beschikbaar als het gegevenstype <span class="uicontrol"> Locatie </span> is geselecteerd als gegevenstype. </p> <p>Bepaalt de behandeling van afstandswaarden voor zoeken in nabijheid. </p> <p>Als u de standaardeenheden op <span class="uicontrol"> Miles plaatst </span>, dan wordt om het even welke nabijheidsonderzoek minimum/maximumafstandscriteria die op dit gebied (als <code>
         sp_q_min[_#] 
-      </userinput> of de 
-      <userinput>
+      </code> <code>
         sp_q_max[_#] 
-      </userinput> CGI-parameters zoeken) wordt beschouwd als mijlen, anders als kilometers. </p> <p>Met deze optie stelt u ook de standaardafstandseenheden in die worden toegepast op de uitvoer van het dialoogvenster 
-      <userinput>
+      </code> of de parameters van CGI van het Onderzoek) worden toegepast behandeld als mijlen, anders als kilometers. </p> <p>Met deze optie stelt u ook de standaardafstand-eenheden in die worden toegepast op de uitvoer van de sjabloontag voor <code>
         &lt;Search-Display-Field&gt; 
-      </userinput> de malplaatjemarkering van onderzoeksresultaten wanneer toegepast op een nabijheidsonderzoek outputgebied. </p> <p>Zie <a href="../c-appendices/r-about-proximity-search.md#reference_45AC6BB50609431ABD31DA46EE65360D" type="reference" format="dita" scope="local"> Informatie over nabijheid zoeken </a>. </p> </td> 
+      </code> zoekresultaten wanneer deze worden toegepast op een nabijheidsveld voor zoekopdrachten. </p> <p>Zie <a href="../c-appendices/r-about-proximity-search.md#reference_45AC6BB50609431ABD31DA46EE65360D" type="reference" format="dita" scope="local"> Informatie over nabijheid zoeken </a>. </p> </td> 
       </tr> 
       <tr> 
       <td colname="col1"> <p>Bereik omschrijven? </p> </td> 
@@ -300,7 +288,7 @@ U kunt alleen bepaalde velden in vooraf gedefinieerde metatags bewerken of alle 
 
 Voordat de effecten van de wijzigingen in de metatag zichtbaar zijn voor klanten, moet u de index van de site opnieuw genereren.
 
-**Vooraf gedefinieerde of door de gebruiker gedefinieerde metatag-tagvelden bewerken**
+**Vooraf gedefinieerde of door de gebruiker gedefinieerde metatagvelden bewerken**
 
 1. Klik in het menu Product op **[!UICONTROL Settings]** > **[!UICONTROL Metadata]** > **[!UICONTROL Definitions]**.
 1. Klik op de [!DNL Definitions] pagina in de [!DNL Actions] kolom van de tabel **[!UICONTROL Edit]** in de rij van de veldnaam van de metatag die u wilt wijzigen.
@@ -480,7 +468,7 @@ Gebruik deze optie [!DNL Attribute Loader] om extra invoerbronnen te definiëren
 
 >[!NOTE]
 >
->Als u Kenmerklader wilt gebruiken, moet deze mogelijk in uw account zijn ingeschakeld door uw Adobe-accountvertegenwoordiger of door de ondersteuning van Adobe.
+>Als u Kenmerklader wilt gebruiken, moet deze mogelijk in uw account zijn ingeschakeld door uw accountvertegenwoordiger van de Adobe of door Adobe Support.
 
 U kunt een invoerbron voor gegevensinvoer gebruiken om toegang te krijgen tot inhoud die is opgeslagen in een formulier dat afwijkt van wat normaal gesproken op een website wordt ontdekt. U doet dit gebruikend één van de beschikbare kruipmethodes. De gegevens uit deze bronnen kunnen dan in gegevens van gekropen inhoud worden geïnjecteerd.
 
@@ -590,7 +578,7 @@ Elke configuratie van de Lader van Attributen bepaalt een gegevensbron en afbeel
 
 >[!NOTE]
 >
->Als u Kenmerklader wilt gebruiken, moet deze mogelijk in uw account zijn ingeschakeld door uw Adobe-accountvertegenwoordiger of door de ondersteuning van Adobe.
+>Als u Kenmerklader wilt gebruiken, moet deze mogelijk in uw account zijn ingeschakeld door uw accountvertegenwoordiger van de Adobe of door Adobe Support.
 
 Voordat de effecten van de nieuwe en ingeschakelde definitie zichtbaar zijn voor klanten, moet u de index van uw site opnieuw samenstellen.
 
@@ -630,7 +618,7 @@ Voordat de effecten van de nieuwe en ingeschakelde definitie zichtbaar zijn voor
       </tr> 
       <tr> 
       <td colname="col1"> <p>Adres van gastheer </p> </td> 
-      <td colname="col2"> <p>Hier geeft u het adres op van de serverhost waarop de gegevens zich bevinden. </p> <p>U kunt desgewenst een volledig URI-pad (Uniform Resource Identifier) opgeven naar het gegevensbrondocument, zoals in de volgende voorbeelden: </p> <p> <code otherprops="syntax html"> https://www.somewhere.com/some_path/some_file.tsv </code> </p> <p>of </p> <p> <code class="syntax html"> ftp://user:password@ftpserver.somewhere.com/some_path/some_file.csv </code> </p> <p>URI wordt verdeeld in de aangewezen ingangen voor het Adres van de Gastheer, de Weg van het Dossier, het Protocol, en, naar keuze, de gebieden van de Gebruikersnaam, en van het Wachtwoord </p> </td> 
+      <td colname="col2"> <p>Hier geeft u het adres op van de serverhost waarop de gegevens zich bevinden. </p> <p>U kunt desgewenst een volledig URI-pad (Uniform Resource Identifier) opgeven naar het gegevensbrondocument, zoals in de volgende voorbeelden: </p> <p> <code otherprops="syntax html"> https://www.somewhere.com/some_path/some_file.tsv </code> </p> <p>of </p> <p> <code class="syntax html"> ftp://user:password@ftpserver.somewhere.com/some_path/some_file.csv </code> </p> <p>URI wordt verdeeld in de aangewezen ingangen voor de gebieden van het Adres van de Gastheer, van de Weg van het Dossier, van het Protocol, en, naar keuze, Gebruikersnaam, en van het Wachtwoord </p> </td> 
       </tr> 
       <tr> 
       <td colname="col1"> <p>Bestandspad </p> </td> 
@@ -763,7 +751,7 @@ Voordat de effecten van de nieuwe en ingeschakelde definitie zichtbaar zijn voor
       <td colname="col1"> <p>Kaart </p> </td> 
       <td colname="col2"> <p>Hiermee kunt u XML-element-aan-metagegevenstoewijzingen opgeven met XPath-expressies. </p> <p> 
       <ul id="ul_604108C0277C4892AE8A40CA39889ABD"> 
-      <li id="li_0AF92270AE9F4BA8B2C7EE41FABC0F34"> <span class="uicontrol"> Tag </span> <p>Hiermee wordt een XPath-representatie van de geparseerde XML-gegevens opgegeven. Met behulp van het voorbeeld van het Adobe XML-document hierboven, onder de optie Item-tag, kan deze worden toegewezen met behulp van de volgende syntaxis: </p> <p> <code class="syntax xml"> /record/@displayurl&nbsp;-&gt;&nbsp;page-url 
+      <li id="li_0AF92270AE9F4BA8B2C7EE41FABC0F34"> <span class="uicontrol"> Tag </span> <p>Hiermee wordt een XPath-representatie van de geparseerde XML-gegevens opgegeven. Met behulp van het voorbeeld Adobe XML-document hierboven, onder de optie Item-tag, kan deze worden toegewezen met behulp van de volgende syntaxis: </p> <p> <code class="syntax xml"> /record/@displayurl&nbsp;-&gt;&nbsp;page-url 
         /record/metadata/meta[@name='title']/@content&nbsp;-&gt;&nbsp;title 
         /record/metadata/meta[@name='description']/@content&nbsp;-&gt;&nbsp;desc 
         /record/metadata/meta[@name='description']/@content&nbsp;-&gt;&nbsp;body </code> </p> <p>De bovenstaande syntaxis wordt als volgt vertaald: </p> <p> 
@@ -774,7 +762,7 @@ Voordat de effecten van de nieuwe en ingeschakelde definitie zichtbaar zijn voor
         <li id="li_E35EAE3D284D46D485D9064D7BB6AB13"> <code class="syntax xml"> /record/metadata/meta[@name='description']/@content&amp;nbsp;-&gt;&amp;nbsp;body </code> <p>Het <span class="codeph"> inhoudskenmerk </span> van een willekeurig <span class="codeph"> meta- </span> element dat zich in een <span class="codeph"> metagegevenselement bevindt, dat zich in het </span> record- <span class="codeph"> element bevindt, waarvan het naamkenmerk een </span> beschrijving is <span class="codeph"> </span><span class="codeph"> </span>, wijst toe aan de  tekst van het metagegevensveld. </p> </li> 
         </ul> </p> <p>XPath is een relatief gecompliceerde notatie. Meer informatie is beschikbaar op de volgende locatie: </p> <p>Zie <a href="https://www.w3schools.com/xpath/" scope="external" format="html"> https://www.w3schools.com/xpath/ </a> </p> </li> 
       <li id="li_8147075D7ACD4811A7ED335F23FE62A6"> <span class="uicontrol"> Veld </span> <p>Definieert de waarde van het naamkenmerk die wordt gebruikt voor elke gegenereerde <span class="codeph"> &lt;meta&gt;- </span> tag. </p> </li> 
-      <li id="li_2380199D63BF425A919606D8232FA6E2"> <span class="uicontrol"> Metagegevens? </span> <p>Hiermee wordt <span class="uicontrol"> Veld een vervolgkeuzelijst </span> waarin u gedefinieerde metagegevensvelden voor de huidige account kunt selecteren. </p> <p>De <span class="uicontrol"> </span> veldwaarde kan desgewenst een ongedefinieerd metagegevensveld zijn. Een niet-gedefinieerd metagegevensveld is soms handig om inhoud te maken die wordt gebruikt door Script <span class="wintitle"> filteren </span>. </p> <p>Zie <a href="../c-about-settings-menu/c-about-filtering-menu.md#concept_E56B73D625854AB2A899EF2D56CFCB47" type="concept" format="dita" scope="local"> Scripts filteren </a>. </p> <p>Wanneer de Lader van Attributen de documenten van XML met veelvoudige klappen op om het even welk kaartgebied verwerkt, worden de veelvoudige waarden samengevoegd in één enkele waarde in het resulterende caching document. Deze waarden worden standaard gecombineerd met een komma-scheidingsteken. Stel echter dat de corresponderende <span class="wintitle"> </span> veldwaarde een gedefinieerd metagegevensveld is. Bovendien is voor dat veld het <span class="wintitle"> kenmerk Lijsten </span> toestaan ingesteld. In dit geval wordt de waarde van Lijstscheidingstekens van het veld (het eerste gedefinieerde scheidingsteken) gebruikt bij de samenvoeging. </p> </li> 
+      <li id="li_2380199D63BF425A919606D8232FA6E2"> <span class="uicontrol"> Metagegevens? </span> <p>Hiermee wordt <span class="uicontrol"> Veld een vervolgkeuzelijst </span> waarin u gedefinieerde metagegevensvelden voor de huidige account kunt selecteren. </p> <p>De <span class="uicontrol"> </span> veldwaarde kan desgewenst een ongedefinieerd metagegevensveld zijn. Een niet-gedefinieerd metagegevensveld is soms handig om inhoud te maken die wordt gebruikt door Script <span class="wintitle"> filteren </span>. </p> <p>Zie <a href="../c-about-settings-menu/c-about-filtering-menu.md#concept_E56B73D625854AB2A899EF2D56CFCB47" type="concept" format="dita" scope="local"> Scripts filteren </a>. </p> <p>Wanneer de Lader van Attributen de documenten van XML met veelvoudige klappen op om het even welk kaartgebied verwerkt, worden de veelvoudige waarden samengevoegd in één enkele waarde in het resulterende caching document. Deze waarden worden standaard gecombineerd met een komma-scheidingsteken. Stel echter dat de corresponderende <span class="wintitle"> </span> veldwaarde een gedefinieerd metagegevensveld is. Bovendien is voor dat veld het <span class="wintitle"> kenmerk </span> Lijsten van gewenste personen ingesteld. In dit geval wordt de waarde van Lijstscheidingstekens van het veld (het eerste gedefinieerde scheidingsteken) gebruikt bij de samenvoeging. </p> </li> 
       <li id="li_DEA24003E97E406DA2510C43CCFDC70E"> <span class="uicontrol"> Primaire sleutel? </span> <p>Er wordt slechts één veld geïdentificeerd als primaire sleutel. Dit veld wordt gebruikt als de "buitenlandse sleutel" die overeenkomt met de kenmerkladingsgegevens en het corresponderende document in de index. </p> </li> 
       <li id="li_80D6AF130FCE40AC972FE4B605B86BF6"> <span class="uicontrol"> HTML verwijderen? </span> <p>Als deze optie is ingeschakeld, worden alle HTML-tags in de gegevens van dit veld verwijderd. </p> </li> 
       <li id="li_D40E2F9AD8AD49FC9AC4B8C75BA31E28"> <span class="uicontrol"> Handeling </span> <p>Hiermee kunt u rijen toevoegen aan de kaart of rijen verwijderen van de kaart. De volgorde van de rijen is niet belangrijk. </p> </li> 
@@ -806,9 +794,9 @@ U kunt een bestaande kenmerklader bewerken die u hebt gedefinieerd.
 
 >[!NOTE]
 >
->Als u Kenmerklader wilt gebruiken, moet deze mogelijk in uw account zijn ingeschakeld door uw Adobe-accountvertegenwoordiger of door de ondersteuning van Adobe.
+>Als u Kenmerklader wilt gebruiken, moet deze mogelijk in uw account zijn ingeschakeld door uw accountvertegenwoordiger van de Adobe of door Adobe Support.
 
-Niet alle opties voor kenmerklader zijn beschikbaar om te worden gewijzigd, zoals de naam of het type kenmerklader in de [!DNL Type] vervolgkeuzelijst.
+Niet alle opties voor kenmerklader zijn beschikbaar om te worden gewijzigd, zoals de naam of het type van de kenmerklader in de [!DNL Type] vervolgkeuzelijst.
 
 **De definitie van een kenmerklader bewerken**
 
@@ -839,7 +827,7 @@ U kunt een bestaande definitie van kenmerklader kopiëren en gebruiken als basis
 
 >[!NOTE]
 >
->Als u Kenmerklader wilt gebruiken, moet deze mogelijk in uw account zijn ingeschakeld door uw Adobe-accountvertegenwoordiger of door de ondersteuning van Adobe.
+>Als u Kenmerklader wilt gebruiken, moet deze mogelijk in uw account zijn ingeschakeld door uw accountvertegenwoordiger van de Adobe of door Adobe Support.
 
 Bij het kopiëren van een definitie van een kenmerklader wordt de gekopieerde definitie standaard uitgeschakeld. Als u de definitie wilt in- of inschakelen, moet u deze bewerken vanaf de [!DNL Attribute Loader Edit] pagina en vervolgens **[!UICONTROL Enable]** selecteren.
 
@@ -871,7 +859,7 @@ U kunt de naam wijzigen van een bestaande definitie van kenmerklader.
 
 >[!NOTE]
 >
->Als u Kenmerklader wilt gebruiken, moet deze mogelijk in uw account zijn ingeschakeld door uw Adobe-accountvertegenwoordiger of door de ondersteuning van Adobe.
+>Als u Kenmerklader wilt gebruiken, moet deze mogelijk in uw account zijn ingeschakeld door uw accountvertegenwoordiger van de Adobe of door Adobe Support.
 
 **De naam van de definitie van een kenmerklader wijzigen**
 
@@ -897,7 +885,7 @@ U kunt de naam wijzigen van een bestaande definitie van kenmerklader.
 
 U kunt de geconfigureerde gegevens van de kenmerklader downloaden naar het zoeken/verhandelen van sites.
 
-De [!DNL Data Load] pagina bevat de volgende informatie over de status van de laatste bewerking voor het laden van gegevens van kenmerklader:
+Op de [!DNL Data Load] pagina ziet u de volgende informatie over de status van de laatste bewerking voor het laden van kenmerkgegevens:
 
 <table> 
  <thead> 
@@ -968,7 +956,7 @@ Nadat een definitie van kenmerklader aan de [!DNL Attribute Loader Definitions] 
 
 >[!NOTE]
 >
->Als u Kenmerklader wilt gebruiken, moet deze mogelijk in uw account zijn ingeschakeld door uw Adobe-accountvertegenwoordiger of door de ondersteuning van Adobe.
+>Als u Kenmerklader wilt gebruiken, moet deze mogelijk in uw account zijn ingeschakeld door uw accountvertegenwoordiger van de Adobe of door Adobe Support.
 
 **De instellingen van de definitie van een kenmerklader weergeven**
 
@@ -994,7 +982,7 @@ U kunt een bestaande definitie van kenmerklader verwijderen die u niet meer nodi
 
 >[!NOTE]
 >
->Als u Kenmerklader wilt gebruiken, moet deze mogelijk in uw account zijn ingeschakeld door uw Adobe-accountvertegenwoordiger of door de ondersteuning van Adobe.
+>Als u Kenmerklader wilt gebruiken, moet deze mogelijk in uw account zijn ingeschakeld door uw accountvertegenwoordiger van de Adobe of door Adobe Support.
 
 **Een definitie van een kenmerklader verwijderen**
 

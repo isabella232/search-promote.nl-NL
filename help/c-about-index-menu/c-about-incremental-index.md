@@ -16,11 +16,11 @@ ht-degree: 0%
 ---
 
 
-# Informatie over incrementele index{#about-incremental-index}
+# Info incrementele index{#about-incremental-index}
 
 Met Incrementele index kunt u &quot;stukken&quot; van uw actieve of gefaseerde website indexeren, zoals een verzameling pagina&#39;s die vaak worden gewijzigd.
 
-## Incrementele index gebruiken {#concept_A7770F0552D14C47B3DDB65DB78FFFEE}
+## Incrementele index {#concept_A7770F0552D14C47B3DDB65DB78FFFEE} gebruiken
 
 Een incrementele index duurt slechts seconden en is handig voor websites met grote capaciteit die vele uren kunnen duren om volledig te indexeren.
 
@@ -36,8 +36,8 @@ U kunt configureren welke websitepagina&#39;s u in uw incrementele index wilt op
 
 **Een incrementele index van een gefaseerde website configureren**
 
-1. Klik in het menu Product op **[!UICONTROL Index]** > **[!UICONTROL Incremental Index]** > **[!UICONTROL Configuration]**.
-1. Gebruik de verschillende velden op de **[!UICONTROL Incremental Index Configuration]** pagina om op te geven welke pagina&#39;s u wilt indexeren.
+1. Klik in het productmenu op **[!UICONTROL Index]** > **[!UICONTROL Incremental Index]** > **[!UICONTROL Configuration]**.
+1. Gebruik op de pagina **[!UICONTROL Incremental Index Configuration]** de verschillende velden om op te geven welke pagina&#39;s u wilt indexeren.
 
    <table> 
     <thead> 
@@ -57,25 +57,29 @@ U kunt configureren welke websitepagina&#39;s u in uw incrementele index wilt op
           <li id="li_32C2B21DE75C4459908384CC44822F7D"> 
           <code>
             noindex 
-          </code> <p>Als u niet de tekst op de pagina wilt indexeren die overeenkomt met een opgegeven URL, maar u de koppelingen op de pagina wilt volgen, voegt u <code>
+          </code> <p>Als u niet de tekst op de pagina wilt indexeren die overeenkomt met een opgegeven URL, maar u de koppelingen op de pagina wilt volgen, voegt u 
+            <code>
               noindex 
-            </code> na de URL toe, zoals in het volgende voorbeeld: </p> <p> 
+            </code> na URL zoals in het volgende voorbeeld: </p> <p> 
             <code>
               https://www.mydomain.com/products/new.html noindex 
-            </code> </p> <p>Zorg ervoor dat u <code>
+            </code> </p> <p>Zorg ervoor dat u scheidt 
+            <code>
               noindex 
-            </code> de URL scheidt met een spatie. een komma is geen geldig scheidingsteken. </p> </li> 
+            </code> vanaf de URL met een spatie; een komma is geen geldig scheidingsteken. </p> </li> 
           <li id="li_33AB62B669084BF7B976F4308715E435"> 
           <code>
             nofollow 
-          </code> <p>Als u de tekst op de pagina wilt indexeren die overeenkomt met de opgegeven URL, maar u wilt de koppelingen op de pagina niet volgen, voegt u <code>
+          </code> <p>Als u de tekst op de pagina wilt indexeren die overeenkomt met de opgegeven URL, maar u de koppelingen op de pagina niet wilt volgen, voegt u 
+            <code>
               nofollow 
-            </code> na de URL toe, zoals in het volgende voorbeeld: </p> <p> 
+            </code> na URL zoals in het volgende voorbeeld: </p> <p> 
             <code>
               https://www.mydomain.com/products/new.html nofollow 
-            </code> </p> <p> Zorg ervoor dat u <code>
+            </code> </p> <p> Zorg ervoor dat u scheidt 
+            <code>
               nofollow 
-            </code> de URL scheidt met een spatie. een komma is geen geldig scheidingsteken. </p> </li> 
+            </code> vanaf de URL met een spatie; een komma is geen geldig scheidingsteken. </p> </li> 
         </ul> </p> </td> 
       </tr> 
       <tr> 
@@ -86,11 +90,13 @@ U kunt configureren welke websitepagina&#39;s u in uw incrementele index wilt op
       </code> </p> <p>U kunt ook reguliere expressies gebruiken, zoals in het volgende voorbeeld: </p> <p> 
       <code>
         regexp ^https://www\.mydomain\.com/products/household/.*\.html$ 
-      </code> </p> <p>Zie <a href="../c-appendices/r-regular-expressions.md#reference_B5BA7D61D82E4109A01D2A2D964E3A6A" type="reference" format="dita" scope="local"> Reguliere expressies</a>. </p> <p>U kunt ook de trefwoorden gebruiken <code>
+      </code> </p> <p>Zie <a href="../c-appendices/r-regular-expressions.md#reference_B5BA7D61D82E4109A01D2A2D964E3A6A" type="reference" format="dita" scope="local"> Reguliere expressies</a>. </p> <p>U kunt ook de trefwoorden gebruiken 
+      <code>
         nofollow 
-      </code> en <code>
+      </code> en 
+      <code>
         noindex 
-      </code> zoals beschreven in <span class="uicontrol"> URL's </span> toevoegen of bijwerken. </p> </td> 
+      </code> zoals hierboven beschreven in <span class="uicontrol"> URL's toevoegen of bijwerken </span>. </p> </td> 
       </tr> 
       <tr> 
       <td colname="col1"> <p>URL-maskers opnemen en uitsluiten </p> </td> 
@@ -100,15 +106,19 @@ U kunt configureren welke websitepagina&#39;s u in uw incrementele index wilt op
       </code> </p> <p> 
       <code>
         exclude https://www.mydomain.com/products/ 
-      </code> </p> <p>indexeert de pagina's <code>
+      </code> </p> <p>indexeert de pagina's 
+      <code>
         lightbulbs1.html 
-      </code> en <code>
+      </code> en 
+      <code>
         lightbulbs2.html 
-      </code>. Er worden echter geen andere pagina's geïndexeerd die onder de productmap staan. </p> <p>Een URL-masker dat als eerste wordt weergegeven, heeft altijd voorrang op een masker dat later in de lijst wordt weergegeven. Als de zoekrobot bovendien een document aantreft dat overeenkomt met zowel een include-masker als een exclude-masker, krijgt het masker dat als eerste wordt vermeld voorrang. </p> <p>U kunt ook de trefwoorden gebruiken <code>
+      </code>. Er worden echter geen andere pagina's geïndexeerd die onder de productmap staan. </p> <p>Een URL-masker dat als eerste wordt weergegeven, heeft altijd voorrang op een masker dat later in de lijst wordt weergegeven. Als de zoekrobot bovendien een document aantreft dat overeenkomt met zowel een include-masker als een exclude-masker, krijgt het masker dat als eerste wordt vermeld voorrang. </p> <p>U kunt ook de trefwoorden gebruiken 
+      <code>
         nofollow 
-      </code> en <code>
+      </code> en 
+      <code>
         noindex 
-      </code> zoals beschreven in <span class="uicontrol"> URL's </span> toevoegen of bijwerken. </p> <p>Zie <a href="../c-about-settings-menu/c-about-crawling-menu.md#concept_8039DFC53FF3410AA494D602F71BA164" type="concept" format="dita" scope="local"> Informatie over URL-maskers</a>. </p> </td> 
+      </code> zoals hierboven beschreven in <span class="uicontrol"> URL's toevoegen of bijwerken </span>. </p> <p>Zie <a href="../c-about-settings-menu/c-about-crawling-menu.md#concept_8039DFC53FF3410AA494D602F71BA164" type="concept" format="dita" scope="local"> Informatie over URL-maskers</a>. </p> </td> 
       </tr> 
       <tr> 
       <td colname="col1"> <p>Datummaskers opnemen en uitsluiten </p> </td> 
@@ -141,7 +151,8 @@ U kunt configureren welke websitepagina&#39;s u in uw incrementele index wilt op
       <li id="li_172692DEDA8744B3AA492701D24C2D80"> 
       <code>
         exclude-days NNN 
-      </code> <p>Hiermee kunt u de indexering uitschakelen van alle documenten die overeenkomen met het opgegeven URL-masker en die NNN days of ouder zijn. </p> <p>U kunt het URL-masker optioneel volgen door het trefwoord <code>
+      </code> <p>Hiermee kunt u de indexering uitschakelen van alle documenten die overeenkomen met het opgegeven URL-masker en die NNN days of ouder zijn. </p> <p>U kunt het URL-masker optioneel volgen op het trefwoord 
+        <code>
           server-date 
         </code>. </p> <p>In het volgende maskervoorbeeld worden alle PDF-bestanden die 90 dagen oud of ouder zijn, van de index uitgesloten: </p> <p> 
         <code>
@@ -150,13 +161,14 @@ U kunt configureren welke websitepagina&#39;s u in uw incrementele index wilt op
       <li id="li_26078517744D4AECBE1351008926CBAE"> 
       <code>
         exclude-date YYYY-MM-DD 
-      </code> <p>Hiermee kunt u de indexering uitschakelen van alle documenten die overeenkomen met het opgegeven URL-masker en die zo oud of ouder zijn dan de datum JJJJ-MM-DD. </p> <p>U kunt het URL-masker optioneel volgen door het trefwoord <code>
+      </code> <p>Hiermee kunt u de indexering uitschakelen van alle documenten die overeenkomen met het opgegeven URL-masker en die zo oud of ouder zijn dan de datum JJJJ-MM-DD. </p> <p>U kunt het URL-masker optioneel volgen op het trefwoord 
+        <code>
           server-date 
         </code>. </p> <p>In het volgende maskervoorbeeld worden alle documenten in de map /archive/ die op of vóór 23 april 2004 zijn gedateerd, uitgesloten: </p> <p> 
         <code>
           exclude-date 2004-04-23 https://www.mydomain.com/archive/ 
         </code> </p> </li> 
-      </ul> </p> <p>Zie Datummaskers <a href="../c-about-settings-menu/c-about-crawling-menu.md#concept_F4F1F58A646F4A86B8650EC46FDCEF66" type="concept" format="dita" scope="local"></a>. </p> </td> 
+      </ul> </p> <p>Zie <a href="../c-about-settings-menu/c-about-crawling-menu.md#concept_F4F1F58A646F4A86B8650EC46FDCEF66" type="concept" format="dita" scope="local"> Datummaskers</a>. </p> </td> 
       </tr> 
       <tr> 
       <td colname="col1"> <p>URL's verwijderen </p> </td> 
@@ -178,17 +190,17 @@ U kunt configureren welke websitepagina&#39;s u in uw incrementele index wilt op
 1. Klik op **[!UICONTROL Save Changes]**.
 1. (Optioneel) Voer een van de volgende handelingen uit:
 
-   * Klik **[!UICONTROL History]** om de aangebrachte wijzigingen terug te draaien.
+   * Klik **[!UICONTROL History]** om het even welke veranderingen terug te keren die u hebt aangebracht.
 
-      Zie De optie [Historie](../t-using-the-history-option.md#task_70DD3F87A67242BBBD2CB27156F43002)gebruiken.
+      Zie [De optie Historie gebruiken](../t-using-the-history-option.md#task_70DD3F87A67242BBBD2CB27156F43002).
 
    * Klik op **[!UICONTROL Live]**.
 
-      Zie Live-instellingen [weergeven](../c-about-staging.md#task_401A0EBDB5DB4D4CA933CBA7BECDC10F).
+      Zie [Live-instellingen weergeven](../c-about-staging.md#task_401A0EBDB5DB4D4CA933CBA7BECDC10F).
 
    * Klik op **[!UICONTROL Push Live]**.
 
-      Zie [Werkgebiedinstellingen live](../c-about-staging.md#task_44306783B4C0408AAA58B471DAF2D9A4)spoelen.
+      Zie [Werkgebiedinstellingen leegmaken live](../c-about-staging.md#task_44306783B4C0408AAA58B471DAF2D9A4).
 
 ## Het incrementele indexschema voor een live website instellen {#task_2A46BA189ECC4317A9D5C6E99A336F33}
 
@@ -196,7 +208,7 @@ U kunt de Incrementele frequentie van de Index en de basistijd selecteren die wo
 
 De tijd die u selecteert is lokaal volgens de tijdzone die in de Montages van de Rekening wordt gevormd.
 
-Zie [Uw accountinstellingen](../c-about-settings-menu/c-about-account-options-menu.md#task_80A38D0C8E4F453395BD67B81E4B45D9)configureren.
+Zie [Uw accountinstellingen configureren](../c-about-settings-menu/c-about-account-options-menu.md#task_80A38D0C8E4F453395BD67B81E4B45D9).
 
 Webservers zullen vaak halverwege de nacht naar beneden gaan voor onderhoud. Als uw server tijdens een geplande indextijd neer is, zal het indexeren proces ontbreken. Zorg ervoor dat u een tijdstip van de dag selecteert waarop uw webserver beschikbaar is.
 
@@ -204,9 +216,9 @@ Het indexschema is alleen van toepassing op uw live index. u kunt gefaseerde ind
 
 **Het incrementele indexschema voor een live website instellen**
 
-1. Klik in het menu Product op **[!UICONTROL Index]** > **[!UICONTROL Incremental Index]** > **[!UICONTROL Live Schedule]**.
-1. Selecteer in de **[!UICONTROL Incremental Index Schedule]** pagina In in de **[!UICONTROL Incrementally Index]** vervolgkeuzelijst de indexeringsfrequentie in uren of minuten.
-1. Selecteer in de **[!UICONTROL Base Time]** vervolgkeuzelijst de begintijd waarop u een nieuwe incrementele index opnieuw wilt genereren.
+1. Klik in het productmenu op **[!UICONTROL Index]** > **[!UICONTROL Incremental Index]** > **[!UICONTROL Live Schedule]**.
+1. Selecteer in de vervolgkeuzelijst **[!UICONTROL Incremental Index Schedule]** op de pagina In de indexeringsfrequentie in uren of minuten.**[!UICONTROL Incrementally Index]**
+1. Selecteer in de vervolgkeuzelijst **[!UICONTROL Base Time]** de begintijd wanneer u een nieuwe incrementele index opnieuw wilt genereren.
 1. Klik op **[!UICONTROL Save Changes]**.
 
 ## Een incrementele index van een actieve of gefaseerde website uitvoeren {#task_9BFB6157F3884B2FAECB7E0E9CA318CB}
@@ -222,7 +234,7 @@ Met Incrementele index kunt u &quot;stukken&quot; van uw actieve of gefaseerde w
    * Klik op **[!UICONTROL Index]** > **[!UICONTROL Incremental Index]** > **[!UICONTROL Staged Index]**.
 
 1. Klik op **[!UICONTROL Incremental Index Now]**.
-1. (Optioneel) Als er indexatiefouten zijn opgetreden, klikt u **[!UICONTROL View Errors]** om het gekoppelde logboek weer te geven.
+1. (Optioneel) Als er indexatiefouten zijn opgetreden, klikt u op **[!UICONTROL View Errors]** om het gekoppelde logboek weer te geven.
 
 ## Het incrementele indexlogboek van een live of gefaseerde website weergeven {#task_E668E1F1240C476DAA1CA783DC728232}
 

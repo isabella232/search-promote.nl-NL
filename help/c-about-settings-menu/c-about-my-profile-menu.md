@@ -1,155 +1,158 @@
 ---
-description: Gebruik het Mijn menu van het Profiel om persoonlijke informatie, voorkeur, login wachtwoord, en de voorrechten van de meningstoegang te plaatsen.
-seo-description: Gebruik het Mijn menu van het Profiel om persoonlijke informatie, voorkeur, login wachtwoord, en de voorrechten van de meningstoegang te plaatsen.
-seo-title: Informatie over het menu Mijn profiel
+description: In het menu Mijn profiel kunt u persoonlijke gegevens, voorkeuren, aanmeldingswachtwoord en toegangsrechten instellen.
+seo-description: In het menu Mijn profiel kunt u persoonlijke gegevens, voorkeuren, aanmeldingswachtwoord en toegangsrechten instellen.
+seo-title: Het menu Mijn profiel
 solution: Target
 subtopic: My Profile
-title: Informatie over het menu Mijn profiel
+title: Het menu Mijn profiel
 topic: Settings,Site search and merchandising
 uuid: 6a0a4e57-59fa-48fb-b712-eb16a9f47c3a
 translation-type: tm+mt
 source-git-commit: f21a3f7fe0aeaab517a5ca36da43594873b3e69a
+workflow-type: tm+mt
+source-wordcount: '1071'
+ht-degree: 0%
 
 ---
 
 
 # Informatie over het menu Mijn profiel {#about-the-my-profile-menu}
 
-Gebruik het Mijn menu van het Profiel om persoonlijke informatie, voorkeur, login wachtwoord, en de voorrechten van de meningstoegang te plaatsen.
+In het menu Mijn profiel kunt u persoonlijke gegevens, voorkeuren, aanmeldingswachtwoord en toegangsrechten instellen.
 
 ## Uw persoonlijke gebruikersgegevens configureren {#task_A11A3BE2527B4204B896E04303B04AA6}
 
-U kunt uw persoonlijke gebruikersgegevens die aan uw account zijn gekoppeld bekijken en beheren, inclusief het instellen van uw e-mailadres en de tekencodering die door de meeste webpagina&#39;s wordt gebruikt.
+U kunt uw persoonlijke gebruikersgegevens die aan uw account zijn gekoppeld, weergeven en beheren, zoals het instellen van uw e-mailadres en de tekencodering die door het merendeel van de websitepagina&#39;s wordt gebruikt.
 
-Het karakter het coderen dat uitgezocht u wordt toegepast op de Web-pagina&#39;s in uw rekening zolang zij geen het met voeten treden karakter specificeren - reeks coderend in een meta markering. Het karakter coderen wordt ook toegepast op de pagina&#39;s van de rekeningsconfiguratie. De standaardwaarde is &quot;West-Europees (ISO-8859-1)&quot;.
+De tekencodering die u selecteert, wordt toegepast op de webpagina&#39;s in uw account zolang deze geen overschrijvende tekensetcodering in een metatag opgeven. De tekencodering wordt ook toegepast op de pagina&#39;s van de accountconfiguratie. De standaardwaarde is &quot;West-Europees (ISO-8859-1)&quot;.
 
-Wanneer je het e-mailadres opgeeft, mag het alleen ASCII-tekens bevatten. Standaardalfabetisch gebruiken (a..z) karakters of numerieke `(0..9)` karakters met precies één `@` karakter dat wordt gebruikt om de gebruikersnaam van het domein te scheiden. De karakters `_`, `+`, `-`, `.`, `!`, `#`, `$`, `'`, `%`, , , de tekens `&``*``=``?``^``{``}` , , de letters, de letters, de letters, de letters, de letters, de letters, de letters, de letters, de letters en de letters zijn ook toegestaan. Je e-mailadres kan niet beginnen met een teken voor de periode (`.`).
+Wanneer u het e-mailadres opgeeft, mag het alleen ASCII-tekens bevatten. Standaardalfabetisch gebruiken (a..z) tekens of numerieke `(0..9)` tekens met exact één `@` teken dat wordt gebruikt om de gebruikersnaam van het domein te scheiden. De tekens `_`, `+`, `-`, `.`, `!`, `#`, `$`, `'`, `%`, `&`, `*`, `=`, `?`, `^`, 14/> en `}` zijn ook toegestaan. `{` Uw e-mailadres mag niet beginnen met een punt (`.`).
 
-Zie Je voorkeuren [configureren](../c-about-settings-menu/c-about-my-profile-menu.md#task_5E06BF565C284C2EBBE18E10A1C4BFBB).
+Zie [Uw voorkeuren configureren](../c-about-settings-menu/c-about-my-profile-menu.md#task_5E06BF565C284C2EBBE18E10A1C4BFBB).
 
-Zie Je wachtwoord [wijzigen](../c-about-settings-menu/c-about-my-profile-menu.md#task_F5FF13AAD1514FE997C8882D4537C0C9)
+Zie [Uw aanmeldingswachtwoord wijzigen](../c-about-settings-menu/c-about-my-profile-menu.md#task_F5FF13AAD1514FE997C8882D4537C0C9)
 
-Zie [het Annuleren van uw login](../c-about-settings-menu/c-about-my-profile-menu.md#task_D57701BB726243B08CEA14EEC86C3087).
+Zie [Aanmelden annuleren](../c-about-settings-menu/c-about-my-profile-menu.md#task_D57701BB726243B08CEA14EEC86C3087).
 
-Zie [Uw toegangsvoorrechten](../c-about-settings-menu/c-about-my-profile-menu.md#task_6107C5BA333B4053A56325AE5E3A1848)bekijken.
+Zie [Uw toegangsrechten bekijken](../c-about-settings-menu/c-about-my-profile-menu.md#task_6107C5BA333B4053A56325AE5E3A1848).
 
 **Om uw persoonlijke gebruikersinformatie te vormen**
 
 1. Klik in het productmenu op **[!UICONTROL Settings]** > **[!UICONTROL My Profile]** > **[!UICONTROL Personal Information]**.
-1. Voor de [!DNL Personal Information] pagina, specificeer de gebieden die u wilt.
+1. Geef op de pagina [!DNL Personal Information] de gewenste velden op.
 
-   Alleen het [!DNL Email Address] veld is vereist.
+   Alleen het veld [!DNL Email Address] is vereist.
 1. Klik op **[!UICONTROL Save Changes]**.
 
-## Je voorkeuren configureren {#task_5E06BF565C284C2EBBE18E10A1C4BFBB}
+## Uw voorkeuren {#task_5E06BF565C284C2EBBE18E10A1C4BFBB} configureren
 
-U kunt voorkeur vormen die voor het gebruikersinterface specifiek is.
+U kunt voorkeuren configureren die specifiek zijn voor de gebruikersinterface.
 
-Bijvoorbeeld, kunt u uw voorkeur plaatsen met betrekking tot welk gebruikersinterface van de Bouwer van de Regel u als gebrek wilt gebruiken. Of, u kunt verkiezen om de attributen van de malplaatjemarkering te bevestigen wanneer u sparen, of malplaatjeverwijzingen naar Geleide voorwerpen van het Onderzoek bevestigt wanneer u sparen.
+Bijvoorbeeld, kunt u uw voorkeur plaatsen over welke gebruikersinterface van de Bouwer van de Regel u als gebrek wilt gebruiken. U kunt ook de kenmerken van sjabloontags valideren wanneer u de sjabloonverwijzingen naar objecten met instructies opslaat of valideren wanneer u de objecten met zoekopdrachten opslaat.
 
-Zie Je persoonlijke gebruikersgegevens [configureren](../c-about-settings-menu/c-about-my-profile-menu.md#task_A11A3BE2527B4204B896E04303B04AA6).
+Zie [Uw persoonlijke gebruikersinformatie configureren](../c-about-settings-menu/c-about-my-profile-menu.md#task_A11A3BE2527B4204B896E04303B04AA6).
 
-Zie Je wachtwoord [wijzigen](../c-about-settings-menu/c-about-my-profile-menu.md#task_F5FF13AAD1514FE997C8882D4537C0C9)
+Zie [Uw aanmeldingswachtwoord wijzigen](../c-about-settings-menu/c-about-my-profile-menu.md#task_F5FF13AAD1514FE997C8882D4537C0C9)
 
-Zie [het Annuleren van uw login](../c-about-settings-menu/c-about-my-profile-menu.md#task_D57701BB726243B08CEA14EEC86C3087).
+Zie [Aanmelden annuleren](../c-about-settings-menu/c-about-my-profile-menu.md#task_D57701BB726243B08CEA14EEC86C3087).
 
-Zie [Uw toegangsvoorrechten](../c-about-settings-menu/c-about-my-profile-menu.md#task_6107C5BA333B4053A56325AE5E3A1848)bekijken.
+Zie [Uw toegangsrechten bekijken](../c-about-settings-menu/c-about-my-profile-menu.md#task_6107C5BA333B4053A56325AE5E3A1848).
 
-Zie [over de bedrijfsregels](../c-about-rules-menu/c-about-business-rules.md#concept_2A93D76216754D3D8412CDEA00BD26BD).
+Zie [Informatie over bedrijfsregels](../c-about-rules-menu/c-about-business-rules.md#concept_2A93D76216754D3D8412CDEA00BD26BD).
 
-Zie [over sjablonen](../c-about-design-menu/c-about-templates.md#concept_06EB481B14864E18A8AE2BCD1D6EF0B5).
+Zie [Informatie over sjablonen](../c-about-design-menu/c-about-templates.md#concept_06EB481B14864E18A8AE2BCD1D6EF0B5).
 
-**Om uw voorkeur te vormen**
+**Uw voorkeuren configureren**
 
 1. Klik in het productmenu op **[!UICONTROL Settings]** > **[!UICONTROL My Profile]** > **[!UICONTROL My Preferences]**.
-1. Voor de [!DNL My Preferences] pagina, plaats de gebieden die u wilt.
+1. Stel op de pagina [!DNL My Preferences] de gewenste velden in.
 
-   | Optie | Beschrijving |
+   | Option | Beschrijving |
    |--- |--- |
-   | Voorkeur voor ontwikkelaar voor regel | Laat u het standaardgebruikersinterface selecteren dat u wilt gebruiken wanneer u een nieuwe bedrijfsregel bouwt. U kunt een vereenvoudigde, visuele interface voor snelle regelverwezenlijking, of een geavanceerde optiesinterface kiezen die u grotere controle en flexibiliteit geeft.  De standaardvoorkeur is Visueel. Wanneer u een bedrijfsregel bouwt, kunt u nog tussen het gebruiken van een visuele interface of een geavanceerde interface, ongeacht de voorkeur van de regelbouwer schakelen die u hebt geplaatst. |
-   | Sjabloontagkenmerken valideren op Opslaan | Bevestigt alle attributen in &lt;geleid-*> en &lt;search-*> wanneer u sparen een malplaatje in de Redacteur van het Malplaatje.  Zie Een presentatie [bewerken of een transportsjabloon](../c-about-design-menu/c-about-templates.md#task_800E0E2265C34C028C92FEB5A1243EC3). |
-   | Bevestig de Verwijzing van het Malplaatje naar de Voorwerpen van GS op sparen | Controleert het bestaan van Geleide voorwerpen van het Onderzoek, zoals menu&#39;s, facetten, broodkruimels, douanevars, en malplaatjes, die in &lt;geleid -*> markeringen worden bedoeld. |
+   | Voorkeur voor Regelbouwer | Hiermee selecteert u de standaardgebruikersinterface die u wilt gebruiken wanneer u een nieuwe bedrijfsregel maakt. U kunt een vereenvoudigde, visuele interface kiezen voor snelle regelverwezenlijking, of een geavanceerde optiesinterface die u grotere controle en flexibiliteit geeft.  De standaardvoorkeur is Visueel. Wanneer u een bedrijfsregel bouwt, kunt u nog schakelen tussen het gebruiken van een visuele interface of een geavanceerde interface, ongeacht de voorkeur van de regelbouwer die u hebt geplaatst. |
+   | Sjabloontagkenmerken valideren bij opslaan | Valideert alle kenmerken in &lt;guided-*en &lt;search-*> wanneer u een sjabloon opslaat in de Sjablooneditor.  Zie [Een presentatie of een transportsjabloon bewerken](../c-about-design-menu/c-about-templates.md#task_800E0E2265C34C028C92FEB5A1243EC3). |
+   | Sjabloonverwijzing naar GS-objecten bij opslaan valideren | Controleert of er objecten met instructies-zoekopdracht bestaan, zoals menu&#39;s, facetten, broodkruimels, aangepaste vars en sjablonen, waarnaar wordt verwezen in &lt;guided-*>-tags. |
 
-1. Klik **sparen Veranderingen**.
+1. Klik **Wijzigingen opslaan**.
 
-## Het veranderen van uw login wachtwoord {#task_F5FF13AAD1514FE997C8882D4537C0C9}
+## Uw aanmeldingswachtwoord wijzigen {#task_F5FF13AAD1514FE997C8882D4537C0C9}
 
-U kunt het wachtwoord veranderen dat u aan login gebruikt. De eerste gebruikers worden toegewezen automatisch een wachtwoord.
+U kunt het wachtwoord wijzigen dat u gebruikt om u aan te melden. Gebruikers die voor het eerst een wachtwoord gebruiken, krijgen automatisch een wachtwoord toegewezen.
 
-Als u uw wachtwoord verliest of vergeet, klik **[!UICONTROL Forgot your password?]** op de login pagina en volg de instructies om een nieuw wachtwoord te produceren.
+Als u het wachtwoord verliest of vergeet, klikt u op **[!UICONTROL Forgot your password?]** op de aanmeldingspagina en volgt u de instructies om een nieuw wachtwoord te genereren.
 
-De volgende regels en de beperkingen zijn op rekeningswachtwoorden van toepassing:
+De volgende regels en beperkingen gelden voor wachtwoorden voor accounts:
 
-* De wachtwoorden zijn case-sensitive.
+* Wachtwoorden zijn hoofdlettergevoelig.
 * Minimaal 8 tekens en maximaal 20 tekens.
 * Moet ten minste één letter en één getal bevatten.
-* Alle ASCII-teksttekens zijn toegestaan, behalve het `"@"` symbool.
-* De ruimten worden toegelaten (de belangrijke ruimten worden verwijderd).
-* Woordwoorden zijn niet toegestaan.
+* Alle ASCII-teksttekens zijn toegestaan, behalve het symbool `"@"`.
+* Spaties zijn toegestaan (spaties worden verwijderd).
+* Woordenboek is niet toegestaan.
 
-Zie Je persoonlijke gebruikersgegevens [configureren](../c-about-settings-menu/c-about-my-profile-menu.md#task_A11A3BE2527B4204B896E04303B04AA6).
+Zie [Uw persoonlijke gebruikersinformatie configureren](../c-about-settings-menu/c-about-my-profile-menu.md#task_A11A3BE2527B4204B896E04303B04AA6).
 
-Zie Je voorkeuren [configureren](../c-about-settings-menu/c-about-my-profile-menu.md#task_5E06BF565C284C2EBBE18E10A1C4BFBB).
+Zie [Uw voorkeuren configureren](../c-about-settings-menu/c-about-my-profile-menu.md#task_5E06BF565C284C2EBBE18E10A1C4BFBB).
 
-Zie [het Annuleren van uw login](../c-about-settings-menu/c-about-my-profile-menu.md#task_D57701BB726243B08CEA14EEC86C3087).
+Zie [Aanmelden annuleren](../c-about-settings-menu/c-about-my-profile-menu.md#task_D57701BB726243B08CEA14EEC86C3087).
 
-Zie [Uw toegangsvoorrechten](../c-about-settings-menu/c-about-my-profile-menu.md#task_6107C5BA333B4053A56325AE5E3A1848)bekijken.
+Zie [Uw toegangsrechten bekijken](../c-about-settings-menu/c-about-my-profile-menu.md#task_6107C5BA333B4053A56325AE5E3A1848).
 
-**Om uw login wachtwoord te veranderen**
+**Het aanmeldingswachtwoord wijzigen**
 
 1. Klik in het productmenu op **[!UICONTROL Settings]** > **[!UICONTROL My Profile]** > **[!UICONTROL Password]**.
-1. Op de [!DNL Change Password] pagina, op het [!DNL Current Password] gebied, typ het huidige login wachtwoord dat u gebruikt.
-1. Op het [!DNL New Password] gebied en het [!DNL New Password (again)] gebied, typ het nieuwe login wachtwoord dat u wilt gebruiken.
-1. Klik **sparen Veranderingen**.
+1. Typ op de pagina [!DNL Change Password] in het veld [!DNL Current Password] het huidige aanmeldingswachtwoord dat u gebruikt.
+1. Typ in het veld [!DNL New Password] en het veld [!DNL New Password (again)] het nieuwe aanmeldingswachtwoord dat u wilt gebruiken.
+1. Klik **Wijzigingen opslaan**.
 
-## Inloggen annuleren {#task_D57701BB726243B08CEA14EEC86C3087}
+## Aanmelding {#task_D57701BB726243B08CEA14EEC86C3087} annuleren
 
-U kunt verkiezen om uw login van Adobe te annuleren. Als u uw login annuleert, kunt u tot deze rekening of geen andere rekening van Adobe met de getoonde login e-mail toegang hebben.
+U kunt ervoor kiezen uw aanmelding voor Adobe te annuleren. Als u uw aanmelding annuleert, hebt u geen toegang tot dit account of een andere Adobe-account met de weergegeven aanmeldings-e-mail.
 
-Als rekeninghouder, voordat u uw aanmelding kunt annuleren, moet u de eigendom van uw account overdragen naar een andere actieve accountgebruiker. Wanneer deze actie volledig is, kunt u login zoals een andere rekeningsgebruiker annuleren.
+Als eigenaar van een account kunt u, voordat u uw aanmelding kunt annuleren, de eigendom van een account overdragen aan een andere actieve gebruiker. Wanneer deze actie is voltooid, kunt u de aanmelding net als elke andere gebruiker van de account annuleren.
 
-Zie [Rekeningbezit overdragen aan een andere rekeningsgebruiker](../c-about-settings-menu/c-about-account-options-menu.md#task_47E3C66CC6374274830DA10171E0CF17).
+Zie [Accounteigendom overdragen aan een andere accountgebruiker](../c-about-settings-menu/c-about-account-options-menu.md#task_47E3C66CC6374274830DA10171E0CF17).
 
-Zie [jezelf verwijderen uit een account](../c-about-settings-menu/c-about-account-options-menu.md#task_C56F5AB87B664BAAAC2FD2F15003E73F).
+Zie [zichzelf verwijderen uit een account](../c-about-settings-menu/c-about-account-options-menu.md#task_C56F5AB87B664BAAAC2FD2F15003E73F).
 
-Zie Een [account](../c-about-settings-menu/c-about-account-options-menu.md#task_975178D5B9444BF8B52D72B897A49C32)verwijderen.
+Zie [Een account verwijderen](../c-about-settings-menu/c-about-account-options-menu.md#task_975178D5B9444BF8B52D72B897A49C32).
 
-**Om uw login te annuleren**
+**Als u uw aanmelding wilt annuleren**
 
-1. Eigendom van een account overdragen aan een andere accountgebruiker.
+1. Account-eigendom overdragen aan een andere gebruiker van een account.
 
-   Zie [Rekeningbezit overdragen aan een andere rekeningsgebruiker](../c-about-settings-menu/c-about-account-options-menu.md#task_47E3C66CC6374274830DA10171E0CF17).
+   Zie [Accounteigendom overdragen aan een andere accountgebruiker](../c-about-settings-menu/c-about-account-options-menu.md#task_47E3C66CC6374274830DA10171E0CF17).
 1. Klik in het productmenu op **[!UICONTROL Settings]** > **[!UICONTROL My Profile]** > **[!UICONTROL Cancel]**.
-1. Voor de [!DNL Cancel Login] pagina, klik **[!UICONTROL Cancel Login]**.
+1. Klik op [!DNL Cancel Login] op de pagina.**[!UICONTROL Cancel Login]**
 1. Klik **[!UICONTROL Yes]** om de annulering te bevestigen.
 
-## Uw toegangsrechten weergeven {#task_6107C5BA333B4053A56325AE5E3A1848}
+## Uw toegangsrechten {#task_6107C5BA333B4053A56325AE5E3A1848} weergeven
 
-Met Mijn voorrechten van de Toegang kunt u rollen gebruiken om toegang tot pagina&#39;s te beperken of zelden gebruikte pagina&#39;s te verwijderen. De toegangsvoorrechten tonen welke rollen u tot, als om het even welk behoort. Als u niet momenteel aan één of meerdere rollen wordt toegewezen dan hebt u volledige onbeperkte toegang.
+Met Mijn voorrechten van de Toegang kunt u rollen gebruiken om toegang tot pagina&#39;s te beperken of zelden gebruikte pagina&#39;s te verwijderen. De toegangsvoorrechten tonen tot welke rollen u tot, als om het even welk behoort. Als u momenteel niet aan één of meerdere rollen wordt toegewezen dan hebt u volledige onbeperkte toegang.
 
-De boommening toont u de pagina&#39;s in het lid-centrum die kunnen worden beperkt en of u momenteel toegang tot die pagina hebt zoals die door een vinkje wordt aangeduid.
+In de structuurweergave ziet u de pagina&#39;s in het lidmidden die kunnen worden beperkt en of u momenteel toegang hebt tot die pagina, zoals aangegeven door een vinkje.
 
 Zie [Een nieuwe rol toevoegen aan een account](../c-about-settings-menu/c-about-users-menu.md#task_E148D02275DE4F899BA79736A29895AB).
 
-Zie de rollen [bekijken die voor een rekening](../c-about-settings-menu/c-about-users-menu.md#task_4EAE1D018F384691A083AD51E5CE58DC)bestaan.
+Zie [Rollen weergeven die bestaan voor een account](../c-about-settings-menu/c-about-users-menu.md#task_4EAE1D018F384691A083AD51E5CE58DC).
 
-Het voorrecht **[!UICONTROL Can push live]** in de boommening is een speciale controle die om het even welke gebruiker in die rol de capaciteit verleent om het even welk gefaseerd punt te duwen levend. Door een rol te creëren die deze capaciteit niet heeft kunt u ervoor zorgen dat de gebruikers in die rol niet uw levend onderzoek kunnen beïnvloeden tot iemand met de capaciteit om de montages te duwen hun werk herzien en dit doet.
+Het voorrecht **[!UICONTROL Can push live]** in de boommening is een speciale controle die om het even welke gebruiker in die rol de capaciteit verleent om om het even welk gefaseerd punt levend te duwen. Door een rol te creëren die deze capaciteit niet heeft kunt u ervoor zorgen dat de gebruikers in die rol uw levende onderzoek niet kunnen beïnvloeden tot iemand met de capaciteit om de montages te duwen hun werk en dit doet.
 
 De voorrechten **[!UICONTROL Run live indexes]** en **[!UICONTROL Run stage indexes]** zijn speciale controles die worden gebruikt om gebruikers binnen een rol te verlenen of te ontkennen de capaciteit om een index in werking te stellen.
 
-Bijvoorbeeld, kunt u sommige gebruikers in een rol hebben die de capaciteit hebben om gefaseerde indexen maar niet levende indexen of de capaciteit te lopen om gefaseerde het plaatsen levend te duwen. De gebruikers in deze rol kunnen elk van hun werk in een gefaseerd milieu testen zonder de levende index te beïnvloeden. Sommige montages vereisen u om de index te herbouwen alvorens u voorproef de veranderingen kunt die werden aangebracht.
+U hebt bijvoorbeeld gebruikers in een rol die de mogelijkheid hebben om gefaseerde indexen uit te voeren, maar geen live indexen of de mogelijkheid om live gefaseerde instelling te duwen. Gebruikers met deze rol kunnen al hun werk in een gefaseerde omgeving testen zonder dat dit invloed heeft op de live index. Bij sommige instellingen moet u de index opnieuw genereren voordat u een voorvertoning van de aangebrachte wijzigingen kunt bekijken.
 
 Om uw toegangsvoorrechten te veranderen, moet u de voorrechten voor de aangewezen rol in het beheerdergebied veranderen.
 
-Zie Je persoonlijke gebruikersgegevens [configureren](../c-about-settings-menu/c-about-my-profile-menu.md#task_A11A3BE2527B4204B896E04303B04AA6).
+Zie [Uw persoonlijke gebruikersinformatie configureren](../c-about-settings-menu/c-about-my-profile-menu.md#task_A11A3BE2527B4204B896E04303B04AA6).
 
-Zie Je voorkeuren [configureren](../c-about-settings-menu/c-about-my-profile-menu.md#task_5E06BF565C284C2EBBE18E10A1C4BFBB).
+Zie [Uw voorkeuren configureren](../c-about-settings-menu/c-about-my-profile-menu.md#task_5E06BF565C284C2EBBE18E10A1C4BFBB).
 
-Zie Je wachtwoord [wijzigen](../c-about-settings-menu/c-about-my-profile-menu.md#task_F5FF13AAD1514FE997C8882D4537C0C9)
+Zie [Uw aanmeldingswachtwoord wijzigen](../c-about-settings-menu/c-about-my-profile-menu.md#task_F5FF13AAD1514FE997C8882D4537C0C9)
 
-Zie [het Annuleren van uw login](../c-about-settings-menu/c-about-my-profile-menu.md#task_D57701BB726243B08CEA14EEC86C3087).
+Zie [Aanmelden annuleren](../c-about-settings-menu/c-about-my-profile-menu.md#task_D57701BB726243B08CEA14EEC86C3087).
 
-**Om uw toegangsvoorrechten te bekijken**
+**Uw toegangsrechten weergeven**
 
 1. Klik in het productmenu op **[!UICONTROL Settings]** > **[!UICONTROL My Profile]** > **[!UICONTROL My Access Privileges]**.
-1. Voor de [!DNL My Access Privileges] pagina, breid de boommeningen uit om voorrechten of beperkte toegang te herzien.
+1. Vouw op de pagina [!DNL My Access Privileges] de structuurweergaven uit om rechten of beperkte toegang te bekijken.

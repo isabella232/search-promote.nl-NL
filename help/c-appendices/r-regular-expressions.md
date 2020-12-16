@@ -15,11 +15,11 @@ ht-degree: 0%
 ---
 
 
-# Reguliere expressies{#regular-expressions}
+# Gewone uitdrukkingen{#regular-expressions}
 
 Een vernieuwingsfunctie voor de syntaxis en regels voor het maken van reguliere expressies.
 
-Zie ook Een incrementele index van een gefaseerde website [](../c-about-index-menu/c-about-incremental-index.md#task_46A367B0786C4C90BFFA5D3F95FD86C0)configureren.
+Zie ook [Een incrementele index van een gefaseerde website configureren](../c-about-index-menu/c-about-incremental-index.md#task_46A367B0786C4C90BFFA5D3F95FD86C0).
 
 **Syntaxis van reguliere expressies**
 
@@ -108,27 +108,27 @@ Zie ook Een incrementele index van een gefaseerde website [](../c-about-index-me
 * Een gewoon teken, niet een van de speciale tekens die hieronder worden beschreven, is een reguliere expressie van één teken die met zichzelf overeenkomt.
 * Een backslash (\) gevolgd door een speciaal teken is een reguliere expressie van één teken die overeenkomt met het speciale teken zelf. Speciale tekens zijn onder andere:
 
-   * `.` (punt), `*` (asterisk), `?` (vraagteken), `+` (plusteken), `[` (vierkant haakje openen), `|` (verticale pipe) en `\` (backslash) zijn altijd speciale tekens, behalve wanneer deze tussen vierkante haakjes staan.
+   * `.` (punt),  `*` (asterisk),  `?` (vraagteken),  `+` (plusteken),  `[` (vierkant haakje openen),  `|` (verticale pipe) en  `\` (backslash) zijn altijd speciale tekens, behalve wanneer deze tussen vierkante haakjes staan.
    * `^` (invoegpunt of omtrek) is speciaal aan het begin van een reguliere expressie of wanneer deze direct links van een paar vierkante haakjes staat.
    * `$` (dollarteken) is speciaal aan het einde van een reguliere expressie.
    * `.` (punt) is een reguliere expressie van één teken die overeenkomt met elk willekeurig teken, inclusief aanvullende tekens in codesets, met uitzondering van een nieuwe regel.
-   * Een niet-lege tekenreeks met tekens tussen vierkante haakjes `[ ]` (links en rechts) is een reguliere expressie van één teken die overeenkomt met één teken in die tekenreeks, inclusief aanvullende codesettekens.
+   * Een niet-lege tekenreeks met tekens tussen `[ ]` (vierkante haakjes links en rechts) is een reguliere expressie van één teken die overeenkomt met één teken in die tekenreeks, inclusief aanvullende codesettekens.
 
-      Als het eerste teken van de tekenreeks echter een `^` (omtrek) is, komt de reguliere expressie van één teken overeen met elk willekeurig teken, inclusief aanvullende tekens in codesets, met uitzondering van de nieuwe regel en de overige tekens in de tekenreeks.
+      Als het eerste teken van de tekenreeks echter een `^` (omtrek) is, komt de reguliere expressie van één teken overeen met elk willekeurig teken, inclusief aanvullende tekens voor codesets, met uitzondering van de nieuwe regel en de overige tekens in de tekenreeks.
 
-      De waarde `^` heeft deze speciale betekenis alleen als deze voorkomt in de tekenreeks. U kunt `-` (minteken) gebruiken om een reeks opeenvolgende tekens aan te geven, inclusief aanvullende tekens in de codeset. 0-9 [is bijvoorbeeld gelijk aan] 0123456789 [].
+      De `^` heeft deze speciale betekenis slechts als het eerst in het koord voorkomt. U kunt `-` (minteken) gebruiken om een reeks opeenvolgende tekens aan te geven, inclusief aanvullende tekens in de codeset. [0-9] is bijvoorbeeld gelijk aan [0123456789].
 
-      Tekens die het bereik aangeven, moeten afkomstig zijn uit dezelfde codeset. Wanneer de tekens uit verschillende codesets afkomstig zijn, komt een van de tekens die het bereik aangeven, overeen. Deze speciale betekenis `-` gaat verloren als deze het eerst (na een eventuele eerste `^`waarde) of als laatste in de tekenreeks optreedt. Het `]` (rechte vierkant haakje sluiten) beëindigt een dergelijke tekenreeks niet wanneer het het eerste teken binnen de tekenreeks is, na een eventuele eerste `^`tekenreeks. Komt bijvoorbeeld `[]a-f]` ofwel overeen met een `]` (vierkant haakje sluiten) ofwel met een van de ASCII-letters a t/m f. De vier tekens die hierboven als speciale tekens worden vermeld, staan voor zichzelf in een dergelijke tekenreeks.
+      Tekens die het bereik aangeven, moeten afkomstig zijn uit dezelfde codeset. Wanneer de tekens uit verschillende codesets afkomstig zijn, komt een van de tekens die het bereik aangeven, overeen. De `-` verliest deze speciale betekenis als deze eerst voorkomt (na een eventuele eerste `^`) of als deze zich als laatste in de tekenreeks bevindt. De `]` (vierkant haakje rechts) beëindigt een dergelijke tekenreeks niet wanneer het het eerste teken binnen de tekenreeks is, na een eventuele eerste `^`. `[]a-f]` komt bijvoorbeeld overeen met een `]` (vierkant haakje sluiten) of een van de ASCII-letters a t/m f. De vier tekens die hierboven als speciale tekens worden vermeld, staan voor zichzelf in een dergelijke tekenreeks.
 
 **Regels voor het samenstellen van reguliere expressies op basis van reguliere expressies van één teken**
 
 Met de volgende regels kunt u reguliere expressies maken op basis van reguliere expressies van één teken:
 
 * Een reguliere expressie van één teken is een reguliere expressie die overeenkomt met de reguliere expressie van één teken.
-* Een reguliere expressie van één teken, gevolgd door een `*` (asterisk), is een reguliere expressie die overeenkomt met nul of meer instanties van de reguliere expressie van één teken. Dit kan een aanvullend teken in de codeset zijn. Als er een keuze is, wordt de langste meest linkse tekenreeks gekozen die een overeenkomst toestaat.
-* Een reguliere expressie van één teken gevolgd door een `?` (vraagteken) is een reguliere expressie die overeenkomt met nul of één keer een reguliere expressie van één teken, wat een aanvullend teken in de codeset kan zijn. Als er een keuze is, wordt de langste meest linkse tekenreeks gekozen die een overeenkomst toestaat.
+* Een reguliere expressie van één teken, gevolgd door een `*` (sterretje), is een reguliere expressie die overeenkomt met nul of meer exemplaren van de reguliere expressie van één teken. Dit kan een aanvullend teken in de codeset zijn. Als er een keuze is, wordt de langste meest linkse tekenreeks gekozen die een overeenkomst toestaat.
+* Een reguliere expressie van één teken, gevolgd door een `?` (vraagteken), is een reguliere expressie die overeenkomt met nul of één keer dat de reguliere expressie van één teken voorkomt. Dit kan een aanvullend teken in de codeset zijn. Als er een keuze is, wordt de langste meest linkse tekenreeks gekozen die een overeenkomst toestaat.
 * Een reguliere expressie van één teken, gevolgd door een `+` (plusteken), is een reguliere expressie die overeenkomt met een of meer instanties van de reguliere expressie van één teken. Dit kan een aanvullend teken in de codeset zijn. Als er een keuze is, wordt de langste meest linkse tekenreeks gekozen die een overeenkomst toestaat.
-* Een reguliere expressie van één teken, gevolgd door `{m}`, `{m,}`of `{m,n}` is een reguliere expressie die overeenkomt met een bereik van de reguliere expressie van één teken. De waarden van m en n moeten niet-negatieve gehele getallen van minder dan 256 zijn; `{m}` precies overeenkomt met m voorkomen; `{m,}` minimaal m voorkomen; `{m,n}` komt overeen met een willekeurig aantal voorvallen tussen m en n. Wanneer een keuze bestaat, komt de reguliere expressie overeen met zoveel mogelijk keren.
+* Een reguliere expressie van één teken, gevolgd door `{m}`, `{m,}` of `{m,n}`, is een reguliere expressie die overeenkomt met een bereik van de reguliere expressie van één teken. De waarden van m en n moeten niet-negatieve gehele getallen van minder dan 256 zijn; `{m}` komt exact overeen met m voorkomen; `{m,}` komt overeen met ten minste m voorkomen; `{m,n}` komt overeen met een willekeurig aantal voorvallen tussen m en n. Wanneer een keuze bestaat, komt de reguliere expressie overeen met zoveel mogelijk keren.
 * De samenvoeging van reguliere expressies is een reguliere expressie die overeenkomt met de samenvoeging van de tekenreeksen die door elke component van de reguliere expressie worden aangepast.
 * Een reguliere expressie die wordt ingesloten tussen de tekenreeksen ( en ), is een reguliere expressie die overeenkomt met de niet-geordende reguliere expressie.
 * Een reguliere expressie gevolgd door een `|` (verticale pipe) gevolgd door een reguliere expressie is een reguliere expressie die ofwel overeenkomt met de eerste reguliere expressie (vóór de verticale pipe) ofwel met de tweede reguliere expressie (na de verticale pipe).
@@ -139,7 +139,7 @@ U kunt een reguliere expressie ook beperken tot alleen een eerste of laatste seg
 * Een `$` (dollarteken) aan het eind van een volledige regelmatige uitdrukking beperkt die regelmatige uitdrukking om een definitief segment van een lijn aan te passen.
 * De constructie ^reguliere expressie$ beperkt de reguliere expressie tot overeenstemming met de gehele regel.
 
-Er zijn enkele vooraf gedefinieerde tekenklassennamen die u kunt gebruiken in plaats van complexe, tussen haakjes geplaatste reguliere expressies. Een cijfer kan bijvoorbeeld worden vertegenwoordigd door de reguliere expressie [0-9] van één teken of door de reguliere expressie van één teken van de tekenklasse [[:digit:]].
+Er zijn enkele vooraf gedefinieerde tekenklassennamen die u kunt gebruiken in plaats van complexe, tussen haakjes geplaatste reguliere expressies. Een cijfer kan bijvoorbeeld worden vertegenwoordigd door de reguliere expressie [0-9] van één teken of door de reguliere expressie [[:digit:]] van de tekenklasse.
 
 De vooraf gedefinieerde tekenklassen en hun betekenis zijn:
 

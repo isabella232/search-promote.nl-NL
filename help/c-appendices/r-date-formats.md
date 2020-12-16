@@ -1,26 +1,29 @@
 ---
-description: U kunt de datumformaten bepalen die worden gebruikt wanneer het om het even welk gebied met een type van "datum"gegevens ontleedt en indexeert.
-seo-description: U kunt de datumformaten bepalen die worden gebruikt wanneer het om het even welk gebied met een type van "datum"gegevens ontleedt en indexeert.
-seo-title: Datumformaten
+description: U kunt de datumnotaties definiëren die worden gebruikt wanneer een veld met een gegevenstype "date" wordt geparseerd en geïndexeerd.
+seo-description: U kunt de datumnotaties definiëren die worden gebruikt wanneer een veld met een gegevenstype "date" wordt geparseerd en geïndexeerd.
+seo-title: Datumnotaties
 solution: Target
-title: Datumformaten
+title: Datumnotaties
 topic: Appendices,Site search and merchandising
 uuid: 148914b5-33ef-41db-8404-67c03f6f0832
 translation-type: tm+mt
 source-git-commit: ef818327e1cdaad79ac47575a8dfba1de3dc5c2e
+workflow-type: tm+mt
+source-wordcount: '767'
+ht-degree: 0%
 
 ---
 
 
-# Datumformaten{#date-formats}
+# Datumnotaties{#date-formats}
 
-U kunt de datumformaten bepalen die worden gebruikt wanneer het om het even welk gebied met een type van &quot;datum&quot;gegevens ontleedt en indexeert.
+U kunt de datumnotaties definiëren die worden gebruikt wanneer een veld met een gegevenstype &quot;date&quot; wordt geparseerd en geïndexeerd.
 
-Het formaat van de datum en de tijd wordt gespecificeerd met een formaatkoord. Het formaatkoord bestaat uit nul of meer omzettingsspecificaties (een omzettingsspecificatie bestaat uit een percententeken en één ander karakter) en gewone karakters. Een standaardlijst wordt verstrekt van de koorden van het datumformaat voor elk datumgebied.
+De notatie van de datum en tijd wordt opgegeven met een notatietekenreeks. De indelingstekenreeks bestaat uit nul of meer conversiespecificaties (een conversiespecificatie bestaat uit een procentteken en een ander teken) en gewone tekens. Er wordt een standaardlijst met datumnotatietekenreeksen voor elk datumveld weergegeven.
 
-U hebt volledige controle over deze lijst en kunt aan toevoegen of het wijzigen om de behoeften van uw plaats aan te passen. Het hoogste formaatkoord neemt belangrijkheid en de verdere formaatkoorden worden slechts gebruikt als het ontleden van de inhoud van een bepaalde meta-gegevensmarkering een fout oplevert.
+U hebt volledige controle over deze lijst en kunt deze toevoegen aan of wijzigen om aan de behoeften van uw site te voldoen. De bovenste notatietekenreeks heeft voorrang en volgende indelingstekenreeksen worden alleen gebruikt als het parseren van de inhoud van een metagegevenstag een fout oplevert.
 
-Bijvoorbeeld, veronderstel u de volgende datumformaten hebt gespecificeerd:
+Stel dat u de volgende datumnotaties hebt opgegeven:
 
 <table> 
  <tbody> 
@@ -30,37 +33,37 @@ Bijvoorbeeld, veronderstel u de volgende datumformaten hebt gespecificeerd:
  </tbody> 
 </table>
 
-De eerste indeling, &quot;%B %d, %Y %T %Z&quot;, komt overeen met datums als de volgende &quot;20 september 2014 13:12:00 PDT&quot;. Als de inhoud van de meta-gegevensmarkering niet met dit formaatkoord kan worden ontleed, wordt het volgende beschikbare formaat &quot;%b %d, %Y %T %Z&quot;geprobeerd. Dit formaat past data als het volgende aan: &quot;20 sep. 2014 3:12:00 PDT&quot;. Als de inhoud van de meta-gegevensmarkering niet met dit formaatkoord kan worden ontleed, beweegt het plaatsonderzoek/het merchandising zich onderaan de lijst van formaatkoorden tot het een formaatkoord vindt dat werkt.
+De eerste notatie, &quot;%B %d, %Y %T %Z&quot;, komt overeen met datums als &quot;20 september 2014 13:12:00 PDT&quot;. Als de inhoud van de metagegevenstag niet kan worden geparseerd met deze indelingstekenreeks, wordt de volgende beschikbare indeling &quot;%b %d, %Y %T %Z&quot; geprobeerd. Deze notatie komt overeen met datums als: &quot;20 september 2014 3:12:00 PDT&quot;. Als de inhoud van de metagegevenstag niet met deze indelingstekenreeks kan worden geparseerd, wordt bij het zoeken/verhandelen van de site de lijst met opmaaktekenreeksen omlaag verplaatst totdat een opmaaktekenreeks wordt gevonden die werkt.
 
-De volgende lijst beschrijft de beschikbare koorden van het datumformaat:
+In de volgende tabel worden de beschikbare datumnotatietekenreeksen beschreven:
 
 <table> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> <p>Gegevensformaat </p> </th> 
+   <th colname="col1" class="entry"> <p>Gegevensindeling </p> </th> 
    <th colname="col2" class="entry"> <p>Beschrijving </p> </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
    <td colname="col1"> <p>%A </p> </td> 
-   <td colname="col2"> <p>Past de nationale vertegenwoordiging van de volledige weekdagnaam aan, bijvoorbeeld, "Maandag." De nationale vertegenwoordiging wordt bepaald aan de hand van de "Taal"-instelling op de optie "Woorden en talen" </p> </td> 
+   <td colname="col2"> <p>Komt overeen met de nationale representatie van de volledige weekdagnaam, bijvoorbeeld "maandag". De nationale vertegenwoordiging wordt bepaald door de "Taal"instelling op de "Woorden &amp; Talen"Optie </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>%a </p> </td> 
-   <td colname="col2"> <p> overeenkomt met de nationale afbeelding van de afgekorte weekdagnaam, waarbij de afkorting de eerste drie tekens is, bijvoorbeeld "Mon." De nationale vertegenwoordiging wordt bepaald aan de hand van de "Taal"-instelling op de optie "Woorden en talen" </p> </td> 
+   <td colname="col2"> <p> komt overeen met de nationale representatie van de afgekorte weekdagnaam, waarbij de afkorting de eerste drie tekens is, bijvoorbeeld "Mon." De nationale vertegenwoordiging wordt bepaald door de "Taal"instelling op de "Woorden &amp; Talen"Optie </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>%B </p> </td> 
-   <td colname="col2"> <p> overeenkomt met de nationale vertegenwoordiging van de volledige naam van de maand, bijvoorbeeld "Juni." De nationale vertegenwoordiging wordt bepaald aan de hand van de "Taal"-instelling op de optie "Woorden en talen" </p> </td> 
+   <td colname="col2"> <p> komt overeen met de nationale vertegenwoordiging van de volledige naam van de maand, bijvoorbeeld "June." De nationale vertegenwoordiging wordt bepaald door de "Taal"instelling op de "Woorden &amp; Talen"Optie </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>%b </p> </td> 
-   <td colname="col2"> <p> overeenkomt met de nationale afbeelding van de afgekorte naam van de maand, waarbij de afkorting de eerste drie tekens is, bijvoorbeeld "Jun." De nationale vertegenwoordiging wordt bepaald aan de hand van de "Taal"-instelling op de optie "Woorden en talen" </p> </td> 
+   <td colname="col2"> <p> komt overeen met de nationale representatie van de afgekorte naam van de maand, waarbij de afkorting de eerste drie tekens is, bijvoorbeeld "Jun." De nationale vertegenwoordiging wordt bepaald door de "Taal"instelling op de "Woorden &amp; Talen"Optie </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>%D </p> </td> 
-   <td colname="col2"> <p> komt overeen met "%m/%d/%y", bv. 06-06-01" </p> </td> 
+   <td colname="col2"> <p> komt overeen met "%m/%d/%y", bijvoorbeeld "06/06/01" </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>%d </p> </td> 
@@ -68,79 +71,79 @@ De volgende lijst beschrijft de beschikbare koorden van het datumformaat:
   </tr> 
   <tr> 
    <td colname="col1"> <p>%e </p> </td> 
-   <td colname="col2"> <p> komt overeen met de dag van de maand als decimaal getal (1-31); enkele cijfers worden voorafgegaan door een lege </p> </td> 
+   <td colname="col2"> <p> de dag van de maand als een decimaal getal (1-31); enkele cijfers worden voorafgegaan door een lege </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>%H </p> </td> 
-   <td colname="col2"> <p> past het uur (24 uurklok) als decimaal aantal (00-23) aan </p> </td> 
+   <td colname="col2"> <p> komt het uur (24-uurs klok) als decimaal aantal (00-23) overeen </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>%h </p> </td> 
-   <td colname="col2"> <p> overeenkomt met de nationale afbeelding van de afgekorte naam van de maand, waarbij de afkorting de eerste drie tekens is, bijvoorbeeld "Jun" (hetzelfde als %b) </p> </td> 
+   <td colname="col2"> <p> komt overeen met de nationale representatie van de afgekorte naam van de maand, waarbij de afkorting de eerste drie tekens is, bijvoorbeeld "Jun" (gelijk aan %b) </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>%I </p> </td> 
-   <td colname="col2"> <p> past het uur (de klok van 12 uur) als decimaal aantal (01-12) aan </p> </td> 
+   <td colname="col2"> <p> komt het uur (12-uurklok) als decimaal aantal (01-12) overeen </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>%j </p> </td> 
-   <td colname="col2"> <p> komt overeen met de dag van het jaar als decimaal getal (001-366) </p> </td> 
+   <td colname="col2"> <p> komt overeen met de dag van het jaar als een decimaal getal (001-366) </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>%k </p> </td> 
-   <td colname="col2"> <p> past het uur (klok van 24 uur) als decimaal aantal (0-23) aan; enkele cijfers worden voorafgegaan door een lege </p> </td> 
+   <td colname="col2"> <p> het uur (24-uurs klok) als decimaal aantal (0-23) aanpast; enkele cijfers worden voorafgegaan door een lege </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>%l </p> </td> 
-   <td colname="col2"> <p> past het uur (12 uurklok) als decimaal aantal (1-12) aan; enkele cijfers worden voorafgegaan door een lege </p> </td> 
+   <td colname="col2"> <p> het uur (12-uurs klok) als decimaal aantal (1-12) aanpast; enkele cijfers worden voorafgegaan door een lege </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>%M </p> </td> 
-   <td colname="col2"> <p> past de minuut als decimaal aantal (00-59) aan </p> </td> 
+   <td colname="col2"> <p> komt overeen met de minuut als een decimaal getal (00-59) </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>%m </p> </td> 
-   <td colname="col2"> <p> past de maand als decimaal aantal (01-12) aan </p> </td> 
+   <td colname="col2"> <p> komt overeen met de maand als een decimaal getal (01-12) </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>%p </p> </td> 
-   <td colname="col2"> <p> overeenkomt met de nationale vertegenwoordiging van "ante meridiem" of "post meridiem", naargelang van het geval, bv. "PM." De nationale vertegenwoordiging wordt bepaald aan de hand van de "Taal"-instelling op de optie "Woorden en talen" </p> </td> 
+   <td colname="col2"> <p> komt overeen met de nationale vertegenwoordiging van "ante meridiem" of "post meridiem" naar gelang van het geval, bv. "PM." De nationale vertegenwoordiging wordt bepaald door de "Taal"instelling op de "Woorden &amp; Talen"Optie </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>%R </p> </td> 
-   <td colname="col2"> <p> komt overeen met "%H:%M", bv. "13:23" </p> </td> 
+   <td colname="col2"> <p> is gelijk aan "%H:%M", bijvoorbeeld "13:23" </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>%r </p> </td> 
-   <td colname="col2"> <p> is equivalent aan "%I:%M:%S %p", bv. "13:23:45" </p> </td> 
+   <td colname="col2"> <p> is gelijk aan "%I:%M:%S %p", bijvoorbeeld "01:23:45 PM" </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>%S </p> </td> 
-   <td colname="col2"> <p> past de tweede als decimaal aantal (00-60) aan </p> </td> 
+   <td colname="col2"> <p> komt overeen met de tweede als een decimaal getal (00-60) </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>%T </p> </td> 
-   <td colname="col2"> <p> is equivalent aan "%H:%M:%S", bv. "13:26:47" </p> </td> 
+   <td colname="col2"> <p> is gelijk aan "%H:%M:%S", bijvoorbeeld "13:26:47" </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>%U </p> </td> 
-   <td colname="col2"> <p> komt overeen met het weekaantal van het jaar (zondag als eerste dag van de week) als decimaal getal (00-53) </p> </td> 
+   <td colname="col2"> <p> komt overeen met het weeknummer van het jaar (zondag als de eerste dag van de week) als een decimaal getal (00-53) </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>%v </p> </td> 
-   <td colname="col2"> <p> komt overeen met "%e-%b-%Y", bv. "6-jun-2001" </p> </td> 
+   <td colname="col2"> <p> is gelijk aan "%e-%b-%Y", bijvoorbeeld "6-jun-2001" </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>%Y </p> </td> 
-   <td colname="col2"> <p> komt overeen met het jaar met een decimaal getal, bijvoorbeeld "2001" </p> </td> 
+   <td colname="col2"> <p> komt overeen met het jaar met de eeuw als een decimaal getal, bijvoorbeeld "2001" </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>%y </p> </td> 
-   <td colname="col2"> <p> komt overeen met het jaar zonder eeuw als decimaal getal (00-99) </p> </td> 
+   <td colname="col2"> <p> komt overeen met het jaar zonder eeuw als een decimaal getal (00-99) </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>%Z </p> </td> 
-   <td colname="col2"> <p> past de naam van de tijdzone aan </p> </td> 
+   <td colname="col2"> <p> komt overeen met de naam van de tijdzone </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>%% </p> </td> 
@@ -149,14 +152,14 @@ De volgende lijst beschrijft de beschikbare koorden van het datumformaat:
  </tbody> 
 </table>
 
-**Standaardformaatreeksen**
+**Standaardindelingsreeksen**
 
-De volgende standaardformaatkoorden worden gebruikt door malplaatjes. U kunt aan deze lijst toevoegen of het uitgeven zonodig.
+De volgende standaardformaatkoorden worden gebruikt door malplaatjes. U kunt deze lijst uitbreiden of indien nodig bewerken.
 
 <table> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> <p>Standaardformaattekenreeks </p> </th> 
+   <th colname="col1" class="entry"> <p>Standaardindelingstekenreeks </p> </th> 
    <th colname="col2" class="entry"> <p>Resulterend voorbeeld </p> </th> 
   </tr> 
  </thead>
@@ -171,11 +174,11 @@ De volgende standaardformaatkoorden worden gebruikt door malplaatjes. U kunt aan
   </tr> 
   <tr> 
    <td colname="col1"> <p>%A %B %d, %Y %T %Z </p> </td> 
-   <td colname="col2"> <p> Zondag 5 september 1999 13:12:00 PDT </p> </td> 
+   <td colname="col2"> <p> zondag 5 september 1999 13:12:00 PDT </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>%A %b %d, %Y %T %Z </p> </td> 
-   <td colname="col2"> <p> Zondag 5 sep. 1999 13:12:00 PDT </p> </td> 
+   <td colname="col2"> <p> 5 september 1999 13:12:00 PDT </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>%a %B %d, %Y %T %Z </p> </td> 

@@ -1,37 +1,40 @@
 ---
-description: De Spoorlijn van het Gezicht van het gebruik om groepen facetten op een Web-pagina weer in orde te brengen.
-seo-description: De Spoorlijn van het Gezicht van het gebruik om groepen facetten op een Web-pagina weer in orde te brengen.
-seo-title: Over Facet Rail
+description: Gebruik Facet Rail om groepen facetten op een webpagina opnieuw te ordenen.
+seo-description: Gebruik Facet Rail om groepen facetten op een webpagina opnieuw te ordenen.
+seo-title: Info over Facet Rail
 solution: Target
 subtopic: Navigation
-title: Over Facet Rail
+title: Info over Facet Rail
 topic: Design,Site search and merchandising
 uuid: 6da2bd67-8c20-4955-9836-bc8ba88546c5
 translation-type: tm+mt
 source-git-commit: 6b3aa733b0dfaace956f0ffc25f433fefd21e15f
+workflow-type: tm+mt
+source-wordcount: '791'
+ht-degree: 0%
 
 ---
 
 
-# Over Facet Rail{#about-facet-rail}
+# Info over Facet Rail{#about-facet-rail}
 
-De Spoorlijn van het Gezicht van het gebruik om groepen facetten op een Web-pagina weer in orde te brengen.
+Gebruik Facet Rail om groepen facetten op een webpagina opnieuw te ordenen.
 
-## Facet Rail gebruiken {#concept_1FDC8BCDFFC84A0889DA670F63D5F6DB}
+## Facet Rail {#concept_1FDC8BCDFFC84A0889DA670F63D5F6DB} gebruiken
 
-Een facet is een bezit of een kenmerk, is het een manier om de onderzoeksresultaten over het algemeen te categoriseren. Bijvoorbeeld, zouden de fabrikant, de prijs, en de kleur als een groep facetten kunnen worden beschouwd. Elk facet kan veelvoudige beperkingen of waarden hebben. Bijvoorbeeld, als u kleur als gezicht had, konden de &quot;facetwaarden&quot;rood, oranje, geel, groen, blauw, indigo, en viool zijn.
+Een facet is een eigenschap of kenmerk. Dit is een manier om de zoekresultaten in algemene zin te categoriseren. Fabrikant, prijs en kleur kunnen bijvoorbeeld worden beschouwd als een groep facetten. Elke facet kan meerdere beperkingen of waarden hebben. Als u bijvoorbeeld kleur als facet had, kunnen de &quot;waarden van het facet&quot; rood, oranje, geel, groen, blauw, indigo en violet zijn.
 
-Zie [Over Facets](../c-about-design-menu/c-about-facets.md#concept_FA912B3B41EE493DB2F492D188457FF5).
+Zie [Informatie over facetten](../c-about-design-menu/c-about-facets.md#concept_FA912B3B41EE493DB2F492D188457FF5).
 
-U gebruikt de Spoorlijn van het Gezicht om deze groepen facetten op een Web-pagina opnieuw in orde te brengen. Bijvoorbeeld, veronderstel dat u een sectie van onderzoeksresultaten op de linkerkant van een Web-pagina had. De sectie maakte een lijst van, van boven tot onder, een facet van de Categorie, een facet van het Merk, een facet van de Prijs, en een Populair facet. Met een facetrails kunt u bijvoorbeeld het meest populaire facet boven of onder het categorie-facet laten verschijnen.
+U gebruikt Facet Rail om deze groepen facetten op een webpagina opnieuw te ordenen. Stel dat u aan de linkerkant van een webpagina een sectie met zoekresultaten hebt. De sectie die van boven naar beneden wordt vermeld, een facet van de Categorie, een facet van het Merk, een facet van de Prijs, en een Populair facet. Met een facetrails kunt u bijvoorbeeld de meest populaire facet boven of onder het categorie-facet weergeven.
 
-De groep facetten die je samen opnieuw wilt ordenen, behoort tot een facetspoortag. Een facet kan slechts tot één facetspoorstaaf behoren. De facetspoorstaaf is een het malplaatjelag van de Presentatie en omvat één enkele vertegenwoordiging van een facet. Alle facetten die deel uitmaken van deze spoorlijn delen die één facetvertegenwoordiging.
+De groep facetten die u samen wilt herschikken, behoren tot een facetspoortag. Een facet kan slechts tot één facetspoorstaaf behoren. De facetrails zijn een code van het presentatiesjabloon en bevatten één weergave van een facet. Alle facetten die bij dit spoor horen, delen die ene facetrepresentatie.
 
-Zie [over Malplaatjes](../c-about-design-menu/c-about-templates.md#concept_06EB481B14864E18A8AE2BCD1D6EF0B5) en Facet in de malplaatjemarkeringen [van de](../c-appendices/c-templates.md#reference_F1BBF616BCEC4AD7B2548ECD3CA74C64)Presentatie.
+Zie [Informatie over sjablonen](../c-about-design-menu/c-about-templates.md#concept_06EB481B14864E18A8AE2BCD1D6EF0B5) en Facet in [Labels voor presentatiesjablonen](../c-appendices/c-templates.md#reference_F1BBF616BCEC4AD7B2548ECD3CA74C64).
 
-## Een facetrail configureren {#task_561A8FF1CAD1402B9DD33E276BBC6A0E}
+## Een facetrail {#task_561A8FF1CAD1402B9DD33E276BBC6A0E} configureren
 
-U kunt een facetspoorstaaf toevoegen om uw presentatielaag aan te passen. De rails van het gezicht voorzien uw klanten van een Geleid Onderzoek dat hen laat neer in hun onderzoeksresultaten bogen die op de orde van de facetten op uw Web-pagina worden gebaseerd.
+U kunt een facetrails toevoegen om de presentatielaag aan te passen. Facet-rails bieden uw klanten een functie met instructies waarmee ze naar hun zoekresultaten kunnen gaan op basis van de volgorde van de facetten op uw webpagina.
 
 <!-- 
 
@@ -39,15 +42,15 @@ t_configuring_facet_rail.xml
 
 -->
 
-Om het even welke veranderingen u aan facetsporen aanbrengt kunnen worden omgekeerd gebruikend de eigenschap van de Geschiedenis.
+Wijzigingen die u aanbrengt in de facetrails, kunnen worden hersteld met de functie Historie.
 
-**Om een facetspoorstaaf te vormen**
+**Een facetrails configureren**
 
-1. Voordat u een facetrail kunt configureren, moet u ervoor zorgen dat u al een facet hebt toegevoegd en als onderdeel van die taak een facetspoornaam hebt opgegeven.
+1. Voordat u een facetrails kunt configureren, moet u controleren of u al een facet hebt toegevoegd en, als onderdeel van die taak, een facetspoornaam opgeven.
 
-   Zie Een nieuw facet [toevoegen](../c-about-design-menu/c-about-facets.md#task_FC07BFFA62CA4B718D6CBF4F2855C89B).
+   Zie [Een nieuw facet toevoegen](../c-about-design-menu/c-about-facets.md#task_FC07BFFA62CA4B718D6CBF4F2855C89B).
 1. Klik in het productmenu op **[!UICONTROL Design]** > **[!UICONTROL Navigation]** > **[!UICONTROL Facet Rail.]**
-1. Voor de [!DNL Facet Rail] pagina, selecteer de facetten die u in de facetspoorstaaf wilt omvatten, en plaats dan de **[!UICONTROL Sort Facets Method]** optie van de drop-down lijst.
+1. Selecteer op de pagina [!DNL Facet Rail] de facetten die u wilt opnemen in de facetrails en stel vervolgens de optie **[!UICONTROL Sort Facets Method]** in de vervolgkeuzelijst in.
 
    <!-- 
    r_facet_rail_options.xml
@@ -55,32 +58,32 @@ Om het even welke veranderingen u aan facetsporen aanbrengt kunnen worden omgeke
 
    | Functie/optie | Beschrijving |
    |--- |--- |
-   | Naam facet-rail | Identificeert de naam van de facetspoorstaaf.  U creeert de naam van de facetspoorstaaf toen u het facet toevoegde.  Zie Een nieuw facet [toevoegen](../c-about-design-menu/c-about-facets.md#task_FC07BFFA62CA4B718D6CBF4F2855C89B) |
-   | Inbegrepen facetten | Een lijst van mogelijke facetten die u kunt selecteren om aan de facetspoorstaaf toe te voegen.  Als u verkiest om facetten te sorteren gebruikend `Custom`, bepaalt de orde die u hier facetten selecteert de orde dat zij in het `Custom Facet Order` tekstvakje verschijnen. |
-   | Methode Sorteerfacetten | Kies uit een van de volgende drie opties in de vervolgkeuzelijst:<ul><li>`Alpha` De facetten worden gesorteerd in alfabetische orde met betrekking tot hun namen, met inbegrip van leestekens.</li><li>`Alpha (not case sensitive)` De facetten worden gesorteerd in alfabetische orde met betrekking tot hun namen, negerend het geval van alfabetische karakters, en met inbegrip van punctuatie karakters. </li><li>`Alpha (alphanumeric only)` De facetten worden gesorteerd in alfabetische orde met betrekking tot hun namen, negerend leestekens. </li><li>`Alpha (not case sensitive, alphanumeric only)` De facetten worden gesorteerd in alfabetische orde met betrekking tot hun namen, negerend het geval van alfabetische karakters, en negerend punctuatiekarakters. </li><li>`Count` De facetten worden gesorteerd basis op telling. </li><li>`Custom` Opent het `Custom Facet Order` tekstvakje dat u de orde van de facetten door de nauwkeurige naam van elk facet in te gaan laat bepalen. Om het even welke facetetiketten die uit worden verlaten worden verwijderd uit de `Custom Facet Order` lijst.</li></ul> |
-   | Aangepaste factsorder | Deze optie is slechts beschikbaar als u `Custom` uit de `Sort Facets Method` drop-down lijst selecteerde.  Laat u van facetnamen, of één per lijn, of allen op één lijn en komma-gescheiden een lijst maken. Als de facetetiketten worden bepaald worden zij getoond in de `Facets Included` lijst, die tussen haakjes wordt ingesloten.  Omvat facetetiketten niet in het `Custom Facet Order` tekstvakje.  Wanneer u selecteert of facetten in de `Facets Included` lijst schrapt, wordt het `Custom Facet Order` tekstvakje automatisch bijgewerkt. |
+   | Naam facetrails | Hiermee wordt de naam van de facetrails aangegeven.  U maakt de naam van de facetrails op het moment dat u de facet toevoegt.  Zie [Een nieuw facet toevoegen](../c-about-design-menu/c-about-facets.md#task_FC07BFFA62CA4B718D6CBF4F2855C89B) |
+   | Opgenomen factoren | Een lijst met mogelijke facetten die u kunt selecteren om toe te voegen aan de facetrails.  Als u ervoor kiest om facetten te sorteren met `Custom`, bepaalt de volgorde die u hier facetten selecteert de volgorde waarin ze in het tekstvak `Custom Facet Order` worden weergegeven. |
+   | Methode Sorteerfactoren | Kies een van de volgende drie opties in de vervolgkeuzelijst:<ul><li>`Alpha` De facetten worden in alfabetische volgorde gesorteerd ten opzichte van hun namen, inclusief leestekens.</li><li>`Alpha (not case sensitive)` De facetten worden alfabetisch gesorteerd op naam, waarbij alfabetische tekens worden genegeerd, inclusief leestekens. </li><li>`Alpha (alphanumeric only)` De facetten worden in alfabetische volgorde gesorteerd ten opzichte van hun namen, waarbij leestekens worden genegeerd. </li><li>`Alpha (not case sensitive, alphanumeric only)` De facetten worden alfabetisch gesorteerd op naam, waarbij alfabetische tekens worden genegeerd en leestekens worden genegeerd. </li><li>`Count` De facetten worden gesorteerd op basis van aantal. </li><li>`Custom` Hiermee opent u het  `Custom Facet Order` tekstvak waarin u de volgorde van de facetten kunt definiëren door de exacte naam van elk facet in te voeren. Alle onbewerkte facetlabels worden uit de lijst `Custom Facet Order` verwijderd.</li></ul> |
+   | Aangepaste volgorde van gezichten | Deze optie is alleen beschikbaar als u `Custom` hebt geselecteerd in de vervolgkeuzelijst `Sort Facets Method`.  Hiermee kunt u lettertypenamen weergeven, één per regel of alle namen op één regel en door komma&#39;s gescheiden. Als er facetlabels zijn gedefinieerd, worden deze weergegeven in de lijst `Facets Included`, tussen haakjes.  Plaats geen facetlabels in het tekstvak `Custom Facet Order`.  Wanneer u facetten in de `Facets Included` lijst selecteert of deselecteert, wordt het `Custom Facet Order` tekstvakje automatisch bijgewerkt. |
 
 1. Klik op **[!UICONTROL Save Changes]**.
-1. (Facultatief) op de [!DNL Facet Rail] pagina, doe één van het volgende:
+1. (Optioneel) Voer op de pagina [!DNL Facet Rail] een van de volgende handelingen uit:
 
    * Klik **[!UICONTROL History]** om het even welke veranderingen terug te keren die u hebt aangebracht.
 
-      Zie De optie [Historie](../t-using-the-history-option.md#task_70DD3F87A67242BBBD2CB27156F43002)gebruiken.
+      Zie [De optie Historie gebruiken](../t-using-the-history-option.md#task_70DD3F87A67242BBBD2CB27156F43002).
 
    * Klik op **[!UICONTROL Live]**.
 
-      Zie live-instellingen [bekijken](../c-about-staging.md#task_401A0EBDB5DB4D4CA933CBA7BECDC10F).
+      Zie [Live-instellingen weergeven](../c-about-staging.md#task_401A0EBDB5DB4D4CA933CBA7BECDC10F).
 
    * Klik op **[!UICONTROL Push Live]**.
 
-      Zie [Stadsmontages van het Pushing leven](../c-about-staging.md#task_44306783B4C0408AAA58B471DAF2D9A4).
+      Zie [Werkgebiedinstellingen leegmaken live](../c-about-staging.md#task_44306783B4C0408AAA58B471DAF2D9A4).
 
-1. Geef het malplaatje van de Presentatie door het volgende uit te doen:.
+1. Voer de volgende handelingen uit om de presentatiesjabloon te bewerken:
 
-   * Creeer een &quot;facetmalplaatje&quot;op het presentatiemalplaatje.
-   * Omring de &quot;facetmalplaatje&quot;met de `<guided-facet-rail>` markeringen.
+   * Maak een &quot;facetsjabloon&quot; in de presentatiesjabloon.
+   * omring de &quot;facetsjabloon&quot; met de `<guided-facet-rail>`-tags.
 
-      Zie Facets in de sjabloontags voor [presentaties](../c-appendices/c-templates.md#reference_F1BBF616BCEC4AD7B2548ECD3CA74C64).
+      Zie Facets in [Presentatiesjabloonlabels](../c-appendices/c-templates.md#reference_F1BBF616BCEC4AD7B2548ECD3CA74C64).
 
       Voorbeeld:
 
@@ -93,9 +96,9 @@ Om het even welke veranderingen u aan facetsporen aanbrengt kunnen worden omgeke
         </guided-facet-rail>
       ```
 
-      Deze markeringen maken een sectie van het presentatiemalplaatje uit om een herhaalbaar patroon voor elk facet in de facetspoorstaaf te worden. Elk facet dat tot de facetspoorstaaf behoort, gebruikt dit uitgesneden deel om zijn output te evalueren. Slechts één `<guided-facet-rail>` markering kan op het definitieve presentatiemalplaatje verschijnen.
+      Met deze labels wordt een gedeelte van het presentatiesjabloon uitgesneden tot een herhaalbaar patroon voor elk facet in de facetrails. Elk facet dat tot de facetrail behoort, gebruikt dit uitgesneden gedeelte om zijn output te evalueren. Er kan slechts één `<guided-facet-rail>`-tag op de uiteindelijke presentatiesjabloon verschijnen.
 
-      De volgende markeringen vergen niet de `gsname` attributen binnen `<guided-facet-rail>` omdat de waarde dynamisch in onderzoekstijd wordt bepaald en behoorlijk gesubstitueerd is:
+      Voor de volgende tags is het kenmerk `gsname` in `<guided-facet-rail>` niet nodig omdat de waarde tijdens het zoeken dynamisch wordt bepaald en correct wordt vervangen:
 
       `<guided-facet>`
       `<guided-facet-display-name>`
@@ -104,6 +107,6 @@ Om het even welke veranderingen u aan facetsporen aanbrengt kunnen worden omgeke
       `<guided-facet-undo-path>`
       `<guided-facet-behavior>`
 
-   * Sparen het presentatiemalplaatje en duw het levend.
+   * Sla de presentatiesjabloon op en druk deze live.
 
-      Zie Een presentatie [bewerken of een transportsjabloon](../c-about-design-menu/c-about-templates.md#task_800E0E2265C34C028C92FEB5A1243EC3).
+      Zie [Een presentatie of een transportsjabloon bewerken](../c-about-design-menu/c-about-templates.md#task_800E0E2265C34C028C92FEB5A1243EC3).

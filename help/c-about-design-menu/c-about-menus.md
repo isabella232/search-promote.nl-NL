@@ -16,7 +16,7 @@ ht-degree: 1%
 ---
 
 
-# Menu&#39;s{#about-menus}
+# Informatie over menu&#39;s{#about-menus}
 
 Met menu&#39;s kunt u de presentatielaag aanpassen.
 
@@ -42,9 +42,9 @@ t_adding_a_new_menu.xml
 
 **Een nieuw menu toevoegen**
 
-1. Klik in het menu Product op **[!UICONTROL Design]** > **[!UICONTROL Navigation]** > **[!UICONTROL Menus]**.
-1. Klik op de [!DNL Menus] pagina **[!UICONTROL Add New Menu]**.
-1. Stel op de [!DNL Add Menu] pagina de gewenste opties in.
+1. Klik in het productmenu op **[!UICONTROL Design]** > **[!UICONTROL Navigation]** > **[!UICONTROL Menus]**.
+1. Klik op [!DNL Menus] op de pagina.**[!UICONTROL Add New Menu]**
+1. Stel op de pagina [!DNL Add Menu] de gewenste opties in.
 
    Deze instellingen zijn van invloed op zowel het gedrag als de standaardpresentatie van een broodkruimel. U kunt enkele van deze instellingen overschrijven met de instellingen van de presentatiesjabloon.
 
@@ -70,9 +70,9 @@ t_adding_a_new_menu.xml
       <td colname="col1"> <p>Type menu </p> </td> 
       <td colname="col2"> <p>Hiermee stelt u een van de volgende drie menutypen in: </p> <p> 
       <ul id="ul_7E66ACC1DA494B20BEC3B0B2CCAB103A"> 
-      <li id="li_D81876660A8B48AFB70D3317063FBF6F"> <span class="uicontrol"> Sorteren </span> <p>Hiermee ordent u de zoekopdracht op een van de door u gedefinieerde metagegevenstypen. </p> <p>U kunt bijvoorbeeld een sorteermenu definiëren met de volgende typen metagegevens: drie relevante punten; een aangepast metagegevensveld, zoals een beschikbaarheidscode; en prijs. Aan de drie items kunnen respectievelijk de labels "Sorteren op relevantie", "Sorteren op beschikbaarheid" en "Sorteren op prijs" worden toegekend. Wanneer u dit in uw presentatiesjabloon opneemt, kan de klant dit besturingselement gebruiken om de zoekresultaten te sorteren. </p> </li> 
-      <li id="li_63AE06B544B64DCAA8C55031B3DFFFF7"> <span class="uicontrol"> Aantal </span> <p>Hiermee definieert u het aantal zoekresultaten dat moet worden weergegeven. Dit menutype is toegewezen aan de cgi-parameter <span class="varname"> sp_c </span>. </p> <p>Zie <a href="../c-appendices/c-cgiparameters.md#reference_582E85C3886740C98FE88CA9DF7918E8" format="dita" scope="local"> CGI-parameters voor achtergrondzoekopdrachten </a>. </p> </li> 
-      <li id="li_EEC810D420FF41498ECE49EBAAB33BE5"> <span class="uicontrol"> Navigatie </span> <p>Hiermee wordt een set statische URL's opgegeven die aan menu-items zijn gekoppeld. Doorgaans wordt een navigatiemenu gebruikt om een navigatiebalk op het hoogste niveau te maken op de pagina met zoekresultaten. </p> <p>U kunt bijvoorbeeld een menu maken met vrouwen, mannen, jongens en meisjes, waarin de menu-items er als volgt uitzien: 
+      <li id="li_D81876660A8B48AFB70D3317063FBF6F"> <span class="uicontrol"> Sorteren  </span> <p>Hiermee ordent u de zoekopdracht op een van de door u gedefinieerde metagegevenstypen. </p> <p>U kunt bijvoorbeeld een sorteermenu definiëren met de volgende typen metagegevens: drie relevante punten; een aangepast metagegevensveld, zoals een beschikbaarheidscode; en prijs. Aan de drie items kunnen respectievelijk de labels "Sorteren op relevantie", "Sorteren op beschikbaarheid" en "Sorteren op prijs" worden toegekend. Wanneer u dit in uw presentatiesjabloon opneemt, kan de klant dit besturingselement gebruiken om de zoekresultaten te sorteren. </p> </li> 
+      <li id="li_63AE06B544B64DCAA8C55031B3DFFFF7"> <span class="uicontrol"> Aantal  </span> <p>Hiermee definieert u het aantal zoekresultaten dat moet worden weergegeven. Dit menutype is toegewezen aan de cgi-parameter <span class="varname"> sp_c </span>. </p> <p>Zie <a href="../c-appendices/c-cgiparameters.md#reference_582E85C3886740C98FE88CA9DF7918E8" format="dita" scope="local"> CGI-parameters voor achtergrondzoekopdrachten </a>. </p> </li> 
+      <li id="li_EEC810D420FF41498ECE49EBAAB33BE5"> <span class="uicontrol"> Navigatie  </span> <p>Hiermee wordt een set statische URL's opgegeven die aan menu-items zijn gekoppeld. Doorgaans wordt een navigatiemenu gebruikt om een navigatiebalk op het hoogste niveau te maken op de pagina met zoekresultaten. </p> <p>U kunt bijvoorbeeld een menu maken met vrouwen, mannen, jongens en meisjes, waarin de menu-items er als volgt uitzien: 
       <code>
         /?q1=womens;x1=gender 
       </code>, 
@@ -84,7 +84,7 @@ t_adding_a_new_menu.xml
       <tr> 
       <td colname="col1"> <p>Merchandising </p> 
         <!--DONT' KNOW WHAT THIS DOES--> </td> 
-      <td colname="col2"> <p>Deze optie is alleen beschikbaar als u het menutype <span class="uicontrol"> Sorteren hebt gekozen. </span> </p> </td> 
+      <td colname="col2"> <p>Deze optie is alleen beschikbaar als u het menutype <span class="uicontrol"> Sorteren kiest. </span> </p> </td> 
       </tr> 
       <tr> 
       <td colname="col1"> <p>Aantal items in menu </p> </td> 
@@ -114,21 +114,21 @@ t_adding_a_new_menu.xml
     </table>
 
 1. Klik op **[!UICONTROL Add]**.
-1. (Optioneel) Voer op de [!DNL Menus] pagina een van de volgende handelingen uit:
+1. (Optioneel) Voer op de pagina [!DNL Menus] een van de volgende handelingen uit:
 
-   * Klik **[!UICONTROL History]** om de aangebrachte wijzigingen terug te draaien.
+   * Klik **[!UICONTROL History]** om het even welke veranderingen terug te keren die u hebt aangebracht.
 
-      Zie De optie [Historie](../t-using-the-history-option.md#task_70DD3F87A67242BBBD2CB27156F43002)gebruiken.
+      Zie [De optie Historie gebruiken](../t-using-the-history-option.md#task_70DD3F87A67242BBBD2CB27156F43002).
 
    * Klik op **[!UICONTROL Live]**.
 
-      Zie Live-instellingen [weergeven](../c-about-staging.md#task_401A0EBDB5DB4D4CA933CBA7BECDC10F).
+      Zie [Live-instellingen weergeven](../c-about-staging.md#task_401A0EBDB5DB4D4CA933CBA7BECDC10F).
 
    * Klik op **[!UICONTROL Push Live]**.
 
-      Zie [Werkgebiedinstellingen live](../c-about-staging.md#task_44306783B4C0408AAA58B471DAF2D9A4)spoelen.
+      Zie [Werkgebiedinstellingen leegmaken live](../c-about-staging.md#task_44306783B4C0408AAA58B471DAF2D9A4).
 
-## Een menu bewerken {#task_0770DBFD0C7046169097FB6F771B9114}
+## Een menu {#task_0770DBFD0C7046169097FB6F771B9114} bewerken
 
 U kunt de instellingen van elk menu bewerken dat u hebt toegevoegd.
 
@@ -144,27 +144,27 @@ t_editing_a_menu.xml
 
 **Een menu bewerken**
 
-1. Klik in het menu Product op **[!UICONTROL Design]** > **[!UICONTROL Navigation]** > **[!UICONTROL Menus]**.
-1. Klik in de [!DNL Menus] pagina helemaal rechts van **[!UICONTROL Edit]** de menunaam.
-1. Stel op de [!DNL Edit Menu] pagina de gewenste opties in.
+1. Klik in het productmenu op **[!UICONTROL Design]** > **[!UICONTROL Navigation]** > **[!UICONTROL Menus]**.
+1. Op [!DNL Menus] pagina, klik **[!UICONTROL Edit]** uiterst rechts van een menunaam.
+1. Stel op de pagina [!DNL Edit Menu] de gewenste opties in.
 
-   Zie de optietabel onder [Een nieuw menu](../c-about-design-menu/c-about-menus.md#task_EE171532D3AE477FAFE8C2F4077A6D73)toevoegen.
+   Zie de optietabel onder [Een nieuw menu toevoegen](../c-about-design-menu/c-about-menus.md#task_EE171532D3AE477FAFE8C2F4077A6D73).
 1. Klik op **[!UICONTROL Save Changes]**.
-1. (Optioneel) Voer op de [!DNL Menus] pagina een van de volgende handelingen uit:
+1. (Optioneel) Voer op de pagina [!DNL Menus] een van de volgende handelingen uit:
 
-   * Klik **[!UICONTROL History]** om de aangebrachte wijzigingen terug te draaien.
+   * Klik **[!UICONTROL History]** om het even welke veranderingen terug te keren die u hebt aangebracht.
 
-      Zie De optie [Historie](../t-using-the-history-option.md#task_70DD3F87A67242BBBD2CB27156F43002)gebruiken.
+      Zie [De optie Historie gebruiken](../t-using-the-history-option.md#task_70DD3F87A67242BBBD2CB27156F43002).
 
    * Klik op **[!UICONTROL Live]**.
 
-      Zie Live-instellingen [weergeven](../c-about-staging.md#task_401A0EBDB5DB4D4CA933CBA7BECDC10F).
+      Zie [Live-instellingen weergeven](../c-about-staging.md#task_401A0EBDB5DB4D4CA933CBA7BECDC10F).
 
    * Klik op **[!UICONTROL Push Live]**.
 
-      Zie [Werkgebiedinstellingen live](../c-about-staging.md#task_44306783B4C0408AAA58B471DAF2D9A4)spoelen.
+      Zie [Werkgebiedinstellingen leegmaken live](../c-about-staging.md#task_44306783B4C0408AAA58B471DAF2D9A4).
 
-## Een menu verwijderen {#task_645E212311A045CD8D9D906878165F47}
+## Een menu {#task_645E212311A045CD8D9D906878165F47} verwijderen
 
 U kunt elk menu verwijderen dat u hebt toegevoegd.
 
@@ -176,20 +176,20 @@ t_deleting_a_menu.xml
 
 **Een menu verwijderen**
 
-1. Klik in het menu Product op **[!UICONTROL Design]** > **[!UICONTROL Navigation]** **[!UICONTROL Menus]**
-1. Klik in de [!DNL Menus] pagina helemaal rechts van **[!UICONTROL Delete]** de menunaam.
-1. Klik in het [!DNL Confirmation] dialoogvenster op **[!UICONTROL OK]**.
+1. Klik in het productmenu op **[!UICONTROL Design]** > **[!UICONTROL Navigation]** > **[!UICONTROL Menus]**
+1. Op [!DNL Menus] pagina, klik **[!UICONTROL Delete]** uiterst rechts van een menunaam.
+1. Klik in het dialoogvenster [!DNL Confirmation] op **[!UICONTROL OK]**.
 1. (Optioneel) Voer een van de volgende handelingen uit:
 
-   * Klik **[!UICONTROL History]** om de aangebrachte wijzigingen terug te draaien.
+   * Klik **[!UICONTROL History]** om het even welke veranderingen terug te keren die u hebt aangebracht.
 
-      Zie De optie [Historie](../t-using-the-history-option.md#task_70DD3F87A67242BBBD2CB27156F43002)gebruiken.
+      Zie [De optie Historie gebruiken](../t-using-the-history-option.md#task_70DD3F87A67242BBBD2CB27156F43002).
 
    * Klik op **[!UICONTROL Live]**.
 
-      Zie Live-instellingen [weergeven](../c-about-staging.md#task_401A0EBDB5DB4D4CA933CBA7BECDC10F).
+      Zie [Live-instellingen weergeven](../c-about-staging.md#task_401A0EBDB5DB4D4CA933CBA7BECDC10F).
 
    * Klik op **[!UICONTROL Push Live]**.
 
-      Zie [Werkgebiedinstellingen live](../c-about-staging.md#task_44306783B4C0408AAA58B471DAF2D9A4)spoelen.
+      Zie [Werkgebiedinstellingen leegmaken live](../c-about-staging.md#task_44306783B4C0408AAA58B471DAF2D9A4).
 

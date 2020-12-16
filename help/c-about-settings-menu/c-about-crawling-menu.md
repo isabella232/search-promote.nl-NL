@@ -16,11 +16,11 @@ ht-degree: 0%
 ---
 
 
-# Het menu Crawling{#about-the-crawling-menu}
+# Informatie over het menu Crawling{#about-the-crawling-menu}
 
 Met het menu Crawling stelt u de datum- en URL-maskers, wachtwoorden, inhoudstypen, verbindingen, formulierdefinities en URL-invoerpunten in.
 
-## Informatie over URL-invoerpunten {#concept_5D857E3B5C124E85BC0B5AE77A509573}
+## Info over URL-invoerpunten {#concept_5D857E3B5C124E85BC0B5AE77A509573}
 
 De meeste websites hebben één primair ingangspunt of homepage dat een klant aanvankelijk bezoekt. Dit belangrijkste ingangspunt is het URL adres waarvan de onderzoeksrobot begint indexkruipen. Als uw website echter meerdere domeinen of subdomeinen heeft, of als delen van uw site niet zijn gekoppeld vanuit het primaire ingangspunt, kunt u URL-ingangen gebruiken om meer ingangspunten toe te voegen.
 
@@ -28,7 +28,7 @@ Alle webpagina&#39;s onder elk opgegeven URL-ingangspunt worden geïndexeerd. U 
 
 Het belangrijkste ingangspunt is doorgaans de URL van de website die u wilt indexeren en doorzoeken. U vormt dit belangrijkste ingangspunt in de Montages van de Rekening.
 
-Zie [Uw accountinstellingen](../c-about-settings-menu/c-about-account-options-menu.md#task_80A38D0C8E4F453395BD67B81E4B45D9)configureren.
+Zie [Uw accountinstellingen configureren](../c-about-settings-menu/c-about-account-options-menu.md#task_80A38D0C8E4F453395BD67B81E4B45D9).
 
 Nadat u het hoofdURL ingangspunt hebt gespecificeerd, kunt u naar keuze extra ingangspunten specificeren die u in orde wilt kruipen. Meestal zult u extra ingangspunten voor Web-pagina&#39;s specificeren die niet van pagina&#39;s onder het belangrijkste ingangspunt worden verbonden. Geef extra ingangspunten op wanneer uw website meerdere domeinen omvat, zoals in het volgende voorbeeld:
 
@@ -52,35 +52,43 @@ U kwalificeert elk ingangspunt met één of meerdere van de volgende spatie-gesc
  <tbody> 
   <tr> 
    <td colname="col1"> <p>noindex </p> </td> 
-   <td colname="col2"> <p> Als u de tekst niet op de pagina met het ingangspunt wilt indexeren, maar u wel de koppelingen op de pagina wilt volgen, voegt u <code>
+   <td colname="col2"> <p> Als u de tekst niet op de pagina met het ingangspunt wilt indexeren, maar u wel de koppelingen op de pagina wilt volgen, voegt u 
+     <code>
        noindex 
-     </code> na het ingangspunt toe. </p> <p>Scheid het sleutelwoord van het ingangspunt met een ruimte zoals in het volgende voorbeeld: </p> <p> <code> https://www.my-additional-domain.com/more_pages/main.html&amp;nbsp;noindex </code> </p> <p>Dit trefwoord is gelijk aan een meta-tag voor robots met <code>
+     </code> na het ingangspunt. </p> <p>Scheid het sleutelwoord van het ingangspunt met een ruimte zoals in het volgende voorbeeld: </p> <p> <code> https://www.my-additional-domain.com/more_pages/main.html&amp;nbsp;noindex </code> </p> <p>Dit trefwoord is gelijk aan een meta-tag voor robots met 
+     <code>
        content="noindex" 
-     </code>) tussen de <code>
+     </code>) tussen de 
+     <code>
        &lt;head&gt; 
      </code>.. 
      <code>
        &lt;/head&gt; 
-     </code> -tags van de pagina met het ingangspunt. </p> </td> 
+     </code>-tags van de pagina met het ingangspunt. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>nofollow </p> </td> 
-   <td colname="col2"> <p> Als u de tekst op de pagina met het ingangspunt wilt indexeren maar u wilt geen van de koppelingen van de pagina volgen, voegt u <code>
+   <td colname="col2"> <p> Als u de tekst op de pagina met het ingangspunt wilt indexeren, maar u wilt de koppelingen op de pagina niet volgen, voegt u 
+     <code>
        nofollow 
-     </code> na het ingangspunt toe. </p> <p>Scheid het sleutelwoord van het ingangspunt met een ruimte zoals in het volgende voorbeeld: </p> <p> <code> https://www.domain.com/not_linked/directory_listing&amp;nbsp;nofollow </code> </p> <p>Dit trefwoord is gelijk aan een meta-tag voor robots <code>
+     </code> na het ingangspunt. </p> <p>Scheid het sleutelwoord van het ingangspunt met een ruimte zoals in het volgende voorbeeld: </p> <p> <code> https://www.domain.com/not_linked/directory_listing&amp;nbsp;nofollow </code> </p> <p>Dit trefwoord is gelijk aan een meta-tag voor robots met 
+     <code>
        content="nofollow" 
-     </code> tussen de <code>
+     </code> tussen de 
+     <code>
        &lt;head&gt; 
      </code>.. 
      <code>
        &lt;/head&gt; 
-     </code> -tag van een pagina met invoerpunten. </p> </td> 
+     </code>-tag van een pagina met invoerpunten. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>formulier </p> </td> 
-   <td colname="col2"> <p> Wanneer het ingangspunt een aanmeldingspagina is, <code>
+   <td colname="col2"> <p> Wanneer het ingangspunt een login pagina is, 
+     <code>
        form 
-     </code> wordt het doorgaans gebruikt, zodat de zoekrobot het aanmeldingsformulier kan verzenden en de juiste cookies kan ontvangen voordat hij naar de website gaat. Wanneer het trefwoord "form" wordt gebruikt, wordt de pagina met het ingangspunt niet geïndexeerd en markeert de zoekrobot de pagina met het ingangspunt niet als gesleept. Gebruik deze optie <code>
+     </code> wordt doorgaans gebruikt, zodat de zoekrobot het aanmeldingsformulier kan verzenden en de juiste cookies kan ontvangen voordat hij naar de website gaat. Wanneer het trefwoord "form" wordt gebruikt, wordt de pagina met het ingangspunt niet geïndexeerd en markeert de zoekrobot de pagina met het ingangspunt niet als gesleept. Gebruiken 
+     <code>
        nofollow 
      </code> als u niet wilt dat de zoekrobot de koppelingen op de pagina volgt. </p> </td> 
   </tr> 
@@ -89,7 +97,7 @@ U kwalificeert elk ingangspunt met één of meerdere van de volgende spatie-gesc
 
 Zie ook [Informatie over inhoudstypen](../c-about-settings-menu/c-about-crawling-menu.md#concept_6FEA1355C0374500B4C53090C34A8A07).
 
-Zie ook [Informatie over Indexconnector](../c-about-settings-menu/c-about-crawling-menu.md#concept_CA6921E2FBF641F9B4F60C92B32AFA84).
+Zie ook [Indexconnector](../c-about-settings-menu/c-about-crawling-menu.md#concept_CA6921E2FBF641F9B4F60C92B32AFA84).
 
 ## Meerdere URL-ingangspunten toevoegen die u wilt indexeren {#task_2338A47387D74CFDAC4D4EF4A367ED45}
 
@@ -97,33 +105,33 @@ Als uw website meerdere domeinen of subdomeinen heeft en u wilt dat deze doorlop
 
 Als u het URL-ingangspunt van de URL van uw website wilt instellen, gebruikt u Accountinstellingen.
 
-Zie [Uw accountinstellingen](../c-about-settings-menu/c-about-account-options-menu.md#task_80A38D0C8E4F453395BD67B81E4B45D9)configureren.
+Zie [Uw accountinstellingen configureren](../c-about-settings-menu/c-about-account-options-menu.md#task_80A38D0C8E4F453395BD67B81E4B45D9).
 
 **Meerdere URL-ingangspunten toevoegen die u wilt indexeren**
 
-1. Klik in het menu Product op **[!UICONTROL Settings]** > **[!UICONTROL Crawling]** > **[!UICONTROL URL Entrypoints]**.
-1. Voer op de [!DNL URL Entrypoints] pagina in het [!DNL Entrypoints] veld één URL-adres per regel in.
-1. (Optioneel) Selecteer in de **[!UICONTROL Add Index Connector Configurations]** vervolgkeuzelijst een indexaansluiting die u wilt toevoegen als ingangspunt voor indexering.
+1. Klik in het productmenu op **[!UICONTROL Settings]** > **[!UICONTROL Crawling]** > **[!UICONTROL URL Entrypoints]**.
+1. Voer op de pagina [!DNL URL Entrypoints] in het veld [!DNL Entrypoints] één URL-adres per regel in.
+1. (Optioneel) Selecteer in de vervolgkeuzelijst **[!UICONTROL Add Index Connector Configurations]** een indexaansluiting die u wilt toevoegen als ingangspunt voor indexering.
 
    De vervolgkeuzelijst is alleen beschikbaar als u eerder een of meer indexconnectordefinities hebt toegevoegd.
 
    ![](assets/url_entrypoints_index_connector.png)
 
-   Zie [Een definitie](../c-about-settings-menu/c-about-crawling-menu.md#task_96779B651A654E1F871F55D6DBBC8886)voor indexaansluiting toevoegen.
+   Zie [Een definitie voor indexaansluiting toevoegen](../c-about-settings-menu/c-about-crawling-menu.md#task_96779B651A654E1F871F55D6DBBC8886).
 1. Klik op **[!UICONTROL Save Changes]**.
 1. (Optioneel) Voer een van de volgende handelingen uit:
 
-   * Klik **[!UICONTROL History]** om de aangebrachte wijzigingen terug te draaien.
+   * Klik **[!UICONTROL History]** om het even welke veranderingen terug te keren die u hebt aangebracht.
 
-      Zie De optie [Historie](../t-using-the-history-option.md#task_70DD3F87A67242BBBD2CB27156F43002)gebruiken.
+      Zie [De optie Historie gebruiken](../t-using-the-history-option.md#task_70DD3F87A67242BBBD2CB27156F43002).
 
    * Klik op **[!UICONTROL Live]**.
 
-      Zie Live-instellingen [weergeven](../c-about-staging.md#task_401A0EBDB5DB4D4CA933CBA7BECDC10F).
+      Zie [Live-instellingen weergeven](../c-about-staging.md#task_401A0EBDB5DB4D4CA933CBA7BECDC10F).
 
    * Klik op **[!UICONTROL Push Live]**.
 
-      Zie [Werkgebiedinstellingen live](../c-about-staging.md#task_44306783B4C0408AAA58B471DAF2D9A4)spoelen.
+      Zie [Werkgebiedinstellingen leegmaken live](../c-about-staging.md#task_44306783B4C0408AAA58B471DAF2D9A4).
 
 ## Informatie over URL-maskers {#concept_8039DFC53FF3410AA494D602F71BA164}
 
@@ -131,7 +139,7 @@ URL-maskers zijn patronen die bepalen welke van uw website documenten de zoekrob
 
 Zorg ervoor dat u uw site-index opnieuw genereert, zodat de resultaten van uw URL-maskers zichtbaar zijn voor uw klanten.
 
-Zie Een incrementele index van een gefaseerde website [](../c-about-index-menu/c-about-incremental-index.md#task_46A367B0786C4C90BFFA5D3F95FD86C0)configureren.
+Zie [Een incrementele index van een gefaseerde website configureren](../c-about-index-menu/c-about-incremental-index.md#task_46A367B0786C4C90BFFA5D3F95FD86C0).
 
 Hieronder vindt u twee soorten URL-maskers die u kunt gebruiken:
 
@@ -155,7 +163,7 @@ Het masker kan het volgende opgeven:
 * Een URL die jokertekens gebruikt zoals in `https://www.mydomain.com/*.html`.
 * Een reguliere expressie (voor geavanceerde gebruikers).
 
-   Als u een masker wilt omzetten in een reguliere expressie, voegt u het trefwoord in `regexp` tussen het maskertype ( `exclude` of `include`) en het URL-masker.
+   Als u van een masker een reguliere expressie wilt maken, voegt u het trefwoord `regexp` in tussen het maskertype ( `exclude` of `include`) en het URL-masker.
 
 Hier volgt een eenvoudig voorbeeld van een URL-masker uitsluiten:
 
@@ -163,7 +171,7 @@ Hier volgt een eenvoudig voorbeeld van een URL-masker uitsluiten:
 exclude https://www.mydomain.com/photos
 ```
 
-Omdat dit voorbeeld een URL-masker uitsluiten is, wordt elk document dat overeenkomt met het patroon niet geïndexeerd. Het patroon komt overeen met elk aangetroffen item, zowel bestanden als mappen, zodat `https://www.mydomain.com/photos.html` en `https://www.mydomain.com/photos/index.html`, die beide overeenkomen met de URL voor uitsluiten, niet worden geïndexeerd. Als u alleen bestanden in de `/photos/` map wilt afstemmen, moet het URL-masker een schuine streep aan het einde bevatten, zoals in het volgende voorbeeld:
+Omdat dit voorbeeld een URL-masker uitsluiten is, wordt elk document dat overeenkomt met het patroon niet geïndexeerd. Het patroon komt overeen met elk aangetroffen item, zowel bestanden als mappen, zodat `https://www.mydomain.com/photos.html` en `https://www.mydomain.com/photos/index.html`, die beide overeenkomen met de URL voor uitsluiten, niet worden geïndexeerd. Als u alleen bestanden in de map `/photos/` wilt afstemmen, moet het URL-masker een schuine streep aan het einde bevatten, zoals in het volgende voorbeeld:
 
 ```
 exclude https://www.mydomain.com/photos/
@@ -191,15 +199,15 @@ Het opnemen van maskers en het uitsluiten van maskers kan samenwerken. U kunt ee
 https://www.mydomain.com/photos/
 ```
 
-De zoekrobot crawt en indexeert alle pagina&#39;s onder `/photos/summer/`, `/photos/spring/` en `/photos/fall/` (ervan uitgaande dat er koppelingen zijn naar ten minste één pagina in elke map van de `photos` map). Dit gedrag treedt op omdat de koppelingspaden de zoekrobot in staat stellen de documenten in de mappen `/summer/`, `/spring/`en `/fall/`, en de map-URL&#39;s te zoeken, overeenkomen met het include-masker dat automatisch wordt gegenereerd door de URL van het ingangspunt.
+De zoekrobot crawt en indexeert alle pagina&#39;s onder `/photos/summer/`, `/photos/spring/` en `/photos/fall/` (ervan uitgaande dat er koppelingen zijn naar ten minste één pagina in elke map vanuit de map `photos`). Dit gedrag treedt op omdat de koppelingspaden de zoekrobot in staat stellen de documenten in de mappen `/summer/`, `/spring/` en `/fall/` te zoeken en de map-URL&#39;s overeenkomen met het include-masker dat automatisch wordt gegenereerd door de URL van het ingangspunt.
 
-U kunt desgewenst alle pagina&#39;s in de `/fall/` map uitsluiten met een URL-masker, zoals in het volgende voorbeeld:
+U kunt ervoor kiezen alle pagina&#39;s in de map `/fall/` met een URL-masker voor uitsluiten uit te sluiten, zoals in het volgende voorbeeld:
 
 ```
 exclude https://www.mydomain.com/photos/fall/
 ```
 
-U kunt ook alleen selectief opnemen `/photos/fall/redleaves4.html` als onderdeel van de index met het volgende URL-masker:
+U kunt ook alleen `/photos/fall/redleaves4.html` opnemen als onderdeel van de index met het volgende URL-masker:
 
 ```
 include https://www.mydomain.com/photos/fall/redleaves4.html
@@ -212,7 +220,7 @@ include https://www.mydomain.com/photos/fall/redleaves4.html
 exclude https://www.mydomain.com/photos/fall/
 ```
 
-Omdat de zoekrobot aanwijzingen volgt in de volgorde waarin ze worden weergegeven, bevat de zoekrobot eerst `/photos/fall/redleaves4.html`en worden de overige bestanden in de `/fall` map uitgesloten.
+Omdat de zoekrobot aanwijzingen volgt in de volgorde waarin deze worden weergegeven, bevat de zoekrobot eerst `/photos/fall/redleaves4.html` en worden de overige bestanden in de map `/fall` uitgesloten.
 
 Indien de instructies op de tegenovergestelde wijze als in het volgende worden gespecificeerd:
 
@@ -221,11 +229,11 @@ exclude https://www.mydomain.com/photos/fall/
 include https://www.mydomain.com/photos/fall/redleaves4.html
 ```
 
-Dan `/photos/fall/redleaves4.html` is niet inbegrepen, alhoewel het masker specificeert dat het inbegrepen is.
+`/photos/fall/redleaves4.html` wordt dan niet inbegrepen, alhoewel het masker specificeert dat het inbegrepen is.
 
 Een URL-masker dat als eerste wordt weergegeven, heeft altijd voorrang op een URL-masker dat later in de maskerinstellingen wordt weergegeven. Als de zoekrobot bovendien een pagina tegenkomt die overeenkomt met een include-URL-masker en een exclude-URL-masker, heeft het masker dat als eerste wordt vermeld altijd voorrang.
 
-Zie Een incrementele index van een gefaseerde website [](../c-about-index-menu/c-about-incremental-index.md#task_46A367B0786C4C90BFFA5D3F95FD86C0)configureren.
+Zie [Een incrementele index van een gefaseerde website configureren](../c-about-index-menu/c-about-incremental-index.md#task_46A367B0786C4C90BFFA5D3F95FD86C0).
 
 ## Trefwoorden gebruiken met URL-maskers {#section_7609A7A6D79B482ABCA8900886541AAB}
 
@@ -243,61 +251,73 @@ Een komma is niet geldig als scheidingsteken tussen het masker en het trefwoord.
  <tbody> 
   <tr> 
    <td colname="col1"> <p>noindex </p> </td> 
-   <td colname="col2"> <p> Als u de tekst niet wilt indexeren op de pagina's die overeenkomen met het URL-masker, maar u de koppelingen naar de overeenkomende pagina's wilt volgen, voegt u de tekst toe <code>
+   <td colname="col2"> <p> Als u de tekst niet wilt indexeren op de pagina's die overeenkomen met het URL-masker, maar u wel de koppelingen voor de overeenkomende pagina's wilt volgen, voegt u 
+     <code>
        noindex 
-     </code> na het include URL-masker. Zorg ervoor dat u het trefwoord scheidt van het masker met een spatie, zoals in het volgende voorbeeld: </p> <p> <code> include&amp;nbsp;*.swf&amp;nbsp;noindex </code> </p> <p>In het bovenstaande voorbeeld wordt opgegeven dat de zoekrobot alle koppelingen volgt vanuit bestanden met de <code>
+     </code> na het include URL-masker. Zorg ervoor dat u het trefwoord scheidt van het masker met een spatie, zoals in het volgende voorbeeld: </p> <p> <code> include&amp;nbsp;*.swf&amp;nbsp;noindex </code> </p> <p>In het bovenstaande voorbeeld wordt opgegeven dat de zoekrobot alle koppelingen volgt vanuit bestanden met de 
+     <code>
        .swf 
-     </code> extensie, maar wordt het indexeren van alle tekst in die bestanden uitgeschakeld. </p> <p>Het <code>
+     </code> extensie, maar schakelt het indexeren van alle tekst in die bestanden uit. </p> <p>De 
+     Het trefwoord <code>
        noindex 
-     </code> trefwoord is gelijk aan een metatag voor robot <code>
+     </code> is gelijk aan een meta-tag voor robot met 
+     <code>
        content="noindex" 
-     </code> tussen de <code>
+     </code> tussen de 
+     <code>
        &lt;head&gt;...&lt;/head&gt; 
-     </code> tags van overeenkomende pagina's. </p> </td> 
+     </code>-tags van overeenkomende pagina's. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>nofollow </p> </td> 
-   <td colname="col2"> <p> Als u de tekst wilt indexeren op de pagina's die overeenkomen met het URL-masker, maar u de koppelingen van de overeenkomende pagina niet wilt volgen, voegt u <code>
+   <td colname="col2"> <p> Als u de tekst wilt indexeren op de pagina's die overeenkomen met het URL-masker, maar u de koppelingen op de overeenkomende pagina niet wilt volgen, voegt u 
+     <code>
        nofollow 
-     </code> na het include-URL-masker toe. Zorg ervoor dat u het trefwoord scheidt van het masker met een spatie, zoals in het volgende voorbeeld: </p> <p> <code> include&amp;nbsp;https://www.mydomain.com/photos&amp;nbsp;nofollow </code> </p> <p>Het <code>
+     </code> na het include URL-masker. Zorg ervoor dat u het trefwoord scheidt van het masker met een spatie, zoals in het volgende voorbeeld: </p> <p> <code> include&amp;nbsp;https://www.mydomain.com/photos&amp;nbsp;nofollow </code> </p> <p>De 
+     Het trefwoord <code>
        nofollow 
-     </code> trefwoord is gelijk aan een metatag voor robot <code>
+     </code> is gelijk aan een meta-tag voor robot met 
+     <code>
        content="nofollow" 
-     </code> tussen de <code>
+     </code> tussen de 
+     <code>
        &lt;head&gt;...&lt;/head&gt; 
-     </code> tags van overeenkomende pagina's. </p> </td> 
+     </code>-tags van overeenkomende pagina's. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>regexp </p> </td> 
-   <td colname="col2"> <p>Wordt gebruikt voor zowel include- als exclude-maskers. </p> <p>Elk URL-masker dat met <code>
+   <td colname="col2"> <p>Wordt gebruikt voor zowel include- als exclude-maskers. </p> <p>Willekeurig URL-masker voorafgegaan door 
+     <code>
        regexp 
-     </code> wordt voorafgegaan, wordt beschouwd als een reguliere expressie. Als de zoekrobot documenten aantreft die overeenkomen met een expressie-URL-masker zonder reguliere expressie, worden deze documenten niet geïndexeerd. Als de zoekrobot documenten aantreft die overeenkomen met een regulier expressie-URL-masker, worden deze documenten geïndexeerd. Stel dat u het volgende URL-masker hebt: </p> <p> <code> exclude&amp;nbsp;regexp&amp;nbsp;^.*/products/.*\.html$ </code> </p> <p>De zoekrobot sluit overeenkomende bestanden uit, zoals 
+     </code> wordt behandeld als een regelmatige uitdrukking. Als de zoekrobot documenten aantreft die overeenkomen met een expressie-URL-masker zonder reguliere expressie, worden deze documenten niet geïndexeerd. Als de zoekrobot documenten aantreft die overeenkomen met een regulier expressie-URL-masker, worden deze documenten geïndexeerd. Stel dat u het volgende URL-masker hebt: </p> <p> <code> exclude&amp;nbsp;regexp&amp;nbsp;^.*/products/.*\.html$ </code> </p> <p>De zoekrobot sluit overeenkomende bestanden uit, zoals 
      <code>
        https://www.mydomain.com/products/page1.html 
-     </code> </p> <p>Als u het volgende masker voor reguliere expressie-URL had: </p> <p> <code> exclude&amp;nbsp;regexp&amp;nbsp;^.*\?..*$ </code> </p> <p>De zoekrobot hoeft geen URL te bevatten die een CGI-parameter zoals <code>
+     </code> </p> <p>Als u het volgende masker voor reguliere expressie-URL had: </p> <p> <code> exclude&amp;nbsp;regexp&amp;nbsp;^.*\?..*$ </code> </p> <p>De zoekrobot bevat geen URL die een CGI-parameter bevat, zoals 
+     <code>
        https://www.mydomain.com/cgi/prog/?arg1=val1&amp;arg2=val2 
-     </code>. </p> <p>Als het volgende URL-masker voor reguliere expressie moet worden opgenomen: </p> <p> <code> include&amp;nbsp;regexp&amp;nbsp;^.*\.swf$&amp;nbsp;noindex </code> </p> <p>De zoekrobot volgt alle koppelingen van bestanden met de extensie ".swf". Het <code>
+     </code>. </p> <p>Als het volgende URL-masker voor reguliere expressie moet worden opgenomen: </p> <p> <code> include&amp;nbsp;regexp&amp;nbsp;^.*\.swf$&amp;nbsp;noindex </code> </p> <p>De zoekrobot volgt alle koppelingen van bestanden met de extensie ".swf". De 
+     <code>
        noindex 
-     </code> trefwoord geeft ook op dat de tekst van overeenkomende bestanden niet wordt geïndexeerd. </p> <p>Zie <a href="../c-appendices/r-regular-expressions.md#reference_B5BA7D61D82E4109A01D2A2D964E3A6A" type="reference" format="dita" scope="local"> Reguliere expressies </a>. </p> </td> 
+     </code> het sleutelwoord specificeert ook dat de tekst van gelijke dossiers niet wordt geïndexeerd. </p> <p>Zie <a href="../c-appendices/r-regular-expressions.md#reference_B5BA7D61D82E4109A01D2A2D964E3A6A" type="reference" format="dita" scope="local"> Reguliere expressies </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## URL-maskers toevoegen om delen van uw website te indexeren of niet {#task_E1AFC17C746048B8843013D979E082C1}
+## URL-maskers toevoegen om delen van uw website te indexeren of niet te indexeren {#task_E1AFC17C746048B8843013D979E082C1}
 
-U kunt gebruiken [!DNL URL Masks] om te bepalen welke delen van uw website u wilt of niet wilt kruipen en indexeren.
+Met [!DNL URL Masks] kunt u bepalen welke delen van uw website u wilt of niet wilt kruipen en indexeren.
 
 Met het veld URL-maskers testen kunt u testen of een document al dan niet wordt opgenomen na de index.
 
 Zorg ervoor dat u uw site-index opnieuw genereert, zodat de resultaten van uw URL-maskers zichtbaar zijn voor uw klanten.
 
-Zie Een incrementele index van een gefaseerde website [](../c-about-index-menu/c-about-incremental-index.md#task_46A367B0786C4C90BFFA5D3F95FD86C0)configureren.
+Zie [Een incrementele index van een gefaseerde website configureren](../c-about-index-menu/c-about-incremental-index.md#task_46A367B0786C4C90BFFA5D3F95FD86C0).
 
 **URL-maskers toevoegen om delen van uw website te indexeren of niet**
 
-1. Klik in het menu Product op **[!UICONTROL Settings]** > **[!UICONTROL Crawling]** > **[!UICONTROL URL Masks]**.
-1. (Optioneel) Voer in het [!DNL URL Masks] veld op de **[!UICONTROL Test URL Masks]** pagina een test-URL-masker van uw website in en klik op **[!UICONTROL Test]**.
-1. Typ in het [!DNL URL Masks] veld `include` (om een website toe te voegen die u wilt knipperen en indexeren) of typ `exclude` (om te voorkomen dat een website wordt gekropen en geïndexeerd), gevolgd door het adres van het URL-masker.
+1. Klik in het productmenu op **[!UICONTROL Settings]** > **[!UICONTROL Crawling]** > **[!UICONTROL URL Masks]**.
+1. (Optioneel) Typ op de pagina [!DNL URL Masks] in het veld **[!UICONTROL Test URL Masks]** een test-URL-masker van uw website en klik vervolgens op **[!UICONTROL Test]**.
+1. Typ [!DNL URL Masks] in het veld `include` (om een website toe te voegen die u wilt knipperen en indexeren) of typ `exclude` (om te voorkomen dat een website wordt gekropen en geïndexeerd), gevolgd door het adres van het URL-masker.
 
    Voer één URL-maskeradres per regel in. Voorbeeld:
 
@@ -311,25 +331,25 @@ Zie Een incrementele index van een gefaseerde website [](../c-about-index-menu/c
 1. Klik op **[!UICONTROL Save Changes]**.
 1. (Optioneel) Voer een van de volgende handelingen uit:
 
-   * Klik **[!UICONTROL History]** om de aangebrachte wijzigingen terug te draaien.
+   * Klik **[!UICONTROL History]** om het even welke veranderingen terug te keren die u hebt aangebracht.
 
-      Zie De optie [Historie](../t-using-the-history-option.md#task_70DD3F87A67242BBBD2CB27156F43002)gebruiken.
+      Zie [De optie Historie gebruiken](../t-using-the-history-option.md#task_70DD3F87A67242BBBD2CB27156F43002).
 
    * Klik op **[!UICONTROL Live]**.
 
-      Zie Live-instellingen [weergeven](../c-about-staging.md#task_401A0EBDB5DB4D4CA933CBA7BECDC10F).
+      Zie [Live-instellingen weergeven](../c-about-staging.md#task_401A0EBDB5DB4D4CA933CBA7BECDC10F).
 
    * Klik op **[!UICONTROL Push Live]**.
 
-      Zie [Werkgebiedinstellingen live](../c-about-staging.md#task_44306783B4C0408AAA58B471DAF2D9A4)spoelen.
+      Zie [Werkgebiedinstellingen leegmaken live](../c-about-staging.md#task_44306783B4C0408AAA58B471DAF2D9A4).
 
-## Datummaskers {#concept_F4F1F58A646F4A86B8650EC46FDCEF66}
+## Informatie over Datummaskers {#concept_F4F1F58A646F4A86B8650EC46FDCEF66}
 
 U kunt Datummaskers gebruiken om bestanden op te nemen in of uit te sluiten van uw zoekresultaten op basis van de leeftijd van het bestand.
 
 Zorg ervoor dat u uw site-index opnieuw genereert, zodat de resultaten van uw URL-maskers zichtbaar zijn voor uw klanten.
 
-Zie Een incrementele index van een gefaseerde website [](../c-about-index-menu/c-about-incremental-index.md#task_46A367B0786C4C90BFFA5D3F95FD86C0)configureren.
+Zie [Een incrementele index van een gefaseerde website configureren](../c-about-index-menu/c-about-incremental-index.md#task_46A367B0786C4C90BFFA5D3F95FD86C0).
 
 Hieronder ziet u twee soorten datummaskers die u kunt gebruiken:
 
@@ -346,10 +366,10 @@ Elk datummasker dat u opgeeft, moet op een aparte regel staan.
 
 Het masker kan het volgende opgeven:
 
-* Een volledig pad als in `https://www.mydomain.com/products.html`
+* Een volledig pad zoals in `https://www.mydomain.com/products.html`
 * Een gedeeltelijk pad zoals in `https://www.mydomain.com/products`
-* Een URL die jokertekens gebruikt `https://www.mydomain.com/*.html`
-* Een reguliere expressie. Als u van een masker een reguliere expressie wilt maken, voegt u het trefwoord in `regexp` vóór de URL.
+* Een URL die jokertekens `https://www.mydomain.com/*.html` gebruikt
+* Een reguliere expressie. Als u van een masker een reguliere expressie wilt maken, voegt u het trefwoord `regexp` in vóór de URL.
 
 Met beide opties kunt u datummaskers voor opnemen en uitsluiten een datum op een van de volgende twee manieren opgeven. De maskers worden alleen toegepast als de overeenkomende bestanden zijn gemaakt op of vóór de opgegeven datum:
 
@@ -375,7 +395,7 @@ Hier volgt een eenvoudig voorbeeld van een datummasker voor uitsluiten:
 exclude-days 90 https://www.mydomain.com/docs/archive
 ```
 
-Omdat dit een datummasker voor uitsluiten is, wordt elk bestand dat overeenkomt met het patroon niet geïndexeerd en is het 90 dagen oud of ouder. Wanneer u een document uitsluit, wordt er geen tekst geïndexeerd en worden er geen koppelingen van dat bestand gevolgd. Het bestand wordt genegeerd. In dit voorbeeld kunnen zowel bestanden als mappen overeenkomen met het opgegeven URL-patroon. Merk op dat zowel `https://www.mydomain.com/docs/archive.html` als `https://www.mydomain.com/docs/archive/index.html` het patroon aanpast en niet als zij 90 dagen oud of ouder zijn geïndexeerd. Als u alleen bestanden in de `/docs/archive/` map wilt afstemmen, moet het datummasker een schuine streep aan het einde van de map bevatten, zoals in het volgende voorbeeld:
+Omdat dit een datummasker voor uitsluiten is, wordt elk bestand dat overeenkomt met het patroon niet geïndexeerd en is het 90 dagen oud of ouder. Wanneer u een document uitsluit, wordt er geen tekst geïndexeerd en worden er geen koppelingen van dat bestand gevolgd. Het bestand wordt genegeerd. In dit voorbeeld kunnen zowel bestanden als mappen overeenkomen met het opgegeven URL-patroon. Zowel `https://www.mydomain.com/docs/archive.html` als `https://www.mydomain.com/docs/archive/index.html` komen overeen met het patroon en worden niet geïndexeerd als ze 90 dagen oud of ouder zijn. Als u alleen bestanden in de map `/docs/archive/` wilt afstemmen, moet het datummasker een schuine streep achter de naam bevatten, zoals in het volgende voorbeeld:
 
 ```
 exclude-days 90 https://www.mydomain.com/docs/archive/
@@ -387,7 +407,7 @@ Datummaskers kunnen ook worden gebruikt met jokerkaarten. Met het volgende exclu
 exclude-date 2011-02-15 *.pdf
 ```
 
-Datummasker opnemen ziet er ongeveer hetzelfde uit. Alleen overeenkomende bestanden worden toegevoegd aan de index. In het volgende voorbeeld met een datummasker wordt de zoekrobot gevraagd de tekst te indexeren uit bestanden die nul dagen oud of ouder zijn in het `/docs/archive/manual/` gebied van de website.
+Datummasker opnemen ziet er ongeveer hetzelfde uit. Alleen overeenkomende bestanden worden toegevoegd aan de index. In het volgende voorbeeld met een datummasker wordt de zoekrobot doorgegeven dat de tekst moet worden geïndexeerd uit bestanden die nul dagen oud of ouder zijn in het gebied `/docs/archive/manual/` van de website.
 
 ```
 include-days 0 https://www.mydomain.com/docs/archive/manual/
@@ -399,19 +419,19 @@ Het opnemen van maskers en het uitsluiten van maskers kan samenwerken. U kunt bi
 https://www.mydomain.com/archive/
 ```
 
-De zoekrobot crawt en indexeert alle pagina&#39;s onder `/archive/summer/`, `/archive/spring/`en `/archive/fall/` (ervan uitgaande dat er koppelingen zijn naar ten minste één pagina in elke map van de `archive` map). Dit gedrag treedt op omdat de koppelingspaden de zoekrobot in staat stellen de bestanden in de mappen `/summer/`, `/spring/`en `/fall/` mappen te zoeken en de map-URL&#39;s overeenkomen met het include-masker dat automatisch wordt gegenereerd door de entrypunt-URL.
+De zoekrobot crawt en indexeert alle pagina&#39;s onder `/archive/summer/`, `/archive/spring/` en `/archive/fall/` (ervan uitgaande dat er koppelingen zijn naar ten minste één pagina in elke map vanuit de map `archive`). Dit gedrag treedt op omdat de koppelingspaden de zoekrobot in staat stellen de bestanden te &quot;zoeken&quot; in de mappen `/summer/`, `/spring/` en `/fall/` en de map-URL&#39;s overeenkomen met het include-masker dat automatisch wordt gegenereerd door de URL van het ingangspunt.
 
 Zie [Informatie over URL-invoerpunten](../c-about-settings-menu/c-about-crawling-menu.md#concept_5D857E3B5C124E85BC0B5AE77A509573).
 
-Zie [Uw accountinstellingen](../c-about-settings-menu/c-about-account-options-menu.md#task_80A38D0C8E4F453395BD67B81E4B45D9)configureren.
+Zie [Uw accountinstellingen configureren](../c-about-settings-menu/c-about-account-options-menu.md#task_80A38D0C8E4F453395BD67B81E4B45D9).
 
-U kunt desgewenst alle pagina&#39;s ouder dan 90 dagen in de `/fall/` map met een datummasker voor uitsluiten uitsluiten, zoals in het volgende voorbeeld:
+U kunt alle pagina&#39;s ouder dan 90 dagen in de `/fall/` omslag met een exclusief datummasker zoals in het volgende verkiezen uit te sluiten:
 
 ```
 exclude-days 90 https://www.mydomain.com/archive/fall/
 ```
 
-U kunt alleen selectief `/archive/fall/index.html` (ongeacht hoe oud het is - elk bestand van 0 dagen of ouder wordt aangepast) opnemen als onderdeel van de index met het volgende datummasker:
+U kunt alleen `/archive/fall/index.html` (ongeacht hoe oud het is—elk bestand van 0 dagen of ouder wordt gevonden) als onderdeel van de index opnemen met het volgende datummasker:
 
 ```
 include-days 0 https://www.mydomain.com/archive/fall/index.html
@@ -424,7 +444,7 @@ include-days 0 https://www.mydomain.com/archive/fall/index.html
 exclude-days 90 https://www.mydomain.com/archive/fall/
 ```
 
-Omdat de zoekrobot aanwijzingen volgt in de volgorde waarin deze is opgegeven, bevat de zoekrobot eerst `/archive/fall/index.html`en worden de overige bestanden in de `/fall` map uitgesloten.
+Omdat de zoekrobot richtingen volgt in de volgorde waarin deze zijn opgegeven, bevat de zoekrobot eerst `/archive/fall/index.html` en worden de overige bestanden in de map `/fall` uitgesloten.
 
 Indien de instructies op de tegenovergestelde wijze als in het volgende worden gespecificeerd:
 
@@ -435,7 +455,7 @@ include-days 0 https://www.mydomain.com/archive/fall/index.html
 
 Dan `/archive/fall/index.html` is niet inbegrepen, alhoewel het masker specificeert dat het zou moeten zijn. Een datummasker dat als eerste verschijnt, heeft altijd voorrang op een datummasker dat later in de maskerinstellingen wordt weergegeven. Als de zoekrobot bovendien een pagina tegenkomt die overeenkomt met zowel een include-datummasker als een uitvullingsdatummasker, heeft het masker dat als eerste wordt vermeld altijd voorrang.
 
-Zie Een incrementele index van een gefaseerde website [](../c-about-index-menu/c-about-incremental-index.md#task_46A367B0786C4C90BFFA5D3F95FD86C0)configureren.
+Zie [Een incrementele index van een gefaseerde website configureren](../c-about-index-menu/c-about-incremental-index.md#task_46A367B0786C4C90BFFA5D3F95FD86C0).
 
 ## Trefwoorden gebruiken met datummaskers {#section_CCBB3E3FDBDE4725B2B571FD6594470C}
 
@@ -453,72 +473,82 @@ Een komma is niet geldig als scheidingsteken tussen het masker en het trefwoord.
  <tbody> 
   <tr> 
    <td colname="col1"> <p>noindex </p> </td> 
-   <td colname="col2"> <p> Als u de tekst niet wilt indexeren op de pagina's die gedateerd zijn op of vóór de datum die is opgegeven door het include-masker, voegt u <code>
+   <td colname="col2"> <p> Als u de tekst niet wilt indexeren op de pagina's die gedateerd zijn op of vóór de datum die is opgegeven door het include-masker, voegt u 
+     <code>
        noindex 
-     </code> na het include-datummasker het volgende toe: </p> <p> <code> include-days&amp;nbsp;10&amp;nbsp;*.swf&amp;nbsp;noindex </code> </p> <p>Zorg ervoor dat u het trefwoord met een spatie scheidt van het masker. </p> <p>In het bovenstaande voorbeeld wordt opgegeven dat de zoekrobot alle koppelingen volgt van bestanden met de extensie ".swf" die 10 dagen oud of ouder zijn. Het indexeren van alle tekst in die bestanden wordt echter uitgeschakeld. </p> <p>Mogelijk wilt u dat de tekst voor oudere bestanden niet wordt geïndexeerd, maar wel alle koppelingen uit die bestanden volgt. In dergelijke gevallen gebruikt u een include-datummasker met het trefwoord "noindex" in plaats van een exclude-datummasker. </p> </td> 
+     </code> na het include-datummasker zoals in het volgende voorbeeld: </p> <p> <code> include-days&amp;nbsp;10&amp;nbsp;*.swf&amp;nbsp;noindex </code> </p> <p>Zorg ervoor dat u het trefwoord met een spatie scheidt van het masker. </p> <p>In het bovenstaande voorbeeld wordt opgegeven dat de zoekrobot alle koppelingen volgt van bestanden met de extensie ".swf" die 10 dagen oud of ouder zijn. Het indexeren van alle tekst in die bestanden wordt echter uitgeschakeld. </p> <p>Mogelijk wilt u dat de tekst voor oudere bestanden niet wordt geïndexeerd, maar wel alle koppelingen uit die bestanden volgt. In dergelijke gevallen gebruikt u een include-datummasker met het trefwoord "noindex" in plaats van een exclude-datummasker. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>nofollow </p> </td> 
-   <td colname="col2"> <p> Als u de tekst op de pagina's wilt indexeren die op of vóór de datum gedateerd zijn die door het include-masker wordt gespecificeerd, maar u wilt niet de overeenkomende koppelingen van de pagina volgen, voegt u <code>
+   <td colname="col2"> <p> Als u de tekst wilt indexeren op de pagina's die gedateerd zijn op of vóór de datum die is opgegeven door het include-masker, maar u wilt de koppelingen van de overeenkomende pagina niet volgen, voegt u 
+     <code>
        nofollow 
-     </code> na het include-datummasker het volgende toe: </p> <p> <code> include-days&amp;nbsp;8&amp;nbsp;https://www.mydomain.com/photos&amp;nbsp;nofollow </code> </p> <p>Zorg ervoor dat u het trefwoord met een spatie scheidt van het masker. </p> <p>Het <code>
+     </code> na het include-datummasker zoals in het volgende voorbeeld: </p> <p> <code> include-days&amp;nbsp;8&amp;nbsp;https://www.mydomain.com/photos&amp;nbsp;nofollow </code> </p> <p>Zorg ervoor dat u het trefwoord met een spatie scheidt van het masker. </p> <p>De 
+     Het trefwoord <code>
        nofollow 
-     </code> trefwoord is gelijk aan een meta-tag voor robot <code>
+     </code> is gelijk aan een meta-tag voor robot met 
+     <code>
        content="nofollow" 
-     </code> tussen de <code>
+     </code> tussen de 
+     <code>
        &lt;head&gt;...&lt;/head&gt; 
-     </code> tag van overeenkomende pagina's. </p> </td> 
+     </code>-label van overeenkomende pagina's. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>serverdatum </p> </td> 
-   <td colname="col2"> <p>Wordt gebruikt voor zowel include- als exclude-maskers. </p> <p>De zoekrobot downloadt en parseert doorgaans elk bestand voordat de datummaskers worden gecontroleerd. Dit gedrag treedt op omdat sommige bestandstypen een datum in het bestand zelf kunnen opgeven. Een HTML-document kan bijvoorbeeld metatags bevatten waarmee de datum van het bestand wordt ingesteld. </p> <p>Als u veel bestanden wilt uitsluiten op basis van de datum en u wilt geen overbodige belasting op de servers plaatsen, kunt u <code>
+   <td colname="col2"> <p>Wordt gebruikt voor zowel include- als exclude-maskers. </p> <p>De zoekrobot downloadt en parseert doorgaans elk bestand voordat de datummaskers worden gecontroleerd. Dit gedrag treedt op omdat sommige bestandstypen een datum in het bestand zelf kunnen opgeven. Een HTML-document kan bijvoorbeeld metatags bevatten waarmee de datum van het bestand wordt ingesteld. </p> <p>Als u veel bestanden wilt uitsluiten op basis van de datum waarop ze zijn gemaakt, en u wilt geen onnodige belasting op de servers plaatsen, kunt u 
+     <code>
        server-date 
-     </code> na de URL in het datummasker gebruiken. </p> <p>Dit sleutelwoord draagt de onderzoekersrobot op om de datum van het dossier te vertrouwen dat door uw server in plaats van het ontleden van elk dossier is teruggekeerd. In het volgende datummasker voor uitsluiten worden bijvoorbeeld pagina's genegeerd die overeenkomen met de URL als de documenten 90 dagen of ouder zijn, afhankelijk van de datum die door de server wordt geretourneerd in de HTTP-headers: </p> <p> <code> exclude-days&amp;nbsp;90&amp;nbsp;https://www.mydomain.com/docs/archive&amp;nbsp;server-date </code> </p> <p> Als de datum die door de server wordt geretourneerd 90 dagen of langer is, <code>
+     </code> na de URL in het datummasker. </p> <p>Dit sleutelwoord draagt de onderzoekersrobot op om de datum van het dossier te vertrouwen dat door uw server in plaats van het ontleden van elk dossier is teruggekeerd. In het volgende datummasker voor uitsluiten worden bijvoorbeeld pagina's genegeerd die overeenkomen met de URL als de documenten 90 dagen of ouder zijn, afhankelijk van de datum die door de server wordt geretourneerd in de HTTP-headers: </p> <p> <code> exclude-days&amp;nbsp;90&amp;nbsp;https://www.mydomain.com/docs/archive&amp;nbsp;server-date </code> </p> <p> Als de datum die door de server wordt geretourneerd 90 dagen of langer is, 
+     <code>
        server-date 
-     </code> geeft u op dat de uitgesloten documenten niet van de server mogen worden gedownload. Het resultaat is een snellere indexering van uw documenten en een lagere belasting op uw servers. Als <code>
+     </code> specificeert dat de uitgesloten documenten niet van uw server worden gedownload. Het resultaat is een snellere indexering van uw documenten en een lagere belasting op uw servers. Indien 
+     <code>
        server-date 
-     </code> niet wordt gespecificeerd, negeert de onderzoeksrobot de datum die door de server in de kopballen van HTTP is teruggekeerd. In plaats daarvan wordt elk bestand gedownload en gecontroleerd om te zien of de datum is opgegeven. Als er geen datum in het bestand is opgegeven, gebruikt de zoekrobot de datum die door de server wordt geretourneerd. </p> <p>U moet niet gebruiken <code>
+     </code> is niet opgegeven, negeert de zoekrobot de datum die door de server in de HTTP-headers wordt geretourneerd. In plaats daarvan wordt elk bestand gedownload en gecontroleerd om te zien of de datum is opgegeven. Als er geen datum in het bestand is opgegeven, gebruikt de zoekrobot de datum die door de server wordt geretourneerd. </p> <p>U mag het niet gebruiken 
+     <code>
        server-date 
      </code> als uw bestanden opdrachten bevatten die de serverdatum overschrijven. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>regexp </p> </td> 
-   <td colname="col2"> <p> Wordt gebruikt voor zowel include- als exclude-maskers. </p> <p>Datummaskers die worden voorafgegaan door, <code>
+   <td colname="col2"> <p> Wordt gebruikt voor zowel include- als exclude-maskers. </p> <p>Datummasker dat wordt voorafgegaan door 
+     <code>
        regexp 
-     </code> worden beschouwd als een reguliere expressie. </p> <p>Als de zoekrobot bestanden aantreft die overeenkomen met een reguliere-expressiedatummasker, worden deze bestanden niet geïndexeerd. </p> <p>Als de zoekrobot bestanden aantreft die overeenkomen met een regulier expressiedatummasker, worden deze documenten geïndexeerd. </p> <p>Stel dat u het volgende datummasker hebt: </p> <p> <code> exclude-days&amp;nbsp;180&amp;nbsp;regexp&amp;nbsp;.*archive.* </code> </p> <p>Het masker vertelt de zoekrobot om overeenkomende bestanden van 180 dagen of ouder uit te sluiten. Dat wil zeggen, bestanden die het woord "archief" in hun URL bevatten. </p> <p>Zie <a href="../c-appendices/r-regular-expressions.md#reference_B5BA7D61D82E4109A01D2A2D964E3A6A" type="reference" format="dita" scope="local"> Reguliere expressies </a>. </p> </td> 
+     </code> wordt behandeld als een regelmatige uitdrukking. </p> <p>Als de zoekrobot bestanden aantreft die overeenkomen met een reguliere-expressiedatummasker, worden deze bestanden niet geïndexeerd. </p> <p>Als de zoekrobot bestanden aantreft die overeenkomen met een regulier expressiedatummasker, worden deze documenten geïndexeerd. </p> <p>Stel dat u het volgende datummasker hebt: </p> <p> <code> exclude-days&amp;nbsp;180&amp;nbsp;regexp&amp;nbsp;.*archive.* </code> </p> <p>Het masker vertelt de zoekrobot om overeenkomende bestanden van 180 dagen of ouder uit te sluiten. Dat wil zeggen, bestanden die het woord "archief" in hun URL bevatten. </p> <p>Zie <a href="../c-appendices/r-regular-expressions.md#reference_B5BA7D61D82E4109A01D2A2D964E3A6A" type="reference" format="dita" scope="local"> Reguliere expressies </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Datummaskers toevoegen om delen van uw website te indexeren of niet {#task_0010543C55F648D2B5DEFEFAD60FAF04}
+## Datummaskers toevoegen om delen van uw website {#task_0010543C55F648D2B5DEFEFAD60FAF04} te indexeren of niet
 
 U kunt Datummaskers gebruiken om bestanden op te nemen in of uit te sluiten van zoekresultaten van klanten op basis van de leeftijd van de bestanden.
 
-Met de velden **[!UICONTROL Test Date]** en **[!UICONTROL Test URL]** velden kunt u testen of een bestand al dan niet wordt opgenomen na de index.
+Met de velden **[!UICONTROL Test Date]** en **[!UICONTROL Test URL]** kunt u testen of een bestand al dan niet wordt opgenomen na de index.
 
 Zorg ervoor dat u uw site-index opnieuw genereert, zodat de resultaten van uw URL-maskers zichtbaar zijn voor uw klanten.
 
-Zie Een incrementele index van een gefaseerde website [](../c-about-index-menu/c-about-incremental-index.md#task_46A367B0786C4C90BFFA5D3F95FD86C0)configureren.
+Zie [Een incrementele index van een gefaseerde website configureren](../c-about-index-menu/c-about-incremental-index.md#task_46A367B0786C4C90BFFA5D3F95FD86C0).
 
 **Datummaskers toevoegen om delen van uw website te indexeren of niet**
 
-1. Klik in het menu Product op **[!UICONTROL Settings]** > **[!UICONTROL Crawling]** > **[!UICONTROL Date Masks]**.
-1. (Optioneel) Voer in het [!DNL Date Masks] veld op de **[!UICONTROL Test Date]** pagina een datum in die is opgemaakt als JJJJ-MM-DD (bijvoorbeeld `2011-07-25`); Voer in het **[!UICONTROL Test URL]** veld een URL-masker van uw website in en klik op **[!UICONTROL Test]**.
-1. Voer in het [!DNL Date Masks] veld één datummaskeradres per regel in.
+1. Klik in het productmenu op **[!UICONTROL Settings]** > **[!UICONTROL Crawling]** > **[!UICONTROL Date Masks]**.
+1. (Optioneel) Voer in het veld **[!UICONTROL Test Date]** op de pagina [!DNL Date Masks] een datum in die is opgemaakt als JJJJ-MM-DD (bijvoorbeeld `2011-07-25`); Voer in het veld **[!UICONTROL Test URL]** een URL-masker van uw website in en klik op **[!UICONTROL Test]**.
+1. Voer in het veld [!DNL Date Masks] één datummaskeradres per regel in.
 1. Klik op **[!UICONTROL Save Changes]**.
 1. (Optioneel) Voer een van de volgende handelingen uit:
 
-   * Klik **[!UICONTROL History]** om de aangebrachte wijzigingen terug te draaien.
+   * Klik **[!UICONTROL History]** om het even welke veranderingen terug te keren die u hebt aangebracht.
 
-      Zie De optie [Historie](../t-using-the-history-option.md#task_70DD3F87A67242BBBD2CB27156F43002)gebruiken.
+      Zie [De optie Historie gebruiken](../t-using-the-history-option.md#task_70DD3F87A67242BBBD2CB27156F43002).
 
    * Klik op **[!UICONTROL Live]**.
 
-      Zie Live-instellingen [weergeven](../c-about-staging.md#task_401A0EBDB5DB4D4CA933CBA7BECDC10F).
+      Zie [Live-instellingen weergeven](../c-about-staging.md#task_401A0EBDB5DB4D4CA933CBA7BECDC10F).
 
    * Klik op **[!UICONTROL Push Live]**.
 
-      Zie [Werkgebiedinstellingen live](../c-about-staging.md#task_44306783B4C0408AAA58B471DAF2D9A4)spoelen.
+      Zie [Werkgebiedinstellingen leegmaken live](../c-about-staging.md#task_44306783B4C0408AAA58B471DAF2D9A4).
 
 ## Over wachtwoorden {#concept_3EDBD731725D46B891F834D4472774DC}
 
@@ -526,9 +556,9 @@ Als u toegang wilt tot gedeelten van uw website die zijn beveiligd met HTTP Basi
 
 Voordat de effecten van de instellingen voor wachtwoorden zichtbaar zijn voor klanten, moet u de index van uw site opnieuw genereren.
 
-Zie Een incrementele index van een gefaseerde website [](../c-about-index-menu/c-about-incremental-index.md#task_46A367B0786C4C90BFFA5D3F95FD86C0)configureren.
+Zie [Een incrementele index van een gefaseerde website configureren](../c-about-index-menu/c-about-incremental-index.md#task_46A367B0786C4C90BFFA5D3F95FD86C0).
 
-Op de [!DNL Passwords] pagina typt u elk wachtwoord op één regel. Het wachtwoord bestaat uit een URL of domein, een gebruikersnaam en een wachtwoord, zoals in het volgende voorbeeld:
+Op [!DNL Passwords] pagina, typt u elk wachtwoord op één enkele lijn. Het wachtwoord bestaat uit een URL of domein, een gebruikersnaam en een wachtwoord, zoals in het volgende voorbeeld:
 
 ```
 https://www.mydomain.com/ myname mypassword
@@ -567,20 +597,20 @@ https://www.mysite.com/path1/path5 name5 password5
 https://www.mysite.com/path6 name6 password6
 ```
 
-In de bovenstaande lijst wordt het eerste wachtwoord gebruikt dat een domein of URL bevat die overeenkomt met de verificatieaanvraag van de server. Zelfs als het bestand in `https://www.mysite.com/path1/path2/index.html` zich bevindt `Realm3`, bijvoorbeeld `name2` en `password2` wordt gebruikt omdat het wachtwoord dat met de URL is gedefinieerd, boven het wachtwoord staat dat met het domein is gedefinieerd.
+In de bovenstaande lijst wordt het eerste wachtwoord gebruikt dat een domein of URL bevat die overeenkomt met de verificatieaanvraag van de server. Zelfs als het bestand op `https://www.mysite.com/path1/path2/index.html` zich in `Realm3` bevindt, bijvoorbeeld, worden `name2` en `password2` gebruikt omdat het wachtwoord dat met URL wordt bepaald boven het wachtwoord is dat met het domein wordt bepaald.
 
-## Wachtwoorden toevoegen voor toegang tot gebieden van uw website die verificatie vereisen {#task_DED19D476FF04B48BB6456D5ECB8628A}
+## Wachtwoorden toevoegen voor toegang tot gebieden van uw website waarvoor verificatie {#task_DED19D476FF04B48BB6456D5ECB8628A} is vereist
 
 U kunt Wachtwoorden gebruiken om met een wachtwoord beveiligde gebieden van uw website te openen en te indexeren.
 
 Voordat de effecten van uw wachtwoord zichtbaar zijn voor klanten, moet u de index van uw site opnieuw samenstellen
 
-Zie Een incrementele index van een gefaseerde website [](../c-about-index-menu/c-about-incremental-index.md#task_46A367B0786C4C90BFFA5D3F95FD86C0)configureren.
+Zie [Een incrementele index van een gefaseerde website configureren](../c-about-index-menu/c-about-incremental-index.md#task_46A367B0786C4C90BFFA5D3F95FD86C0).
 
 **Wachtwoorden toevoegen voor toegang tot gebieden van uw website die verificatie vereisen**
 
-1. Klik in het menu Product op **[!UICONTROL Settings]** > **[!UICONTROL Crawling]** > **[!UICONTROL Passwords]**.
-1. Voer op de [!DNL Passwords] pagina in het **[!UICONTROL Passwords]** veld een domein of URL in, evenals de bijbehorende gebruikersnaam en het bijbehorende wachtwoord, gescheiden door een spatie.
+1. Klik in het productmenu op **[!UICONTROL Settings]** > **[!UICONTROL Crawling]** > **[!UICONTROL Passwords]**.
+1. Voer op de pagina [!DNL Passwords] in het veld **[!UICONTROL Passwords]** een domein of URL in, evenals de bijbehorende gebruikersnaam en het bijbehorende wachtwoord, gescheiden door een spatie.
 
    Voorbeeld van een realm-wachtwoord en een URL-wachtwoord op aparte regels:
 
@@ -593,31 +623,31 @@ Zie Een incrementele index van een gefaseerde website [](../c-about-index-menu/c
 1. Klik op **[!UICONTROL Save Changes]**.
 1. (Optioneel) Voer een van de volgende handelingen uit:
 
-   * Klik **[!UICONTROL History]** om de aangebrachte wijzigingen terug te draaien.
+   * Klik **[!UICONTROL History]** om het even welke veranderingen terug te keren die u hebt aangebracht.
 
-      Zie De optie [Historie](../t-using-the-history-option.md#task_70DD3F87A67242BBBD2CB27156F43002)gebruiken.
+      Zie [De optie Historie gebruiken](../t-using-the-history-option.md#task_70DD3F87A67242BBBD2CB27156F43002).
 
    * Klik op **[!UICONTROL Live]**.
 
-      Zie Live-instellingen [weergeven](../c-about-staging.md#task_401A0EBDB5DB4D4CA933CBA7BECDC10F).
+      Zie [Live-instellingen weergeven](../c-about-staging.md#task_401A0EBDB5DB4D4CA933CBA7BECDC10F).
 
    * Klik op **[!UICONTROL Push Live]**.
 
-      Zie [Werkgebiedinstellingen live](../c-about-staging.md#task_44306783B4C0408AAA58B471DAF2D9A4)spoelen.
+      Zie [Werkgebiedinstellingen leegmaken live](../c-about-staging.md#task_44306783B4C0408AAA58B471DAF2D9A4).
 
-## Over inhoudstypen {#concept_6FEA1355C0374500B4C53090C34A8A07}
+## Informatie over inhoudstypen {#concept_6FEA1355C0374500B4C53090C34A8A07}
 
-U kunt gebruiken [!DNL Content Types] om te selecteren welke bestandstypen u wilt kruipen en indexeren voor dit account.
+U kunt [!DNL Content Types] gebruiken om te selecteren welke types van dossiers die u wilt kruipen en voor deze rekening indexeren.
 
 De inhoudstypes die u kunt verkiezen om te kruipen en te indexeren omvatten documenten PDF, tekstdocumenten, Adobe Flash films, dossiers van de toepassingen van Microsoft Office zoals Word, Excel, en Powerpoint, en tekst in MP3 dossiers. De tekst die binnen de geselecteerde inhoudstypen wordt gevonden, wordt samen met alle andere tekst op uw website doorzocht.
 
 Voordat de effecten van de instellingen voor inhoudstypen zichtbaar zijn voor klanten, moet u de index van uw site opnieuw genereren.
 
-Zie Een incrementele index van een gefaseerde website [](../c-about-index-menu/c-about-incremental-index.md#task_46A367B0786C4C90BFFA5D3F95FD86C0)configureren.
+Zie [Een incrementele index van een gefaseerde website configureren](../c-about-index-menu/c-about-incremental-index.md#task_46A367B0786C4C90BFFA5D3F95FD86C0).
 
-## MP3-muziekbestanden indexeren {#section_AD2E28BEEE3E46629E2B05C34A963673}
+## MP3-muziekbestanden {#section_AD2E28BEEE3E46629E2B05C34A963673} indexeren
 
-Als u de optie **[!UICONTROL Text in MP3 Music Files]** op de [!DNL Content Types] pagina selecteert, wordt een MP3-bestand gekropen en op twee manieren geïndexeerd. De eerste en meest gebruikelijke manier is van een href-ankertag in een HTML-bestand, zoals hieronder:
+Als u de optie **[!UICONTROL Text in MP3 Music Files]** op de [!DNL Content Types] pagina selecteert, wordt een MP3 dossier gekropen en op één van twee manieren geïndexeerd. De eerste en meest gebruikelijke manier is van een href-ankertag in een HTML-bestand, zoals hieronder:
 
 ```
 <a href="MP3-file-URL"></a>
@@ -638,48 +668,48 @@ Houd er rekening mee dat de grootte van MP3-muziekbestanden tamelijk groot kan z
 
 Elk MP3-bestand dat op uw website is gekropen en geïndexeerd, telt als één pagina.
 
-Als uw website veel grote MP3-bestanden bevat, overschrijdt u mogelijk de limiet voor indexbytes voor uw account. Als dit gebeurt, kunt u de selectie **[!UICONTROL Text in MP3 Music Files]** op de [!DNL Content Types] pagina opheffen om te voorkomen dat alle MP3-bestanden op uw website worden geïndexeerd.
+Als uw website veel grote MP3-bestanden bevat, overschrijdt u mogelijk de limiet voor indexbytes voor uw account. Als dit gebeurt, kunt u **[!UICONTROL Text in MP3 Music Files]** op [!DNL Content Types] pagina schrappen om het indexeren van alle MP3 dossiers op uw website te verhinderen.
 
 Als u alleen wilt voorkomen dat bepaalde MP3-bestanden op uw website worden geïndexeerd, kunt u een van de volgende handelingen uitvoeren:
 
-* Omring de ankerlabels die aan de MP3-bestanden zijn gekoppeld met `<nofollow>` en `</nofollow>` -tags. De zoekrobot volgt de koppelingen tussen deze tags niet.
+* omring de ankerlabels die aan de MP3-bestanden zijn gekoppeld met de tags `<nofollow>` en `</nofollow>`. De zoekrobot volgt de koppelingen tussen deze tags niet.
 
 * Voeg de URL&#39;s van de MP3-bestanden toe als uitsluitingsmaskers.
 
    Zie [Informatie over URL-maskers](../c-about-settings-menu/c-about-crawling-menu.md#concept_8039DFC53FF3410AA494D602F71BA164).
 
-## Inhoudstypen selecteren om door te bladeren en te indexeren {#task_CCAC5C67C8BF4AB7B79D34A1495D5EE8}
+## Inhoudstypen selecteren om door te kruipen en te indexeren {#task_CCAC5C67C8BF4AB7B79D34A1495D5EE8}
 
-U kunt gebruiken [!DNL Content Types] om te selecteren welke bestandstypen u wilt kruipen en indexeren voor dit account.
+U kunt [!DNL Content Types] gebruiken om te selecteren welke types van dossiers die u wilt kruipen en voor deze rekening indexeren.
 
 De inhoudstypes die u kunt verkiezen om te kruipen en te indexeren omvatten documenten PDF, tekstdocumenten, Adobe Flash films, dossiers van de toepassingen van Microsoft Office zoals Word, Excel, en Powerpoint, en tekst in MP3 dossiers. De tekst die binnen de geselecteerde inhoudstypen wordt gevonden, wordt samen met alle andere tekst op uw website doorzocht.
 
 Voordat de effecten van de instellingen voor inhoudstypen zichtbaar zijn voor klanten, moet u de index van uw site opnieuw genereren.
 
-Zie Een incrementele index van een gefaseerde website [](../c-about-index-menu/c-about-incremental-index.md#task_46A367B0786C4C90BFFA5D3F95FD86C0)configureren.
+Zie [Een incrementele index van een gefaseerde website configureren](../c-about-index-menu/c-about-incremental-index.md#task_46A367B0786C4C90BFFA5D3F95FD86C0).
 
-Voer de onderstaande stappen uit om te doorlopen en Chinese, Japanse of Koreaanse MP3-bestanden te indexeren. Geef vervolgens bij **[!UICONTROL Settings]** > **[!UICONTROL Metadata]** > **[!UICONTROL Injections]** de tekenset op die wordt gebruikt om de MP3-bestanden te coderen.
+Voer de onderstaande stappen uit om te doorlopen en Chinese, Japanse of Koreaanse MP3-bestanden te indexeren. Geef vervolgens in **[!UICONTROL Settings]** > **[!UICONTROL Metadata]** > **[!UICONTROL Injections]** de tekenset op die wordt gebruikt om de MP3-bestanden te coderen.
 
 Zie [Informatie over injecties](../c-about-settings-menu/c-about-metadata-menu.md#concept_DA091920671948A0A893A26B3A2FAAE5).
 
 **Om inhoudstypes te selecteren om te kruipen en te indexeren**
 
-1. Klik in het menu Product op **[!UICONTROL Settings]** > **[!UICONTROL Crawling]** > **[!UICONTROL Content Types]**.
-1. Controleer op de [!DNL Content Types] pagina de bestandstypen die u wilt verkennen en indexeren op uw website.
+1. Klik in het productmenu op **[!UICONTROL Settings]** > **[!UICONTROL Crawling]** > **[!UICONTROL Content Types]**.
+1. Controleer op de pagina [!DNL Content Types] de bestandstypen die u wilt verkennen en indexeren op uw website.
 1. Klik op **[!UICONTROL Save Changes]**.
 1. (Optioneel) Voer een van de volgende handelingen uit:
 
-   * Klik **[!UICONTROL History]** om de aangebrachte wijzigingen terug te draaien.
+   * Klik **[!UICONTROL History]** om het even welke veranderingen terug te keren die u hebt aangebracht.
 
-      Zie De optie [Historie](../t-using-the-history-option.md#task_70DD3F87A67242BBBD2CB27156F43002)gebruiken.
+      Zie [De optie Historie gebruiken](../t-using-the-history-option.md#task_70DD3F87A67242BBBD2CB27156F43002).
 
    * Klik op **[!UICONTROL Live]**.
 
-      Zie Live-instellingen [weergeven](../c-about-staging.md#task_401A0EBDB5DB4D4CA933CBA7BECDC10F).
+      Zie [Live-instellingen weergeven](../c-about-staging.md#task_401A0EBDB5DB4D4CA933CBA7BECDC10F).
 
    * Klik op **[!UICONTROL Push Live]**.
 
-      Zie [Werkgebiedinstellingen live](../c-about-staging.md#task_44306783B4C0408AAA58B471DAF2D9A4)spoelen.
+      Zie [Werkgebiedinstellingen leegmaken live](../c-about-staging.md#task_44306783B4C0408AAA58B471DAF2D9A4).
 
 ## Informatie over verbindingen {#concept_E2F3B7E7521147479E5948A94BB3A40B}
 
@@ -687,7 +717,7 @@ Met Verbindingen kunt u maximaal tien HTTP-verbindingen toevoegen die de zoekrob
 
 Verhoog het aantal verbindingen om de hoeveelheid tijd beduidend te verminderen die het neemt om te voltooien kruipt en index. Houd er echter rekening mee dat elke aanvullende verbinding de belasting op de server verhoogt.
 
-## Verbindingen toevoegen om de indexsnelheid te verhogen {#task_3E9B83E43C1842A19066355A15C4A6FB}
+## Verbindingen toevoegen om indexsnelheid {#task_3E9B83E43C1842A19066355A15C4A6FB} te verhogen
 
 U kunt de hoeveelheid tijd verminderen het duurt om uw website te indexeren door Verbindingen te gebruiken om het aantal gelijktijdige verbindingen van HTTP te verhogen die de kruipper gebruikt. U kunt maximaal tien verbindingen toevoegen.
 
@@ -695,24 +725,24 @@ Houd er rekening mee dat elke extra verbinding de belasting verhoogt die op de s
 
 **Verbindingen toevoegen om de indexsnelheid te verhogen**
 
-1. Klik in het menu Product op **[!UICONTROL Settings]** > **[!UICONTROL Crawling]** > **[!UICONTROL Connections]**.
-1. Voer op de [!DNL Parallel Indexing Connections] pagina in het **[!UICONTROL Number of Connections]** veld het aantal verbindingen (1-10) in dat u wilt toevoegen.
+1. Klik in het productmenu op **[!UICONTROL Settings]** > **[!UICONTROL Crawling]** > **[!UICONTROL Connections]**.
+1. Voer op de pagina [!DNL Parallel Indexing Connections] in het veld **[!UICONTROL Number of Connections]** het aantal verbindingen (1-10) in dat u wilt toevoegen.
 1. Klik op **[!UICONTROL Save Changes]**.
 1. (Optioneel) Voer een van de volgende handelingen uit:
 
-   * Klik **[!UICONTROL History]** om de aangebrachte wijzigingen terug te draaien.
+   * Klik **[!UICONTROL History]** om het even welke veranderingen terug te keren die u hebt aangebracht.
 
-      Zie De optie [Historie](../t-using-the-history-option.md#task_70DD3F87A67242BBBD2CB27156F43002)gebruiken.
+      Zie [De optie Historie gebruiken](../t-using-the-history-option.md#task_70DD3F87A67242BBBD2CB27156F43002).
 
    * Klik op **[!UICONTROL Live]**.
 
-      Zie Live-instellingen [weergeven](../c-about-staging.md#task_401A0EBDB5DB4D4CA933CBA7BECDC10F).
+      Zie [Live-instellingen weergeven](../c-about-staging.md#task_401A0EBDB5DB4D4CA933CBA7BECDC10F).
 
    * Klik op **[!UICONTROL Push Live]**.
 
-      Zie [Werkgebiedinstellingen live](../c-about-staging.md#task_44306783B4C0408AAA58B471DAF2D9A4)spoelen.
+      Zie [Werkgebiedinstellingen leegmaken live](../c-about-staging.md#task_44306783B4C0408AAA58B471DAF2D9A4).
 
-## Formulierverzending {#concept_CADD5D7CF373497DAA6F8564D7BC8502}
+## Informatie over formulierverzending {#concept_CADD5D7CF373497DAA6F8564D7BC8502}
 
 Met Formulierverzending kunt u formulieren op uw website herkennen en verwerken.
 
@@ -720,21 +750,21 @@ Tijdens het horizontaal schuiven en indexeren van uw website wordt elk aangetrof
 
 ## Formulierdefinities toevoegen voor het indexeren van formulieren op uw website {#task_62FBCE9E6DBE4BDA8D1249233ADFC00F}
 
-U kunt formulieren verwerken die op uw website worden herkend voor indexeringsdoeleinden. [!DNL Form Submission]
+Met [!DNL Form Submission] kunt u formulieren verwerken die op uw website worden herkend voor indexeringsdoeleinden.
 
 Zorg ervoor dat u de site-index opnieuw genereert, zodat de resultaten van de wijzigingen zichtbaar zijn voor uw klanten.
 
-Zie Een incrementele index van een gefaseerde website [](../c-about-index-menu/c-about-incremental-index.md#task_46A367B0786C4C90BFFA5D3F95FD86C0)configureren.
+Zie [Een incrementele index van een gefaseerde website configureren](../c-about-index-menu/c-about-incremental-index.md#task_46A367B0786C4C90BFFA5D3F95FD86C0).
 
 **Formulierdefinities toevoegen voor het indexeren van formulieren op uw website**
 
-1. Klik in het menu Product op **[!UICONTROL Settings]** > **[!UICONTROL Crawling]** > **[!UICONTROL Form Submission]**.
-1. Klik op de [!DNL Form Submission] pagina **[!UICONTROL Add New Form]**.
-1. Stel op de [!DNL Add Form Definition] pagina de [!DNL Form Recognition] en [!DNL Form Submission] opties in.
+1. Klik in het productmenu op **[!UICONTROL Settings]** > **[!UICONTROL Crawling]** > **[!UICONTROL Form Submission]**.
+1. Klik op [!DNL Form Submission] op de pagina.**[!UICONTROL Add New Form]**
+1. Stel op de pagina [!DNL Add Form Definition] de opties [!DNL Form Recognition] en [!DNL Form Submission] in.
 
-   De vijf opties in de [!DNL Form Recognition] sectie op de [!DNL Form Definition] pagina worden gebruikt om formulieren in uw webpagina&#39;s te identificeren die kunnen worden verwerkt.
+   De vijf opties in de sectie [!DNL Form Recognition] op de pagina [!DNL Form Definition] worden gebruikt om formulieren in uw webpagina&#39;s te identificeren die kunnen worden verwerkt.
 
-   De drie opties in de [!DNL Form Submission] sectie worden gebruikt om de parameters en waarden op te geven die met een formulier naar uw webserver worden verzonden.
+   De drie opties in de sectie [!DNL Form Submission] worden gebruikt om de parameters en waarden op te geven die met een formulier naar uw webserver worden verzonden.
 
    Voer één herkenning- of verzendingsparameter per regel in. Elke parameter moet een naam en een waarde bevatten.
 
@@ -752,49 +782,61 @@ Zie Een incrementele index van een gefaseerde website [](../c-about-index-menu/c
       </tr> 
       <tr> 
       <td colname="col1"> <p>Pagina-URL-masker </p> </td> 
-      <td colname="col2"> <p>Identificeer de webpagina of pagina's die het formulier bevatten. Als u een formulier wilt identificeren dat op één pagina wordt weergegeven, voert u de URL voor die pagina in, zoals in het volgende voorbeeld: </p> <p> <code> https://www.mydomain.com/login.html </code> </p> <p>Als u formulieren wilt identificeren die op meerdere pagina's voorkomen, geeft u een URL-masker op dat jokertekens gebruikt om de pagina's te beschrijven. Als u formulieren wilt identificeren die op een willekeurige ASP-pagina worden aangetroffen, geeft u bijvoorbeeld het volgende op: <code> https://www.mydomain.com/register/ </code> </p> <p> <code> https://www.mydomain.com/register/*.asp&amp;nbsp; </code> </p> <p>U kunt ook een reguliere expressie gebruiken om meerdere pagina's te identificeren. Geef het <code>
+      <td colname="col2"> <p>Identificeer de webpagina of pagina's die het formulier bevatten. Als u een formulier wilt identificeren dat op één pagina wordt weergegeven, voert u de URL voor die pagina in, zoals in het volgende voorbeeld: </p> <p> <code> https://www.mydomain.com/login.html </code> </p> <p>Als u formulieren wilt identificeren die op meerdere pagina's voorkomen, geeft u een URL-masker op dat jokertekens gebruikt om de pagina's te beschrijven. Als u formulieren wilt identificeren die op een ASP-pagina onder <code> https://www.mydomain.com/register/ </code> worden aangetroffen, geeft u bijvoorbeeld het volgende op: </p> <p> <code> https://www.mydomain.com/register/*.asp&amp;nbsp; </code> </p> <p>U kunt ook een reguliere expressie gebruiken om meerdere pagina's te identificeren. Geef de 
+      <code>
         regexp 
-      </code> trefwoord op vóór het URL-masker, zoals in het volgende voorbeeld: </p> <p> <code> regexp&amp;nbsp;^https://www\.mydomain\.com/.*/login\.html$ </code> </p> </td> 
+      </code> sleutelwoord vóór het masker URL zoals in het volgende voorbeeld: </p> <p> <code> regexp&amp;nbsp;^https://www\.mydomain\.com/.*/login\.html$ </code> </p> </td> 
       </tr> 
       <tr> 
       <td colname="col1"> <p>Handeling-URL-masker </p> </td> 
-      <td colname="col2"> <p>Hiermee wordt het actiekenmerk van de <code>
+      <td colname="col2"> <p>Identificeert het actiekenmerk van 
+      <code>
         &lt;form&gt; 
-      </code> tag aangegeven. </p> <p>Net als het pagina-URL-masker kan het actie-URL-masker de vorm aannemen van één URL, een URL met jokertekens of een reguliere expressie. </p> <p>Het URL-masker kan een van de volgende items zijn: 
+      </code>-tag. </p> <p>Net als het pagina-URL-masker kan het actie-URL-masker de vorm aannemen van één URL, een URL met jokertekens of een reguliere expressie. </p> <p>Het URL-masker kan een van de volgende items zijn: 
       <ul id="ul_EDFE7688D3DD4C0BBACCE5D4648D8E44"> 
       <li id="li_77550A448D954EF29FF33EE5E8B5E0F5"> Een volledig pad zoals in het volgende voorbeeld: <code> https://www.mydomain.com/products.html </code> </li> 
       <li id="li_F84E25553BBA41419BE153DC0709E011"> Een gedeeltelijk pad zoals in het volgende voorbeeld: <code> https://www.mydomain.com/products </code> </li> 
       <li id="li_8DADA1C8604740FCACBA30B4AAADB2A1"> Een URL die jokertekens gebruikt zoals in het volgende voorbeeld: <code> https://www.mydomain.com/*.html </code> </li> 
       <li id="li_1EF637B450654B509AA4B618F7FD3C2B"> Een reguliere expressie zoals in het volgende voorbeeld: <code> regexp&amp;nbsp^https://www\.mydomain\.com/.*/login\.html$ </code> </li> 
-      </ul> </p> <p>Als u de tekst niet wilt indexeren op pagina's die worden geïdentificeerd door een URL-masker of door een actie-URL-masker, of als u geen koppelingen op die pagina's wilt laten volgen, kunt u de <code>
+      </ul> </p> <p>Als u de tekst niet wilt indexeren op pagina's die zijn geïdentificeerd door een URL-masker of een actie-URL-masker, of als u geen koppelingen op die pagina's wilt laten volgen, kunt u de opdracht 
+      <code>
         noindex 
-      </code> trefwoorden en de <code>
+      </code> en 
+      <code>
         nofollow 
-      </code> trefwoorden gebruiken. U kunt deze trefwoorden aan uw maskers toevoegen met behulp van URL-maskers of ingangspunten. </p> <p>Zie <a href="../c-about-settings-menu/c-about-crawling-menu.md#concept_5D857E3B5C124E85BC0B5AE77A509573" type="concept" format="dita" scope="local"> Informatie over URL-invoerpunten </a>. </p> <p>Zie <a href="../c-about-settings-menu/c-about-crawling-menu.md#concept_8039DFC53FF3410AA494D602F71BA164" type="concept" format="dita" scope="local"> Informatie over URL-maskers </a>. </p> </td> 
+      </code> trefwoorden. U kunt deze trefwoorden aan uw maskers toevoegen met behulp van URL-maskers of ingangspunten. </p> <p>Zie <a href="../c-about-settings-menu/c-about-crawling-menu.md#concept_5D857E3B5C124E85BC0B5AE77A509573" type="concept" format="dita" scope="local"> Informatie over URL-invoerpunten </a>. </p> <p>Zie <a href="../c-about-settings-menu/c-about-crawling-menu.md#concept_8039DFC53FF3410AA494D602F71BA164" type="concept" format="dita" scope="local"> Informatie over URL-maskers </a>. </p> </td> 
       </tr> 
       <tr> 
       <td colname="col1"> <p>Masker voor formuliernaam </p> </td> 
-      <td colname="col2"> <p>Identificeert formulieren als de <code>
+      <td colname="col2"> <p>Identificeert formulieren als de 
+      <code>
         &lt;form&gt; 
-      </code> codes in uw webpagina's een naamkenmerk bevatten. </p> <p>U kunt een eenvoudige naam ( <code>
+      </code>-tags in uw webpagina's bevatten een naamkenmerk. </p> <p>U kunt een eenvoudige naam gebruiken ( 
+      <code>
         login_form 
-      </code>), een naam met een vervanging ( <code>
+      </code>), een naam met een vervanging ( 
+      <code>
         form* 
-      </code>), of een regelmatige uitdrukking ( <code>
+      </code>) of een reguliere expressie ( 
+      <code>
         regexp ^.*authorize.*$ 
-      </code>) gebruiken. </p> <p>U kunt dit veld gewoonlijk leeg laten, omdat formulieren doorgaans geen naamkenmerk hebben. </p> </td> 
+      </code>). </p> <p>U kunt dit veld gewoonlijk leeg laten, omdat formulieren doorgaans geen naamkenmerk hebben. </p> </td> 
       </tr> 
       <tr> 
       <td colname="col1"> <p>Formulier-id-masker </p> </td> 
-      <td colname="col2"> <p>Identificeert formulieren als de <code>
+      <td colname="col2"> <p>Identificeert formulieren als de 
+      <code>
         &lt;form&gt; 
-      </code> codes in uw webpagina's een id-kenmerk bevatten. </p> <p>U kunt een eenvoudige naam ( <code>
+      </code>-tags in uw webpagina's bevatten een id-kenmerk. </p> <p>U kunt een eenvoudige naam gebruiken ( 
+      <code>
         login_form 
-      </code>), een naam met een vervanging ( <code>
+      </code>), een naam met een vervanging ( 
+      <code>
         form* 
-      </code>), of een regelmatige uitdrukking ( <code>
+      </code>) of een reguliere expressie ( 
+      <code>
         regexp ^.*authorize.*$ 
-      </code>) gebruiken. </p> <p>U kunt dit veld gewoonlijk leeg laten, omdat formulieren doorgaans geen naamkenmerk hebben. </p> </td> 
+      </code>). </p> <p>U kunt dit veld gewoonlijk leeg laten, omdat formulieren doorgaans geen naamkenmerk hebben. </p> </td> 
       </tr> 
       <tr> 
       <td colname="col1"> <p>Parameters </p> </td> 
@@ -810,23 +852,29 @@ Zie Een incrementele index van een gefaseerde website [](../c-about-index-menu/c
       </tr> 
       <tr> 
       <td colname="col1"> <p>Overschrijvingsmethode </p> </td> 
-      <td colname="col2"> <p>Geef op wanneer het doel van het verzenden van het formulier afwijkt van wat wordt gebruikt in het actiekenmerk van het formulier en wanneer het verzenden van JavaScript de methode heeft gewijzigd. </p> <p>De standaardwaarden voor alle formulierparameters ( <code>
+      <td colname="col2"> <p>Geef op wanneer het doel van het verzenden van het formulier afwijkt van wat wordt gebruikt in het actiekenmerk van het formulier en wanneer het verzenden van JavaScript de methode heeft gewijzigd. </p> <p>De standaardwaarden voor alle formulierparameters ( 
+      <code>
         &lt;input&gt; 
-      </code> codes, inclusief verborgen velden), de standaardwaarden <code>
+      </code>-tags, inclusief verborgen velden), de standaardinstelling 
+      <code>
         &lt;option&gt; 
-      </code> van een <code>
+      </code> van een 
+      <code>
         &lt;select&gt; 
-      </code> code en de standaardtekst tussen <code>
+      </code>-tag en de standaardtekst tussen 
+      <code>
         &lt;textarea&gt;...&lt;/textarea&gt; 
-      </code> codes) worden gelezen van de webpagina. Elke parameter die in de sectie <span class="wintitle"> Formulierverzending </span> in het <span class="uicontrol"> veld </span> Parameters wordt vermeld, wordt echter vervangen door de standaardwaarden van het formulier. </p> </td> 
+      </code>-tags) worden gelezen van de webpagina. Elke parameter die in de sectie <span class="wintitle"> Formulierverzending </span> in het veld <span class="uicontrol"> Parameters </span> wordt vermeld, wordt echter vervangen door de standaardwaarden van het formulier. </p> </td> 
       </tr> 
       <tr> 
       <td colname="col1"> <p>Parameters </p> </td> 
-      <td colname="col2"> <p>U kunt parameters voor het verzenden van formulieren vooraf instellen op het <code>
+      <td colname="col2"> <p>U kunt parameters voor het verzenden van formulieren vooraf instellen op 
+      <code>
         not 
-      </code> trefwoord. </p> <p>Wanneer u een parameter voorvoegsel met <code>
+      </code> trefwoord. </p> <p>Wanneer u een parameter voorstelt met 
+      <code>
         not 
-      </code>, wordt deze niet verzonden als onderdeel van de formulierverzending. Dit gedrag is handig voor selectievakjes die moeten worden verzonden zonder selectie. </p> <p>Stel dat u de volgende parameters wilt verzenden: </p> <p> 
+      </code>, wordt deze niet verzonden als onderdeel van het verzenden van het formulier. Dit gedrag is handig voor selectievakjes die moeten worden verzonden zonder selectie. </p> <p>Stel dat u de volgende parameters wilt verzenden: </p> <p> 
       <ul id="ul_962D12BACF464FF189DB12BFAFCC93A6"> 
       <li id="li_830C6C3EC8D2448388A453BB8EDE5940"> De parameter e-mail met de waarde 
       <code>
@@ -837,16 +885,19 @@ Zie Een incrementele index van een gefaseerde website [](../c-about-index-menu/c
         tryme 
       </code> </li> 
       <li id="li_AAA411708ADC464793EADF0D821E282E"> De parameter mycheckbox is uitgeschakeld. </li> 
-      <li id="li_0D3DDE641E2B4BEF9F570C03FDB40ED2"> <p>Alle andere <code>
+      <li id="li_0D3DDE641E2B4BEF9F570C03FDB40ED2"> <p>Alle andere 
+      <code>
         &lt;form&gt; 
-      </code> parameters als standaardwaarden </p> </li> 
+      </code>-parameters als standaardwaarden </p> </li> 
       </ul> </p> <p>Uw parameter voor het verzenden van formulieren ziet er als volgt uit: </p> <p> <code> email=nobody@mydomain.com 
         password=tryme 
-        not&nbsp;mycheckbox </code> </p> <p>Het methodekenmerk van de <code>
+        not&nbsp;mycheckbox </code> </p> <p>Het methodeattribuut van 
+      De <code>
         &lt;form&gt; 
-      </code> tag op de webpagina wordt gebruikt om te bepalen of de gegevens naar de server worden verzonden met de methode GET of POST. </p> <p>Als de <code>
+      </code>-tag op de webpagina wordt gebruikt om te bepalen of de gegevens naar de server worden verzonden met de methode GET of POST. </p> <p>Als de 
+      De tag <code>
         &lt;form&gt; 
-      </code> tag geen methodekenmerk bevat, wordt het formulier verzonden met de methode GET. </p> </td> 
+      </code> bevat geen methodekenmerk, het formulier wordt verzonden met de methode GET. </p> </td> 
       </tr> 
     </tbody> 
     </table>
@@ -856,92 +907,92 @@ Zie Een incrementele index van een gefaseerde website [](../c-about-index-menu/c
 
    * Klik op **[!UICONTROL Live]**.
 
-      Zie Live-instellingen [weergeven](../c-about-staging.md#task_401A0EBDB5DB4D4CA933CBA7BECDC10F).
+      Zie [Live-instellingen weergeven](../c-about-staging.md#task_401A0EBDB5DB4D4CA933CBA7BECDC10F).
 
    * Klik op **[!UICONTROL Push Live]**.
 
-      Zie [Werkgebiedinstellingen live](../c-about-staging.md#task_44306783B4C0408AAA58B471DAF2D9A4)spoelen.
+      Zie [Werkgebiedinstellingen leegmaken live](../c-about-staging.md#task_44306783B4C0408AAA58B471DAF2D9A4).
 
 ## Een formulierdefinitie bewerken {#task_9FB34E9C8A814DFE9BF7F8F8F69BF314}
 
 U kunt een bestaande formulierdefinitie bewerken als een formulier op uw website is gewijzigd of als u alleen de definitie hoeft te wijzigen.
 
-Houd er rekening mee dat er geen [!DNL History] functie op de [!DNL Form Submission] pagina aanwezig is om wijzigingen in een formulierdefinitie te herstellen.
+Houd er rekening mee dat er geen [!DNL History] functie op de pagina [!DNL Form Submission] is om wijzigingen in een formulierdefinitie te herstellen.
 
 Zorg ervoor dat u de site-index opnieuw genereert, zodat de resultaten van de wijzigingen zichtbaar zijn voor uw klanten.
 
-Zie Een incrementele index van een gefaseerde website [](../c-about-index-menu/c-about-incremental-index.md#task_46A367B0786C4C90BFFA5D3F95FD86C0)configureren.
+Zie [Een incrementele index van een gefaseerde website configureren](../c-about-index-menu/c-about-incremental-index.md#task_46A367B0786C4C90BFFA5D3F95FD86C0).
 
 **Een formulierdefinitie bewerken**
 
-1. Klik in het menu Product op **[!UICONTROL Settings]** > **[!UICONTROL Crawling]** > **[!UICONTROL Form Submission]**.
-1. Klik rechts van een formulierdefinitie die u wilt bijwerken [!DNL Form Submission] op de **[!UICONTROL Edit]** pagina.
-1. Stel op de [!DNL Edit Form Definition] pagina de [!DNL Form Recognition] en [!DNL Form Submission] opties in.
+1. Klik in het productmenu op **[!UICONTROL Settings]** > **[!UICONTROL Crawling]** > **[!UICONTROL Form Submission]**.
+1. Klik op de pagina [!DNL Form Submission] rechts van een formulierdefinitie die u wilt bijwerken.**[!UICONTROL Edit]**
+1. Stel op de pagina [!DNL Edit Form Definition] de opties [!DNL Form Recognition] en [!DNL Form Submission] in.
 
-   Zie de optietabel onder Formulierdefinities [toevoegen voor het indexeren van formulieren op uw website](../c-about-settings-menu/c-about-crawling-menu.md#task_62FBCE9E6DBE4BDA8D1249233ADFC00F).
+   Zie de optietabel onder [Formulierdefinities toevoegen voor het indexeren van formulieren op uw website](../c-about-settings-menu/c-about-crawling-menu.md#task_62FBCE9E6DBE4BDA8D1249233ADFC00F).
 1. Klik op **[!UICONTROL Save Changes]**.
 1. (Optioneel) Voer een van de volgende handelingen uit:
 
    * Klik op **[!UICONTROL Live]**.
 
-      Zie Live-instellingen [weergeven](../c-about-staging.md#task_401A0EBDB5DB4D4CA933CBA7BECDC10F).
+      Zie [Live-instellingen weergeven](../c-about-staging.md#task_401A0EBDB5DB4D4CA933CBA7BECDC10F).
 
    * Klik op **[!UICONTROL Push Live]**.
 
-      Zie [Werkgebiedinstellingen live](../c-about-staging.md#task_44306783B4C0408AAA58B471DAF2D9A4)spoelen.
+      Zie [Werkgebiedinstellingen leegmaken live](../c-about-staging.md#task_44306783B4C0408AAA58B471DAF2D9A4).
 
 ## Een formulierdefinitie verwijderen {#task_C350FC0CDE344F2786215D544C048B5E}
 
 U kunt een bestaande formulierdefinitie verwijderen als het formulier niet meer op uw website staat of als u een bepaald formulier niet meer wilt verwerken en indexeren.
 
-Houd er rekening mee dat er geen [!DNL History] functie op de [!DNL Form Submission] pagina aanwezig is om wijzigingen in een formulierdefinitie te herstellen.
+Houd er rekening mee dat er geen [!DNL History] functie op de pagina [!DNL Form Submission] is om wijzigingen in een formulierdefinitie te herstellen.
 
 Zorg ervoor dat u de site-index opnieuw genereert, zodat de resultaten van de wijzigingen zichtbaar zijn voor uw klanten.
 
-Zie Een incrementele index van een gefaseerde website [](../c-about-index-menu/c-about-incremental-index.md#task_46A367B0786C4C90BFFA5D3F95FD86C0)configureren.
+Zie [Een incrementele index van een gefaseerde website configureren](../c-about-index-menu/c-about-incremental-index.md#task_46A367B0786C4C90BFFA5D3F95FD86C0).
 
 **Een formulierdefinitie verwijderen**
 
-1. Klik in het menu Product op **[!UICONTROL Settings]** > **[!UICONTROL Crawling]** > **[!UICONTROL Form Submission]**.
-1. Klik rechts van een formulierdefinitie [!DNL Form Submission] die u wilt verwijderen op de **[!UICONTROL Delete]** pagina.
+1. Klik in het productmenu op **[!UICONTROL Settings]** > **[!UICONTROL Crawling]** > **[!UICONTROL Form Submission]**.
+1. Klik op de pagina [!DNL Form Submission] rechts van een formulierdefinitie die u wilt verwijderen.**[!UICONTROL Delete]**
 
-   Zorg ervoor dat u de juiste formulierdefinitie kiest die u wilt verwijderen. Er is geen dialoogvenster voor bevestiging van verwijderen wanneer u **[!UICONTROL Delete]** in de volgende stap klikt.
-1. Klik op de [!DNL Delete Form Definition] pagina **[!UICONTROL Delete]**.
+   Zorg ervoor dat u de juiste formulierdefinitie kiest die u wilt verwijderen. Er is geen dialoogvenster voor bevestiging van verwijderen wanneer u in de volgende stap op **[!UICONTROL Delete]** klikt.
+1. Klik op [!DNL Delete Form Definition] op de pagina.**[!UICONTROL Delete]**
 1. (Optioneel) Voer een van de volgende handelingen uit:
 
    * Klik op **[!UICONTROL Live]**.
 
-      Zie Live-instellingen [weergeven](../c-about-staging.md#task_401A0EBDB5DB4D4CA933CBA7BECDC10F).
+      Zie [Live-instellingen weergeven](../c-about-staging.md#task_401A0EBDB5DB4D4CA933CBA7BECDC10F).
 
    * Klik op **[!UICONTROL Push Live]**.
 
-      Zie [Werkgebiedinstellingen live](../c-about-staging.md#task_44306783B4C0408AAA58B471DAF2D9A4)spoelen.
+      Zie [Werkgebiedinstellingen leegmaken live](../c-about-staging.md#task_44306783B4C0408AAA58B471DAF2D9A4).
 
-## Info over Indexaansluiting {#concept_CA6921E2FBF641F9B4F60C92B32AFA84}
+## Info over Indexconnector {#concept_CA6921E2FBF641F9B4F60C92B32AFA84}
 
-Gebruik deze optie [!DNL Index Connector] om aanvullende invoerbronnen te definiëren voor het indexeren van XML-pagina&#39;s of een feed.
+Gebruik [!DNL Index Connector] om extra invoerbronnen te definiëren voor het indexeren van XML-pagina&#39;s of een willekeurige feed.
 
 U kunt een invoerbron voor gegevensinvoer gebruiken om toegang te krijgen tot inhoud die is opgeslagen in een formulier dat afwijkt van wat normaal gesproken op een website wordt ontdekt met een van de beschikbare verkenningsmethoden. Elk document dat is gekropen en geïndexeerd, komt direct overeen met een inhoudspagina op uw website. Een gegevensfeed is echter afkomstig uit een XML-document of uit een komma- of tabgescheiden tekstbestand en bevat de inhoudsgegevens die moeten worden geïndexeerd.
 
 Een XML-gegevensbron bestaat uit XML-standaarden of -records die informatie bevatten die correspondeert met afzonderlijke documenten. Deze afzonderlijke documenten worden toegevoegd aan de index. Een tekstgegevensfeed bevat afzonderlijke records met een nieuwe-regelindeling die overeenkomen met afzonderlijke documenten. Deze afzonderlijke documenten worden ook toegevoegd aan de index. In beide gevallen beschrijft een configuratie van de indexconnector hoe de feed moet worden geïnterpreteerd. Elke configuratie beschrijft waar het dossier verblijft en hoe de servers tot het toegang hebben. De configuratie beschrijft ook &quot;afbeelding&quot;informatie. Met andere woorden, hoe de items van elke record worden gebruikt om de metagegevensvelden in de resulterende index te vullen.
 
-Nadat u een definitie van de Schakelaar van de Index aan de [!DNL Staged Index Connector Definitions] pagina toevoegt, kunt u om het even welke configuratie het plaatsen, *behalve* de waarden van de Naam of van het Type veranderen.
+Nadat u een definitie van de Verbinding van de Index aan [!DNL Staged Index Connector Definitions] pagina toevoegt, kunt u om het even welke configuratie het plaatsen, *behalve* voor de waarden van de Naam of van het Type veranderen.
 
-Op de [!DNL Index Connector] pagina ziet u de volgende informatie:
+Op de pagina [!DNL Index Connector] ziet u de volgende informatie:
 
 * De naam van bepaalde indexschakelaars die u hebt gevormd en toegevoegd.
 * Één van de volgende gegevensbrontypes voor elke schakelaar die u hebt toegevoegd:
 
-   * **Tekst** - Eenvoudige &quot;platte&quot; bestanden, komma&#39;s, tabs-afgebakende of andere consistent gescheiden indelingen.
-   * **Feed** - XML-feeds.
-   * **XML** - Verzamelingen van XML-documenten.
+   * **Tekst**  - Eenvoudige &quot;platte&quot; bestanden, komma&#39;s, tabs-afgebakende of andere consistent gescheiden indelingen.
+   * **Feed**  - XML-feeds.
+   * **XML**  - Verzamelingen van XML-documenten.
 
 * Of de schakelaar of niet voor volgende wordt toegelaten kruipt en het indexeren gereed.
 * Het adres van de gegevensbron.
 
-Zie ook [Informatie over Indexaansluiting](../c-about-settings-menu/c-about-crawling-menu.md#concept_CA6921E2FBF641F9B4F60C92B32AFA84)
+Zie ook [Indexconnector](../c-about-settings-menu/c-about-crawling-menu.md#concept_CA6921E2FBF641F9B4F60C92B32AFA84)
 
-## Hoe het indexeringsproces voor Tekst en Diervoeders configuraties in de Schakelaar van de Index werkt {#section_E059A33D61EE4DB0972A37B8A35E9E16}
+## Hoe het indexeringsproces voor Tekst en Diervoeders configuraties in de Schakelaar {#section_E059A33D61EE4DB0972A37B8A35E9E16} van de Index werkt
 
 <table> 
  <thead> 
@@ -953,27 +1004,27 @@ Zie ook [Informatie over Indexaansluiting](../c-about-settings-menu/c-about-craw
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>1 </p> </td> 
+   <td colname="col1"> <p>3 </p> </td> 
    <td colname="col2"> <p>Download de gegevensbron. </p> </td> 
    <td colname="col3"> <p>Voor configuraties met tekst en feed is het een eenvoudige bestandsdownload. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>2 </p> </td> 
    <td colname="col2"> <p>Verdeel de gedownloade gegevensbron in afzonderlijke pseudo-documenten. </p> </td> 
-   <td colname="col3"> <p>Voor <span class="uicontrol"> Tekst </span>, beantwoordt elke nieuwe lijn-afgebakende lijn van tekst aan een individueel document, en geparseerd gebruikend het gespecificeerde afbakening, zoals een komma of een lusje. </p> <p>Voor <span class="uicontrol"> feed </span>worden de gegevens van elk document geëxtraheerd met een regulier expressiepatroon in de volgende vorm: </p> <p> <code> &lt;${Itemtag}&gt;(.*?)&lt;/${Itemtag}&gt; </code> </p> <p>Gebruikend <span class="uicontrol"> Kaart </span> op de Schakelaar van de <span class="wintitle"> Index voegt </span> pagina toe, creeer een caching exemplaar van de gegevens en creeer dan een lijst van verbindingen voor de kruipper. De gegevens worden opgeslagen in een lokaal geheime voorgeheugen en met de gevormde gebieden bevolkt. </p> <p>De geparseerde gegevens worden naar de lokale cache geschreven. </p> <p>Deze cache wordt later gelezen om de eenvoudige HTML-documenten te maken die de crawler nodig heeft. Bijvoorbeeld: </p> <p> <code> &lt;html&gt;&lt;head&gt; 
+   <td colname="col3"> <p>Voor <span class="uicontrol"> Tekst </span>, beantwoordt elke nieuwe lijn-afgebakende lijn van tekst aan een individueel document, en wordt ontleed gebruikend het gespecificeerde afbakening, zoals een komma of een lusje. </p> <p>Voor <span class="uicontrol"> Feed </span> worden de gegevens van elk document geëxtraheerd met behulp van een reguliere-expressiepatroon in de volgende vorm: </p> <p> <code> &lt;${Itemtag}&gt;(.*?)&lt;/${Itemtag}&gt; </code> </p> <p>Gebruikend <span class="uicontrol"> Kaart </span> op <span class="wintitle"> de Schakelaar van de Index voegt </span> pagina toe, creeer een caching exemplaar van de gegevens en creeer dan een lijst van verbindingen voor de kruipper. De gegevens worden opgeslagen in een lokaal geheime voorgeheugen en met de gevormde gebieden bevolkt. </p> <p>De geparseerde gegevens worden naar de lokale cache geschreven. </p> <p>Deze cache wordt later gelezen om de eenvoudige HTML-documenten te maken die de crawler nodig heeft. Bijvoorbeeld: </p> <p> <code> &lt;html&gt;&lt;head&gt; 
       &lt;title&gt;{title}&lt;/title&gt; 
       &lt;meta&nbsp;name="{field}"&nbsp;content="{data}"&nbsp;/&gt; 
       ... 
       &lt;/head&gt;&lt;body&gt; 
       {body} 
-      &lt;/body&gt;&lt;/html&gt; </code> </p> <p>Het <span class="codeph"> &lt;title&gt;- </span> element wordt alleen gegenereerd wanneer een toewijzing bestaat voor het metagegevensveld Titel. Op dezelfde manier wordt het <span class="codeph"> &lt;body&gt;- </span> element alleen gegenereerd wanneer er een toewijzing bestaat aan het metagegevensveld Body. </p> <p> <b>Belangrijk</b>: De toewijzing van waarden aan de vooraf gedefinieerde metatag voor URL wordt niet ondersteund. </p> <p>Voor alle andere toewijzingen worden <span class="codeph"> &lt;meta&gt;- </span> tags gegenereerd voor elk veld dat gegevens bevat die in het oorspronkelijke document zijn gevonden. </p> <p>De velden voor elk document worden toegevoegd aan de cache. Voor elk document dat naar het geheime voorgeheugen wordt geschreven, wordt een verbinding ook geproduceerd zoals in de volgende voorbeelden: </p> <p> <code> &lt;a&nbsp;href="index:Adobe?key=&lt;primary&nbsp;key&nbsp;field&gt;\"&nbsp;/&gt; 
+      &lt;/body&gt;&lt;/html&gt; </code> </p> <p>Het <span class="codeph"> &lt;title&gt; </span> element wordt slechts geproduceerd wanneer een afbeelding aan het de meta-gegevensgebied van de Titel bestaat. Op dezelfde manier wordt het <span class="codeph"> &lt;body&gt; </span> element slechts geproduceerd wanneer een afbeelding aan het de meta-gegevensgebied van het Lichaam bestaat. </p> <p> <b>Belangrijk</b>: De toewijzing van waarden aan de vooraf gedefinieerde metatag voor URL wordt niet ondersteund. </p> <p>Voor alle andere toewijzingen worden <span class="codeph"> &lt;meta&gt; </span>-tags gegenereerd voor elk veld dat gegevens bevat die in het oorspronkelijke document zijn gevonden. </p> <p>De velden voor elk document worden toegevoegd aan de cache. Voor elk document dat naar het geheime voorgeheugen wordt geschreven, wordt een verbinding ook geproduceerd zoals in de volgende voorbeelden: </p> <p> <code> &lt;a&nbsp;href="index:Adobe?key=&lt;primary&nbsp;key&nbsp;field&gt;\"&nbsp;/&gt; 
       &lt;a&nbsp;href="index:Adobe?key=&lt;primary&nbsp;key&nbsp;field&gt;\"&nbsp;/&gt; 
-      .... </code> </p> <p>Voor de toewijzing van de configuratie moet één veld zijn geïdentificeerd als primaire sleutel. Deze toewijzing vormt de sleutel die wordt gebruikt wanneer de gegevens van het geheime voorgeheugen worden gehaald. </p> <p>De schuifregelaar herkent de URL- <span class="codeph"> index: </span> schema prefix, die tot de plaatselijk caching gegevens kan dan toegang hebben. </p> </td> 
+      .... </code> </p> <p>Voor de toewijzing van de configuratie moet één veld zijn geïdentificeerd als primaire sleutel. Deze toewijzing vormt de sleutel die wordt gebruikt wanneer de gegevens van het geheime voorgeheugen worden gehaald. </p> <p>De schuifregelaar herkent de URL <span class="codeph">-index: </span> schemaprefix, die tot de plaatselijk caching gegevens kan dan toegang hebben. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>3 </p> </td> 
    <td colname="col2"> <p>De documentset in de cache horizontaal schuiven. </p> </td> 
-   <td colname="col3"> <p>De <span class="codeph"> index: </span> de verbindingen worden toegevoegd aan de kruipende lijst van de kruipler in behandeling, en in de normale kruipende opeenvolging verwerkt. </p> </td> 
+   <td colname="col3"> <p>De <span class="codeph">-index: </span> de verbindingen worden toegevoegd aan de kruipende lijst, en in de normale kruipende opeenvolging verwerkt. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>4 </p> </td> 
@@ -983,11 +1034,11 @@ Zie ook [Informatie over Indexaansluiting](../c-about-settings-menu/c-about-craw
  </tbody> 
 </table>
 
-## Hoe het indexeringsproces voor de configuraties van XML in de Schakelaar van de Index werkt {#section_7F1551EA51854C5C99F284CE260526EB}
+## Hoe het indexeringsproces voor de configuraties van XML in de Schakelaar van de Index {#section_7F1551EA51854C5C99F284CE260526EB} werkt
 
 Het indexeringsproces voor de configuratie van XML is gelijkaardig aan het proces voor de configuraties van de Tekst en van de Dia met de volgende kleine veranderingen en de uitzonderingen.
 
-Aangezien de documenten voor XML-crawls al zijn gescheiden in afzonderlijke bestanden, zijn de stappen 1 en 2 in de bovenstaande tabel niet rechtstreeks van toepassing. Als u een URL opgeeft in de **[!UICONTROL Host Address]** en **[!UICONTROL File Path]** velden van de [!DNL Index Connector Add] pagina, wordt deze gedownload en verwerkt als een normaal HTML-document. De verwachting is dat het downloaddocument een inzameling van `<a href="{url}"...` verbindingen bevat, elk waarvan aan een document van XML richt dat wordt verwerkt. Dergelijke koppelingen worden geconverteerd naar het volgende formulier:
+Aangezien de documenten voor XML-crawls al zijn gescheiden in afzonderlijke bestanden, zijn de stappen 1 en 2 in de bovenstaande tabel niet rechtstreeks van toepassing. Als u een URL opgeeft in de velden **[!UICONTROL Host Address]** en **[!UICONTROL File Path]** van de pagina [!DNL Index Connector Add], wordt deze gedownload en verwerkt als een normaal HTML-document. De verwachting is dat het downloaddocument een inzameling van `<a href="{url}"...` verbindingen bevat, elk waarvan aan een document van XML richt dat wordt verwerkt. Dergelijke koppelingen worden geconverteerd naar het volgende formulier:
 
 ```
 <a href="index:<ic_config_name>?url="{url}">
@@ -1002,9 +1053,9 @@ Bijvoorbeeld, als de opstelling van de Adobe de volgende verbindingen terugkeerd
 
 In de bovenstaande tabel is stap 3 niet van toepassing en wordt stap 4 voltooid op het moment van horizontaal schuiven en indexeren.
 
-Afwisselend, kunt u uw documenten van XML met andere documenten mengen die door het kruipen proces van nature werden ontdekt. In dergelijke gevallen kunt u de herschrijfregels ( **[!UICONTROL Settings]** > **[!UICONTROL Rewrite Rules]** > **[!UICONTROL Crawl List Retrieve URL Rules]**) gebruiken om de URL&#39;s van de XML-documenten te wijzigen en deze naar Indexconnector te sturen.
+Afwisselend, kunt u uw documenten van XML met andere documenten mengen die door het kruipen proces van nature werden ontdekt. In dergelijke gevallen kunt u herschrijfregels gebruiken ( **[!UICONTROL Settings]** > **[!UICONTROL Rewrite Rules]** > **[!UICONTROL Crawl List Retrieve URL Rules]**) om de URL&#39;s van de XML-documenten te wijzigen en deze naar de Indexconnector te sturen.
 
-Zie [Info over Crawl List Win URL Rules](../c-about-settings-menu/c-about-rewrite-rules-menu.md#concept_EC8E2E48B99A458D8567B526C9827CBA).
+Zie [Info kruipt Lijst terugwinnen URL-regels](../c-about-settings-menu/c-about-rewrite-rules-menu.md#concept_EC8E2E48B99A458D8567B526C9827CBA).
 
 Stel dat u de volgende herschrijfregel hebt:
 
@@ -1012,11 +1063,11 @@ Stel dat u de volgende herschrijfregel hebt:
 RewriteRule (^http.*[.]xml$) index:Adobe?key=$1
 ```
 
-Deze regel zet om het even welke URL die met `.xml` in een verbinding van de Schakelaar van de Index beëindigt. De krawler herkent en herschrijft het `index:` URL-schema. Het downloadproces wordt omgeleid via de Index Connector Apache server op de primaire server. Elk gedownload document wordt gecontroleerd gebruikend het zelfde regelmatige uitdrukkingspatroon dat met Beelden wordt gebruikt. In dit geval wordt het gefabriceerde HTML-document echter niet in de cache opgeslagen. In plaats daarvan, wordt het direct overhandigd aan de kruipler voor indexverwerking.
+Deze regel vertaalt om het even welke URL die met `.xml` in een verbinding van de Schakelaar van de Index beëindigt. De kruipler herkent en herschrijft het `index:` URL-schema. Het downloadproces wordt omgeleid via de Index Connector Apache server op de primaire server. Elk gedownload document wordt gecontroleerd gebruikend het zelfde regelmatige uitdrukkingspatroon dat met Beelden wordt gebruikt. In dit geval wordt het gefabriceerde HTML-document echter niet in de cache opgeslagen. In plaats daarvan, wordt het direct overhandigd aan de kruipler voor indexverwerking.
 
-## Hoe te om veelvoudige Verbindingen van de Index te vormen {#section_C2B14C0F06354A57AEF6238FF3814E5D}
+## Hoe te om veelvoudige Verbindingen van de Index {#section_C2B14C0F06354A57AEF6238FF3814E5D} te vormen
 
-U kunt veelvoudige configuraties van de Schakelaar van de Index voor om het even welke rekening bepalen. De configuraties worden automatisch toegevoegd aan de vervolgkeuzelijst in **[!UICONTROL Settings]** > **[!UICONTROL Crawl]** > **[!UICONTROL URL Entrypoints]** , zoals in de volgende afbeelding wordt getoond:
+U kunt veelvoudige configuraties van de Schakelaar van de Index voor om het even welke rekening bepalen. De configuraties worden automatisch toegevoegd aan de vervolgkeuzelijst in **[!UICONTROL Settings]** > **[!UICONTROL Crawl]** > **[!UICONTROL URL Entrypoints]**, zoals in de volgende afbeelding wordt getoond:
 
 ![](assets/url_entrypoints_index_connector.png)
 
@@ -1034,13 +1085,13 @@ index:<indexconnector_configuration_name>
 
 De kruipper verwerkt elk toegevoegd punt als het op de pagina van de Verbindingen van de Index wordt gevonden en toegelaten.
 
-Opmerking: Omdat de URL van elk document wordt samengesteld met de configuratienaam van de Verbinding van de Index en de primaire sleutel van het document, zeker ben u de zelfde configuratienaam van de Verbinding van de Index wanneer het uitvoeren van Incrementele updates gebruikt! Hierdoor kunnen eerder geïndexeerde documenten correct [!DNL Adobe Search&Promote] worden bijgewerkt.
+Opmerking: Omdat de URL van elk document wordt samengesteld met de configuratienaam van de Verbinding van de Index en de primaire sleutel van het document, zeker ben u de zelfde configuratienaam van de Verbinding van de Index wanneer het uitvoeren van Incrementele updates gebruikt! Hierdoor kan [!DNL Adobe Search&Promote] eerder geïndexeerde documenten correct bijwerken.
 
 Zie ook [Informatie over URL-invoerpunten](../c-about-settings-menu/c-about-crawling-menu.md#concept_5D857E3B5C124E85BC0B5AE77A509573).
 
 **Het gebruik van de Kaarten van de Opstelling wanneer u een Schakelaar van de Index toevoegt**
 
-Op het moment dat u een Indexconnector toevoegt, kunt u desgewenst de functie gebruiken **[!UICONTROL Setup Maps]** om een voorbeeld van uw gegevensbron te downloaden. De gegevens worden onderzocht op indexeerbaarheid.
+Als u een Indexconnector toevoegt, kunt u desgewenst de functie **[!UICONTROL Setup Maps]** gebruiken om een voorbeeld van uw gegevensbron te downloaden. De gegevens worden onderzocht op indexeerbaarheid.
 
 <table> 
  <thead> 
@@ -1052,7 +1103,7 @@ Op het moment dat u een Indexconnector toevoegt, kunt u desgewenst de functie ge
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Tekst </p> </td> 
-   <td colname="col2"> <p>Hiermee bepaalt u de waarde van het scheidingsteken door eerst tabs en vervolgens verticale balken ( <span class="codeph"> | </span>) en ten slotte komma's ( <span class="codeph"> , </span>). Als u al een scheidingstekenwaarde hebt opgegeven voordat u op <span class="uicontrol"> Setup Maps hebt geklikt </span>, wordt die waarde gebruikt. </p> <p>Het best-geschikte schema resulteert in de gebieden van de Kaart die met gokken bij de aangewezen waarden van de Markering en van het Gebied worden ingevuld. Bovendien wordt een sampling van de geparseerde gegevens weergegeven. Selecteer <span class="uicontrol"> Kopteksten in eerste rij </span> als u weet dat het bestand een koptekstrij bevat. De opstellingsfunctie gebruikt deze informatie om de resulterende kaartingangen beter te identificeren. </p> </td> 
+   <td colname="col2"> <p>Hiermee bepaalt u de waarde van het scheidingsteken door eerst tabs en vervolgens verticale balken ( <span class="codeph">) te proberen | </span>) en ten slotte komma's ( <span class="codeph"> , </span>). Als u reeds een afbakeningswaarde alvorens u <span class="uicontrol"> de Kaarten van de Opstelling </span> klikte, wordt die waarde gebruikt. </p> <p>Het best-geschikte schema resulteert in de gebieden van de Kaart die met gokken bij de aangewezen waarden van de Markering en van het Gebied worden ingevuld. Bovendien wordt een sampling van de geparseerde gegevens weergegeven. Selecteer <span class="uicontrol"> Koppen in eerste rij </span> als u weet dat het bestand een koptekstrij bevat. De opstellingsfunctie gebruikt deze informatie om de resulterende kaartingangen beter te identificeren. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Feed </p> </td> 
@@ -1060,7 +1111,7 @@ Op het moment dat u een Indexconnector toevoegt, kunt u desgewenst de functie ge
   </tr> 
   <tr> 
    <td colname="col1"> <p>XML </p> </td> 
-   <td colname="col2"> <p>Hiermee downloadt u de URL van een representatief afzonderlijk document, niet de primaire koppelingenlijst. Dit ene document wordt geparseerd met hetzelfde mechanisme als bij feeds en de resultaten worden weergegeven. </p> <p>Voordat u op <span class="uicontrol"> Toevoegen klikt </span> om de configuratie op te slaan, moet u de URL opnieuw instellen op het primaire document met de koppelingenlijst. </p> </td> 
+   <td colname="col2"> <p>Hiermee downloadt u de URL van een representatief afzonderlijk document, niet de primaire koppelingenlijst. Dit ene document wordt geparseerd met hetzelfde mechanisme als bij feeds en de resultaten worden weergegeven. </p> <p>Voordat u op <span class="uicontrol"> Toevoegen </span> klikt om de configuratie op te slaan, moet u ervoor zorgen dat u de URL weer wijzigt in het primaire document van de koppelingenlijst. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -1069,13 +1120,13 @@ Op het moment dat u een Indexconnector toevoegt, kunt u desgewenst de functie ge
 
 **Het gebruik van Voorvertoning wanneer u een Indexconnector toevoegt**
 
-Op het moment dat u een Indexconnector toevoegt, kunt u optioneel de functie gebruiken **[!UICONTROL Preview]** om de gegevens te valideren, alsof u deze opslaat. Het stelt een test tegen de configuratie in werking, maar zonder de configuratie aan de rekening op te slaan. De test heeft toegang tot de geconfigureerde gegevensbron. De downloadcache wordt echter naar een tijdelijke locatie geschreven. er is geen conflict met de hoofdcachemap die door de indexerende crawler wordt gebruikt.
+Op het moment dat u een Indexconnector toevoegt, kunt u optioneel de functie **[!UICONTROL Preview]** gebruiken om de gegevens te valideren, alsof u deze opslaat. Het stelt een test tegen de configuratie in werking, maar zonder de configuratie aan de rekening op te slaan. De test heeft toegang tot de geconfigureerde gegevensbron. De downloadcache wordt echter naar een tijdelijke locatie geschreven. er is geen conflict met de hoofdcachemap die door de indexerende crawler wordt gebruikt.
 
 De voorproef verwerkt slechts een gebrek van vijf documenten zoals die door Acct:IndexConnector-Voorproef-Max-Documenten worden gecontroleerd. De voorvertoonde documenten worden getoond in bronvorm, aangezien zij aan de indexerende kruipper worden voorgesteld. De vertoning is gelijkaardig aan een &quot;Bron van de Mening&quot;eigenschap in browser van het Web. U kunt met standaardnavigatiekoppelingen door de documenten in de voorvertoningsset navigeren.
 
 Voorvertoning ondersteunt geen XML-configuraties omdat dergelijke documenten rechtstreeks worden verwerkt en niet naar de cache worden gedownload.
 
-## Een definitie van een indexaansluiting toevoegen {#task_96779B651A654E1F871F55D6DBBC8886}
+## Een indexconnectordefinitie {#task_96779B651A654E1F871F55D6DBBC8886} toevoegen
 
 Elke configuratie van de Verbinding van de Index bepaalt een gegevensbron en afbeeldingen om de gegevenspunten met elkaar in verband te brengen die voor die bron aan meta-gegevensgebieden in de index worden bepaald.
 
@@ -1083,9 +1134,9 @@ Voordat de effecten van de nieuwe en ingeschakelde definitie zichtbaar zijn voor
 
 **Om een definitie van de Verbinding van de Index toe te voegen**
 
-1. Klik in het menu Product op **[!UICONTROL Settings]** > **[!UICONTROL Crawling]** > **[!UICONTROL Index Connector]**.
-1. Klik op de [!DNL Stage Index Connector Definitions] pagina **[!UICONTROL Add New Index Connector]**.
-1. Stel op de [!DNL Index Connector Add] pagina de gewenste verbindingsopties in. Welke opties beschikbaar zijn, is afhankelijk van de **[!UICONTROL Type]** optie die u hebt geselecteerd.
+1. Klik in het productmenu op **[!UICONTROL Settings]** > **[!UICONTROL Crawling]** > **[!UICONTROL Index Connector]**.
+1. Klik op [!DNL Stage Index Connector Definitions] op de pagina.**[!UICONTROL Add New Index Connector]**
+1. Stel op de pagina [!DNL Index Connector Add] de gewenste verbindingsopties in. Welke opties beschikbaar zijn, is afhankelijk van de optie **[!UICONTROL Type]** die u hebt geselecteerd.
 
    <table> 
     <thead> 
@@ -1101,13 +1152,14 @@ Voordat de effecten van de nieuwe en ingeschakelde definitie zichtbaar zijn voor
       </tr> 
       <tr> 
       <td colname="col1"> <p>Type </p> </td> 
-      <td colname="col2"> <p>De bron van uw gegevens. Het gegevensbrontype dat u selecteert beïnvloedt de resulterende opties die op de <span class="wintitle"> Schakelaar van de Index beschikbaar zijn voegt </span> pagina toe. U kunt uit het volgende kiezen: </p> <p> 
+      <td colname="col2"> <p>De bron van uw gegevens. Het gegevensbrontype dat u selecteert beïnvloedt de resulterende opties die op <span class="wintitle"> de Schakelaar van de Index </span> pagina toevoegen beschikbaar zijn. U kunt uit het volgende kiezen: </p> <p> 
       <ul id="ul_1ADC3DFBC929467385F7465BE8E13635"> 
-      <li id="li_64FCD749F55442BAB316BD474128D4F9"> <span class="uicontrol"> Tekst </span> <p>Eenvoudige, platte tekstbestanden, komma-afgebakende, tabgescheiden of andere consistent gescheiden indelingen. Elke nieuwe regel tekst die door een nieuwe regel wordt gescheiden, komt overeen met een afzonderlijk document en wordt met het opgegeven scheidingsteken geparseerd. </p> <p>U kunt elke waarde of kolom toewijzen aan een metagegevensveld waarnaar wordt verwezen door het kolomnummer, te beginnen bij 1 (één). </p> </li> 
-      <li id="li_2A4F16CE6DCE4114B7F8E4FE156252BB"> <span class="uicontrol"> Feed </span> <p>Downloadt een primair XML-document dat meerdere "rijen" met informatie bevat. </p> </li> 
-      <li id="li_5A61C53522D74D4C9A5F65989604BDEF"> <span class="uicontrol"> XML </span> <p>Hiermee downloadt u een primair XML-document dat koppelingen ( <code>
+      <li id="li_64FCD749F55442BAB316BD474128D4F9"> <span class="uicontrol"> Tekst  </span> <p>Eenvoudige, platte tekstbestanden, komma-afgebakende, tabgescheiden of andere consistent gescheiden indelingen. Elke nieuwe regel tekst die door een nieuwe regel wordt gescheiden, komt overeen met een afzonderlijk document en wordt met het opgegeven scheidingsteken geparseerd. </p> <p>U kunt elke waarde of kolom toewijzen aan een metagegevensveld waarnaar wordt verwezen door het kolomnummer, te beginnen bij 1 (één). </p> </li> 
+      <li id="li_2A4F16CE6DCE4114B7F8E4FE156252BB"> <span class="uicontrol"> Feed  </span> <p>Downloadt een primair XML-document dat meerdere "rijen" met informatie bevat. </p> </li> 
+      <li id="li_5A61C53522D74D4C9A5F65989604BDEF"> <span class="uicontrol"> XML  </span> <p>Hiermee wordt een primair XML-document gedownload dat koppelingen bevat ( 
+      <code>
         &lt;a&gt; 
-      </code>) naar afzonderlijke XML-documenten bevat. </p> </li> 
+      </code>) naar afzonderlijke XML-documenten. </p> </li> 
       </ul> </p> </td> 
       </tr> 
       <tr> 
@@ -1136,7 +1188,7 @@ Voordat de effecten van de nieuwe en ingeschakelde definitie zichtbaar zijn voor
       </tr> 
       <tr> 
       <td colname="col1"> <p>Verwijdert bestandspad </p> </td> 
-      <td colname="col2"> <p>Hiermee geeft u het pad op naar het eenvoudige platte tekstbestand, met één id-waarde per regel voor het document. </p> <p>Het pad is relatief ten opzichte van de hoofdmap van het hostadres. </p> <p>Dit bestand wordt, indien opgegeven, gedownload en verwerkt tijdens incrementele indexbewerkingen. De waarden in dit bestand worden gebruikt voor het samenstellen van verwijderingsverzoeken om eerder geïndexeerde documenten te verwijderen. De waarden in dit bestand moeten overeenkomen met de waarden in de bestanden met het volledige of incrementele bestandspad in de kolom die als <span class="uicontrol"> primaire sleutel wordt aangeduid </span>. </p> <p> <b>Opmerking</b>: Deze functie is niet standaard ingeschakeld. Neem contact op met Technische ondersteuning om de functie voor uw gebruik te activeren. </p> </td> 
+      <td colname="col2"> <p>Hiermee geeft u het pad op naar het eenvoudige platte tekstbestand, met één id-waarde per regel voor het document. </p> <p>Het pad is relatief ten opzichte van de hoofdmap van het hostadres. </p> <p>Dit bestand wordt, indien opgegeven, gedownload en verwerkt tijdens incrementele indexbewerkingen. De waarden in dit bestand worden gebruikt voor het samenstellen van verwijderingsverzoeken om eerder geïndexeerde documenten te verwijderen. De waarden in dit bestand moeten overeenkomen met de waarden in de bestanden Volledig bestandspad of Incrementeel bestandspad in de kolom die wordt aangeduid als <span class="uicontrol"> Primaire sleutel </span>. </p> <p> <b>Opmerking</b>: Deze functie is niet standaard ingeschakeld. Neem contact op met Technische ondersteuning om de functie voor uw gebruik te activeren. </p> </td> 
       </tr> 
       <tr> 
       <td colname="col1"> <p>Protocol </p> </td> 
@@ -1163,7 +1215,7 @@ Voordat de effecten van de nieuwe en ingeschakelde definitie zichtbaar zijn voor
       </tr> 
       <tr> 
       <td colname="col1"> <p>Scheidingsteken </p> </td> 
-      <td colname="col2"> <p>Hiermee geeft u het teken op dat u wilt gebruiken om elk veld in het opgegeven gegevensbronbestand af te bakenen. </p> <p>Het komma ( <span class="codeph"> , </span>) is een voorbeeld van een scheidingsteken. De komma fungeert als een veldscheidingsteken waarmee gegevensvelden in het opgegeven gegevensbronbestand kunnen worden gescheiden. </p> <p>Tab selecteren <span class="uicontrol"> ? </span> Hiermee gebruikt u het teken voor de horizontale tab als scheidingsteken. </p> </td> 
+      <td colname="col2"> <p>Hiermee geeft u het teken op dat u wilt gebruiken om elk veld in het opgegeven gegevensbronbestand af te bakenen. </p> <p>Het komma-teken ( <span class="codeph"> , </span>) is een voorbeeld van een scheidingsteken. De komma fungeert als een veldscheidingsteken waarmee gegevensvelden in het opgegeven gegevensbronbestand kunnen worden gescheiden. </p> <p><span class="uicontrol"> Tab selecteren? </span> Hiermee gebruikt u het teken voor de horizontale tab als scheidingsteken. </p> </td> 
       </tr> 
       <tr> 
       <td colname="col1"> <p>Kopteksten in eerste rij </p> </td> 
@@ -1177,12 +1229,12 @@ Voordat de effecten van de nieuwe en ingeschakelde definitie zichtbaar zijn voor
       <td colname="col1"> <p>Kaart </p> </td> 
       <td colname="col2"> <p>Hiermee geeft u kolomtoewijzingen aan metagegevens op met behulp van kolomnummers. </p> <p> 
       <ul id="ul_981AE2C6D30443BDBFC6575D413732A2"> 
-      <li id="li_A42CB9DFFF8C45A7BAC2D471FE96CEBE"> <span class="uicontrol"> Kolom </span> <p> Hiermee geeft u een kolomnummer op, waarbij de eerste kolom 1 (één) is. Als u nieuwe kaartrijen wilt toevoegen voor elke kolom, klikt u onder <span class="wintitle"> Actie </span>op <span class="uicontrol"> + </span>. </p> <p>U hoeft niet naar elke kolom in de gegevensbron te verwijzen. In plaats daarvan kunt u ervoor kiezen waarden over te slaan. </p> </li> 
-      <li id="li_26E8C9554A5D4BC5A5073D6385E3626F"> <span class="uicontrol"> Veld </span> <p>Definieert de waarde van het naamkenmerk die wordt gebruikt voor elke gegenereerde &lt;meta&gt;-tag. </p> </li> 
-      <li id="li_5DFA514B7F9549B98D6CBC095A66033C"> <span class="uicontrol"> Metagegevens? </span> <p>Hiermee wordt <span class="uicontrol"> Veld een vervolgkeuzelijst </span> waarin u gedefinieerde metagegevensvelden voor de huidige account kunt selecteren. </p> <p>De <span class="uicontrol"> </span> veldwaarde kan desgewenst een ongedefinieerd metagegevensveld zijn. Een niet-gedefinieerd metagegevensveld is soms handig om inhoud te maken die wordt gebruikt door Script <span class="wintitle"> filteren </span>. </p> <p>Zie <a href="../c-about-settings-menu/c-about-filtering-menu.md#concept_E56B73D625854AB2A899EF2D56CFCB47" type="concept" format="dita" scope="local"> Scripts filteren </a>. </p> <p>Wanneer de Schakelaar van de Index de documenten van XML met veelvoudige klappen op om het even welk kaartgebied verwerkt, worden de veelvoudige waarden samengevoegd in één enkele waarde in het resulterende caching document. Deze waarden worden standaard gecombineerd met een komma-scheidingsteken. Stel echter dat de corresponderende <span class="wintitle"> </span> veldwaarde een gedefinieerd metagegevensveld is. Bovendien is voor dat veld het <span class="wintitle"> kenmerk </span> Lijsten van gewenste personen ingesteld. In dit geval wordt de waarde van Lijstscheidingstekens van het veld (het eerste gedefinieerde scheidingsteken) gebruikt bij de samenvoeging. </p> </li> 
-      <li id="li_80DB205525094CE1AA6762BFC7892C95"> <span class="uicontrol"> Primaire sleutel? </span> <p>Slechts één kaartdefinitie wordt geïdentificeerd als primaire sleutel. Dit veld wordt de unieke referentie die wordt weergegeven wanneer dit document aan de index wordt toegevoegd. Deze waarde wordt gebruikt in de URL van het document in de index. </p> <p>De <span class="uicontrol"> Primaire Zeer belangrijke </span> waarden moeten over alle documenten uniek zijn die door de configuratie van de Schakelaar van de Index worden vertegenwoordigd - om het even welke gevonden duplicaten zullen worden genegeerd. Als uw brondocumenten geen unieke waarde voor gebruik als <span class="uicontrol"> Primaire Sleutel bevatten </span>, maar twee of meer velden samen <i>kunnen</i> een unieke identificatie vormen, kunt u de <span class="uicontrol"> Primaire Sleutel bepalen </span> door de veelvoudige waarden van de <span class="uicontrol"> </span> Kolom met een verticale bar ("|") te combineren die de waarden afbakenen. </p> </li> 
-      <li id="li_80DB205525094CE1AA6762BFC7892D96"> <span class="uicontrol"> HTML verwijderen? </span> <p>Als deze optie is ingeschakeld, worden alle HTML-tags in de gegevens van dit veld verwijderd. </p> </li> 
-      <li id="li_359D2902859B4C5BADB0BA26F0BA4DC0"> <span class="uicontrol"> Handeling </span> <p>Hiermee kunt u rijen toevoegen aan de kaart of rijen verwijderen van de kaart. De volgorde van de rijen is niet belangrijk. </p> </li> 
+      <li id="li_A42CB9DFFF8C45A7BAC2D471FE96CEBE"> <span class="uicontrol"> Kolom  </span> <p> Hiermee geeft u een kolomnummer op, waarbij de eerste kolom 1 (één) is. Als u nieuwe kaartrijen wilt toevoegen voor elke kolom, klikt u onder <span class="wintitle"> Handeling </span> op <span class="uicontrol"> + </span>. </p> <p>U hoeft niet naar elke kolom in de gegevensbron te verwijzen. In plaats daarvan kunt u ervoor kiezen waarden over te slaan. </p> </li> 
+      <li id="li_26E8C9554A5D4BC5A5073D6385E3626F"> <span class="uicontrol"> Veld  </span> <p>Definieert de waarde van het naamkenmerk die wordt gebruikt voor elke gegenereerde &lt;meta&gt;-tag. </p> </li> 
+      <li id="li_5DFA514B7F9549B98D6CBC095A66033C"> <span class="uicontrol"> Metagegevens?  </span> <p>Hiermee wordt <span class="uicontrol"> Veld </span> omgezet in een vervolgkeuzelijst waaruit u gedefinieerde metagegevensvelden voor de huidige account kunt selecteren. </p> <p>De waarde <span class="uicontrol"> Veld </span> kan desgewenst een ongedefinieerd metagegevensveld zijn. Een niet-gedefinieerd metagegevensveld is soms handig om inhoud te maken die wordt gebruikt door <span class="wintitle"> Script filteren </span>. </p> <p>Zie <a href="../c-about-settings-menu/c-about-filtering-menu.md#concept_E56B73D625854AB2A899EF2D56CFCB47" type="concept" format="dita" scope="local"> Scripts filteren </a>. </p> <p>Wanneer de Schakelaar van de Index de documenten van XML met veelvoudige klappen op om het even welk kaartgebied verwerkt, worden de veelvoudige waarden samengevoegd in één enkele waarde in het resulterende caching document. Deze waarden worden standaard gecombineerd met een komma-scheidingsteken. Stel echter dat de corresponderende <span class="wintitle">-veldwaarde </span> een gedefinieerd metagegevensveld is. Bovendien heeft dat gebied <span class="wintitle"> Lijsten van gewenste personen </span> plaatste attribuut. In dit geval wordt de waarde van Lijstscheidingstekens van het veld (het eerste gedefinieerde scheidingsteken) gebruikt bij de samenvoeging. </p> </li> 
+      <li id="li_80DB205525094CE1AA6762BFC7892C95"> <span class="uicontrol"> Primaire sleutel?  </span> <p>Slechts één kaartdefinitie wordt geïdentificeerd als primaire sleutel. Dit veld wordt de unieke referentie die wordt weergegeven wanneer dit document aan de index wordt toegevoegd. Deze waarde wordt gebruikt in de URL van het document in de index. </p> <p>De <span class="uicontrol"> primaire sleutel </span> waarden moeten uniek over alle documenten zijn die door de configuratie van de Schakelaar van de Index worden vertegenwoordigd - om het even welke gevonden duplicaten zullen worden genegeerd. Als uw brondocumenten geen unieke waarde voor gebruik als <span class="uicontrol"> Primaire Sleutel </span> bevatten, maar twee of meer velden samen <i>can</i> vormen een unieke identificator, kunt u <span class="uicontrol"> Primaire Sleutel </span> bepalen door veelvoudige <span class="uicontrol"> Kolom </span> waarden met een verticale bar ("|") te combineren die de waarden afbakenen. </p> </li> 
+      <li id="li_80DB205525094CE1AA6762BFC7892D96"> <span class="uicontrol"> HTML verwijderen?  </span> <p>Als deze optie is ingeschakeld, worden alle HTML-tags in de gegevens van dit veld verwijderd. </p> </li> 
+      <li id="li_359D2902859B4C5BADB0BA26F0BA4DC0"> <span class="uicontrol"> Handeling  </span> <p>Hiermee kunt u rijen toevoegen aan de kaart of rijen verwijderen van de kaart. De volgorde van de rijen is niet belangrijk. </p> </li> 
       </ul> </p> </td> 
       </tr> 
       <tr> 
@@ -1211,7 +1263,7 @@ Voordat de effecten van de nieuwe en ingeschakelde definitie zichtbaar zijn voor
       </tr> 
       <tr> 
       <td colname="col1"> <p>Verwijdert bestandspad </p> </td> 
-      <td colname="col2"> <p>Hiermee geeft u het pad op naar het eenvoudige platte tekstbestand, met één id-waarde per regel voor het document. </p> <p>Het pad is relatief ten opzichte van de hoofdmap van het hostadres. </p> <p>Dit bestand wordt, indien opgegeven, gedownload en verwerkt tijdens incrementele indexbewerkingen. De waarden in dit bestand worden gebruikt voor het samenstellen van verwijderingsverzoeken om eerder geïndexeerde documenten te verwijderen. De waarden in dit bestand moeten overeenkomen met de waarden in de bestanden met het volledige of incrementele bestandspad in de kolom die als <span class="uicontrol"> primaire sleutel wordt aangeduid </span>. </p> <p> <b>Opmerking</b>: Deze functie is niet standaard ingeschakeld. Neem contact op met Technische ondersteuning om de functie voor uw gebruik te activeren. </p> </td> 
+      <td colname="col2"> <p>Hiermee geeft u het pad op naar het eenvoudige platte tekstbestand, met één id-waarde per regel voor het document. </p> <p>Het pad is relatief ten opzichte van de hoofdmap van het hostadres. </p> <p>Dit bestand wordt, indien opgegeven, gedownload en verwerkt tijdens incrementele indexbewerkingen. De waarden in dit bestand worden gebruikt voor het samenstellen van verwijderingsverzoeken om eerder geïndexeerde documenten te verwijderen. De waarden in dit bestand moeten overeenkomen met de waarden in de bestanden Volledig bestandspad of Incrementeel bestandspad in de kolom die wordt aangeduid als <span class="uicontrol"> Primaire sleutel </span>. </p> <p> <b>Opmerking</b>: Deze functie is niet standaard ingeschakeld. Neem contact op met Technische ondersteuning om de functie voor uw gebruik te activeren. </p> </td> 
       </tr> 
       <tr> 
       <td colname="col1"> <p>Protocol </p> </td> 
@@ -1267,22 +1319,22 @@ Voordat de effecten van de nieuwe en ingeschakelde definitie zichtbaar zijn voor
       <td colname="col1"> <p>Kaart </p> </td> 
       <td colname="col2"> <p>Hiermee kunt u XML-element-aan-metagegevenstoewijzingen opgeven met XPath-expressies. </p> <p> 
       <ul id="ul_604108C0277C4892AE8A40CA39889ABD"> 
-      <li id="li_0AF92270AE9F4BA8B2C7EE41FABC0F34"> <span class="uicontrol"> Tag </span> <p>Hiermee wordt een XPath-representatie van de geparseerde XML-gegevens opgegeven. Met behulp van het voorbeeld Adobe XML-document hierboven, onder de optie Item-tag, kan deze worden toegewezen met behulp van de volgende syntaxis: </p> <p> <code> /record/@displayurl&nbsp;-&gt;&nbsp;page-url 
+      <li id="li_0AF92270AE9F4BA8B2C7EE41FABC0F34"> <span class="uicontrol"> Tag  </span> <p>Hiermee wordt een XPath-representatie van de geparseerde XML-gegevens opgegeven. Met behulp van het voorbeeld Adobe XML-document hierboven, onder de optie Item-tag, kan deze worden toegewezen met behulp van de volgende syntaxis: </p> <p> <code> /record/@displayurl&nbsp;-&gt;&nbsp;page-url 
       /record/metadata/meta[@name='title']/@content&nbsp;-&gt;&nbsp;title 
       /record/metadata/meta[@name='description']/@content&nbsp;-&gt;&nbsp;desc 
       /record/metadata/meta[@name='description']/@content&nbsp;-&gt;&nbsp;body </code> </p> <p>De bovenstaande syntaxis wordt als volgt vertaald: </p> <p> 
       <ul id="ul_6400EBD08D424EADA1612FE4F7EFB640"> 
-      <li id="li_9958F9B40D42434195597DBA9F2AF28F"> <code> /record/@displayurl&amp;nbsp;-&gt;&amp;nbsp;page-url </code> <p>Het <span class="codeph"> displayurl- </span> kenmerk van het <span class="codeph"> record- </span> element wordt toegewezen aan het metagegevensveld <span class="codeph"> page-url </span>. </p> </li> 
-      <li id="li_759013EA02CD48BE971A55B0A6A11424"> <code> /record/metadata/meta[@name='title']/@content&amp;nbsp;-&gt;&amp;nbsp;title </code> <p>Het <span class="codeph"> inhoudskenmerk </span> van een willekeurig <span class="codeph"> meta- </span> element dat zich in een <span class="codeph"> metagegevenselement bevindt, dat zich in een </span> record- <span class="codeph"> element bevindt, waarvan het naamkenmerk </span> titel is <span class="codeph"> </span><span class="codeph"> </span>, verwijst naar de  titel van het metagegevensveld. </p> </li> 
-      <li id="li_E741CA59197D462EB2946EDE874AFDC8"> <code> /record/metadata/meta[@name='description']/@content&amp;nbsp;-&gt;&amp;nbsp;desc </code> <p>Het <span class="codeph"> inhoudskenmerk </span> van een willekeurig <span class="codeph"> meta- </span> element dat zich in een <span class="codeph"> metagegevenselement bevindt, dat zich in het </span> record- <span class="codeph"> element bevindt, waarvan het naamkenmerk een </span> beschrijving is <span class="codeph"> </span><span class="codeph"> </span>, wijst toe aan het metagegevensveld c. </p> </li> 
-      <li id="li_E35EAE3D284D46D485D9064D7BB6AB13"> <code> /record/metadata/meta[@name='description']/@content&amp;nbsp;-&gt;&amp;nbsp;body </code> <p>Het <span class="codeph"> inhoudskenmerk </span> van een willekeurig <span class="codeph"> meta- </span> element dat zich in een <span class="codeph"> metagegevenselement bevindt, dat zich in het </span> record- <span class="codeph"> element bevindt, waarvan het naamkenmerk een </span> beschrijving is <span class="codeph"> </span><span class="codeph"> </span>, wijst toe aan de  tekst van het metagegevensveld. </p> </li> 
+      <li id="li_9958F9B40D42434195597DBA9F2AF28F"> <code> /record/@displayurl&amp;nbsp;-&gt;&amp;nbsp;page-url </code> <p>Het <span class="codeph"> displayurl </span>-kenmerk van het <span class="codeph">-element record </span> verwijst naar het metagegevensveld <span class="codeph"> page-url </span>. </p> </li> 
+      <li id="li_759013EA02CD48BE971A55B0A6A11424"> <code> /record/metadata/meta[@name='title']/@content&amp;nbsp;-&gt;&amp;nbsp;title </code> <p>Het <span class="codeph">-kenmerk content </span> van elk <span class="codeph">-meta </span>-element dat zich in een <span class="codeph">-metagegevenselement </span> bevindt, dat zich in een <span class="codeph">-record </span>-element bevindt, waarvan het naamkenmerk <span class="codeph">-titel </span> is, wordt toegewezen aan het metagegevensveld &lt;a1111 /&gt;.<span class="codeph"></span> </p> </li> 
+      <li id="li_E741CA59197D462EB2946EDE874AFDC8"> <code> /record/metadata/meta[@name='description']/@content&amp;nbsp;-&gt;&amp;nbsp;desc </code> <p>Het <span class="codeph">-kenmerk content </span> van elk <span class="codeph">-meta </span>-element dat zich in een <span class="codeph">-metagegevenselement </span> bevindt, dat zich in het <span class="codeph">-element </span>-record bevindt, waarvan het naamkenmerk <span class="codeph">-beschrijving </span> is, wordt toegewezen aan het metagegevensveld <span class="codeph"> desc 1/&gt;.</span> </p> </li> 
+      <li id="li_E35EAE3D284D46D485D9064D7BB6AB13"> <code> /record/metadata/meta[@name='description']/@content&amp;nbsp;-&gt;&amp;nbsp;body </code> <p>Het <span class="codeph">-kenmerk content </span> van elk <span class="codeph">-meta </span>-element dat zich in een <span class="codeph">-metagegevenselement </span> bevindt, dat zich in het <span class="codeph">-element </span>-record bevindt, waarvan het naamkenmerk <span class="codeph">-beschrijving </span> is, wordt toegewezen aan het metagegevensveld &lt;a11111 /&gt;.<span class="codeph"></span> </p> </li> 
       </ul> </p> <p>XPath is een relatief gecompliceerde notatie. Meer informatie is beschikbaar op de volgende locatie: </p> <p>Zie <a href="https://www.w3schools.com/xpath/" scope="external" format="html"> https://www.w3schools.com/xpath/ </a> </p> </li> 
-      <li id="li_8147075D7ACD4811A7ED335F23FE62A6"> <span class="uicontrol"> Veld </span> <p>Definieert de waarde van het naamkenmerk die wordt gebruikt voor elke gegenereerde <span class="codeph"> &lt;meta&gt;- </span> tag. </p> </li> 
-      <li id="li_2380199D63BF425A919606D8232FA6E2"> <span class="uicontrol"> Metagegevens? </span> <p>Hiermee wordt <span class="uicontrol"> Veld een vervolgkeuzelijst </span> waarin u gedefinieerde metagegevensvelden voor de huidige account kunt selecteren. </p> <p>De <span class="uicontrol"> </span> veldwaarde kan desgewenst een ongedefinieerd metagegevensveld zijn. Een niet-gedefinieerd metagegevensveld is soms handig om inhoud te maken die wordt gebruikt door Script <span class="wintitle"> filteren </span>. </p> <p>Zie <a href="../c-about-settings-menu/c-about-filtering-menu.md#concept_E56B73D625854AB2A899EF2D56CFCB47" type="concept" format="dita" scope="local"> Scripts filteren </a>. </p> <p>Wanneer de Schakelaar van de Index de documenten van XML met veelvoudige klappen op om het even welk kaartgebied verwerkt, worden de veelvoudige waarden samengevoegd in één enkele waarde in het resulterende caching document. Deze waarden worden standaard gecombineerd met een komma-scheidingsteken. Stel echter dat de corresponderende <span class="wintitle"> </span> veldwaarde een gedefinieerd metagegevensveld is. Bovendien is voor dat veld het <span class="wintitle"> kenmerk </span> Lijsten van gewenste personen ingesteld. In dit geval wordt de waarde van Lijstscheidingstekens van het veld (het eerste gedefinieerde scheidingsteken) gebruikt bij de samenvoeging. </p> </li> 
-      <li id="li_DEA24003E97E406DA2510C43CCFDC70E"> <span class="uicontrol"> Primaire sleutel? </span> <p>Slechts één kaartdefinitie wordt geïdentificeerd als primaire sleutel. Dit veld wordt de unieke referentie die wordt weergegeven wanneer dit document aan de index wordt toegevoegd. Deze waarde wordt gebruikt in de URL van het document in de index. </p> <p>De <span class="uicontrol"> Primaire Zeer belangrijke </span> waarden moeten over alle documenten uniek zijn die door de configuratie van de Schakelaar van de Index worden vertegenwoordigd - om het even welke gevonden duplicaten zullen worden genegeerd. Als uw brondocumenten geen enkele unieke waarde voor gebruik als <span class="uicontrol"> primaire sleutel bevatten </span>, maar twee of meer velden samen een unieke id <i>kunnen</i> vormen, kunt u de <span class="uicontrol"> primaire sleutel definiëren </span> door meerdere <span class="uicontrol"> </span> tagdefinities te combineren met een verticale balk ("|") die de waarden afbakent. </p> </li> 
-      <li id="li_DEA24003E97E406DA2510C43CCFDC81F"> <span class="uicontrol"> HTML verwijderen? </span> <p>Als deze optie is ingeschakeld, worden alle HTML-tags in de gegevens van dit veld verwijderd. </p> </li> 
-      <li id="li_5E829D1D0DBD4BB7AAB5DB983053D248"> <span class="uicontrol"> Gebruiken voor Verwijderen? </span> <p>Wordt alleen gebruikt tijdens incrementele indexbewerkingen. Records die overeenkomen met dit XPath-patroon identificeren items voor verwijdering. De <span class="uicontrol"> Primaire Zeer belangrijke </span> waarde voor elk dergelijk verslag wordt gebruikt om "schrapping"verzoeken, zoals met de Weg van het Dossier van de Schrapping te construeren. </p> <p> <b>Opmerking</b>: Deze functie is niet standaard ingeschakeld. Neem contact op met Technische ondersteuning om de functie voor uw gebruik te activeren. </p> </li> 
-      <li id="li_D40E2F9AD8AD49FC9AC4B8C75BA31E28"> <span class="uicontrol"> Handeling </span> <p>Hiermee kunt u rijen toevoegen aan de kaart of rijen verwijderen van de kaart. De volgorde van de rijen is niet belangrijk. </p> </li> 
+      <li id="li_8147075D7ACD4811A7ED335F23FE62A6"> <span class="uicontrol"> Veld  </span> <p>Definieert de waarde van het naamkenmerk die wordt gebruikt voor elke gegenereerde <span class="codeph"> &lt;meta&gt; </span>-tag. </p> </li> 
+      <li id="li_2380199D63BF425A919606D8232FA6E2"> <span class="uicontrol"> Metagegevens?  </span> <p>Hiermee wordt <span class="uicontrol"> Veld </span> omgezet in een vervolgkeuzelijst waaruit u gedefinieerde metagegevensvelden voor de huidige account kunt selecteren. </p> <p>De waarde <span class="uicontrol"> Veld </span> kan desgewenst een ongedefinieerd metagegevensveld zijn. Een niet-gedefinieerd metagegevensveld is soms handig om inhoud te maken die wordt gebruikt door <span class="wintitle"> Script filteren </span>. </p> <p>Zie <a href="../c-about-settings-menu/c-about-filtering-menu.md#concept_E56B73D625854AB2A899EF2D56CFCB47" type="concept" format="dita" scope="local"> Scripts filteren </a>. </p> <p>Wanneer de Schakelaar van de Index de documenten van XML met veelvoudige klappen op om het even welk kaartgebied verwerkt, worden de veelvoudige waarden samengevoegd in één enkele waarde in het resulterende caching document. Deze waarden worden standaard gecombineerd met een komma-scheidingsteken. Stel echter dat de corresponderende <span class="wintitle">-veldwaarde </span> een gedefinieerd metagegevensveld is. Bovendien heeft dat gebied <span class="wintitle"> Lijsten van gewenste personen </span> plaatste attribuut. In dit geval wordt de waarde van Lijstscheidingstekens van het veld (het eerste gedefinieerde scheidingsteken) gebruikt bij de samenvoeging. </p> </li> 
+      <li id="li_DEA24003E97E406DA2510C43CCFDC70E"> <span class="uicontrol"> Primaire sleutel?  </span> <p>Slechts één kaartdefinitie wordt geïdentificeerd als primaire sleutel. Dit veld wordt de unieke referentie die wordt weergegeven wanneer dit document aan de index wordt toegevoegd. Deze waarde wordt gebruikt in de URL van het document in de index. </p> <p>De <span class="uicontrol"> primaire sleutel </span> waarden moeten uniek over alle documenten zijn die door de configuratie van de Schakelaar van de Index worden vertegenwoordigd - om het even welke gevonden duplicaten zullen worden genegeerd. Als uw brondocumenten geen unieke waarde voor gebruik als <span class="uicontrol"> Primaire Sleutel </span> bevatten, maar twee of meer velden samen <i>can</i> vormen een unieke identificator, kunt u <span class="uicontrol"> Primaire Sleutel </span> bepalen door veelvoudige <span class="uicontrol"> etiketdefinities </span> met een verticale bar ("|") te combineren die de waarden afbakenen. </p> </li> 
+      <li id="li_DEA24003E97E406DA2510C43CCFDC81F"> <span class="uicontrol"> HTML verwijderen?  </span> <p>Als deze optie is ingeschakeld, worden alle HTML-tags in de gegevens van dit veld verwijderd. </p> </li> 
+      <li id="li_5E829D1D0DBD4BB7AAB5DB983053D248"> <span class="uicontrol"> Gebruiken voor Verwijderen?  </span> <p>Wordt alleen gebruikt tijdens incrementele indexbewerkingen. Records die overeenkomen met dit XPath-patroon identificeren items voor verwijdering. De <span class="uicontrol"> Primaire sleutel </span> waarde voor elk dergelijk verslag wordt gebruikt om "schrapping"verzoeken, zoals met de Weg van het Dossier van de Schrapping te construeren. </p> <p> <b>Opmerking</b>: Deze functie is niet standaard ingeschakeld. Neem contact op met Technische ondersteuning om de functie voor uw gebruik te activeren. </p> </li> 
+      <li id="li_D40E2F9AD8AD49FC9AC4B8C75BA31E28"> <span class="uicontrol"> Handeling  </span> <p>Hiermee kunt u rijen toevoegen aan de kaart of rijen verwijderen van de kaart. De volgorde van de rijen is niet belangrijk. </p> </li> 
       </ul> </p> </td> 
       </tr> 
       <tr> 
@@ -1299,9 +1351,10 @@ Voordat de effecten van de nieuwe en ingeschakelde definitie zichtbaar zijn voor
       </tr> 
       <tr> 
       <td colname="col1"> <p>Bestandspad </p> </td> 
-      <td colname="col2"> <p>Hiermee geeft u het pad op naar het primaire XML-document dat koppelingen ( <code>
+      <td colname="col2"> <p>Hiermee wordt het pad opgegeven naar het primaire XML-document dat koppelingen bevat ( 
+      <code>
         &lt;a&gt; 
-      </code>) naar afzonderlijke XML-documenten bevat. </p> <p>Het pad is relatief ten opzichte van de hoofdmap van het hostadres. </p> </td> 
+      </code>) naar afzonderlijke XML-documenten. </p> <p>Het pad is relatief ten opzichte van de hoofdmap van het hostadres. </p> </td> 
       </tr> 
       <tr> 
       <td colname="col1"> <p>Protocol </p> </td> 
@@ -1322,78 +1375,78 @@ Voordat de effecten van de nieuwe en ingeschakelde definitie zichtbaar zijn voor
       <td colname="col1"> <p>Kaart </p> </td> 
       <td colname="col2"> <p>Hiermee kunt u kolom-naar-metagegevenstoewijzingen opgeven met behulp van kolomnummers. </p> <p> 
       <ul id="ul_06F50CBA0AA64C7CB1AFAE076E629A64"> 
-      <li id="li_0FA2502869BA40DC93D790B79E15A9D2"> <span class="uicontrol"> Tag </span> <p>Hiermee wordt een XPath-representatie van de geparseerde XML-gegevens opgegeven. Met behulp van het voorbeeld Adobe XML-document hierboven, onder de optie Item-tag, kunt u het toewijzen met de volgende syntaxis: </p> <p> <code> /record/@displayurl&nbsp;-&gt;&nbsp;page-url 
+      <li id="li_0FA2502869BA40DC93D790B79E15A9D2"> <span class="uicontrol"> Tag  </span> <p>Hiermee wordt een XPath-representatie van de geparseerde XML-gegevens opgegeven. Met behulp van het voorbeeld Adobe XML-document hierboven, onder de optie Item-tag, kunt u het toewijzen met de volgende syntaxis: </p> <p> <code> /record/@displayurl&nbsp;-&gt;&nbsp;page-url 
         /record/metadata/meta[@name='title']/@content&nbsp;-&gt;&nbsp;title 
         /record/metadata/meta[@name='description']/@content&nbsp;-&gt;&nbsp;desc 
         /record/metadata/meta[@name='description']/@content&nbsp;-&gt;&nbsp;body </code> </p> <p>De bovenstaande syntaxis wordt als volgt vertaald: </p> <p> 
       <ul id="ul_F8C536E6E54546D9AA5B22B879C0AF39"> 
-      <li id="li_78A35DFFF1B4496CAC6EDC7B1E991F29"> <code> /record/@displayurl&amp;nbsp;-&gt;&amp;nbsp;page-url </code> <p>Het <span class="codeph"> displayurl- </span> kenmerk van het <span class="codeph"> record- </span> element wordt toegewezen aan het metagegevensveld <span class="codeph"> page-url </span>. </p> </li> 
-      <li id="li_FA7DF3D1942248B98660F3D0C82F4563"> <code> /record/metadata/meta[@name='title']/@content&amp;nbsp;-&gt;&amp;nbsp;title </code> <p>Het <span class="codeph"> inhoudskenmerk </span> van een willekeurig <span class="codeph"> meta- </span> element dat zich in een <span class="codeph"> metagegevenselement bevindt, dat zich in een </span> record- <span class="codeph"> element bevindt, waarvan het naamkenmerk </span> titel is <span class="codeph"> </span><span class="codeph"> </span>, verwijst naar de  titel van het metagegevensveld. </p> </li> 
-      <li id="li_D8000A116FF84DE59ED19C656DDD3BC1"> <code> /record/metadata/meta[@name='description']/@content&amp;nbsp;-&gt;&amp;nbsp;desc </code> <p>Het <span class="codeph"> inhoudskenmerk </span> van een willekeurig <span class="codeph"> meta- </span> element dat zich in een <span class="codeph"> metagegevenselement bevindt, dat zich in het </span> record- <span class="codeph"> element bevindt, waarvan het naamkenmerk een </span> beschrijving is <span class="codeph"> </span><span class="codeph"> </span>, wijst toe aan het metagegevensveld c. </p> </li> 
-      <li id="li_7FA6A53DFD3D42A98B7BA17CC29DDB81"> <code> /record/metadata/meta[@name='description']/@content&amp;nbsp;-&gt;&amp;nbsp;body </code> <p>Het <span class="codeph"> inhoudskenmerk </span> van een willekeurig <span class="codeph"> meta- </span> element dat zich in een <span class="codeph"> metagegevenselement bevindt, dat zich in het </span> record- <span class="codeph"> element bevindt, waarvan het naamkenmerk een </span> beschrijving is <span class="codeph"> </span><span class="codeph"> </span>, wijst toe aan de  tekst van het metagegevensveld. </p> </li> 
+      <li id="li_78A35DFFF1B4496CAC6EDC7B1E991F29"> <code> /record/@displayurl&amp;nbsp;-&gt;&amp;nbsp;page-url </code> <p>Het <span class="codeph"> displayurl </span>-kenmerk van het <span class="codeph">-element record </span> verwijst naar het metagegevensveld <span class="codeph"> page-url </span>. </p> </li> 
+      <li id="li_FA7DF3D1942248B98660F3D0C82F4563"> <code> /record/metadata/meta[@name='title']/@content&amp;nbsp;-&gt;&amp;nbsp;title </code> <p>Het <span class="codeph">-kenmerk content </span> van elk <span class="codeph">-meta </span>-element dat zich in een <span class="codeph">-metagegevenselement </span> bevindt, dat zich in een <span class="codeph">-record </span>-element bevindt, waarvan het naamkenmerk <span class="codeph">-titel </span> is, wordt toegewezen aan het metagegevensveld &lt;a1111 /&gt;.<span class="codeph"></span> </p> </li> 
+      <li id="li_D8000A116FF84DE59ED19C656DDD3BC1"> <code> /record/metadata/meta[@name='description']/@content&amp;nbsp;-&gt;&amp;nbsp;desc </code> <p>Het <span class="codeph">-kenmerk content </span> van elk <span class="codeph">-meta </span>-element dat zich in een <span class="codeph">-metagegevenselement </span> bevindt, dat zich in het <span class="codeph">-element </span>-record bevindt, waarvan het naamkenmerk <span class="codeph">-beschrijving </span> is, wordt toegewezen aan het metagegevensveld <span class="codeph"> desc 1/&gt;.</span> </p> </li> 
+      <li id="li_7FA6A53DFD3D42A98B7BA17CC29DDB81"> <code> /record/metadata/meta[@name='description']/@content&amp;nbsp;-&gt;&amp;nbsp;body </code> <p>Het <span class="codeph">-kenmerk content </span> van elk <span class="codeph">-meta </span>-element dat zich in een <span class="codeph">-metagegevenselement </span> bevindt, dat zich in het <span class="codeph">-element </span>-record bevindt, waarvan het naamkenmerk <span class="codeph">-beschrijving </span> is, wordt toegewezen aan het metagegevensveld &lt;a11111 /&gt;.<span class="codeph"></span> </p> </li> 
       </ul> </p> <p>XPath is een relatief gecompliceerde notatie. Meer informatie is beschikbaar op de volgende locatie: </p> <p>Zie <a href="https://www.w3schools.com/xpath/" scope="external" format="html"> https://www.w3schools.com/xpath/ </a> </p> </li> 
-      <li id="li_84999D07E0AE4265BC7928BBB49957B9"> <span class="uicontrol"> Veld </span> <p>Definieert de waarde van het naamkenmerk die wordt gebruikt voor elke gegenereerde &lt;meta&gt;-tag. </p> </li> 
-      <li id="li_E125788D0F5242958BD790E26A675C20"> <span class="uicontrol"> Metagegevens? </span> <p>Hiermee wordt <span class="uicontrol"> Veld een vervolgkeuzelijst </span> waarin u gedefinieerde metagegevensvelden voor de huidige account kunt selecteren. </p> <p>De <span class="uicontrol"> </span> veldwaarde kan desgewenst een ongedefinieerd metagegevensveld zijn. Een niet-gedefinieerd metagegevensveld is soms handig om inhoud te maken die wordt gebruikt door Script <span class="wintitle"> filteren </span>. </p> <p>Zie <a href="../c-about-settings-menu/c-about-filtering-menu.md#concept_E56B73D625854AB2A899EF2D56CFCB47" type="concept" format="dita" scope="local"> Scripts filteren </a>. </p> <p>Wanneer de Schakelaar van de Index de documenten van XML met veelvoudige klappen op om het even welk kaartgebied verwerkt, worden de veelvoudige waarden samengevoegd in één enkele waarde in het resulterende caching document. Deze waarden worden standaard gecombineerd met een komma-scheidingsteken. Stel echter dat de corresponderende <span class="wintitle"> </span> veldwaarde een gedefinieerd metagegevensveld is. Bovendien is voor dat veld het <span class="wintitle"> kenmerk </span> Lijsten van gewenste personen ingesteld. In dit geval wordt de waarde van Lijstscheidingstekens van het veld (het eerste gedefinieerde scheidingsteken) gebruikt bij de samenvoeging. </p> </li> 
-      <li id="li_9F435EFB3EC74B409EC82A851824609F"> <span class="uicontrol"> Primaire sleutel? </span> <p>Slechts één kaartdefinitie wordt geïdentificeerd als primaire sleutel. Dit veld wordt de unieke referentie die wordt weergegeven wanneer dit document aan de index wordt toegevoegd. Deze waarde wordt gebruikt in de URL van het document in de index. </p> <p>De <span class="uicontrol"> Primaire Zeer belangrijke </span> waarden moeten over alle documenten uniek zijn die door de configuratie van de Schakelaar van de Index worden vertegenwoordigd - om het even welke gevonden duplicaten zullen worden genegeerd. Als uw brondocumenten geen enkele unieke waarde voor gebruik als <span class="uicontrol"> primaire sleutel bevatten </span>, maar twee of meer velden samen een unieke id <i>kunnen</i> vormen, kunt u de <span class="uicontrol"> primaire sleutel definiëren </span> door meerdere <span class="uicontrol"> </span> tagdefinities te combineren met een verticale balk ("|") die de waarden afbakent. </p> </li> 
-      <li id="li_9F435EFB3EC74B409EC82A851824610G"> <span class="uicontrol"> HTML verwijderen? </span> <p>Als deze optie is ingeschakeld, worden alle HTML-tags in de gegevens van dit veld verwijderd. </p> </li> 
-      <li id="li_6302D18971AD439FBECE27742649C56B"> <span class="uicontrol"> Handeling </span> <p>Hiermee kunt u rijen toevoegen aan de kaart of rijen verwijderen van de kaart. De volgorde van de rijen is niet belangrijk. </p> </li> 
+      <li id="li_84999D07E0AE4265BC7928BBB49957B9"> <span class="uicontrol"> Veld  </span> <p>Definieert de waarde van het naamkenmerk die wordt gebruikt voor elke gegenereerde &lt;meta&gt;-tag. </p> </li> 
+      <li id="li_E125788D0F5242958BD790E26A675C20"> <span class="uicontrol"> Metagegevens?  </span> <p>Hiermee wordt <span class="uicontrol"> Veld </span> omgezet in een vervolgkeuzelijst waaruit u gedefinieerde metagegevensvelden voor de huidige account kunt selecteren. </p> <p>De waarde <span class="uicontrol"> Veld </span> kan desgewenst een ongedefinieerd metagegevensveld zijn. Een niet-gedefinieerd metagegevensveld is soms handig om inhoud te maken die wordt gebruikt door <span class="wintitle"> Script filteren </span>. </p> <p>Zie <a href="../c-about-settings-menu/c-about-filtering-menu.md#concept_E56B73D625854AB2A899EF2D56CFCB47" type="concept" format="dita" scope="local"> Scripts filteren </a>. </p> <p>Wanneer de Schakelaar van de Index de documenten van XML met veelvoudige klappen op om het even welk kaartgebied verwerkt, worden de veelvoudige waarden samengevoegd in één enkele waarde in het resulterende caching document. Deze waarden worden standaard gecombineerd met een komma-scheidingsteken. Stel echter dat de corresponderende <span class="wintitle">-veldwaarde </span> een gedefinieerd metagegevensveld is. Bovendien heeft dat gebied <span class="wintitle"> Lijsten van gewenste personen </span> plaatste attribuut. In dit geval wordt de waarde van Lijstscheidingstekens van het veld (het eerste gedefinieerde scheidingsteken) gebruikt bij de samenvoeging. </p> </li> 
+      <li id="li_9F435EFB3EC74B409EC82A851824609F"> <span class="uicontrol"> Primaire sleutel?  </span> <p>Slechts één kaartdefinitie wordt geïdentificeerd als primaire sleutel. Dit veld wordt de unieke referentie die wordt weergegeven wanneer dit document aan de index wordt toegevoegd. Deze waarde wordt gebruikt in de URL van het document in de index. </p> <p>De <span class="uicontrol"> primaire sleutel </span> waarden moeten uniek over alle documenten zijn die door de configuratie van de Schakelaar van de Index worden vertegenwoordigd - om het even welke gevonden duplicaten zullen worden genegeerd. Als uw brondocumenten geen unieke waarde voor gebruik als <span class="uicontrol"> Primaire Sleutel </span> bevatten, maar twee of meer velden samen <i>can</i> vormen een unieke identificator, kunt u <span class="uicontrol"> Primaire Sleutel </span> bepalen door veelvoudige <span class="uicontrol"> etiketdefinities </span> met een verticale bar ("|") te combineren die de waarden afbakenen. </p> </li> 
+      <li id="li_9F435EFB3EC74B409EC82A851824610G"> <span class="uicontrol"> HTML verwijderen?  </span> <p>Als deze optie is ingeschakeld, worden alle HTML-tags in de gegevens van dit veld verwijderd. </p> </li> 
+      <li id="li_6302D18971AD439FBECE27742649C56B"> <span class="uicontrol"> Handeling  </span> <p>Hiermee kunt u rijen toevoegen aan de kaart of rijen verwijderen van de kaart. De volgorde van de rijen is niet belangrijk. </p> </li> 
       </ul> </p> </td> 
       </tr> 
     </tbody> 
     </table>
 
-1. (Optioneel) Klik **[!UICONTROL Setup Maps]** om een voorbeeld van uw gegevensbron te downloaden. De gegevens worden onderzocht op indexeerbaarheid. Deze functie is alleen beschikbaar voor Tekst- en Feed-typen.
-1. (Optioneel) Klik **[!UICONTROL Preview]** om de werking van de configuratie zelf te testen. Deze functie is alleen beschikbaar voor Tekst- en Feed-typen.
-1. Klik **[!UICONTROL Add]** om de configuratie aan de [!DNL Index Connector Definitions] pagina en aan de [!DNL Index Connector Configurations] drop-down lijst op de [!DNL URL Entrypoints] pagina toe te voegen.
+1. (Optioneel) Klik op **[!UICONTROL Setup Maps]** om een voorbeeld van uw gegevensbron te downloaden. De gegevens worden onderzocht op indexeerbaarheid. Deze functie is alleen beschikbaar voor Tekst- en Feed-typen.
+1. (Optioneel) Klik op **[!UICONTROL Preview]** om de werkelijke werking van de configuratie te testen. Deze functie is alleen beschikbaar voor Tekst- en Feed-typen.
+1. Klik **[!UICONTROL Add]** om de configuratie aan [!DNL Index Connector Definitions] pagina en aan [!DNL Index Connector Configurations] drop-down lijst op &lt;a3 toe te voegen.[!DNL URL Entrypoints]
 
    Zie [Informatie over URL-invoerpunten](../c-about-settings-menu/c-about-crawling-menu.md#concept_5D857E3B5C124E85BC0B5AE77A509573).
-1. Klik op de [!DNL Index Connector Definitions] pagina **[!UICONTROL rebuild your staged site index]**.
-1. (Optioneel) Voer op de [!DNL Index Connector Definitions] pagina een van de volgende handelingen uit:
+1. Klik op [!DNL Index Connector Definitions] op de pagina.**[!UICONTROL rebuild your staged site index]**
+1. (Optioneel) Voer op de pagina [!DNL Index Connector Definitions] een van de volgende handelingen uit:
 
-   * Klik **[!UICONTROL History]** om de aangebrachte wijzigingen terug te draaien.
+   * Klik **[!UICONTROL History]** om het even welke veranderingen terug te keren die u hebt aangebracht.
 
-      Zie De optie [Historie](../t-using-the-history-option.md#task_70DD3F87A67242BBBD2CB27156F43002)gebruiken.
+      Zie [De optie Historie gebruiken](../t-using-the-history-option.md#task_70DD3F87A67242BBBD2CB27156F43002).
 
    * Klik op **[!UICONTROL Live]**.
 
-      Zie Live-instellingen [weergeven](../c-about-staging.md#task_401A0EBDB5DB4D4CA933CBA7BECDC10F).
+      Zie [Live-instellingen weergeven](../c-about-staging.md#task_401A0EBDB5DB4D4CA933CBA7BECDC10F).
 
    * Klik op **[!UICONTROL Push Live]**.
 
-      Zie [Werkgebiedinstellingen live](../c-about-staging.md#task_44306783B4C0408AAA58B471DAF2D9A4)spoelen.
+      Zie [Werkgebiedinstellingen leegmaken live](../c-about-staging.md#task_44306783B4C0408AAA58B471DAF2D9A4).
 
-## Een definitie van een indexaansluiting bewerken {#task_DCFC9C6A9964421DB5AB6C25DEE98DE9}
+## Een indexconnectordefinitie bewerken {#task_DCFC9C6A9964421DB5AB6C25DEE98DE9}
 
 U kunt een bestaande Indexconnector bewerken die u hebt gedefinieerd.
 
 >[!NOTE]
 >
->U kunt niet alle opties wijzigen, zoals de naam of het type van de indexaansluiting in de [!DNL Type] vervolgkeuzelijst.
+>U kunt niet alle opties wijzigen, zoals de naam of het type van de indexaansluiting in de vervolgkeuzelijst [!DNL Type].
 
 **Om een definitie van de Verbinding van de Index uit te geven**
 
-1. Klik in het menu Product op **[!UICONTROL Settings]** > **[!UICONTROL Crawling]** > **[!UICONTROL Index Connector]**.
-1. Voor de [!DNL Index Connector] pagina, onder de [!DNL Actions] kolomrubriek, klik **[!UICONTROL Edit]** voor een de definitienaam van de Schakelaar van de Index waarvan montages u wilt veranderen.
-1. Stel op de [!DNL Index Connector Edit] pagina de gewenste opties in.
+1. Klik in het productmenu op **[!UICONTROL Settings]** > **[!UICONTROL Crawling]** > **[!UICONTROL Index Connector]**.
+1. Op [!DNL Index Connector] pagina, onder [!DNL Actions] kolomrubriek, klik **[!UICONTROL Edit]** voor een de definitienaam van de Schakelaar van de Index waarvan montages u wilt veranderen.
+1. Stel op de pagina [!DNL Index Connector Edit] de gewenste opties in.
 
-   Zie de optietabel onder [Een definitie](../c-about-settings-menu/c-about-crawling-menu.md#task_96779B651A654E1F871F55D6DBBC8886)voor indexaansluiting toevoegen.
+   Zie de lijst van opties onder [Toevoegend een definitie van de Schakelaar van de Index](../c-about-settings-menu/c-about-crawling-menu.md#task_96779B651A654E1F871F55D6DBBC8886).
 1. Klik op **[!UICONTROL Save Changes]**.
-1. (Optioneel) Klik op de [!DNL Index Connector Definitions] pagina **[!UICONTROL rebuild your staged site index]**.
-1. (Optioneel) Voer op de [!DNL Index Connector Definitions] pagina een van de volgende handelingen uit:
+1. (Optioneel) Klik op [!DNL Index Connector Definitions] op de pagina.**[!UICONTROL rebuild your staged site index]**
+1. (Optioneel) Voer op de pagina [!DNL Index Connector Definitions] een van de volgende handelingen uit:
 
-   * Klik **[!UICONTROL History]** om de aangebrachte wijzigingen terug te draaien.
+   * Klik **[!UICONTROL History]** om het even welke veranderingen terug te keren die u hebt aangebracht.
 
-      Zie De optie [Historie](../t-using-the-history-option.md#task_70DD3F87A67242BBBD2CB27156F43002)gebruiken.
+      Zie [De optie Historie gebruiken](../t-using-the-history-option.md#task_70DD3F87A67242BBBD2CB27156F43002).
 
    * Klik op **[!UICONTROL Live]**.
 
-      Zie Live-instellingen [weergeven](../c-about-staging.md#task_401A0EBDB5DB4D4CA933CBA7BECDC10F).
+      Zie [Live-instellingen weergeven](../c-about-staging.md#task_401A0EBDB5DB4D4CA933CBA7BECDC10F).
 
    * Klik op **[!UICONTROL Push Live]**.
 
-      Zie [Werkgebiedinstellingen live](../c-about-staging.md#task_44306783B4C0408AAA58B471DAF2D9A4)spoelen.
+      Zie [Werkgebiedinstellingen leegmaken live](../c-about-staging.md#task_44306783B4C0408AAA58B471DAF2D9A4).
 
-## De instellingen van een definitie van een indexaansluiting weergeven {#task_D0B71A7426E54247BDB3468EC576D871}
+## De instellingen van een indexdefinitie {#task_D0B71A7426E54247BDB3468EC576D871} weergeven
 
 U kunt de configuratiemontages van een bestaande definitie van de indexschakelaar herzien.
 
@@ -1401,73 +1454,73 @@ Nadat een definitie van de Schakelaar van de Index aan de [!DNL Index Connector 
 
 **De instellingen van de definitie van een indexaansluiting weergeven**
 
-1. Klik in het menu Product op **[!UICONTROL Settings]** > **[!UICONTROL Crawling]** > **[!UICONTROL Index Connector]**.
-1. Voor de [!DNL Index Connector] pagina, onder de [!DNL Actions] kolomrubriek, klik **[!UICONTROL Edit]** voor een de definitienaam van de Schakelaar van de Index waarvan montages u wilt herzien of uitgeven.
+1. Klik in het productmenu op **[!UICONTROL Settings]** > **[!UICONTROL Crawling]** > **[!UICONTROL Index Connector]**.
+1. Op [!DNL Index Connector] pagina, onder [!DNL Actions] kolomrubriek, klik **[!UICONTROL Edit]** voor een de definitienaam van de Schakelaar van de Index waarvan montages u wilt herzien of uitgeven.
 
-## Een definitie van een indexaansluiting kopiëren {#task_3AD55DF07FC44A748D0EFDAB7B35699B}
+## Een indexconnectordefinitie {#task_3AD55DF07FC44A748D0EFDAB7B35699B} kopiëren
 
 U kunt een bestaande definitie van de Schakelaar van de Index kopiëren om als basis voor een nieuwe Schakelaar van de Index te gebruiken die u wilt tot stand brengen.
 
-Wanneer het kopiëren van een definitie van de Schakelaar van de Index, wordt de gekopieerde definitie onbruikbaar gemaakt door gebrek. Als u de definitie wilt in- of inschakelen, moet u deze bewerken vanaf de [!DNL Index Connector Edit] pagina en vervolgens **[!UICONTROL Enable]** selecteren.
+Wanneer het kopiëren van een definitie van de Schakelaar van de Index, wordt de gekopieerde definitie onbruikbaar gemaakt door gebrek. Als u de definitie wilt inschakelen of &quot;inschakelen&quot;, moet u deze bewerken op de pagina [!DNL Index Connector Edit] en **[!UICONTROL Enable]** selecteren.
 
-Zie [Een definitie](../c-about-settings-menu/c-about-crawling-menu.md#task_DCFC9C6A9964421DB5AB6C25DEE98DE9)voor indexaansluiting bewerken.
+Zie [Een definitie van de Indexconnector bewerken](../c-about-settings-menu/c-about-crawling-menu.md#task_DCFC9C6A9964421DB5AB6C25DEE98DE9).
 
 **Om een definitie van de Verbinding van de Index te kopiëren**
 
-1. Klik in het menu Product op **[!UICONTROL Settings]** > **[!UICONTROL Crawling]** > **[!UICONTROL Index Connector]**.
-1. Voor de [!DNL Index Connector] pagina, onder de [!DNL Actions] kolomrubriek, klik **[!UICONTROL Copy]** voor een de definitienaam van de Schakelaar van de Index waarvan montages u wilt dupliceren.
-1. Voer op de [!DNL Index Connector Copy] pagina de nieuwe naam van de definitie in.
+1. Klik in het productmenu op **[!UICONTROL Settings]** > **[!UICONTROL Crawling]** > **[!UICONTROL Index Connector]**.
+1. Op [!DNL Index Connector] pagina, onder [!DNL Actions] kolomrubriek, klik **[!UICONTROL Copy]** voor een de definitienaam van de Schakelaar van de Index de waarvan montages u wilt dupliceren.
+1. Voer op de pagina [!DNL Index Connector Copy] de nieuwe naam van de definitie in.
 1. Klik op **[!UICONTROL Copy]**.
-1. (Optioneel) Voer op de [!DNL Index Connector Definitions] pagina een van de volgende handelingen uit:
+1. (Optioneel) Voer op de pagina [!DNL Index Connector Definitions] een van de volgende handelingen uit:
 
-   * Klik **[!UICONTROL History]** om de aangebrachte wijzigingen terug te draaien.
+   * Klik **[!UICONTROL History]** om het even welke veranderingen terug te keren die u hebt aangebracht.
 
-      Zie De optie [Historie](../t-using-the-history-option.md#task_70DD3F87A67242BBBD2CB27156F43002)gebruiken.
+      Zie [De optie Historie gebruiken](../t-using-the-history-option.md#task_70DD3F87A67242BBBD2CB27156F43002).
 
    * Klik op **[!UICONTROL Live]**.
 
-      Zie Live-instellingen [weergeven](../c-about-staging.md#task_401A0EBDB5DB4D4CA933CBA7BECDC10F).
+      Zie [Live-instellingen weergeven](../c-about-staging.md#task_401A0EBDB5DB4D4CA933CBA7BECDC10F).
 
    * Klik op **[!UICONTROL Push Live]**.
 
-      Zie [Werkgebiedinstellingen live](../c-about-staging.md#task_44306783B4C0408AAA58B471DAF2D9A4)spoelen.
+      Zie [Werkgebiedinstellingen leegmaken live](../c-about-staging.md#task_44306783B4C0408AAA58B471DAF2D9A4).
 
-## De naam van een indexverbindingsdefinitie wijzigen {#task_5132118FC21B47D99881E0ED425225D7}
+## De naam van een indexconnectordefinitie wijzigen {#task_5132118FC21B47D99881E0ED425225D7}
 
 U kunt de naam van een bestaande definitie van de Verbinding van de Index veranderen.
 
-Nadat u de naam van de definitie hebt gewijzigd, kiest u **[!UICONTROL Settings]** > **[!UICONTROL Crawling]** > **[!UICONTROL URL Entrypoints]**. U wilt ervoor zorgen dat de nieuwe definitienaam in de drop-down lijst op de [!DNL URL Entrypoints] pagina wordt weerspiegeld.
+Nadat u de naam van de definitie hebt gewijzigd, selecteert u **[!UICONTROL Settings]** > **[!UICONTROL Crawling]** > **[!UICONTROL URL Entrypoints]**. U wilt ervoor zorgen dat de nieuwe definitienaam in de drop-down lijst op de [!DNL URL Entrypoints] pagina wordt weerspiegeld.
 
-Zie Meerdere URL-ingangspunten [toevoegen die u wilt indexeren](../c-about-settings-menu/c-about-crawling-menu.md#task_2338A47387D74CFDAC4D4EF4A367ED45).
+Zie [Meerdere URL-ingangspunten toevoegen die u wilt indexeren](../c-about-settings-menu/c-about-crawling-menu.md#task_2338A47387D74CFDAC4D4EF4A367ED45).
 
 **De naam van een indexverbindingsdefinitie wijzigen**
 
-1. Klik in het menu Product op **[!UICONTROL Settings]** > **[!UICONTROL Crawling]** > **[!UICONTROL Index Connector]**.
-1. Voor de [!DNL Index Connector] pagina, onder de [!DNL Actions] kolomrubriek, klik **[!UICONTROL Rename]** voor de definitienaam van de Schakelaar van de Index die u wilt veranderen.
-1. Voer op de [!DNL Index Connector Rename] pagina de nieuwe naam van de definitie in het [!DNL Name] veld in.
+1. Klik in het productmenu op **[!UICONTROL Settings]** > **[!UICONTROL Crawling]** > **[!UICONTROL Index Connector]**.
+1. Op [!DNL Index Connector] pagina, onder [!DNL Actions] kolomrubriek, klik **[!UICONTROL Rename]** voor de definitienaam van de Schakelaar van de Index die u wilt veranderen.
+1. Voer op de pagina [!DNL Index Connector Rename] de nieuwe naam van de definitie in het veld [!DNL Name] in.
 1. Klik op **[!UICONTROL Rename]**.
 1. Klik op **[!UICONTROL Settings]** > **[!UICONTROL Crawling]** > **[!UICONTROL URL Entrypoints]**. Als de naam van de vorige Index-connector in de lijst voorkomt, verwijdert u deze en voegt u het item met de nieuwe naam toe.
 
-   Zie Meerdere URL-ingangspunten [toevoegen die u wilt indexeren](../c-about-settings-menu/c-about-crawling-menu.md#task_2338A47387D74CFDAC4D4EF4A367ED45). 1. (Optioneel) Voer op de [!DNL Index Connector Definitions] pagina een van de volgende handelingen uit:
+   Zie [Meerdere URL-ingangspunten toevoegen die u wilt indexeren](../c-about-settings-menu/c-about-crawling-menu.md#task_2338A47387D74CFDAC4D4EF4A367ED45). 1. (Optioneel) Voer op de pagina [!DNL Index Connector Definitions] een van de volgende handelingen uit:
 
-   * Klik **[!UICONTROL History]** om de aangebrachte wijzigingen terug te draaien.
+   * Klik **[!UICONTROL History]** om het even welke veranderingen terug te keren die u hebt aangebracht.
 
-      Zie De optie [Historie](../t-using-the-history-option.md#task_70DD3F87A67242BBBD2CB27156F43002)gebruiken.
+      Zie [De optie Historie gebruiken](../t-using-the-history-option.md#task_70DD3F87A67242BBBD2CB27156F43002).
 
    * Klik op **[!UICONTROL Live]**.
 
-      Zie Live-instellingen [weergeven](../c-about-staging.md#task_401A0EBDB5DB4D4CA933CBA7BECDC10F).
+      Zie [Live-instellingen weergeven](../c-about-staging.md#task_401A0EBDB5DB4D4CA933CBA7BECDC10F).
 
    * Klik op **[!UICONTROL Push Live]**.
 
-      Zie [Werkgebiedinstellingen live](../c-about-staging.md#task_44306783B4C0408AAA58B471DAF2D9A4)spoelen.
+      Zie [Werkgebiedinstellingen leegmaken live](../c-about-staging.md#task_44306783B4C0408AAA58B471DAF2D9A4).
 
-## Een definitie van een indexaansluiting verwijderen {#task_6B0BD5D0C09F4597A401B0F3AC7C7EA7}
+## Een indexconnectordefinitie {#task_6B0BD5D0C09F4597A401B0F3AC7C7EA7} verwijderen
 
 U kunt een bestaande definitie van de Verbinding van de Index schrappen die u niet meer nodig hebt of gebruikt.
 
 **Om een definitie van de Verbinding van de Index te schrappen**
 
-1. Klik in het menu Product op **[!UICONTROL Settings]** > **[!UICONTROL Crawling]** > **[!UICONTROL Index Connector]**.
-1. Voor de [!DNL Index Connector Definitions] pagina, onder de [!DNL Actions] kolomrubriek, klik **[!UICONTROL Delete]** voor de de definitienaam van de Schakelaar van de Index u wilt verwijderen.
-1. Klik op de [!DNL Index Connector Delete] pagina **[!UICONTROL Delete]**.
+1. Klik in het productmenu op **[!UICONTROL Settings]** > **[!UICONTROL Crawling]** > **[!UICONTROL Index Connector]**.
+1. Op [!DNL Index Connector Definitions] pagina, onder [!DNL Actions] kolomrubriek, klik **[!UICONTROL Delete]** voor de de definitienaam van de Schakelaar van de Index u wilt verwijderen.
+1. Klik op [!DNL Index Connector Delete] op de pagina.**[!UICONTROL Delete]**

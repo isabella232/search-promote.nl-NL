@@ -1,32 +1,35 @@
 ---
-description: Recente zoekopdrachten is een op cookies gebaseerd systeem waarmee u een presentatiemalplaatje kunt gebruiken om de recente zoekgeschiedenis van uw klant weer te geven.
-seo-description: Recente zoekopdrachten is een op cookies gebaseerd systeem waarmee u een presentatiemalplaatje kunt gebruiken om de recente zoekgeschiedenis van uw klant weer te geven.
-seo-title: Het vormen van recente onderzoeken
+description: Recente zoekopdrachten is een op cookies gebaseerd systeem waarmee u een presentatiesjabloon kunt gebruiken om de recente zoekgeschiedenis van uw klant weer te geven.
+seo-description: Recente zoekopdrachten is een op cookies gebaseerd systeem waarmee u een presentatiesjabloon kunt gebruiken om de recente zoekgeschiedenis van uw klant weer te geven.
+seo-title: Recente zoekopdrachten configureren
 solution: Target
 subtopic: Navigation
-title: Het vormen van recente onderzoeken
+title: Recente zoekopdrachten configureren
 topic: Design,Site search and merchandising
 uuid: 8ab1b35c-f953-4c26-921f-524af1fea4ef
 translation-type: tm+mt
 source-git-commit: ef818327e1cdaad79ac47575a8dfba1de3dc5c2e
+workflow-type: tm+mt
+source-wordcount: '204'
+ht-degree: 0%
 
 ---
 
 
-# Het vormen van recente onderzoeken{#configuring-recent-searches}
+# Recente zoekopdrachten configureren{#configuring-recent-searches}
 
-Recente zoekopdrachten is een op cookies gebaseerd systeem waarmee u een presentatiemalplaatje kunt gebruiken om de recente zoekgeschiedenis van uw klant weer te geven.
+Recente zoekopdrachten is een op cookies gebaseerd systeem waarmee u een presentatiesjabloon kunt gebruiken om de recente zoekgeschiedenis van uw klant weer te geven.
 
-U gebruikt de Recente pagina van Onderzoek om het gedrag van onderzoeken te vormen.
+U gebruikt de Recente pagina van Zoekopdrachten om het gedrag van onderzoeken te vormen.
 
-Verwijs naar het de markeringsonderwerp van het presentatiemalplaatje om meer over de diverse markeringen te leren die u kunt gebruiken om de recente onderzoeken op uw presentatiemalplaatje te tonen.
+Raadpleeg het onderwerp over de tagverwijzing van de presentatiesjabloon voor meer informatie over de verschillende labels die u kunt gebruiken om de recente zoekopdrachten in de presentatiesjabloon weer te geven.
 
-Zie [de malplaatjemarkeringen](../c-appendices/c-templates.md#reference_F1BBF616BCEC4AD7B2548ECD3CA74C64)van de Presentatie.
+Zie [Labels voor presentatiesjablonen](../c-appendices/c-templates.md#reference_F1BBF616BCEC4AD7B2548ECD3CA74C64).
 
-**Om recente onderzoeken te vormen**
+**Recente zoekopdrachten configureren**
 
-1. Klik in het menu van het programma op **[!UICONTROL Design]** > **[!UICONTROL Navigation]** > **[!UICONTROL Recent Searches]**.
-1. Voor de [!DNL Recent Searches] pagina, plaats de opties die u wilt.
+1. Klik in het programmamenu op **[!UICONTROL Design]** > **[!UICONTROL Navigation]** > **[!UICONTROL Recent Searches]**.
+1. Stel op de pagina [!DNL Recent Searches] de gewenste opties in.
 
    <!-- 
    
@@ -37,37 +40,37 @@ Zie [de malplaatjemarkeringen](../c-appendices/c-templates.md#reference_F1BBF616
    <table> 
     <thead> 
       <tr> 
-      <th colname="col1" class="entry"> <p>Optie </p> </th> 
+      <th colname="col1" class="entry"> <p>Option </p> </th> 
       <th colname="col2" class="entry"> <p>Beschrijving </p> </th> 
       </tr> 
     </thead>
     <tbody> 
       <tr> 
       <td colname="col1"> <p>Recente zoekopdrachten inschakelen </p> </td> 
-      <td colname="col2"> <p> Wanneer de Recente module van Onderzoeken wordt toegelaten, wordt het koekje "vsrecent onderzoeken"geplaatst met de uitgaande onderzoeksresultaten. </p> </td> 
+      <td colname="col2"> <p> Wanneer de module Recente zoekopdrachten is ingeschakeld, wordt het cookie "vsrecentsearch" ingesteld met de uitgaande zoekresultaten. </p> </td> 
       </tr> 
       <tr> 
       <td colname="col1"> <p>Aantal op te slaan zoekopdrachten </p> </td> 
-      <td colname="col2"> <p>Vorm hoeveel onderzoeken in het koekje te bewaren. </p> </td> 
+      <td colname="col2"> <p>Configureer het aantal zoekopdrachten dat u in het cookie wilt opslaan. </p> </td> 
       </tr> 
       <tr> 
       <td colname="col1"> <p>Verlopen </p> </td> 
-      <td colname="col2"> <p>Specificeert wanneer het koekje verloopt. </p> </td> 
+      <td colname="col2"> <p>Hiermee bepaalt u wanneer het cookie vervalt. </p> </td> 
       </tr> 
     </tbody> 
     </table>
 
-1. (Facultatief) doe één van het volgende:
+1. (Optioneel) Voer een van de volgende handelingen uit:
 
    * Klik **[!UICONTROL History]** om het even welke veranderingen terug te keren die u hebt aangebracht.
 
-      Zie De optie [Historie](../t-using-the-history-option.md#task_70DD3F87A67242BBBD2CB27156F43002)gebruiken.
+      Zie [De optie Historie gebruiken](../t-using-the-history-option.md#task_70DD3F87A67242BBBD2CB27156F43002).
 
    * Klik op **[!UICONTROL Live]**.
 
-      Zie live-instellingen [bekijken](../c-about-staging.md#task_401A0EBDB5DB4D4CA933CBA7BECDC10F).
+      Zie [Live-instellingen weergeven](../c-about-staging.md#task_401A0EBDB5DB4D4CA933CBA7BECDC10F).
 
    * Klik op **[!UICONTROL Push Live]**.
 
-      Zie [Stadsmontages van het Pushing leven](../c-about-staging.md#task_44306783B4C0408AAA58B471DAF2D9A4).
+      Zie [Werkgebiedinstellingen leegmaken live](../c-about-staging.md#task_44306783B4C0408AAA58B471DAF2D9A4).
 

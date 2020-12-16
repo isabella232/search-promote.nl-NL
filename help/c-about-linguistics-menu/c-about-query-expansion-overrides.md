@@ -1,34 +1,37 @@
 ---
-description: U kunt de uitbreiding van de resultaten van de onderzoeksvraag met voeten treden.
-seo-description: U kunt de uitbreiding van de resultaten van de onderzoeksvraag met voeten treden.
-seo-title: Ongeveer de Uitbreiding van de Vraag treedt met voeten
+description: U kunt de uitbreiding van onderzoeksvraagresultaten met voeten treden.
+seo-description: U kunt de uitbreiding van onderzoeksvraagresultaten met voeten treden.
+seo-title: Info over Overschrijvingen voor Query-uitbreiding
 solution: Target
-title: Ongeveer de Uitbreiding van de Vraag treedt met voeten
+title: Info over Overschrijvingen voor Query-uitbreiding
 topic: Linguistics,Site search and merchandising
 uuid: dfe18004-b8fd-4889-b01c-72a3b0c82b9c
 translation-type: tm+mt
 source-git-commit: ef818327e1cdaad79ac47575a8dfba1de3dc5c2e
+workflow-type: tm+mt
+source-wordcount: '665'
+ht-degree: 0%
 
 ---
 
 
-# Ongeveer de Uitbreiding van de Vraag treedt met voeten{#about-query-expansion-overrides}
+# Info over Overschrijvingen van de Uitbreiding van de Vraag{#about-query-expansion-overrides}
 
-U kunt de uitbreiding van de resultaten van de onderzoeksvraag met voeten treden.
+U kunt de uitbreiding van onderzoeksvraagresultaten met voeten treden.
 
-## Het gebruiken van de Uitbreiding van de Vraag treedt met voeten {#concept_6895B469B0E044299E93361BFA06B554}
+## Het gebruiken van de Uitbreiding van de Vraag treedt {#concept_6895B469B0E044299E93361BFA06B554} met voeten
 
-Wanneer u een opheffing van de vraaguitbreiding vormt, creeert u een reeks &quot;regels&quot;. Elke regel zegt, hoofdzakelijk, &quot;breid niet `<this>` in `<that>` op het tijdstip van onderzoek&quot;uit waar een eenvoudig tekstwoord of een uitdrukking, en `<this>` `<that>` is tekstwoord of een uitdrukking, of een classificatie is.
+Wanneer u een opheffing van de vraaguitbreiding vormt, creeert u een reeks &quot;regels&quot;. Elke regel zegt in feite: &quot;Vouw `<this>` niet uit in `<that>` op het moment van zoeken&quot;, waarbij `<this>` een eenvoudig tekstwoord of eenvoudige woordgroep is en `<that>` een tekstwoord of woordgroep of een classificatie.
 
 >[!NOTE]
 >
->Deze eigenschap wordt niet toegelaten in Onderzoek&amp;Promote, door gebrek. Neem contact op met Technische ondersteuning om de functie voor uw gebruik te activeren. Nadat de Uitbreiding van de Vraag eigenschap met voeten treedt wordt toegelaten, moet u &quot;het&quot;in het gebruikersinterface aanzetten.
+>Deze functie is standaard niet ingeschakeld in Search&amp;Promote. Neem contact op met Technische ondersteuning om de functie voor uw gebruik te activeren. Nadat de functie Overschrijvingen van de Uitbreiding van de Vraag wordt toegelaten, moet u het &quot;aanzetten&quot;in het gebruikersinterface.
 
-**Hoe een Opheffing van de Uitbreiding van de Vraag werkt**
+**Hoe een Uitbreiding van de Vraag met voeten treedt werkt**
 
-Wanneer een waarde van de Tekst en van de Term in de Uitbreiding van de Vraag wordt gespecificeerd met voeten treedt voeg pagina toe, de codehandelingen op de specifieke bedrading. Wanneer een classificatietype als Termijn, zoals Woordenboeken of de Afwisselende Vormen van Word wordt gespecificeerd, breid geen waarde uit wordt omgezet in om het even welke vorm die door de vermelde classificatie wordt gecreeerd uit.
+Wanneer een Tekst en Term waarde in de Uitbreiding van de Vraag met voeten treedt toevoegen pagina wordt gespecificeerd, handelt de code op de specifieke bedrading. Wanneer een classificatietype wordt opgegeven als een term, zoals Woordenboeken of Alternatieve Word Forms, wordt de waarde Niet uitbreiden niet geconverteerd naar een formulier dat wordt gemaakt door de opgegeven classificatie.
 
-Bijvoorbeeld, veronderstel dat u de volgende definitie hebt:
+Stel dat u de volgende definitie hebt:
 
 `Do Not Expand = "dog"`
 
@@ -36,27 +39,27 @@ Bijvoorbeeld, veronderstel dat u de volgende definitie hebt:
 
 `Term = "dogs"`
 
-Een zoekopdracht naar &quot;hond&quot;, die zich uitbreidt tot &quot;honden&quot; en &quot;honden&quot; in de vorm van Alternate Word Forms, zou geen &quot;honden&quot; omvatten.
+Een zoekopdracht naar &quot;hond&quot;, die via Alternate Word Forms &quot;honden&quot; en &quot;honden&quot; omvat, zou geen &quot;honden&quot; omvatten.
 
-Indien de definitie echter als volgt luidt:
+Als de definitie echter als volgt luidt:
 
 `Do Not Expand = "dog"`
 
 `Type = Alternate Word Forms`
 
-De vraag omvat niet &quot;honden&quot;of &quot;honden&quot; (de beschikbare Afwisselende Vormen van Word voor &quot;hond&quot;.)
+De query omvat niet &quot;honden&quot; of &quot;honden&quot; (het beschikbare Alternatieve Word Forms voor &quot;honden&quot;.)
 
-U kunt veelvoudige termijnen, veelvoudige classificaties, of allebei specificeren. Nochtans, als u allen als Type selecteert, wordt om het even welke lijst van de veelvoudige termijn doen ineenstorten aan enkel één enkele &quot;allen&quot;ingang.
+U kunt meerdere termen, meerdere classificaties of beide opgeven. Nochtans, als u allen als Type selecteert, wordt om het even welke meervoudige lijst doen ineenstorten aan enkel één enkel &quot;Alle&quot;ingang.
 
-Als de tekst en de classificatieingangen in om het even welke regel worden gemengd, worden zij gereorganiseerd in het gebruikersinterface om tekstwaarden eerst te tonen. Dit impliceert echter niet of beïnvloedt de orde van evaluatie op het tijdstip van onderzoek niet.
+Als tekst- en classificatiegegevens in een regel worden gemengd, worden ze opnieuw ingedeeld in de gebruikersinterface en worden eerst tekstwaarden weergegeven. Dit houdt echter niet in dat de volgorde van de evaluatie op het moment van de zoekactie wordt gewijzigd of gewijzigd.
 
-De termijnen van de tekst worden bevestigd om betekenisloze verwijzingen te verwijderen. Namelijk vergelijkt het de termijn met niet uitbreiden waarde en verwijdert de termijn als er een gelijke is. Bovendien, worden de dubbele waarden van de Term, of tekst of classificatie, verwijderd.
+Teksttermen worden gevalideerd om betekenisloze verwijzingen te verwijderen. Dit betekent dat de term wordt vergeleken met de waarde Niet uitbreiden en dat de term wordt verwijderd als er een overeenkomst is. Daarnaast worden dubbele Term-waarden (tekst of classificatie) verwijderd.
 
-Als u een nieuwe regel met toevoegt breid geen waarde uit herhalend een vroegere definitie, worden de Termijnen van de nieuwe definitie toegevoegd aan origineel.
+Als u een nieuwe regel toevoegt met de waarde Niet uitbreiden die een eerdere definitie dupliceert, worden de voorwaarden van de nieuwe definitie toegevoegd aan het origineel.
 
 ## Het vormen de Uitbreiding van de Vraag treedt met voeten {#task_A087354A509D4997BA275186C224160E}
 
-Het bepalen van en het toevoegen van een opheffing van de Uitbreiding van de Vraag in Onderzoek&amp;Promote.
+Het bepalen van en het toevoegen van een opheffing van de Uitbreiding van de Vraag in Search&amp;Promote.
 
 <!-- 
 
@@ -65,17 +68,17 @@ t_configuring_query_expansion_overrides.xml
  -->
 
 >[!NOTE]
-Deze eigenschap wordt niet toegelaten in Onderzoek&amp;Promote, door gebrek. Neem contact op met Technische ondersteuning om de functie voor uw gebruik te activeren. Nadat de Uitbreiding van de Vraag eigenschap met voeten treedt wordt toegelaten, moet u &quot;het&quot;in het gebruikersinterface aanzetten. De eerste stappen hieronder schetsen hoe dat moet.
+Deze functie is standaard niet ingeschakeld in Search&amp;Promote. Neem contact op met Technische ondersteuning om de functie voor uw gebruik te activeren. Nadat de functie Overschrijvingen van de Uitbreiding van de Vraag wordt toegelaten, moet u het &quot;aanzetten&quot;in het gebruikersinterface. De eerste paar stappen hieronder schetsen hoe te om dat te doen.
 
-**Om de Uitbreiding van de Vraag te vormen treedt met voeten**
+**Overschrijvingen van de Uitbreiding van de Vraag vormen**
 
-1. Klik in Zoeken en promoten op **Instellingen** > **Gebruiker** > **Rollen** bekijken.
-1. Voor de pagina van de Rollen van de Mening, in de kolom van Acties van de lijst, geeft de klik aan het recht van de rol **** uit die u toegang tot de Uitbreiding van de Vraag wilt verlenen met voeten treedt op het menu van de Taalkunde.
-1. Voor de Edit pagina van de Rol, breid de boom van de Taalkunde uit.
-1. De uitbreiding van de **Vraag van de controle treedt** met voeten, en klikt dan **sparen Veranderingen**.
-1. Klik **Taalkunde** > de Uitbreiding van de **Vraag treedt met voeten**.
-1. Klik **toevoegen de Uitbreiding van de Vraag met voeten treedt**.
-1. In de Uitbreiding van de Vraag treedt met voeten toevoegt pagina, plaats de opties u wilt.
+1. Klik in Search&amp;Promote op **Instellingen** > **Gebruiker** > **Rollen weergeven**.
+1. Voor de pagina van de Rollen van de Mening, in de kolom van Acties van de lijst, klik **geef** rechts van de rol uit die u toegang tot de Overschrijvingen van de Uitbreiding van de Vraag op het menu van de Taalkunde wilt verlenen.
+1. Vouw op de pagina Rol bewerken de taalstructuur uit.
+1. Controleer **Overschrijvingen van de Uitbreiding van de vraag**, en klik dan **sparen Veranderingen**.
+1. Klik **Taalkundige** > **Overschrijvingen van de Uitbreiding van de vraag**.
+1. Klik **Overschrijvingen van de Uitbreiding van de Vraag toevoegen**.
+1. Stel de gewenste opties in op de pagina Opheffen voor query-uitbreiding.
 
    <!-- 
    
@@ -86,41 +89,41 @@ Deze eigenschap wordt niet toegelaten in Onderzoek&amp;Promote, door gebrek. Nee
    <table> 
     <thead> 
       <tr> 
-      <th colname="col1" class="entry"> <p>Optie </p> </th> 
+      <th colname="col1" class="entry"> <p>Option </p> </th> 
       <th colname="col2" class="entry"> <p>Beschrijving </p> </th> 
       </tr> 
     </thead>
     <tbody> 
       <tr> 
       <td colname="col1"> <p>Niet uitbreiden </p> </td> 
-      <td colname="col2"> <p>Specificeert het woord of de uitdrukking dat u niet wilt uitbreiden. </p> </td> 
+      <td colname="col2"> <p>Hiermee geeft u het woord of de woordgroep op die u niet wilt uitbreiden. </p> </td> 
       </tr> 
       <tr> 
       <td colname="col1"> <p>Type </p> </td> 
-      <td colname="col2"> <p>Selecteer <b>Tekst</b> om een specifiek woord of een uitdrukking te specificeren die rangschikken. Of, selecteer een classificatie om te specificeren dat niet het woord of de uitdrukking uitbreiden niet door de geselecteerde classificatie wordt omgezet. </p> </td> 
+      <td colname="col2"> <p>Selecteer <b>Tekst</b> om een specifiek woord of een woordkoppeling te specificeren. U kunt ook een classificatie selecteren om op te geven dat het woord of de woordgroep Niet uitbreiden niet wordt omgezet via de geselecteerde classificatie. </p> </td> 
       </tr> 
       <tr> 
-      <td colname="col1"> <p>Termijn </p> </td> 
-      <td colname="col2"> <p>Slechts beschikbaar als u <b>Tekst</b> als Type selecteerde. Specificeert het woord of de uitdrukking van de onderzoeksuitbreiding uit te sluiten. </p> </td> 
+      <td colname="col1"> <p>Term </p> </td> 
+      <td colname="col2"> <p>Alleen beschikbaar als u <b>Tekst</b> als het Type hebt geselecteerd. Hiermee geeft u het woord of de woordgroep op die u wilt uitsluiten van de zoekuitbreiding. </p> </td> 
       </tr> 
       <tr> 
-      <td colname="col1"> <p>Actie </p> </td> 
-      <td colname="col2"> <p> Klik <b>+</b> of <b>-</b> om Termen, respectievelijk, aan de definitie toe te voegen of te schrappen. </p> </td> 
+      <td colname="col1"> <p>Handeling </p> </td> 
+      <td colname="col2"> <p> Klik <b>+</b> of <b>-</b> om Termijnen, respectievelijk, aan de definitie toe te voegen of te schrappen. </p> </td> 
       </tr> 
     </tbody> 
     </table>
 
-1. Wanneer u wordt gebeëindigd, voegt de klik **toe**.
+1. Wanneer u wordt gebeëindigd, klik **toevoegen**.
 
-   Van de Uitbreiding van de Vraag treedt de pagina van Definities met voeten, kunt u de definities uitgeven of schrappen u hebt toegevoegd.
-1. Aan voorproef **regenereren de resultaten van uw toevoegingen, regenereert de klik uw gefaseerde plaatsindex** in de blauwe doos om uw gefaseerde websiteindex snel te herbouwen.
-1. (Facultatief) doe één van het volgende:
+   Van de pagina van de Definities van de Uitbreiding van de Vraag treedt met voeten, kunt u de definities uitgeven of schrappen u hebt toegevoegd.
+1. Als u een voorvertoning van de resultaten van uw toevoegingen wilt weergeven, klikt u op **De gefaseerde site-index opnieuw genereren** in het blauwe vak om uw gefaseerde website-index snel opnieuw samen te stellen.
+1. (Optioneel) Voer een van de volgende handelingen uit:
 
-   * Klik op **Live**.
+   * Klik **Live**.
 
-      Zie live- [instellingen bekijken](../c-about-staging.md#task_401A0EBDB5DB4D4CA933CBA7BECDC10F)
+      Zie [Live-instellingen weergeven](../c-about-staging.md#task_401A0EBDB5DB4D4CA933CBA7BECDC10F)
 
-   * Klik **op Live** drukken.
+   * Klik **Push Live**.
 
-      Zie [Stadsinstellingen pushing live](../c-about-staging.md#task_44306783B4C0408AAA58B471DAF2D9A4)
+      Zie [Werkgebiedinstellingen live spoelen](../c-about-staging.md#task_44306783B4C0408AAA58B471DAF2D9A4)
 

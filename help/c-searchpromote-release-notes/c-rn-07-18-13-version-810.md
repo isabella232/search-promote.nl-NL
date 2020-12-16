@@ -8,11 +8,14 @@ topic: Release Notes,Site search and merchandising
 uuid: 161d678a-6393-4adb-a47a-e28e108acc31
 translation-type: tm+mt
 source-git-commit: ffdec2cfcb30e733c664a7d1ca23868b7a9a9aa5
+workflow-type: tm+mt
+source-wordcount: '180'
+ht-degree: 0%
 
 ---
 
 
-# Opmerkingen bij de release 8.10.1 doorzoeken en promoten (18-07-2013){#search-promote-release-notes}
+# Opmerkingen bij de release van Search&amp;Promote 8.10.1 (07/18/2013){#search-promote-release-notes}
 
 <table> 
  <thead> 
@@ -39,15 +42,15 @@ source-git-commit: ffdec2cfcb30e733c664a7d1ca23868b7a9a9aa5
 
    Zie [Informatie over bedrijfsregels](../c-about-rules-menu/c-about-business-rules.md#concept_2A93D76216754D3D8412CDEA00BD26BD).
 
-* **Zoeken** met instructies - Het probleem waarbij terugvallen naar de XML-parser was uitgeschakeld, is opgelost.
-* **Archief, samengeperste, en niet samengeperste dossiers** - Toegevoegde de capaciteit om informatie van het volgende archief te downloaden en te halen, samengeperste, en niet samengeperste dossiertypes: .zip/tar/tar.gz/tar.bz2/gzip/bzip2
-* **Indexering** van afstandsbediening - Toegevoegde regenereerbaarheid aan indexeringsacties van de afstandsbediening.
+* **Zoeken**  met instructies - Het probleem waarbij terugvallen naar de XML-parser was uitgeschakeld, is opgelost.
+* **Archief, samengeperste, en niet samengeperste dossiers**  - Toegevoegde de capaciteit om informatie van het volgende archief te downloaden en te halen, samengeperste, en niet samengeperste dossiertypes: .zip/tar/tar.gz/tar.bz2/gzip/bzip2
+* **Indexering**  van afstandsbediening: extra regenereerbaarheid toegevoegd aan indexeringsacties op afstandsbediening.
 
    Zie [Informatie over afstandsbediening voor indexering](../c-about-index-menu/c-about-remote-control-for-indexing.md#concept_C79B322190E84106A434E5C6D4A4118F).
 
-   Zie ook [Informatie over Index](../c-about-index-menu/c-about-regenerate-index.md#concept_6CBE6B8D18EF47D293091CBA542245FA)regenereren.
+   Zie ook [Index opnieuw genereren](../c-about-index-menu/c-about-regenerate-index.md#concept_6CBE6B8D18EF47D293091CBA542245FA).
 
-* **Facet rail** - extra ondersteuning voor meerdere facetrails.
+* **Facet rail** : extra ondersteuning voor meerdere facetrails.
 
    Zie [Informatie over facetrails](../c-about-design-menu/c-about-facet-rails.md#concept_1FDC8BCDFFC84A0889DA670F63D5F6DB).
 

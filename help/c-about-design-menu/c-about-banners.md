@@ -19,7 +19,7 @@ ht-degree: 0%
 
 Met Banners kunt u de banneradvertenties beheren die zich op uw website bevinden.
 
-## Banners gebruiken {#concept_5BBE01FEC6134393B43CC917C8CC64DA}
+## Banners {#concept_5BBE01FEC6134393B43CC917C8CC64DA} gebruiken
 
 <!-- 
 
@@ -31,7 +31,7 @@ U kunt twee methoden gebruiken om banneradvertenties aan uw website toe te voege
 
 De eerste methode is banners als Doel toe te voegen, Search&amp;Promote. De banners zijn HTML-codefragmenten die worden weergegeven op het moment dat een klant uw website doorzoekt. Uw banner kan tekst of een afbeelding in GIF-, JPEG- of PNG-indeling of een combinatie van beide bevatten. U kunt kiezen uit vooraf ingestelde grootten of uw eigen aangepaste afmetingen definiëren die op uw pagina passen. Met de HTML-code die u gebruikt om de banner weer te geven, kunt u bijvoorbeeld de lettertypestijl en de rand opgeven. Deze methode om een banner toe te voegen biedt basisfunctionaliteit en vereist geen extra software.
 
-De tweede methode is het gebruik van Adobe Dynamic Media Classic, een dynamisch mediabeheer en publicatieservice. Met een geldig Adobe Dynamic Media Classic-account kunt u bannerinhoud rechtstreeks aan Target, Search&amp;Promote, beheren en leveren met gebruik van Dynamic Media Classic. Bij het zoeken/verhandelen van sites configureert u toegang tot uw Dynamic Media Classic-account. Vervolgens opent u de Dynamic Media Classic-mediabrowser en kiest u een dynamisch media-element dat u als banner wilt gebruiken.
+De tweede methode is het gebruik van Adobe Dynamic Media Classic, een dynamisch mediabeheer en publicatieservice. Met een geldig Adobe Dynamic Media Classic-account kunt u bannerinhoud rechtstreeks aan Target, Search&amp;Promote, beheren en leveren met gebruik van Dynamic Media Classic. Bij het zoeken/verhandelen van sites configureert u toegang tot uw Dynamic Media Classic-account. Vervolgens opent u de Dynamic Media Classic-mediabrowser en kiest u een dynamisch mediabestand dat u als banner wilt gebruiken.
 
 >[!NOTE]
 >
@@ -39,7 +39,7 @@ De tweede methode is het gebruik van Adobe Dynamic Media Classic, een dynamisch 
 
 ## Integratie van banners met Adobe Scene7 Publishing System {#section_D4D7ADEA6A6348E68EDA138E184FE579}
 
-U kunt dynamische Media Klassieke middeltypes als banners in plaatsonderzoek/handel met inbegrip van beelden, dynamische banners, en malplaatjes, zoals beeldmalplaatjes of Flash malplaatjes gebruiken.
+U kunt Klassieke Dynamic Media-elementtypen gebruiken als banners bij het zoeken/verhandelen van sites, zoals afbeeldingen, dynamische banners en sjablonen, zoals afbeeldingssjablonen of Flash-sjablonen.
 
 Sjablonen worden dynamisch gemaakt en adresseerbare gelaagde afbeeldingsbestanden, zoals gelaagde bestanden, in beeldbewerkingstoepassingen zoals Adobe Photoshop®. In tegenstelling tot een statisch afbeeldingsbestand kan een sjabloon parameters bevatten. Aan de hand van parameters kunt u de eigenschappen van een variabele afbeelding en de inhoud van de afbeelding aanpassen.
 
@@ -47,41 +47,41 @@ Sjablonen worden dynamisch gemaakt en adresseerbare gelaagde afbeeldingsbestande
 >
 >U kunt ook sjablonen maken op basis van lay-outontwerpen met behulp van Sjabloonpublicatie in Scene7 Publishing System en bestanden uit Adobe Illustrator en Adobe InDesign.
 
-Zie [Sjabloonpublicatie](https://help.adobe.com/en_US/scene7/using/WSFBFBAD30-2694-4b18-B7CE-894F9FC5CDDF.html) in de gebruikershandleiding Dynamic Media Classic (Scene7).
+Zie [Sjabloonpublicatie](https://help.adobe.com/en_US/scene7/using/WSFBFBAD30-2694-4b18-B7CE-894F9FC5CDDF.html) in de Dynamic Media Classic (Scene7) User Guide.
 
 Een sjabloon kan een willekeurig aantal afbeeldingslagen en tekstlagen bevatten. U kunt een statisch bestand met lagen, zoals een gelaagd PSD-bestand, converteren naar een sjabloon of sjablonen maken in Dynamic Media Classic. U kunt tekstlagen in sjablonen maken met lettertypen die u naar het Scene7 Publishing System hebt geüpload. Nadat u tekst aan een sjabloon hebt toegevoegd, kunt u deze opmaken door de uitvulling, lettertypen, tekengrootte en kleur ervan te wijzigen.
 
-Gebruikend het scherm van Parameters in Dynamische Klassiek van Media, kunt u om het even welk aspect van een malplaatje in een adresseerbare parameter omzetten. Op deze manier kunt u wijzigen welke gelaagde afbeelding moet worden gebruikt of welke tekstwaarde in de sjabloon moet worden gebruikt. De parameters worden overgegaan met het koord URL, toestaand u om het even welke parameter te veranderen om het antwoordbeeld dynamisch aan te passen dat van de beeldserver wordt geproduceerd.
+Met het scherm Parameters in Dynamic Media Classic kunt u elk aspect van een sjabloon omzetten in een adresseerbare parameter. Op deze manier kunt u wijzigen welke gelaagde afbeelding moet worden gebruikt of welke tekstwaarde in de sjabloon moet worden gebruikt. De parameters worden overgegaan met het koord URL, toestaand u om het even welke parameter te veranderen om het antwoordbeeld dynamisch aan te passen dat van de beeldserver wordt geproduceerd.
 
-U kunt meer over leren hoe te om Dynamische Klassiek van Media te gebruiken om malplaatjes tot stand te brengen en de eigenschappen op de lagen te bepalen zodat kunt u hen in banners gebruiken.
+U kunt meer leren over hoe u Dynamic Media Classic kunt gebruiken om sjablonen te maken en de parameters van de eigenschappen op de lagen te bepalen, zodat u deze in banners kunt gebruiken.
 
-Zie [Sjabloonbasisbeginselen](https://help.adobe.com/en_US/scene7/using/WS60B68844-9054-4099-BF69-3DC998A04D3C.html) in de gebruikershandleiding Dynamic Media Classic (Scene7).
+Zie [Sjabloonbeginselen](https://help.adobe.com/en_US/scene7/using/WS60B68844-9054-4099-BF69-3DC998A04D3C.html) in de Dynamic Media Classic (Scene7) User Guide.
 
 **Uploaden en publiceren van middelen**
 
-U moet elementen uploaden en publiceren in Dynamic Media Classic voordat u deze voor banners kunt gebruiken bij het zoeken naar en verkopen van sites. Deze voorwaarde geldt ook voor alle elementen die een afbeeldingssjabloon of een Flash-sjabloon gebruikt. Gebruik uw Dynamic Media Classic-account om digitale elementen te uploaden en te publiceren. Of u kunt zoeken naar/merchandising gebruiken om een digitaal middel te uploaden en het vervolgens automatisch laten publiceren door Dynamic Media Classic op basis van uw uploadinstellingen. Als u een element probeert te kiezen dat nog niet is geüpload en gepubliceerd, wordt u hiervan op de hoogte gesteld in de gebruikersinterface en krijgt u de mogelijkheid om het te uploaden voordat u verdergaat.
+U moet middelen in Dynamic Media Classic uploaden en publiceren alvorens u hen voor banners in plaatsonderzoek/koophandel kunt gebruiken. Deze voorwaarde geldt ook voor alle elementen die een afbeeldingssjabloon of een Flash-sjabloon gebruikt. Gebruik uw Dynamic Media Classic-account om digitale middelen te uploaden en te publiceren. Of u kunt zoeken naar of winkelen op de site gebruiken om een digitaal middel te uploaden en het vervolgens automatisch door Dynamic Media Classic laten publiceren op basis van uw uploadinstellingen. Als u een element probeert te kiezen dat nog niet is geüpload en gepubliceerd, wordt u hiervan op de hoogte gesteld in de gebruikersinterface en krijgt u de mogelijkheid om het te uploaden voordat u verdergaat.
 
 Meer informatie over het uploaden en publiceren van digitale elementen via het Scene7 Publishing System vindt u op de website.
 
-Zie Elementen [](https://help.adobe.com/en_US/scene7/using/WS3673AD39-098B-4f08-8A24-CA51261B7366.html) uploaden en publiceren in de gebruikershandleiding Dynamic Media Classic (Scene7).
+Zie [Elementen uploaden en publiceren](https://help.adobe.com/en_US/scene7/using/WS3673AD39-098B-4f08-8A24-CA51261B7366.html) in de Dynamic Media Classic (Scene7) gebruikershandleiding.
 
 >[!NOTE]
 >
->Als u de uploadfunctionaliteit wilt gebruiken in de Dynamic Media Classic Asset Viewer, moet u ervoor zorgen dat de Dynamic Media Classic-account die u gebruikt, de rol &quot;SPS Company Admin&quot; heeft die al is ingesteld.
+>Als u de uploadfunctionaliteit wilt gebruiken in de Dynamic Media Classic Asset Viewer, moet u ervoor zorgen dat de rol &quot;SPS Company Admin&quot; al is ingesteld op het Klassieke Dynamic Media-account dat u gebruikt.
 
-Zie [Beheerinstellingen](https://help.adobe.com/en_US/scene7/using/WS662101DF-D697-47a7-A7D8-B52FD8E94438.html) in de gebruikershandleiding Dynamic Media Classic (Scene7).
+Zie [Beheerinstellingen](https://help.adobe.com/en_US/scene7/using/WS662101DF-D697-47a7-A7D8-B52FD8E94438.html) in de Dynamic Media Classic (Scene7) User Guide.
 
-**De dynamische Parameters van het Malplaatje van Media Klassieke in een Banner veranderen gebruikend Bedrijfs Regels**
+**Dynamic Media Classic Template Parameters in een Banner wijzigen met Business Rules**
 
-Als u een dynamisch Media Classic element als een banner hebt toegevoegd, kunt u dit [!DNL Visual Rule Builder] in gebruiken [!DNL Business Rules] om het aan een bannergebied op uw website toe te voegen. U voegt bijvoorbeeld de banner toe aan de pagina&#39;s met zoekresultaten, net als bij andere banners. U kunt de standaardparameterwaarden in Dynamische Klassieke malplaatjes van Media ook met voeten treden door hen aan uw specifieke behoeften aan te passen. Met dit soort functionaliteit kunt u de klassieke Dynamic Media-sjablonen aanpassen met verschillende marketingberichten en hyperlinks naar verschillende eindpunten.
+Als u een dynamisch Media Classic element als een banner hebt toegevoegd, kunt u [!DNL Visual Rule Builder] in [!DNL Business Rules] gebruiken om het aan een bannergebied op uw website toe te voegen. U voegt bijvoorbeeld de banner toe aan de pagina&#39;s met zoekresultaten, net als bij andere banners. U kunt de standaardparameterwaarden in de Klassieke malplaatjes van Dynamic Media ook met voeten treden door hen aan uw specifieke behoeften aan te passen. Met dit soort functionaliteit kunt u Klassieke Dynamic Media-sjablonen aanpassen met verschillende marketingberichten en hyperlinks naar verschillende eindpunten.
 
-Zie ook [Een nieuwe bedrijfsregel](../c-about-rules-menu/c-about-business-rules.md#task_BD3B31ED48BB4B1B8F1DCD3BFA2528E7)toevoegen.
+Zie ook [Een nieuwe bedrijfsregel toevoegen](../c-about-rules-menu/c-about-business-rules.md#task_BD3B31ED48BB4B1B8F1DCD3BFA2528E7).
 
-Zie ook [Een bedrijfsregel](../c-about-rules-menu/c-about-business-rules.md#task_375CFA75D1D94D9E92A35DE1228E5087)bewerken.
+Zie ook [Een bedrijfsregel bewerken](../c-about-rules-menu/c-about-business-rules.md#task_375CFA75D1D94D9E92A35DE1228E5087).
 
-## Een banner toevoegen {#task_549D02B5F73B4158B105A94E39D937B7}
+## Een banner {#task_549D02B5F73B4158B105A94E39D937B7} toevoegen
 
-U kunt de banneradvertenties beheren [!DNL Banners] en bepalen waar ze op uw website worden geplaatst. Wanneer u een banner toevoegt, verwijst u extern naar de afbeelding door middel van HTML-codefragmenten die tijdens het zoeken worden weergegeven.
+Met [!DNL Banners] kunt u de banneradvertenties beheren en bepalen waar deze op uw website worden geplaatst. Wanneer u een banner toevoegt, verwijst u extern naar de afbeelding door middel van HTML-codefragmenten die tijdens het zoeken worden weergegeven.
 
 <!-- 
 
@@ -91,15 +91,15 @@ t_adding_a_new_banner.xml
 
 Als u een geldig Adobe Dynamic Media Classic-account hebt, kunt u banneradvertenties toevoegen via het Scene7 Publishing System.
 
-Zie Een banner [toevoegen met Adobe Dynamic Media Classic](../c-about-design-menu/c-about-banners.md#task_AD1E0C00A9E04B1FA819EB93288786B3).
+Zie [Een banner toevoegen met Adobe Dynamic Media Classic](../c-about-design-menu/c-about-banners.md#task_AD1E0C00A9E04B1FA819EB93288786B3).
 
-Zie Toegang [configureren tot uw Adobe Dynamic Media Classic-account](../c-about-settings-menu/c-about-account-options-menu.md#task_CEFF88C2033D41D0B2FE86C435EDAC6D).
+Zie [Toegang tot uw Adobe Dynamic Media Classic-account configureren](../c-about-settings-menu/c-about-account-options-menu.md#task_CEFF88C2033D41D0B2FE86C435EDAC6D).
 
 **Een banner toevoegen**
 
-1. Klik in het menu Product op **[!UICONTROL Design]** > **[!UICONTROL Banners]**.
-1. On the [!DNL Banners] page, in the **[!UICONTROL Add Banner]** drop-down list, select **[!UICONTROL HTML code]**.
-1. Stel in het [!DNL Add Banner] dialoogvenster de gewenste opties in.
+1. Klik in het productmenu op **[!UICONTROL Design]** > **[!UICONTROL Banners]**.
+1. Selecteer **[!UICONTROL HTML code]** op de pagina [!DNL Banners] in de vervolgkeuzelijst **[!UICONTROL Add Banner]**.
+1. Stel in het dialoogvenster [!DNL Add Banner] de gewenste opties in.
 
    <table> 
     <thead> 
@@ -115,11 +115,13 @@ Zie Toegang [configureren tot uw Adobe Dynamic Media Classic-account](../c-about
       </tr> 
       <tr> 
       <td colname="col1"> <p>Banner-HTML </p> </td> 
-      <td colname="col2"> <p> Hiermee kunt u de HTML-code plakken die aan de banner is gekoppeld. </p> <p>Elke HTML-code is acceptabel, inclusief CSS-code die wordt omgeven door <code>
+      <td colname="col2"> <p> Hiermee kunt u de HTML-code plakken die aan de banner is gekoppeld. </p> <p>Elke HTML-code is acceptabel, inclusief CSS-code die wordt omringd door 
+        <code>
           &lt;style&gt; 
-        </code> tags of JavaScript-code die wordt omgeven door <code>
+        </code>-tags of JavaScript-code die wordt omgeven door 
+        <code>
           &lt;script&gt; 
-        </code> tags. Het volgende codeblok is bijvoorbeeld voor een tekstbanner van het type Horizontal top: <code> &lt;div&nbsp;style="width:&nbsp;684px;&nbsp;background-image:&nbsp;url('https://www.brough.com/blackb.gif');&nbsp; 
+        </code>-tags. Het volgende codeblok is bijvoorbeeld voor een tekstbanner van het type Horizontal top: <code> &lt;div&nbsp;style="width:&nbsp;684px;&nbsp;background-image:&nbsp;url('https://www.brough.com/blackb.gif');&nbsp; 
           padding-top:&nbsp;10px;&nbsp;padding-bottom:&nbsp;10px;&nbsp;color:&nbsp;white;&nbsp;font-family:&nbsp;verdana;&nbsp; 
           text-align:&nbsp;center;&nbsp;font-size:&nbsp;20px;"&gt;&nbsp;Sound&nbsp;Study&nbsp;ships&nbsp;free!&nbsp;&lt;/div&gt; </code>In het volgende voorbeeld is het codeblok voor een volledige welkomstafbeelding: <code> &lt;img&amp;nbsp;src='https://geometrixx.com/images/GEOAds/geometrixx-beauty-home-01.jpg'&amp;nbsp;border="0"&amp;nbsp;/&gt; </code> </p> </td> 
       </tr> 
@@ -127,10 +129,10 @@ Zie Toegang [configureren tot uw Adobe Dynamic Media Classic-account](../c-about
       <td colname="col1"> <p>Type </p> </td> 
       <td colname="col2"> <p>Hiermee geeft u de volgende typen banners op: 
         <ul id="ul_6423AEDB9E664049989EB529D63C4A62"> 
-          <li id="li_BF6CD60B3ED748D49CFFB9C5D607661C"> <span class="uicontrol"> [nieuw type] </span> <p>Hier kunt u het gewenste type banner opgeven, inclusief de afmetingen en de naam. </p> </li> 
-          <li id="li_1A29AB22AD644E60A12298187B5E898E"> <span class="uicontrol"> Volledige splash </span> <p>De ingestelde afmeting van dit type banner is 680 pixels breed en 650 pixels hoog. U kunt optioneel de naam van het type opgeven of de standaardnaam accepteren die de naam is van het bannertype zelf. </p> </li> 
-          <li id="li_2BE06D013CB54DDE851051BFC038BB57"> <span class="uicontrol"> Horizontaal boven </span> <p> De banner wordt in het bovenste gebied van uw website geplaatst. Dit type is handig als u hyperlinks links links of rechts van de banner wilt toevoegen. De ingestelde afmeting van dit type banner is 468 pixels breed en 60 pixels hoog. U kunt optioneel de naam van het type opgeven of de standaardnaam accepteren die de naam is van het bannertype zelf. </p> </li> 
-          <li id="li_EC35AB92234749F08AA8A9BD26D0EA8D"> <span class="uicontrol"> Horizontaal boven - Volledige breedte </span> <p>Dit type is het standaardtype wanneer u een nieuwe banner toevoegt. De banner wordt over het bovenste gebied van uw website geplaatst en neemt de volledige breedte van de pagina in beslag. De ingestelde afmeting van dit type banner is 670 pixels breed en 150 pixels hoog. U kunt optioneel de naam van het type opgeven of de standaardnaam accepteren die de naam is van het bannertype zelf. </p> </li> 
+          <li id="li_BF6CD60B3ED748D49CFFB9C5D607661C"> <span class="uicontrol"> [nieuw type]  </span> <p>Hier kunt u het gewenste type banner opgeven, inclusief de afmetingen en de naam. </p> </li> 
+          <li id="li_1A29AB22AD644E60A12298187B5E898E"> <span class="uicontrol"> Volledige splash  </span> <p>De ingestelde afmeting van dit type banner is 680 pixels breed en 650 pixels hoog. U kunt optioneel de naam van het type opgeven of de standaardnaam accepteren die de naam is van het bannertype zelf. </p> </li> 
+          <li id="li_2BE06D013CB54DDE851051BFC038BB57"> <span class="uicontrol"> Horizontaal boven  </span> <p> De banner wordt in het bovenste gebied van uw website geplaatst. Dit type is handig als u hyperlinks links links of rechts van de banner wilt toevoegen. De ingestelde afmeting van dit type banner is 468 pixels breed en 60 pixels hoog. U kunt optioneel de naam van het type opgeven of de standaardnaam accepteren die de naam is van het bannertype zelf. </p> </li> 
+          <li id="li_EC35AB92234749F08AA8A9BD26D0EA8D"> <span class="uicontrol"> Horizontaal boven - Volledige breedte  </span> <p>Dit type is het standaardtype wanneer u een nieuwe banner toevoegt. De banner wordt over het bovenste gebied van uw website geplaatst en neemt de volledige breedte van de pagina in beslag. De ingestelde afmeting van dit type banner is 670 pixels breed en 150 pixels hoog. U kunt optioneel de naam van het type opgeven of de standaardnaam accepteren die de naam is van het bannertype zelf. </p> </li> 
         </ul> </p> </td> 
       </tr> 
       <tr> 
@@ -143,21 +145,21 @@ Zie Toegang [configureren tot uw Adobe Dynamic Media Classic-account](../c-about
 1. Klik op **[!UICONTROL Save]**.
 1. (Optioneel) Voer een van de volgende handelingen uit:
 
-   * Klik **[!UICONTROL History]** om de aangebrachte wijzigingen terug te draaien.
+   * Klik **[!UICONTROL History]** om het even welke veranderingen terug te keren die u hebt aangebracht.
 
-      Zie De optie [Historie](../t-using-the-history-option.md#task_70DD3F87A67242BBBD2CB27156F43002)gebruiken.
+      Zie [De optie Historie gebruiken](../t-using-the-history-option.md#task_70DD3F87A67242BBBD2CB27156F43002).
 
    * Klik op **[!UICONTROL Live]**.
 
-      Zie Live-instellingen [weergeven](../c-about-staging.md#task_401A0EBDB5DB4D4CA933CBA7BECDC10F).
+      Zie [Live-instellingen weergeven](../c-about-staging.md#task_401A0EBDB5DB4D4CA933CBA7BECDC10F).
 
    * Klik op **[!UICONTROL Push Live]**.
 
-      Zie [Werkgebiedinstellingen live](../c-about-staging.md#task_44306783B4C0408AAA58B471DAF2D9A4)spoelen.
+      Zie [Werkgebiedinstellingen leegmaken live](../c-about-staging.md#task_44306783B4C0408AAA58B471DAF2D9A4).
 
-## Een banner bewerken {#task_D4081083BE7B40F5A003D1A2F1435AEA}
+## Een banner {#task_D4081083BE7B40F5A003D1A2F1435AEA} bewerken
 
-Gebruik deze optie [!DNL Edit Banner] om de naam van de banner, HTML van de banner, het bannertype en eventuele bijbehorende tags te wijzigen.
+Gebruik [!DNL Edit Banner] om zaken zoals de bannernaam, banner HTML, het bannertype, en om het even welke bijbehorende markeringen te veranderen.
 
 <!-- 
 
@@ -165,37 +167,37 @@ t_editing_a_banner.xml
 
  -->
 
-Als u een banner hebt toegevoegd met behulp van zoeken/verkopen op de site, kunt u de banner ook bewerken met Adobe Dynamic Media Classic.
+Als u een banner hebt toegevoegd met de functie voor zoeken/winkelen op de site, kunt u de banner ook bewerken met Adobe Dynamic Media Classic.
 
-Zie ook Een banner [bewerken met Adobe Dynamic Media Classic](../c-about-design-menu/c-about-banners.md#task_C3E782477FBF428ABEA220751781ACA9).
+Zie ook [Een banner bewerken met Adobe Dynamic Media Classic](../c-about-design-menu/c-about-banners.md#task_C3E782477FBF428ABEA220751781ACA9).
 
 **Een banner bewerken**
 
-1. Klik in het menu Product op **[!UICONTROL Design]** > **[!UICONTROL Banners]**.
-1. Klik op de [!DNL Banners] pagina ![](assets/icon_edit_16.gif).
+1. Klik in het productmenu op **[!UICONTROL Design]** > **[!UICONTROL Banners]**.
+1. Klik op [!DNL Banners] op de pagina.![](assets/icon_edit_16.gif)
 
    boven een bannerminiatuur die u wilt bewerken.
-1. Stel op de [!DNL Edit Banner] pagina de gewenste opties in.
+1. Stel op de pagina [!DNL Edit Banner] de gewenste opties in.
 
-   Zie de optietabel onder [Een banner](../c-about-design-menu/c-about-banners.md#task_549D02B5F73B4158B105A94E39D937B7)toevoegen.
-1. Klik op de knop wanneer u klaar bent met het bewerken van de banner **[!UICONTROL Save]**.
+   Zie de optietabel onder [Een banner toevoegen](../c-about-design-menu/c-about-banners.md#task_549D02B5F73B4158B105A94E39D937B7).
+1. Wanneer u klaar bent met het bewerken van de banner, klikt u op **[!UICONTROL Save]**.
 1. (Optioneel) Voer een van de volgende handelingen uit:
 
-   * Klik **[!UICONTROL History]** om de aangebrachte wijzigingen terug te draaien.
+   * Klik **[!UICONTROL History]** om het even welke veranderingen terug te keren die u hebt aangebracht.
 
-      Zie De optie [Historie](../t-using-the-history-option.md#task_70DD3F87A67242BBBD2CB27156F43002)gebruiken.
+      Zie [De optie Historie gebruiken](../t-using-the-history-option.md#task_70DD3F87A67242BBBD2CB27156F43002).
 
    * Klik op **[!UICONTROL Live]**.
 
-      Zie Live-instellingen [weergeven](../c-about-staging.md#task_401A0EBDB5DB4D4CA933CBA7BECDC10F).
+      Zie [Live-instellingen weergeven](../c-about-staging.md#task_401A0EBDB5DB4D4CA933CBA7BECDC10F).
 
    * Klik op **[!UICONTROL Push Live]**.
 
-      Zie [Werkgebiedinstellingen live](../c-about-staging.md#task_44306783B4C0408AAA58B471DAF2D9A4)spoelen.
+      Zie [Werkgebiedinstellingen leegmaken live](../c-about-staging.md#task_44306783B4C0408AAA58B471DAF2D9A4).
 
 ## Een banner toevoegen met Adobe Dynamic Media Classic {#task_AD1E0C00A9E04B1FA819EB93288786B3}
 
-U kunt de banneradvertenties op uw website beheren [!DNL Banners] . Wanneer u een banner toevoegt met gebruik van Adobe Dynamic Media Classic, kunt u kiezen uit alle digitale elementen die u naar het Scene7 Publishing System hebt geüpload.
+Met [!DNL Banners] kunt u de banneradvertenties op uw website beheren. Wanneer u een banner toevoegt met Adobe Dynamic Media Classic, kunt u kiezen uit alle digitale elementen die u naar het Scene7 Publishing System hebt geüpload.
 
 <!-- 
 
@@ -203,15 +205,15 @@ t_adding_a_banner_using_adobe_scene7.xml
 
  -->
 
-Als u een banner wilt toevoegen met gebruik van Adobe Dynamic Media Classic, moet u ervoor zorgen dat u toegang tot uw geldige Dynamic Media Classic-account hebt geconfigureerd.
+Als u een banner wilt toevoegen met Adobe Dynamic Media Classic, moet u ervoor zorgen dat u toegang tot uw geldige Dynamic Media Classic-account hebt geconfigureerd.
 
-Zie Toegang [configureren tot uw Adobe Dynamic Media Classic-account](../c-about-settings-menu/c-about-account-options-menu.md#task_CEFF88C2033D41D0B2FE86C435EDAC6D).
+Zie [Toegang tot uw Adobe Dynamic Media Classic-account configureren](../c-about-settings-menu/c-about-account-options-menu.md#task_CEFF88C2033D41D0B2FE86C435EDAC6D).
 
 **Een banner toevoegen met Adobe Dynamic Media Classic**
 
-1. Klik in het menu Product op **[!UICONTROL Design]** > **[!UICONTROL Banners.]**
+1. Klik in het productmenu op **[!UICONTROL Design]** > **[!UICONTROL Banners.]**
 1. Klik op de pagina [!DNL Banners] in de vervolgkeuzelijst **[!UICONTROL Add Banner]** op **[!UICONTROL Adobe Scene7]**.
-1. In het [!DNL Pick an Asset] dialoogvenster gebruikt u in het linkervenster de navigatieopties in de gebruikersinterface om de map te zoeken die het digitale element bevat dat u voor een banner wilt gebruiken.
+1. In het [!DNL Pick an Asset] dialoogvakje, in de linkerruit, gebruik de navigatieopties in het gebruikersinterface om van de omslag de plaats te bepalen die de digitale activa bevat die u voor een banner wilt gebruiken.
 
    Met uitzondering van de opties voor middelennavigatie zijn alle andere opties afhankelijk van het digitale element dat u hebt geselecteerd om toe te voegen of te bewerken.
 
@@ -219,9 +221,9 @@ Zie Toegang [configureren tot uw Adobe Dynamic Media Classic-account](../c-about
 
    >[!NOTE]
    >
-   >De opties voor middelennavigatie worden niet weergegeven wanneer u de banner in het [!DNL Change Parameters] dialoogvenster bewerkt.
+   >De opties voor elementnavigatie worden niet weergegeven wanneer u de banner bewerkt in het dialoogvenster [!DNL Change Parameters].
 
-   Zie Een banner [bewerken met Adobe Dynamic Media Classic](../c-about-design-menu/c-about-banners.md#task_C3E782477FBF428ABEA220751781ACA9).
+   Zie [Een banner bewerken met Adobe Dynamic Media Classic](../c-about-design-menu/c-about-banners.md#task_C3E782477FBF428ABEA220751781ACA9).
 
    **Opties voor middelennavigatie**
 
@@ -235,7 +237,7 @@ Zie Toegang [configureren tot uw Adobe Dynamic Media Classic-account](../c-about
     <tbody> 
       <tr> 
       <td colname="col1"> <p> <img src="assets/S7_folders.png"> </p> </td> 
-      <td colname="col2"> <p>Hiermee kunt u de Dynamic Media Classic-account voor uw specifieke bedrijf selecteren in de vervolgkeuzelijst en ook door de mappen met digitale middelen in dat account navigeren. </p> <p>Wanneer u een map selecteert, worden in het rechterdeelvenster van het <span class="wintitle"> dialoogvenster </span> Een element kiezen alle beschikbare digitale elementen weergegeven die zich in die map bevinden. </p> </td> 
+      <td colname="col2"> <p>Hiermee kunt u het Dynamic Media Classic-account voor uw specifieke bedrijf selecteren in de vervolgkeuzelijst en ook door de mappen met digitale middelen in dat account navigeren. </p> <p>Wanneer u een map selecteert, worden in het rechterdeelvenster van het dialoogvenster <span class="wintitle"> Een element kiezen </span> alle beschikbare digitale elementen weergegeven die zich in die map bevinden. </p> </td> 
       </tr> 
       <tr> 
       <td colname="col1"> <p> <img src="assets/s7_folderhistory.png"> </p> </td> 
@@ -243,7 +245,7 @@ Zie Toegang [configureren tot uw Adobe Dynamic Media Classic-account](../c-about
       </tr> 
       <tr> 
       <td colname="col1"> <p> <img src="assets/s7_reloadfolder.png"> </p> </td> 
-      <td colname="col2"> <p>Hiermee vernieuwt u de lijst met digitale elementen die voor een geselecteerde map worden weergegeven. </p> <p>Mogelijk moet u op dit besturingselement klikken als u een geselecteerd element verplaatst, verwijdert of hernoemt in de vervolgkeuzelijst <span class="uicontrol"> </span> Handelingen. </p> </td> 
+      <td colname="col2"> <p>Hiermee vernieuwt u de lijst met digitale elementen die voor een geselecteerde map worden weergegeven. </p> <p>Mogelijk moet u op dit besturingselement klikken als u een geselecteerd element verplaatst, verwijdert of hernoemt met de vervolgkeuzelijst <span class="uicontrol"> Handelingen </span>. </p> </td> 
       </tr> 
       <tr> 
       <td colname="col1"> <p> <img src="assets/s7_list_or_grid.png"> </p> </td> 
@@ -255,7 +257,7 @@ Zie Toegang [configureren tot uw Adobe Dynamic Media Classic-account](../c-about
       </tr> 
       <tr> 
       <td colname="col1"> <p> <img src="assets/s7_upload.png"> </p> </td> 
-      <td colname="col2"> <p>Hiermee opent u het <span class="wintitle"> dialoogvenster </span> Uploaden waarin u een geselecteerd digitaal element kunt uploaden vanaf uw bureaublad of vanaf een externe server, zodat u het als een banner kunt gebruiken. </p> <p>Nadat u het element hebt geüpload, wordt er automatisch een publicatietaak voor u gepland in Scene7 Publishing System. </p> <p>Zie de optietabel in <a href="../c-about-design-menu/c-about-banners.md#task_AD1E0C00A9E04B1FA819EB93288786B3" type="reference" format="dita" scope="local"> Een banner toevoegen met gebruik van Adobe Dynamic Media Classic </a>. </p> <p>Meer informatie over het uploaden en publiceren van digitale elementen via het Scene7 Publishing System vindt u op de website. </p> <p>Zie <a href="https://help.adobe.com/en_US/scene7/using/WS3673AD39-098B-4f08-8A24-CA51261B7366.html" scope="external" format="html"> Middelen uploaden en publiceren </a> in de gebruikershandleiding van het Scene7 Publishing System. </p> </td> 
+      <td colname="col2"> <p>Hiermee opent u het dialoogvenster <span class="wintitle"> </span> uploaden om een geselecteerd digitaal element van uw bureaublad of van een externe server te uploaden, zodat u het als een banner kunt gebruiken. </p> <p>Nadat u het element hebt geüpload, wordt er automatisch een publicatietaak voor u gepland in Scene7 Publishing System. </p> <p>Zie de optietabel in <a href="../c-about-design-menu/c-about-banners.md#task_AD1E0C00A9E04B1FA819EB93288786B3" type="reference" format="dita" scope="local"> Een banner toevoegen met Adobe Dynamic Media Classic </a>. </p> <p>Meer informatie over het uploaden en publiceren van digitale elementen via het Scene7 Publishing System vindt u op de website. </p> <p>Zie <a href="https://help.adobe.com/en_US/scene7/using/WS3673AD39-098B-4f08-8A24-CA51261B7366.html" scope="external" format="html"> Elementen uploaden en publiceren </a> in de gebruikershandleiding van het Scene7 Publishing System. </p> </td> 
       </tr> 
       <tr> 
       <td colname="col1"> <p> <img src="assets/s7_searchfield.png"> </p> </td> 
@@ -267,11 +269,11 @@ Zie Toegang [configureren tot uw Adobe Dynamic Media Classic-account](../c-about
       </tr> 
       <tr> 
       <td colname="col1"> <p> <img src="assets/s7_Kindfilter.png"> </p> </td> 
-      <td colname="col2"> <p>Verfijn de lijst met weergegeven digitale elementen om alleen die van een bepaald type weer te geven, zoals Flash, Afbeelding, Sjabloon of Willekeurig. </p> <p>Klik <img src="assets/s7_deletefilter.png"> om het filter uit het onderzoek te schrappen. </p> </td> 
+      <td colname="col2"> <p>Verfijn de lijst met weergegeven digitale elementen om alleen die van een bepaald type weer te geven, zoals Flash, Afbeelding, Sjabloon of Willekeurig. </p> <p>Klik <img src="assets/s7_deletefilter.png"> om de filter van het onderzoek te schrappen. </p> </td> 
       </tr> 
       <tr> 
       <td colname="col1"> <p> <img src="assets/s7_datefilter.png"> </p> </td> 
-      <td colname="col2"> <p>Verfijn de lijst met weergegeven digitale elementen om alleen die te tonen die vóór een bepaalde datum of na een bepaalde datum zijn gemaakt of bewerkt. </p> <p>Klik <img src="assets/s7_deletefilter.png" /> om het filter uit het onderzoek te schrappen. </p> </td> 
+      <td colname="col2"> <p>Verfijn de lijst met weergegeven digitale elementen om alleen die te tonen die vóór een bepaalde datum of na een bepaalde datum zijn gemaakt of bewerkt. </p> <p>Klik <img src="assets/s7_deletefilter.png" /> om de filter van het onderzoek te schrappen. </p> </td> 
       </tr> 
       <tr> 
       <td colname="col1"> <p> <img src="assets/s7_assetzoom.png"> </p> </td> 
@@ -317,7 +319,7 @@ Zie Toegang [configureren tot uw Adobe Dynamic Media Classic-account](../c-about
       </tr> 
       <tr> 
       <td colname="col1"> <p>Hoogte </p> </td> 
-      <td colname="col2"> <p>Hiermee geeft u de hoogte van het digitale element op, in pixels. Deze dimensie is de hoogte waarop het middel wordt gezien door klanten die uw website bezoeken. </p> <p>Deze optie is niet van toepassing op Flash-sjablonen. </p> </td> 
+      <td colname="col2"> <p>Hiermee bepaalt u de hoogte van het digitale element, in pixels. Deze dimensie is de hoogte waarop het middel wordt gezien door klanten die uw website bezoeken. </p> <p>Deze optie is niet van toepassing op Flash-sjablonen. </p> </td> 
       </tr> 
     </tbody> 
     </table>
@@ -396,7 +398,7 @@ Zie Toegang [configureren tot uw Adobe Dynamic Media Classic-account](../c-about
       </tr> 
       <tr> 
       <td colname="col1"> <p>Vervangen </p> </td> 
-      <td colname="col2"> <p>Hier kunt u de tekst opgeven die u wilt invoegen in plaats van de tekst waarnaar u zoekt. </p> <p>Wanneer u op <span class="uicontrol"> Enter drukt </span> in dit veld, wordt het voorvertoningsvenster bijgewerkt met de vervangende tekst. </p> </td> 
+      <td colname="col2"> <p>Hier kunt u de tekst opgeven die u wilt invoegen in plaats van de tekst waarnaar u zoekt. </p> <p>Wanneer u in dit veld op <span class="uicontrol"> Enter </span> drukt, wordt het voorvertoningsvenster bijgewerkt met de vervangende tekst. </p> </td> 
       </tr> 
     </tbody> 
     </table>
@@ -409,9 +411,9 @@ Zie Toegang [configureren tot uw Adobe Dynamic Media Classic-account](../c-about
    >
    >Houd er rekening mee dat wijzigingen die u aanbrengt in parameters kunnen worden overschreven door bedrijfsregels. De parameters dienen slechts als gebreken wanneer geen bedrijfsregels worden gecreeerd die anders de parameters zouden veranderen.
 
-   Zie [Een nieuwe bedrijfsregel](../c-about-rules-menu/c-about-business-rules.md#task_BD3B31ED48BB4B1B8F1DCD3BFA2528E7)toevoegen.
+   Zie [Een nieuwe bedrijfsregel toevoegen](../c-about-rules-menu/c-about-business-rules.md#task_BD3B31ED48BB4B1B8F1DCD3BFA2528E7).
 
-   Zie Een [bedrijfsregel](../c-about-rules-menu/c-about-business-rules.md#task_375CFA75D1D94D9E92A35DE1228E5087)bewerken.
+   Zie [Een bedrijfsregel bewerken](../c-about-rules-menu/c-about-business-rules.md#task_375CFA75D1D94D9E92A35DE1228E5087).
 
    **Zichtbaarheidsopties laag in-/uitschakelen**
 
@@ -432,13 +434,13 @@ Zie Toegang [configureren tot uw Adobe Dynamic Media Classic-account](../c-about
     </tbody> 
     </table>
 
-   (Optioneel) Als het digitale element dat u voor een banner wilt gebruiken niet beschikbaar is in de geselecteerde map, moet u het wellicht uploaden. Klik **[!UICONTROL Upload]** en selecteer het gewenste bestand en de gewenste opties. Het bestand wordt geüpload naar de geselecteerde map.
+   (Optioneel) Als het digitale element dat u voor een banner wilt gebruiken niet beschikbaar is in de geselecteerde map, moet u het wellicht uploaden. Klik op **[!UICONTROL Upload]** en selecteer het gewenste bestand en de gewenste opties. Het bestand wordt geüpload naar de geselecteerde map.
 
    >[!NOTE]
    >
    >Als u de uploadfunctionaliteit in de Scene7 Asset Viewer wilt gebruiken, moet u ervoor zorgen dat de rol &quot;SPS Company Admin&quot; al is ingesteld voor de Scene7-account die u gebruikt.
 
-   Zie [Beheerdersinstellingen](https://help.adobe.com/en_US/scene7/using/WS662101DF-D697-47a7-A7D8-B52FD8E94438.html) in de gebruikershandleiding van het Scene7 Publishing System.
+   Zie [Beheerinstellingen](https://help.adobe.com/en_US/scene7/using/WS662101DF-D697-47a7-A7D8-B52FD8E94438.html) in de gebruikershandleiding van het Scene7 Publishing System.
 
    **Basisopties**
 
@@ -469,7 +471,7 @@ Zie Toegang [configureren tot uw Adobe Dynamic Media Classic-account](../c-about
 
    Wanneer u PostScript- (EPS) of Illustrator-afbeeldingsbestanden (AI) uploadt, kunt u deze op verschillende manieren opmaken. U kunt de bestanden rasteren, omzetten in FXG voor Sjabloonpublicatie, de transparante achtergrond behouden, een resolutie kiezen en een kleurruimte kiezen.
 
-   PSD (Photoshop Document files) worden meestal gebruikt in Dynamic Media Classic om sjablonen te maken. Wanneer u een PSD-bestand uploadt, kunt u automatisch vanuit het bestand een Klassieke sjabloon voor dynamische media maken (selecteer de **[!UICONTROL Create Template]** optie).
+   PSD (Photoshop Document files) worden meestal gebruikt in Dynamic Media Classic om sjablonen te maken. Wanneer u een PSD-bestand uploadt, kunt u automatisch een klassieke Dynamic Media-sjabloon maken vanuit het bestand (selecteer de optie **[!UICONTROL Create Template]**).
 
    Scene7 Publishing System maakt meerdere afbeeldingen van een PSD-bestand met lagen als u het bestand gebruikt om een sjabloon te maken. er wordt één afbeelding voor elke laag gemaakt.
 
@@ -487,8 +489,8 @@ Zie Toegang [configureren tot uw Adobe Dynamic Media Classic-account](../c-about
       <td colname="col02"> <p>Kleurprofiel </p> </td> 
       <td colname="col2"> <p> Hiermee kunt u uit de volgende opties kiezen: </p> 
         <ul id="ul_6927BC08CA2647EDB2C85DAD2B82AE31"> 
-        <li id="li_CA3F44FF9C0F4CE987DCB0AF9303C2E4"> <span class="uicontrol"> Omzetten in SRGB </span> <p>Converteert naar SRGB (standaard rood-groen blauw). SRGB is de aanbevolen kleurruimte voor het weergeven van afbeeldingen op webpagina's. </p> </li> 
-        <li id="li_FCCEE6B14CCD4246ADA152932010ABF1"> <span class="uicontrol"> Oorspronkelijke kleurruimte behouden </span> <p>Behoudt de oorspronkelijke kleurruimte. </p> </li> 
+        <li id="li_CA3F44FF9C0F4CE987DCB0AF9303C2E4"> <span class="uicontrol"> Omzetten in SRGB  </span> <p>Converteert naar SRGB (standaard rood-groen blauw). SRGB is de aanbevolen kleurruimte voor het weergeven van afbeeldingen op webpagina's. </p> </li> 
+        <li id="li_FCCEE6B14CCD4246ADA152932010ABF1"> <span class="uicontrol"> Oorspronkelijke kleurruimte behouden  </span> <p>Behoudt de oorspronkelijke kleurruimte. </p> </li> 
         </ul> </td> 
       </tr> 
       <tr> 
@@ -499,7 +501,7 @@ Zie Toegang [configureren tot uw Adobe Dynamic Media Classic-account](../c-about
       <tr> 
       <td colname="col1"> <p>PostScript-opties </p> <p>Illustrator-opties </p> </td> 
       <td colname="col02"> <p>Verwerking </p> </td> 
-      <td colname="col2"> <p> <span class="uicontrol"> Met de </span> optie Rasteren zet u vectorafbeeldingen in het bestand om in de bitmapindeling. </p> </td> 
+      <td colname="col2"> <p> <span class="uicontrol"> Met de  </span> optie Rasteren zet u vectorafbeeldingen in het bestand om in de bitmapindeling. </p> </td> 
       </tr> 
       <tr> 
       <td colname="col1"> <p> PostScript-opties </p> <p>Illustrator-opties </p> </td> 
@@ -511,10 +513,10 @@ Zie Toegang [configureren tot uw Adobe Dynamic Media Classic-account](../c-about
       <td colname="col02"> <p> Kleurruimte </p> </td> 
       <td colname="col2"> <p>Hiermee kunt u een kleurruimte kiezen voor het Illustrator-bestand. De RGB-kleurruimte heeft de voorkeur voor onlineweergave. </p> <p>U kunt uit de volgende opties voor kleurruimte kiezen: </p> 
         <ul id="ul_0E83E2762A574480B243F963A7FB2ACD"> 
-        <li id="li_B9FEC7D220D04CCABACD30839051DAE4"> <span class="uicontrol"> Automatisch detecteren </span> <p> Hiermee behoudt u de kleurruimte van het PDF-bestand. </p> </li> 
-        <li id="li_ED0EB3B12BCF41C7AFC435447010B6FF"> <span class="uicontrol"> Als RGB forceren </span> <p> Zet om in de RGB-kleurruimte. </p> </li> 
-        <li id="li_3FB5DD8887C540BC97148A4D63B38F72"> <span class="uicontrol"> Krachten als CMYK </span> <p> Zet om in de CMYK-kleurruimte. </p> </li> 
-        <li id="li_6C018D3A4B254880AD41896E9F4AF3D9"> <span class="uicontrol"> Krachtig maken als grijswaarden </span> <p> Zet om in de grijswaardenkleurruimte. </p> </li> 
+        <li id="li_B9FEC7D220D04CCABACD30839051DAE4"> <span class="uicontrol"> Automatisch detecteren  </span> <p> Hiermee behoudt u de kleurruimte van het PDF-bestand. </p> </li> 
+        <li id="li_ED0EB3B12BCF41C7AFC435447010B6FF"> <span class="uicontrol"> Als RGB forceren  </span> <p> Zet om in de RGB-kleurruimte. </p> </li> 
+        <li id="li_3FB5DD8887C540BC97148A4D63B38F72"> <span class="uicontrol"> Krachten als CMYK  </span> <p> Zet om in de CMYK-kleurruimte. </p> </li> 
+        <li id="li_6C018D3A4B254880AD41896E9F4AF3D9"> <span class="uicontrol"> Krachtig maken als grijswaarden  </span> <p> Zet om in de grijswaardenkleurruimte. </p> </li> 
         </ul> </td> 
       </tr> 
       <tr> 
@@ -547,10 +549,10 @@ Zie Toegang [configureren tot uw Adobe Dynamic Media Classic-account](../c-about
       <td colname="col02"> <p> Laagnaamgeving </p> </td> 
       <td colname="col2"> <p>Lagen in het PSD-bestand worden geüpload als afzonderlijke afbeeldingen. U kunt uit de volgende opties kiezen om te bepalen hoe u deze afbeeldingen in het Scene7 Publishing System een naam wilt geven: </p> 
         <ul id="ul_C2A25177A07740CA90B32C638304D39F"> 
-        <li id="li_477D5BFF7238454BBF0E04B22DE378F7"> <span class="uicontrol"> Laagnaam uit PSD-bestand gebruiken </span> <p>De afbeeldingen krijgen een naam na de namen van de lagen in het PSD-bestand. Een laag met de naam <span class="codeph"> Prijscode </span> in het oorspronkelijke PSD-bestand wordt bijvoorbeeld een afbeelding met de naam <span class="codeph"> Prijscode </span>. Als de laagnamen in het PSD-bestand echter standaard Photoshop-laagnamen zijn (Achtergrond, Laag 1, Laag 2, enzovoort), krijgen de afbeeldingen een naam na hun laagnummers in het PSD-bestand, niet na hun standaardlaagnamen. </p> </li> 
-        <li id="li_EB4173B884FC41328CFBDE27DA6D43AA"> <span class="uicontrol"> PSD-bestandsnaam en -bijvoegnummer gebruiken </span> <p>De afbeeldingen krijgen een naam na hun laagnummer in het PSD-bestand, waarbij de namen van de oorspronkelijke lagen worden genegeerd. Afbeeldingen krijgen de naam Photoshop en een toegevoegd laagnummer. De tweede laag van een bestand met de naam <span class="codeph"> Spring Ad.psd </span> heeft bijvoorbeeld de naam <span class="codeph"> Spring Ad_2, </span> zelfs als deze een andere naam heeft in Photoshop. </p> </li> 
-        <li id="li_10B2D2DE2FD24BD08DB56D1D95ABA53D"> <span class="uicontrol"> PSD-bestandsnaam en -naam of -nummer gebruiken </span> <p>De afbeeldingen krijgen een naam na het PSD-bestand, gevolgd door de laagnaam of het laagnummer. Het laagnummer wordt gebruikt als de laagnamen in het PSD-bestand standaard Photoshop-laagnamen zijn. Een laag met de naam <span class="codeph"> Price Tag </span> in een PSD-bestand met de naam <span class="codeph"> SpringAd </span> krijgt bijvoorbeeld de naam <span class="codeph"> Spring Ad_Price Tag </span>. Een laag met de standaardnaam <span class="codeph"> Laag 2 </span> wordt genoemd <span class="codeph"> Lente Ad_2 </span>. </p> </li> 
-        <li id="li_5E57AC0719D4484B9C9BD14DB42B4455"> <span class="uicontrol"> Map maken op basis van de PSD-bestandsnaam </span> <p>Hiermee maakt u een map voor de laagafbeeldingen met de bestandsnaam van de PSD. </p> </li> 
+        <li id="li_477D5BFF7238454BBF0E04B22DE378F7"> <span class="uicontrol"> Laagnaam uit PSD-bestand gebruiken  </span> <p>De afbeeldingen krijgen een naam na de namen van de lagen in het PSD-bestand. Een laag met de naam <span class="codeph"> Prijstag </span> in het oorspronkelijke PSD-bestand wordt bijvoorbeeld een afbeelding met de naam <span class="codeph"> Prijscode </span>. Als de laagnamen in het PSD-bestand echter standaard Photoshop-laagnamen zijn (Achtergrond, Laag 1, Laag 2, enzovoort), krijgen de afbeeldingen een naam na hun laagnummers in het PSD-bestand, niet na hun standaardlaagnamen. </p> </li> 
+        <li id="li_EB4173B884FC41328CFBDE27DA6D43AA"> <span class="uicontrol"> PSD-bestandsnaam en -bijvoegnummer gebruiken  </span> <p>De afbeeldingen krijgen een naam na hun laagnummer in het PSD-bestand, waarbij de namen van de oorspronkelijke lagen worden genegeerd. Afbeeldingen krijgen de naam Photoshop en een toegevoegd laagnummer. De tweede laag van een bestand met de naam <span class="codeph"> Spring Ad.psd </span> krijgt bijvoorbeeld de naam <span class="codeph"> Spring Ad_2 </span>, zelfs als het bestand een niet-standaardnaam had in Photoshop. </p> </li> 
+        <li id="li_10B2D2DE2FD24BD08DB56D1D95ABA53D"> <span class="uicontrol"> PSD-bestandsnaam en -naam of -nummer gebruiken  </span> <p>De afbeeldingen krijgen een naam na het PSD-bestand, gevolgd door de laagnaam of het laagnummer. Het laagnummer wordt gebruikt als de laagnamen in het PSD-bestand standaard Photoshop-laagnamen zijn. Een laag met de naam <span class="codeph"> Price Tag </span> in een PSD-bestand met de naam <span class="codeph"> SpringAd </span> krijgt bijvoorbeeld de naam <span class="codeph"> Spring Ad_Price Tag </span>. Een laag met de standaardnaam <span class="codeph"> Laag 2 </span> wordt genoemd <span class="codeph"> Lente Ad_2 </span>. </p> </li> 
+        <li id="li_5E57AC0719D4484B9C9BD14DB42B4455"> <span class="uicontrol"> Map maken op basis van de PSD-bestandsnaam  </span> <p>Hiermee maakt u een map voor de laagafbeeldingen met de bestandsnaam van de PSD. </p> </li> 
         </ul> </td> 
       </tr> 
       <tr> 
@@ -561,7 +563,7 @@ Zie Toegang [configureren tot uw Adobe Dynamic Media Classic-account](../c-about
       <tr> 
       <td colname="col1"> <p>PDF-opties </p> </td> 
       <td colname="col02"> <p>Verwerking </p> </td> 
-      <td colname="col2"> <p> <span class="uicontrol"> Met de </span> optie Rasteren worden de pagina's in het PDF-bestand gewist en worden vectorafbeeldingen naar bitmapafbeeldingen geconverteerd. 
+      <td colname="col2"> <p> <span class="uicontrol"> Met de  </span> optie Rasteren worden de pagina's in het PDF-bestand gewist en worden vectorafbeeldingen naar bitmapafbeeldingen geconverteerd.  
         <!--Choose this option to create an eCatalog. (This option is thedefault.)--> </p> </td> 
       </tr> 
       <tr> 
@@ -574,10 +576,10 @@ Zie Toegang [configureren tot uw Adobe Dynamic Media Classic-account](../c-about
       <td colname="col02"> <p> Kleurruimte </p> </td> 
       <td colname="col2"> <p>Hiermee kunt u een kleurruimte kiezen voor het PDF-bestand. De meeste PDF-bestanden hebben zowel RGB- als CMYK-kleurenafbeeldingen. De RGB-kleurruimte heeft de voorkeur voor onlineweergave. </p> <p>U kunt uit de volgende opties voor kleurruimte kiezen: </p> 
         <ul id="ul_44A8C39DEB21473F9375E3962F14D3C6"> 
-        <li id="li_1046FA0017934C5EB7C0100F8F78507D"> <span class="uicontrol"> Automatisch detecteren </span> <p> Hiermee behoudt u de kleurruimte van het PDF-bestand. </p> </li> 
-        <li id="li_561CCF705EDD451993D2DA2EB33F05F7"> <span class="uicontrol"> Als RGB forceren </span> <p> Zet om in de RGB-kleurruimte. </p> </li> 
-        <li id="li_D9E8CF61C40140979484EDEF7DAD2C44"> <span class="uicontrol"> Krachten als CMYK </span> <p> Zet om in de CMYK-kleurruimte. </p> </li> 
-        <li id="li_F3606B45C0F84BA594263EA12243F67A"> <span class="uicontrol"> Krachtig maken als grijswaarden </span> <p> Zet om in de grijswaardenkleurruimte. </p> </li> 
+        <li id="li_1046FA0017934C5EB7C0100F8F78507D"> <span class="uicontrol"> Automatisch detecteren  </span> <p> Hiermee behoudt u de kleurruimte van het PDF-bestand. </p> </li> 
+        <li id="li_561CCF705EDD451993D2DA2EB33F05F7"> <span class="uicontrol"> Als RGB forceren  </span> <p> Zet om in de RGB-kleurruimte. </p> </li> 
+        <li id="li_D9E8CF61C40140979484EDEF7DAD2C44"> <span class="uicontrol"> Krachten als CMYK  </span> <p> Zet om in de CMYK-kleurruimte. </p> </li> 
+        <li id="li_F3606B45C0F84BA594263EA12243F67A"> <span class="uicontrol"> Krachtig maken als grijswaarden  </span> <p> Zet om in de grijswaardenkleurruimte. </p> </li> 
         </ul> </td> 
       </tr> 
       <tr> 
@@ -595,38 +597,38 @@ Zie Toegang [configureren tot uw Adobe Dynamic Media Classic-account](../c-about
 
 1. Klik in het rechterdeelvenster op de gewenste afbeelding, sjabloon of Flash-bestand.
 
-   Het pop-upvenster [!DNL Pick An Asset] verschijnt.
-1. (Optioneel) Voer in het [!DNL Pick An Asset] pop-upvenster in de [!DNL Actions] vervolgkeuzelijst een van de volgende handelingen uit:
+   Het pop-upvenster [!DNL Pick An Asset] wordt weergegeven.
+1. (Optioneel) Voer in het pop-upvenster [!DNL Pick An Asset] in de vervolgkeuzelijst [!DNL Actions] een van de volgende handelingen uit:
 
-   * Klik op **[!UICONTROL Move]**. Selecteer in het [!DNL Select a folder to move to] dialoogvenster de map waarin u het digitale element wilt verplaatsen. Klik op **[!UICONTROL Move]**.
+   * Klik op **[!UICONTROL Move]**. Selecteer in het dialoogvenster [!DNL Select a folder to move to] de map waarin u het digitale element wilt verplaatsen. Klik op **[!UICONTROL Move]**.
 
       U kunt ook meerdere digitale elementen selecteren die u naar een andere map wilt verplaatsen.
 
-   * Klik op **[!UICONTROL Delete]**. Klik in het [!DNL Delete Selected Assets] dialoogvenster op **[!UICONTROL Delete]**.
+   * Klik op **[!UICONTROL Delete]**. Klik in het dialoogvenster [!DNL Delete Selected Assets] op **[!UICONTROL Delete]**.
 
       U kunt ook meerdere digitale elementen selecteren die u uit de map wilt verwijderen.
 
-   * Klik op **[!UICONTROL Rename]**. Typ in het tekstveld in het [!DNL Enter a new name for] dialoogvenster een nieuwe naam voor het digitale element. Klik op **[!UICONTROL Rename]**.
+   * Klik op **[!UICONTROL Rename]**. Typ in het dialoogvenster [!DNL Enter a new name for] een nieuwe naam voor het digitale element in het tekstveld. Klik op **[!UICONTROL Rename]**.
 
-1. (Optioneel) Afhankelijk van het digitale element dat u hebt geselecteerd, stelt u in het linkerdeelvenster van het pop- [!DNL Pick an Asset] upvenster de gewenste opties in.
+1. (Optioneel) Afhankelijk van het digitale element dat u hebt geselecteerd, stelt u in het linkerdeelvenster van het pop-upvenster [!DNL Pick an Asset] de gewenste opties in.
 1. Klik op het element om het te selecteren voor gebruik als banner.
 1. (Optioneel) Voer een van de volgende handelingen uit:
 
-   * Klik **[!UICONTROL History]** om de aangebrachte wijzigingen terug te draaien.
+   * Klik **[!UICONTROL History]** om het even welke veranderingen terug te keren die u hebt aangebracht.
 
-      Zie De optie [Historie](../t-using-the-history-option.md#task_70DD3F87A67242BBBD2CB27156F43002)gebruiken.
+      Zie [De optie Historie gebruiken](../t-using-the-history-option.md#task_70DD3F87A67242BBBD2CB27156F43002).
 
    * Klik op **[!UICONTROL Live]**.
 
-      Zie Live-instellingen [weergeven](../c-about-staging.md#task_401A0EBDB5DB4D4CA933CBA7BECDC10F).
+      Zie [Live-instellingen weergeven](../c-about-staging.md#task_401A0EBDB5DB4D4CA933CBA7BECDC10F).
 
    * Klik op **[!UICONTROL Push Live]**.
 
-      Zie [Werkgebiedinstellingen live](../c-about-staging.md#task_44306783B4C0408AAA58B471DAF2D9A4)spoelen.
+      Zie [Werkgebiedinstellingen leegmaken live](../c-about-staging.md#task_44306783B4C0408AAA58B471DAF2D9A4).
 
 ## Een banner bewerken met Adobe Dynamic Media Classic {#task_C3E782477FBF428ABEA220751781ACA9}
 
-Gebruik deze optie [!DNL Edit Banner] om de eigenschappen en parameters te wijzigen van een banner die u hebt toegevoegd met gebruik van Adobe Dynamic Media Classic.
+Gebruik [!DNL Edit Banner] om de eigenschappen en parameters te wijzigen van een banner die u hebt toegevoegd met gebruik van Adobe Dynamic Media Classic.
 
 <!-- 
 
@@ -636,29 +638,29 @@ t_editing_a_banner_using_adobe_scene7.xml
 
 Als u een banner hebt toegevoegd door HTML-code toe te voegen, kunt u de banner bewerken met de functie voor zoeken/verhandelen van sites.
 
-Zie ook Een banner [bewerken](../c-about-design-menu/c-about-banners.md#task_D4081083BE7B40F5A003D1A2F1435AEA).
+Zie ook [Een banner bewerken](../c-about-design-menu/c-about-banners.md#task_D4081083BE7B40F5A003D1A2F1435AEA).
 
 **Een banner bewerken met Adobe Dynamic Media Classic**
 
-1. Klik in het menu Product op **[!UICONTROL Design]** > **[!UICONTROL Banners]**.
-1. Klik op de [!DNL Banners] pagina ![](assets/icon_edit_16.gif) boven een bannerminiatuur met een S7-pictogram in de linkerbenedenhoek van het bannervenster.
-1. Stel op de [!DNL Change Parameter] pagina de gewenste opties in.
-1. Klik op de knop wanneer u klaar bent met het bewerken van de banner **[!UICONTROL Save]**.
+1. Klik in het productmenu op **[!UICONTROL Design]** > **[!UICONTROL Banners]**.
+1. Klik op [!DNL Banners] op de pagina ![](assets/icon_edit_16.gif) boven een bannerminiatuur met een S7-pictogram in de linkerbenedenhoek van het bannervenster.
+1. Stel op de pagina [!DNL Change Parameter] de gewenste opties in.
+1. Wanneer u klaar bent met het bewerken van de banner, klikt u op **[!UICONTROL Save]**.
 1. (Optioneel) Voer een van de volgende handelingen uit:
 
-   * Klik **[!UICONTROL History]** om de aangebrachte wijzigingen terug te draaien.
+   * Klik **[!UICONTROL History]** om het even welke veranderingen terug te keren die u hebt aangebracht.
 
-      Zie De optie [Historie](../t-using-the-history-option.md#task_70DD3F87A67242BBBD2CB27156F43002)gebruiken.
+      Zie [De optie Historie gebruiken](../t-using-the-history-option.md#task_70DD3F87A67242BBBD2CB27156F43002).
 
    * Klik op **[!UICONTROL Live]**.
 
-      Zie Live-instellingen [weergeven](../c-about-staging.md#task_401A0EBDB5DB4D4CA933CBA7BECDC10F).
+      Zie [Live-instellingen weergeven](../c-about-staging.md#task_401A0EBDB5DB4D4CA933CBA7BECDC10F).
 
    * Klik op **[!UICONTROL Push Live]**.
 
-      Zie [Werkgebiedinstellingen live](../c-about-staging.md#task_44306783B4C0408AAA58B471DAF2D9A4)spoelen.
+      Zie [Werkgebiedinstellingen leegmaken live](../c-about-staging.md#task_44306783B4C0408AAA58B471DAF2D9A4).
 
-## banners verwijderen {#task_32F3BADC481E4E8984B2AA04B96052EB}
+## Bezig met verwijderen van banners {#task_32F3BADC481E4E8984B2AA04B96052EB}
 
 U kunt gefaseerde banners verwijderen die u niet meer nodig hebt of wilt gebruiken, of een banners tegelijk, of als groep.
 
@@ -670,36 +672,36 @@ t_deleting_banners.xml
 
 **banners verwijderen**
 
-1. Klik in het menu Product op **[!UICONTROL Design]** > **[!UICONTROL Banners]**.
+1. Klik in het productmenu op **[!UICONTROL Design]** > **[!UICONTROL Banners]**.
 1. (Optioneel) Voer een of meer van de volgende handelingen uit:
 
-   * Selecteer op de [!DNL Banners] pagina het bannertype dat u wilt zoeken in de **[!UICONTROL Find banner of type]** vervolgkeuzelijst. Geef desgewenst een labelnaam op in het **[!UICONTROL with tag]** tekstveld of een naam voor een bannertype in het **[!UICONTROL with name]** tekstveld. Klik op **[!UICONTROL Find.]**
+   * Selecteer op de pagina [!DNL Banners] het bannertype dat u wilt zoeken in de vervolgkeuzelijst **[!UICONTROL Find banner of type]**. Geef desgewenst een labelnaam op in het tekstveld **[!UICONTROL with tag]** of een naam voor een bannertype in het tekstveld **[!UICONTROL with name]**. Klik op **[!UICONTROL Find.]**
 
-   * Selecteer in de **[!UICONTROL Sort]** vervolgkeuzelijst hoe u de lijst met banners wilt rangschikken.
-   * Selecteer in de **[!UICONTROL Show]** vervolgkeuzelijst het aantal banners dat u in de huidige pagina wilt laden die u bekijkt.
+   * Selecteer in de vervolgkeuzelijst **[!UICONTROL Sort]** hoe u de lijst met banners wilt rangschikken.
+   * Selecteer in de vervolgkeuzelijst **[!UICONTROL Show]** het aantal banners dat u in de huidige pagina wilt laden die u bekijkt.
 
 1. Voer een van de volgende handelingen uit:
 
    * Klik in de linkerbovenhoek van een bannervak op het selectievakje van elke banner die u wilt verwijderen.
-   * Controleer op de bovenste balk van de [!DNL Banners] pagina **[!UICONTROL Select all]** om elke banner te selecteren die op de weergegeven pagina is geladen.
+   * Controleer **[!UICONTROL Select all]** op de bovenste balk van de pagina [!DNL Banners] om elke banner te selecteren die op de momenteel weergegeven pagina is geladen.
 
-1. Klik in de **[!UICONTROL Bulk Actions]** vervolgkeuzelijst op **[!UICONTROL Delete]**.
-1. Klik in het [!DNL Confirmation Action] dialoogvenster op **[!UICONTROL OK]**.
+1. Klik in de vervolgkeuzelijst **[!UICONTROL Bulk Actions]** op **[!UICONTROL Delete]**.
+1. Klik in het dialoogvenster [!DNL Confirmation Action] op **[!UICONTROL OK]**.
 1. (Optioneel) Voer een van de volgende handelingen uit:
 
-   * Klik **[!UICONTROL History]** om de aangebrachte wijzigingen terug te draaien.
+   * Klik **[!UICONTROL History]** om het even welke veranderingen terug te keren die u hebt aangebracht.
 
-      Zie De optie [Historie](../t-using-the-history-option.md#task_70DD3F87A67242BBBD2CB27156F43002)gebruiken.
+      Zie [De optie Historie gebruiken](../t-using-the-history-option.md#task_70DD3F87A67242BBBD2CB27156F43002).
 
    * Klik op **[!UICONTROL Live]**.
 
-      Zie Live-instellingen [weergeven](../c-about-staging.md#task_401A0EBDB5DB4D4CA933CBA7BECDC10F).
+      Zie [Live-instellingen weergeven](../c-about-staging.md#task_401A0EBDB5DB4D4CA933CBA7BECDC10F).
 
    * Klik op **[!UICONTROL Push Live]**.
 
-      Zie [Werkgebiedinstellingen live](../c-about-staging.md#task_44306783B4C0408AAA58B471DAF2D9A4)spoelen.
+      Zie [Werkgebiedinstellingen leegmaken live](../c-about-staging.md#task_44306783B4C0408AAA58B471DAF2D9A4).
 
-## Banners voorvertonen {#task_6AB1F81A984A4DC2ACACD1FE030545E2}
+## Voorvertoning van banners {#task_6AB1F81A984A4DC2ACACD1FE030545E2}
 
 U kunt door banners bladeren die u aan de [!DNL Banners] pagina hebt toegevoegd om hun volledige grootte te bekijken. CSS in de sjabloon die invloed heeft op de banner, wordt niet weergegeven.
 
@@ -711,21 +713,21 @@ t_previewing_banners.xml
 
 **Een voorvertoning van banners weergeven**
 
-1. Klik in het menu Product op **[!UICONTROL Design]** > **[!UICONTROL Banners]**.
+1. Klik in het productmenu op **[!UICONTROL Design]** > **[!UICONTROL Banners]**.
 1. (Optioneel) Voer een of meer van de volgende handelingen uit:
 
-   * Selecteer op de [!DNL Banners] pagina het bannertype dat u wilt zoeken in de **[!UICONTROL Find banner of type]** vervolgkeuzelijst. Geef desgewenst een labelnaam op in het **[!UICONTROL with tag]** tekstveld of een naam voor een bannertype in het **[!UICONTROL with name]** tekstveld. Klik op **[!UICONTROL Find.]**
+   * Selecteer op de pagina [!DNL Banners] het bannertype dat u wilt zoeken in de vervolgkeuzelijst **[!UICONTROL Find banner of type]**. Geef desgewenst een labelnaam op in het tekstveld **[!UICONTROL with tag]** of een naam voor een bannertype in het tekstveld **[!UICONTROL with name]**. Klik op **[!UICONTROL Find.]**
 
-   * Selecteer in de **[!UICONTROL Sort]** vervolgkeuzelijst hoe u de lijst met banners wilt rangschikken.
-   * Selecteer in de **[!UICONTROL Show]** vervolgkeuzelijst het aantal banners dat u in de huidige pagina wilt laden die u bekijkt.
+   * Selecteer in de vervolgkeuzelijst **[!UICONTROL Sort]** hoe u de lijst met banners wilt rangschikken.
+   * Selecteer in de vervolgkeuzelijst **[!UICONTROL Show]** het aantal banners dat u in de huidige pagina wilt laden die u bekijkt.
 
-1. Klik op een [!DNL Banners] bannerminiatuur op de pagina om de volledige grootte weer te geven.
+1. Klik op de pagina [!DNL Banners] op een bannerminiatuur om de volledige grootte weer te geven.
 1. Voer een van de volgende handelingen uit:
 
    * Klik in het dialoogvenster voor de bannervoorvertoning op de pijl naar links of naar rechts om door de banners op volledige grootte te navigeren en deze weer te geven.
-   * Klik op de sluitknop om het dialoogvenster voor de voorvertoning van de banner te sluiten en terug te keren naar de [!DNL Banners] pagina.
+   * Klik op de sluitknop om het dialoogvenster met de bannervoorvertoning te sluiten en terug te keren naar de pagina [!DNL Banners].
 
-## Banners onder druk {#task_161F4FEC8362474296A566E64BF05B97}
+## Bewegende banners live {#task_161F4FEC8362474296A566E64BF05B97}
 
 U kunt een of meer geselecteerde banners live naar uw website duwen.
 
@@ -735,27 +737,27 @@ t_pushing_banners_live.xml
 
  -->
 
-U kunt desgewenst ook alle wijzigingen live doorvoeren in elke banner en de **[!UICONTROL Push Live]** optie onder aan de [!DNL Banners] pagina gebruiken.
+U kunt desgewenst ook alle wijzigingen in elke banner live uitvoeren met de optie **[!UICONTROL Push Live]** onder aan de pagina [!DNL Banners].
 
-Zie [Werkgebiedinstellingen live](../c-about-staging.md#task_44306783B4C0408AAA58B471DAF2D9A4)spoelen.
+Zie [Werkgebiedinstellingen leegmaken live](../c-about-staging.md#task_44306783B4C0408AAA58B471DAF2D9A4).
 
 **Banners live duwen**
 
-1. Klik in het menu Product op **[!UICONTROL Design]** > **[!UICONTROL Banners]**.
+1. Klik in het productmenu op **[!UICONTROL Design]** > **[!UICONTROL Banners]**.
 1. (Optioneel) Voer een of meer van de volgende handelingen uit:
 
-   * Selecteer op de [!DNL Banners] pagina het bannertype dat u wilt zoeken in de **[!UICONTROL Find banner of type]** vervolgkeuzelijst. Geef desgewenst een labelnaam op in het **[!UICONTROL with tag]** tekstveld of een naam voor een bannertype in het **[!UICONTROL with name]** tekstveld. Klik op **[!UICONTROL Find]**.
+   * Selecteer op de pagina [!DNL Banners] het bannertype dat u wilt zoeken in de vervolgkeuzelijst **[!UICONTROL Find banner of type]**. Geef desgewenst een labelnaam op in het tekstveld **[!UICONTROL with tag]** of een naam voor een bannertype in het tekstveld **[!UICONTROL with name]**. Klik op **[!UICONTROL Find]**.
 
-   * Selecteer in de **[!UICONTROL Sort]** vervolgkeuzelijst hoe u de lijst met banners wilt rangschikken.
-   * Selecteer in de **[!UICONTROL Show]** vervolgkeuzelijst het aantal banners dat u in de huidige pagina wilt laden die u bekijkt.
+   * Selecteer in de vervolgkeuzelijst **[!UICONTROL Sort]** hoe u de lijst met banners wilt rangschikken.
+   * Selecteer in de vervolgkeuzelijst **[!UICONTROL Show]** het aantal banners dat u in de huidige pagina wilt laden die u bekijkt.
 
 1. Voer een van de volgende handelingen uit:
 
    * Klik in de linkerbovenhoek van een bannervak op het selectievakje van elke banner die u wilt verwijderen.
-   * Controleer op de bovenste balk van de [!DNL Banner] pagina **[!UICONTROL Select all]** om elke banner te selecteren die op de weergegeven pagina is geladen.
+   * Controleer **[!UICONTROL Select all]** op de bovenste balk van de pagina [!DNL Banner] om elke banner te selecteren die op de momenteel weergegeven pagina is geladen.
 
-1. Klik in de **[!UICONTROL Bulk Actions]** vervolgkeuzelijst op **[!UICONTROL Push live]**.
-1. Klik in het [!DNL Confirmation Action] dialoogvenster op **[!UICONTROL OK]**.
-1. (Optioneel) Klik op de [!DNL Banners] pagina **[!UICONTROL History]** om de aangebrachte wijzigingen te herstellen.
+1. Klik in de vervolgkeuzelijst **[!UICONTROL Bulk Actions]** op **[!UICONTROL Push live]**.
+1. Klik in het dialoogvenster [!DNL Confirmation Action] op **[!UICONTROL OK]**.
+1. (Optioneel) Klik op de pagina [!DNL Banners] om de aangebrachte wijzigingen ongedaan te maken.**[!UICONTROL History]**
 
-   Zie De optie [Historie](../t-using-the-history-option.md#task_70DD3F87A67242BBBD2CB27156F43002)gebruiken.
+   Zie [De optie Historie gebruiken](../t-using-the-history-option.md#task_70DD3F87A67242BBBD2CB27156F43002).

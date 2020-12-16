@@ -1,18 +1,21 @@
 ---
-description: ongeldig
-seo-description: ongeldig
-seo-title: Search&amp;Promote 8.9.8 Release Notes (05/23/2013)
+description: 'null'
+seo-description: 'null'
+seo-title: '&Zoeken;amp;Opmerkingen bij de release 8.9.8 promoten (23-05-2013)'
 solution: Target
-title: Search&amp;Promote 8.9.8 Release Notes (05/23/2013)
+title: '&Zoeken;amp;Opmerkingen bij de release 8.9.8 promoten (23-05-2013)'
 topic: Release Notes,Site search and merchandising
 uuid: ff4bfc53-1d0e-4b7d-83ad-54c81d3f9769
 translation-type: tm+mt
 source-git-commit: ef818327e1cdaad79ac47575a8dfba1de3dc5c2e
+workflow-type: tm+mt
+source-wordcount: '205'
+ht-degree: 0%
 
 ---
 
 
-# Zoeken en promoten: 8.9.8 Opmerkingen bij release (05/23/2013){#search-promote-release-notes}
+# Opmerkingen bij de release van Search&amp;Promote 8.9.8 (23-05-2013){#search-promote-release-notes}
 
 <table> 
  <thead> 
@@ -23,26 +26,26 @@ source-git-commit: ef818327e1cdaad79ac47575a8dfba1de3dc5c2e
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> Gemeenschappelijke zinnen - de nauwkeurige gelijke steun </p> </td> 
-   <td colname="col2"> <p> De gemeenschappelijke uitdrukkingen bevatten termijnen van twee of meer woorden die als geheel-zoals "laarsbesnoeiing"of "tanktop"- en niet als afzonderlijke delen worden doorzocht. Een gemeenschappelijke uitdrukking heeft een betekenis die uniek is en van om het even welk van zijn individuele delen verschilt. </p> <p> U handhaaft een woordenboek van gemeenschappelijke uitdrukkingen met betrekking tot uw zaken. Wanneer een klant een onderzoeksvraag uitvoert die veelvoudige woorden bevat, wordt een onderzoek uitgevoerd op het woordenboek voor de nauwkeurige zelfde gelijke. </p> <p>U kunt, gemeenschappelijke uitdrukkingen toevoegen uitgeven of schrappen. U kunt gemeenschappelijke uitdrukkingen gelijkend op domeinwoordenboeken ook groeperen. Bijvoorbeeld kunt u gemeenschappelijke uitdrukkingen groeperen door kleding, stof, juwelen, metingen, het winkelen, en algemeen. </p> <p>Zie <a href="../c-about-linguistics-menu/c-about-common-phrases.md#concept_4946E53586DF492EAEB1B7F757FD440F" format="dita" scope="local"> over gemeenschappelijke formuleringen </a>. </p> </td> 
+   <td colname="col1"> <p> Algemene zinnen - exacte overeenkomst </p> </td> 
+   <td colname="col2"> <p> Veelvoorkomende zinnen bevatten termen van twee of meer woorden die als geheel worden doorzocht, zoals "laarscut" of "tanktop"-en niet als afzonderlijke onderdelen. Een algemene zin heeft een unieke betekenis die afwijkt van de afzonderlijke onderdelen. </p> <p> U houdt een woordenboek bij van algemene woordgroepen die betrekking hebben op uw bedrijf. Wanneer een klant een zoekquery uitvoert die meerdere woorden bevat, wordt in het woordenboek gezocht naar exact dezelfde overeenkomst. </p> <p>U kunt veelgebruikte zinnen toevoegen, bewerken of verwijderen. U kunt algemene woordgroepen ook groeperen, net als domeinwoordenboeken. U kunt bijvoorbeeld algemene zinnen groeperen op basis van kleding, stof, juwelen, maten, winkelen en algemeen. </p> <p>Zie <a href="../c-about-linguistics-menu/c-about-common-phrases.md#concept_4946E53586DF492EAEB1B7F757FD440F" format="dita" scope="local"> Informatie over algemene woordgroepen </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**Fixen en verbeteringen**
+**Oplossingen en verbeteringen**
 
-* De achtergrond onderzoekCGI parameter `sp_date_range_#` werkte niet voor user-defined gebieden.
+* De CGI-parameter voor achtergrondzoekopdrachten `sp_date_range_#` werkte niet voor door de gebruiker gedefinieerde velden.
 
-   Zie de parameters [van het onderzoek van het](../c-appendices/c-cgiparameters.md#reference_582E85C3886740C98FE88CA9DF7918E8)Achterste CGI.
+   Zie [CGI-parameters voor achtergrondzoeken](../c-appendices/c-cgiparameters.md#reference_582E85C3886740C98FE88CA9DF7918E8).
 
-* Het omkeren **[!UICONTROL History]** versie werkte niet de URL inhoud van het ingangspuntgebied bij.
+* Als de versie **[!UICONTROL History]** wordt omgekeerd, is de inhoud van het veld URL-ingangspunten niet bijgewerkt.
 
-   Zie De optie [Historie](../t-using-the-history-option.md#task_70DD3F87A67242BBBD2CB27156F43002)gebruiken.
+   Zie [De optie Historie gebruiken](../t-using-the-history-option.md#task_70DD3F87A67242BBBD2CB27156F43002).
 
-   Zie ook [over Inschrijvingen URL](../c-about-settings-menu/c-about-crawling-menu.md#concept_5D857E3B5C124E85BC0B5AE77A509573).
+   Zie ook [Informatie over URL-invoerpunten](../c-about-settings-menu/c-about-crawling-menu.md#concept_5D857E3B5C124E85BC0B5AE77A509573).
 
-* JSON-codering beheert niet verkeerd gecodeerde tekens.
-* De steun voegde nu toe die u ver laat een gefaseerde index drukken.
+* JSON-codering beheert onjuist gecodeerde tekens niet.
+* Ondersteuning is nu toegevoegd, zodat u op afstand live kunt gaan met een gefaseerde index.
 
-   Zie [Informatie over Afstandsbediening voor Indexing](../c-about-index-menu/c-about-remote-control-for-indexing.md#concept_C79B322190E84106A434E5C6D4A4118F).
+   Zie [Informatie over afstandsbediening voor indexering](../c-about-index-menu/c-about-remote-control-for-indexing.md#concept_C79B322190E84106A434E5C6D4A4118F).
 

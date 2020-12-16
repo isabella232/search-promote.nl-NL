@@ -15,7 +15,7 @@ ht-degree: 0%
 ---
 
 
-# Adobe Handleiding voor zoeken en promoten {#using}
+# Handleiding voor zoeken en promoten van Adobe {#using}
 
 + [Overzicht van de Search&amp;Promote](sp-home.md)
 + Opmerkingen bij de release {#release-notes}
@@ -58,14 +58,14 @@ ht-degree: 0%
    + [Sjablonen](c-about-design-menu/c-about-templates.md)
    + [Banners](c-about-design-menu/c-about-banners.md)
    + [Automatisch aanvullen](c-about-auto-complete.md)
-+ Zoekregels toepassen {#rules}
++ Zoekregels {#rules} toepassen
    + [Regels voor het opschonen van query&#39;s](c-about-rules-menu/c-about-query-cleaning-rules.md)
    + [Directe uren](c-about-rules-menu/c-about-direct-hits.md)
    + [Regels voor voorzoeken](c-about-rules-menu/c-about-pre-search-rules.md)
    + [Regels voor achteraf zoeken](c-about-rules-menu/c-about-post-search-rules.md)
    + [Zakelijke regels](c-about-rules-menu/c-about-business-rules.md)
    + [Regels voor rangschikking](c-about-rules-menu/c-about-ranking-rules.md)
-+ Taalkundige zoekopdrachten gebruiken {#linguistics}
++ Zoektaalkundige {#linguistics} gebruiken
    + [Woordenboeken](c-about-linguistics-menu/c-about-dictionaries.md)
    + [Woorden en taal](c-about-linguistics-menu/c-about-words-and-language.md)
    + [Bedoelde je](c-about-linguistics-menu/c-about-did-you-mean.md)
@@ -74,7 +74,7 @@ ht-degree: 0%
    + [Algemene woordgroepen](c-about-linguistics-menu/c-about-common-phrases.md)
 + [Simulator](c-about-simulator.md)
 + [Staging](c-about-staging.md)
-+ Zoekrapporten genereren {#reports}
++ Bezig met genereren van zoekrapporten {#reports}
    + [Werken met zoekrapporten](c-about-reports-menu/c-about-reports-menu.md)
    + [Gegevens](c-about-reports-menu/c-about-data-views.md)
    + [Waarschuwingen](c-about-reports-menu/c-about-alerts.md)
@@ -87,7 +87,7 @@ ht-degree: 0%
    + [Afstandsbediening voor indexering](c-about-index-menu/c-about-remote-control-for-indexing.md)
    + [Terugdraaien voor indexen](c-about-index-menu/c-about-rollback-for-indexes.md)
    + [Verticale update](c-about-index-menu/c-about-vertical-updates.md)
-+ Instellingen configureren {#settings}
++ Instellingen {#settings} configureren
    + [Crawling](c-about-settings-menu/c-about-crawling-menu.md)
    + [Zoeken](c-about-settings-menu/c-about-searching-menu.md)
    + [Metagegevens](c-about-settings-menu/c-about-metadata-menu.md)
@@ -99,7 +99,7 @@ ht-degree: 0%
    + [Accountopties](c-about-settings-menu/c-about-account-options-menu.md)
    + [Gebruikers](c-about-settings-menu/c-about-users-menu.md)
 + [Werken met Search&amp;Promote-accounts](c-about-accounts-menu.md)
-+ Bijlagen {#appendices}
++ Aanhangsels {#appendices}
    + [Datumnotaties](c-appendices/r-date-formats.md)
    + [Reguliere expressies](c-appendices/r-regular-expressions.md)
    + [Nabijheidszoekopdracht](c-appendices/r-about-proximity-search.md)

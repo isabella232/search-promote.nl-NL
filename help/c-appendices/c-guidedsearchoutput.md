@@ -1,129 +1,132 @@
 ---
-description: U kunt output in om het even welk op tekst-gebaseerd formaat, met inbegrip van XML of JSON aanpassen.
-seo-description: U kunt output in om het even welk op tekst-gebaseerd formaat, met inbegrip van XML of JSON aanpassen.
-seo-title: Begeleide zoekresultaten
+description: U kunt uitvoer in elke op tekst gebaseerde indeling aanpassen, waaronder XML of JSON.
+seo-description: U kunt uitvoer in elke op tekst gebaseerde indeling aanpassen, waaronder XML of JSON.
+seo-title: Uitvoer van Begeleide zoekfunctie
 solution: Target
-title: Begeleide zoekresultaten
+title: Uitvoer van Begeleide zoekfunctie
 topic: Appendices,Site search and merchandising
 uuid: 234fd563-f249-42b0-88ca-c89b44f8df77
 translation-type: tm+mt
 source-git-commit: f21a3f7fe0aeaab517a5ca36da43594873b3e69a
+workflow-type: tm+mt
+source-wordcount: '6298'
+ht-degree: 0%
 
 ---
 
 
-# Begeleide zoekresultaten{#guided-search-output}
+# Uitvoer met instructies voor zoeken{#guided-search-output}
 
-U kunt output in om het even welk op tekst-gebaseerd formaat, met inbegrip van XML of JSON aanpassen.
+U kunt uitvoer in elke op tekst gebaseerde indeling aanpassen, waaronder XML of JSON.
 
-## Het gebruiken van Geleide output van het Onderzoek {#concept_2A1BA3AD413848A1AC2A3ABC4FFE481F}
+## Uitvoer van Bewerken met instructies-zoekopdracht gebruiken {#concept_2A1BA3AD413848A1AC2A3ABC4FFE481F}
 
-Het outputformaat is klantgericht om het facetten, het sorteren, en andere implementatie-specifieke besluiten te steunen die tijdens het ontwerpproces worden gemaakt. U kunt het formaat zelf aanpassen om de ontwikkeling van het vooreind van de klant te vereenvoudigen, indien nodig.
+Het uitvoerformaat is klantgericht om het facetteren, het sorteren, en andere implementatie-specifieke besluiten te steunen die tijdens het ontwerpproces worden genomen. U kunt het formaat zelf aanpassen om de ontwikkeling van het vooreind van de klant, indien nodig te vereenvoudigen.
 
-De volledige output is bevat binnen `<result>` markeringen, en de meeste dynamische gegevens zijn ingesloten binnen `<![CDATA[ ]]>` markeringen. Dergelijke organisatie staat de resultaten toe om HTML en andere niet-XML entiteiten te bevatten.
+De volledige uitvoer bevindt zich binnen `<result>`-tags en de meeste dynamische gegevens worden ingesloten binnen `<![CDATA[ ]]>`-tags. Zo kunnen de resultaten HTML en andere niet-XML-entiteiten bevatten.
 
-Waar de verbindingen met andere pagina&#39;s worden verstrekt, worden zij voorgesteld in de vorm van een relatieve URL. Dit resultaat omvat ook de parameters van het vraagkoord die worden overgegaan om het gewenste resultaat te produceren.
+Wanneer koppelingen naar andere pagina&#39;s worden opgegeven, worden deze weergegeven in de vorm van een relatieve URL. Dit resultaat omvat ook de parameters van het vraagkoord die worden overgegaan om het gewenste resultaat te produceren.
 
-## Begrijpen van een Begeleide implementatie van het Onderzoek {#section_95483980930C4325BAB50A40BD47245A}
+## Implementatie van Bewerken met instructies-zoekopdracht {#section_95483980930C4325BAB50A40BD47245A}
 
-Wanneer u met een Begeleide implementatie van het Onderzoek begint herinner dat voor de BedrijfsLaag verantwoordelijk [!DNL Adobe Search&Promote] is. Namelijk de logica die omringt welke resultaten en facetten aan een klant op elk bepaald ogenblik worden getoond.
+Wanneer u met een Begeleide implementatie van het Onderzoek begint herinner me dat [!DNL Adobe Search&Promote] voor de Bedrijfslaag verantwoordelijk is. Dat wil zeggen, de logica die omringt welke resultaten en facetten op elk bepaald ogenblik aan een klant worden getoond.
 
-Wanneer u het de toepassingsvooreind van het Web uitvoert dat ontleedt en de resultaten als HTML toont, beperk de functionaliteit tot slechts vertoning. Met andere woorden, om het even welke server-zijlogica die u gebruikt om de Laag van de Presentatie tot stand te brengen neemt niet de besluiten over wat om aan een klant voor te stellen, tenzij het noodzakelijk is. De bedrijfsregels zullen niet werken aangezien u verwacht als het front-end manuscript de onderzoeksresultaten verandert.
+Wanneer u het de toepassingsvooreind van het Web implementeert dat ontleedt en de resultaten als HTML toont, beperkt de functionaliteit tot vertoning slechts. Met andere woorden, om het even welke server-zijlogica die u gebruikt om de Laag van de Presentatie tot stand te brengen neemt niet de besluiten over wat aan een klant voor te stellen, tenzij het noodzakelijk is. De bedrijfsregels werken niet zoals u verwacht als het front-end script de zoekresultaten wijzigt.
 
-[!DNL Adobe Search&Promote] handhaaft gebruikersstaat van geselecteerde opties van de onderzoeksraffinage als parameters URL. Alle `<link>` knopen bevatten de relevante parameters van de selecties van de klant. Deze parameters kunnen broodkruimel, paginering, soort, en facetselecties omvatten. Waar van toepassing, worden de `<undolink>` knopen teruggegeven om een klant toe te staan &quot;terug te keren&quot;van een selectie. Facets en broodkruimels bieden dit soort verbindingen aan.
+[!DNL Adobe Search&Promote] Hiermee behoudt u de gebruikerstoestand van de geselecteerde opties voor het verfijnen van zoekopdrachten aan de hand van de URL-parameters. Alle `<link>` knooppunten bevatten de relevante parameters van de selecties van de klant. Deze parameters kunnen de selectie van breadcrumb, paginering, sortering en facetten omvatten. Indien van toepassing worden `<undolink>` knooppunten geretourneerd om een klant in staat te stellen een selectie &quot;terug&quot; te zetten. Facetten en broodkruimels bieden deze types van verbindingen aan.
 
 ## Werken met de zoekserver {#section_8DBEACDECD714E59BDED6315E6041B8D}
 
-Een REST-als API wordt gebruikt dat u kunt in wisselwerking staan met om onderzoeken uit te voeren en resultaten te ontvangen. De gemeenschappelijkste formaten die voor de resultaten worden gebruikt zijn XML of JSON.
+Er wordt een REST-achtige API gebruikt waarmee u kunt communiceren om zoekopdrachten uit te voeren en resultaten te ontvangen. De meest gebruikte indelingen voor de resultaten zijn XML of JSON.
 
-De basis URI wordt geassocieerd met een specifieke rekening en een gefaseerd of levend milieu. U kunt veelvoudige aliassen voor de basis URI van uw rekeningsmanager verzoeken. Bijvoorbeeld, heeft een fictief bedrijf genoemd Megacorp de volgende twee basis URLs verbonden aan hun rekening:
+De basis-URI is gekoppeld aan een specifieke account en een gefaseerde of live omgeving. U kunt meerdere aliassen voor de basis-URI aanvragen bij uw accountmanager. Bijvoorbeeld, heeft een fictioneel bedrijf genoemd Megacorp de volgende twee basis URLs verbonden aan hun rekening:
 
 * `https://search.megacorp.com `
 * `https://stage.megacorp.com`
 
-Eerder URI voert onderzoeken tegen hun levende index en laatstgenoemde URI tegen hun gefaseerde index uit.
+De eerste URI voert zoekopdrachten uit op basis van hun live index en de laatste URI op basis van hun gefaseerde index.
 
-De verzoeken van het onderzoek bestaan uit de basis URI en een reeks parameters van CGI of zeer belangrijk-waardeparen die op het gewenste onderzoek naar de rekening wijzen die met de basis URI wordt geassocieerd.
+Zoekverzoeken bestaan uit de basis-URI en een set CGI-parameters of sleutelwaardeparen die de gewenste zoekopdracht aangeven voor de account die aan de basis-URI is gekoppeld.
 
-Drie formaten van de parameters van CGI worden gesteund. Door gebrek wordt uw rekening gevormd om de parameters van CGI met een puntkomma () te scheiden, zoals in het volgende voorbeeld: `;`
+Er worden drie indelingen van CGI-parameters ondersteund. Standaard is uw account geconfigureerd om CGI-parameters te scheiden met een puntkomma ( `;`), zoals in het volgende voorbeeld:
 
 * `https://search.megacorp.com?q=shoes ;page=2`
 
-Als u verkiest, kunt u uw rekeningsmanager hebben uw rekening vormen om ampersands ( `&`) te gebruiken om de parameters van CGI, zoals in het volgende voorbeeld te scheiden:
+Uw accountmanager kan desgewenst uw account zodanig configureren dat ampersands ( `&`) worden gebruikt om de CGI-parameters te scheiden, zoals in het volgende voorbeeld:
 
 * `https://search.megacorp.com?q=shoes &page=2`
 
-Een derde formaat, genoemd het formaat SEO, wordt ook gesteund waar een voorwaartse schuine streep ( `/`) in plaats van de separator en het gelijke teken wordt gebruikt om &quot;schone&quot;verbindingen te produceren, zoals in het volgende voorbeeld:
+Een derde indeling, de zogenaamde SEO-indeling, wordt ook ondersteund wanneer een slash ( `/`) wordt gebruikt in plaats van het scheidingsteken en het gelijkteken om &quot;schone&quot; koppelingen te genereren, zoals in het volgende voorbeeld:
 
 * `https://search.megacorp.com/q/shoes/page/2`
 
-Om het even welke tijd wordt het formaat SEO gebruikt om een verzoek te verzenden, zijn alle outputverbindingen teruggekeerd in het zelfde formaat.
+Elke keer dat de SEO-indeling wordt gebruikt om een aanvraag te verzenden, worden alle uitvoerkoppelingen in dezelfde indeling geretourneerd.
 
-## Zoekquery-parameters {#section_7ADA5E130E3040C9BE85D0D68EDD3223}
+## Zoekqueryparameters {#section_7ADA5E130E3040C9BE85D0D68EDD3223}
 
-De volgende lijst beschrijft de standaard &quot;uit-van-de-doos&quot;parameters van de onderzoeksvraag die u kunt gebruiken. De regels van de verwerking en de bedrijfsregels kunnen worden gebouwd gebaseerd van user-defined vraagparameters om douane bedrijfslogica uit te voeren die voor uw bedrijf relevant is. U kunt met het het raadplegen team werken om documentatie over die parameters te verkrijgen.
+De volgende lijst beschrijft de standaard &quot;uit-van-de-doos&quot;parameters van de onderzoeksvraag die u kunt gebruiken. De regels van de verwerking en de bedrijfsregels kunnen worden gebouwd gebaseerd op user-defined vraagparameters om douanebedrijfslogica uit te voeren die voor uw bedrijf relevant is. U kunt met het raadplegende team werken om documentatie over die parameters te verkrijgen.
 
 <table> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> <p>Zoekquery-parameter </p> </th> 
+   <th colname="col1" class="entry"> <p>Zoekqueryparameter </p> </th> 
    <th colname="col2" class="entry"> <p>Voorbeeld </p> </th> 
    <th colname="col3" class="entry"> <p>Beschrijving </p> </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> q </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> q= string </span> </p> </td> 
-   <td colname="col3"> <p> Specificeert het vraagkoord voor het onderzoek. Deze parameter brengt aan de <span class="codeph"> sp_q </span> achterste onderzoeksparameter in kaart. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> q  </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> q= string  </span> </p> </td> 
+   <td colname="col3"> <p> Geeft de queryreeks voor de zoekopdracht aan. Deze parameter brengt aan de <span class="codeph"> sp_q </span> achterste onderzoeksparameter in kaart. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> q# </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> q#= string </span> </p> </td> 
-   <td colname="col3"> <p>De genummerde <span class="codeph"> q </span> en <span class="codeph"> x </span> - parameters verwezenlijken facetten, of het zoeken binnen een bepaald gebied. </p> <p>De <span class="codeph"> q </span> parameter bepaalt de termijn u naar in het facet als overeenkomstige genummerde <span class="codeph"> x </span> - parameterpunten zoekt. Bijvoorbeeld, als u twee facetten hebt die grootte en kleur worden genoemd, kon u iets als het volgende hebben: </p> <p> <span class="codeph"> q1=klein;x1=grootte;q2=rood;x2=kleur </span> </p> <p>Deze parameter brengt aan de parameters van het <span class="codeph"> sp_q_exact_# </span> achterste deelonderzoek in kaart. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> q#  </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> q#= tekenreeks  </span> </p> </td> 
+   <td colname="col3"> <p>De genummerde <span class="codeph"> q </span> en <span class="codeph"> x </span> parameters verwezenlijken facettering, of het zoeken binnen een bepaald gebied. </p> <p>De <span class="codeph"> q </span> parameter bepaalt de termijn u in het facet als overeenkomstige genummerde <span class="codeph"> x </span> parameterpunten zoekt. Als u bijvoorbeeld twee facetten hebt met een naam voor grootte en kleur, kunt u bijvoorbeeld de volgende elementen gebruiken: </p> <p> <span class="codeph"> q1=small;x1=size;q2=red;x2=color  </span> </p> <p>Deze parameter brengt aan de <span class="codeph"> sp_q_exact_# </span> achterste onderzoeksparameters in kaart. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> x# </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> x#= string </span> </p> </td> 
-   <td colname="col3"> <p> De genummerde <span class="codeph"> q </span> en <span class="codeph"> x </span> - parameters verwezenlijken facetten, of het zoeken binnen een bepaald gebied. </p> <p>De <span class="codeph"> q </span> parameter bepaalt de termijn u naar in het facet als overeenkomstige genummerde <span class="codeph"> x </span> - parameterpunten zoekt. Bijvoorbeeld, als u twee facetten hebt die grootte en kleur worden genoemd, kon u iets als het volgende hebben: </p> <p> <span class="codeph"> q1=klein;x1=grootte;q2=rood;x2=kleur </span> </p> <p>Deze parameter brengt aan de <span class="codeph"> sp_x_# </span> achterste onderzoeksparameters in kaart. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> x#  </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> x#= tekenreeks  </span> </p> </td> 
+   <td colname="col3"> <p> De genummerde <span class="codeph"> q </span> en <span class="codeph"> x </span> parameters verwezenlijken facettering, of het zoeken binnen een bepaald gebied. </p> <p>De <span class="codeph"> q </span> parameter bepaalt de termijn u in het facet als overeenkomstige genummerde <span class="codeph"> x </span> parameterpunten zoekt. Als u bijvoorbeeld twee facetten hebt met een naam voor grootte en kleur, kunt u bijvoorbeeld de volgende elementen gebruiken: </p> <p> <span class="codeph"> q1=small;x1=size;q2=red;x2=color  </span> </p> <p>Deze parameter brengt aan <span class="codeph"> sp_x_# </span> achterste onderzoeksparameters in kaart. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> collectie </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> collectie= string </span> </p> </td> 
-   <td colname="col3"> <p> Specificeert de inzameling voor het onderzoek te gebruiken. Deze parameter brengt aan de <span class="codeph"> sp_k </span> achterste onderzoeksparameter in kaart. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> collectie  </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> collection= string  </span> </p> </td> 
+   <td colname="col3"> <p> Geeft de verzameling op die voor de zoekopdracht moet worden gebruikt. Deze parameter brengt aan de <span class="codeph"> sp_k </span> achterste onderzoeksparameter in kaart. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> tellen </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> count= aantal </span> </p> </td> 
-   <td colname="col3"> <p> Specificeert de totale telling van resultaten die worden getoond. Het gebrek wordt bepaald in <span class="uicontrol"> Montages </span> &gt; <span class="uicontrol"> die </span> &gt; <span class="uicontrol"> Onderzoek zoeken </span>. Deze parameter brengt aan de <span class="codeph"> sp_c </span> achterste onderzoeksparameter in kaart. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> aantal  </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> count= getal  </span> </p> </td> 
+   <td colname="col3"> <p> Hiermee geeft u het totale aantal resultaten op dat wordt weergegeven. De standaardwaarde wordt gedefinieerd in <span class="uicontrol"> Instellingen </span> &gt; <span class="uicontrol"> Zoeken </span> &gt; <span class="uicontrol"> Zoekopdrachten </span>. Deze parameter brengt aan de <span class="codeph"> sp_c </span> achterste onderzoeksparameter in kaart. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> pagina </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> page= aantal </span> </p> </td> 
-   <td colname="col3"> <p> Specificeert de pagina van resultaten die zijn teruggekeerd. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> page  </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> page= number  </span> </p> </td> 
+   <td colname="col3"> <p> Geeft de pagina met resultaten aan die worden geretourneerd. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> rangschikken </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> rank= veld </span> </p> </td> 
-   <td colname="col3"> <p> Specificeert het rangschikkingsgebied voor het statische rangschikken te gebruiken. Het veld moet een veld van het type Rank zijn met een relevantie groter dan 0. Deze parameter brengt aan de <span class="codeph"> sp_sr </span> achterste parameter in kaart. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> rangschikken  </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> rank= veld  </span> </p> </td> 
+   <td colname="col3"> <p> Hiermee geeft u het rangtelveld op dat moet worden gebruikt voor statische waarderingen. Het veld moet een veld van het type Rank zijn met een relevantie groter dan 0. Deze parameter brengt aan de <span class="codeph"> sp_sr </span> achterste parameter in kaart. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> gs_store </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> gs_store= string </span> </p> </td> 
-   <td colname="col3"> <p> Specificeert de opslag aan onderzoek. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> gs_store  </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> gs_store= string  </span> </p> </td> 
+   <td colname="col3"> <p> Hiermee geeft u de winkel op die u wilt zoeken. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> sorteren </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> sort= getal </span> </p> </td> 
-   <td colname="col3"> <p> Specificeert de soortorde. "0" is de standaardwaarde en is de soort volgens relevantiescore; "1" sorteert naar datum; "-1" sorteert niet. </p> <p>De gebruikers kunnen een gebiedsnaam voor de waarde van de <span class="codeph"> sp_s </span> parameter specificeren. Bijvoorbeeld, <span class="codeph"> sp_s=title </span> sorteert resultaten volgens de waarden die in het titelgebied bevat zijn. Wanneer een gebiedsnaam voor de waarde van een <span class="codeph"> sp_s </span> parameter wordt gebruikt, worden de resultaten gesorteerd door dat gebied en dan gesubsorteerd door relevantie. </p> <p>Om deze eigenschap toe te laten, doe het volgende: </p> 
+   <td colname="col1"> <p> <span class="codeph"> sorteren  </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> sort= number  </span> </p> </td> 
+   <td colname="col3"> <p> Hiermee geeft u de sorteervolgorde op. "0" is de standaardwaarde en sorteert op relevantiescore; "1" sorteert op datum; "-1" wordt niet gesorteerd. </p> <p>Gebruikers kunnen een veldnaam opgeven voor de waarde van de parameter <span class="codeph"> sp_s </span>. Met <span class="codeph"> sp_s=title </span> sorteert u de resultaten bijvoorbeeld op basis van de waarden in het titelveld. Wanneer een gebiedsnaam voor de waarde van een <span class="codeph"> sp_s </span> parameter wordt gebruikt, worden de resultaten gesorteerd door dat gebied en dan gesubsorteerd door relevantie. </p> <p>Ga als volgt te werk om deze functie in te schakelen: </p> 
     <ol id="ol_3894F81EA7BF4827A84DE8662111ABEF"> 
-     <li id="li_C040C0B88F174A4885E1A8E721FD032A">Voor het productmenu, klik <span class="uicontrol"> Montages </span> &gt; <span class="uicontrol"> Meta-gegevens </span> &gt; <span class="uicontrol"> Definities </span>. </li> 
-     <li id="li_2E83C3A46D1B4BF991EABAD9D3E52B7D">Voor de <span class="wintitle"> Gelaagde </span> pagina van Definities, doe één van het volgende: 
+     <li id="li_C040C0B88F174A4885E1A8E721FD032A">Klik in het productmenu op <span class="uicontrol"> Instellingen </span> &gt; <span class="uicontrol"> Metagegevens </span> &gt; <span class="uicontrol"> Definities </span>. </li> 
+     <li id="li_2E83C3A46D1B4BF991EABAD9D3E52B7D">Voer op de pagina <span class="wintitle"> Gelaagde definities </span> een van de volgende handelingen uit: 
       <ul id="ul_8018FEE10E0A4C96A74F84A897080580"> 
-       <li id="li_E9A7CE43E2734F4D9522A1283CA111FB">Klik <span class="uicontrol"> toevoegen Nieuw Gebied </span>. </li> 
-       <li id="li_9D2434A321924FBD874569CA9AD2EEF7">Klik <span class="uicontrol"> uitgeven </span> voor een bepaalde gebiedsnaam. </li> 
+       <li id="li_E9A7CE43E2734F4D9522A1283CA111FB">Klik <span class="uicontrol"> Nieuw veld toevoegen </span>. </li> 
+       <li id="li_9D2434A321924FBD874569CA9AD2EEF7">Klik op <span class="uicontrol"> Bewerken </span> voor een bepaalde veldnaam. </li> 
       </ul> </li> 
-     <li id="li_90D5E3F4AC0A4A6189934A5589F69903">In de <span class="wintitle"> Sorterende </span> drop-down lijst, klik of <span class="uicontrol"> die </span> of <span class="uicontrol"> Daling oplopend </span>. <p>Deze parameter brengt aan de <span class="codeph"> sp_s </span> achterste onderzoeksparameter in kaart. </p> </li> 
+     <li id="li_90D5E3F4AC0A4A6189934A5589F69903">Klik in de vervolgkeuzelijst <span class="wintitle"> Sorteren </span> op <span class="uicontrol"> Overlopend </span> of <span class="uicontrol"> Aflopend </span>. <p>Deze parameter brengt aan <span class="codeph"> sp_s </span> achterste onderzoeksparameter in kaart. </p> </li> 
     </ol> </td> 
   </tr> 
  </tbody> 
@@ -131,29 +134,29 @@ De volgende lijst beschrijft de standaard &quot;uit-van-de-doos&quot;parameters 
 
 ## Integreren met uw systeem {#section_91261B19A44A4E579B3FC9FAB9AD3665}
 
-Het volgende is aanbevelingen voor integratie met uw systeem.
+Hieronder volgen enkele aanbevelingen voor integratie met uw systeem.
 
 * Communiceren met de zoekserver.
 
-   U kunt met de [!DNL Adobe Search&Promote] Webservers communiceren gebruikend HTTP KRIJGT verzoeken. Uw servers produceren deze verzoeken of op de cliëntkant die een Ajax- verzoek doen.
+   U kunt met de [!DNL Adobe Search&Promote] Webservers communiceren gebruikend HTTP- verzoeken. Uw servers genereren deze aanvragen of op de client wordt een Ajax-aanvraag uitgevoerd.
 * De zoekgeschiedenis opslaan.
 
-[!DNL Adobe Search&Promote] is stateless waar de volledige staat in het HTTP- verzoek wordt overgegaan.
-* Het ontleden van de teruggekeerde resultaten.
+[!DNL Adobe Search&Promote] is stateless where the entire state is passed in the http request.
+* De geretourneerde resultaten parseren.
 
-   Men adviseert dat u een op SAX-Gebaseerde syntactische parser van XML gebruikt om de reactie van XML te ontleden. Als u Ajax- verzoek produceert, vorm [!DNL Adobe Search&Promote] om reacties JSON voor die verzoeken terug te keren om het gemakkelijker te maken om de reactie te ontleden.
+   Het wordt aanbevolen een op SAX gebaseerde XML-parser te gebruiken om de XML-reactie te parseren. Als u Ajax- verzoek produceert, vorm [!DNL Adobe Search&Promote] om JSON- reacties voor die verzoeken terug te keren om het gemakkelijker te maken om de reactie te ontleden.
 
-## De geleide JSON van het Onderzoek Output {#reference_EB8182A564DE4374BB84158F2AABEF74}
+## JSON-uitvoer met instructies zoeken {#reference_EB8182A564DE4374BB84158F2AABEF74}
 
-Tabellen die de standaard JSON-responsoutput beschrijven.
+Tabellen die de standaard JSON-responsuitvoer beschrijven.
 
-Zie ook de Geleide Output van JSON van het Onderzoek van het [Onderzoek](../c-appendices/c-guidedsearchoutput.md#reference_EB8182A564DE4374BB84158F2AABEF74).
+Zie ook [JSON-uitvoer met instructies zoeken](../c-appendices/c-guidedsearchoutput.md#reference_EB8182A564DE4374BB84158F2AABEF74).
 
-U kunt de reactie van JSON voor het volgende herzien:
+U kunt het JSON-antwoord op de volgende vragen bekijken:
 
 * [Banners](../c-appendices/c-guidedsearchoutput.md#section_88519CAAD25F4BD49D5E517077745B0E)
-* [Breadcrumb](../c-appendices/c-guidedsearchoutput.md#section_A7DB0F1DA9ED4CBCAE18395122F3E01E)
-* [Facturen](../c-appendices/c-guidedsearchoutput.md#section_65932C95931743A1BFAF1DF16D7E6D92)
+* [Broodkruimel](../c-appendices/c-guidedsearchoutput.md#section_A7DB0F1DA9ED4CBCAE18395122F3E01E)
+* [Facetten](../c-appendices/c-guidedsearchoutput.md#section_65932C95931743A1BFAF1DF16D7E6D92)
 * [Koptekst en query](../c-appendices/c-guidedsearchoutput.md#section_1D57062259CA46E0B4F598FA4EB37065)
 * [Paginering](../c-appendices/c-guidedsearchoutput.md#section_504E7AB570BD49AF9839530DC438EE96)
 * [Recente zoekopdrachten](../c-appendices/c-guidedsearchoutput.md#section_525816A0355C48F8970D89B8FC3F1FFF)
@@ -186,22 +189,22 @@ Voorbeeld:
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> &lt;banner&gt; </span> </p> </td> 
-   <td colname="col2"> <p> Een individuele bannerknoop. U kunt veelvoudige bannerknopen hebben. </p> </td> 
+   <td colname="col2"> <p> Een afzonderlijk bannerknooppunt. U kunt meerdere bannerknooppunten hebben. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> &lt;area&gt; </span> </p> </td> 
-   <td colname="col2"> <p> Het gebied op de Web-pagina waar de banner wordt getoond. </p> </td> 
+   <td colname="col2"> <p> Het gebied op de webpagina waar de banner wordt weergegeven. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> &lt;content&gt; </span> </p> </td> 
-   <td colname="col2"> <p> De inhoud van HTML voor het bannergebied. </p> </td> 
+   <td colname="col2"> <p> De HTML-inhoud voor het bannergebied. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Breadcrumb {#section_A7DB0F1DA9ED4CBCAE18395122F3E01E}
+## Broodkruimel {#section_A7DB0F1DA9ED4CBCAE18395122F3E01E}
 
-In het volgende voorbeeld, telkens als de klant verder door de facetten versmalt, wordt de selectie toegevoegd aan de broodkruimel. Elk punt wordt vertegenwoordigd als `<breadcrumb-item>`.
+In het volgende voorbeeld wordt de selectie toegevoegd aan de broodkruimel telkens wanneer de klant de facetten verder doorloopt. Elk item wordt weergegeven als een `<breadcrumb-item>`.
 
 Voorbeeld:
 
@@ -221,29 +224,29 @@ Voorbeeld:
 <table> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> <p>Markeringen in Breadcrumb </p> </th> 
+   <th colname="col1" class="entry"> <p>Tags in Breadcrumb </p> </th> 
    <th colname="col2" class="entry"> <p>Beschrijving </p> </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> &lt;link&gt; </span> </p> </td> 
-   <td colname="col2"> <p> Een relatieve verbinding aan onderzoeksresultaten die de gewenste mening toont. Het klikken van een broodkruimelverbinding neemt de klant aan een mening waar alle verdere verfijningen worden verwijderd. Andere opties zijn ook beschikbaar. </p> </td> 
+   <td colname="col2"> <p> Een relatieve koppeling naar de zoekresultaten die de gewenste weergave toont. Als u op een koppeling breadcrumb klikt, gaat de klant naar een weergave waarin alle verfijningen die erop volgen, worden verwijderd. Er zijn ook andere opties beschikbaar. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;waarde&gt; </span> </p> </td> 
-   <td colname="col2"> <p> Klant-onder ogen ziende tekst voor het broodkruimelpunt. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;value&gt; </span> </p> </td> 
+   <td colname="col2"> <p> Klantgerichte tekst voor het broodkruimelitem. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Facturen {#section_65932C95931743A1BFAF1DF16D7E6D92}
+## Facetten {#section_65932C95931743A1BFAF1DF16D7E6D92}
 
-De factoren zijn raffinageopties die klanten de capaciteit geven om op de resultaten te filtreren. De factoren worden algemeen gebruikt voor categorisering, prijswaaiers, kleurenselecties, en andere attributenraffinage. De meta-gegevens in de index is wat aandrijvingsfacetten.
+Facetten zijn verfijningsopties die klanten de mogelijkheid bieden om op de resultaten te filteren. Facetten worden doorgaans gebruikt voor categorisering, prijsbereiken, kleurselecties en andere kenmerkverfijning. De metagegevens in de index zijn de factoren die de basis vormen.
 
-Het is gemeenschappelijk om categoriseringsfacetten&#39; te verbergen of te tonen aangezien een klant zich neer door de categorisatie beweegt. Het hoogste niveau van categorisering (categorie) staat bekend als Tier 1. Wanneer een klant op een Tier 1-optie klikt, worden de opties voor Tier 2-verfijning (subcategorie) weergegeven en verdwijnen de opties voor Tier 1. Wanneer een klant op een optie voor niveau 2 klikt, worden de opties voor de verfijning van niveau 3 (subcategorie) weergegeven en verdwijnen de opties voor niveau 2. Zoals hierboven genoteerd, zijn deze opties verborgen en getoond-uw Webtoepassing wordt niet beïnvloed door hen.
+Het is gebruikelijk om categoriseringsfacetten&#39; te verbergen of te tonen aangezien een klant onderaan door categorisering beweegt. Het hoogste niveau van categorisering (categorie) wordt Tier 1 genoemd. Wanneer een klant op een optie voor Tier 1 klikt, worden de opties voor Tier 2-verfijning (subcategorie) weergegeven en verdwijnen de opties voor Tier 1. Wanneer een klant op een optie voor Tier 2 klikt, worden de opties voor de verfijning voor Tier 3 (subcategorie) weergegeven en verdwijnen de opties voor Tier 2. Zoals hierboven vermeld, zijn deze opties verborgen en weergegeven. De webtoepassing heeft hierop geen invloed.
 
-Elk facet is bevat binnen `<facet-item>` markeringen. In het volgende voorbeeld, toont het één facet dat de klant toestaat om de onderzoeksresultaten door &quot;vakantie&quot;te raffineren.
+Elk facet bevindt zich binnen `<facet-item>`-tags. In het volgende voorbeeld wordt één facet weergegeven waarmee de klant de zoekresultaten kan verfijnen met &#39;vakantie&#39;.
 
 Voorbeeld:
 
@@ -326,30 +329,30 @@ Voorbeeld:
 <table> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> <p>Markeringen in facetten </p> </th> 
+   <th colname="col1" class="entry"> <p>Labels in facetten </p> </th> 
    <th colname="col2" class="entry"> <p>Beschrijving </p> </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;facettitel&gt; </span> </p> </td> 
-   <td colname="col2"> <p> Klantgerichte titel voor het facet. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;facet-title&gt; </span> </p> </td> 
+   <td colname="col2"> <p> Klantgerichte titel voor de facet. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> &lt;label&gt; </span> </p> </td> 
-   <td colname="col2"> <p> Klantgericht etiket voor de facetoptie. </p> </td> 
+   <td colname="col2"> <p> Klantgericht label voor de facetoptie. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> &lt;link&gt; </span> </p> </td> 
-   <td colname="col2"> <p> Relatieve verbinding aan resultaten die de optie neer raffineert. </p> </td> 
+   <td colname="col2"> <p> Relatieve koppeling naar resultaten die door de optie worden verfijnd. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> &lt;count&gt; </span> </p> </td> 
-   <td colname="col2"> <p> Het aantal resultaten in die geraffineerde resultaatreeks. </p> </td> 
+   <td colname="col2"> <p> Het aantal resultaten in die verfijnde resultaatset. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> &lt;undolink&gt; </span> </p> </td> 
-   <td colname="col2"> <p> Wanneer een facetwaarde wordt geselecteerd keert de knoop "ongedaan maakt verbinding"terug die een klant uit de resultaten laat terug. </p> </td> 
+   <td colname="col2"> <p> Wanneer een facetwaarde wordt geselecteerd, keert de knoop "undo verbinding"terug die een klant uit de resultaten laat terug. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -368,12 +371,12 @@ Voorbeeld:
  </query> 
 ```
 
-Samen gebruikt, stellen deze markeringen een bericht zoals het volgende voor: &quot;Weergegeven resultaten 1-16 van 621 voor &#39;nieuw jaar&#39;.&quot;
+Deze tags worden samen gebruikt en geven een bericht weer, zoals: &quot;De resultaten 1-16 van 621 voor het nieuwe jaar worden weergegeven.&quot;
 
 <table> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> <p>Markeringen in kopbal en vraag </p> </th> 
+   <th colname="col1" class="entry"> <p>Labels in koptekst en query </p> </th> 
    <th colname="col2" class="entry"> <p>Beschrijving </p> </th> 
   </tr> 
  </thead>
@@ -383,20 +386,20 @@ Samen gebruikt, stellen deze markeringen een bericht zoals het volgende voor: &q
    <td colname="col2"> <p> De sleutelwoordvraag die met het verzoek wordt voorgelegd. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;lagere resultaten&gt; </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;lower-results&gt; </span> </p> </td> 
    <td colname="col2"> <p> Het objectnummer van het eerste resultaat op deze pagina. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;bovenste resultaten&gt; </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;upper-results&gt; </span> </p> </td> 
    <td colname="col2"> <p> Het objectnummer van het laatste resultaat op deze pagina. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;totale resultaten&gt; </span> </p> </td> 
-   <td colname="col2"> <p> Het totale aantal resultaten die de gebruikersvraag aanpassen. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;total-results&gt; </span> </p> </td> 
+   <td colname="col2"> <p> Het totale aantal resultaten dat overeenkomt met de gebruikersquery. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;aangepast veld&gt; </span> </p> </td> 
-   <td colname="col2"> <p> Een facultatief gebied dat globaal op de onderzoeksresultaten van toepassing is. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;custom-field&gt; </span> </p> </td> 
+   <td colname="col2"> <p> Een optioneel veld dat algemeen van toepassing is op de zoekresultaten. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -430,45 +433,45 @@ Voorbeeld:
 <table> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> <p>Markeringen in Paginering </p> </th> 
+   <th colname="col1" class="entry"> <p>Labels in paginering </p> </th> 
    <th colname="col2" class="entry"> <p>Beschrijving </p> </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;totaal aantal pagina's&gt; </span> </p> </td> 
-   <td colname="col2"> <p> Totaal aantal bladzijden van de resultaten, op basis van het aantal resultaten gedeeld door het aantal resultaten per pagina. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;total-pages&gt; </span> </p> </td> 
+   <td colname="col2"> <p> Het totale aantal pagina's met resultaten, gebaseerd op het aantal resultaten gedeeld door het aantal resultaten per pagina. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> &lt;page position="first"&gt; </span> </p> </td> 
-   <td colname="col2"> <p> Bevat een relatieve verbinding aan de eerste pagina in de resultaatreeks, tenzij de klant reeds pagina 1 bekijkt. In dat geval is het leeg. </p> </td> 
+   <td colname="col2"> <p> Bevat een relatieve koppeling naar de eerste pagina in de resultatenset, tenzij de klant pagina 1 al weergeeft. In dat geval is het leeg. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> &lt;page position="last"&gt; </span> </p> </td> 
-   <td colname="col2"> <p> Bevat een relatieve verbinding aan de laatste pagina in de resultaatreeks, tenzij de klant de laatste pagina bekijkt. In dat geval is het leeg. </p> </td> 
+   <td colname="col2"> <p> Bevat een relatieve koppeling naar de laatste pagina in de resultatenset, tenzij de klant de laatste pagina bekijkt. In dat geval is het leeg. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;page position="Vorige"&gt; </span> </p> </td> 
-   <td colname="col2"> <p> Bevat een relatieve verbinding aan de vorige pagina in de resultaatreeks, tenzij de klant pagina 1 bekijkt; in een dergelijk geval is het blanco . </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;page position="previous"&gt; </span> </p> </td> 
+   <td colname="col2"> <p> Bevat een relatieve koppeling naar de vorige pagina in de resultatenset, tenzij de klant pagina 1 weergeeft; in dat geval is het leeg . </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> &lt;page position="next"&gt; </span> </p> </td> 
-   <td colname="col2"> <p> Bevat een relatieve verbinding aan de laatste pagina in de resultaatreeks, tenzij de klant de laatste pagina bekijkt. In dat geval is het leeg. </p> </td> 
+   <td colname="col2"> <p> Bevat een relatieve koppeling naar de laatste pagina in de resultatenset, tenzij de klant de laatste pagina bekijkt. In dat geval is het leeg. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;page position="x" </span> </p> </td> 
-   <td colname="col2"> <p> Bevat een relatieve verbinding aan een bepaald paginaaantal. Tien aaneengesloten paginaaantallen worden getoond. Op bladzijde 1 zou het pagina 1-10 zijn. Aan het eind van het vastgestelde resultaat (in dit geval, 39), zou het pagina 30-39 zijn. Bijvoorbeeld, in het centrum van de resultaatreeks, pagina 15, zou het pagina 11-20 zijn. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;page position="x"&gt;</span> </p> </td> 
+   <td colname="col2"> <p> Bevat een relatieve koppeling naar een bepaald paginanummer. Er worden tien opeenvolgende paginanummers weergegeven. Op pagina 1 zou het pagina 1-10 zijn. Aan het einde van de resultaatset (in dit geval 39) zijn het de bladzijden 30-39. In het midden van de resultatenset, pagina 15, zou het bijvoorbeeld pagina's 11-20 zijn. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> selected="true"&gt; </span> </p> </td> 
-   <td colname="col2"> <p> Toegepast als attribuut op de momenteel geselecteerde pagina. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> selected="true"&gt;  </span> </p> </td> 
+   <td colname="col2"> <p> Toegepast als kenmerk op de geselecteerde pagina. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Recente zoekopdrachten {#section_525816A0355C48F8970D89B8FC3F1FFF}
 
-Recente zoekopdrachten zijn een cookie-gebaseerde functie die alleen werkt als u de cookie-informatie doorgeeft aan de servers.
+Recent zoeken is een op cookies gebaseerde functie die alleen werkt als u de cookie-informatie doorgeeft aan de servers.
 
 Voorbeeld:
 
@@ -484,33 +487,33 @@ Voorbeeld:
 <table> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> <p>Markeringen in recente zoekopdrachten </p> </th> 
+   <th colname="col1" class="entry"> <p>Tags in recente zoekopdrachten </p> </th> 
    <th colname="col2" class="entry"> <p>Beschrijving </p> </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;recent zoeken&gt; </span> </p> </td> 
-   <td colname="col2"> <p> Een individuele recent-onderzoeksknoop. U kunt veelvoudige recent-onderzoeksknopen hebben. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;recent-search&gt; </span> </p> </td> 
+   <td colname="col2"> <p> Een individueel recent-onderzoek knooppunt. U kunt meerdere knooppunten voor recent zoeken hebben. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;zoekterm&gt; </span> </p> </td> 
-   <td colname="col2"> <p> De termijn die de klant eerder zocht naar. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;search-term&gt; </span> </p> </td> 
+   <td colname="col2"> <p> De term die de klant eerder heeft gezocht. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> &lt;link&gt; </span> </p> </td> 
-   <td colname="col2"> <p> Links naar de vorige zoekopdracht. </p> </td> 
+   <td colname="col2"> <p> Koppelingen naar de vorige zoekopdracht. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Resultaten {#section_41AC56BB0A084BF59379B06C8BEF2157}
 
-De reeks van Resultaten is een klantgericht gebied van de reactie JSON. Elke index is uniek op de gebied noemende mechanismen van meta-gegevens. Er zijn gemeenschappelijke gebieden die voor elk resultaat zoals titel, beschrijving, en URL zijn teruggekeerd. Maar, om het even welke meta-gegevens die voor een pagina in de index worden bepaald kunnen beschikbaar worden om in elke resultaatknoop te gebruiken. De indeling, de prijzen, de kleuren en de miniaturen zijn slechts een paar opties die u op een resultaat kunt toepassen om meer dwingende zoekresultaten te produceren.
+De resultaatset is een aanpasbaar gebied van de JSON-reactie. Elke index is uniek in de veld noemende mechanismen van meta-gegevens. Er zijn gemeenschappelijke gebieden die voor elk resultaat zoals titel, beschrijving, en URL zijn teruggekeerd. Maar alle metagegevens die voor een pagina in de index zijn gedefinieerd, kunnen beschikbaar worden voor gebruik in elk resultaatknooppunt. Categorisering, prijzen, kleuren en miniaturen zijn slechts een paar opties die u op een resultaat kunt toepassen om overtuigender zoekresultaten te produceren.
 
-Het formaat van Resultaten wordt aangepast gebaseerd op de meta-gegevens die voor uw implementatie specifiek zijn. Om het even welke per-resultaatgegevens voor vertoning in de resultaten, met inbegrip van duimnagelbeeld URLs, is bevat hier.
+De indeling Resultaten wordt aangepast op basis van de metagegevens die specifiek zijn voor uw implementatie. Hier vindt u alle gegevens per resultaat die in de resultaten worden weergegeven, inclusief URL&#39;s van miniatuurafbeeldingen.
 
-Bovendien is het mogelijk om veelvoudige resultaatstreken binnen de pagina, zoals &quot;Getoonde Resultaten&quot;te vormen, of afzonderlijke &quot;Producten&quot;en &quot;Inhoud&quot;resultatensecties te vormen. In deze gevallen, worden de veelvoudige resultaatstreken verstrekt binnen HTML, hoewel de facetten slechts met de primaire resultaatreeks worden geassocieerd.
+Bovendien is het mogelijk om veelvoudige resultaatstreken binnen de pagina, zoals &quot;Aanbevolen Resultaten&quot;te vormen, of afzonderlijke &quot;Producten&quot;en &quot;Inhoud&quot;resultaatsecties. In deze gevallen worden er meerdere resultaatzones opgegeven in de HTML, hoewel facetten alleen aan de primaire resultaatset zijn gekoppeld.
 
 Voorbeeld:
 
@@ -627,27 +630,27 @@ traditions-to-start-this-year-parties-photo-160-FF1107HOLIA01.jpg]]></large-thum
 <table> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> <p>Markeringen in resultaten </p> </th> 
+   <th colname="col1" class="entry"> <p>Tags in resultaten </p> </th> 
    <th colname="col2" class="entry"> <p>Beschrijving </p> </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> &lt;index&gt; </span> </p> </td> 
-   <td colname="col2"> <p> Het serienummer van het resultaat binnen deze resultaatreeks. In dit voorbeeld, waar tien resultaten per pagina, op pagina 2 van de resultaten worden getoond, zou het eerste punt een index van 11 hebben. </p> </td> 
+   <td colname="col2"> <p> Het serienummer van het resultaat binnen deze resultatenset. In dit voorbeeld, waar tien resultaten per pagina worden getoond, op pagina 2 van de resultaten, zou het eerste punt een index van 11 hebben. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;resultaat-titel&gt; </span> </p> </td> 
-   <td colname="col2"> <p> De klant-onder ogen ziende titel voor deze pagina. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;result-title&gt; </span> </p> </td> 
+   <td colname="col2"> <p> De klantgerichte titel voor deze pagina. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> &lt;url&gt; </span> </p> </td> 
-   <td colname="col2"> <p> URL voor deze pagina. Het wordt gebruikt om een hyperlink tot stand te brengen die de klant door de resultaten laat klikken. </p> </td> 
+   <td colname="col2"> <p> De URL voor deze pagina. Het wordt gebruikt om een hyperlink tot stand te brengen die de klant door de resultaten laat klikken. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Zoekformulier {#section_434DA13EA295474C99FFE9F14801CD0E}
+## Formulier {#section_434DA13EA295474C99FFE9F14801CD0E} doorzoeken
 
 Voorbeeld:
 
@@ -678,41 +681,41 @@ Voorbeeld:
 <table> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> <p>Markeringen in zoekformulier </p> </th> 
+   <th colname="col1" class="entry"> <p>Tags in zoekformulier </p> </th> 
    <th colname="col2" class="entry"> <p>Beschrijving </p> </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> &lt;include-tnt-mbox&gt; </span> </p> </td> 
-   <td colname="col2"> <p> Optioneel. Wanneer aanwezig in JSON, wijst een waarde van 1 het erop dat uw rekening met <span class="keyword"> Test&amp;Target </span> verbonden is en minstens één bedrijfsregel heeft die in een test A:B is. </p> </td> 
+   <td colname="col2"> <p> Optioneel. Indien aanwezig in de JSON, geeft de waarde 1 aan dat uw account is gekoppeld aan <span class="keyword"> Test&amp;Target </span> en ten minste één bedrijfsregel bevat die in een A:B-test wordt opgenomen. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> &lt;autocomplete&gt; </span> </p> </td> 
-   <td colname="col2"> <p> Optioneel. Wanneer het gebruiken van auto-volledig, is deze knoop aanwezig om erop te wijzen dat CSS en JavaScript op de pagina samen met de inhoud aanwezig is die in de vorm is. Deze gebieden veranderen typisch niet tenzij iemand het autocomplete plaatsen heeft veranderd. In dergelijke gevallen, wordt het xxx_cache_ver gebied verhoogd om een ongeldigverklaring van de caching inhoud op browser van uw klant te dwingen. </p> </td> 
+   <td colname="col2"> <p> Optioneel. Wanneer u auto-complete gebruikt, is dit knooppunt aanwezig om aan te geven dat de CSS en JavaScript aanwezig zijn op de pagina samen met de inhoud in het formulier. Deze velden veranderen alleen als iemand een instelling voor automatisch aanvullen heeft gewijzigd. In dergelijke gevallen, wordt het xxx_cache_ver gebied verhoogd om een ongeldigverklaring van de caching inhoud op browser van uw klant te dwingen. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> &lt;css&gt; </span> </p> </td> 
-   <td colname="col2"> <p> CSS die met autocomplete wordt geassocieerd. Men adviseert dat u deze markering hoog in de pagina plaatst om pagina het teruggeven te verbeteren. </p> </td> 
+   <td colname="col2"> <p> De CSS die is gekoppeld aan automatisch aanvullen. U wordt aangeraden deze tag hoog op de pagina te plaatsen om de rendering van pagina's te verbeteren. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;formulierinhoud&gt; </span> </p> </td> 
-   <td colname="col2"> <p> Inhoud die binnen uw onderzoek-van voor het autocomplete nut aan haak-omhoog aan de correcte controle wordt vereist. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;form-content&gt; </span> </p> </td> 
+   <td colname="col2"> <p> Inhoud die binnen uw onderzoek-van voor het autocomplete nut wordt vereist om aan de correcte controle te koppelen. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> &lt;js&gt; </span> </p> </td> 
-   <td colname="col2"> <p> Aangepaste JavaScript die vereist is voor Automatisch aanvullen. Men adviseert dat u deze markering laag in de pagina plaatst om pagina het teruggeven te verbeteren. YUI JavaScript wordt ook vereist voor autocomplete. </p> </td> 
+   <td colname="col2"> <p> Aangepast JavaScript dat vereist is voor Automatisch aanvullen. U wordt aangeraden deze tag laag op de pagina te plaatsen om de rendering van pagina's te verbeteren. JavaScript voor de gebruikersinterface is ook vereist voor automatisch aanvullen. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;verborgen parameters&gt; </span> </p> </td> 
-   <td colname="col2"> <p> Bevat alle verborgen parameters (naam en waarde) om in de onderzoeksvorm te omvatten. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;hidden-parameters&gt; </span> </p> </td> 
+   <td colname="col2"> <p> Bevat alle verborgen parameters (naam en waarde) die in het zoekformulier moeten worden opgenomen. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Sorteren {#section_558853CD376F4D71BACF211D53085D55}
+## {#section_558853CD376F4D71BACF211D53085D55} sorteren
 
-Het volgende voorbeeld toont de gegevens voor een menu van de drie-optie soort. Het menu staat de klant toe om door relevantie, titel, of classificatie te sorteren. Het momenteel geselecteerde punt omvat een attribuut &quot;selected=true&quot;. &quot;. Bied altijd een relevantieoptie aan om een klant toe te staan om op de standaardonderzoeksresultaten terug te komen die oorspronkelijk werden getoond.
+In het volgende voorbeeld worden de gegevens voor een sorteermenu met drie opties getoond. Met dit menu kan de klant sorteren op relevantie, titel of classificatie. Het momenteel geselecteerde item bevat het kenmerk &quot;selected=true&quot;. &quot;. Bied altijd een relevantie optie aan om een klant toe te staan om op de standaardonderzoeksresultaten terug te komen die oorspronkelijk werden getoond.
 
 Voorbeeld:
 
@@ -739,29 +742,29 @@ Voorbeeld:
 <table> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> <p>Markeringen in het menu Sorteren </p> </th> 
+   <th colname="col1" class="entry"> <p>Labels in menu Sorteren </p> </th> 
    <th colname="col2" class="entry"> <p>Beschrijving </p> </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> &lt;label&gt; </span> </p> </td> 
-   <td colname="col2"> <p> De klant-onder ogen ziende tekst voor de optie. </p> </td> 
+   <td colname="col2"> <p> De klantgerichte tekst voor de optie. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;waarde&gt; </span> </p> </td> 
-   <td colname="col2"> <p> Vertegenwoordigt de waarde van de "soort"parameter van het vraagkoord voor deze optie. Deze markering is niet nodig als de <span class="codeph"> &lt;link&gt; </span> waarde wordt gebruikt. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;value&gt; </span> </p> </td> 
+   <td colname="col2"> <p> Vertegenwoordigt de waarde van de "soort"parameter van het vraagkoord voor deze optie. Deze tag is niet nodig als de waarde <span class="codeph"> &lt;link&gt; </span> wordt gebruikt. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> &lt;link&gt; </span> </p> </td> 
-   <td colname="col2"> <p> Voor de niet-geselecteerde opties, bevat de <span class="codeph"> &lt;link&gt; </span> parameter de relatieve verbinding die de zelfde resultaatreeks terugkeert, die door de nieuwe soortparameter wordt gesorteerd. Dit gebied is leeg voor de momenteel geselecteerde soortoptie. </p> </td> 
+   <td colname="col2"> <p> Voor de niet-geselecteerde opties bevat de <span class="codeph"> &lt;link&gt; </span> parameter de relatieve verbinding die de zelfde resultaatreeks terugkeert, die door de nieuwe soortparameter wordt gesorteerd. Dit veld is leeg voor de geselecteerde sorteeroptie. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Suggesties {#section_6EC104E1DDD94AC799B65E6E61A2FB3C}
 
-Suggesties worden teruggegeven als er maar een paar resultaten zijn of geen resultaten. Deze knoop bevat termijnen die succesvolle vragen opbrengen en op een pagina van &quot;Geen Resultaten&quot;kunnen worden getoond. De verbinding is ook teruggekeerd zodat kan een klant aan de nieuwe vraag springen.
+Suggesties worden geretourneerd als er slechts een paar resultaten of geen resultaten zijn. Dit knooppunt bevat termen die geen succesvolle query&#39;s opleveren en die kunnen worden weergegeven op een pagina &quot;Geen resultaten&quot;. De verbinding is ook teruggekeerd zodat kan een klant aan de nieuwe vraag springen.
 
 Voorbeeld:
 
@@ -775,23 +778,23 @@ Voorbeeld:
 <table> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> <p>Markeringen in suggesties </p> </th> 
+   <th colname="col1" class="entry"> <p>Tags in suggesties </p> </th> 
    <th colname="col2" class="entry"> <p>Beschrijving </p> </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> &lt;link&gt; </span> </p> </td> 
-   <td colname="col2"> <p>Een relatieve verbinding die wordt gebruikt om een hyperlink aan onderzoeksresultaten voor de voorsteltermijn tot stand te brengen. </p> </td> 
+   <td colname="col2"> <p>Een relatieve koppeling die wordt gebruikt om een hyperlink te maken naar zoekresultaten voor de suggestieterm. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;woord&gt; </span> </p> </td> 
-   <td colname="col2"> <p>De voorgestelde termijn. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;word&gt; </span> </p> </td> 
+   <td colname="col2"> <p>De voorgestelde term. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Zones {#section_AE53A498B440465EAF2286F2AE87D548}
+## Gebieden {#section_AE53A498B440465EAF2286F2AE87D548}
 
 Voorbeeld:
 
@@ -807,35 +810,35 @@ Voorbeeld:
 <table> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> <p>Markeringen in zones </p> </th> 
+   <th colname="col1" class="entry"> <p>Labels in zones </p> </th> 
    <th colname="col2" class="entry"> <p>Beschrijving </p> </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> &lt;zone&gt; </span> </p> </td> 
-   <td colname="col2"> <p> Een individuele streekknoop. U kunt veelvoudige streekknopen hebben. </p> </td> 
+   <td colname="col2"> <p> Een afzonderlijk knooppunt voor zones. U kunt meerdere streekknooppunten hebben. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;naam&gt; </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;name&gt; </span> </p> </td> 
    <td colname="col2"> <p> De naam van de zone. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> &lt;display&gt; </span> </p> </td> 
-   <td colname="col2"> <p> 1 of 0 om erop te wijzen als de streek of niet wordt getoond. De daadwerkelijke streekinhoud kan een statisch gebied op uw Web-pagina of in uw onderzoeksresultaten, zoals beste verkopers of verwante producten zijn. </p> </td> 
+   <td colname="col2"> <p> 1 of 0 om erop te wijzen of de streek of niet wordt getoond. De werkelijke zone-inhoud kan een statisch gebied op uw webpagina of in uw zoekresultaten zijn, zoals beste verkopers of verwante producten. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## De geleide Output van XML van het Onderzoek {#reference_D93E859A277643068B10AE7A61C973EA}
+## XML-uitvoer met instructies zoeken {#reference_D93E859A277643068B10AE7A61C973EA}
 
-Lijsten die de standaardde reactieoutput van XML beschrijven.
+Tabellen die de standaard XML-responsuitvoer beschrijven.
 
-U kunt de reactie van XML voor het volgende herzien:
+U kunt de XML-reactie op het volgende controleren:
 
 * [Banners](../c-appendices/c-guidedsearchoutput.md#section_6A19EC26DD3B494194AAA788151B78B5)
-* [Breadcrumb](../c-appendices/c-guidedsearchoutput.md#section_E48A71B0EBDB4EDDA7587009AD865488)
-* [Facturen](../c-appendices/c-guidedsearchoutput.md#section_5CEB1F966C004FFEA3CF675638966E25)
+* [Broodkruimel](../c-appendices/c-guidedsearchoutput.md#section_E48A71B0EBDB4EDDA7587009AD865488)
+* [Facetten](../c-appendices/c-guidedsearchoutput.md#section_5CEB1F966C004FFEA3CF675638966E25)
 * [Koptekst en query](../c-appendices/c-guidedsearchoutput.md#section_802835E19BCB48239C6770A1B72DFFF8)
 * [Paginering](../c-appendices/c-guidedsearchoutput.md#section_72DB86DDE1284B1EA295CFFBC16A3150)
 * [Recente zoekopdrachten](../c-appendices/c-guidedsearchoutput.md#section_BCA2DDD17F264CF6BA11634E1A514E28)
@@ -868,22 +871,22 @@ Voorbeeld:
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> &lt;banner&gt; </span> </p> </td> 
-   <td colname="col2"> <p> Een individuele bannerknoop. U kunt veelvoudige bannerknopen hebben. </p> </td> 
+   <td colname="col2"> <p> Een afzonderlijk bannerknooppunt. U kunt meerdere bannerknooppunten hebben. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> &lt;area&gt; </span> </p> </td> 
-   <td colname="col2"> <p> Het gebied op de Web-pagina waar de banner wordt getoond. </p> </td> 
+   <td colname="col2"> <p> Het gebied op de webpagina waar de banner wordt weergegeven. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> &lt;content&gt; </span> </p> </td> 
-   <td colname="col2"> <p> De inhoud van HTML voor het bannergebied. </p> </td> 
+   <td colname="col2"> <p> De HTML-inhoud voor het bannergebied. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Breadcrumb {#section_E48A71B0EBDB4EDDA7587009AD865488}
+## Broodkruimel {#section_E48A71B0EBDB4EDDA7587009AD865488}
 
-In het volgende voorbeeld, telkens als de klant verder door de facetten versmalt, wordt de selectie toegevoegd aan de broodkruimel. Elk punt wordt vertegenwoordigd als `<breadcrumb-item>`.
+In het volgende voorbeeld wordt de selectie toegevoegd aan de broodkruimel telkens wanneer de klant de facetten verder doorloopt. Elk item wordt weergegeven als een `<breadcrumb-item>`.
 
 Voorbeeld:
 
@@ -903,29 +906,29 @@ Voorbeeld:
 <table> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> <p>Markeringen in Breadcrumb </p> </th> 
+   <th colname="col1" class="entry"> <p>Tags in Breadcrumb </p> </th> 
    <th colname="col2" class="entry"> <p>Beschrijving </p> </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> &lt;link&gt; </span> </p> </td> 
-   <td colname="col2"> <p> Een relatieve verbinding aan onderzoeksresultaten die de gewenste mening toont. Het klikken van een broodkruimelverbinding neemt de klant aan een mening waar alle verdere verfijningen worden verwijderd. Andere opties zijn ook beschikbaar. </p> </td> 
+   <td colname="col2"> <p> Een relatieve koppeling naar de zoekresultaten die de gewenste weergave toont. Als u op een koppeling breadcrumb klikt, gaat de klant naar een weergave waarin alle verfijningen die erop volgen, worden verwijderd. Er zijn ook andere opties beschikbaar. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;waarde&gt; </span> </p> </td> 
-   <td colname="col2"> <p> Klant-onder ogen ziende tekst voor het broodkruimelpunt. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;value&gt; </span> </p> </td> 
+   <td colname="col2"> <p> Klantgerichte tekst voor het broodkruimelitem. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Facturen {#section_5CEB1F966C004FFEA3CF675638966E25}
+## Facetten {#section_5CEB1F966C004FFEA3CF675638966E25}
 
-De factoren zijn raffinageopties die klanten de capaciteit geven om op de resultaten te filtreren. De factoren worden algemeen gebruikt voor categorisering, prijswaaiers, kleurenselecties, en andere attributenraffinage. De meta-gegevens in de index is wat aandrijvingsfacetten.
+Facetten zijn verfijningsopties die klanten de mogelijkheid bieden om op de resultaten te filteren. Facetten worden doorgaans gebruikt voor categorisering, prijsbereiken, kleurselecties en andere kenmerkverfijning. De metagegevens in de index zijn de factoren die de basis vormen.
 
-Het is gemeenschappelijk om categoriseringsfacetten&#39; te verbergen of te tonen aangezien een klant zich neer door de categorisatie beweegt. Het hoogste niveau van categorisering (categorie) staat bekend als Tier 1. Wanneer een klant op een Tier 1-optie klikt, worden de opties voor Tier 2-verfijning (subcategorie) weergegeven en verdwijnen de opties voor Tier 1. Wanneer een klant op een optie voor niveau 2 klikt, worden de opties voor de verfijning van niveau 3 (subcategorie) weergegeven en verdwijnen de opties voor niveau 2. Zoals hierboven genoteerd, zijn deze opties verborgen en getoond-uw Webtoepassing wordt niet beïnvloed door hen.
+Het is gebruikelijk om categoriseringsfacetten&#39; te verbergen of te tonen aangezien een klant onderaan door categorisering beweegt. Het hoogste niveau van categorisering (categorie) wordt Tier 1 genoemd. Wanneer een klant op een optie voor Tier 1 klikt, worden de opties voor Tier 2-verfijning (subcategorie) weergegeven en verdwijnen de opties voor Tier 1. Wanneer een klant op een optie voor Tier 2 klikt, worden de opties voor de verfijning voor Tier 3 (subcategorie) weergegeven en verdwijnen de opties voor Tier 2. Zoals hierboven vermeld, zijn deze opties verborgen en weergegeven. De webtoepassing heeft hierop geen invloed.
 
-Elk facet is bevat binnen `<facet-item>` markeringen. In het volgende voorbeeld, toont het één facet dat de klant toestaat om de onderzoeksresultaten door &quot;vakantie&quot;te raffineren.
+Elk facet bevindt zich binnen `<facet-item>`-tags. In het volgende voorbeeld wordt één facet weergegeven waarmee de klant de zoekresultaten kan verfijnen met &#39;vakantie&#39;.
 
 Voorbeeld:
 
@@ -1008,30 +1011,30 @@ Voorbeeld:
 <table> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> <p>Markeringen in facetten </p> </th> 
+   <th colname="col1" class="entry"> <p>Labels in facetten </p> </th> 
    <th colname="col2" class="entry"> <p>Beschrijving </p> </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;facettitel&gt; </span> </p> </td> 
-   <td colname="col2"> <p> Klantgerichte titel voor het facet. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;facet-title&gt; </span> </p> </td> 
+   <td colname="col2"> <p> Klantgerichte titel voor de facet. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> &lt;label&gt; </span> </p> </td> 
-   <td colname="col2"> <p> Klantgericht etiket voor de facetoptie. </p> </td> 
+   <td colname="col2"> <p> Klantgericht label voor de facetoptie. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> &lt;link&gt; </span> </p> </td> 
-   <td colname="col2"> <p> Relatieve verbinding aan resultaten die de optie neer raffineert. </p> </td> 
+   <td colname="col2"> <p> Relatieve koppeling naar resultaten die door de optie worden verfijnd. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> &lt;count&gt; </span> </p> </td> 
-   <td colname="col2"> <p> Het aantal resultaten in die geraffineerde resultaatreeks. </p> </td> 
+   <td colname="col2"> <p> Het aantal resultaten in die verfijnde resultaatset. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> &lt;undolink&gt; </span> </p> </td> 
-   <td colname="col2"> <p> Wanneer een facetwaarde wordt geselecteerd keert de knoop "ongedaan maakt verbinding"terug die een klant uit de resultaten laat terug. </p> </td> 
+   <td colname="col2"> <p> Wanneer een facetwaarde wordt geselecteerd, keert de knoop "undo verbinding"terug die een klant uit de resultaten laat terug. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -1051,12 +1054,12 @@ Voorbeeld:
  </query> 
 ```
 
-Samen gebruikt, stellen deze markeringen een bericht zoals het volgende voor: &quot;Weergegeven resultaten 1-16 van 621 voor &#39;nieuw jaar&#39;.&quot;
+Deze tags worden samen gebruikt en geven een bericht weer, zoals: &quot;De resultaten 1-16 van 621 voor het nieuwe jaar worden weergegeven.&quot;
 
 <table> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> <p>Markeringen in Kopbal en Vraag </p> </th> 
+   <th colname="col1" class="entry"> <p>Tags in koptekst en query </p> </th> 
    <th colname="col2" class="entry"> <p>Beschrijving </p> </th> 
   </tr> 
  </thead>
@@ -1066,20 +1069,20 @@ Samen gebruikt, stellen deze markeringen een bericht zoals het volgende voor: &q
    <td colname="col2"> <p> De sleutelwoordvraag die met het verzoek wordt voorgelegd. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;lagere resultaten&gt; </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;lower-results&gt; </span> </p> </td> 
    <td colname="col2"> <p> Het objectnummer van het eerste resultaat op deze pagina. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;bovenste resultaten&gt; </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;upper-results&gt; </span> </p> </td> 
    <td colname="col2"> <p> Het objectnummer van het laatste resultaat op deze pagina. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;totale resultaten&gt; </span> </p> </td> 
-   <td colname="col2"> <p> Het totale aantal resultaten die de gebruikersvraag aanpassen. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;total-results&gt; </span> </p> </td> 
+   <td colname="col2"> <p> Het totale aantal resultaten dat overeenkomt met de gebruikersquery. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;aangepast veld&gt; </span> </p> </td> 
-   <td colname="col2"> <p> Een facultatief gebied dat globaal op de onderzoeksresultaten van toepassing is. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;custom-field&gt; </span> </p> </td> 
+   <td colname="col2"> <p> Een optioneel veld dat algemeen van toepassing is op de zoekresultaten. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -1113,45 +1116,45 @@ Voorbeeld:
 <table> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> <p>Markeringen in Paginering </p> </th> 
+   <th colname="col1" class="entry"> <p>Labels in paginering </p> </th> 
    <th colname="col2" class="entry"> <p>Beschrijving </p> </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;totaal aantal pagina's&gt; </span> </p> </td> 
-   <td colname="col2"> <p> Totaal aantal bladzijden van de resultaten, op basis van het aantal resultaten gedeeld door het aantal resultaten per pagina. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;total-pages&gt; </span> </p> </td> 
+   <td colname="col2"> <p> Het totale aantal pagina's met resultaten, gebaseerd op het aantal resultaten gedeeld door het aantal resultaten per pagina. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> &lt;page position="first"&gt; </span> </p> </td> 
-   <td colname="col2"> <p> Bevat een relatieve verbinding aan de eerste pagina in de resultaatreeks, tenzij de klant reeds pagina 1 bekijkt. In dat geval is het leeg. </p> </td> 
+   <td colname="col2"> <p> Bevat een relatieve koppeling naar de eerste pagina in de resultatenset, tenzij de klant pagina 1 al weergeeft. In dat geval is het leeg. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> &lt;page position="last"&gt; </span> </p> </td> 
-   <td colname="col2"> <p> Bevat een relatieve verbinding aan de laatste pagina in de resultaatreeks, tenzij de klant de laatste pagina bekijkt. In dat geval is het leeg. </p> </td> 
+   <td colname="col2"> <p> Bevat een relatieve koppeling naar de laatste pagina in de resultatenset, tenzij de klant de laatste pagina bekijkt. In dat geval is het leeg. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;page position="Vorige"&gt; </span> </p> </td> 
-   <td colname="col2"> <p> Bevat een relatieve verbinding aan de vorige pagina in de resultaatreeks, tenzij de klant pagina 1 bekijkt; in een dergelijk geval is het blanco . </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;page position="previous"&gt; </span> </p> </td> 
+   <td colname="col2"> <p> Bevat een relatieve koppeling naar de vorige pagina in de resultatenset, tenzij de klant pagina 1 weergeeft; in dat geval is het leeg . </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> &lt;page position="next"&gt; </span> </p> </td> 
-   <td colname="col2"> <p> Bevat een relatieve verbinding aan de laatste pagina in de resultaatreeks, tenzij de klant de laatste pagina bekijkt. In dat geval is het leeg. </p> </td> 
+   <td colname="col2"> <p> Bevat een relatieve koppeling naar de laatste pagina in de resultatenset, tenzij de klant de laatste pagina bekijkt. In dat geval is het leeg. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;page position="x" </span> </p> </td> 
-   <td colname="col2"> <p> Bevat een relatieve verbinding aan een bepaald paginaaantal. Tien aaneengesloten paginaaantallen worden getoond. Op bladzijde 1 zou het pagina 1-10 zijn. Aan het eind van het vastgestelde resultaat (in dit geval, 39), zou het pagina 30-39 zijn. Bijvoorbeeld, in het centrum van de resultaatreeks, pagina 15, zou het pagina 11-20 zijn. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;page position="x"&gt;</span> </p> </td> 
+   <td colname="col2"> <p> Bevat een relatieve koppeling naar een bepaald paginanummer. Er worden tien opeenvolgende paginanummers weergegeven. Op pagina 1 zou het pagina 1-10 zijn. Aan het einde van de resultaatset (in dit geval 39) zijn het de bladzijden 30-39. In het midden van de resultatenset, pagina 15, zou het bijvoorbeeld pagina's 11-20 zijn. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> selected="true"&gt; </span> </p> </td> 
-   <td colname="col2"> <p> Toegepast als attribuut op de momenteel geselecteerde pagina. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> selected="true"&gt;  </span> </p> </td> 
+   <td colname="col2"> <p> Toegepast als kenmerk op de geselecteerde pagina. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Recente zoekopdrachten {#section_BCA2DDD17F264CF6BA11634E1A514E28}
 
-Recente zoekopdrachten zijn een cookie-gebaseerde functie die alleen werkt als u de cookie-informatie doorgeeft aan de servers.
+Recent zoeken is een op cookies gebaseerde functie die alleen werkt als u de cookie-informatie doorgeeft aan de servers.
 
 Voorbeeld:
 
@@ -1167,33 +1170,33 @@ Voorbeeld:
 <table> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> <p>Markeringen in recente zoekopdrachten </p> </th> 
+   <th colname="col1" class="entry"> <p>Tags in recente zoekopdrachten </p> </th> 
    <th colname="col2" class="entry"> <p>Beschrijving </p> </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;recent zoeken&gt; </span> </p> </td> 
-   <td colname="col2"> <p> Een individuele recent-onderzoeksknoop. U kunt veelvoudige recent-onderzoeksknopen hebben. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;recent-search&gt; </span> </p> </td> 
+   <td colname="col2"> <p> Een individueel recent-onderzoek knooppunt. U kunt meerdere knooppunten voor recent zoeken hebben. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;zoekterm&gt; </span> </p> </td> 
-   <td colname="col2"> <p> De termijn die de klant eerder zocht naar. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;search-term&gt; </span> </p> </td> 
+   <td colname="col2"> <p> De term die de klant eerder heeft gezocht. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> &lt;link&gt; </span> </p> </td> 
-   <td colname="col2"> <p> Links naar de vorige zoekopdracht. </p> </td> 
+   <td colname="col2"> <p> Koppelingen naar de vorige zoekopdracht. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Resultaten {#section_EC496F5CA2634158891455E2F6DF6833}
 
-De reeks van Resultaten is een klantgericht gebied van de reactie van XML. Elke index is uniek op de gebied noemende mechanismen van meta-gegevens. Er zijn gemeenschappelijke gebieden die voor elk resultaat zoals titel, beschrijving, en URL zijn teruggekeerd. Maar, om het even welke meta-gegevens die voor een pagina in de index worden bepaald kunnen beschikbaar worden om in elke resultaatknoop te gebruiken. De indeling, de prijzen, de kleuren en de miniaturen zijn slechts een paar opties die u op een resultaat kunt toepassen om meer dwingende zoekresultaten te produceren.
+De resultaatset is een aanpasbaar gebied van de XML-reactie. Elke index is uniek in de veld noemende mechanismen van meta-gegevens. Er zijn gemeenschappelijke gebieden die voor elk resultaat zoals titel, beschrijving, en URL zijn teruggekeerd. Maar alle metagegevens die voor een pagina in de index zijn gedefinieerd, kunnen beschikbaar worden voor gebruik in elk resultaatknooppunt. Categorisering, prijzen, kleuren en miniaturen zijn slechts een paar opties die u op een resultaat kunt toepassen om overtuigender zoekresultaten te produceren.
 
-Het formaat van Resultaten wordt aangepast gebaseerd op de meta-gegevens die voor uw implementatie specifiek zijn. Om het even welke per-resultaatgegevens voor vertoning in de resultaten, met inbegrip van duimnagelbeeld URLs, is bevat hier.
+De indeling Resultaten wordt aangepast op basis van de metagegevens die specifiek zijn voor uw implementatie. Hier vindt u alle gegevens per resultaat die in de resultaten worden weergegeven, inclusief URL&#39;s van miniatuurafbeeldingen.
 
-Bovendien is het mogelijk om veelvoudige resultaatstreken binnen de pagina, zoals &quot;Getoonde Resultaten&quot;te vormen, of afzonderlijke &quot;Producten&quot;en &quot;Inhoud&quot;resultatensecties te vormen. In deze gevallen, worden de veelvoudige resultaatstreken verstrekt binnen HTML, hoewel de facetten slechts met de primaire resultaatreeks worden geassocieerd.
+Bovendien is het mogelijk om veelvoudige resultaatstreken binnen de pagina, zoals &quot;Aanbevolen Resultaten&quot;te vormen, of afzonderlijke &quot;Producten&quot;en &quot;Inhoud&quot;resultaatsecties. In deze gevallen worden er meerdere resultaatzones opgegeven in de HTML, hoewel facetten alleen aan de primaire resultaatset zijn gekoppeld.
 
 Voorbeeld:
 
@@ -1310,27 +1313,27 @@ traditions-to-start-this-year-parties-photo-160-FF1107HOLIA01.jpg]]></large-thum
 <table> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> <p>Markeringen in resultaten </p> </th> 
+   <th colname="col1" class="entry"> <p>Tags in resultaten </p> </th> 
    <th colname="col2" class="entry"> <p>Beschrijving </p> </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> &lt;index&gt; </span> </p> </td> 
-   <td colname="col2"> <p> Het serienummer van het resultaat binnen deze resultaatreeks. In dit voorbeeld, waar tien resultaten per pagina, op pagina 2 van de resultaten worden getoond, zou het eerste punt een index van 11 hebben. </p> </td> 
+   <td colname="col2"> <p> Het serienummer van het resultaat binnen deze resultatenset. In dit voorbeeld, waar tien resultaten per pagina worden getoond, op pagina 2 van de resultaten, zou het eerste punt een index van 11 hebben. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;resultaat-titel&gt; </span> </p> </td> 
-   <td colname="col2"> <p> De klant-onder ogen ziende titel voor deze pagina. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;result-title&gt; </span> </p> </td> 
+   <td colname="col2"> <p> De klantgerichte titel voor deze pagina. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> &lt;url&gt; </span> </p> </td> 
-   <td colname="col2"> <p> URL voor deze pagina. Het wordt gebruikt om een hyperlink tot stand te brengen die de klant door de resultaten laat klikken. </p> </td> 
+   <td colname="col2"> <p> De URL voor deze pagina. Het wordt gebruikt om een hyperlink tot stand te brengen die de klant door de resultaten laat klikken. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Zoekformulier {#section_F92D8C3D37174A10A4E26CAFF3F3DF89}
+## Formulier {#section_F92D8C3D37174A10A4E26CAFF3F3DF89} doorzoeken
 
 Voorbeeld:
 
@@ -1361,41 +1364,41 @@ Voorbeeld:
 <table> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> <p>Markeringen in zoekformulier </p> </th> 
+   <th colname="col1" class="entry"> <p>Tags in zoekformulier </p> </th> 
    <th colname="col2" class="entry"> <p>Beschrijving </p> </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> &lt;include-tnt-mbox&gt; </span> </p> </td> 
-   <td colname="col2"> <p> Optioneel. Wanneer aanwezig in XML, wijst een waarde van 1 het erop dat uw rekening met <span class="keyword"> Test&amp;Target </span> verbonden is en minstens één bedrijfsregel heeft die in een test A:B is. </p> </td> 
+   <td colname="col2"> <p> Optioneel. Indien aanwezig in XML, geeft een waarde van 1 aan dat uw account is gekoppeld aan <span class="keyword"> Test&amp;Target </span> en ten minste één bedrijfsregel heeft die in een A:B-test staat. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> &lt;autocomplete&gt; </span> </p> </td> 
-   <td colname="col2"> <p> Optioneel. Wanneer het gebruiken van auto-volledig, is deze knoop aanwezig om erop te wijzen dat CSS en JavaScript op de pagina samen met de inhoud aanwezig is die in de vorm is. Deze gebieden veranderen typisch niet tenzij iemand het autocomplete plaatsen heeft veranderd. In dergelijke gevallen, wordt het xxx_cache_ver gebied verhoogd om een ongeldigverklaring van de caching inhoud op browser van uw klant te dwingen. </p> </td> 
+   <td colname="col2"> <p> Optioneel. Wanneer u auto-complete gebruikt, is dit knooppunt aanwezig om aan te geven dat de CSS en JavaScript aanwezig zijn op de pagina samen met de inhoud in het formulier. Deze velden veranderen alleen als iemand een instelling voor automatisch aanvullen heeft gewijzigd. In dergelijke gevallen, wordt het xxx_cache_ver gebied verhoogd om een ongeldigverklaring van de caching inhoud op browser van uw klant te dwingen. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> &lt;css&gt; </span> </p> </td> 
-   <td colname="col2"> <p> CSS die met autocomplete wordt geassocieerd. Men adviseert dat u deze markering hoog in de pagina plaatst om pagina het teruggeven te verbeteren. </p> </td> 
+   <td colname="col2"> <p> De CSS die is gekoppeld aan automatisch aanvullen. U wordt aangeraden deze tag hoog op de pagina te plaatsen om de rendering van pagina's te verbeteren. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;formulierinhoud&gt; </span> </p> </td> 
-   <td colname="col2"> <p> Inhoud die binnen uw onderzoek-van voor het autocomplete nut aan haak-omhoog aan de correcte controle wordt vereist. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;form-content&gt; </span> </p> </td> 
+   <td colname="col2"> <p> Inhoud die binnen uw onderzoek-van voor het autocomplete nut wordt vereist om aan de correcte controle te koppelen. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> &lt;js&gt; </span> </p> </td> 
-   <td colname="col2"> <p> Aangepaste JavaScript die vereist is voor Automatisch aanvullen. Men adviseert dat u deze markering laag in de pagina plaatst om pagina het teruggeven te verbeteren. YUI JavaScript wordt ook vereist voor autocomplete. </p> </td> 
+   <td colname="col2"> <p> Aangepast JavaScript dat vereist is voor Automatisch aanvullen. U wordt aangeraden deze tag laag op de pagina te plaatsen om de rendering van pagina's te verbeteren. JavaScript voor de gebruikersinterface is ook vereist voor automatisch aanvullen. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;verborgen parameters&gt; </span> </p> </td> 
-   <td colname="col2"> <p> Bevat alle verborgen parameters (naam en waarde) om in de onderzoeksvorm te omvatten. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;hidden-parameters&gt; </span> </p> </td> 
+   <td colname="col2"> <p> Bevat alle verborgen parameters (naam en waarde) die in het zoekformulier moeten worden opgenomen. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Sorteren {#section_32DC50A103BF491BA3665A5CADCCAADE}
+## {#section_32DC50A103BF491BA3665A5CADCCAADE} sorteren
 
-Het volgende voorbeeld toont de gegevens voor een menu van de drie-optie soort. Het menu staat de klant toe om door relevantie, titel, of classificatie te sorteren. Het momenteel geselecteerde punt omvat een attribuut &quot;selected=true&quot;. &quot;. Bied altijd een relevantieoptie aan om een klant toe te staan om op de standaardonderzoeksresultaten terug te komen die oorspronkelijk werden getoond.
+In het volgende voorbeeld worden de gegevens voor een sorteermenu met drie opties getoond. Met dit menu kan de klant sorteren op relevantie, titel of classificatie. Het momenteel geselecteerde item bevat het kenmerk &quot;selected=true&quot;. &quot;. Bied altijd een relevantie optie aan om een klant toe te staan om op de standaardonderzoeksresultaten terug te komen die oorspronkelijk werden getoond.
 
 Voorbeeld:
 
@@ -1422,29 +1425,29 @@ Voorbeeld:
 <table> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> <p>Markeringen in het menu Sorteren </p> </th> 
+   <th colname="col1" class="entry"> <p>Labels in menu Sorteren </p> </th> 
    <th colname="col2" class="entry"> <p>Beschrijving </p> </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> &lt;label&gt; </span> </p> </td> 
-   <td colname="col2"> <p> De klant-onder ogen ziende tekst voor de optie. </p> </td> 
+   <td colname="col2"> <p> De klantgerichte tekst voor de optie. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;waarde&gt; </span> </p> </td> 
-   <td colname="col2"> <p> Vertegenwoordigt de waarde van de "soort"parameter van het vraagkoord voor deze optie. Deze markering is niet nodig als de <span class="codeph"> &lt;link&gt; </span> waarde wordt gebruikt. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;value&gt; </span> </p> </td> 
+   <td colname="col2"> <p> Vertegenwoordigt de waarde van de "soort"parameter van het vraagkoord voor deze optie. Deze tag is niet nodig als de waarde <span class="codeph"> &lt;link&gt; </span> wordt gebruikt. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> &lt;link&gt; </span> </p> </td> 
-   <td colname="col2"> <p> Voor de niet-geselecteerde opties, bevat de <span class="codeph"> &lt;link&gt; </span> parameter de relatieve verbinding die de zelfde resultaatreeks terugkeert, die door de nieuwe soortparameter wordt gesorteerd. Dit gebied is leeg voor de momenteel geselecteerde soortoptie. </p> </td> 
+   <td colname="col2"> <p> Voor de niet-geselecteerde opties bevat de <span class="codeph"> &lt;link&gt; </span> parameter de relatieve verbinding die de zelfde resultaatreeks terugkeert, die door de nieuwe soortparameter wordt gesorteerd. Dit veld is leeg voor de geselecteerde sorteeroptie. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Suggesties {#section_D81BCE46F0AF443695DF9C4BA084B716}
 
-Suggesties worden teruggegeven als er maar een paar resultaten zijn of geen resultaten. Deze knoop bevat termijnen die succesvolle vragen opbrengen en op een pagina van &quot;Geen Resultaten&quot;kunnen worden getoond. De verbinding is ook teruggekeerd zodat kan een klant aan de nieuwe vraag springen.
+Suggesties worden geretourneerd als er slechts een paar resultaten of geen resultaten zijn. Dit knooppunt bevat termen die geen succesvolle query&#39;s opleveren en die kunnen worden weergegeven op een pagina &quot;Geen resultaten&quot;. De verbinding is ook teruggekeerd zodat kan een klant aan de nieuwe vraag springen.
 
 Voorbeeld:
 
@@ -1458,23 +1461,23 @@ Voorbeeld:
 <table> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> <p>Markeringen in suggesties </p> </th> 
+   <th colname="col1" class="entry"> <p>Tags in suggesties </p> </th> 
    <th colname="col2" class="entry"> <p>Beschrijving </p> </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> &lt;link&gt; </span> </p> </td> 
-   <td colname="col2"> <p>Een relatieve verbinding die wordt gebruikt om een hyperlink aan onderzoeksresultaten voor de voorsteltermijn tot stand te brengen. </p> </td> 
+   <td colname="col2"> <p>Een relatieve koppeling die wordt gebruikt om een hyperlink te maken naar zoekresultaten voor de suggestieterm. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;woord&gt; </span> </p> </td> 
-   <td colname="col2"> <p>De voorgestelde termijn. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;word&gt; </span> </p> </td> 
+   <td colname="col2"> <p>De voorgestelde term. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Zones {#section_15D8AA585F3246799968BA88EE2C9FC2}
+## Gebieden {#section_15D8AA585F3246799968BA88EE2C9FC2}
 
 Voorbeeld:
 
@@ -1490,42 +1493,42 @@ Voorbeeld:
 <table> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> <p>Markeringen in zones </p> </th> 
+   <th colname="col1" class="entry"> <p>Labels in zones </p> </th> 
    <th colname="col2" class="entry"> <p>Beschrijving </p> </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> &lt;zone&gt; </span> </p> </td> 
-   <td colname="col2"> <p> Een individuele streekknoop. U kunt veelvoudige streekknopen hebben. </p> </td> 
+   <td colname="col2"> <p> Een afzonderlijk knooppunt voor zones. U kunt meerdere streekknooppunten hebben. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;naam&gt; </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;name&gt; </span> </p> </td> 
    <td colname="col2"> <p> De naam van de zone. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> &lt;display&gt; </span> </p> </td> 
-   <td colname="col2"> <p> 1 of 0 om erop te wijzen als de streek of niet wordt getoond. De daadwerkelijke streekinhoud kan een statisch gebied op uw Web-pagina of in uw onderzoeksresultaten, zoals beste verkopers of verwante producten zijn. </p> </td> 
+   <td colname="col2"> <p> 1 of 0 om erop te wijzen of de streek of niet wordt getoond. De werkelijke zone-inhoud kan een statisch gebied op uw webpagina of in uw zoekresultaten zijn, zoals beste verkopers of verwante producten. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## De geleide Output van XML van het Onderzoek voor de Manager van de Ervaring van Adobe {#reference_DBE13C606C3A4BB185DE53F88D0D3048}
+## XML-uitvoer met instructies voor zoeken in Adobe Experience Manager {#reference_DBE13C606C3A4BB185DE53F88D0D3048}
 
-Lijsten die de standaardde reactieoutput van XML voor AEM (de Manager van de Ervaring van Adobe) beschrijven.
+Tabellen die de standaard XML-responsuitvoer voor AEM (Adobe Experience Manager) beschrijven.
 
-Zie ook. [De geleide Output van XML van het Onderzoek](../c-appendices/c-guidedsearchoutput.md#reference_D93E859A277643068B10AE7A61C973EA)
+Zie ook . [XML-uitvoer met instructies voor zoeken](../c-appendices/c-guidedsearchoutput.md#reference_D93E859A277643068B10AE7A61C973EA)
 
-U kunt de reactie van XML voor het volgende herzien:
+U kunt de XML-reactie op het volgende controleren:
 
 * [Banners](../c-appendices/c-guidedsearchoutput.md#section_B16EDC5533FA4494AC9983AA7357CBE3)
-* [Breadcrumbs](../c-appendices/c-guidedsearchoutput.md#section_49EA7043FBE44315A79A4E738BE30114)
+* [Broodkruimels](../c-appendices/c-guidedsearchoutput.md#section_49EA7043FBE44315A79A4E738BE30114)
 * [Aangepaste velden](../c-appendices/c-guidedsearchoutput.md#section_38DD31AFE5DD4263A63644AFF484E0F4)
-* [Facturen](../c-appendices/c-guidedsearchoutput.md#section_BE98990E3DD748A1BD4E0CA322314B79)
+* [Facetten](../c-appendices/c-guidedsearchoutput.md#section_BE98990E3DD748A1BD4E0CA322314B79)
 * [Koptekst](../c-appendices/c-guidedsearchoutput.md#section_5305B1DC5774439485CA0665DB683F9C)
-* [Menus en Sorteren](../c-appendices/c-guidedsearchoutput.md#section_A34CBB645DBF4C70A12A5B7E81211295)
+* [Menu&#39;s en sorteren](../c-appendices/c-guidedsearchoutput.md#section_A34CBB645DBF4C70A12A5B7E81211295)
 * [Paginering](../c-appendices/c-guidedsearchoutput.md#section_E52F81C6A6EB4B8F996157B657EC540F)
-* [Vraag](../c-appendices/c-guidedsearchoutput.md#section_3DAA1013F09742869B80F6A361816E6C)
+* [Query](../c-appendices/c-guidedsearchoutput.md#section_3DAA1013F09742869B80F6A361816E6C)
 * [Recente zoekopdrachten](../c-appendices/c-guidedsearchoutput.md#section_17F942F6EC07456DABED7A483AC08446)
 * [Resultaten](../c-appendices/c-guidedsearchoutput.md#section_155A80B8C4F641678DD9C8F257108412)
 * [Zoekformulier](../c-appendices/c-guidedsearchoutput.md#section_9E4B99D4FEDC49629F6C7E866F3A7493)
@@ -1535,11 +1538,11 @@ U kunt de reactie van XML voor het volgende herzien:
 
 ## Banners {#section_B16EDC5533FA4494AC9983AA7357CBE3}
 
-Het onderzoek/de merchandising van de plaats kunnen de banners van een klant beheren, die de banners in diverse delen op een Web-pagina stoppen.
+Bij zoeken en verhandelen van sites kunt u de banners van een klant beheren en de banners op verschillende plaatsen op een webpagina aansluiten.
 
-Voorbeeld banner:
+Voorbeeldbanner:
 
-Het volgende is een voorbeeld van een banner die in het gebied van de pagina&#39;s genoemd &quot;bovenkant&quot;wordt geplaatst.
+Hieronder ziet u een voorbeeld van een banner die in het gebied van de pagina&#39;s met de naam &quot;top&quot; wordt geplaatst.
 
 ```xml
    <banners> 
@@ -1553,8 +1556,8 @@ Het volgende is een voorbeeld van een banner die in het gebied van de pagina&#39
 <table> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> <p>Node </p> </th> 
-   <th colname="col2" class="entry"> <p>Ouderlijke node </p> </th> 
+   <th colname="col1" class="entry"> <p>Knooppunt </p> </th> 
+   <th colname="col2" class="entry"> <p>Bovenliggend knooppunt </p> </th> 
    <th colname="col3" class="entry"> <p>Beschrijving </p> </th> 
   </tr> 
  </thead>
@@ -1562,33 +1565,33 @@ Het volgende is een voorbeeld van een banner die in het gebied van de pagina&#39
   <tr> 
    <td colname="col1"> <p>banners </p> </td> 
    <td colname="col2"> <p>klantresultaten </p> </td> 
-   <td colname="col3"> <p>Bevat 0-n bannerknopen die elk bannergebied en de inhoud aanduiden die in dat gebied wordt gestopt. </p> </td> 
+   <td colname="col3"> <p>Bevat 0-n bannerknooppunten die elk bannergebied aangeven en de inhoud die in dat gebied is aangesloten. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>banner </p> </td> 
    <td colname="col2"> <p>banners </p> </td> 
-   <td colname="col3"> <p>Een individuele bannerknoop. U kunt veelvoudige bannerknopen hebben. </p> </td> 
+   <td colname="col3"> <p>Een afzonderlijk bannerknooppunt. U kunt meerdere bannerknooppunten hebben. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>gebied </p> </td> 
    <td colname="col2"> <p>banner </p> </td> 
-   <td colname="col3"> <p>Het gebied op de Web-pagina waar de banner wordt getoond. </p> </td> 
+   <td colname="col3"> <p>Het gebied op de webpagina waar de banner wordt weergegeven. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>inhoud </p> </td> 
+   <td colname="col1"> <p>content </p> </td> 
    <td colname="col2"> <p>banner </p> </td> 
    <td colname="col3"> <p>De bannerinhoud. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Breadcrumbs {#section_49EA7043FBE44315A79A4E738BE30114}
+## Broodkruimels {#section_49EA7043FBE44315A79A4E738BE30114}
 
-Meerdere broodkruimels worden ondersteund. U kunt broodkruimels en hun overeenkomstig gedrag in **[!UICONTROL Design]** > **[!UICONTROL Navigation]** > **[!UICONTROL Breadcrumbs]** bepalen. Ook, moet u een unieke naam voor elke broodkruimel toewijzen die u bepaalt. De knoop van broodkruimelsXML herhaalt over elk van uw bepaalde broodkruimels. Het wordt geadviseerd dat u slechts één broodkruimel in uw onderzoek-resultaten toont.
+Meerdere broodkruimels worden ondersteund. U kunt broodkruimels en hun overeenkomstige gedrag in **[!UICONTROL Design]** > **[!UICONTROL Navigation]** > **[!UICONTROL Breadcrumbs]** bepalen. Ook, moet u een unieke naam voor elke broodkruimel toewijzen die u bepaalt. Het XML-knooppunt breadcrumbs herhaalt alle gedefinieerde broodkruimels. U wordt aangeraden slechts één broodkruimel weer te geven in de zoekresultaten.
 
-In het volgende voorbeeld, telkens als de klant verder door de facetten versmalt, wordt de selectie toegevoegd aan de broodkruimel. Elk punt wordt vertegenwoordigd als `<breadcrumb-item>`.
+In het volgende voorbeeld wordt de selectie toegevoegd aan de broodkruimel telkens wanneer de klant de facetten verder doorloopt. Elk item wordt weergegeven als een `<breadcrumb-item>`.
 
-Voorbeeld broodkruimelknooppunt:
+Voorbeeld van knooppunt breadcrumb:
 
 ```xml
     <breadcrumbs> 
@@ -1611,8 +1614,8 @@ Voorbeeld broodkruimelknooppunt:
 <table> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> <p>Node </p> </th> 
-   <th colname="col2" class="entry"> <p>Ouderlijke node </p> </th> 
+   <th colname="col1" class="entry"> <p>Knooppunt </p> </th> 
+   <th colname="col2" class="entry"> <p>Bovenliggend knooppunt </p> </th> 
    <th colname="col3" class="entry"> <p>Beschrijving </p> </th> 
   </tr> 
  </thead>
@@ -1620,46 +1623,46 @@ Voorbeeld broodkruimelknooppunt:
   <tr> 
    <td colname="col1"> <p>broodkruimels </p> </td> 
    <td colname="col2"> <p>klantresultaten </p> </td> 
-   <td colname="col3"> <p> Bevat 0-n breadcrumb knopen die elke broodkruimel bepalen. De meeste klanten hebben slechts één broodkruimel. </p> </td> 
+   <td colname="col3"> <p> Bevat 0-n breadcrumb knopen die elk breadcrumb bepalen. De meeste klanten hebben slechts één broodkruimel. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>broodkruimel </p> </td> 
    <td colname="col2"> <p>broodkruimels </p> </td> 
-   <td colname="col3"> <p> Bevat de kindknopen die de definitie van een broodkruimel bepalen. </p> </td> 
+   <td colname="col3"> <p> Bevat de onderliggende knooppunten die de definitie van een breadcrumb definiëren. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>naam </p> </td> 
+   <td colname="col1"> <p>name </p> </td> 
    <td colname="col2"> <p>broodkruimel </p> </td> 
-   <td colname="col3"> <p> De naam van de broodkruimel. </p> </td> 
+   <td colname="col3"> <p> De naam van het breadcrumb. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>broodkruimel </p> </td> 
-   <td colname="col2"> <p>Een individueel punt binnen de broodkruimel. Elk punt wijst op een stap in het spoor aangezien de gebruiker onderaan de resultaatreeks vernauwt. </p> </td> 
+   <td colname="col1"> <p>breadcrumb-item </p> </td> 
+   <td colname="col2"> <p>Een afzonderlijk item binnen de broodkruimel. Elk item duidt een stap in het verloop aan terwijl de gebruiker de resultatenset afsluit. </p> </td> 
    <td colname="col3"> <p> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>koppeling </p> </td> 
-   <td colname="col2"> <p>broodkruimel </p> </td> 
-   <td colname="col3"> <p> Een relatieve verbinding aan onderzoeksresultaten die de gewenste mening toont. Het klikken van een broodkruimelverbinding neemt de klant aan een mening waar alle verdere verfijningen worden verwijderd. Andere opties zijn ook beschikbaar zoals daling en verwijder. </p> </td> 
+   <td colname="col1"> <p>link </p> </td> 
+   <td colname="col2"> <p>breadcrumb-item </p> </td> 
+   <td colname="col3"> <p> Een relatieve koppeling naar de zoekresultaten die de gewenste weergave toont. Als u op een koppeling breadcrumb klikt, gaat de klant naar een weergave waarin alle verfijningen die erop volgen, worden verwijderd. Er zijn ook andere opties beschikbaar, zoals neerzetten en verwijderen. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>waarde </p> </td> 
-   <td colname="col2"> <p>broodkruimel </p> </td> 
-   <td colname="col3"> <p> Klant-onder ogen ziende tekst voor het broodkruimelpunt. </p> </td> 
+   <td colname="col1"> <p>value </p> </td> 
+   <td colname="col2"> <p>breadcrumb-item </p> </td> 
+   <td colname="col3"> <p> Klantgerichte tekst voor het broodkruimelitem. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>label </p> </td> 
-   <td colname="col2"> <p>broodkruimel </p> </td> 
-   <td colname="col3"> <p> De etiketmarkeringoutput een etiket voor een broodkruimelwaarde detailleert die facet werd geselecteerd om dat broodkruimelpunt te produceren. Het wordt slechts gebruikt in de context van een geleid-broodkruimelblok. Voor de stap van de vraagtermijn is dit leeg. </p> </td> 
+   <td colname="col2"> <p>breadcrumb-item </p> </td> 
+   <td colname="col3"> <p> Met de labeltag wordt een label voor een waarde van een breadcrumb weergegeven, waarin wordt aangegeven welke facet is geselecteerd om dat item van de breadcrumb te genereren. Het wordt alleen gebruikt in de context van een blok met instructies-breadcrumb. Voor de stap van de vraagtermijn is dit leeg. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Aangepaste velden {#section_38DD31AFE5DD4263A63644AFF484E0F4}
 
-De gebieden van de douane is een diverse inzameling van variabelen met een globale context. Het wordt typisch gebruikt om over variabelen voor SEO doeleinden over te gaan die in de meta-gegevens van de pagina van onderzoeksresultaten worden geplaatst.
+Aangepaste velden is een verzameling variabelen met een algemene context. Het wordt doorgaans gebruikt om variabelen voor SEO-doeleinden door te geven die zijn ingesteld in de metagegevens van de pagina met zoekresultaten.
 
-De knoop van de douanegebieden van het voorbeeld:
+Voorbeeld van knooppunt aangepaste velden:
 
 ```xml
     <custom-fields> 
@@ -1671,8 +1674,8 @@ De knoop van de douanegebieden van het voorbeeld:
 <table> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> <p>Node </p> </th> 
-   <th colname="col2" class="entry"> <p>Ouderlijke node </p> </th> 
+   <th colname="col1" class="entry"> <p>Knooppunt </p> </th> 
+   <th colname="col2" class="entry"> <p>Bovenliggend knooppunt </p> </th> 
    <th colname="col3" class="entry"> <p>Beschrijving </p> </th> 
   </tr> 
  </thead>
@@ -1680,25 +1683,25 @@ De knoop van de douanegebieden van het voorbeeld:
   <tr> 
    <td colname="col1"> <p>aangepaste velden </p> </td> 
    <td colname="col2"> <p>klantresultaten </p> </td> 
-   <td colname="col3"> <p> Kan 0-n kindknopen bevatten die douanegebieden bepalen. </p> </td> 
+   <td colname="col3"> <p> Kan onderliggende knooppunten van 0-n bevatten die aangepaste velden definiëren. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>aangepast veld </p> </td> 
    <td colname="col2"> <p>aangepaste velden </p> </td> 
-   <td colname="col3"> <p> Optioneel. Bevat een waarde voor een bepaald die douanegebied door de naamattributen wordt vermeld. </p> </td> 
+   <td colname="col3"> <p> Optioneel. Bevat een waarde voor een bepaald douanegebied dat door het naamattribuut wordt vermeld. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Facturen {#section_BE98990E3DD748A1BD4E0CA322314B79}
+## Facetten {#section_BE98990E3DD748A1BD4E0CA322314B79}
 
-De factoren zijn raffinageopties die klanten de capaciteit geven om op de resultaten te filtreren. De factoren worden algemeen gebruikt voor categorisering, prijswaaiers, kleurenselecties, en andere attributenraffinage. De factoren worden voortgebouwd bovenop de meta-gegevens in de index.
+Facetten zijn verfijningsopties die klanten de mogelijkheid bieden om op de resultaten te filteren. Facetten worden doorgaans gebruikt voor categorisering, prijsbereiken, kleurselecties en andere kenmerkverfijning. Facetten worden bovenop de meta-gegevens in de index gebouwd.
 
-Het is gemeenschappelijk om categoriseringsfacetten&#39; te verbergen of te tonen aangezien een klant zich neer door de categorisatie beweegt. Het hoogste niveau van categorisering (categorie) staat bekend als Tier 1. Wanneer een klant op een Tier 1-optie klikt, worden de opties voor Tier 2-verfijning (subcategorie) weergegeven en verdwijnen de opties voor Tier 1. Wanneer een klant op een Tier 2-optie klikt, worden de opties voor de raffinage van Tier 3 (subcategorie) weergegeven en verdwijnen de opties voor Tier 2. Zoals hierboven vermeld, worden deze opties verborgen en getoond; uw Webtoepassing beïnvloedt hen niet.
+Het is gebruikelijk om categoriseringsfacetten&#39; te verbergen of te tonen aangezien een klant onderaan door categorisering beweegt. Het hoogste niveau van categorisering (categorie) wordt Tier 1 genoemd. Wanneer een klant op een optie voor Tier 1 klikt, worden de opties voor Tier 2-verfijning (subcategorie) weergegeven en verdwijnen de opties voor Tier 1. Wanneer een klant op een optie voor Tier 2 klikt, worden de opties voor de verfijning van Tier 3 (subcategorie) weergegeven en verdwijnen de opties voor Tier 2. Zoals hierboven vermeld, worden deze opties verborgen en weergegeven. heeft geen invloed op deze toepassingen.
 
-Elk facet is bevat binnen `<facet-item>` markeringen. In het volgende voorbeeld, toont het één facet dat de klant de onderzoeksresultaten door &quot;vakantie&quot;laat raffineren.
+Elk facet bevindt zich binnen `<facet-item>`-tags. In het volgende voorbeeld wordt één facet weergegeven waarmee de klant de zoekresultaten kan verfijnen met &#39;vakantie&#39;.
 
-Voorbeeld van een facetblok:
+Voorbeeld van facetblok:
 
 ```xml
 <facets>          
@@ -1780,8 +1783,8 @@ Voorbeeld van een facetblok:
 <table> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> <p>Node </p> </th> 
-   <th colname="col2" class="entry"> <p>Ouderlijke node </p> </th> 
+   <th colname="col1" class="entry"> <p>Knooppunt </p> </th> 
+   <th colname="col2" class="entry"> <p>Bovenliggend knooppunt </p> </th> 
    <th colname="col3" class="entry"> <p>Beschrijving </p> </th> 
   </tr> 
  </thead>
@@ -1789,7 +1792,7 @@ Voorbeeld van een facetblok:
   <tr> 
    <td colname="col1"> <p>facetten </p> </td> 
    <td colname="col2"> <p>klantresultaten </p> </td> 
-   <td colname="col3"> <p>De knoop van de containerfacetten die 0-n kindknopen heeft die elk facet vertegenwoordigen. </p> </td> 
+   <td colname="col3"> <p>De knoop van de containerfacetten die 0-n kindknopen heeft die elke facet vertegenwoordigen. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>facet </p> </td> 
@@ -1799,52 +1802,52 @@ Voorbeeld van een facetblok:
   <tr> 
    <td colname="col1"> <p>facettitel </p> </td> 
    <td colname="col2"> <p>facet </p> </td> 
-   <td colname="col3"> <p>Klantgerichte titel voor het facet. </p> </td> 
+   <td colname="col3"> <p>Klantgerichte titel voor de facet. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>gedrag </p> </td> 
    <td colname="col2"> <p>facet </p> </td> 
-   <td colname="col3"> <p>Het gedrag van de facet. Bijvoorbeeld, normaal, kleverig, of multi-uitgezochte. </p> </td> 
+   <td colname="col3"> <p>Het gedrag van de facet. Bijvoorbeeld normaal, kleverig of multi-select. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>geselecteerd </p> </td> 
    <td colname="col2"> <p>facet </p> </td> 
-   <td colname="col3"> <p>1 als het facet een geselecteerde waarde anders 0 heeft. </p> </td> 
+   <td colname="col3"> <p>1 als de facet een geselecteerde waarde heeft anders 0. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>loskoppelen </p> </td> 
+   <td colname="col1"> <p>undo-link </p> </td> 
    <td colname="col2"> <p>facet </p> </td> 
-   <td colname="col3"> <p> Alleen aanwezig wanneer het facet is geselecteerd. De verbinding ongedaan maken keert het gehele facet terug. Bijvoorbeeld, wanneer het een multi-uitgezochte facet is, schrapt het alle geselecteerde opties voor het facet. </p> </td> 
+   <td colname="col3"> <p> Alleen aanwezig als het facet is geselecteerd. De koppeling Ongedaan maken verandert het hele facet. Als het bijvoorbeeld een veelgeselecteerd facet is, worden alle geselecteerde opties voor het facet uitgeschakeld. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>facetwaarde </p> </td> 
    <td colname="col2"> <p>facet </p> </td> 
-   <td colname="col3"> <p>Bevat alle individuele facetartikelen die tot het facet behoren. </p> </td> 
+   <td colname="col3"> <p>Bevat alle afzonderlijke facetitems die tot het facet behoren. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>geselecteerd </p> </td> 
    <td colname="col2"> <p>facetwaarde </p> </td> 
-   <td colname="col3"> <p>Als het huidige punt met het facet wordt geselecteerd, is deze knoop aanwezig en geplaatst aan "waar". </p> </td> 
+   <td colname="col3"> <p>Als het huidige item met de facet is geselecteerd, is dit knooppunt aanwezig en ingesteld op "true". </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>label </p> </td> 
    <td colname="col2"> <p>facetwaarde </p> </td> 
-   <td colname="col3"> <p>Klantgericht etiket voor de facetoptie. Door gebrek zou dit reeds door HTML-ontsnapt moeten zijn. </p> </td> 
+   <td colname="col3"> <p>Klantgericht label voor de facetoptie. Standaard moet dit al door HTML worden voorkomen. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>koppeling </p> </td> 
+   <td colname="col1"> <p>link </p> </td> 
    <td colname="col2"> <p>facetwaarde </p> </td> 
-   <td colname="col3"> <p> Relatieve link naar resultaten die de optie verder verfijnt. </p> </td> 
+   <td colname="col3"> <p> Relatieve koppeling naar resultaten die verder worden verfijnd. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>tellen </p> </td> 
+   <td colname="col1"> <p>aantal </p> </td> 
    <td colname="col2"> <p>facetwaarde </p> </td> 
-   <td colname="col3"> <p>Het aantal resultaten in die geraffineerde resultaatreeks. </p> </td> 
+   <td colname="col3"> <p>Het aantal resultaten in die verfijnde resultaatset. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>loskoppelen </p> </td> 
+   <td colname="col1"> <p>undo-link </p> </td> 
    <td colname="col2"> <p>facetwaarde </p> </td> 
-   <td colname="col3"> <p>Wanneer een facetwaarde wordt geselecteerd keert de knoop "ongedaan maakt verbinding"terug die een klant uit het selecteren van die individuele facetselectie laat. </p> </td> 
+   <td colname="col3"> <p>Wanneer een facetwaarde wordt geselecteerd, keert de knoop "undo verbinding"terug die een klant uit het selecteren van die individuele facetselectie laat. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -1857,13 +1860,13 @@ Voorbeeld:
 xml version="1.0" encoding="utf-8" standalone="yes" 
 ```
 
-## Menus en Sorteren {#section_A34CBB645DBF4C70A12A5B7E81211295}
+## Menu&#39;s en sorteren {#section_A34CBB645DBF4C70A12A5B7E81211295}
 
-De menu&#39;s voor het sorteren van de resultaten worden gesteund, en veranderend het aantal resultaten per pagina terug te keren. Het steunt ook een navigatiemenu dat nuttig is om &quot;onderzoek als navigatie&quot;te gebruiken. Een rekening kan veelvoudige menu&#39;s van het zelfde type bepalen en om het even welke menu&#39;s voor hun presentatie gebruiken.
+Menu&#39;s voor het sorteren van de resultaten worden ondersteund en het aantal resultaten dat per pagina moet worden geretourneerd, wordt gewijzigd. Het ondersteunt ook een navigatiemenu dat nuttig is voor het gebruik van &quot;zoeken als navigatie&quot;. Een account kan meerdere menu&#39;s van hetzelfde type definiëren en een van de menu&#39;s voor de presentatie gebruiken.
 
-De menusknoop van het voorbeeld:
+Menu-voorbeeldknooppunt:
 
-Het volgende voorbeeld toont de gegevens voor een menu van de drie-optie soort en navigatiemenu. Het soortmenu staat de klant toe om door relevantie, titel, of classificatie te sorteren. Het momenteel geselecteerde punt omvat een attribuut &quot;selected=true&quot;. &quot;. Bied altijd een relevantieoptie aan om een klant toe te staan om op de standaardonderzoeksresultaten terug te komen die oorspronkelijk werden getoond.
+In het volgende voorbeeld worden de gegevens voor een sorteermenu met drie opties en een navigatiemenu getoond. Met het sorteermenu kan de klant sorteren op relevantie, titel of classificatie. Het momenteel geselecteerde item bevat het kenmerk &quot;selected=true&quot;. &quot;. Bied altijd een relevantie optie aan om een klant toe te staan om op de standaardonderzoeksresultaten terug te komen die oorspronkelijk werden getoond.
 
 ```xml
 <menus> 
@@ -1934,57 +1937,57 @@ Het volgende voorbeeld toont de gegevens voor een menu van de drie-optie soort e
 <table> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> <p>Node </p> </th> 
-   <th colname="col2" class="entry"> <p>Ouderlijke node </p> </th> 
+   <th colname="col1" class="entry"> <p>Knooppunt </p> </th> 
+   <th colname="col2" class="entry"> <p>Bovenliggend knooppunt </p> </th> 
    <th colname="col3" class="entry"> <p>Beschrijving </p> </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>menus </p> </td> 
+   <td colname="col1"> <p>menu's </p> </td> 
    <td colname="col2"> <p>klantresultaten </p> </td> 
    <td colname="col3"> <p>Bevat 0-n kindknopen die elk menu bepalen. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>menu </p> </td> 
-   <td colname="col2"> <p>menus </p> </td> 
-   <td colname="col3"> <p>Enige instantie van een menu (beantwoordt aan een menu dat in <span class="uicontrol"> Ontwerp </span> &gt; <span class="uicontrol"> Navigatie </span> &gt; <span class="uicontrol"> Menu's </span>) wordt bepaald. </p> </td> 
+   <td colname="col2"> <p>menu's </p> </td> 
+   <td colname="col3"> <p>Eén instantie van een menu (komt overeen met een menu dat is gedefinieerd in <span class="uicontrol"> Ontwerp </span> &gt; <span class="uicontrol"> Navigatie </span> &gt; <span class="uicontrol"> Menu's </span>). </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>naam </p> </td> 
+   <td colname="col1"> <p>name </p> </td> 
    <td colname="col2"> <p>menu </p> </td> 
    <td colname="col3"> <p>Naam van het menu. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>object </p> </td> 
+   <td colname="col1"> <p>item </p> </td> 
    <td colname="col2"> <p>menu </p> </td> 
-   <td colname="col3"> <p>Bepaalt elk punt in het menu. Het optionele kenmerk is ingesteld op true als het bepaalde menu-item momenteel is geselecteerd. </p> </td> 
+   <td colname="col3"> <p>Hiermee definieert u elk item in het menu. Het geselecteerde optionele kenmerk wordt ingesteld op true als het opgegeven menu-item momenteel is geselecteerd. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>label </p> </td> 
-   <td colname="col2"> <p>object </p> </td> 
-   <td colname="col3"> <p>De klant-onder ogen ziende tekst voor het menupunt. </p> </td> 
+   <td colname="col2"> <p>item </p> </td> 
+   <td colname="col3"> <p>De klantgerichte tekst voor het menupunt. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>waarde </p> </td> 
-   <td colname="col2"> <p>object </p> </td> 
-   <td colname="col3"> <p>Vertegenwoordigt de waarde van het menupunt (de waarde van de vraagparameter die het menu ook wordt geplaatst). Deze markering is niet nodig als de waarde &lt;link&gt; wordt gebruikt. </p> </td> 
+   <td colname="col1"> <p>value </p> </td> 
+   <td colname="col2"> <p>item </p> </td> 
+   <td colname="col3"> <p>Geeft de waarde van het menu-item aan (de waarde van de queryparameter waarop het menu is ingesteld). Deze tag is niet nodig als de waarde &lt;link&gt; wordt gebruikt. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>koppeling </p> </td> 
-   <td colname="col2"> <p>object </p> </td> 
-   <td colname="col3"> <p>Voor de niet-geselecteerde opties, bevat de &lt;link&gt; parameter de relatieve verbinding die de zelfde resultaatreeks terugkeert, maar met de toegepaste menuoptie. Dit gebied is leeg voor de momenteel geselecteerde soortoptie. </p> </td> 
+   <td colname="col1"> <p>link </p> </td> 
+   <td colname="col2"> <p>item </p> </td> 
+   <td colname="col3"> <p>Voor de niet-geselecteerde opties bevat de parameter &lt;link&gt; de relatieve koppeling die dezelfde resultatenset retourneert, maar met de toegepaste menuoptie. Dit veld is leeg voor de geselecteerde sorteeroptie. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Paginering {#section_E52F81C6A6EB4B8F996157B657EC540F}
 
-De reeksen van resultaten zijn verdeeld over verscheidene pagina&#39;s. Typisch tonen de klanten 10 - 20 resultaten op één enkele pagina. De verdere resultaten worden getoond op de volgende pagina. De paginering XML laat u een reeks navigatiekoppelingen bouwen zodat uw klanten, pagina door pagina, door de resultaatreeksen kunnen doorbladeren. Er zijn vier beschikbare navigatiekoppelingen: eerst, laatste, volgende, en vorige. Elk type van verbinding laat klanten zich snel door de pagina&#39;s bewegen zodat kunnen zij herzien en raffineren wat zij zoeken, gemakkelijk.
+Resultaatsets worden over meerdere pagina&#39;s gesplitst. Meestal geven klanten 10 tot 20 resultaten weer op één pagina. De volgende resultaten worden weergegeven op de volgende pagina. Met de paginering-XML kunt u een set navigatiekoppelingen maken, zodat uw klanten per pagina door de resultaatsets kunnen bladeren. Er zijn vier beschikbare navigatiekoppelingen: eerste, laatste, volgende en vorige. Met elk type koppeling kunnen klanten snel door de pagina&#39;s bladeren, zodat ze eenvoudig kunnen bekijken en verfijnen wat ze zoeken.
 
-Het volgende voorbeeld toont de paginering voor een onderzoek dat op de eerste pagina met de paginering is die wordt gevormd om verbindingen aan vijf pagina&#39;s te tonen.
+In het volgende voorbeeld ziet u de paginering voor een zoekopdracht op de eerste pagina waarvoor de paginering is geconfigureerd om koppelingen naar vijf pagina&#39;s weer te geven.
 
-Voorbeeld pagineren:
+Voorbeeld van paginering:
 
 ```xml
     <pagination> 
@@ -2005,8 +2008,8 @@ Voorbeeld pagineren:
 <table> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> <p>Node </p> </th> 
-   <th colname="col2" class="entry"> <p>Ouderlijke node </p> </th> 
+   <th colname="col1" class="entry"> <p>Knooppunt </p> </th> 
+   <th colname="col2" class="entry"> <p>Bovenliggend knooppunt </p> </th> 
    <th colname="col3" class="entry"> <p>Beschrijving </p> </th> 
   </tr> 
  </thead>
@@ -2014,29 +2017,29 @@ Voorbeeld pagineren:
   <tr> 
    <td colname="col1"> <p>paginering </p> </td> 
    <td colname="col2"> <p>klantresultaten </p> </td> 
-   <td colname="col3"> <p> Totaal aantal bladzijden van de resultaten, op basis van het aantal resultaten gedeeld door het aantal resultaten per pagina. </p> </td> 
+   <td colname="col3"> <p> Het totale aantal pagina's met resultaten, gebaseerd op het aantal resultaten gedeeld door het aantal resultaten per pagina. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>totaal aantal pagina's </p> </td> 
    <td colname="col2"> <p>paginering </p> </td> 
-   <td colname="col3"> <p>Het totale aantal pagina's dat de onderzoeksresultaten over worden verspreid. </p> </td> 
+   <td colname="col3"> <p>Het totale aantal pagina's waarover de zoekresultaten worden verspreid. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>pagina's </p> </td> 
    <td colname="col2"> <p>paginering </p> </td> 
-   <td colname="col3"> <p>Bevat 0-n paginaknopen die elke pagina in de paginering bepalen. </p> </td> 
+   <td colname="col3"> <p>Bevat 0-n paginaknooppunten die elke pagina in de paginering bepalen. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>pagina </p> </td> 
+   <td colname="col1"> <p>page </p> </td> 
    <td colname="col2"> <p>pagina's </p> </td> 
-   <td colname="col3"> <p>Vier speciale paginaknopen bestaan: eerst, laatste, vorige, en volgende. Deze vier pagina's zijn facultatief en verschijnen in de resultaatreeks slechts als zij steek houden. Bijvoorbeeld, als u op pagina 1 bent, is er geen "vorige"verbinding. Alle andere pagina's wijzen op een positie. Het aantal pagina's dat vermeld is hangt van het "aantal verbindingen aan pagina's"af dat in het pagineringsgebruikersinterface wordt gevormd. Het "geselecteerde"attribuut wijst op de pagina de klant momenteel is. </p> </td> 
+   <td colname="col3"> <p>Er bestaan vier speciale paginaknooppunten: eerst, last, vorige en volgende. Deze vier pagina's zijn optioneel en worden alleen in de resultatenset weergegeven als ze zinnig zijn. Als u bijvoorbeeld op pagina 1 staat, is er geen koppeling "Vorige". Alle andere pagina's geven een positie aan. Het aantal pagina's dat wordt weergegeven, is afhankelijk van het "aantal koppelingen naar pagina's" dat is geconfigureerd in de gebruikersinterface van de paginering. Het kenmerk "selected" geeft de pagina aan die de klant momenteel heeft. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Vraag {#section_3DAA1013F09742869B80F6A361816E6C}
+## Query {#section_3DAA1013F09742869B80F6A361816E6C}
 
-De vraagknoop van het voorbeeld:
+Voorbeeldqueryknooppunt:
 
 ```xml
     <query> 
@@ -2050,8 +2053,8 @@ De vraagknoop van het voorbeeld:
 <table> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> <p>Node </p> </th> 
-   <th colname="col2" class="entry"> <p>Ouderlijke node </p> </th> 
+   <th colname="col1" class="entry"> <p>Knooppunt </p> </th> 
+   <th colname="col2" class="entry"> <p>Bovenliggend knooppunt </p> </th> 
    <th colname="col3" class="entry"> <p>Beschrijving </p> </th> 
   </tr> 
  </thead>
@@ -2059,12 +2062,12 @@ De vraagknoop van het voorbeeld:
   <tr> 
    <td colname="col1"> <p>query </p> </td> 
    <td colname="col2"> <p>klantresultaten </p> </td> 
-   <td colname="col3"> <p> Een globale knoop die een overzicht van de vraag verstrekt. </p> </td> 
+   <td colname="col3"> <p> Een algemeen knooppunt dat een overzicht van de query biedt. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>gebruikersquery </p> </td> 
+   <td colname="col1"> <p>user-query </p> </td> 
    <td colname="col2"> <p>query </p> </td> 
-   <td colname="col3"> <p> Het sleutelwoord dat werd gezocht naar. Als <span class="uicontrol"> Bedoelde u </span> automatisch naar een voorgestelde termijn toe te schrijven aan de originele termijn die geen resultaten oplevert, wordt het weerspiegeld in het nieuwe sleutelwoord dat werd gezocht naar (zie de suggesties knoop om het originele sleutelwoord te krijgen). </p> </td> 
+   <td colname="col3"> <p> Het trefwoord waarnaar is gezocht. Als <span class="uicontrol"> Bedoelde u </span> automatisch naar een voorgestelde termijn wegens de originele termijn zoekend die geen resultaten oplevert, wordt het weerspiegeld in het nieuwe sleutelwoord dat werd gezocht (zie de suggesties knoop om het originele sleutelwoord te krijgen). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>lagere resultaten </p> </td> 
@@ -2077,16 +2080,16 @@ De vraagknoop van het voorbeeld:
    <td colname="col3"> <p> Het objectnummer van het laatste resultaat op deze pagina. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>totaalresultaten </p> </td> 
+   <td colname="col1"> <p>totale resultaten </p> </td> 
    <td colname="col2"> <p>query </p> </td> 
-   <td colname="col3"> <p> Het totale aantal resultaten die de gebruikersvraag aanpassen. </p> </td> 
+   <td colname="col3"> <p> Het totale aantal resultaten dat overeenkomt met de gebruikersquery. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Recente zoekopdrachten {#section_17F942F6EC07456DABED7A483AC08446}
 
-Recente zoekopdrachten zijn een cookie-gebaseerde functie die alleen werkt als u de cookie-informatie doorgeeft aan zoekservers/verkopers op de site.
+Recent zoeken is een op cookies gebaseerde functie die alleen werkt als u de cookie-informatie doorgeeft aan de zoek- en verkoopservers van de site.
 
 Voorbeeld van recente zoekopdrachten:
 
@@ -2103,8 +2106,8 @@ Voorbeeld van recente zoekopdrachten:
 <table> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> <p>Node </p> </th> 
-   <th colname="col2" class="entry"> <p>Ouderlijke node </p> </th> 
+   <th colname="col1" class="entry"> <p>Knooppunt </p> </th> 
+   <th colname="col2" class="entry"> <p>Bovenliggend knooppunt </p> </th> 
    <th colname="col3" class="entry"> <p>Beschrijving </p> </th> 
   </tr> 
  </thead>
@@ -2112,40 +2115,40 @@ Voorbeeld van recente zoekopdrachten:
   <tr> 
    <td colname="col1"> <p>recente zoekopdrachten </p> </td> 
    <td colname="col2"> <p>klantresultaten </p> </td> 
-   <td colname="col3"> <p>De knoop is slechts aanwezig als het onderzoek recente onderzoeken heeft. </p> </td> 
+   <td colname="col3"> <p>Knooppunt is alleen aanwezig als de zoekopdracht recente zoekopdrachten bevat. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>duidelijke koppeling </p> </td> 
    <td colname="col2"> <p>recente zoekopdrachten </p> </td> 
-   <td colname="col3"> <p>De relatieve weg die alle recente onderzoeken van de klant ontruimt. </p> </td> 
+   <td colname="col3"> <p>Het relatieve pad dat alle recente zoekopdrachten van de klant wist. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>recent onderzoek </p> </td> 
+   <td colname="col1"> <p>recent zoeken </p> </td> 
    <td colname="col2"> <p>recente zoekopdrachten </p> </td> 
-   <td colname="col3"> <p>Bepaalt in recente onderzoeken. </p> </td> 
+   <td colname="col3"> <p>Definieert in recente zoekopdrachten. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>koppeling </p> </td> 
-   <td colname="col2"> <p>recent onderzoek </p> </td> 
-   <td colname="col3"> <p>De weg om een verbinding tot stand te brengen die een onderzoek uitvoert dat de gebruiker onlangs uitvoerde. </p> </td> 
+   <td colname="col1"> <p>link </p> </td> 
+   <td colname="col2"> <p>recent zoeken </p> </td> 
+   <td colname="col3"> <p>Het pad om een koppeling te maken die een zoekopdracht uitvoert die de gebruiker onlangs heeft uitgevoerd. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>label </p> </td> 
-   <td colname="col2"> <p>recent onderzoek </p> </td> 
-   <td colname="col3"> <p>Klant staat voor weergave-label voor de recente zoekopdracht. </p> </td> 
+   <td colname="col2"> <p>recent zoeken </p> </td> 
+   <td colname="col3"> <p>Klant ziet een weergavelabel voor de recente zoekopdracht. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Resultaten {#section_155A80B8C4F641678DD9C8F257108412}
 
-De reeks van Resultaten is een klantgericht gebied van de reactie van XML. Elke index is uniek op de gebied noemende mechanismen van meta-gegevens. Er zijn gemeenschappelijke gebieden die voor elk resultaat zoals titel, beschrijving, en URL zijn teruggekeerd. Maar, om het even welke meta-gegevens die voor een pagina in de index worden bepaald kunnen beschikbaar worden om in elke resultaatknoop te gebruiken. De indeling, de prijzen, de kleuren en de miniaturen zijn slechts een paar opties die u op een resultaat kunt toepassen om meer dwingende zoekresultaten te produceren.
+De resultaatset is een aanpasbaar gebied van de XML-reactie. Elke index is uniek in de veld noemende mechanismen van meta-gegevens. Er zijn gemeenschappelijke gebieden die voor elk resultaat zoals titel, beschrijving, en URL zijn teruggekeerd. Maar alle metagegevens die voor een pagina in de index zijn gedefinieerd, kunnen beschikbaar worden voor gebruik in elk resultaatknooppunt. Categorisering, prijzen, kleuren en miniaturen zijn slechts een paar opties die u op een resultaat kunt toepassen om overtuigender zoekresultaten te produceren.
 
-Het resultaatformaat wordt aangepast gebaseerd op de meta-gegevens die voor uw implementatie specifiek zijn. Om het even welke per-resultaatgegevens voor vertoning in de resultaten, met inbegrip van duimnagelbeeld URLs, is bevat hier.
+De resultaatindeling wordt aangepast op basis van de specifieke metagegevens voor uw implementatie. Hier vindt u alle gegevens per resultaat die in de resultaten worden weergegeven, inclusief URL&#39;s van miniatuurafbeeldingen.
 
-Bovendien is het mogelijk om veelvoudige resultaatstreken binnen de pagina, zoals &quot;Getoonde Resultaten&quot;te vormen, of afzonderlijke &quot;Producten&quot;en &quot;Inhoud&quot;resultatensecties te vormen. In deze gevallen, worden de veelvoudige resultaatstreken verstrekt binnen HTML, hoewel de facetten slechts met de primaire resultaatreeks worden geassocieerd.
+Bovendien is het mogelijk om veelvoudige resultaatstreken binnen de pagina, zoals &quot;Aanbevolen Resultaten&quot;te vormen, of afzonderlijke &quot;Producten&quot;en &quot;Inhoud&quot;resultaatsecties. In deze gevallen worden er meerdere resultaatzones opgegeven in de HTML, hoewel facetten alleen aan de primaire resultaatset zijn gekoppeld.
 
-De resultatenknoop van het voorbeeld:
+Voorbeeldresultatenknooppunt:
 
 ```xml
     <results> 
@@ -2194,8 +2197,8 @@ De resultatenknoop van het voorbeeld:
 <table> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> <p>Node </p> </th> 
-   <th colname="col2" class="entry"> <p>Ouderlijke node </p> </th> 
+   <th colname="col1" class="entry"> <p>Knooppunt </p> </th> 
+   <th colname="col2" class="entry"> <p>Bovenliggend knooppunt </p> </th> 
    <th colname="col3" class="entry"> <p>Beschrijving </p> </th> 
   </tr> 
  </thead>
@@ -2203,36 +2206,36 @@ De resultatenknoop van het voorbeeld:
   <tr> 
    <td colname="col1"> <p>resultaten </p> </td> 
    <td colname="col2"> <p>klantresultaten </p> </td> 
-   <td colname="col3"> <p>De containerknoop voor 0-n resultaatreeksen. De nul resultaatreeksen betekent dat u op een speciale geen-resultaten landende pagina bent. </p> </td> 
+   <td colname="col3"> <p>Het containerknooppunt voor resultaatsets van 0-n. Resultaatsets nul betekent dat u zich op een speciale landingspagina zonder resultaten bevindt. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>resultaat-set </p> </td> 
+   <td colname="col1"> <p>resultaat ingesteld </p> </td> 
    <td colname="col2"> <p>resultaten </p> </td> 
-   <td colname="col3"> <p>Een inkomend onderzoek kan veelvoudige onderzoeken ontslaan. Elke resultaat-reeks bevat de resultaten voor een specifiek genoemd onderzoek dat werd uitgevoerd. </p> </td> 
+   <td colname="col3"> <p>Een binnenkomende zoekopdracht kan meerdere zoekopdrachten uitvoeren. Elke resultaatset bevat de resultaten voor een specifieke benoemde zoekopdracht die is uitgevoerd. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>naam </p> </td> 
-   <td colname="col2"> <p>resultaat-set </p> </td> 
-   <td colname="col3"> <p>De naam van het onderzoek dat de resultaatreeks tot behoort. </p> </td> 
+   <td colname="col1"> <p>name </p> </td> 
+   <td colname="col2"> <p>resultaat ingesteld </p> </td> 
+   <td colname="col3"> <p>De naam van de zoekopdracht waartoe de resultatenset behoort. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>resultaat </p> </td> 
-   <td colname="col2"> <p>resultaat-set </p> </td> 
-   <td colname="col3"> <p>Bevat alle gebieden die met een individueel resultaat voor de resultaatreeks worden geassocieerd. </p> </td> 
+   <td colname="col2"> <p>resultaat ingesteld </p> </td> 
+   <td colname="col3"> <p>Bevat alle velden die zijn gekoppeld aan een afzonderlijk resultaat voor de resultatenset. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>veld </p> </td> 
+   <td colname="col1"> <p>field </p> </td> 
    <td colname="col2"> <p>resultaat </p> </td> 
-   <td colname="col3"> <p>Het naamattribuut bepaalt de naam van het gebied binnen de index die wordt getoond. De waarde is de daadwerkelijke waarde voor dat gebied. Sommige resultaten kunnen ontbrekende gebieden hebben die niet relevant voor dat individuele resultaat zijn. </p> </td> 
+   <td colname="col3"> <p>Het kenmerk name definieert de naam van het veld binnen de index die wordt weergegeven. De waarde is de werkelijke waarde voor dat veld. Sommige resultaten kunnen ontbrekende velden bevatten die niet relevant zijn voor dat afzonderlijke resultaat. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Zoekformulier {#section_9E4B99D4FEDC49629F6C7E866F3A7493}
+## Formulier {#section_9E4B99D4FEDC49629F6C7E866F3A7493} doorzoeken
 
-De Vorm van het onderzoek is inbegrepen in het resultaat dat wordt geplaatst om klanten te laten hun onderzoeksvorm dynamisch bouwen. Deze stap is facultatief. De meeste klanten hebben een vast onderzoeksformulier. Nochtans, staat het klanten toe om te bepalen als de onderzoeksvorm een Test&amp;Target doos vergt, die op het hebben van minstens één bedrijfsregel wordt gebaseerd die een test A:B doet. Op dezelfde manier staat het klanten toe om de recentste autocomplete CSS en JavaScript automatisch op te nemen.
+Zoekformulier is opgenomen in de resultatenset zodat klanten hun zoekformulier dynamisch kunnen samenstellen. Deze stap is optioneel. De meeste klanten hebben een vast zoekformulier. Nochtans, staat het klanten toe om te bepalen als de onderzoeksvorm een test&amp;Target doos vereist, die op het hebben van minstens één bedrijfsregel wordt gebaseerd die een test A:B doet. Op dezelfde manier kunnen klanten automatisch de nieuwste automatische aanvulversies van CSS en JavaScript ophalen.
 
-Voorbeeld van zoekformulier XML:
+Voorbeeld van XML van zoekformulier:
 
 ```xml
     <search-form> 
@@ -2256,8 +2259,8 @@ Voorbeeld van zoekformulier XML:
 <table> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> <p>Node </p> </th> 
-   <th colname="col2" class="entry"> <p>Ouderlijke node </p> </th> 
+   <th colname="col1" class="entry"> <p>Knooppunt </p> </th> 
+   <th colname="col2" class="entry"> <p>Bovenliggend knooppunt </p> </th> 
    <th colname="col3" class="entry"> <p>Beschrijving </p> </th> 
   </tr> 
  </thead>
@@ -2265,48 +2268,48 @@ Voorbeeld van zoekformulier XML:
   <tr> 
    <td colname="col1"> <p>zoekformulier </p> </td> 
    <td colname="col2"> <p>klantresultaten </p> </td> 
-   <td colname="col3"> <p>Bevat gegevens voor het drijven van de onderzoeksvorm. </p> </td> 
+   <td colname="col3"> <p>Bevat gegevens voor het besturen van het zoekformulier. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>met inlegdoos </p> </td> 
+   <td colname="col1"> <p>include-tnt-mbox </p> </td> 
    <td colname="col2"> <p> zoekformulier </p> </td> 
-   <td colname="col3"> <p>Technisch gezien vereist u slechts een doos in de onderzoeksvorm wanneer u minstens één bedrijfsregel hebt die een test&amp;Doel A:B doet test. Deze knoop wijst op als u een doos nodig hebt of niet toestaand u om de aantalklappen op de servers van de Test&amp;Doel te verminderen. </p> </td> 
+   <td colname="col3"> <p>Technisch gezien hebt u slechts een mbox in het onderzoeksformulier nodig wanneer u minstens één bedrijfsregel hebt die een test A:B test test test Test&amp;Target doet. Dit knooppunt geeft aan of u een box nodig hebt of niet toestaat dat u het aantal treffers op de test&amp;Target-servers verlaagt. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>autocompleet </p> </td> 
+   <td colname="col1"> <p>automatisch aanvullen </p> </td> 
    <td colname="col2"> <p>zoekformulier </p> </td> 
-   <td colname="col3"> <p>Kinderknooppunt van woningen gerelateerd aan autocompleet. </p> </td> 
+   <td colname="col3"> <p>Houses children node related to auto-complete. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>ingeschakeld </p> </td> 
-   <td colname="col2"> <p>autocompleet </p> </td> 
-   <td colname="col3"> <p>Reeks aan 1 wanneer de onderzoeksrekening autocomplete gebruikt. </p> </td> 
+   <td colname="col1"> <p>enabled </p> </td> 
+   <td colname="col2"> <p>automatisch aanvullen </p> </td> 
+   <td colname="col3"> <p>Stel de waarde in op 1 wanneer de zoekaccount automatisch aanvullen gebruikt. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>css </p> </td> 
-   <td colname="col2"> <p> autocompleet </p> </td> 
-   <td colname="col3"> <p> CSS voor autocomplete. Plaats deze knoop zo hoog op de pagina zo hoog mogelijk. </p> </td> 
+   <td colname="col2"> <p> automatisch aanvullen </p> </td> 
+   <td colname="col3"> <p> CSS voor automatisch aanvullen. Plaats dit knooppunt zo hoog mogelijk op de pagina. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> vorminhoud </p> </td> 
-   <td colname="col2"> <p>autocompleet </p> </td> 
+   <td colname="col1"> <p> form-content </p> </td> 
+   <td colname="col2"> <p>automatisch aanvullen </p> </td> 
    <td colname="col3"> <p>Inhoud die in het zoekformulier wordt geïnjecteerd. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>javascript </p> </td> 
-   <td colname="col2"> <p>autocompleet </p> </td> 
-   <td colname="col3"> <p>JavaScript voor autocomplete. Plaats deze knoop zo laag mogelijk op de pagina. </p> </td> 
+   <td colname="col2"> <p>automatisch aanvullen </p> </td> 
+   <td colname="col3"> <p>JavaScript voor automatisch aanvullen. Plaats dit knooppunt zo laag mogelijk op de pagina. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Suggesties {#section_2899FACB9AD84F60B3687C1B4EF09E15}
 
-De klanten kunnen **[!UICONTROL Did You Mean]** functionaliteit op drie manieren vormen: suggesties doen omdat er geen resultaten zijn, automatisch zoeken naar de eerste suggestie als we geen resultaten hebben, of suggesties doen als gevolg van lage resultaten (waar de suggesties een hoger resultaat hebben). Alle suggesties leveren resultaten op.
+Klanten kunnen de **[!UICONTROL Did You Mean]**-functionaliteit op drie manieren configureren: doet u suggesties omdat er geen resultaten zijn, zoekt u automatisch naar de eerste suggestie als er geen resultaten zijn of doet u suggesties als gevolg van lage resultaten (als de suggesties een hoger aantal resultaten hebben). Alle suggesties leveren resultaten op.
 
-Deze suggesties knoop bevat de termijnen die succesvolle vragen opbrengen. De verbinding is ook teruggekeerd zodat kan een klant aan de nieuwe vraag springen.
+Dit suggesties knooppunt bevat de termen die geen geslaagde query&#39;s opleveren. De verbinding is ook teruggekeerd zodat kan een klant aan de nieuwe vraag springen.
 
-Voorbeeld output voor het doen van suggestie toe te schrijven aan 0 resultaten:
+Voorbeeld van uitvoer voor suggestie vanwege 0 resultaten:
 
 ```xml
     <suggestions> 
@@ -2319,7 +2322,7 @@ Voorbeeld output voor het doen van suggestie toe te schrijven aan 0 resultaten:
     </suggestions>
 ```
 
-De output van het voorbeeld voor automatisch het zoeken tegen een suggestie:
+Voorbeeld van uitvoer voor automatisch zoeken op basis van een suggestie:
 
 ```xml
     <suggestions> 
@@ -2329,7 +2332,7 @@ De output van het voorbeeld voor automatisch het zoeken tegen een suggestie:
     </suggestions> 
 ```
 
-De output van het voorbeeld voor het doen van suggestie toe te schrijven aan lage resultaten:
+Voorbeeld-uitvoer voor suggestie vanwege lage resultaten:
 
 ```xml
    <suggestions> 
@@ -2345,8 +2348,8 @@ De output van het voorbeeld voor het doen van suggestie toe te schrijven aan lag
 <table> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> <p>Node </p> </th> 
-   <th colname="col2" class="entry"> <p>Ouderlijke node </p> </th> 
+   <th colname="col1" class="entry"> <p>Knooppunt </p> </th> 
+   <th colname="col2" class="entry"> <p>Bovenliggend knooppunt </p> </th> 
    <th colname="col3" class="entry"> <p>Beschrijving </p> </th> 
   </tr> 
  </thead>
@@ -2359,27 +2362,27 @@ De output van het voorbeeld voor het doen van suggestie toe te schrijven aan lag
   <tr> 
    <td colname="col1"> <p>automatisch doorzocht </p> </td> 
    <td colname="col2"> <p>suggesties </p> </td> 
-   <td colname="col3"> <p> Indien aanwezig, wijst erop als de plaatsonderzoek/de handel van de plaats automatisch tegen een nieuwe termijn wegens geen resultaten wordt gezocht. </p> </td> 
+   <td colname="col3"> <p> Indien aanwezig, hiermee wordt aangegeven of de zoekopdracht/het verhandelen van de site automatisch is doorzocht op een nieuwe term omdat er geen resultaten zijn. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>orig-query </p> </td> 
    <td colname="col2"> <p>suggesties </p> </td> 
-   <td colname="col3"> <p> Wanneer de plaatsonderzoek/de handel drijvende automatisch onderzoeken tegen de eerste suggestie, de gebruiker-vraag in de vraagknoop het sleutelwoord toont dat wordt gezocht tegen. Deze knoop toont de originele vraagtermijn. Het combineren van twee laat klanten tot structuren zoals "het zoeken naar plaats in plaats van ruimte"leiden. </p> </td> 
+   <td colname="col3"> <p> Wanneer de plaatsonderzoek/de handel drijft automatisch onderzoek tegen de eerste suggestie, toont de gebruiker-vraag in de vraagknoop het sleutelwoord dat wordt gezocht tegen. Deze knoop toont de originele vraagtermijn. Door deze twee te combineren, kunnen klanten structuren maken zoals "Zoeken naar arcering in plaats van arcering". </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>met suggesties en lage resultaten </p> </td> 
+   <td colname="col1"> <p>suggesties-lage resultaten </p> </td> 
    <td colname="col2"> <p>suggesties </p> </td> 
-   <td colname="col3"> <p>Indien aanwezig, wijst erop als de plaatsonderzoek/de handel van de plaats suggesties toe te schrijven aan de huidige onderzoekstermijn lage resultaten oplevert en een suggestie die aanzienlijk hogere resultaten oplevert. De twee drempels zijn configureerbaar in <span class="uicontrol"> Bedoelde u </span>. </p> </td> 
+   <td colname="col3"> <p>Geeft, indien aanwezig, aan of zoeken/verhandelen van sites suggesties doet vanwege de huidige zoekterm die lage resultaten oplevert en een suggestie die aanzienlijk hogere resultaten oplevert. De twee drempels zijn configureerbaar in <span class="uicontrol"> Bedoelde u </span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>suggestie-item </p> </td> 
    <td colname="col2"> <p>suggesties </p> </td> 
-   <td colname="col3"> <p>Bevat 0-n knopen die de diverse suggesties aanduiden. </p> </td> 
+   <td colname="col3"> <p>Bevat 0-n knopen die de diverse suggesties wijzen. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>koppeling </p> </td> 
+   <td colname="col1"> <p>link </p> </td> 
    <td colname="col2"> <p>suggestie-item </p> </td> 
-   <td colname="col3"> <p>Bevat de weg voor het creëren van een verbinding aan de voorgestelde termijn. </p> </td> 
+   <td colname="col3"> <p>Bevat het pad voor het maken van een koppeling naar de voorgestelde term. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>woord </p> </td> 
@@ -2391,7 +2394,7 @@ De output van het voorbeeld voor het doen van suggestie toe te schrijven aan lag
 
 ## Sjabloon {#section_1E2BB2F274B04F5491A4CCCC38F507BD}
 
-De capaciteit om een ervaring van het klantenonderzoek te schakelen die op de resultaten wordt gebaseerd wordt gesteund. Een deel van dit impliceert omschakeling tussen verschillende malplaatjes met een verschillende lay-out van onderzoeksresultaten. Bijvoorbeeld, kunt u een malplaatje met een netmening van producten voor hebben wanneer u veel producten hebt. Of, u kunt een &quot;schijnwerper&quot;malplaatje hebben wanneer het tonen van één enkel resultaat dat meer details heeft. Je kunt ook een template zonder resultaten hebben als een zoekopdracht geen resultaten oplevert. De malplaatjeknoop wijst op welk malplaatje wordt gebruikt om de onderzoeksresultaten te tonen.
+De capaciteit om een ervaring van het klantenonderzoek te schakelen die op de resultaten wordt gebaseerd wordt gesteund. Een deel hiervan is het schakelen tussen verschillende sjablonen met een andere indeling van zoekresultaten. U hebt bijvoorbeeld een sjabloon met een rasterweergave van producten voor wanneer u veel producten hebt. Of u hebt een &#39;spotlight&#39;-sjabloon wanneer u één resultaat weergeeft dat meer details bevat. U kunt ook een sjabloon &#39;Geen resultaten&#39; hebben als een zoekopdracht geen resultaten oplevert. Het sjabloonknooppunt geeft aan welke sjabloon wordt gebruikt om de zoekresultaten weer te geven.
 
 Voorbeeldsjabloon:
 
@@ -2402,25 +2405,25 @@ Voorbeeldsjabloon:
 <table> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> <p>Node </p> </th> 
-   <th colname="col2" class="entry"> <p>Ouderlijke node </p> </th> 
+   <th colname="col1" class="entry"> <p>Knooppunt </p> </th> 
+   <th colname="col2" class="entry"> <p>Bovenliggend knooppunt </p> </th> 
    <th colname="col3" class="entry"> <p>Beschrijving </p> </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>sjabloon </p> </td> 
+   <td colname="col1"> <p>template </p> </td> 
    <td colname="col2"> <p>klantresultaten </p> </td> 
-   <td colname="col3"> <p>Wijst op de naam van het malplaatje dat wordt gebruikt om de onderzoeksresultaten te tonen. </p> </td> 
+   <td colname="col3"> <p>Hiermee geeft u de naam op van de sjabloon die wordt gebruikt om de zoekresultaten weer te geven. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Zones {#section_26C4A947E7B1474A8E37D86D9579B93E}
+## Gebieden {#section_26C4A947E7B1474A8E37D86D9579B93E}
 
-De gebieden zijn secties van de pagina&#39;s die door bedrijfsregels kunnen worden aangezet of worden uitgezet. Een streek kan om het even welke inhoud omvatten omvatten, maar niet beperkt tot, facetten, onderzoeken, broodkruimels, statische inhoud. De streken op de klantenWeb-pagina zouden aan de zelfde gebieden moeten in kaart brengen zoals plaatsonderzoek/merchandising.
+Gebieden zijn secties van de pagina&#39;s die door bedrijfsregels kunnen worden in- of uitgeschakeld. Een zone kan alle inhoud bevatten, inclusief, maar niet beperkt tot, facetten, zoekopdrachten, broodkruimels, statische inhoud. De zones op de webpagina van de klant moeten worden toegewezen aan dezelfde gebieden als die voor zoeken en verkopen van sites.
 
-Voorbeeld van zoneknopen:
+Voorbeeld van knooppunten in de zone:
 
 ```xml
     <zones> 
@@ -2434,8 +2437,8 @@ Voorbeeld van zoneknopen:
 <table> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> <p>Node </p> </th> 
-   <th colname="col2" class="entry"> <p>Ouderlijke node </p> </th> 
+   <th colname="col1" class="entry"> <p>Knooppunt </p> </th> 
+   <th colname="col2" class="entry"> <p>Bovenliggend knooppunt </p> </th> 
    <th colname="col3" class="entry"> <p>Beschrijving </p> </th> 
   </tr> 
  </thead>
@@ -2443,21 +2446,21 @@ Voorbeeld van zoneknopen:
   <tr> 
    <td colname="col1"> <p>zones </p> </td> 
    <td colname="col2"> <p>klantresultaten </p> </td> 
-   <td colname="col3"> <p>Bevat 0-n streken. </p> </td> 
+   <td colname="col3"> <p>Bevat 0-n zones. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>zone </p> </td> 
    <td colname="col2"> <p>zones </p> </td> 
-   <td colname="col3"> <p> Een individuele streekknoop. U kunt veelvoudige streekknopen hebben. </p> </td> 
+   <td colname="col3"> <p> Een afzonderlijk knooppunt voor zones. U kunt meerdere streekknooppunten hebben. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>naam </p> </td> 
+   <td colname="col1"> <p>name </p> </td> 
    <td colname="col2"> <p>zone </p> </td> 
    <td colname="col3"> <p>De naam van de zone. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>weergeven </p> </td> 
-   <td colname="col2"> <p>1 of 0, erop wijzend als de streek die aan de streeknaam beantwoordt wordt getoond of verborgen. </p> </td> 
+   <td colname="col1"> <p>display </p> </td> 
+   <td colname="col2"> <p>1 of 0, die erop wijzen als de streek die aan de streeknaam beantwoordt wordt getoond of verborgen. </p> </td> 
    <td colname="col3"> <p> </p> </td> 
   </tr> 
  </tbody> 
@@ -2465,14 +2468,14 @@ Voorbeeld van zoneknopen:
 
 ## Voorbeelden {#reference_64B7D8D228AF4B8D90EDF4DE507B0F84}
 
-De output van het voorbeeld voor een * onderzoek op een fictieve website genoemd Geometrixx en een malplaatje van de voorbeeldpresentatie dat wordt gebruikt om de voorbeeldoutput te veroorzaken.
+Voorbeelduitvoer voor een *-zoekopdracht op een fictieve website met de naam Geometrixx en een voorbeeldpresentatiesjabloon waarmee de voorbeelduitvoer wordt geproduceerd.
 
-* [Voorbeeld van uitvoer](../c-appendices/c-guidedsearchoutput.md#section_515C000A18B847D59097D0A9CCC02636)
-* [Voorbeeldpresentatiesjabloon](../c-appendices/c-guidedsearchoutput.md#section_AD42571DFB88491AA7F0FDF0929EBE97)
+* [Voorbeeld-uitvoer](../c-appendices/c-guidedsearchoutput.md#section_515C000A18B847D59097D0A9CCC02636)
+* [Voorbeeld van presentatiesjabloon](../c-appendices/c-guidedsearchoutput.md#section_AD42571DFB88491AA7F0FDF0929EBE97)
 
-## Voorbeeld van uitvoer {#section_515C000A18B847D59097D0A9CCC02636}
+## Voorbeeld-uitvoer {#section_515C000A18B847D59097D0A9CCC02636}
 
-De output van het voorbeeld voor een * onderzoek op een fictieve website genoemd Geometrixx.
+Voorbeeld van uitvoer voor een *-zoekopdracht op een fictieve website met de naam Geometrixx.
 
 ```xml
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?> 
@@ -2824,9 +2827,9 @@ De output van het voorbeeld voor een * onderzoek op een fictieve website genoemd
 </customer-results> 
 ```
 
-## Voorbeeldpresentatiesjabloon {#section_AD42571DFB88491AA7F0FDF0929EBE97}
+## Voorbeeld van presentatiesjabloon {#section_AD42571DFB88491AA7F0FDF0929EBE97}
 
-Het volgende is een malplaatje van de voorbeeldpresentatie dat wordt gebruikt om de voorbeeldoutput hierboven te veroorzaken.
+Hier volgt een voorbeeld van een presentatiesjabloon dat wordt gebruikt om de voorbeelduitvoer hierboven te produceren.
 
 ```xml
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?> 

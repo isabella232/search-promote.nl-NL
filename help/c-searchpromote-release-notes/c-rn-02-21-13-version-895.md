@@ -1,32 +1,35 @@
 ---
-description: ongeldig
-seo-description: ongeldig
-seo-title: Search&amp;Promote 8.9.5 Release Notes (02/21/2013)
+description: 'null'
+seo-description: 'null'
+seo-title: '&Zoeken;amp;Opmerkingen bij de release 8.9.5 promoten (21-02-2013)'
 solution: Target
-title: Search&amp;Promote 8.9.5 Release Notes (02/21/2013)
+title: '&Zoeken;amp;Opmerkingen bij de release 8.9.5 promoten (21-02-2013)'
 topic: Release Notes,Site search and merchandising
 uuid: 1cd8a540-f85f-4e87-8e0c-dbdcd230a6c4
 translation-type: tm+mt
 source-git-commit: ef818327e1cdaad79ac47575a8dfba1de3dc5c2e
+workflow-type: tm+mt
+source-wordcount: '86'
+ht-degree: 0%
 
 ---
 
 
-# Zoeken en promoten: 8.9.5 releasenota&#39;s (02/21/2013){#search-promote-release-notes}
+# Opmerkingen bij de release van Search&amp;Promote 8.9.5 (21-02-2013){#search-promote-release-notes}
 
-**Fixes**
+**Oplossingen**
 
-* Je kunt nu de facetten dynamisch opnieuw ordenen.
+* U kunt facetten nu dynamisch opnieuw ordenen.
 
-   Zie [over de facetrails](../c-about-design-menu/c-about-facet-rails.md#concept_1FDC8BCDFFC84A0889DA670F63D5F6DB).
+   Zie [Informatie over facetrails](../c-about-design-menu/c-about-facet-rails.md#concept_1FDC8BCDFFC84A0889DA670F63D5F6DB).
 
-* De parameters van het achterste onderzoekCGI `sp_d_#` en `sp_date_range_#` werkten niet voor user-defined meta-gegevensgebieden.
+* De CGI-parameters `sp_d_#` en `sp_date_range_#` voor achtergrondzoekopdrachten werkten niet voor door de gebruiker gedefinieerde metagegevensvelden.
 
-   Zie lijstrijen 6 en 8 in de parameters [van het](../c-appendices/c-cgiparameters.md#reference_582E85C3886740C98FE88CA9DF7918E8)Onderzoek van het Achterste CGI.
+   Zie tabelrijen 6 en 8 in [CGI-parameters voor achtergrondzoekopdrachten](../c-appendices/c-cgiparameters.md#reference_582E85C3886740C98FE88CA9DF7918E8).
 
-* Een deduplicatieprobleem veroorzaakte de telling van onderzoeksresultaten om ongelijk aan de gespecificeerde telling te zijn.
+* Door een deduplicatieprobleem is het aantal zoekresultaten niet gelijk aan het opgegeven aantal.
 
-   Zie [Een nieuwe zoekdefinitie](../c-about-settings-menu/c-about-searching-menu.md#task_98D3A168AB5D4F30A1ADB6E0D48AB648)toevoegen.
+   Zie [Een nieuwe zoekdefinitie toevoegen](../c-about-settings-menu/c-about-searching-menu.md#task_98D3A168AB5D4F30A1ADB6E0D48AB648).
 
-   Zie ook [Een nieuw presentatie- of transportsjabloonbestand](../c-about-design-menu/c-about-templates.md#task_73199757B6E748CAA604902FF913F012) en [presentatiesjabloontags toevoegen](../c-appendices/c-templates.md#reference_F1BBF616BCEC4AD7B2548ECD3CA74C64)
+   Zie ook [Een nieuw presentatie- of transportsjabloonbestand toevoegen](../c-about-design-menu/c-about-templates.md#task_73199757B6E748CAA604902FF913F012) en [Presentatiesjablooncodes](../c-appendices/c-templates.md#reference_F1BBF616BCEC4AD7B2548ECD3CA74C64)
 

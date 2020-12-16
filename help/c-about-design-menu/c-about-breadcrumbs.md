@@ -1,33 +1,36 @@
 ---
-description: De broodkruimels zijn een navigatiecontrole die u aan uw website kunt toevoegen. De broodkruimel geeft klanten terugkoppelt op waar zij binnen een reeks van het onderzoeksresultaat zijn. Het helpt hen ook snel terug naar een vorige stap.
-seo-description: De broodkruimels zijn een navigatiecontrole die u aan uw website kunt toevoegen. De broodkruimel geeft klanten terugkoppelt op waar zij binnen een reeks van het onderzoeksresultaat zijn. Het helpt hen ook snel terug naar een vorige stap.
-seo-title: Over Breadcrumbs
+description: Broodkruimels zijn navigatiebesturingselementen die u aan uw website kunt toevoegen. De broodkruimel geeft klanten terugkoppelen over waar zij binnen een reeks van onderzoeksresultaten zijn. Het helpt hen ook snel terug naar een vorige stap.
+seo-description: Broodkruimels zijn navigatiebesturingselementen die u aan uw website kunt toevoegen. De broodkruimel geeft klanten terugkoppelen over waar zij binnen een reeks van onderzoeksresultaten zijn. Het helpt hen ook snel terug naar een vorige stap.
+seo-title: Info Broodkruimels
 solution: Target
 subtopic: Navigation
-title: Over Breadcrumbs
+title: Info Broodkruimels
 topic: Design,Site search and merchandising
 uuid: 3e630a72-a631-4f4f-8aa5-adf2882cdf1c
 translation-type: tm+mt
 source-git-commit: 7f1b5d94e8002992d62ec1e3dce11f9c5605fde8
+workflow-type: tm+mt
+source-wordcount: '789'
+ht-degree: 1%
 
 ---
 
 
-# Over Breadcrumbs{#about-breadcrumbs}
+# Info over Broodkruimels{#about-breadcrumbs}
 
-De broodkruimels zijn een navigatiecontrole die u aan uw website kunt toevoegen. De broodkruimel geeft klanten terugkoppelt op waar zij binnen een reeks van het onderzoeksresultaat zijn. Het helpt hen ook snel terug naar een vorige stap.
+Broodkruimels zijn navigatiebesturingselementen die u aan uw website kunt toevoegen. De broodkruimel geeft klanten terugkoppelen over waar zij binnen een reeks van onderzoeksresultaten zijn. Het helpt hen ook snel terug naar een vorige stap.
 
-## Breadcrumbs gebruiken {#concept_FB8A943C594A4A1593B118141DA61F03}
+## Broodkruimels gebruiken {#concept_FB8A943C594A4A1593B118141DA61F03}
 
-De broodkruimels volgen de termijn waarnaar wordt gezocht en de verdere facetten die werden geselecteerd om onderaan de resultaatreeks te versmallen.
+De broodkruimels volgen de term die wordt gezocht naar en de verdere facetten die werden geselecteerd om de resultaatreeks te beperken.
 
-Gebruik de montages van de Breadcrumb om de broodkruimelcontrole van uw laag van de onderzoekspresentatie aan te passen. Als uw presentatielaag meer dan één reeks onderzoeksresultaten heeft, handelt de broodkruimelcontrole op het primaire onderzoek op de pagina.
+Met de instellingen voor de braadcrumb kunt u het besturingselement voor de broodkruimelaag van de zoekpresentatie aanpassen. Als uw presentatielaag meer dan één reeks onderzoeksresultaten heeft, handelt de broodkruimelcontrole op het primaire onderzoek op de pagina.
 
-U kunt een broodkruimel uitgeven om het standaardgedrag, de maximumwaardebreedte, en de waardeuitbreiding te veranderen, en te selecteren of om de vraagtermijn te omvatten.
+U kunt een broodkruimel uitgeven om het standaardgedrag, maximumwaardebreedte, en waardeuitbreiding te veranderen, en te selecteren of om de vraagtermijn te omvatten.
 
-## Een nieuwe broodkruimel toevoegen {#task_2FFA94F82AE74F10BDDE7367CDCEAE8B}
+## Een nieuwe broodkruimel {#task_2FFA94F82AE74F10BDDE7367CDCEAE8B} toevoegen
 
-U kunt een broodkruimelbar toevoegen zodat een klant kan volgen waar zij op uw website zijn.
+U kunt een bar toevoegen van de broodkruimel zodat een klant kan volgen waar zij op uw website zijn.
 
 <!-- 
 
@@ -37,15 +40,15 @@ t_adding_a_new_breadcrumb.xml
 
 >[!NOTE]
 >
->Ben zeker u de broodkruimel in uw presentatiemalplaatje van verwijzingen voorziet zodat het op de website zichtbaar is.
+>Zorg ervoor dat u naar de broodkruimel in uw presentatiesjabloon verwijst zodat deze op de website zichtbaar is.
 
-**Om een nieuwe broodkruimel toe te voegen**
+**Een nieuwe broodkruimel toevoegen**
 
 1. Klik in het productmenu op **[!UICONTROL Design]** > **[!UICONTROL Navigation]** > **[!UICONTROL Breadcrumbs]**.
-1. Voor de [!DNL Breadcrumbs] pagina, klik **[!UICONTROL Add Breadcrumb]**.
-1. Voor de [!DNL Add Breadcrumb] pagina, plaats de opties die u wilt.
+1. Klik op [!DNL Breadcrumbs] op de pagina.**[!UICONTROL Add Breadcrumb]**
+1. Stel op de pagina [!DNL Add Breadcrumb] de gewenste opties in.
 
-   Deze montages beïnvloeden zowel het gedrag als de standaardpresentatie van een broodkruimel. U kunt sommige van deze montages als montages van het presentatiemalplaatje met voeten treden.
+   Deze instellingen zijn van invloed op zowel het gedrag als de standaardpresentatie van een broodkruimel. U kunt enkele van deze instellingen overschrijven met de instellingen van de presentatiesjabloon.
 
    <!-- 
    
@@ -56,71 +59,71 @@ t_adding_a_new_breadcrumb.xml
    <table> 
     <thead> 
       <tr> 
-      <th colname="col1" class="entry"> <p>Optie </p> </th> 
+      <th colname="col1" class="entry"> <p>Option </p> </th> 
       <th colname="col2" class="entry"> <p>Beschrijving </p> </th> 
       </tr> 
     </thead>
     <tbody> 
       <tr> 
-      <td colname="col1"> <p>Naam van broodkruimel </p> </td> 
-      <td colname="col2"> <p>De naam van de broodkruimel. </p> </td> 
+      <td colname="col1"> <p>Naam van doorhalingskruimel </p> </td> 
+      <td colname="col2"> <p>De naam van het breadcrumb. </p> </td> 
       </tr> 
       <tr> 
       <td colname="col1"> <p>Gedrag </p> </td> 
-      <td colname="col2"> <p>Plaatst één van de volgende drie broodkruimelgedrag: </p> <p> 
+      <td colname="col2"> <p>Hiermee stelt u een van de volgende drie gedragingen voor broodkruimels in: </p> <p> 
       <ul id="ul_7E66ACC1DA494B20BEC3B0B2CCAB103A"> 
-        <li id="li_D81876660A8B48AFB70D3317063FBF6F"> <span class="uicontrol"> Goto </span> <p>Ga alle broodkruimels na verwijderen die wordt geklikt, en begint een nieuwe onderzoek op dat punt. </p> </li> 
-        <li id="li_63AE06B544B64DCAA8C55031B3DFFFF7"> <span class="uicontrol"> Verwijderen </span> <p>Verwijder schrapt uit de weg de broodkruimel die de klant klikte en dan een nieuw onderzoek begint. Dit gedrag is nuttig wanneer u de klant stappen wilt laten ongedaan maken in het boren neer door het onderzoek. </p> </li> 
-        <li id="li_EEC810D420FF41498ECE49EBAAB33BE5"> <span class="uicontrol"> neerzetten </span> <p>De daling verwijdert alle broodkruimels. </p> </li> 
-      </ul> </p> <p> Bijvoorbeeld, veronderstel u een broodkruimel van 1 &gt; 2 &gt; 3 &gt; 4 hebt. Wanneer een klant op "2"klikt, heeft het de volgende resultaten, die op het gedrag worden gebaseerd u hebt gekozen: </p> <p> 
+        <li id="li_D81876660A8B48AFB70D3317063FBF6F"> <span class="uicontrol"> Ga naar  </span> <p>Ga om alle broodkruimels na te verwijderen die worden geklikt, en een nieuwe onderzoek op dat punt te beginnen. </p> </li> 
+        <li id="li_63AE06B544B64DCAA8C55031B3DFFFF7"> <span class="uicontrol"> Verwijderen  </span> <p>Verwijder schrapt uit de weg de broodkruimel die de klant klikte en begint dan een nieuwe onderzoek. Dit gedrag is nuttig wanneer u de klant stappen in het boren neer door het onderzoek wilt ongedaan maken. </p> </li> 
+        <li id="li_EEC810D420FF41498ECE49EBAAB33BE5"> <span class="uicontrol"> Neerzetten  </span> <p>Met Droppen verwijdert u alle broodkruimels. </p> </li> 
+      </ul> </p> <p> Stel dat u een breadcrumb hebt van 1 &gt; 2 &gt; 3 &gt; 4. Wanneer een klant op "2"klikt, heeft het de volgende resultaten, die op het gedrag worden gebaseerd u hebt gekozen: </p> <p> 
       <ul id="ul_96FCD8E4C3704B45B59BC18A7A1AC52A"> 
         <li id="li_B880037088DF426F880788EAA3072180">Ga naar - 1 &gt; 2 </li> 
         <li id="li_D0F07A15DCD043EFA4563632ED33A9E2">Verwijderen - 1 &gt; 3 &gt; 4 </li> 
-        <li id="li_D848ED44B4E44538AA92010F9F186224"> Daling - De volledige broodkruimel wordt gelaten vallen, die de klant terug naar het punt nemen alvorens zij begonnen te boren neer. </li> 
+        <li id="li_D848ED44B4E44538AA92010F9F186224"> Daling - De volledige breadcrumb wordt weggelaten, waardoor de klant terug naar het punt komt voordat hij of zij naar beneden ging boren. </li> 
       </ul> </p> </td> 
       </tr> 
       <tr> 
-      <td colname="col1"> <p>Maximale toegevoegde waarde </p> </td> 
-      <td colname="col2"> <p>Specificeert de lengte van elke waarde in het broodkruimelspoor. U specificeert het plaatsen als aantal karakters. </p> <p>Bijvoorbeeld, betekent het plaatsen van 6 dat het broodkruimelspoor tot 6 lange karakters, met inbegrip van ruimten kan zijn. </p> </td> 
+      <td colname="col1"> <p>Max. waardebreedte </p> </td> 
+      <td colname="col2"> <p>Hiermee geeft u de lengte op van elke waarde in het trail breadcrumb. U geeft de instelling op als een aantal tekens. </p> <p>Als u bijvoorbeeld 6 instelt, kan het trail van de broodkruimel maximaal 6 tekens lang zijn, inclusief spaties. </p> </td> 
       </tr> 
       <tr> 
-      <td colname="col1"> <p>Value Extension </p> </td> 
-      <td colname="col2"> <p>Specificeert de ellips om te gebruiken wanneer een broodkruimel beknot is. </p> <p>Standaard een "..." (ellipsen) wordt gebruikt. </p> </td> 
+      <td colname="col1"> <p>Waardeextensie </p> </td> 
+      <td colname="col2"> <p>Geeft aan welke ellipsen moeten worden gebruikt wanneer een breadcrumb wordt afgekapt. </p> <p>Standaard een ".." (ellipsen) wordt gebruikt. </p> </td> 
       </tr> 
       <tr> 
-      <td colname="col1"> <p>Omvat de Termijn van de Vraag </p> </td> 
-      <td colname="col2"> <p>Controleert de aanwezigheid van vraagtermijn in een broodkruimel. </p> </td> 
+      <td colname="col1"> <p>Zoekterm opnemen </p> </td> 
+      <td colname="col2"> <p>Controls the presence of query term in a breadcrumb. </p> </td> 
       </tr> 
       <tr> 
-      <td colname="col1"> <p>Laat Gebruiker - bepaalde Crumbs toe </p> </td> 
-      <td colname="col2"> <p>Controle om u te laten de Gebruiker - bepaalde punten in broodkruimels gebruiken gebruikend <span class="codeph"> uX=[naam] &amp; [naam]=[waarde] </span> parameters in URL. U kunt verwerkingsregels gebruiken om deze parameters te behandelen de manier u wilt. </p> <p>Bijvoorbeeld, als deze eigenschap wordt toegelaten en u URL hebt, <code> https://search.host.com/?1=category&amp;q1=Clothes&amp;u2= 
-          type&amp;type=Men&amp;x3=kind&amp;q3=Sweater </code> in het geval als u facetten <span class="codeph"> categorie <span class="varname"> en </span> soort hebt </span> , zal uw broodkruimel als <span class="codeph"> <span class="varname"> </span> </span><span class="codeph"> </span>Kleren &gt; Mannen &gt; Vader  kijken. </p> </td> 
+      <td colname="col1"> <p>Door gebruiker gedefinieerde kruimels inschakelen </p> </td> 
+      <td colname="col2"> <p>Schakel deze optie in om de door de gebruiker gedefinieerde items in breadcrumbs te gebruiken met de parameters <span class="codeph"> uX=[name]&amp;[name]=[value] </span> in de URL. U kunt verwerkingsregels gebruiken om deze parameters op de gewenste manier af te handelen. </p> <p>Als deze functie bijvoorbeeld is ingeschakeld en u de URL hebt, <code> https://search.host.com/?1=category&amp;q1=Clothes&amp;u2= 
+          type&amp;type=Men&amp;x3=kind&amp;q3=Sweater </code> als u facetten <span class="codeph"> <span class="varname"> categorie </span> </span> en <span class="codeph"> <span class="varname"> soort </span> </span> &lt;a8/&gt; hebt, ziet uw breadcrumb eruit als <span class="codeph"> Kleuren &gt; Mannen &gt; Zwevend </span>. </p> </td> 
       </tr> 
       <tr> 
-      <td colname="col1"> <p>Door de gebruiker gedefinieerde namen van Crumb </p> </td> 
-      <td colname="col2"> <p>Een komma-gescheiden lijst van alle mogelijke namen van user-defined broodkruimelpunten. </p> <p>Deze optie is slechts beschikbaar als u controleert <span class="uicontrol"> laat Gebruiker - bepaalde Krumbs toe </span>. </p> </td> 
+      <td colname="col1"> <p>Door gebruiker gedefinieerde mapnamen </p> </td> 
+      <td colname="col2"> <p>Een door komma's gescheiden lijst met alle mogelijke namen van door de gebruiker gedefinieerde breadcrumb-items. </p> <p>Deze optie is alleen beschikbaar als u <span class="uicontrol"> Door gebruiker gedefinieerde kruimels inschakelen </span>. </p> </td> 
       </tr> 
     </tbody> 
     </table>
 
 1. Klik op **[!UICONTROL Add]**.
-1. (Facultatief) op de [!DNL Breadcrumbs] pagina, doe één van het volgende:
+1. (Optioneel) Voer op de pagina [!DNL Breadcrumbs] een van de volgende handelingen uit:
 
    * Klik **[!UICONTROL History]** om het even welke veranderingen terug te keren die u hebt aangebracht.
 
-      Zie De optie [Historie](../t-using-the-history-option.md#task_70DD3F87A67242BBBD2CB27156F43002)gebruiken.
+      Zie [De optie Historie gebruiken](../t-using-the-history-option.md#task_70DD3F87A67242BBBD2CB27156F43002).
 
    * Klik op **[!UICONTROL Live]**.
 
-      Zie live-instellingen [bekijken](../c-about-staging.md#task_401A0EBDB5DB4D4CA933CBA7BECDC10F).
+      Zie [Live-instellingen weergeven](../c-about-staging.md#task_401A0EBDB5DB4D4CA933CBA7BECDC10F).
 
    * Klik op **[!UICONTROL Push Live]**.
 
-      Zie [Stadsmontages van het Pushing leven](../c-about-staging.md#task_44306783B4C0408AAA58B471DAF2D9A4).
+      Zie [Werkgebiedinstellingen leegmaken live](../c-about-staging.md#task_44306783B4C0408AAA58B471DAF2D9A4).
 
-## Een broodkruimel bewerken {#task_583481D9A23E4E0F97AEB18E72CBE13F}
+## Een broodkruimel {#task_583481D9A23E4E0F97AEB18E72CBE13F} bewerken
 
-U kunt de montages van om het even welke broodkruimel uitgeven die u hebt toegevoegd.
+U kunt de instellingen bewerken van alle broodkruimels die u hebt toegevoegd.
 
 <!-- 
 
@@ -130,33 +133,33 @@ t_editing_a_breadcrumb.xml
 
 >[!NOTE]
 >
->Ben zeker u de broodkruimel in uw presentatiemalplaatje van verwijzingen voorziet zodat het op de website zichtbaar is.
+>Zorg ervoor dat u naar de broodkruimel in uw presentatiesjabloon verwijst zodat deze op de website zichtbaar is.
 
-**Om een broodkruimel uit te geven**
+**Een broodkruimel bewerken**
 
 1. Klik in het productmenu op **[!UICONTROL Design]** > **[!UICONTROL Navigation]** > **[!UICONTROL Breadcrumbs]**.
-1. Voor de [!DNL Breadcrumbs] pagina, klik **[!UICONTROL Edit]** aan uiterst rechts van een broodkruimelnaam.
-1. Voor de [!DNL Edit Breadcrumb] pagina, plaats de opties die u wilt.
+1. Op [!DNL Breadcrumbs] pagina, klik **[!UICONTROL Edit]** aan het uiterste recht van een breadcrumb naam.
+1. Stel op de pagina [!DNL Edit Breadcrumb] de gewenste opties in.
 
-   Zie de lijst van opties onder het [Toevoegen van een nieuwe broodkruimel](../c-about-design-menu/c-about-breadcrumbs.md#task_2FFA94F82AE74F10BDDE7367CDCEAE8B).
+   Zie de optietabel onder [Een nieuwe broodkruimel](../c-about-design-menu/c-about-breadcrumbs.md#task_2FFA94F82AE74F10BDDE7367CDCEAE8B) toevoegen.
 1. Klik op **[!UICONTROL Save Changes]**.
-1. (Facultatief) op de **[!UICONTROL Breadcrumb]** pagina, doe één van het volgende:
+1. (Optioneel) Voer op de pagina **[!UICONTROL Breadcrumb]** een van de volgende handelingen uit:
 
    * Klik **[!UICONTROL History]** om het even welke veranderingen terug te keren die u hebt aangebracht.
 
-      Zie De optie [Historie](../t-using-the-history-option.md#task_70DD3F87A67242BBBD2CB27156F43002)gebruiken.
+      Zie [De optie Historie gebruiken](../t-using-the-history-option.md#task_70DD3F87A67242BBBD2CB27156F43002).
 
    * Klik op **[!UICONTROL Live]**.
 
-      Zie live-instellingen [bekijken](../c-about-staging.md#task_401A0EBDB5DB4D4CA933CBA7BECDC10F).
+      Zie [Live-instellingen weergeven](../c-about-staging.md#task_401A0EBDB5DB4D4CA933CBA7BECDC10F).
 
    * Klik op **[!UICONTROL Push Live]**.
 
-      Zie [Stadsmontages van het Pushing leven](../c-about-staging.md#task_44306783B4C0408AAA58B471DAF2D9A4).
+      Zie [Werkgebiedinstellingen leegmaken live](../c-about-staging.md#task_44306783B4C0408AAA58B471DAF2D9A4).
 
-## Een broodkruimel verwijderen {#task_401C6E481A744284906E15A29E04F757}
+## Een broodkruimel {#task_401C6E481A744284906E15A29E04F757} verwijderen
 
-U kunt om het even welke broodkruimel schrappen die u hebt toegevoegd.
+U kunt alle toegevoegde broodkruimels verwijderen.
 
 <!-- 
 
@@ -164,22 +167,22 @@ t_deleting_a_breadcrumb.xml
 
  -->
 
-**Om een broodkruimel te schrappen**
+**Een broodkruimel verwijderen**
 
 1. Klik in het productmenu op **[!UICONTROL Design]** > **[!UICONTROL Navigation]** > **[!UICONTROL Breadcrumbs]**.
-1. Voor de [!DNL Breadcrumbs] pagina, klik **[!UICONTROL Delete]** aan uiterst rechts van een broodkruimelnaam.
-1. Klik in het [!DNL Confirmation] dialoogvenster op **[!UICONTROL OK]**.
-1. (Facultatief) doe één van het volgende:
+1. Op [!DNL Breadcrumbs] pagina, klik **[!UICONTROL Delete]** aan het uiterste recht van een breadcrumb naam.
+1. Klik in het dialoogvenster [!DNL Confirmation] op **[!UICONTROL OK]**.
+1. (Optioneel) Voer een van de volgende handelingen uit:
 
    * Klik **[!UICONTROL History]** om het even welke veranderingen terug te keren die u hebt aangebracht.
 
-      Zie De optie [Historie](../t-using-the-history-option.md#task_70DD3F87A67242BBBD2CB27156F43002)gebruiken.
+      Zie [De optie Historie gebruiken](../t-using-the-history-option.md#task_70DD3F87A67242BBBD2CB27156F43002).
 
    * Klik op **[!UICONTROL Live]**.
 
-      Zie live-instellingen [bekijken](../c-about-staging.md#task_401A0EBDB5DB4D4CA933CBA7BECDC10F).
+      Zie [Live-instellingen weergeven](../c-about-staging.md#task_401A0EBDB5DB4D4CA933CBA7BECDC10F).
 
    * Klik op **[!UICONTROL Push Live]**.
 
-      Zie [Stadsmontages van het Pushing leven](../c-about-staging.md#task_44306783B4C0408AAA58B471DAF2D9A4).
+      Zie [Werkgebiedinstellingen leegmaken live](../c-about-staging.md#task_44306783B4C0408AAA58B471DAF2D9A4).
 

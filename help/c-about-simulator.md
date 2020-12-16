@@ -8,6 +8,9 @@ topic: Simulator,Site search and merchandising
 uuid: 7ec8f5b9-3ab3-4b9a-bf8a-65d0ca1dfddb
 translation-type: tm+mt
 source-git-commit: 91ddead9f73b73ea1a20e26582998966f801d6ff
+workflow-type: tm+mt
+source-wordcount: '398'
+ht-degree: 0%
 
 ---
 
@@ -16,24 +19,24 @@ source-git-commit: 91ddead9f73b73ea1a20e26582998966f801d6ff
 
 Met Simulator kunt u zien hoe uw zoekopdracht eruit zou zien als u alles wat momenteel gefaseerd is, live zou duwen.
 
-## Info Simulator {#concept_020AA6751E32421A96A3455508364C7E}
+## Info over Simulator {#concept_020AA6751E32421A96A3455508364C7E}
 
 Met Simulator kunt u zien hoe uw zoekopdracht eruit zou zien als u alles wat momenteel gefaseerd is, live zou duwen.
 
 U kunt uw huidige live zoekopdracht ook simuleren voor vergelijkingsdoeleinden. De simulator heeft ingebouwde debugger om u te tonen welke bedrijfsregels voor een bepaald onderzoek vuren. Als u een gekoppelde regel uitschakelt, simuleert Simulator de zoekopdracht van uw site alsof die regel niet bestond. De regels zijn van hoogste prioriteit aan laagste prioriteit vermeld, waar de hogere prioritaire regels lagere prioritaire regels verdringen.
 
-Zie ook [Een nieuwe bedrijfsregel](c-about-rules-menu/c-about-business-rules.md#task_BD3B31ED48BB4B1B8F1DCD3BFA2528E7)toevoegen.
+Zie ook [Een nieuwe bedrijfsregel toevoegen](c-about-rules-menu/c-about-business-rules.md#task_BD3B31ED48BB4B1B8F1DCD3BFA2528E7).
 
-## De Simulator gebruiken {#task_739E14F61F8D47B196515F815E3F3BD9}
+## De simulator {#task_739E14F61F8D47B196515F815E3F3BD9} gebruiken
 
 U kunt Simulator gebruiken om te zien hoe uw zoekopdracht eruit zou zien als u alles zou duwen wat momenteel actief is, live.
 
-Zie [Een nieuwe bedrijfsregel](c-about-rules-menu/c-about-business-rules.md#task_BD3B31ED48BB4B1B8F1DCD3BFA2528E7)toevoegen.
+Zie [Een nieuwe bedrijfsregel toevoegen](c-about-rules-menu/c-about-business-rules.md#task_BD3B31ED48BB4B1B8F1DCD3BFA2528E7).
 
 **De Simulator gebruiken**
 
-1. Klik in het menu Product op **[!UICONTROL Simulator]**.
-1. Selecteer in de **[!UICONTROL Options]** vervolgkeuzelijst de optie die u wilt uitvoeren.
+1. Klik in het productmenu op **[!UICONTROL Simulator]**.
+1. Selecteer in de vervolgkeuzelijst **[!UICONTROL Options]** de optie die u wilt uitvoeren.
 
    <!-- 
    

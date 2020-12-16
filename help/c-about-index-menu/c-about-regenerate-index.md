@@ -1,77 +1,80 @@
 ---
-description: U kunt gebruiken Regenerate Index om de index van uw website bij te werken zonder de behoefte om uw plaats opnieuw te kruipen.
-seo-description: U kunt gebruiken Regenerate Index om de index van uw website bij te werken zonder de behoefte om uw plaats opnieuw te kruipen.
-seo-title: Over Regeneratie-index
+description: U kunt Index opnieuw genereren gebruiken om de index van uw website bij te werken zonder dat u uw site opnieuw hoeft te verkennen.
+seo-description: U kunt Index opnieuw genereren gebruiken om de index van uw website bij te werken zonder dat u uw site opnieuw hoeft te verkennen.
+seo-title: Info Index opnieuw genereren
 solution: Target
 subtopic: Regenerate Index
-title: Over Regeneratie-index
+title: Info Index opnieuw genereren
 topic: Index,Site search and merchandising
 uuid: 9d1f1d88-0453-4422-a625-a348febbf224
 translation-type: tm+mt
 source-git-commit: f21a3f7fe0aeaab517a5ca36da43594873b3e69a
+workflow-type: tm+mt
+source-wordcount: '413'
+ht-degree: 0%
 
 ---
 
 
-# Over Regeneratie-index{#about-regenerate-index}
+# Info Index opnieuw genereren{#about-regenerate-index}
 
-U kunt gebruiken [!DNL Regenerate Index] om de index van uw website bij te werken zonder de behoefte om uw plaats opnieuw te kruipen.
+U kunt [!DNL Regenerate Index] gebruiken om de index van uw website bij te werken zonder de behoefte om uw plaats opnieuw te kruipen.
 
-## Regeneratie-index gebruiken {#concept_6CBE6B8D18EF47D293091CBA542245FA}
+## Index {#concept_6CBE6B8D18EF47D293091CBA542245FA} Regenereren gebruiken
 
-U kunt deze optie gebruiken wanneer u een verandering in de volgende rekeningsopties aanbrengt:
+U kunt deze optie gebruiken wanneer u een wijziging aanbrengt in de volgende accountopties:
 
 * Woorden en talen
 * Uitgesloten woorden
-* Synonyms
-* De montages van meta-gegevens zoals wanneer u een meta-gegevensgebied schrapt, verander een gebiedsnaam, gegevenstype, datumformaten, soortorde, minimum of maximumrangordewaarde, standaardrank waarde, lijsttype, of lijstseparator.
+* Synoniemen
+* Instellingen voor metagegevens, zoals wanneer u een metagegevensveld verwijdert, een veldnaam, gegevenstype, datumnotaties, sorteervolgorde, minimum- of maximumwaarde voor rang, standaardrangtelwaarde, lijsttype of lijstscheidingsteken wijzigen.
 
-De bijgewerkte informatie van de rekeningsoptie wordt gebruikt om een nieuwe plaatsindex te produceren. Regenerate laat u snel en efficiënt veranderingen in uw plaatsindex aanbrengen.
+De bijgewerkte informatie over accountopties wordt gebruikt om een nieuwe site-index te genereren. Met Regenereren kunt u snel en efficiënt wijzigingen aanbrengen in uw site-index.
 
-Door gebrek, is om het even welke nieuwe of veranderde websiteinhoud niet inbegrepen in de index. Om dergelijke inhoud te omvatten, stel een volledige of stijgende index in werking.
+Nieuwe of gewijzigde website-inhoud wordt standaard niet opgenomen in de index. Voer een volledige of incrementele index uit om dergelijke inhoud op te nemen.
 
-Zie ook Een volledige index van een live of gefaseerde website [uitvoeren...](../c-about-index-menu/c-about-full-index.md#task_F7FE04D8A1654A7787FCCA31B45EB42D).
+Zie ook [Een volledige index van een actieve of gefaseerde website uitvoeren...](../c-about-index-menu/c-about-full-index.md#task_F7FE04D8A1654A7787FCCA31B45EB42D).
 
-Zie ook Een incrementele index van een live of gefaseerde website [uitvoeren...](../c-about-index-menu/c-about-incremental-index.md#task_9BFB6157F3884B2FAECB7E0E9CA318CB).
+Zie ook [Een incrementele index van een actieve of gefaseerde website uitvoeren...](../c-about-index-menu/c-about-incremental-index.md#task_9BFB6157F3884B2FAECB7E0E9CA318CB).
 
-## De index van een live of gefaseerde website regenereren {#task_B28DE40C0E9A475ABCBCBC4FF993AACD}
+## De index van een actieve of gefaseerde website opnieuw genereren {#task_B28DE40C0E9A475ABCBCBC4FF993AACD}
 
-U kunt gebruiken [!DNL Regenerate Index] om de index van uw website zonder de behoefte bij te werken om uw plaats opnieuw te vormen.
+Met [!DNL Regenerate Index] kunt u de index van uw website bijwerken zonder dat u uw site opnieuw hoeft te tekenen.
 
-**Om de index van een levende of gefaseerde website te regenereren**
+**De index van een actieve of gefaseerde website opnieuw genereren**
 
-1. Voor het productmenu, doe één van het volgende:
+1. Voer een van de volgende handelingen uit in het menu Product:
 
    * Klik op **[!UICONTROL Index]** > **[!UICONTROL Regenerate Index]** > **[!UICONTROL Live Regenerate]**.
 
    * Klik op **[!UICONTROL Index]** > **[!UICONTROL Regenerate Index]** > **[!UICONTROL Staged Regenerate]**.
 
-1. Voor de [!DNL Regenerate] pagina, klik **[!UICONTROL Regenerate Index Now]**.
-1. (Facultatief) doe om het even welke volgend:
+1. Klik op [!DNL Regenerate] op de pagina.**[!UICONTROL Regenerate Index Now]**
+1. (Optioneel) Voer een van de volgende handelingen uit:
 
-   * Als u verkoos om te lopen **[!UICONTROL Live Regenerate]**, klik **[!UICONTROL View Last Crawl]** om prestatiesstatistieken voor de laatste levende indexregeneratie te herzien die werd uitgevoerd.
+   * Als u **[!UICONTROL Live Regenerate]** verkoos in werking te stellen, klik **[!UICONTROL View Last Crawl]** om prestatiesstatistieken voor de laatste levende indexregeneratie te herzien die werd uitgevoerd.
 
-   * Terwijl de index regenereert, klik **[!UICONTROL Stop Regenerate Now]** om het proces van de indexregeneratie tegen te houden.
-   * Terwijl de index regenereert, klik **[!UICONTROL Restart Regenerate Now]** om het proces van de indexregeneratie vanaf het begin opnieuw te beginnen.
-   * Als de indexerende fouten na een gefaseerde regeneratie voorkwamen, klik **[!UICONTROL View Errors]** om het bijbehorende logboek te bekijken.
+   * Terwijl de index opnieuw wordt gegenereerd, klikt u op **[!UICONTROL Stop Regenerate Now]** om het opnieuw genereren van de index te stoppen.
+   * Terwijl de index opnieuw wordt gegenereerd, klikt u op **[!UICONTROL Restart Regenerate Now]** om het indexregeneratieproces vanaf het begin opnieuw te starten.
+   * Als er indexeringsfouten zijn opgetreden na een gefaseerde regeneratie, klikt u op **[!UICONTROL View Errors]** om het gekoppelde logboek weer te geven.
 
-## Het bekijken van het geregenereerde indexlogboek van een levende of gefaseerde website {#task_61CE8F9E7BF84BA89A8D482B2106BB15}
+## Het opnieuw gegenereerde indexlogboek van een live of gefaseerde website weergeven {#task_61CE8F9E7BF84BA89A8D482B2106BB15}
 
-Wanneer een levende indexregeneratie of een gefaseerde indexregeneratie volledig is, kunt u zijn bijbehorend logboek bekijken om het even welke fouten problemen op te lossen die voorkwamen.
+Wanneer een actieve indexregeneratie of een gefaseerde indexregeneratie volledig is, kunt u zijn bijbehorend logboek bekijken om het even welke fouten problemen op te lossen die voorkwamen.
 
-U kunt geen logboeken uitvoeren, noch hen bewaren. Nochtans, blijft het logboek beschikbaar voor het bekijken tot de nieuwe index voorkomt.
+U kunt logboeken niet exporteren of opslaan. Het logboek blijft echter beschikbaar voor weergave totdat de nieuwe index wordt weergegeven.
 
-**Om het geregenereerde indexlogboek van een levende of getrapte website te bekijken**
+**Het opnieuw gegenereerde indexlogboek van een live of gefaseerde website weergeven**
 
-1. Voor het productmenu, doe één van het volgende:
+1. Voer een van de volgende handelingen uit in het menu Product:
 
    * Klik op **[!UICONTROL Index]** > **[!UICONTROL Regenerate Index]** > **[!UICONTROL Live Log]**.
 
    * Klik op **[!UICONTROL Index]** > **[!UICONTROL Regenerate Index]** > **[!UICONTROL Staged Log]**.
 
-1. Voor de logboekpagina, bij de bovenkant of de bodem, doe om het even welke volgend:
+1. Voer een of meerdere van de volgende handelingen uit op de logpagina, boven of onder:
 
-   * Gebruik de navigatieopties **[!UICONTROL First]**, **[!UICONTROL Prev]**, **[!UICONTROL Next]**, **[!UICONTROL Last]**, of **[!UICONTROL Go to line]** om zich door het logboek te bewegen.
+   * Gebruik de navigatieopties **[!UICONTROL First]**, **[!UICONTROL Prev]**, **[!UICONTROL Next]**, **[!UICONTROL Last]**, of **[!UICONTROL Go to line]** om door het logboek te bewegen.
 
-   * Gebruik de vertoningsopties **[!UICONTROL Errors only]**, **[!UICONTROL Wrap line]**, of **[!UICONTROL Show]** om te raffineren wat u ziet.
+   * Gebruik de weergaveopties **[!UICONTROL Errors only]**, **[!UICONTROL Wrap line]** of **[!UICONTROL Show]** om te verfijnen wat u ziet.
 

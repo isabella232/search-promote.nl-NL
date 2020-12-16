@@ -8,11 +8,14 @@ topic: Appendices,Site search and merchandising
 uuid: 91153e3a-c437-47f3-8c2a-d9ac02965b8c
 translation-type: tm+mt
 source-git-commit: 4542702e1d2ba04c70d9f6b24bfa32e1f1c6acb5
+workflow-type: tm+mt
+source-wordcount: '2921'
+ht-degree: 0%
 
 ---
 
 
-# Zoeken in formulieren{#search-forms}
+# Formulieren zoeken{#search-forms}
 
 ## Verzamelingen gebruiken in zoekformulieren {#reference_5A079AEEEFB84457892EF0870D0605C3}
 
@@ -48,7 +51,7 @@ In het volgende voorbeeld worden vier verschillende verzamelingsnamen en de bijb
    <td colname="col2"> <p>https://www.mycompany.com/news/ </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Over Adobe </p> </td> 
+   <td colname="col1"> <p>Info over Adobe </p> </td> 
    <td colname="col2"> <p>https://www.mycompany.com/company/ </p> </td> 
   </tr> 
  </tbody> 
@@ -86,7 +89,7 @@ Het zoekformulier voor het selectievakje wordt gegenereerd met de volgende HTML-
 
 ## Zoekresultaten {#section_BBDD5B44E2B349BC88D937F44583D350}
 
-De tag van de zoeksjabloon `<search-input-collections>` genereert het vak HTML van de verzamelingslijst in de zoekresultaten en selecteert automatisch de verzameling die is opgegeven in de zoekopdracht. Als u in plaats daarvan selectievakjes wilt genereren, gebruikt u de `<search-input>` tag in plaats van de `<input>` tag als volgt:
+Met de tag `<search-input-collections>` van de zoeksjabloon wordt het vak met de verzamelingslijst in de zoekresultaten gegenereerd en wordt automatisch de verzameling geselecteerd die is opgegeven in de zoekopdracht. Als u in plaats daarvan selectievakjes wilt genereren, gebruikt u de tag `<search-input>` in plaats van de tag `<input>` als volgt:
 
 ```
 <search-input type="checkbox" name="sp_k" value="">All of Adobe<br> 
@@ -96,7 +99,7 @@ De tag van de zoeksjabloon `<search-input-collections>` genereert het vak HTML v
 <search-input type="checkbox" name="sp_k" value="About Adobe">About Adobe<br>
 ```
 
-De `<search-input>` tag genereert een `<input>` tag en neemt het `checked` kenmerk op als de verzameling is opgegeven in de zoekopdracht.
+De tag `<search-input>` geeft een tag `<input>` en bevat het kenmerk `checked` als de verzameling is opgegeven in de zoekopdracht.
 
 ## Frames gebruiken met formulieren {#reference_82CDDDA1E37042E4849EBF7EA05407C5}
 
@@ -115,7 +118,7 @@ Als uw site frames gebruikt, kunt u een doelframe opgeven voor koppelingen naar 
 
 Als uw site geen frames gebruikt, wilt u waarschijnlijk de standaarddoelnaam niet wijzigen.
 
-Als u een sjabloon met aangepaste zoekresultaten voor uw website maakt, kunt u de opgegeven instelling overschrijven met het `target` kenmerk van de `<search-link>` tag.
+Als u een sjabloon met aangepaste zoekresultaten voor uw website maakt, kunt u de opgegeven instelling overschrijven met het kenmerk `target` van de tag `<search-link>`.
 
 Het configureren van framesets verloopt als volgt:
 
@@ -129,36 +132,36 @@ Het configureren van framesets verloopt als volgt:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>1 </p> </td> 
+   <td colname="col1"> <p>3 </p> </td> 
    <td colname="col02"> <p>Voeg het formulier toe aan het gewenste frame op uw webpagina. </p> </td> 
-   <td colname="col2"> <p> <a href="#section_BAA8A502BB2243F8B5FF9783CDF2BFFD" type="section" format="dita" scope="local"> De code van het zoekformulier toevoegen aan een frame in uw... </a> </p> </td> 
+   <td colname="col2"> <p> <a href="#section_BAA8A502BB2243F8B5FF9783CDF2BFFD" type="section" format="dita" scope="local"> De code van het zoekformulier toevoegen aan een frame in uw...  </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>2 </p> </td> 
    <td colname="col02"> <p>Stel het doelframe in voor de pagina met zoekresultaten. </p> </td> 
-   <td colname="col2"> <p> <a scope="local" href="#section_532CACB90888467093D95EACB64FDFA1" type="section" format="dita"> Het doelframe instellen voor de pagina met zoekresultaten </a> </p> </td> 
+   <td colname="col2"> <p> <a scope="local" href="#section_532CACB90888467093D95EACB64FDFA1" type="section" format="dita"> Het doelframe instellen voor de pagina met zoekresultaten  </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>3 </p> </td> 
    <td colname="col02"> <p>Stel het doel in voor koppelingen die op de pagina met zoekresultaten worden gemaakt. </p> </td> 
-   <td colname="col2"> <p> <a scope="local" href="#section_523248C5AC424D878321C21A23A5CD66" type="section" format="dita"> Het doel instellen voor koppelingen die zijn gemaakt op basis van de zoekresultaten... </a> </p> </td> 
+   <td colname="col2"> <p> <a scope="local" href="#section_523248C5AC424D878321C21A23A5CD66" type="section" format="dita"> Het doel instellen voor koppelingen die zijn gemaakt op basis van de zoekresultaten...  </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>4 </p> </td> 
    <td colname="col02"> <p>Bewerk de pagina's van het navigatieframe om te voorkomen dat deze worden geïndexeerd. </p> </td> 
-   <td colname="col2"> <p> <a scope="local" href="#section_C62E5F0EE1294D5EBD97E123E54433FC" type="section" format="dita"> De pagina's van navigatieframes bewerken om te voorkomen dat deze worden bewerkt... </a> </p> </td> 
+   <td colname="col2"> <p> <a scope="local" href="#section_C62E5F0EE1294D5EBD97E123E54433FC" type="section" format="dita"> De pagina's van navigatieframes bewerken om te voorkomen dat deze worden bewerkt...  </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>5 </p> </td> 
    <td colname="col02"> <p>Test het zoekformulier. </p> </td> 
-   <td colname="col2"> <p> <a scope="local" href="#section_43D8D4A7BF524DC480DFE5442F6A2E3C" type="section" format="dita"> Het zoekformulier testen </a> </p> </td> 
+   <td colname="col2"> <p> <a scope="local" href="#section_43D8D4A7BF524DC480DFE5442F6A2E3C" type="section" format="dita"> Het zoekformulier testen  </a> </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## De code van het zoekformulier toevoegen aan een frame op uw webpagina {#section_BAA8A502BB2243F8B5FF9783CDF2BFFD}
 
-1. Klik in het menu Product op **[!UICONTROL Design]** > **[!UICONTROL Auto-Complete]** > **[!UICONTROL Form Source]**.
+1. Klik in het productmenu op **[!UICONTROL Design]** > **[!UICONTROL Auto-Complete]** > **[!UICONTROL Form Source]**.
 
    De HTML-zoekformuliercode ziet er ongeveer als volgt uit:
 
@@ -171,14 +174,14 @@ Het configureren van framesets verloopt als volgt:
    </form>
    ```
 
-1. Selecteer op de [!DNL Standard Form Source] pagina de HTML-code van het zoekformulier die in het tekstveld wordt weergegeven en kopieer deze.
+1. Selecteer op de pagina [!DNL Standard Form Source] de HTML-code van het zoekformulier die in het tekstveld wordt weergegeven en kopieer deze.
 1. Plak de code van het zoekformulier in het gewenste frame in de frameset.
 
    In het onderstaande voorbeeld wordt de code van het zoekformulier in het navigatieframe geplakt: het smalle verticale frame aan de linkerkant van het scherm.
 
    ![](assets/frames1.gif)
 
-## Het doelframe instellen voor de pagina met zoekresultaten {#section_532CACB90888467093D95EACB64FDFA1}
+## Doelframe instellen voor pagina {#section_532CACB90888467093D95EACB64FDFA1} met zoekresultaten
 
 Als u de code van het zoekformulier net als hierboven in het verticale navigatieframe hebt geplaatst, kunt u de zoekresultaten in het grotere hoofdframe weergeven. In dit voorbeeld roept u het hoofdframe &#39;body&#39; op en stelt u dit in als het doelframe.
 
@@ -196,11 +199,11 @@ Als u de code van het zoekformulier net als hierboven in het verticale navigatie
 
 Wanneer een klant uw website zoekt, worden de zoekresultaten weergegeven in het hoofdframe van de webpagina.
 
-## Het doel instellen voor koppelingen die zijn gemaakt op de pagina met zoekresultaten {#section_523248C5AC424D878321C21A23A5CD66}
+## Doel instellen voor koppelingen die worden gemaakt op de pagina {#section_523248C5AC424D878321C21A23A5CD66} met zoekresultaten
 
 U kunt het doelframe instellen door de sjabloon rechtstreeks te bewerken.
 
-Als uw zoekresultaten in het &quot;body&quot;-kader worden weergegeven, wilt u waarschijnlijk ook de koppelingen openen in het &quot;body&quot;-kader. Omdat dit hetzelfde frame is, de standaardwaarde voor de doelwaarde, hoeft u geen wijzigingen aan te brengen. `"_self"` Dit is hetzelfde frame.
+Als uw zoekresultaten in het &quot;body&quot;-kader worden weergegeven, wilt u waarschijnlijk ook de koppelingen openen in het &quot;body&quot;-kader. Omdat dit hetzelfde frame is, is de doelwaarde `"_self"` de standaardinstelling. U hoeft geen wijzigingen aan te brengen.
 
 U kunt het doelframe ook instellen voor resultatenkoppelingen. Hieronder volgen enkele voorbeelden van wat u kunt doen:
 
@@ -213,33 +216,33 @@ De doelnaam kan de naam zijn van een frame dat in de HTML is opgegeven of een va
 
 * `target="_self"` Standaard. Open koppelingen in hetzelfde venster als de zoekresultaten. In dit geval het oorspronkelijke venster met zoekresultaten. Gebruik deze optie om een globaal toegewezen basisdoel met voeten te treden.
 
-* `target="_parent"` Open koppelingen in de bovenliggende frameset van de koppelingspagina. Als het document geen bovenliggend element heeft, werkt dit `"_self"` standaard.
+* `target="_parent"` Open koppelingen in de bovenliggende frameset van de koppelingspagina. Als het document geen bovenliggend element heeft, werkt dit standaard als `"_self"`.
 
-* `target="_top"` Open koppelingen in het volledige venster. Als het document al bovenaan staat, werkt dit `"_self"` standaard. Gebruik deze optie om een willekeurig diep kader te nesten.
+* `target="_top"` Open koppelingen in het volledige venster. Als het document al bovenaan staat, werkt dit standaard als `"_self"`. Gebruik deze optie om een willekeurig diep kader te nesten.
 
-Als u bijvoorbeeld het doeldoelframe wilt instellen, kunt u de sjabloon op de volgende manier bewerken: `_blank`
+Als u bijvoorbeeld het doeldoelframe `_blank` wilt instellen, kunt u de sjabloon op de volgende manier bewerken:
 
-1. Klik in het menu Product op **[!UICONTROL Design]** > **[!UICONTROL Templates]**.
+1. Klik in het productmenu op **[!UICONTROL Design]** > **[!UICONTROL Templates]**.
 
-1. Klik op de [!DNL Staged Templates] pagina in de tabel op de naam van de sjabloon met het doelframe.
-1. Zoek de `<search-link>` tag. Your default `<search-link>` tag should look similar to the following:
+1. Klik op de pagina [!DNL Staged Templates] in de tabel op de naam van de sjabloon met het doelframe.
+1. Zoek de tag `<search-link>`. De standaardtag `<search-link>` moet er ongeveer als volgt uitzien:
 
    `<search-link><search-title length=100></search-link>`
 
-1. Voeg het framedoel toe aan de `<search-link>` tag. Voer in het bovenstaande voorbeeld `target="_blank"`. Zorg ervoor dat u het onderstrepingsteken en de aanhalingstekens rond de doelwaarde opneemt.
+1. Voeg het framedoel toe aan de tag `<search-link>`. In het bovenstaande voorbeeld voert u `target="_blank"` in. Zorg ervoor dat u het onderstrepingsteken en de aanhalingstekens rond de doelwaarde opneemt.
 
-   De `<search-link>` tag wordt nu als volgt weergegeven:
+   De tag `<search-link>` ziet er nu als volgt uit:
 
    `<search-link target="_blank"><search-title length=100></search-link>`
 
 Wanneer een bezoeker van de site een koppeling met zoekresultaten kiest, wordt de gekoppelde pagina nu in een nieuw, leeg venster geopend.
 
-## De pagina&#39;s van navigatieframes bewerken om te voorkomen dat ze worden geïndexeerd {#section_C62E5F0EE1294D5EBD97E123E54433FC}
+## De pagina&#39;s van navigatieframes bewerken om te voorkomen dat deze worden geïndexeerd {#section_C62E5F0EE1294D5EBD97E123E54433FC}
 
-Meestal wilt u niet dat navigatieframes worden geïndexeerd met de zoekresultaten. Voor deze functionaliteit kunt u metatag toevoegen aan deze pagina&#39;s. `noindex`
+Meestal wilt u niet dat navigatieframes worden geïndexeerd met de zoekresultaten. Voor deze functionaliteit kunt u de metatag `noindex` aan deze pagina&#39;s toevoegen.
 
 1. Open de HTML-paginabron voor uw navigatieframe.
-1. Voeg de volgende meta-tag toe in de `<head>` sectie van de HTML:
+1. Voeg de volgende metatag binnen de `<head>` sectie van uw HTML toe:
 
    `<meta name="robots" content="noindex">`
 
@@ -264,6 +267,7 @@ Meestal wilt u niet dat navigatieframes worden geïndexeerd met de zoekresultate
    * De pagina met zoekresultaten wordt weergegeven in het opgegeven doelframe.
    * De verbindingen van uw onderzoeksresultaten zijn in het gespecificeerde doelkader.
    * De resultaten van het navigatieframe worden niet weergegeven.
+
    Neem contact op met de Klantenondersteuning als u problemen ondervindt met frames nadat u het zoekformulier hebt getest.
 
 ## Voorbeeld van geavanceerd zoekformulier {#reference_82E1051918744EBA88A01E9E6AE42C4A}
@@ -286,11 +290,11 @@ Met het volgende voorbeeld van het geavanceerde zoekformulier, ziet u in de rest
 
 U kunt de volledige geavanceerde HTML-code van het bovenstaande voorbeeld bekijken.
 
-Zie [Geavanceerde HTML-code](#reference_9AAD4A46B68D4D48865508982CB86DB9)voor zoekformulieren.
+Zie [Geavanceerde HTML-code voor zoekformulieren](#reference_9AAD4A46B68D4D48865508982CB86DB9).
 
-Zie CSS [automatisch aanvullen](../c-about-auto-complete.md#task_EECE35DEB6C94F4A8A5B42B4DED76D96)configureren.
+Zie [Automatisch aanvullen van CSS](../c-about-auto-complete.md#task_EECE35DEB6C94F4A8A5B42B4DED76D96) configureren.
 
-Zie De HTML-code van het zoekformulier [kopiëren naar...](../c-about-auto-complete.md#task_A3A01EA800F24C0AA33902387E0362C7).
+Zie [De HTML-code van het zoekformulier kopiëren naar..](../c-about-auto-complete.md#task_A3A01EA800F24C0AA33902387E0362C7).
 
 <table> 
  <thead> 
@@ -304,41 +308,41 @@ Zie De HTML-code van het zoekformulier [kopiëren naar...](../c-about-auto-compl
  <tbody> 
   <tr> 
    <td colname="col2"> <p>Geavanceerde opties voor zoekformulieren inschakelen (verborgen veld) </p> </td> 
-   <td colname="col1"> <p> <span class="codeph"> sp_advanced </span> </p> </td> 
-   <td colname="col3"> <p> <span class="syntax html codeph"> &lt;input type=hidden name="sp_advanced" value=1&gt; </span> </p> </td> 
-   <td colname="col4"> <p>Geavanceerde zoekopties in- of uitschakelen. U kunt bijvoorbeeld een standaardzoekformulier op uw homepage plaatsen met een koppeling naar een tweede pagina die een geavanceerd formulier bevat. In dit geval plaatst u een kopie van het standaardformulier in <span class="codeph"> &lt;search-if-not-advanced&gt;...&lt;/search-if-not-advanced&gt; </span> -sjabloontags. </p> <p>Een klant die een zoekopdracht uitvoert vanuit het standaardformulier, ziet een standaardzoekformulier wanneer de zoekresultaten worden weergegeven. In het scherm met geavanceerde zoekformulieren neemt u de <span class="codeph"> &lt;input type=hidden name="sp_advanced" value=1&gt;- </span> tag op met de andere geavanceerde formulieropties. </p> <p>U voegt ook een kopie van het geavanceerde zoekformulier toe in het &lt;search-if-advanced&gt;... &lt;/search-if-advanced&gt; sjabloontags. Een klant die een zoekopdracht uitvoert vanuit uw geavanceerde zoekformulier, ziet een geavanceerd zoekformulier wanneer de zoekresultaten worden weergegeven. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> sp_advanced  </span> </p> </td> 
+   <td colname="col3"> <p> <span class="syntax html codeph"> &lt;input type="hidden" name="sp_advanced" value="1"&gt; </span> </p> </td> 
+   <td colname="col4"> <p>Geavanceerde zoekopties in- of uitschakelen. U kunt bijvoorbeeld een standaardzoekformulier op uw homepage plaatsen met een koppeling naar een tweede pagina die een geavanceerd formulier bevat. In dit geval plaatst u een kopie van het standaardformulier in <span class="codeph"> &lt;search-if-not-advanced&gt;...&lt;/search-if-not-advanced&gt; </span> sjabloontags. </p> <p>Een klant die een zoekopdracht uitvoert vanuit het standaardformulier, ziet een standaardzoekformulier wanneer de zoekresultaten worden weergegeven. Op het geavanceerde scherm van het onderzoeksvorm, omvat u <span class="codeph"> &lt;input type=hidden name="sp_advanced" value=1&gt; </span> markering met de andere geavanceerde vormopties. </p> <p>U voegt ook een kopie van het geavanceerde zoekformulier toe in het &lt;search-if-advanced&gt;... &lt;/search-if-advanced&gt; sjabloontags. Een klant die een zoekopdracht uitvoert vanuit uw geavanceerde zoekformulier, ziet een geavanceerd zoekformulier wanneer de zoekresultaten worden weergegeven. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p> Alle, alle of woordgroepen </p> </td> 
-   <td colname="col1"> <p> <span class="codeph"> sp_p </span> </p> <p> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> sp_p  </span> </p> <p> </p> </td> 
    <td colname="col3"> <p> <code class="syntax html"> &lt;!--&nbsp;Allow&nbsp;"any,"&nbsp;"all,"&nbsp;or&nbsp;"phrase"&nbsp;--&gt; 
       &lt;input&nbsp;type=radio&nbsp;name="sp_p"&nbsp;value="any"&gt;Any&nbsp;word 
       &lt;input&nbsp;type=radio&nbsp;name="sp_p"&nbsp;value="all"&nbsp;checked&gt;All&nbsp;words 
       &lt;input&nbsp;type=radio&nbsp;name="sp_p"&nbsp;value="phrase"&gt;Exact&nbsp;phrase </code> </p> </td> 
-   <td colname="col4"> <p>Uw klant toestaan op te geven dat een document alleen met 'elk woord', 'alle woorden' of 'de exacte woordgroep' kan overeenkomen. Wanneer de <span class="codeph"> sp_p </span> parameter wordt gespecificeerd, te hoeven de klanten niet "+", of "-", of allebei in de onderzoeksvraag te gebruiken. </p> <p> Als de <span class="codeph"> </span> sp_p parameter wordt weggelaten, of als het aan "" of "om het even welk wordt geplaatst,"dan kunnen de klanten nog "+"en "-"specifiers gebruiken. Als de <span class="codeph"> sp_p </span> parameter aan "all"of "uitdrukking wordt geplaatst,"dan worden gespecificeerd "+" en "-" genegeerd. </p> <p>Meer informatie over het gebruik van "+" en "-" in een zoekopdracht. </p> <p>Zie <a href="../c-about-settings-menu/c-about-searching-menu.md#concept_207105CF26B1448F8A3D223787C56AB8" type="concept" format="dita" scope="local"> Over zoekopdrachten </a>. </p> </td> 
+   <td colname="col4"> <p>Uw klant toestaan op te geven dat een document alleen met 'elk woord', 'alle woorden' of 'de exacte woordgroep' kan overeenkomen. Wanneer de <span class="codeph"> sp_p </span> parameter wordt gespecificeerd, te hoeven de klanten niet "+", of "-", of allebei in de onderzoeksvraag te gebruiken. </p> <p> Als de <span class="codeph"> sp_p </span> parameter wordt weggelaten, of als het aan "" of "om het even welk wordt geplaatst,"dan kunnen de klanten nog "+"en "-"specifiers gebruiken. Als de <span class="codeph"> sp_p </span> parameter aan "all"of "uitdrukking wordt geplaatst,"dan gespecificeerd "+" en "-" worden genegeerd. </p> <p>Meer informatie over het gebruik van "+" en "-" in een zoekopdracht. </p> <p>Zie <a href="../c-about-settings-menu/c-about-searching-menu.md#concept_207105CF26B1448F8A3D223787C56AB8" type="concept" format="dita" scope="local"> Informatie over zoekopdrachten </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p> Overeenkomende geluiden </p> </td> 
-   <td colname="col1"> <p> <span class="codeph"> sp_w </span> </p> <p>en </p> <p> <span class="codeph"> sp_w_control </span> </p> <p> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> sp_w  </span> </p> <p>en </p> <p> <span class="codeph"> sp_w_control  </span> </p> <p> </p> </td> 
    <td colname="col3"> <p> <code class="syntax html"> &lt;!--&nbsp;Checkbox&nbsp;enables&nbsp;sound-alike&nbsp;matching&nbsp;--&gt; 
       &lt;input&nbsp;type=hidden&nbsp;name="sp_w_control"&nbsp;value=1&gt; 
       &lt;input&nbsp;type=checkbox&nbsp;name="sp_w"&nbsp;value="alike"&gt;&nbsp;Sound-alike&nbsp;matching </code> </p> </td> 
-   <td colname="col4"> <p>Klanten kunnen afstemming van geluid in- of uitschakelen. Bij overeenkomsten op dezelfde manier kunnen onjuist gespelde zoekopdrachten overeenkomen met woorden die in uw documenten "op dezelfde manier" klinken. </p> <p>Wanneer de <span class="codeph"> sp_w_control </span> parameter aan 1 wordt geplaatst en de <span class="codeph"> sp_w </span> parameter aan "gelijk wordt geplaatst,"wordt de geproduceerde controledoos geselecteerd, toelatend geluid-gelijke aanpassing door gebrek. </p> <p>Als de <span class="codeph"> sp_w- </span> parameter is ingesteld op "", is het selectievakje niet ingeschakeld. </p> <p>Als u geluid-gelijke aanpassing tijdens uw meest recente het indexeren verrichting niet toeliet, dan is de geluid-gelijke aanpassing niet mogelijk en de <span class="codeph"> sp_w </span> parameter wordt genegeerd. U schakelt overeenkomsten op basis van geluid in door in het productmenu op <span class="uicontrol"> Linguistics </span> &gt; <span class="uicontrol"> Words &amp; Language </span> &gt; <span class="uicontrol"> Sound-Alike Matching </span>. </p> <p>U kunt de parameters <span class="codeph"> sp_w </span> en <span class="codeph"> sp_w_control ook op de volgende manier toewijzen </span> : </p> <p> <code class="syntax html"> &lt;!--&nbsp;Checkbox&nbsp;disables&nbsp;sound-alike&nbsp;matching&nbsp;--&gt; 
+   <td colname="col4"> <p>Klanten kunnen afstemming van geluid in- of uitschakelen. Bij overeenkomsten op dezelfde manier kunnen onjuist gespelde zoekopdrachten overeenkomen met woorden die in uw documenten "op dezelfde manier" klinken. </p> <p>Wanneer de <span class="codeph"> sp_w_control </span> parameter aan 1 wordt geplaatst en <span class="codeph"> sp_w </span> parameter aan "gelijk wordt geplaatst,"wordt de geproduceerde controledoos geselecteerd, toelatend geluid-gelijke aanpassing door gebrek. </p> <p>Als de <span class="codeph"> sp_w </span> parameter aan "" wordt geplaatst, wordt de controledoos niet geselecteerd. </p> <p>Als u geluid-gelijke aanpassing tijdens uw meest recente het indexeren verrichting niet toeliet, dan is geluid-gelijke aanpassing niet mogelijk en <span class="codeph"> sp_w </span> wordt parameter genegeerd. Als u overeenkomende geluiden wilt inschakelen, klikt u in het productmenu op <span class="uicontrol"> Taalkenmerken </span> &gt; <span class="uicontrol"> Woorden en taal </span> &gt; <span class="uicontrol"> Geluidsovereenkomsten </span>. </p> <p>U kunt de parameters <span class="codeph"> sp_w </span> en <span class="codeph"> sp_w_control </span> parameters op de volgende manier ook toewijzen: </p> <p> <code class="syntax html"> &lt;!--&nbsp;Checkbox&nbsp;disables&nbsp;sound-alike&nbsp;matching&nbsp;--&gt; 
       &lt;input&nbsp;type=hidden&nbsp;name="sp_w_control"&nbsp;value=0&gt; 
       &lt;input&nbsp;type=checkbox&nbsp;name="sp_w"&nbsp;value="exact"&gt; 
-      No&nbsp;sound-alike&nbsp;matching </code> </p> <p>In dit geval, wanneer de <span class="codeph"> sp_w_control </span> parameter aan 0 wordt geplaatst en de <span class="codeph"> sp_w </span> parameter aan "exact wordt geplaatst,"geluid-gelijke is gehandicapt door gebrek. Als de <span class="codeph"> sp_w </span> parameter aan ""wordt geplaatst dan wordt de geluid-gelijke aanpassing toegelaten. </p> </td> 
+      No&nbsp;sound-alike&nbsp;matching </code> </p> <p>In dit geval, wanneer <span class="codeph"> sp_w_control </span> parameter aan 0 wordt geplaatst en <span class="codeph"> sp_w </span> parameter aan "nauwkeurig wordt geplaatst,"geluid-gelijke is gehandicapt door gebrek. Als de <span class="codeph"> sp_w </span> parameter aan ""wordt geplaatst dan wordt de geluid-gelijke aanpassing toegelaten. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p>Datumbereik afstemmen </p> </td> 
-   <td colname="col1"> <p> <span class="codeph"> sp_d </span> </p> <p> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> sp_d  </span> </p> <p> </p> </td> 
    <td colname="col3"> <p> <code class="syntax html"> &lt;!--Specifies&nbsp;type&nbsp;of&nbsp;date&nbsp;range&nbsp;searching&nbsp;to&nbsp;perform.--&gt; 
       &lt;input&nbsp;type=radio&nbsp;name="sp_d"&nbsp;value="custom"&nbsp;checked&gt; 
       &lt;input&nbsp;type=radio&nbsp;name="sp_d"&nbsp;value="specific"&gt; </code> </p> </td> 
-   <td colname="col4"> <p>De <span class="codeph"> sp_d </span> parameter specificeert een waaier van douanegegevens die of een specifieke databereik aanpassen om uit te voeren aanpassen. </p> <p>Voor het standaard geavanceerde onderzoeksformulier, wordt deze optie voorgesteld als een radioknoopgroep met een drop-down lijst van "douane"datumwaaiers zoals geproduceerd met een <span class="codeph"> sp_date_range </span> parameter. Het omvat ook en een groep "specifieke"begin en einddata die met <span class="codeph"> sp_start_day </span>, <span class="codeph"> sp_start_month </span>, <span class="codeph"> sp_start_year </span>, <span class="codeph"> sp_end_day </span>, <span class="codeph"> sp_end_month </span><span class="codeph"> </span> , en _end_year parameters worden geproduceerd. </p> <p>Een "aangepast" datumbereik is een benoemde datumreeks die moet worden doorzocht. Bijvoorbeeld 'Anytime', 'Today', 'Within the last year', enzovoort. </p> <p>Een "specifiek" datumbereik bestaat uit een startdatum en een einddatum. Bijvoorbeeld van "8 september 2009 tot 18 oktober 2011". </p> </td> 
+   <td colname="col4"> <p>Met de parameter <span class="codeph"> sp_d </span> wordt een aangepast gegevensbereik opgegeven dat overeenkomt met de prestaties of een specifiek datumbereik dat overeenkomt met de prestaties. </p> <p>Voor het standaard geavanceerde onderzoeksformulier, wordt deze optie voorgesteld als een radioknoopgroep met een drop-down lijst van "douane"datumwaaiers zoals geproduceerd met een <span class="codeph"> sp_date_range </span> parameter. Het omvat ook en een groep "specifieke" begin- en einddatums die worden gegenereerd met <span class="codeph"> sp_start_day </span>, <span class="codeph"> sp_start_month </span>, <span class="codeph"> sp_start_year </span>, <span class="codeph"> sp_end_day </span>, <span class="codeph"> sp_end_month </span> en a10/&gt; sp_end_year </span> parameters.<span class="codeph"> </span></p> <p>Een "aangepast" datumbereik is een benoemde datumreeks die moet worden doorzocht. Bijvoorbeeld 'Anytime', 'Today', 'Within the last year', enzovoort. </p> <p>Een "specifiek" datumbereik bestaat uit een startdatum en een einddatum. Bijvoorbeeld van "8 september 2009 tot 18 oktober 2011". </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p>Datumbereik dat overeenkomt: aangepast datumbereik </p> </td> 
-   <td colname="col1"> <p> <span class="codeph"> sp_date_range </span> </p> <p> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> sp_date_range  </span> </p> <p> </p> </td> 
    <td colname="col3"> <p> <code class="syntax html"> &lt;!--Selection&nbsp;list&nbsp;for&nbsp;custom&nbsp;date&nbsp;range.--&gt; 
       &lt;select&nbsp;name="sp_date_range"&nbsp;size=1&gt; 
       &lt;option&nbsp;value=-1&nbsp;selected&gt;Anytime&lt;/option&gt; 
@@ -351,7 +355,7 @@ Zie De HTML-code van het zoekformulier [kopiëren naar...](../c-about-auto-compl
       &lt;option&nbsp;value=365&gt;Within&nbsp;the&nbsp;last&nbsp;year&lt;/option&gt; 
       &lt;option&nbsp;value=730&gt;Within&nbsp;the&nbsp;last&nbsp;two&nbsp;years&lt;/option&gt; 
       &lt;/select&gt; </code> </p> </td> 
-   <td colname="col4"> <p>De <span class="codeph"> </span> sp_date_range parameter wordt gebruikt om een "douane"datumwaaier tot stand te brengen. Bijvoorbeeld 'Anytime', 'Today', 'Within the last year' enzovoort. </p> <p>Waarden groter dan of gelijk aan nul geven het aantal dagen aan dat moet worden doorzocht vóór vandaag. De waarde 0 geeft bijvoorbeeld "Vandaag" aan, de waarde "1" geeft "Vandaag en gisteren" aan, de waarde "30" geeft "Binnen de laatste 30 dagen" aan, enzovoort. Waarden kleiner dan nul geven als volgt een aangepast bereik op: </p> <p> 
+   <td colname="col4"> <p>De <span class="codeph"> sp_date_range </span> parameter wordt gebruikt om een "douane"datumwaaier tot stand te brengen. Bijvoorbeeld 'Anytime', 'Today', 'Within the last year' enzovoort. </p> <p>Waarden groter dan of gelijk aan nul geven het aantal dagen aan dat moet worden doorzocht vóór vandaag. De waarde 0 geeft bijvoorbeeld "Vandaag" aan, de waarde "1" geeft "Vandaag en gisteren" aan, de waarde "30" geeft "Binnen de laatste 30 dagen" aan, enzovoort. Waarden kleiner dan nul geven als volgt een aangepast bereik op: </p> <p> 
      <ul id="ul_E65DDE33883F441F9730F315E485AD98"> 
       <li id="li_83E9466AB9D7438A8544001F6B007186"> <p>-1 = "Altijd,"het zelfde als het specificeren van geen datumwaaier. </p> </li> 
       <li id="li_38AB8D97179A47F9B860A96EA09119BB"> <p>-2 = "Deze week,"die van zondag tot Zaterdag van de huidige week zoekt. </p> </li> 
@@ -364,19 +368,19 @@ Zie De HTML-code van het zoekformulier [kopiëren naar...](../c-about-auto-compl
   </tr> 
   <tr> 
    <td colname="col2"> <p>Datumbereik dat overeenkomt: begindatums </p> </td> 
-   <td colname="col1"> <p> <span class="codeph"> sp_start_day, sp_start_month, sp_start_year </span> </p> <p> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> sp_start_day, sp_start_month, sp_start_year  </span> </p> <p> </p> </td> 
    <td colname="col3"> </td> 
    <td colname="col4"> <p>Dit drievoud van numerieke waarden geeft de begindatum aan van een bepaald datumbereik dat moet worden doorzocht. Zorg ervoor dat u alle drie waarden opgeeft omdat een gedeeltelijk opgegeven datum wordt genegeerd. </p> <p>U kunt alleen de begindatum, alleen de einddatum of zowel de begindatum als de einddatum opgeven. Als alleen de begindatum is opgegeven, bevat de zoekopdracht overeenkomende documenten die op of na de begindatum zijn gedateerd. Als alleen de einddatum wordt opgegeven, bevat de zoekopdracht overeenkomende documenten op of vóór de einddatum. Als zowel de begindatum als de einddatum zijn opgegeven, bevat de zoekopdracht overeenkomende documenten van de begindatum tot de einddatum. </p> <p>Alle datums worden doorzocht ten opzichte van Greenwich Mean Time. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p> Datumbereik dat overeenkomt: einddatum </p> </td> 
-   <td colname="col1"> <p> <span class="codeph"> sp_end_day, sp_end_month, sp_end_year </span> </p> <p> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> sp_end_day, sp_end_month, sp_end_year  </span> </p> <p> </p> </td> 
    <td colname="col3"> </td> 
    <td colname="col4"> <p>Dit drievoud van numerieke waarden geeft de einddatum aan van het specifieke datumbereik dat moet worden doorzocht. Zorg ervoor dat u alle drie waarden opgeeft omdat een gedeeltelijk opgegeven datum wordt genegeerd. </p> <p>U kunt alleen de begindatum, alleen de einddatum of zowel de begin- als de einddatum opgeven. Als alleen de begindatum is opgegeven, bevat de zoekopdracht overeenkomende documenten die op of na de begindatum zijn gedateerd. Als alleen de einddatum wordt opgegeven, bevat de zoekopdracht overeenkomende documenten op of vóór de einddatum. Als zowel het begin als de einddatum worden gespecificeerd, omvat het onderzoek passende documenten van de begindatum tot de einddatum. </p> <p>Alle datums worden doorzocht ten opzichte van Greenwich Mean Time. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p>Binnen zoekveld </p> </td> 
-   <td colname="col1"> <p> <span class="codeph"> sp_x </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> sp_x  </span> </p> </td> 
    <td colname="col3"> <p> <code class="syntax html"> &lt;!--&nbsp;List&nbsp;box&nbsp;selects&nbsp;the&nbsp;search&nbsp;field&nbsp;--&gt; 
       Within&nbsp;&lt;select&nbsp;name="sp_x"&nbsp;size=1&gt; 
       &lt;option&nbsp;value="any"&nbsp;selected&gt;Anywhere&lt;/option&gt; 
@@ -389,11 +393,11 @@ Zie De HTML-code van het zoekformulier [kopiëren naar...](../c-about-auto-compl
       &lt;option&nbsp;value="target"&gt;Target&lt;/option&gt; 
       &lt;option&nbsp;value="date"&gt;Date&lt;/option&gt;* 
       &lt;/select&gt; </code> </p> </td> 
-   <td colname="col4"> <p>Met de keuzelijst <span class="codeph"> sp_x </span> kunnen uw klanten het veld opgeven waarin naar de querytekenreeksen moet worden gezocht. </p> <p>Klanten kunnen kiezen uit alle velden, de titel, de documentbeschrijving, de trefwoorden van het document, de hoofdtekst, alternatieve tekst, de URL, de datum of doeltrefwoorden van het document. </p> <p>Wanneer de <span class="codeph"> sp_x </span> parameter wordt gebruikt, te hoeven de klanten niet "titel:,"desc:,"sleutels:,"lichaam:,"alt:,"url:,"en "target:"in de koorden van de onderzoeksvraag te specificeren. </p> <p>Als de <span class="codeph"> sp_x </span> parameter wordt weggelaten, of als het aan "" of "om het even welk wordt geplaatst,"dan kunnen de klanten nog de gebied specifier koorden gebruiken. Als de <span class="codeph"> sp_x </span> parameter aan een specifiek gebied wordt geplaatst, worden alle andere gebied specifier koorden genegeerd. </p> <p>Zie <a href="../c-about-settings-menu/c-about-searching-menu.md#concept_207105CF26B1448F8A3D223787C56AB8" type="concept" format="dita" scope="local"> Over zoekopdrachten </a>. </p> </td> 
+   <td colname="col4"> <p>Met de keuzelijst <span class="codeph"> sp_x </span> kunnen uw klanten het veld opgeven waarin naar de querytekenreeksen moet worden gezocht. </p> <p>Klanten kunnen kiezen uit alle velden, de titel, de documentbeschrijving, de trefwoorden van het document, de hoofdtekst, alternatieve tekst, de URL, de datum of doeltrefwoorden van het document. </p> <p>Wanneer de <span class="codeph"> sp_x </span> parameter wordt gebruikt, te hoeven de klanten niet "titel:,"desc:,"sleutels:,"lichaam:,"alt:,"url:,"en "target:"in de koorden van de onderzoeksvraag te specificeren. </p> <p>Als de <span class="codeph"> sp_x </span> parameter wordt weggelaten, of als het aan "" of "om het even welk wordt geplaatst,"dan kunnen de klanten nog de gebied specifier koorden gebruiken. Als de <span class="codeph"> sp_x </span> parameter aan een specifiek gebied wordt geplaatst, worden alle andere gebied specifier koorden genegeerd. </p> <p>Zie <a href="../c-about-settings-menu/c-about-searching-menu.md#concept_207105CF26B1448F8A3D223787C56AB8" type="concept" format="dita" scope="local"> Informatie over zoekopdrachten </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p>Aantal resultaten weergeven </p> </td> 
-   <td colname="col1"> <p> <span class="codeph"> sp_c </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> sp_c  </span> </p> </td> 
    <td colname="col3"> <p> <code class="syntax html"> &lt;!--&nbsp;List&nbsp;box&nbsp;selects&nbsp;number&nbsp;of&nbsp;results&nbsp;to&nbsp;show&nbsp;per&nbsp;page&nbsp;--&gt; 
       Show&nbsp;&lt;select&nbsp;name="sp_c"&nbsp;size=1&gt; 
       &lt;option&nbsp;value=5&gt;5&lt;/option&gt; 
@@ -406,7 +410,7 @@ Zie De HTML-code van het zoekformulier [kopiëren naar...](../c-about-auto-compl
   </tr> 
   <tr> 
    <td colname="col2"> <p>Samenvattingen tonen of verbergen </p> </td> 
-   <td colname="col1"> <p> <span class="codeph"> sp_m </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> sp_m  </span> </p> </td> 
    <td colname="col3"> <p> <code class="syntax html"> &lt;!--&nbsp;Show&nbsp;or&nbsp;hide&nbsp;summaries&nbsp;in&nbsp;search&nbsp;results&nbsp;--&gt; 
       &lt;select&nbsp;name="sp_m"&nbsp;size=1&gt; 
       &lt;option&nbsp;value=1&nbsp;selected&gt;with&lt;/option&gt; 
@@ -418,7 +422,7 @@ Zie De HTML-code van het zoekformulier [kopiëren naar...](../c-about-auto-compl
   </tr> 
   <tr> 
    <td colname="col2"> <p>Sorteren op resultaten </p> </td> 
-   <td colname="col1"> <p> <span class="codeph"> sp_s </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> sp_s  </span> </p> </td> 
    <td colname="col3"> <p> <code class="syntax html"> &lt;!--&nbsp;Sort&nbsp;results&nbsp;by&nbsp;relevance&nbsp;or&nbsp;by&nbsp;date&nbsp;--&gt; 
       Sort&nbsp;by&nbsp;&lt;select&nbsp;name="sp_s"&nbsp;size=1&gt; 
       &lt;option&nbsp;value=0&nbsp;selected&gt;relevance&lt;/option&gt; 
@@ -431,15 +435,15 @@ Zie De HTML-code van het zoekformulier [kopiëren naar...](../c-about-auto-compl
  </tbody> 
 </table>
 
-## HTML-code van geavanceerd zoekformulier {#reference_9AAD4A46B68D4D48865508982CB86DB9}
+## Geavanceerde HTML-code voor zoekformulieren {#reference_9AAD4A46B68D4D48865508982CB86DB9}
 
 De HTML-formuliercode die wordt gebruikt voor het maken van het geavanceerde zoekformulier dat boven aan het onderwerp van het geavanceerde zoekformulier in het voorbeeld wordt weergegeven.
 
 Zie [Voorbeeld van een geavanceerd zoekformulier](#reference_82E1051918744EBA88A01E9E6AE42C4A).
 
-Als u deze code gebruikt, vergeet dan niet de `sp_a` waarde van `sp99999999` het account te vervangen door het werkelijke rekeningnummer.
+Als u deze code gebruikt, vergeet dan niet de waarde `sp_a` van `sp99999999` te vervangen door uw werkelijke accountnummer.
 
-Klik in het productmenu op **[!UICONTROL Settings]** > **[!UICONTROL Account Options]** > **[!UICONTROL Account Settings]**.
+Klik in het productmenu op **[!UICONTROL Settings]** > **[!UICONTROL Account Options]** > **[!UICONTROL Account Settings]** om uw accountnummer te zoeken.
 
 ```
 <form method="get" action="https://search.atomz.com/search/"> 
@@ -635,7 +639,7 @@ Sound-alike matching
 
 U kunt de HTML-code van het geavanceerde zoekformulier aan de sjabloon toevoegen, zodat de standaardkeuze voor elke parameter hetzelfde is als de vorige zoekopdracht.
 
-Met andere woorden, als een klant op het **[!UICONTROL Exact phrase]** keuzerondje klikt, kunt u ervoor zorgen dat het keuzerondje standaard is geselecteerd wanneer de zoekresultaten worden weergegeven.
+Met andere woorden, als een klant op het keuzerondje **[!UICONTROL Exact phrase]** klikt, kunt u ervoor zorgen dat het keuzerondje standaard is geselecteerd wanneer de zoekresultaten worden weergegeven.
 
 Deze functionaliteit wordt verwezenlijkt door alle &quot;gecontroleerde&quot;of &quot;geselecteerde&quot;specifiers van de standaard markeringen van HTML te verwijderen, en dan de volgende markeringen van HTML te vervangen:
 
@@ -653,7 +657,7 @@ met de volgende bijbehorende sjabloonlabels:
 * `</search-option>`
 * `</search-select>`
 
-Hiervoor gebruikt u de volgende code als de `<form>` tag in de zoeksjabloon.
+Hiervoor gebruikt u de volgende code als de tag `<form>` in de zoeksjabloon.
 
 ```
 <!-- Adobe Target results section.--> 

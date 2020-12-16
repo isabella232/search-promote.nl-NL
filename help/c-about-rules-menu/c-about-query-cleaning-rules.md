@@ -1,46 +1,49 @@
 ---
-description: De Schoonmaakregels van de Vraag van het gebruik om de inkomende vraag te analyseren en te wijzigen.
-seo-description: De Schoonmaakregels van de Vraag van het gebruik om de inkomende vraag te analyseren en te wijzigen.
-seo-title: Informatie over regels voor het opschonen van query
+description: De Regels van de Schoonmaak van de Vraag van het gebruik om de inkomende vraag te analyseren en te wijzigen.
+seo-description: De Regels van de Schoonmaak van de Vraag van het gebruik om de inkomende vraag te analyseren en te wijzigen.
+seo-title: Info over Regels voor het opschonen van query's
 solution: Target
-title: Informatie over regels voor het opschonen van query
+title: Info over Regels voor het opschonen van query's
 topic: Rules,Site search and merchandising
 uuid: 683af81f-f7c0-45f8-9212-e5e7cb82ccca
 translation-type: tm+mt
 source-git-commit: d07cdc2c88f93eed4cecb0ee8818f7fdea06ee9d
+workflow-type: tm+mt
+source-wordcount: '1611'
+ht-degree: 0%
 
 ---
 
 
-# Informatie over regels voor het opschonen van query{#about-query-cleaning-rules}
+# Info over Regels voor het opschonen van query{#about-query-cleaning-rules}
 
-De Schoonmaakregels van de Vraag van het gebruik om de inkomende vraag te analyseren en te wijzigen.
+De Regels van de Schoonmaak van de Vraag van het gebruik om de inkomende vraag te analyseren en te wijzigen.
 
-## Het gebruiken van de Regels van de Schoonmaakbeurt van de Vraag {#concept_17F3CDDC3C8A4128AF092A82B777B86C}
+## Het gebruiken van de Regels van het Schoonmaken van de Vraag {#concept_17F3CDDC3C8A4128AF092A82B777B86C}
 
-Deze eigenschap wordt vaak gebruikt wanneer u plaatsonderzoek/koopwaar wilt wijzigen gedrag. Bijvoorbeeld, kon u een leeg onderzoek in een populair sleutelwoord in plaats van een &quot;*&quot;onderzoek veranderen, waarbij een populair product wordt bevorderd. U kunt vraag het schoonmaken regels ook gebruiken om een directe klap uit te voeren, waar u aan een URL opnieuw richt. Dit kan bijzonder nuttig zijn wanneer u ontdekt dat iemand naar een product SKU zoekt en u het onderzoek wilt overslaan en aan de pagina van dat product opnieuw richten. Het Schoonmaken van de vraag kan de vraag en de vastgestelde douanevariabelen ook ontmijnen die in recentere stappen van de verwerkingsstroom kunnen worden gebruikt. De het reinigen van de vraag regels worden uitgevoerd opeenvolging voor elke vraag. Om de orde van uw regels te veranderen kunt u belemmering-en-daling gebruiken. De daadwerkelijke orde wordt niet veranderd tot u sparen het.
+Deze functie wordt vaak gebruikt wanneer u het zoeken/verhandelen van sites wilt wijzigen. U kunt bijvoorbeeld een lege zoekopdracht wijzigen in een populair trefwoord in plaats van een &quot;*&quot;-zoekopdracht, zodat u een populair product kunt promoten. U kunt query-reinigingsregels ook gebruiken om een directe hit uit te voeren, waarbij u doorstuurt naar een URL. Dit kan bijzonder nuttig zijn wanneer u ontdekt dat iemand naar productSKU zoekt en u het onderzoek wilt overslaan en aan de pagina van dat product opnieuw richten. Het Schoonmaken van de vraag kan de vraag ook ontmijnen en douanevariabelen plaatsen die in recentere stappen van de verwerkingsstroom kunnen worden gebruikt. De het schoonmaken van de vraag regels worden uitgevoerd in opeenvolging voor elke vraag. U kunt slepen en neerzetten gebruiken om de volgorde van de regels te wijzigen. De daadwerkelijke orde wordt niet veranderd tot u het opslaat.
 
-De vraag schoonmaakregels in een vraag schoonmaakmodule worden onderzocht om te bepalen als om het even welke vraagparameters moeten worden gewijzigd of als om het even welke douanevariabelen moeten worden geplaatst. Elke regel van de vraagschoonmaak bestaat uit twee belangrijke elementen: het optreden van de regel en de facultatieve voorwaarden. Een onbeperkt aantal regels en voorwaarden kan worden gespecificeerd. De orde van deze regels is belangrijk, aangezien het plaatsonderzoek/de merchandising lijnen door de regel vastgestelde regel door regel. Wanneer de voorwaarden van een regel aanpassen, worden alle bijbehorende acties uitgevoerd.
+De vraag schoonmaakregels in een vraag schoonmaakmodule worden onderzocht om te bepalen als om het even welke vraagparameters moeten worden gewijzigd of als om het even welke douanevariabelen moeten worden geplaatst. Elke regel voor het schoonmaken van query bestaat uit twee hoofdelementen: het optreden van de regel en de facultatieve voorwaarden. Er kan een onbeperkt aantal regels en voorwaarden worden opgegeven. De orde van deze regels is belangrijk, aangezien het plaatsonderzoek/het merchandising lijnen door de regel door regel wordt geplaatst. Wanneer de voorwaarden van een regel overeenkomen, worden alle bijbehorende acties uitgevoerd.
 
-Nadat de vraagreiniging wordt voltooid, worden de resulterende parameters van CGI gebruikt verdergaand. Om het even welke douanevariabelen die werden geplaatst zijn beschikbaar voor gebruik door recentere stadia in de verwerkingsstroom. Door gebrek, verwijdert het systeem automatisch het leiden en het slepen witte ruimte uit de vraagtermijn.
+Nadat de vraag wordt schoongemaakt, worden de resulterende parameters CGI gebruikt vooruit. Alle aangepaste variabelen die zijn ingesteld, kunnen later in de verwerkingsflow worden gebruikt. Standaard verwijdert het systeem automatisch de regelafstand en de witruimte aan het einde van de zoekterm.
 
-## Informatie over de reinigingsvoorwaarden voor query {#section_BF6F25F94FED4DDEA8600D921EA43A66}
+## Info over Voorwaarden voor Query Cleaning {#section_BF6F25F94FED4DDEA8600D921EA43A66}
 
-De voorwaarden zijn facultatief. Als u besluit dat de acties voor elke vraag worden gespecificeerd, worden de acties altijd genomen. De voorwaarden kunnen op om het even welke CGI vraagparameter, bestaand koekje, of douanevariabele worden gebaseerd die een vorige regel heeft geplaatst. Het wordt beschouwd als &quot;beste praktijken&quot;voor de eerste vraag schoonmaakregel om voor elke vraag te lopen, waar het bepaalt en alle douanevariabelen initialiseert u van plan bent te gebruiken.
+Voorwaarden zijn optioneel. Als u besluit dat de acties voor elke vraag worden gespecificeerd, worden de acties altijd genomen. De voorwaarden kunnen op om het even welke CGI vraagparameter, bestaand koekje, of douanevariabele worden gebaseerd die een vorige regel heeft geplaatst. Het wordt beschouwd als &quot;beste praktijken&quot;voor de eerste vraag schoonmaakregel voor elke vraag in werking te stellen, waar het bepaalt en alle douanevariabelen initialiseert u van plan bent te gebruiken.
 
-## Informatie over het Schonen van de Vraag Acties {#section_78F74A9B48DE484191CDA95F5B4E7154}
+## Informatie over handelingen voor het opschonen van query&#39;s {#section_78F74A9B48DE484191CDA95F5B4E7154}
 
-Alle acties binnen een vraag schoonmaakregel die passende voorwaarden heeft worden uitgeoefend. De acties bestaan typisch uit een verrichting, de gegevens waarop om de verrichting uit te voeren, en de waarde aan gebruik.
+Alle acties binnen een regel van de vraagschoonmaak die passende voorwaarden heeft worden uitgeoefend. Handelingen bestaan doorgaans uit een bewerking, de gegevens waarop de bewerking moet worden uitgevoerd en de waarde die moet worden gebruikt.
 
-Zie de lijst van opties in het [Toevoegen van een vraag schoonmaakregel](../c-about-rules-menu/c-about-query-cleaning-rules.md#task_47F43988D3D9485F8AE1DFDA7E00BF54).
+Zie de lijst van opties in [Toevoegend een vraag schoonmaakregel](../c-about-rules-menu/c-about-query-cleaning-rules.md#task_47F43988D3D9485F8AE1DFDA7E00BF54).
 
-## Over omleiden {#section_597481E6194440C0A7B9E6FC901A81C0}
+## Informatie over omleidingen {#section_597481E6194440C0A7B9E6FC901A81C0}
 
-De interface van de direct-Hits laat u een reeks opnieuw richten bepalen die op de inkomende vraagtermijn wordt gebaseerd. Richt binnen het Schonen van de Vraag opnieuw uit breidt dit idee. Nochtans, geeft opnieuw richt u fijnere granularity op wanneer opnieuw richt via het specificeren van voorwaarden plaatsvindt en laat u aan een dynamische URL eerder dan een statische URL opnieuw richten. Wanneer u de omleidingsactie selecteert, wordt de rij bijgewerkt om een tekstvakje te hebben waar u URL specificeert u aan zou willen opnieuw richten. In URL, kunt u variabelen of parameters specificeren die u zou willen substitueren via het insluiten van hen in dubbele krullende steunen. De variabelen van de douane zijn van hogere belangrijkheid dan de parameters van CGI in de vervanging.
+Met de interface Direct-Hits kunt u een set omleidingen definiëren op basis van de binnenkomende queryterm. Dit idee wordt uitgebreid met omleidingen binnen Query Cleaning. Omleiding geeft u echter een fijnere granulariteit op wanneer omleiding plaatsvindt via het opgeven van voorwaarden. U kunt omleiden naar een dynamische URL in plaats van een statische URL. Wanneer u de omleidingsactie selecteert, wordt de rij bijgewerkt om een tekstvakje te hebben waar u URL specificeert u aan wilt opnieuw richten. In de URL kunt u variabelen of parameters opgeven die u wilt vervangen door deze tussen dubbele accolades te plaatsen. Aangepaste variabelen hebben een hogere prioriteit dan CGI-parameters in de vervanging.
 
 ## Voorbeelden {#section_DB5047CC38FB4A57B15CAAF9848073E3}
 
-Veronderstel u een kledingdetailhandel met een website hebt. Als de gebruiker Onderzoek zonder enige onderzoekstermijnen klikt, wilt u een onderzoek tegen jeans terugkeren, omdat dat is wat u internationaal gekend voor bent. U wilt ook de vraagtermijn voor een geslacht ontleden zodat u een pre-onderzoeksregel kunt tot stand brengen later, die op de douanevariabele wordt gebaseerd die een verschillend presentatiemalplaatje voor elk geslacht gebruikt.
+Stel dat u een kledingwinkel hebt met een website. Als de gebruiker op Zoeken klikt zonder zoektermen, wilt u een zoekopdracht retourneren tegen jeans, omdat dat uw internationale reputatie is. U wilt ook de vraagtermijn voor een geslacht ontleden zodat u een regel kunt tot stand brengen pre-onderzoek later, die op de douanevariabele wordt gebaseerd die een verschillend presentatiemalplaatje voor elk geslacht gebruikt.
 
 ```
 On condition: 
@@ -61,7 +64,7 @@ Perform the following actions:
   Set custom variable gender to value male
 ```
 
-MegaElectronic is een grote elektronicawinkel. Door hun zoekgegevens te analyseren, heeft MegaElectronic opgemerkt dat veel van hun barbaarse klanten vaak zoeken naar een product met behulp van de SKU van het product, in plaats van een zoekresultaat voor het enige product te retourneren, zou MegaElectronic graag willen doorverwijzen naar de webpagina die aan die SKU is gekoppeld.
+MegaElectronic is een grote elektronicawinkel. Door hun zoekgegevens te analyseren, heeft MegaElectronic opgemerkt dat veel van hun meedogenloze klanten vaak zoeken naar een product met behulp van de SKU van het product, in plaats van een zoekresultaat voor het ene product te retourneren, wil MegaElectronic graag doorverwijzen naar de webpagina die bij die SKU hoort.
 
 ```
 On condition: 
@@ -70,173 +73,173 @@ Perform the following actions:
   redirect to https://www.megaelectronic.com/?sku={{q}}
 ```
 
-## Het toevoegen van een vraag schoonmaakregel {#task_47F43988D3D9485F8AE1DFDA7E00BF54}
+## Een queryreinigingsregel {#task_47F43988D3D9485F8AE1DFDA7E00BF54} toevoegen
 
-U kunt regels bepalen die schoonmaken of de inkomende onderzoeksvraag van een klant uitgeven.
+U kunt regels definiëren die de binnenkomende zoekquery van een klant opschonen of bewerken.
 
-U kunt slechts malplaatjes selecteren die momenteel bestaan. Als u geen malplaatjes hebt, moet u hen eerst bepalen.
+U kunt alleen sjablonen selecteren die op dat moment bestaan. Als u geen sjablonen hebt, moet u deze eerst definiëren.
 
-Zie [over sjablonen](../c-about-design-menu/c-about-templates.md#concept_06EB481B14864E18A8AE2BCD1D6EF0B5).
+Zie [Informatie over sjablonen](../c-about-design-menu/c-about-templates.md#concept_06EB481B14864E18A8AE2BCD1D6EF0B5).
 
-**Om een vraag schoonmaakregel toe te voegen**
+**Een regel voor het opschonen van query&#39;s toevoegen**
 
 1. Klik in het productmenu op **[!UICONTROL Rules]** > **[!UICONTROL Query Cleaning]**.
-1. Voor de [!DNL Query Cleaning Rules] pagina, klik **[!UICONTROL Add New Rule]**.
-1. Op het [!DNL Name] gebied, typ de naam van de nieuwe vraag schoonmaakregel.
-1. Voor de [!DNL Add Query Cleaning Rule] pagina, gebruik de drop-down lijsten en tekstgebieden om uw vraag uit te bouwen.
+1. Klik op [!DNL Query Cleaning Rules] op de pagina.**[!UICONTROL Add New Rule]**
+1. Typ in het veld [!DNL Name] de naam van de nieuwe regel voor het opschonen van query.
+1. Voor de [!DNL Add Query Cleaning Rule] pagina, gebruik de drop-down lijsten en tekstgebieden om uw vraag te bouwen.
 
    <table> 
     <thead> 
       <tr> 
-      <th colname="col1" class="entry"> <p>Optie </p> </th> 
+      <th colname="col1" class="entry"> <p>Option </p> </th> 
       <th colname="col2" class="entry"> <p>Beschrijving </p> </th> 
       </tr> 
     </thead>
     <tbody> 
       <tr> 
       <td colname="col1"> <p>Cookie </p> </td> 
-      <td colname="col2"> <p>Een HTTP koekje. U kunt voorwaarden bepalen die op koekjes worden gebaseerd die met uw domein worden geassocieerd. Of, u kunt een koekje plaatsen dat met uitgaande onderzoeksresultaten wordt geschreven. De naam en de waarden van koekjes moeten het Uniforme Herkenningsteken van het Middel zijn gecodeerd. </p> </td> 
+      <td colname="col2"> <p>Een HTTP-cookie. U kunt voorwaarden definiëren op basis van cookies die aan uw domein zijn gekoppeld. U kunt ook een cookie instellen die met de uitgaande zoekresultaten wordt geschreven. Naam en waarden van cookies moeten zijn gecodeerd als Uniform Resource Identifier. </p> </td> 
       </tr> 
       <tr> 
       <td colname="col1"> <p>Aangepaste variabele </p> </td> 
-      <td colname="col2"> <p>Een user-defined variabele. Voeg, schrap, of plaats een onbeperkte hoeveelheid user-defined variabelen toe. U kunt om het even welke user-defined variabelen hier binnen de Regels van het pre-Onderzoek en de Regels van het post-Onderzoek van verwijzingen voorzien. </p> </td> 
+      <td colname="col2"> <p>Een door de gebruiker gedefinieerde variabele. U kunt een onbeperkt aantal door de gebruiker gedefinieerde variabelen toevoegen, verwijderen of instellen. U kunt door de gebruiker gedefinieerde variabelen hier weergeven in Regels voor voorzoeken en Regels voor achteraf zoeken. </p> </td> 
       </tr> 
       <tr> 
       <td colname="col1"> <p>Systeemvariabele </p> </td> 
-      <td colname="col2"> <p>Alleen-lezen variabelen die zijn ingesteld op het interne systeem dat u kunt controleren. De volgende systeemvariabelen worden ondersteund: </p> <p> 
+      <td colname="col2"> <p>Alleen-lezen variabelen ingesteld door het interne systeem dat u kunt controleren. De volgende systeemvariabelen worden ondersteund: </p> <p> 
         <ul id="ul_BC17F1637F27424CA4E8F530C28A3245"> 
-          <li id="li_C7DF96EFD7AA4A449D00F7EACCAA0EB1"> <span class="uicontrol"> hostnaam </span> <p>De naam van de servergastheer. </p> </li> 
-          <li id="li_F85AB1D2B9374A859657D12B8ED6674B"> <span class="uicontrol"> buik </span> <p>De gevraagde uri zonder het vraagkoord. </p> </li> 
-          <li id="li_440149C9EC6E4805B77BBC97BE41542A"> <span class="uicontrol"> arcering </span> <p>Het volledige vraagkoord. </p> </li> 
-          <li id="li_F583FC4B0E404858BB3522B33A6F7A0A"> <span class="uicontrol"> milieu </span> <p>"Stadium"of "leef"afhankelijk van of de inkomende vraag naar uw gefaseerde of levende milieu werd verzonden. </p> </li> 
-          <li id="li_15902AA49B144D42A5E95D7E8B0FB1E1"> <span class="uicontrol"> verwijzende </span> <p>URL die de klant kwam van. </p> </li> 
-          <li id="li_6FEE352DB7A842FCB2EBE1398AD03666"> <span class="uicontrol"> gebruikersagent </span> <p>De "gebruiker-agent"koord van browser van de klant. </p> </li> 
+          <li id="li_C7DF96EFD7AA4A449D00F7EACCAA0EB1"> <span class="uicontrol"> hostnaam  </span> <p>De naam van de serverhost. </p> </li> 
+          <li id="li_F85AB1D2B9374A859657D12B8ED6674B"> <span class="uicontrol"> uri  </span> <p>De aangevraagde uri zonder de querytekenreeks. </p> </li> 
+          <li id="li_440149C9EC6E4805B77BBC97BE41542A"> <span class="uicontrol"> args  </span> <p>De volledige queryreeks. </p> </li> 
+          <li id="li_F583FC4B0E404858BB3522B33A6F7A0A"> <span class="uicontrol"> milieu  </span> <p>"Stage" of "live", afhankelijk van het feit of de binnenkomende query naar uw gefaseerde of live omgeving is verzonden. </p> </li> 
+          <li id="li_15902AA49B144D42A5E95D7E8B0FB1E1"> <span class="uicontrol"> referentie  </span> <p>De URL waar de klant vandaan komt. </p> </li> 
+          <li id="li_6FEE352DB7A842FCB2EBE1398AD03666"> <span class="uicontrol"> gebruikersagent  </span> <p>De "user-agent"koord van browser van de klant. </p> </li> 
         </ul> </p> </td> 
       </tr> 
       <tr> 
       <td colname="col1"> <p>Query-parameter </p> </td> 
-      <td colname="col2"> <p>De parameters van CGI gingen tot de vraag over. </p> </td> 
+      <td colname="col2"> <p>CGI-parameters die aan de query zijn doorgegeven. </p> </td> 
       </tr> 
       <tr> 
-      <td colname="col1"> <p>Backend Parameter </p> </td> 
-      <td colname="col2"> <p>De inkomende vraagparameters worden uiteindelijk vertaald in achterste deelparameters die worden gebruikt om het onderzoek uit te voeren. </p> <p>Zie <a href="../c-appendices/c-cgiparameters.md#reference_582E85C3886740C98FE88CA9DF7918E8" type="reference" format="dita" scope="local"> Achterste onderzoekCGI parameters </a>. </p> <p>De parameters van de steun verschijnen niet op navigatie elementen. Dientengevolge, kunt u om het even welke extra parameters verbergen die u op een onderzoek van uw klanten wilt toepassen. De acties op achterste deelparameters zijn laat-bindend; dat wil zeggen, ze worden toegepast vlak voordat de zoekopdracht wordt verzonden. </p> </td> 
+      <td colname="col1"> <p>Backend-parameter </p> </td> 
+      <td colname="col2"> <p>Binnenkomende vraagparameters worden uiteindelijk vertaald in achterste parameters die worden gebruikt om het onderzoek uit te voeren. </p> <p>Zie <a href="../c-appendices/c-cgiparameters.md#reference_582E85C3886740C98FE88CA9DF7918E8" type="reference" format="dita" scope="local"> CGI-parameters voor achtergrondzoekopdrachten </a>. </p> <p>Achterste parameters worden niet weergegeven op navigatie-elementen. Dientengevolge, kunt u om het even welke extra parameters verbergen die u op een onderzoek van uw klanten wilt toepassen. Acties met betrekking tot parameters van het achterste deel zijn te laat bindend; dat wil zeggen, ze worden toegepast vlak voordat de zoekopdracht wordt verzonden. </p> </td> 
       </tr> 
       <tr> 
-      <td colname="col1"> <p>Gezicht </p> </td> 
-      <td colname="col2"> <p>Speciale parameters van de CGI verbonden aan een bepaald facet. </p> </td> 
+      <td colname="col1"> <p>Facet </p> </td> 
+      <td colname="col2"> <p>Speciale CGI-parameters die aan een bepaalde facet zijn gekoppeld. </p> </td> 
       </tr> 
       <tr> 
-      <td colname="col1"> <p>Rank </p> </td> 
-      <td colname="col2"> <p>Laat u specificeren welke rangschikkende regel in het onderzoek te gebruiken. Deze optie verschijnt slechts wanneer u sommige het rangschikken gebieden en het rangschikken bepaalde regels hebt. </p> </td> 
+      <td colname="col1"> <p>Rang </p> </td> 
+      <td colname="col2"> <p>Hier kunt u opgeven welke rangorderegel u wilt gebruiken in de zoekopdracht. Deze optie wordt alleen weergegeven wanneer u een aantal waarderingsvelden en waarderingsregels hebt gedefinieerd. </p> </td> 
       </tr> 
       <tr> 
       <td colname="col1"> <p>Winkel </p> </td> 
-      <td colname="col2"> <p>De onderzoeksmotor ontdekt automatisch welke opslag de gebruiker binnen gebaseerd op de gastheernaam of de <span class="codeph"> gs_store </span> vraagparameter is, met de laatstgenoemde die belangrijkheid hebben is. U kunt voorwaarden van de opslag tot stand brengen. In vraag het reinigen slechts, kunt u een actie ook gebruiken om de huidige opslag over-ride te nemen. </p> </td> 
+      <td colname="col2"> <p>De zoekmachine detecteert automatisch in welke opslag de gebruiker zich bevindt op basis van de hostnaam of de <span class="codeph"> gs_store </span>-queryparameter, waarbij de laatste voorrang heeft. U kunt voorwaarden buiten de winkel maken. Alleen bij query-reiniging kunt u ook een handeling gebruiken om de huidige winkel te overschrijven. </p> </td> 
       </tr> 
       <tr> 
       <td colname="col1"> <p>Laatste regel </p> </td> 
-      <td colname="col2"> <p>Wanneer de voorwaarden voor een regel worden voldaan die laatste regelreeks heeft, voert de vraag zuiverende verwerkingsmodule geen extra regels na de actie van de passende regel uit. Dit is nuttig wanneer u acties hebt geplaatst die een recentere regel zullen veroorzaken om aan te passen maar u wilt niet de recentere regel in brand steken. Merk op dat, als de actie van een regel moet uitvoeren opnieuw richt, direct plaatsvindt opnieuw richt, zodat doet het hoofdzakelijk alsof de laatste regel werd geplaatst. </p> </td> 
+      <td colname="col2"> <p>Wanneer de voorwaarden voor een regel worden voldaan die laatste regelreeks heeft, voert de vraag zuiveringsverwerkingsmodule geen extra regels na de actie van de passende regel uit. Dit is handig wanneer u handelingen hebt ingesteld die ertoe leiden dat een latere regel overeenkomt, maar u niet wilt dat de latere regel wordt geactiveerd. Merk op dat, als de actie van een regel redirect moet uitvoeren, het opnieuw richten onmiddellijk plaatsvindt, zodat doet het hoofdzakelijk alsof de laatste regel werd geplaatst. </p> </td> 
       </tr> 
       <tr> 
-      <td colname="col1"> <p>Opschorten </p> </td> 
-      <td colname="col2"> <p>Zet het lopen van de regel uit maar schrapt niet de regel. </p> </td> 
+      <td colname="col1"> <p>Onderbreken </p> </td> 
+      <td colname="col2"> <p>Hiermee schakelt u het uitvoeren van de regel uit, maar wordt de regel niet verwijderd. </p> </td> 
       </tr> 
     </tbody> 
     </table>
 
 1. Klik op **[!UICONTROL Add]**.
-1. (Facultatief) doe één van het volgende:
+1. (Optioneel) Voer een van de volgende handelingen uit:
 
    * Klik **[!UICONTROL History]** om het even welke veranderingen terug te keren die u hebt aangebracht.
 
-      Zie De optie [Historie](../t-using-the-history-option.md#task_70DD3F87A67242BBBD2CB27156F43002)gebruiken.
+      Zie [De optie Historie gebruiken](../t-using-the-history-option.md#task_70DD3F87A67242BBBD2CB27156F43002).
 
    * Klik op **[!UICONTROL Live]**.
 
-      Zie live-instellingen [bekijken](../c-about-staging.md#task_401A0EBDB5DB4D4CA933CBA7BECDC10F).
+      Zie [Live-instellingen weergeven](../c-about-staging.md#task_401A0EBDB5DB4D4CA933CBA7BECDC10F).
 
    * Klik op **[!UICONTROL Push Live]**.
 
-      Zie [Stadsmontages van het Pushing leven](../c-about-staging.md#task_44306783B4C0408AAA58B471DAF2D9A4).
+      Zie [Werkgebiedinstellingen leegmaken live](../c-about-staging.md#task_44306783B4C0408AAA58B471DAF2D9A4).
 
-## Een regel voor het reinigen van vragen bewerken {#task_FA2FF1A7E2634350AD703485CBC27CB3}
+## Een query-reinigingsregel {#task_FA2FF1A7E2634350AD703485CBC27CB3} bewerken
 
-U kunt bestaande vraag het schoonmaken regels uitgeven die u aan de pagina van de Regels van de Schoonmaak van de Vraag hebt toegevoegd.
+U kunt bestaande regels van de vraagschoonmaak uitgeven die u aan de pagina van de Regels van de Schoonmaak van de Vraag hebt toegevoegd.
 
-**Om een vraag schoonmaakregel uit te geven**
+**Een regel voor het opruimen van query&#39;s bewerken**
 
 1. Klik in het productmenu op **[!UICONTROL Rules]** > **[!UICONTROL Query Cleaning]**.
-1. Voor de [!DNL Query Cleaning Rules] pagina, onder de **[!UICONTROL Actions]** kolom van de lijst, klik **[!UICONTROL Edit]** voor de bijbehorende regel die u wilt uitgeven.
-1. Voor de [!DNL Edit Query Cleaning Rule] pagina, gebruik de drop-down lijsten en tekstgebieden om uw vraag uit te bouwen.
+1. Op [!DNL Query Cleaning Rules] pagina, onder **[!UICONTROL Actions]** kolom van de lijst, klik **[!UICONTROL Edit]** voor de bijbehorende regel die u wilt uitgeven.
+1. Voor de [!DNL Edit Query Cleaning Rule] pagina, gebruik de drop-down lijsten en tekstgebieden om uw vraag te bouwen.
 
-   Zie de lijst van opties onder het [Toevoegen van een vraag schoonmaakregel](../c-about-rules-menu/c-about-query-cleaning-rules.md#task_47F43988D3D9485F8AE1DFDA7E00BF54).
+   Zie de lijst van opties onder [Toevoegend een vraag schoonmaakregel](../c-about-rules-menu/c-about-query-cleaning-rules.md#task_47F43988D3D9485F8AE1DFDA7E00BF54).
 1. Klik op **[!UICONTROL Save Changes]**.
-1. (Facultatief) doe één van het volgende:
+1. (Optioneel) Voer een van de volgende handelingen uit:
 
    * Klik **[!UICONTROL History]** om het even welke veranderingen terug te keren die u hebt aangebracht.
 
-      Zie De optie [Historie](../t-using-the-history-option.md#task_70DD3F87A67242BBBD2CB27156F43002)gebruiken.
+      Zie [De optie Historie gebruiken](../t-using-the-history-option.md#task_70DD3F87A67242BBBD2CB27156F43002).
 
    * Klik op **[!UICONTROL Live]**.
 
-      Zie live-instellingen [bekijken](../c-about-staging.md#task_401A0EBDB5DB4D4CA933CBA7BECDC10F).
+      Zie [Live-instellingen weergeven](../c-about-staging.md#task_401A0EBDB5DB4D4CA933CBA7BECDC10F).
 
    * Klik op **[!UICONTROL Push Live]**.
 
-      Zie [Stadsmontages van het Pushing leven](../c-about-staging.md#task_44306783B4C0408AAA58B471DAF2D9A4).
+      Zie [Werkgebiedinstellingen leegmaken live](../c-about-staging.md#task_44306783B4C0408AAA58B471DAF2D9A4).
 
-## Het schrappen van een vraag schoonmaakregel {#task_C52D17226B824590B087CAB6970CBB01}
+## Een query-reinigingsregel {#task_C52D17226B824590B087CAB6970CBB01} verwijderen
 
-U kunt vraag het reinigen regels schrappen die u niet meer nodig hebt of gebruikt.
+U kunt de regels voor het schoonmaken van query&#39;s verwijderen die u niet meer nodig hebt of gebruikt.
 
-Wanneer u een regel schrapt, wordt de orde dat de resterende regels in werking worden gesteld automatisch aangepast om van de schrapping rekenschap te geven.
+Wanneer u een regel schrapt, wordt de orde dat de resterende regels in werking worden gesteld automatisch aangepast aan rekening voor de schrapping.
 
-**Om een vraag schoonmaakregel te schrappen**
+**Een regel voor het opschonen van query&#39;s verwijderen**
 
 1. Klik in het productmenu op **[!UICONTROL Rules]** > **[!UICONTROL Query Cleaning]**.
-1. Voor de [!DNL Query Cleaning Rules] pagina, onder de **[!UICONTROL Actions]** kolom van de lijst, klik **[!UICONTROL Delete]** voor de bijbehorende regel die u wilt schrappen.
-1. Klik in het [!DNL Confirmation] dialoogvenster op **[!UICONTROL OK]**.
-1. (Facultatief) doe één van het volgende:
+1. Op [!DNL Query Cleaning Rules] pagina, onder **[!UICONTROL Actions]** kolom van de lijst, klik **[!UICONTROL Delete]** voor de bijbehorende regel die u wilt schrappen.
+1. Klik in het dialoogvenster [!DNL Confirmation] op **[!UICONTROL OK]**.
+1. (Optioneel) Voer een van de volgende handelingen uit:
 
    * Klik **[!UICONTROL History]** om het even welke veranderingen terug te keren die u hebt aangebracht.
 
-      Zie De optie [Historie](../t-using-the-history-option.md#task_70DD3F87A67242BBBD2CB27156F43002)gebruiken.
+      Zie [De optie Historie gebruiken](../t-using-the-history-option.md#task_70DD3F87A67242BBBD2CB27156F43002).
 
    * Klik op **[!UICONTROL Live]**.
 
-      Zie live-instellingen [bekijken](../c-about-staging.md#task_401A0EBDB5DB4D4CA933CBA7BECDC10F).
+      Zie [Live-instellingen weergeven](../c-about-staging.md#task_401A0EBDB5DB4D4CA933CBA7BECDC10F).
 
    * Klik op **[!UICONTROL Push Live]**.
 
-      Zie [Stadsmontages van het Pushing leven](../c-about-staging.md#task_44306783B4C0408AAA58B471DAF2D9A4).
+      Zie [Werkgebiedinstellingen leegmaken live](../c-about-staging.md#task_44306783B4C0408AAA58B471DAF2D9A4).
 
-## Het veranderen van de orde dat de vraag zuiveringsregels in werking stellen {#task_C24012C45A4445468A7FD998017388CA}
+## Het veranderen van de orde die de vraag schoonmaakregels {#task_C24012C45A4445468A7FD998017388CA} in werking stellen
 
-U kunt vraag schoonmaakregels opnieuw in orde brengen om de orde te veranderen waarin zij op presentatiemalplaatjes lopen.
+U kunt de regels voor het schoonmaken van query&#39;s opnieuw ordenen om de volgorde te wijzigen waarin ze op presentatiesjablonen worden uitgevoerd.
 
-De schoonmaakregels van de vraag lopen in de orde dat zij werden bepaald. Hoger het de ordeaantal van een regel, later loopt het in het proces, die vroegere regels trompelen. U bestelt regels opnieuw door een nieuw aantal in de kolom van de Orde van de lijst op de [!DNL Query Cleaning Rules] pagina in te gaan. U kunt belemmering-en-daling op regels ook gebruiken om hun looppasorde te veranderen.
+Schoonmaakregels voor query&#39;s worden uitgevoerd in de volgorde waarin ze zijn gedefinieerd. Hoger het de ordeaantal van een regel, later het in het proces loopt, die vroegere regels beweegt. U wijzigt de volgorde van de regels door een nieuw nummer in te voeren in de kolom Volgorde van de tabel op de pagina [!DNL Query Cleaning Rules]. U kunt slepen-en-neerzetten op regels ook gebruiken om hun runtime orde te veranderen.
 
-**Om de orde te veranderen dat de vraag zuiveringsregels in werking stellen**
+**Om de orde te veranderen die de vraag zuiveringsregels in werking stelt**
 
 1. Klik in het productmenu op **[!UICONTROL Rules]** > **[!UICONTROL Query Cleaning]**.
-1. Op de [!DNL Query Cleaning Rules] pagina, doe één van het volgende:
+1. Voer op de pagina [!DNL Query Cleaning Rules] een van de volgende handelingen uit:
 
-   * Klik de [!DNL Order] kolomkopbal om de regels in stijgende of dalende orde te sorteren.
-   * In de [!DNL Order] kolom, op het tekstgebied links van een naam van de vraagschoonmaakregel, typ het ordeaantal dat u de regel wilt lopen.
-   * Sleep een lijstrij aan de positie die u de regel wilt in werking stellen. Alle ordeaantallen worden bijgewerkt om op de nieuwe orde te wijzen waarin de regels lopen.
+   * Klik op de kolomkop [!DNL Order] om de regels in oplopende of aflopende volgorde te sorteren.
+   * In [!DNL Order] kolom, op het tekstgebied links van een naam van de vraagschoonmaakregel, typ het ordeaantal dat u de regel wilt in werking stellen.
+   * Sleep een tabelrij naar de positie waar u de lijn wilt uitvoeren. Alle volgordenummers worden bijgewerkt om de nieuwe volgorde weer te geven waarin de regels worden uitgevoerd.
 
 1. Klik op **[!UICONTROL Save Changes]**.
-1. (Facultatief) doe één van het volgende:
+1. (Optioneel) Voer een van de volgende handelingen uit:
 
    * Klik **[!UICONTROL History]** om het even welke veranderingen terug te keren die u hebt aangebracht.
 
-      Zie De optie [Historie](../t-using-the-history-option.md#task_70DD3F87A67242BBBD2CB27156F43002)gebruiken.
+      Zie [De optie Historie gebruiken](../t-using-the-history-option.md#task_70DD3F87A67242BBBD2CB27156F43002).
 
    * Klik op **[!UICONTROL Live]**.
 
-      Zie live-instellingen [bekijken](../c-about-staging.md#task_401A0EBDB5DB4D4CA933CBA7BECDC10F).
+      Zie [Live-instellingen weergeven](../c-about-staging.md#task_401A0EBDB5DB4D4CA933CBA7BECDC10F).
 
    * Klik op **[!UICONTROL Push Live]**.
 
-      Zie [Stadsmontages van het Pushing leven](../c-about-staging.md#task_44306783B4C0408AAA58B471DAF2D9A4).
+      Zie [Werkgebiedinstellingen leegmaken live](../c-about-staging.md#task_44306783B4C0408AAA58B471DAF2D9A4).
 

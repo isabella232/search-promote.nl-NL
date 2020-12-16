@@ -1,52 +1,55 @@
 ---
-description: De pagina Waarschuwingen biedt een centrale plaats voor het bekijken en beheren van alle waarschuwingen die te maken hebben met uw account.
-seo-description: De pagina Waarschuwingen biedt een centrale plaats voor het bekijken en beheren van alle waarschuwingen die te maken hebben met uw account.
-seo-title: Informatie over berichten
+description: De pagina Waarschuwingen biedt een centrale plaats voor het weergeven en beheren van alle waarschuwingen die met uw account te maken hebben.
+seo-description: De pagina Waarschuwingen biedt een centrale plaats voor het weergeven en beheren van alle waarschuwingen die met uw account te maken hebben.
+seo-title: Informatie over waarschuwingen
 solution: Target
-title: Informatie over berichten
+title: Informatie over waarschuwingen
 topic: Reports,Site search and merchandising
 uuid: 94524563-f9a6-40cf-89f3-e80b1d0113c7
 translation-type: tm+mt
 source-git-commit: 7af85dd37f06fe506e5f57e28a25385ca7ab3db5
+workflow-type: tm+mt
+source-wordcount: '450'
+ht-degree: 0%
 
 ---
 
 
-# Informatie over berichten{#about-alerts}
+# Info over Waarschuwingen{#about-alerts}
 
-De pagina Waarschuwingen biedt een centrale plaats voor het bekijken en beheren van alle waarschuwingen die te maken hebben met uw account.
+De pagina Waarschuwingen biedt een centrale plaats voor het weergeven en beheren van alle waarschuwingen die met uw account te maken hebben.
 
-## Waarschuwingen gebruiken {#concept_B731210A050A4AB1A7F4C809AA8B5355}
+## Waarschuwingen {#concept_B731210A050A4AB1A7F4C809AA8B5355} gebruiken
 
-Een verscheidenheid van alarm wordt geproduceerd, verzonden naar één of meerdere e-mailadressen. De filters en andere controles op de pagina van het Alarm kunnen u helpen veelvoudige alarm meteen beheren.
+Er worden verschillende waarschuwingen gegenereerd en naar een of meer e-mailadressen verzonden. De filters en andere besturingselementen op de pagina Waarschuwingen kunnen u helpen meerdere waarschuwingen tegelijk te beheren.
 
-Elk alarm heeft één van de volgende drie niveaus die door verschillende pictogrammen worden vertegenwoordigd:
+Elke waarschuwing heeft een van de volgende drie niveaus, die worden weergegeven door verschillende pictogrammen:
 
-* Het info-level alarm is het gemeenschappelijkste type van alarm. Zij tonen niet-kritieke informatie die nuttig is of u zich van bewust kunt willen zijn.
-* Waarschuwing-niveau-alarm wijst op een situatie die u zou moeten behandelen of controleren.
-* Dringende waarschuwingen, hoewel zeldzaam, verstrekken informatie over kwesties die u onmiddellijk moet behandelen.
+* Waarschuwingen op informatieniveau zijn het meest voorkomende type waarschuwing. Zij tonen niet-kritieke informatie die nuttig is of u zich van bewust kunt zijn.
+* Waarschuwingsniveau geeft een situatie aan die u moet verzorgen of controleren.
+* Dringende waarschuwingen, hoewel zelden, geven informatie over kwesties die u onmiddellijk moet behandelen.
 
-Boven de lijst van alarm, bevat een bar het filtreren en navigatiecontroles. Als u vele alarm hebt, kunt u hen willen filtreren die op om het even welke combinatie niveau, datum, bestemmings e-mailadres, of onderwerptekst worden gebaseerd. U kunt punten door datum, de persoon ook filtreren zij werden verzonden naar, en door onderwerp.
+Boven de lijst met waarschuwingen bevat een balk besturingselementen voor filteren en navigatie. Als u vele alarm hebt, kunt u hen willen filtreren die op om het even welke combinatie niveau, datum, bestemmings e-mailadres, of onderwerptekst worden gebaseerd. U kunt items ook filteren op datum, de persoon naar wie ze zijn verzonden en op onderwerp.
 
-Selecteer één of meerdere filterknopen om die niveaus van alarm te tonen, of schrap hen om die punten uit te filtreren. Om door datum te filtreren, selecteer een begindatum, een einddatum, of allebei, in MM/DD/JJJJ formaat. Ga tekst op de &quot;Verzonden naar&quot;of &quot;Onderwerp&quot;gebieden in om alarm te vinden dat de tekst aanpast u inging.
+Selecteer een of meer filterknoppen om deze niveaus van waarschuwingen weer te geven of schakel deze uit om deze items te filteren. Als u wilt filteren op datum, selecteert u een begindatum, einddatum of beide in de notatie MM/DD/JJJJ. Typ tekst in de velden &#39;Verzonden naar&#39; of &#39;Onderwerp&#39; om waarschuwingen te zoeken die overeenkomen met de tekst die u hebt ingevoerd.
 
-## Waarschuwingen bekijken {#task_65DED222B5734DCE9320D6015AE7759D}
+## Waarschuwingen {#task_65DED222B5734DCE9320D6015AE7759D} weergeven
 
-De pagina Waarschuwingen biedt een centrale plaats voor het bekijken en beheren van alle waarschuwingen die te maken hebben met uw account.
+De pagina Waarschuwingen biedt een centrale plaats voor het weergeven en beheren van alle waarschuwingen die met uw account te maken hebben.
 
-**Om berichten te bekijken**
+**Waarschuwingen weergeven**
 
 1. Klik in het productmenu op **[!UICONTROL Reports]** > **[!UICONTROL Alerts]**.
-1. Voor de pagina van het Alarm, in het **[!UICONTROL Filter By: Level]** gebied, selecteer of schrap het alarm dat u wilt bekijken of verbergen.
-1. In de lijst, klik een alarm om het te bekijken.
-1. (Facultatief) doe om het even welke volgend:
+1. Schakel op de pagina Waarschuwingen in het gebied **[!UICONTROL Filter By: Level]** de waarschuwingen in of uit die u wilt weergeven of verbergen.
+1. Klik in de tabel op een waarschuwing om deze weer te geven.
+1. (Optioneel) Voer een van de volgende handelingen uit:
 
-   * Om alarm door datum, op het [!DNL Start Date] tekstgebied te filtreren, gaat het [!DNL End Date] tekstgebied, of allebei, een datum in formaat MM/DD/JJJJ in.
+   * Als u waarschuwingen wilt filteren op datum, voert u in het tekstveld [!DNL Start Date], het tekstveld [!DNL End Date] of beide een datum in de notatie MM/DD/JJJJ in.
 
-   * Op het [!DNL Sent To] tekstgebied, gaat het [!DNL Subject] tekstgebied, of allebei, woorden of uitdrukkingen in om alarm te vinden dat de tekst aanpast u inging.
+   * Typ in het tekstveld [!DNL Sent To] of in beide tekstvelden woorden of woordgroepen om waarschuwingen te zoeken die overeenkomen met de ingevoerde tekst.[!DNL Subject]
 
-   * Om één of meerdere alarm, in de linkerkolom te schrappen, controleer het alarm dat u, dan Geselecteerde Alarm **schrappen en wilt klikken**.
-   * Om alle getoonde alarm te selecteren, selecteer checkbox bij de bovenkant van de linkerkolom.
+   * Als u een of meer waarschuwingen wilt verwijderen, controleert u in de linkerkolom de waarschuwingen die u wilt verwijderen en klikt u op **Geselecteerde waarschuwingen verwijderen**.
+   * Als u alle weergegeven waarschuwingen wilt selecteren, schakelt u het selectievakje boven aan de linkerkolom in.
 
-      Als u alle passende alarm in plaats van één enkele pagina van hen wilt selecteren, in de drop-down lijst op het recht, selecteer **[!UICONTROL All Alerts]**, en selecteer dan checkbox bij de bovenkant van de kolom.
+      Als u alle bijbehorende waarschuwingen in plaats van één pagina wilt selecteren, selecteert u in de vervolgkeuzelijst aan de rechterkant **[!UICONTROL All Alerts]** en schakelt u vervolgens het selectievakje boven aan de kolom in.
 

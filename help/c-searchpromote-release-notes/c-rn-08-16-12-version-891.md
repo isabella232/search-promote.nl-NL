@@ -1,31 +1,34 @@
 ---
-description: ongeldig
-seo-description: ongeldig
-seo-title: Search&amp;Promote 8.9.1 Release Notes (08/16/2012)
+description: 'null'
+seo-description: 'null'
+seo-title: '&Zoeken;amp;Opmerkingen bij de release 8.9.1 promoten (16-08-2012)'
 solution: Target
-title: Search&amp;Promote 8.9.1 Release Notes (08/16/2012)
+title: '&Zoeken;amp;Opmerkingen bij de release 8.9.1 promoten (16-08-2012)'
 topic: Release Notes,Site search and merchandising
 uuid: 6f3284ed-660f-477f-a863-b961b185eaf3
 translation-type: tm+mt
 source-git-commit: ef818327e1cdaad79ac47575a8dfba1de3dc5c2e
+workflow-type: tm+mt
+source-wordcount: '137'
+ht-degree: 0%
 
 ---
 
 
-# Zoeken en promoten: 8.9.1 releasenota&#39;s (08/16/2012){#search-promote-release-notes}
+# Opmerkingen bij de release van Search&amp;Promote 8.9.1 (08/16/2012){#search-promote-release-notes}
 
-**Fixen en verbeteringen**
+**Oplossingen en verbeteringen**
 
-* Vaste zoekopdrachten met sterretjes aan het einde en niet uitgebreid met hun synoniemen.
-* Vaste datumvragen die verkeerd werkten.
-* Vast een fout waar het mogelijk was om een lege lijn aan de auto-volledige woordlijst toe te voegen.
-* Toegevoegde steun voor facetsortering die niet hoofdlettergevoelig is.
-* Toegevoegd een adviesbericht om de gebruiker te vertellen om een sterk [!DNL Adobe Search&Promote] rekeningswachtwoord tot stand te brengen.
-* Voeg een [!DNL SSO-Login-Only] optie aan het [!DNL Support] lusje in toe [!DNL Member Center].
+* Vaste zoekopdrachten met sterretjes aan het einde en zonder synoniemen.
+* Vaste datumquery&#39;s die onjuist werkten.
+* Probleem verholpen waarbij een lege regel kon worden toegevoegd aan de lijst met automatisch aangevulde woorden.
+* Toegevoegde ondersteuning voor facetsortering die niet hoofdlettergevoelig is.
+* Er is een adviesbericht toegevoegd om de gebruiker te vertellen een sterk [!DNL Adobe Search&Promote]-accountwachtwoord te maken.
+* Optie [!DNL SSO-Login-Only] toegevoegd aan het tabblad [!DNL Support] in [!DNL Member Center].
 
-* Vast een fout in scripted het filtreren die een onderzoek kon hangen kruipt.
-* Vast een fout waar niets zou gebeuren wanneer u met de rechtermuisknop aanklikte [!DNL Banner], en dan klikte [!DNL Select Different Banner from visual rule builder].
+* Oplossing voor een fout in gescripte filters die een zoekfout kon vastlopen.
+* Probleem verholpen waarbij er niets zou gebeuren wanneer u met de rechtermuisknop [!DNL Banner] had geklikt en vervolgens [!DNL Select Different Banner from visual rule builder] had geklikt.
 
-* Vaste diverse kwesties met het duwen van gefaseerde bedrijfsregels leven.
-* Bevestig een fout waarin de bannermarkeringen niet worden gezocht.
+* Verschillende problemen met het live duwen van gefaseerde bedrijfsregels zijn opgelost.
+* Probleem verholpen waarbij bannertags niet worden doorzocht.
 

@@ -1,30 +1,33 @@
 ---
-description: Gebruik het menu van de Analyse van Adobe aan de metrieke authentificatie van de Analyse van opstellingAdobe, de metriek van de Analyse van Adobe van een Reeks van het Rapport beheren, of gebruiken SAINT om de rapporten van de Analyse van Adobe door de aanvaarding van gegevens in tabelvorm uit buitenbronnen te verbeteren.
-seo-description: Gebruik het menu van de Analyse van Adobe aan de metrieke authentificatie van de Analyse van opstellingAdobe, de metriek van de Analyse van Adobe van een Reeks van het Rapport beheren, of gebruiken SAINT om de rapporten van de Analyse van Adobe door de aanvaarding van gegevens in tabelvorm uit buitenbronnen te verbeteren.
-seo-title: Ongeveer het menu van de Analyse van Adobe
+description: Gebruik het menu Adobe Analytics om Adobe Analytics-metrische verificatie in te stellen, Adobe Analytics-metriek van een rapportsuite te beheren of gebruik SAINT om Adobe Analytics-rapporten te verbeteren via de acceptatie van tabelgegevens van externe bronnen.
+seo-description: Gebruik het menu Adobe Analytics om Adobe Analytics-metrische verificatie in te stellen, Adobe Analytics-metriek van een rapportsuite te beheren of gebruik SAINT om Adobe Analytics-rapporten te verbeteren via de acceptatie van tabelgegevens van externe bronnen.
+seo-title: Het menu Adobe Analytics
 solution: Target
 subtopic: Adobe Analytics
-title: Ongeveer het menu van de Analyse van Adobe
+title: Het menu Adobe Analytics
 topic: Settings,Site search and merchandising
 uuid: 5536edf1-d3a4-47af-a307-6e46f385f738
 translation-type: tm+mt
 source-git-commit: f21a3f7fe0aeaab517a5ca36da43594873b3e69a
+workflow-type: tm+mt
+source-wordcount: '3448'
+ht-degree: 0%
 
 ---
 
 
-# Ongeveer het menu van de Analyse van Adobe{#about-the-adobe-analytics-menu}
+# Informatie over het menu Adobe Analytics{#about-the-adobe-analytics-menu}
 
-Gebruik het menu van de Analyse van Adobe aan de metrieke authentificatie van de Analyse van opstellingAdobe, de metriek van de Analyse van Adobe van een Reeks van het Rapport beheren, of gebruiken SAINT om de rapporten van de Analyse van Adobe door de aanvaarding van gegevens in tabelvorm uit buitenbronnen te verbeteren.
+Gebruik het menu Adobe Analytics om Adobe Analytics-metrische verificatie in te stellen, Adobe Analytics-metriek van een rapportsuite te beheren of gebruik SAINT om Adobe Analytics-rapporten te verbeteren via de acceptatie van tabelgegevens van externe bronnen.
 
-## De metrietauthentificatie van de Analyses van de vestiging Adobe {#task_8AA93F6273B747F9B4DE9E8DFBCBDC42}
+## Adobe Analytics-metrische verificatie instellen {#task_8AA93F6273B747F9B4DE9E8DFBCBDC42}
 
-Om de metriek van de Analyse van Adobe in uw plaatsonderzoek/merchandising rangschikkingen op te nemen, moet u een login van de Diensten van het Web van de Analyse van Adobe eerst verkrijgen. Nadat u de login informatie verkrijgt, kunt u het aan de authentificatie van de Analyse van opstellingsAdobe in plaatsonderzoek/merchandising gebruiken.
+Om Adobe Analytics metriek in uw plaatsonderzoek/handelaardising classificaties op te nemen, moet u eerst een login van de Diensten van het Web van Adobe Analytics verkrijgen. Nadat u de aanmeldingsgegevens hebt ontvangen, kunt u deze gebruiken om Adobe Analytics-verificatie in te stellen bij het zoeken naar en verkopen van sites.
 
-**Aan de authentificatie van de metriek van de Analyse van opstellingsAdobe**
+**Adobe Analytics-metrieke verificatie instellen**
 
 1. Klik in het productmenu op **[!UICONTROL Settings]** > **[!UICONTROL Adobe Analytics]** > **[!UICONTROL Authentication]**.
-1. Voor de [!DNL Setup Adobe Analytics Metrics Authentication] pagina, specificeer de gevraagde informatie op elk gebied.
+1. Geef op de pagina [!DNL Setup Adobe Analytics Metrics Authentication] de gevraagde informatie voor elk veld op.
 
    <table> 
     <thead> 
@@ -35,205 +38,205 @@ Om de metriek van de Analyse van Adobe in uw plaatsonderzoek/merchandising rangs
     </thead>
     <tbody> 
       <tr> 
-      <td colname="col1"> <p>Naam van Adobe Analytics Company </p> </td> 
-      <td colname="col2"> <p>De zelfde Naam die van het Bedrijf die dat wordt gebruikt aan login aan uw rekening van de Analyse van Adobe plaatst plaatst. </p> </td> 
+      <td colname="col1"> <p>Adobe Analytics Company Name </p> </td> 
+      <td colname="col2"> <p>Dezelfde bedrijfsnaam-instelling die wordt gebruikt om u aan te melden bij uw Adobe Analytics-account. </p> </td> 
       </tr> 
       <tr> 
-      <td colname="col1"> <p>webservicengebruikersnaam </p> </td> 
-      <td colname="col2"> <p>De gebruikersnaam van de Diensten van het Web die met uw rekening van de Analyse van Adobe wordt geassocieerd. </p> <p>U kunt deze informatie in de Analyse van Adobe verkrijgen. Voor de het menubar van de Analyse van Adobe, klik <span class="uicontrol"> Admin <b>&gt; de Console</b> van </span> Admin &gt; <span class="uicontrol"> &gt; <b>Company &gt; de Diensten van het</b> </span> <span class="uicontrol"> <b></b> </span> <span class="uicontrol"> <b></b> </span>Web. De informatie is in de API lijst van de Informatie van de Toegang. </p> </td> 
+      <td colname="col1"> <p>Gebruikersnaam webservices </p> </td> 
+      <td colname="col2"> <p>De gebruikersnaam voor webservices die is gekoppeld aan uw Adobe Analytics-account. </p> <p>Je kunt deze gegevens opvragen in Adobe Analytics. Klik in de menubalk van Adobe Analytics op <span class="uicontrol"> <b>Admin</b> </span> &gt; <span class="uicontrol"> <b>Admin Console</b> </span> <span class="uicontrol"> <b>Bedrijf</b> </span> &gt; <span class="uicontrol"> <b>Webservices a14/&gt; </span>. </b> De informatie staat in de tabel API Access Information. </p> </td> 
       </tr> 
       <tr> 
-      <td colname="col1"> <p>Gedeeld Geheim Web Services </p> </td> 
-      <td colname="col2"> <p>De diensten van het Web Gedeelde Geheim die met uw rekening van de Analyse van Adobe wordt geassocieerd. </p> <p>U kunt deze informatie in de Analyse van Adobe verkrijgen. Voor de het menubar van de Analyse van Adobe, klik <span class="uicontrol"> Admin <b>&gt; de Console</b> van </span> Admin &gt; <span class="uicontrol"> &gt; <b>Company &gt; de Diensten van het</b> </span> <span class="uicontrol"> <b></b> </span> <span class="uicontrol"> <b></b> </span>Web. De informatie is in de API lijst van de Informatie van de Toegang. </p> </td> 
+      <td colname="col1"> <p>Gedeeld geheim voor webservices </p> </td> 
+      <td colname="col2"> <p>Het gedeelde geheim van de Diensten van het Web dat met uw rekening van Adobe Analytics wordt geassocieerd. </p> <p>Je kunt deze gegevens opvragen in Adobe Analytics. Klik in de menubalk van Adobe Analytics op <span class="uicontrol"> <b>Admin</b> </span> &gt; <span class="uicontrol"> <b>Admin Console</b> </span> <span class="uicontrol"> <b>Bedrijf</b> </span> &gt; <span class="uicontrol"> <b>Webservices a14/&gt; </span>. </b> De informatie staat in de tabel API Access Information. </p> </td> 
       </tr> 
     </tbody> 
     </table>
 
 1. Klik op **[!UICONTROL Save Changes]**.
-1. (Facultatief) doe één van het volgende:
+1. (Optioneel) Voer een van de volgende handelingen uit:
 
    * Klik **[!UICONTROL History]** om het even welke veranderingen terug te keren die u hebt aangebracht.
 
-      Zie De optie [Historie](../t-using-the-history-option.md#task_70DD3F87A67242BBBD2CB27156F43002)gebruiken.
+      Zie [De optie Historie gebruiken](../t-using-the-history-option.md#task_70DD3F87A67242BBBD2CB27156F43002).
 
    * Klik op **[!UICONTROL Live]**.
 
-      Zie live-instellingen [bekijken](../c-about-staging.md#task_401A0EBDB5DB4D4CA933CBA7BECDC10F).
+      Zie [Live-instellingen weergeven](../c-about-staging.md#task_401A0EBDB5DB4D4CA933CBA7BECDC10F).
 
    * Klik op **[!UICONTROL Push Live]**.
 
-      Zie [Stadsmontages van het Pushing leven](../c-about-staging.md#task_44306783B4C0408AAA58B471DAF2D9A4).
+      Zie [Werkgebiedinstellingen leegmaken live](../c-about-staging.md#task_44306783B4C0408AAA58B471DAF2D9A4).
 
-## Ongeveer de Reeksen van het Rapport van de Analyse van Adobe {#concept_1A51AEC5D40E459B813E7891D64B1BAE}
+## Informatie over Adobe Analytics-rapportsuite {#concept_1A51AEC5D40E459B813E7891D64B1BAE}
 
-Om de gegevens van de Reeks van het Rapport van de Analyse van Adobe binnen plaatsonderzoek/merchandising te gebruiken, moet u exemplaren van de gegevens van de Analyse van Adobe in uw plaatsonderzoek/handelswisselende rekening eerst tot stand brengen.
+Als u Adobe Analytics Report Suite-gegevens wilt gebruiken in het zoeken/verhandelen van sites, moet u eerst kopieën van de Adobe Analytics-gegevens maken in uw account voor zoeken/verhandelen van sites.
 
-U kunt de nieuwe definities van de Reeks van het Rapport van de Analyse van Adobe tot stand brengen, of u kunt uw bestaande Reeksen van het Rapport van de Analyse van Adobe bekijken of wijzigen en bijbehorende metriek.
+U kunt nieuwe Adobe Analytics Report Suite-definities maken of u kunt uw bestaande Adobe Analytics Report Suite en de bijbehorende maateenheden weergeven of wijzigen.
 
-De eerste keer u tot de Analyse van Adobe van binnen plaatsonderzoek/merchandising toegang hebt, wordt een lijst van de beschikbare Uitrustingen van het Rapport van uw bedrijf gedownload en in het voorgeheugen ondergebracht. Als de nieuwe Uitgangen van het Rapport onlangs zijn toegevoegd, of de bestaande verwijderde zijn toegevoegd, kunt u de lijst van de rapportreeks verfrissen om de lijst van de Uitrustingen van het Rapport opnieuw te downloaden.
+De eerste keer dat u Adobe Analytics opent vanuit de zoekfunctie of de winkel van de site, wordt een lijst met de rapportsuite van uw bedrijf gedownload en in cache geplaatst. Als de nieuwe Reeksen van het Rapport onlangs zijn toegevoegd, of bestaande verwijderd, kunt u de lijst van de rapportreeks vernieuwen om de lijst van de Reeksen van het Rapport opnieuw te downloaden.
 
-## Het toevoegen van een Reeks van het Rapport van de Analyse van Adobe {#task_6DE17305EA7146DA8C30FF8FDF68A3C0}
+## Een Adobe Analytics-rapportsuite {#task_6DE17305EA7146DA8C30FF8FDF68A3C0} toevoegen
 
-U kunt een Reeks van het Rapport van de Analyse van Adobe selecteren waarop om uw plaatsonderzoek/merchandising het Rangschikken van regels te baseren.
+U kunt een Adobe Analytics-rapportsuite selecteren waarop u de regels voor het zoeken naar en het plaatsen van uw site wilt baseren.
 
-De lijst u kunt selecteren van zou aan de Uitrustingen van het Rapport moeten beantwoorden die van binnen uw rekening van de Analyse van Adobe beschikbaar zijn. De uitgezocht Reeks van het Rapport bepaalt de metriek die voor gebruik binnen uw plaatsonderzoek/handel beschikbaar zijn die Rangschikkende Regels rangschikt.
+De lijst waaruit u kunt selecteren, moet overeenkomen met de rapportsets die beschikbaar zijn in uw Adobe Analytics-account. De rapportsuite die u selecteert, bepaalt de maatstaven die beschikbaar zijn voor gebruik binnen de regels voor het zoeken naar en het verhandelen van sites.
 
-Zie [over rangschikkingsregels](../c-about-rules-menu/c-about-ranking-rules.md#concept_F555C076759B4E81B925441CFE707397).
+Zie [Informatie over rangschikkingsregels](../c-about-rules-menu/c-about-ranking-rules.md#concept_F555C076759B4E81B925441CFE707397).
 
-Nadat u een Reeks van het Rapport van de Analyse van Adobe toevoegt, kunt u zijn metriek uitgeven.
+Nadat u een Adobe Analytics Report Suite hebt toegevoegd, kunt u de cijfers ervan bewerken.
 
-Zie het [Uitgeven van de metriek van de Analyse van Adobe van een Reeks](../c-about-settings-menu/c-about-adobe-analytics-menu.md#task_360904CCBBB140238ADA036C3CC07664)van het Rapport.
+Zie [De Adobe Analytics-meetgegevens van een rapportsuite](../c-about-settings-menu/c-about-adobe-analytics-menu.md#task_360904CCBBB140238ADA036C3CC07664) bewerken.
 
-**Om een Reeks van het Rapport van de Analyse van Adobe toe te voegen**
-
-1. Klik in het productmenu op **[!UICONTROL Settings]** > **[!UICONTROL Adobe Analytics]** > **[!UICONTROL Metrics]**.
-1. Voor de pagina van de Reeksen van het Rapport van de Analyse van Adobe, klik **[!UICONTROL Add Report Suite]**.
-1. In de drop-down lijst van de onlangs toegevoegde lijstrij, selecteer de Reeks van het Rapport die u wilt.
-1. Geef de metriek van de Analyse van Adobe van een Reeks van het Rapport uit.
-
-## Het uitgeven van de metriek van de Analyse van Adobe van een Reeks van het Rapport {#task_360904CCBBB140238ADA036C3CC07664}
-
-Om de metriek van de Analyse van Adobe in uw Rangschikkende Regels in plaatsonderzoek/merchandising op te nemen, selecteert u één of meer van de metriek die met de gekozen Reeks van het Rapport worden geassocieerd. Dan vormt u de opties die worden gebruikt om metrische gegevens als Dienst van het Web van de Analyse van Adobe te halen.
-
-Zie Een Adobe Analytics Report Suite [toevoegen](../c-about-settings-menu/c-about-adobe-analytics-menu.md#task_6DE17305EA7146DA8C30FF8FDF68A3C0).
-
-Zie Geavanceerde opties voor [Adobe Analytics](../c-about-settings-menu/c-about-adobe-analytics-menu.md#task_C0FF2D69F59D44D8943A7831ED7FEC19)configureren.
-
-**Om de metriek van de Analyse van Adobe van een Reeks van het Rapport uit te geven**
+**Adobe Analytics Report Suite toevoegen**
 
 1. Klik in het productmenu op **[!UICONTROL Settings]** > **[!UICONTROL Adobe Analytics]** > **[!UICONTROL Metrics]**.
-1. Voor de [!DNL Adobe Analytics Report Suites] pagina, onder de **[!UICONTROL Actions]** kolom, klik **[!UICONTROL Edit]** voor de Reeks van het Rapport de waarvan metriek u wilt vormen.
-1. Voor de [!DNL Edit Adobe Analytics Metrics] pagina, plaats de metriek die worden vereist. De metriek die geen asterisk (*) naast de metrische naam hebben, zijn facultatief.
+1. Klik op **[!UICONTROL Add Report Suite]** op de pagina Rapportages Adobe Analytics.
+1. Selecteer de gewenste rapportsuite in de vervolgkeuzelijst van de zojuist toegevoegde tabelrij.
+1. Bewerk de Adobe Analytics-waarden van een rapportsuite.
+
+## De Adobe Analytics-meetgegevens van een rapportsuite {#task_360904CCBBB140238ADA036C3CC07664} bewerken
+
+Om de metriek van Adobe Analytics in uw het Rangschikken Regels in plaatsonderzoek/handel op te nemen, selecteert u één of meerdere metriek die met de gekozen Reeks van het Rapport worden geassocieerd. Dan vormt u de opties die worden gebruikt om metrische gegevens als Dienst van het Web van Adobe Analytics te halen.
+
+Zie [Een Adobe Analytics-rapportsuite toevoegen](../c-about-settings-menu/c-about-adobe-analytics-menu.md#task_6DE17305EA7146DA8C30FF8FDF68A3C0).
+
+Zie [Geavanceerde Adobe Analytics-opties configureren](../c-about-settings-menu/c-about-adobe-analytics-menu.md#task_C0FF2D69F59D44D8943A7831ED7FEC19).
+
+**De Adobe Analytics-gegevens van een rapportsuite bewerken**
+
+1. Klik in het productmenu op **[!UICONTROL Settings]** > **[!UICONTROL Adobe Analytics]** > **[!UICONTROL Metrics]**.
+1. Op [!DNL Adobe Analytics Report Suites] pagina, onder **[!UICONTROL Actions]** kolom, klik **[!UICONTROL Edit]** voor de Reeks van het Rapport waarvan metriek u wilt vormen.
+1. Stel op de pagina [!DNL Edit Adobe Analytics Metrics] de vereiste maateenheden in. Metriek zonder sterretje (*) naast de naam van de metrische waarde is optioneel.
 
    <table> 
     <thead> 
       <tr> 
-      <th colname="col1" class="entry"> <p>Optie </p> </th> 
+      <th colname="col1" class="entry"> <p>Option </p> </th> 
       <th colname="col2" class="entry"> <p>Beschrijving </p> </th> 
       </tr> 
     </thead>
     <tbody> 
       <tr> 
-      <td colname="col1"> <p>Report Suite </p> </td> 
-      <td colname="col2"> <p>Toont de naam van de huidige Reeks van het Rapport die u toevoegde. </p> </td> 
+      <td colname="col1"> <p>Rapportsuite </p> </td> 
+      <td colname="col2"> <p>Geeft de naam weer van de rapportsuite die u hebt toegevoegd. </p> </td> 
       </tr> 
       <tr> 
-      <td colname="col1"> <p>Report Suite View Name </p> </td> 
-      <td colname="col2"> <p>Verstrekt een "alias"naam voor de naam van de Reeks van het Rapport van de Analyse van Adobe. Deze afwisselende naam is nuttig als de zelfde Reeks van het Rapport in meer dan één definitie wordt gebruikt. </p> </td> 
+      <td colname="col1"> <p>Weergavenaam rapportsuite </p> </td> 
+      <td colname="col2"> <p>Geeft een 'alias'-naam voor de naam van de Adobe Analytics Report Suite. Deze alternatieve naam is handig als dezelfde rapportsuite wordt gebruikt in meerdere definities. </p> </td> 
       </tr> 
       <tr> 
-      <td colname="col1"> <p>Selecteer Type rapport </p> </td> 
-      <td colname="col2"> <p>Specificeert de waarde van het Type van Rapport met de geselecteerde Reeks van het Rapport te gebruiken. De waarde identificeert de sleutel voor elke teruggekeerde rij van resultaten. </p> <p>Het Type van Rapport is ook gekend als het Element van de Analyse van Adobe. </p> <p>Dit metrisch wordt vereist. </p> </td> 
+      <td colname="col1"> <p>Rapporttype selecteren </p> </td> 
+      <td colname="col2"> <p>Specificeert de waarde van het Type van Rapport om met de geselecteerde Reeks van het Rapport te gebruiken. De waarde identificeert de sleutel voor elke teruggekeerde rij van resultaten. </p> <p>Het rapporttype wordt ook wel het Adobe Analytics-element genoemd. </p> <p>Dit metrisch wordt vereist. </p> </td> 
       </tr> 
       <tr> 
-      <td colname="col1"> <p>Veldnaam kruisverwijzing </p> </td> 
-      <td colname="col2"> <p>Specificeert een meta-gegevensgebied de waarvan waarden als "sleutels"in de gegevens van de Reeks van het Rapport worden gebruikt. </p> <p>Als geen waarde wordt geselecteerd ("— niets -"), zijn de gegevens van dit Reeks van Rapport niet beschikbaar voor gebruik in het Rangschikken van berekeningen ( <span class="uicontrol"> Regels <b>&gt; de</b> Rangschikkende Regels </span> &gt; de <span class="uicontrol"> Rangschikkende Regels <b>&gt;</b> </span> <span class="uicontrol"> <b></b> </span>uitgeven Regels). </p> <p>Wanneer u een waarde selecteert, worden de waarden van dit gebied gebruikt om plaatsonderzoek/merchandising documenten met de gegevens van Adobe Analytics van dit Reeks van Rapport te vergelijken, gebruikend de geselecteerde waarde van het Type van Rapport die u vroeger plaatste. </p> </td> 
+      <td colname="col1"> <p>Naam kruisverwijzingsveld </p> </td> 
+      <td colname="col2"> <p>Specificeert een meta-gegevensgebied de waarvan waarden als "sleutels"in de gegevens van de Reeks van het Rapport worden gebruikt. </p> <p>Als er geen waarde is geselecteerd ("— Geen —"), zijn de gegevens van deze rapportsuite niet beschikbaar voor gebruik in rangtelberekeningen ( <span class="uicontrol"> <b>Regels</b> </span> &gt; <span class="uicontrol"> <b> &lt;a5/&gt; </span> &gt; <span class="uicontrol"> <b>Regels bewerken</b> &lt;a1 1/&gt;).</span></b> </span></p> <p>Wanneer u een waarde selecteert, worden de waarden van dit veld gebruikt om te verwijzen naar documenten voor het zoeken/verhandelen van sites met de Adobe Analytics-gegevens van deze rapportsuite. Hierbij wordt de geselecteerde waarde voor Rapporttype gebruikt die u eerder hebt ingesteld. </p> </td> 
       </tr> 
       <tr> 
-      <td colname="col1"> <p>Rapport Zoektermen </p> </td> 
-      <td colname="col2"> <p>Geeft u toegang om bedrijfsregels tot stand te brengen en onderzoekstermijnen van de pagina van de Voorproef van de Gegevens van de Analyse van Adobe van het <b>Stadium te simuleren</b> . </p> <p>Zie de Gegevens van de Analyse van Adobe <a href="../c-about-settings-menu/c-about-adobe-analytics-menu.md#task_735CDCC1D8174B7B9F5B8E0AFA5F0CA0" type="task" format="dita" scope="local">Previewing</a>. </p> <p>Een pull-down menu verschijnt op elke rij die twee opties omvat: <b>Simuleer de Termijn</b> van het Onderzoek en <b>creeer Nieuwe BedrijfsRegel</b>. </p> <p>Beide opties gebruiken gegevens van het Type van Rapport als onderzoekstermijnen. Daarom is deze eigenschap slechts zinvol als het Type van Rapport onderzoekstermijnen vertegenwoordigt. </p> </td> 
+      <td colname="col1"> <p>Rapport met zoektermen </p> </td> 
+      <td colname="col2"> <p>Biedt u toegang tot het maken van bedrijfsregels en simuleert zoektermen op de pagina <b>Adobe Analytics-voorvertoning van gegevens in het werkgebied</b>. </p> <p>Zie <a href="../c-about-settings-menu/c-about-adobe-analytics-menu.md#task_735CDCC1D8174B7B9F5B8E0AFA5F0CA0" type="task" format="dita" scope="local">Voorvertoning van Adobe Analytics-gegevens</a>. </p> <p>Op elke rij met twee opties wordt een keuzemenu weergegeven: <b>Zoekterm simuleren</b> en <b>Nieuwe bedrijfsregel maken</b>. </p> <p>Beide opties gebruiken gegevens van het Type van Rapport als onderzoekstermen. Daarom is deze eigenschap slechts zinvol als het Type van Rapport onderzoekstermijnen vertegenwoordigt. </p> </td> 
       </tr> 
       <tr> 
-      <td colname="col1"> <p>Metriek </p> </td> 
-      <td colname="col2"> <p>Identificeert de metrische waarden die u binnen uw plaatsonderzoek wilt downloaden en gebruiken/die Regels rangschikken. </p> <p>De metriek die u hier vormt verschijnen als keuzen op de <span class="uicontrol"> Regels <b>&gt;</b> het Rangschikken Regels </span> <span class="uicontrol"> &gt; <b></b> </span> <span class="uicontrol"> <b></b> </span> <span class="uicontrol"> </span>geeft Regels&gt; centrumpagina's uit, wanneer het Type van Gegevens van de regel aan Metrisch van de Analyse van Adobe (Aantal) wordt geplaatst. De keuzen tonen een combinatie de namen van de Reeks van het Rapport of de Namen van de Mening van de Reeks van het Rapport, indien gespecificeerd, en de individuele metrische namen. </p> <p>Dit metrisch wordt vereist. </p> </td> 
+      <td colname="col1"> <p>Metrisch </p> </td> 
+      <td colname="col2"> <p>Identificeert de metrische waarden die u binnen uw plaatsonderzoek wilt downloaden en gebruiken/handel drijvende Regels. </p> <p>De metriek die u hier vormt verschijnen als keuzen op <span class="uicontrol"> <b>Regels</b> </span> &gt; <span class="uicontrol"> <b> </b> </span> &gt; <span class="uicontrol"> <b>Regels bewerken</b> </span> ledencentrumpagina's, wanneer het Type van Gegevens van de regel aan wordt geplaatst <span class="uicontrol"> Metrisch (getal) </span>. De keuzen tonen een combinatie namen van de Reeks van het Rapport of de Namen van de Mening van de Reeks van het Rapport, indien gespecificeerd, en de individuele metrische namen. </p> <p>Dit metrisch wordt vereist. </p> </td> 
       </tr> 
       <tr> 
       <td colname="col1"> <p>Minimale meetwaarde </p> </td> 
-      <td colname="col2"> <p>Laat u een nonzero waarde ingaan om een minimumwaarde voor metrisch te specificeren. </p> <p>Als leeg, of nul, alle waarden voor metrisch worden gedownload; anders, de download voor deze metrische einden wanneer de minimum metrische waarde wordt overgegaan. </p> <p>De metriek van de Analyse van Adobe worden teruggewonnen in dalende orde. </p> <p>Klik <span class="uicontrol"> + <b></b> </span> om extra metrische definities toe te voegen; klik <span class="uicontrol"><b>-</b> </span> om metrische definities te verwijderen die u niet meer nodig hebt of wilt. </p> </td> 
+      <td colname="col2"> <p>Hier kunt u een waarde opgeven die niet gelijk is aan nul. </p> <p>Indien leeg, of nul, worden alle waarden voor metrisch gedownload; anders, de download voor deze metrische einden wanneer de minimum metrische waarde wordt overgegaan. </p> <p>Metrische gegevens van Adobe Analytics worden in aflopende volgorde opgehaald. </p> <p>Klik <span class="uicontrol"> <b>+</b> </span> om extra metrische definities toe te voegen; Klik <span class="uicontrol"> <b>-</b> </span> om metrische definities te verwijderen die u niet meer nodig hebt of wilt. </p> </td> 
       </tr> 
       <tr> 
-      <td colname="col1"> <p>Metrische aggregatieperiode van Adobe Analytics (dagen) </p> </td> 
-      <td colname="col2"> <p> Controleert het aantal dagen waarde van de metriek van de Analyse van Adobe om te halen, die terug van de datum van gisteren tellen. Geen poging wordt gemaakt om gegevens van de huidige dag te halen. </p> <p>Het gebrek is 7. </p> <p>Dit metrisch wordt vereist. </p> </td> 
+      <td colname="col1"> <p>Metrische aggregatieperiode Adobe Analytics (dagen) </p> </td> 
+      <td colname="col2"> <p> Hiermee bepaalt u het aantal dagen dat Adobe Analytics-metriek moet worden opgehaald, waarbij wordt gerekend vanaf de datum van gisteren. Er wordt geen poging gedaan om gegevens van de huidige dag op te halen. </p> <p>De standaardwaarde is 7. </p> <p>Dit metrisch wordt vereist. </p> </td> 
       </tr> 
       <tr> 
-      <td colname="col1"> <p>De Analyse van Adobe de Download verfrist Frequentie (Dagen) </p> </td> 
-      <td colname="col2"> <p> Plaatst het minimuminterval tussen downloads van de gegevens van de Analyse van Adobe die in het rangschikken van berekeningen worden gebruikt. </p> <p>De index-teweeggebrachte downloads die binnen de download voorkomen verfrissen frequentieinterval worden genegeerd. Nochtans, negeren de handdownloads deze waarde. </p> <p>Wanneer u deze waarde aan het gebrek van 1 plaatst, downloadt de gegevens van de Analyse van Adobe niet meer dan eens binnen een periode van 24 uur. Alle indexen van het Onderzoek die binnen de download voorkomen verfrissen frequentieinterval gebruik de laatste gegevensreeks die werd gedownload. </p> <p>Dit metrisch wordt vereist. </p> </td> 
+      <td colname="col1"> <p>Vernieuwingsfrequentie Adobe Analytics-download (dagen) </p> </td> 
+      <td colname="col2"> <p> Hiermee stelt u het minimale interval in tussen downloads van Adobe Analytics-gegevens die worden gebruikt in waarderingsberekeningen. </p> <p>Indexgetriggerde downloads die plaatsvinden binnen het gedownloade vernieuwingsfrequentie-interval worden genegeerd. Handmatige downloads negeren deze waarde echter. </p> <p>Wanneer u deze waarde instelt op de standaardwaarde 1, worden Adobe Analytics-gegevens niet meer dan één keer gedownload binnen een periode van 24 uur. Alle indexen van het Onderzoek die binnen de download voorkomen verfrissen frequentieinterval gebruik de laatste gegevensreeks die werd gedownload. </p> <p>Dit metrisch wordt vereist. </p> </td> 
       </tr> 
     </tbody> 
     </table>
 
-   Zie ook [over rangschikkingsregels](../c-about-rules-menu/c-about-ranking-rules.md#concept_F555C076759B4E81B925441CFE707397).
+   Zie ook [Informatie over rangschikkingsregels](../c-about-rules-menu/c-about-ranking-rules.md#concept_F555C076759B4E81B925441CFE707397).
 1. Klik op **[!UICONTROL Save Changes]**.
 
-   Je wordt teruggestuurd naar de pagina Staged [!DNL Adobe Analytics Report Suites] .
-1. (Facultatief) doe één van het volgende:
+   U bent teruggekeerd aan de Staged [!DNL Adobe Analytics Report Suites] pagina.
+1. (Optioneel) Voer een van de volgende handelingen uit:
 
    * Klik **[!UICONTROL History]** om het even welke veranderingen terug te keren die u hebt aangebracht.
 
-      Zie De optie [Historie](../t-using-the-history-option.md#task_70DD3F87A67242BBBD2CB27156F43002)gebruiken.
+      Zie [De optie Historie gebruiken](../t-using-the-history-option.md#task_70DD3F87A67242BBBD2CB27156F43002).
 
    * Klik op **[!UICONTROL Live]**.
 
-      Zie live-instellingen [bekijken](../c-about-staging.md#task_401A0EBDB5DB4D4CA933CBA7BECDC10F).
+      Zie [Live-instellingen weergeven](../c-about-staging.md#task_401A0EBDB5DB4D4CA933CBA7BECDC10F).
 
    * Klik op **[!UICONTROL Push Live]**.
 
-      Zie [Stadsmontages van het Pushing leven](../c-about-staging.md#task_44306783B4C0408AAA58B471DAF2D9A4).
+      Zie [Werkgebiedinstellingen leegmaken live](../c-about-staging.md#task_44306783B4C0408AAA58B471DAF2D9A4).
 
-## Het schrappen van een Reeks van het Rapport van de Analyse van Adobe {#task_0ACA172214D14654ABDB139F417B9F7D}
+## Adobe Analytics Report Suite {#task_0ACA172214D14654ABDB139F417B9F7D} verwijderen
 
-U kunt Schrapping gebruiken om een Reeks van het Rapport uit de [!DNL Adobe Analytics Report Suites] pagina te verwijderen. Het schrappen van een Reeks van het Rapport verwijdert slechts het exemplaar van de gegevens uit de plaatsonderzoek/de verkopers van de servers; het beïnvloedt niet de gegevens over de systemen van de Analyse van Adobe.
+Met Verwijderen kunt u een rapportsuite verwijderen van de pagina [!DNL Adobe Analytics Report Suites]. Als u een rapportsuite verwijdert, wordt alleen de kopie van de gegevens verwijderd van de zoek-/verkoopservers van de site. het heeft geen invloed op de gegevens over Adobe Analytics-systemen.
 
-**Om een Reeks van het Rapport van de Analyse van Adobe te schrappen**
+**Adobe Analytics Report Suite verwijderen**
 
 1. Klik in het productmenu op **[!UICONTROL Settings]** > **[!UICONTROL Adobe Analytics]** > **[!UICONTROL Metrics]**.
-1. Voor de [!DNL Adobe Analytics Report Suites] pagina, onder de **[!UICONTROL Actions]** kolom, klik **[!UICONTROL Delete]** voor de Reeks van het Rapport u wilt verwijderen.
-1. Voor de [!DNL Adobe Analytics Delete Report Suite] pagina, klik **[!UICONTROL Delete]**.
+1. Op [!DNL Adobe Analytics Report Suites] pagina, onder **[!UICONTROL Actions]** kolom, klik **[!UICONTROL Delete]** voor de Reeks van het Rapport u wilt verwijderen.
+1. Klik op [!DNL Adobe Analytics Delete Report Suite] op de pagina.**[!UICONTROL Delete]**
 
-## Adobe Analytics-gegevens voorvertonen {#task_735CDCC1D8174B7B9F5B8E0AFA5F0CA0}
+## Voorvertoning van Adobe Analytics-gegevens {#task_735CDCC1D8174B7B9F5B8E0AFA5F0CA0}
 
-U kunt Voorproef gebruiken om uw onlangs geladen metriek van de Analyse van Adobe te bekijken.
+Met Voorvertoning kunt u de laatst geladen Adobe Analytics-gegevens weergeven.
 
-De kolom van de Rij in de lijst toont het aantal voor elke rij van metrische gegevens, die op de originele orde wijzen dat de metriek van de Analyse van Adobe werden geladen.
+In de kolom Rij in de tabel wordt het getal voor elke rij met metrische gegevens weergegeven. Dit geeft de oorspronkelijke volgorde aan waarin de Adobe Analytics-metriek zijn geladen.
 
-De kolom van het Product toont het Element van de Analyse van Adobe dat met elke rij van metrische gegevens wordt geassocieerd. De waarden in deze kolom worden gebruikt om uw plaats onderzoek/handelaardiserende pagina&#39;s met hun overeenkomstige metrische waarden te associëren, zoals die in uw rangschikkende definities worden gevormd.
+In de kolom Product wordt het Adobe Analytics-element weergegeven dat aan elke rij metrische gegevens is gekoppeld. De waarden in deze kolom worden gebruikt om uw pagina&#39;s van het plaatsonderzoek/van de handel drijven met hun overeenkomstige metrische waarden, zoals die in uw rangschikkende definities worden gevormd te associëren.
 
-Zie [over rangschikkingsregels](../c-about-rules-menu/c-about-ranking-rules.md#concept_F555C076759B4E81B925441CFE707397).
+Zie [Informatie over rangschikkingsregels](../c-about-rules-menu/c-about-ranking-rules.md#concept_F555C076759B4E81B925441CFE707397).
 
-Zie rangschikken [configureren](../c-about-rules-menu/c-about-ranking-rules.md#task_4CEBC13925B047FC95BDC217B48089C5).
+Zie [Rangschikking configureren](../c-about-rules-menu/c-about-ranking-rules.md#task_4CEBC13925B047FC95BDC217B48089C5).
 
-De resterende kolommen tonen de metrische waarden die met elke ingang worden geassocieerd.
+De resterende kolommen tonen de metrische waarden die aan elke ingang worden geassocieerd.
 
-Als de lijst leeg is, betekent het dat u nog geen gegevens van de Analyse van Adobe hebt geladen. U kunt de [!DNL Adobe Analytics Data Preview] pagina sluiten, en dan de gegevens van de Analyse van Adobe laden.
+Als de tabel leeg is, hebt u nog geen Adobe Analytics-gegevens geladen. U kunt de pagina [!DNL Adobe Analytics Data Preview] sluiten en vervolgens Adobe Analytics-gegevens laden.
 
-Zie de gegevens van de Analyse van Adobe van de [Lading](../c-about-settings-menu/c-about-adobe-analytics-menu.md#task_2F3C55189B0A4049AB2113F2291CC181).
-Als de lijst als rapport van de onderzoekstermijn werd aangewezen, verschijnt een kleine driehoek in elke rij. U kunt de drop-down lijst klikken en selecteren **Simuleert de Termijn** van het Onderzoek of **creeert Nieuwe BedrijfsRegel**. De actie uitgezocht u wordt toegepast op de onderzoekstermijn van die rij, de gegevens die in de tweede kolom verblijven
+Zie [Adobe Analytics-gegevens laden](../c-about-settings-menu/c-about-adobe-analytics-menu.md#task_2F3C55189B0A4049AB2113F2291CC181).
+Als de tabel is aangewezen als een zoekterm-rapport, wordt in elke rij een kleine driehoek weergegeven. U kunt op de vervolgkeuzelijst klikken en **Zoekterm simuleren** of **Nieuwe bedrijfsregel maken** selecteren. De actie u selecteert wordt toegepast op de onderzoekstermijn van die rij, de gegevens die in de tweede kolom verblijven
 
-**Aan voorproefGegevens van de Analyse van Adobe**
+**Adobe Analytics-gegevens voorvertonen**
 
-1. Voor het productmenu, doe één van het volgende:
+1. Voer een van de volgende handelingen uit in het menu Product:
 
-   * Klik op **[!UICONTROL Settings]** > **[!UICONTROL Adobe Analytics]** > **[!UICONTROL Metrics]**. Voor de [!DNL Adobe Analytics Report Suites] pagina, onder de [!DNL Actions] kolom, klik **[!UICONTROL Preview]** voor de Reeks van het Rapport de waarvan gedownloade gegevens u wilt bekijken.
+   * Klik op **[!UICONTROL Settings]** > **[!UICONTROL Adobe Analytics]** > **[!UICONTROL Metrics]**. Klik op de pagina [!DNL Adobe Analytics Report Suites] onder de kolom [!DNL Actions] op **[!UICONTROL Preview]** voor de rapportsuite waarvan u de gedownloade gegevens wilt weergeven.
 
-   * Klik op **[!UICONTROL Reports]** > **[!UICONTROL Adobe Analytics Terms Reports]**. Voor de [!DNL Adobe Analytics Terms Report] pagina, onder de [!DNL Actions] kolom, klik **[!UICONTROL Preview]** voor de Reeks van het Rapport de waarvan gedownloade gegevens u wilt bekijken.
+   * Klik op **[!UICONTROL Reports]** > **[!UICONTROL Adobe Analytics Terms Reports]**. Klik op de pagina [!DNL Adobe Analytics Terms Report] onder de kolom [!DNL Actions] op **[!UICONTROL Preview]** voor de rapportsuite waarvan u de gedownloade gegevens wilt weergeven.
 
-1. Voor de [!DNL Adobe Analytics Data Preview] pagina, gebruik de navigatie en het bekijken opties bij de bovenkant en de bodem van de pagina om de gegevens te bekijken.
+1. Gebruik op de pagina [!DNL Adobe Analytics Data Preview] de navigatie- en weergaveopties boven en onder aan de pagina om de gegevens weer te geven.
 
-   Klik om het even welke kolomrubriek in de lijst om de gegevens in stijgende of dalende orde te sorteren.
-1. Doe om het even welke volgend:
+   Klik op een kolomkop in de tabel om de gegevens in oplopende of aflopende volgorde te sorteren.
+1. Voer een van de volgende handelingen uit:
 
    * Klik **[!UICONTROL Download to Desktop]** om de lijst als `.xlt` dossier te downloaden en te bewaren.
 
-   * Sluit de pagina wanneer u klaar bent met het previewing van de gegevens van de Analyse van Adobe en terugkeer aan de eerder bekeken pagina.
+   * Sluit de pagina wanneer u de Adobe Analytics-gegevens hebt bekeken en ga terug naar de vorige weergegeven pagina.
 
-## Het bekijken van het logboek van de meest recente de gegevenslading van de Analyse van Adobe {#task_9C7D6E34BB6C4A40B7CA3EE36ACB0837}
+## Logbestand weergeven van de meest recente Adobe Analytics-gegevensbelasting {#task_9C7D6E34BB6C4A40B7CA3EE36ACB0837}
 
-U kunt het Logboek van de Mening gebruiken om het dossier van het de gegevenslogboek van de Analyse van Adobe van het meest recente downloadproces te onderzoeken. U kunt de logboekmening ook gebruiken om een lopende download te controleren.
+U kunt View Log gebruiken om het Adobe Analytics-gegevensbestand te bekijken van het meest recente downloadproces. U kunt de logboekmening ook gebruiken om een lopende download te controleren.
 
-Zie de gegevens van de Analyse van Adobe van de [Lading](../c-about-settings-menu/c-about-adobe-analytics-menu.md#task_2F3C55189B0A4049AB2113F2291CC181).
+Zie [Adobe Analytics-gegevens laden](../c-about-settings-menu/c-about-adobe-analytics-menu.md#task_2F3C55189B0A4049AB2113F2291CC181).
 
-**Om het logboek van de meest recente de gegevenslading van de Analyse van Adobe te bekijken**
+**Het logboek weergeven van de meest recente Adobe Analytics-gegevensbelasting**
 
 1. Klik in het productmenu op **[!UICONTROL Settings]** > **[!UICONTROL Adobe Analytics]** > **[!UICONTROL Metrics]**.
-1. Voor de [!DNL Adobe Analytics Report Suites] pagina, klik **[!UICONTROL View Log]**. Logpagina,
-1. Voor de [!DNL Adobe Analytics Data Log] pagina, gebruik de navigatie en het bekijken opties bij de bovenkant en de bodem van de pagina om de logboekinformatie te bekijken.
-1. Wanneer u wordt gebeëindigd, sluit de pagina om aan de [!DNL Adobe Analytics Report Suites] pagina terug te keren.
+1. Klik op [!DNL Adobe Analytics Report Suites] op de pagina. **[!UICONTROL View Log]** Logboekpagina,
+1. Gebruik op de pagina [!DNL Adobe Analytics Data Log] de navigatie- en weergaveopties boven en onder aan de pagina om de loggegevens weer te geven.
+1. Als u klaar bent, sluit u de pagina om terug te keren naar de pagina [!DNL Adobe Analytics Report Suites].
 
-## Gegevens van Adobe Analytics laden {#task_2F3C55189B0A4049AB2113F2291CC181}
+## Adobe Analytics-gegevens {#task_2F3C55189B0A4049AB2113F2291CC181} laden
 
-U kunt de gevormde gegevens van de Reeks van het Rapport van de Analyse van Adobe in plaatsonderzoek/merchandising downloaden.
+U kunt de geconfigureerde gegevens van de Adobe Analytics Report Suite downloaden naar de zoekfunctie/merchandising op de site.
 
-De pagina van de Lading van Gegevens toont het statuut van uw laatste verrichting van de Lading van de Gegevens van de Analyse van Adobe met de volgende informatie:
+Op de pagina Gegevens laden wordt de status van de laatste Adobe Analytics-bewerking voor het laden van gegevens weergegeven met de volgende informatie:
 
 <table> 
  <thead> 
@@ -245,220 +248,220 @@ De pagina van de Lading van Gegevens toont het statuut van uw laatste verrichtin
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Status </p> </td> 
-   <td colname="col2"> <p>Wijst op het succes of de mislukking van de laatste poging van de gegevenslading. Of, toont het de status van een verrichting van de gegevenslading die reeds lopend is. </p> </td> 
+   <td colname="col2"> <p>Geeft aan of de laatste poging tot het laden van gegevens is gelukt of mislukt. Of de status van een gegevenslaadbewerking die al wordt uitgevoerd, wordt weergegeven. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Resultaten </p> </td> 
-   <td colname="col2"> <p>Toont het aantal rijen van metrische gegevens die tijdens de laatste poging van de gegevenslading werden gedownload. </p> </td> 
+   <td colname="col2"> <p>Geeft het aantal rijen metrische gegevens weer die tijdens de laatste poging tot laden van gegevens zijn gedownload. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Begintijd </p> </td> 
-   <td colname="col2"> <p>Toont de datum en de tijd dat de laatste verrichting van de gegevenslading begon. </p> </td> 
+   <td colname="col2"> <p>Geeft de datum en tijd weer waarop de laatste bewerking voor het laden van gegevens is gestart. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Tijd stoppen </p> </td> 
-   <td colname="col2"> <p>Toont de voltooiingsdatum en de tijd van de laatste verrichting van de gegevenslading. Of, wijst het erop de huidige verrichting van de gegevenslading nog lopend is. </p> </td> 
+   <td colname="col1"> <p>Eindtijd </p> </td> 
+   <td colname="col2"> <p>Geeft de voltooiingsdatum en -tijd weer van de laatste bewerking voor het laden van gegevens. Of het geeft aan dat de huidige bewerking voor het laden van gegevens nog wordt uitgevoerd. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**Om de gegevens van de Analyse van Adobe te laden**
+**Adobe Analytics-gegevens laden**
 
 1. Klik in het productmenu op **[!UICONTROL Settings]** > **[!UICONTROL Adobe Analytics]** > **[!UICONTROL Metrics]**.
-1. Voor de [!DNL Stage Adobe Analytics Report Suites] pagina, klik **[!UICONTROL Load Adobe Analytics Data]**.
-1. Op de **[!UICONTROL Adobe Analytics Data Load]** pagina, doe één van het volgende:
+1. Klik op [!DNL Stage Adobe Analytics Report Suites] op de pagina.**[!UICONTROL Load Adobe Analytics Data]**
+1. Voer op de pagina **[!UICONTROL Adobe Analytics Data Load]** een van de volgende handelingen uit:
 
-   * Klik **[!UICONTROL Start Load]** om de ladingsverrichting te beginnen.
+   * Klik **[!UICONTROL Start Load]** om de laadbewerking te starten.
 
-      Tijdens een gegevensladingsverrichting, verstrekt de rij van de **Vooruitgang** informatie over zijn vooruitgang.
+      Tijdens een gegevensladingsverrichting, **Progress** rij verstrekt informatie over zijn vooruitgang.
 
-   * Klik **[!UICONTROL Stop Load]** om de ladingsverrichting tegen te houden.
+   * Klik **[!UICONTROL Stop Load]** om de laadbewerking te stoppen.
 
-1. Klik **[!UICONTROL Close]** om op de [!DNL Stage Adobe Analytics Reports Suite] pagina terug te komen.
+1. Klik op **[!UICONTROL Close]** om terug te keren naar de pagina [!DNL Stage Adobe Analytics Reports Suite].
 
-## Het verfrissen van de lijst van de Reeks van het Rapport {#task_EA6215D438CA4185B106657D9712ED34}
+## De rapportsuite-lijst {#task_EA6215D438CA4185B106657D9712ED34} vernieuwen
 
-De eerste keer hebt toegang tot de Analyse van Adobe van het plaatsonderzoek/het merchandising gebruikersinterface, wordt een lijst van de beschikbare Reeksen van het Rapport van de Analyse van Adobe van uw bedrijf gedownload en in het voorgeheugen ondergebracht. Als de nieuwe Uitgangen van het Rapport onlangs werden toegevoegd, of de bestaande geschrapt, kunt u de Refresh Lijst van de Reeks van het Rapport gebruiken om de momenteel getoonde lijst in plaatsonderzoek/merchandising bij te werken.
+De eerste keer dat u Adobe Analytics opent vanuit de gebruikersinterface voor zoeken en verkopen van sites, wordt een lijst met de Adobe Analytics Report Suites van uw bedrijf gedownload en in cache geplaatst. Als er onlangs nieuwe rapportsets zijn toegevoegd of bestaande zijn verwijderd, kunt u de lijst Rapportsuite vernieuwen gebruiken om de lijst bij te werken die momenteel wordt weergegeven in de zoekfunctie of de handelsversie van de site.
 
-Zie Een Adobe Analytics Report Suite [toevoegen](../c-about-settings-menu/c-about-adobe-analytics-menu.md#task_6DE17305EA7146DA8C30FF8FDF68A3C0).
+Zie [Een Adobe Analytics-rapportsuite toevoegen](../c-about-settings-menu/c-about-adobe-analytics-menu.md#task_6DE17305EA7146DA8C30FF8FDF68A3C0).
 
-Zie Een Adobe Analytics Report Suite [verwijderen](../c-about-settings-menu/c-about-adobe-analytics-menu.md#task_0ACA172214D14654ABDB139F417B9F7D).
+Zie [Adobe Analytics Report Suite](../c-about-settings-menu/c-about-adobe-analytics-menu.md#task_0ACA172214D14654ABDB139F417B9F7D) verwijderen.
 
-**Om de lijst van de Reeks van het Rapport te verfrissen**
+**De lijst Rapportsuite vernieuwen**
 
 1. Klik in het productmenu op **[!UICONTROL Settings]** > **[!UICONTROL Adobe Analytics]** > **[!UICONTROL Metrics]**.
-1. Voor de [!DNL Adobe Analytics Report Suites] pagina, klik **[!UICONTROL Refresh Report Suite List]**.
+1. Klik op [!DNL Adobe Analytics Report Suites] op de pagina.**[!UICONTROL Refresh Report Suite List]**
 
 ## Geavanceerde Adobe Analytics-opties configureren {#task_C0FF2D69F59D44D8943A7831ED7FEC19}
 
-U kunt gebruiken [!DNL Advanced Adobe Analytics Options] om montages te controleren die bedoeld zijn om u te helpen het gedrag van het de downloadproces van de Reeks van het Rapport van de Analyse van Adobe verfijnen.
+U kunt [!DNL Advanced Adobe Analytics Options] gebruiken om montages te controleren die u moeten helpen het gedrag van het de downloadproces van de Reeks van het Rapport van Adobe Analytics verfijnen.
 
-Zie het [Uitgeven van de metriek van de Analyse van Adobe van een Reeks](../c-about-settings-menu/c-about-adobe-analytics-menu.md#task_360904CCBBB140238ADA036C3CC07664)van het Rapport.
+Zie [De Adobe Analytics-meetgegevens van een rapportsuite](../c-about-settings-menu/c-about-adobe-analytics-menu.md#task_360904CCBBB140238ADA036C3CC07664) bewerken.
 
 **Geavanceerde Adobe Analytics-opties configureren**
 
 1. Klik in het productmenu op **[!UICONTROL Settings]** > **[!UICONTROL Adobe Analytics]** > **[!UICONTROL Advanced Options]**.
-1. Voor de [!DNL Advanced Adobe Analytics Options] pagina, plaats de volgende opties:
+1. Stel op de pagina [!DNL Advanced Adobe Analytics Options] de volgende opties in:
 
    <table> 
     <thead> 
       <tr> 
-      <th colname="col1" class="entry"> <p>Optie </p> </th> 
+      <th colname="col1" class="entry"> <p>Option </p> </th> 
       <th colname="col2" class="entry"> <p>Beschrijving </p> </th> 
       </tr> 
     </thead>
     <tbody> 
       <tr> 
-      <td colname="col1"> <p>Maximumrijen, eventueel metrisch </p> </td> 
-      <td colname="col2"> <p>Een optimalisering die plaatst die de download van teveel gegevens van de Analyse van Adobe verhindert. </p> <p>Als u deze optie aan een nonzero waarde plaatst, wordt de de gegevenshaal van de Analyse van Adobe tegengehouden wanneer het totale aantal rijen die voor elke metrisch worden gehaald de gespecificeerde waarde overschrijdt. </p> <p>De standaardwaarde is 0; geen maximumwaarde toegepast. </p> </td> 
+      <td colname="col1"> <p>Maximumaantal rijen, alle metrisch </p> </td> 
+      <td colname="col2"> <p>Een optimalisatie-instelling die het downloaden van te veel Adobe Analytics-gegevens voorkomt. </p> <p>Als u deze optie op een niet-nulwaarde instelt, wordt de gegevensopname van Adobe Analytics gestopt wanneer het totale aantal rijen dat voor elke metrische waarde wordt opgehaald de opgegeven waarde overschrijdt. </p> <p>De standaardwaarde is 0; geen maximumwaarde toegepast. </p> </td> 
       </tr> 
       <tr> 
-      <td colname="col1"> <p>Metrische herhalingsgrootte (rijen) </p> </td> 
-      <td colname="col2"> <p> Controleert het aantal metrische waarden van de Analyse van Adobe om tegelijkertijd te halen. De metrische gegevensrijen worden herhaaldelijk gehaald tot alle gegevens worden teruggewonnen of tot de maximumrijgrens wordt bereikt. </p> <p>Normaal gesproken hoeft u deze instelling niet te wijzigen. Nochtans, kunt u het nuttig vinden om de metrische downloadfase van een volledige re-index van uw plaats te optimaliseren. </p> <p>De standaardwaarde is 5000. </p> </td> 
+      <td colname="col1"> <p>Metrisch herhalende etsgrootte (rijen) </p> </td> 
+      <td colname="col2"> <p> Bepaalt het aantal metrische Adobe Analytics-waarden dat tegelijkertijd moet worden opgehaald. De metrische gegevensrijen worden herhaaldelijk gehaald tot alle gegevens worden teruggewonnen of tot de maximumrijgrens wordt bereikt. </p> <p>Normaal gesproken hoeft u deze instelling niet te wijzigen. Het kan echter handig zijn om de metrische downloadfase van een volledige herindex van uw site te optimaliseren. </p> <p>De standaardwaarde is 5000. </p> </td> 
       </tr> 
     </tbody> 
     </table>
 
 1. Klik op **[!UICONTROL Save Changes]**.
-1. (Facultatief) doe één van het volgende:
+1. (Optioneel) Voer een van de volgende handelingen uit:
 
    * Klik **[!UICONTROL History]** om het even welke veranderingen terug te keren die u hebt aangebracht.
 
-      Zie De optie [Historie](../t-using-the-history-option.md#task_70DD3F87A67242BBBD2CB27156F43002)gebruiken.
+      Zie [De optie Historie gebruiken](../t-using-the-history-option.md#task_70DD3F87A67242BBBD2CB27156F43002).
 
    * Klik op **[!UICONTROL Live]**.
 
-      Zie live-instellingen [bekijken](../c-about-staging.md#task_401A0EBDB5DB4D4CA933CBA7BECDC10F).
+      Zie [Live-instellingen weergeven](../c-about-staging.md#task_401A0EBDB5DB4D4CA933CBA7BECDC10F).
 
    * Klik op **[!UICONTROL Push Live]**.
 
-      Zie [Stadsmontages van het Pushing leven](../c-about-staging.md#task_44306783B4C0408AAA58B471DAF2D9A4).
+      Zie [Werkgebiedinstellingen leegmaken live](../c-about-staging.md#task_44306783B4C0408AAA58B471DAF2D9A4).
 
-## Informatie over SAINT Classification Feeds {#concept_C55609DA24914BBC92CD90ED0259199D}
+## Info over SAINT Classification Feeds {#concept_C55609DA24914BBC92CD90ED0259199D}
 
-U kunt SAINT van de Analyse van Adobe gebruiken om uw analytische rapporten door de aanvaarding van gegevens in tabelvorm van buitenbronnen te verbeteren. Bijvoorbeeld, kunt u plaatsonderzoek/merchandising gebruiken om de gegevens van zijn eigen indexen terug te winnen en die gegevens uit te voeren naar de Analyse van Adobe.
+Met Adobe Analytics SAINT kunt u uw analyserapporten verbeteren door tabelgegevens van externe bronnen te accepteren. U kunt bijvoorbeeld zoeken en verhandelen op de site gebruiken om de gegevens op te halen uit de eigen indexen en die gegevens te exporteren naar Adobe Analytics.
 
-Om de eigenschap van SAINT van de Analyse van Adobe in plaatsonderzoek/merchandising met succes te gebruiken ben zich van de volgende vereisten bewust:
+Als u de Adobe Analytics-functie voor SAINT in zoeken en verhandelen van sites met succes wilt gebruiken, moet u zich bewust zijn van de volgende vereisten:
 
-* U moet een bedrijf van de Analyse van Adobe en een Reeks van het Rapport hebben.
+* U moet een Adobe Analytics-bedrijf en een rapportsuite hebben.
 
-   Zie [Ongeveer het menu](../c-about-settings-menu/c-about-adobe-analytics-menu.md#concept_5FD2D13C9D0D40988E6E51480D690411)van de Analyse van Adobe.
-* De de gebruikersrekening van de Analyse van Adobe moet voorrechten hebben om de Reeks van het Rapport te wijzigen.
+   Zie [Informatie over het menu Adobe Analytics](../c-about-settings-menu/c-about-adobe-analytics-menu.md#concept_5FD2D13C9D0D40988E6E51480D690411).
+* De Adobe Analytics-gebruikersaccount moet rechten hebben om de rapportsuite te kunnen wijzigen.
 
-   Zie de metrieke authentificatie van de Analysen van [de Opstelling van Adobe van de Analyse](../c-about-settings-menu/c-about-adobe-analytics-menu.md#task_8AA93F6273B747F9B4DE9E8DFBCBDC42).
-* De gebruiker van de Analyse van Adobe moet tot de Web API groep behoren zodat zij het Web API van de Analyse van Adobe kunnen gebruiken.
-* De onderzoeksindex moet gegevens hebben die de Analyse van Adobe, zoals het hebben van gegevens in het correcte formaat kan gebruiken.
+   Zie [Adobe Analytics-metrische verificatie instellen](../c-about-settings-menu/c-about-adobe-analytics-menu.md#task_8AA93F6273B747F9B4DE9E8DFBCBDC42).
+* De Adobe Analytics-gebruiker moet tot de Web API-groep behoren, zodat deze de Adobe Analytics Web API kan gebruiken.
+* De zoekindex moet gegevens bevatten die Adobe Analytics kan gebruiken, zoals gegevens in de juiste indeling.
 
-Alvorens u een voer creeert, herzie de volgende vragen en de informatie zodat u de tovenaar van het Diervoeder van de VEILIGHEID kunt met succes voltooien:
+Voordat u een feed maakt, bekijkt u de volgende vragen en informatie, zodat u de wizard SAINT Feed kunt voltooien:
 
-* Met welk Report Suite ga je werken?
-* Voor welke classificatieset, zoals product, e-var, etc., ga u gegevens verstrekken voor?
-* Welke classificaties staan er in de verslagen? Het antwoord op deze vraag wordt bepaald door het type van gegevens dat gemakkelijk bij plaatsonderzoek/merchandising, en het type van rapporten beschikbaar is dat de Analyse van Adobe zoals gewenst rapporteert.
-* SAINT keurt de gegevens van plaatsonderzoek/merchandising als teksttype goed. Het formaat van dat gegeven beïnvloedt de presentatie van de rapporten van de Analyse van Adobe.
+* Met welke rapportsuite gaat u werken?
+* Voor welk classificatieset, zoals product, e-var enzovoort, gaat u gegevens verstrekken?
+* Welke classificaties staan er in de verslagen? Het antwoord op deze vraag wordt bepaald door het type gegevens dat gemakkelijk beschikbaar is bij het zoeken/verhandelen van sites, en het type rapporten dat Adobe Analytics aangeeft.
+* SAINT accepteert de gegevens van het zoeken/verkopen van sites als teksttype. De indeling van die gegevens is van invloed op de presentatie van de Adobe Analytics-rapporten.
 
-## Het creëren van een voer van de SAINT van de Analyse van Adobe {#task_914B5AB821E84627953D8EF9339A7DD0}
+## Adobe Analytics SAINT-feed {#task_914B5AB821E84627953D8EF9339A7DD0} maken
 
-U kunt de SAINT van de Analyse van Adobe gebruiken om de rapporten van de Analyse van Adobe door de aanvaarding van gegevens in tabelvorm van buitenbronnen te verbeteren.
+Met Adobe Analytics SAINT kunt u Adobe Analytics-rapporten verbeteren door tabelgegevens van externe bronnen te accepteren.
 
-Bijvoorbeeld, kunt u plaatsonderzoek/merchandising gebruiken om gegevens van zijn eigen indexen terug te winnen en die gegevens uit te voeren naar de Analyse van Adobe.
+U kunt bijvoorbeeld zoeken en verhandelen op de site gebruiken om gegevens op te halen uit eigen indexen en die gegevens te exporteren naar Adobe Analytics.
 
-**Om een voer van de SAINT van de Analyse van Adobe te creëren**
+**Een Adobe Analytics SAINT-feed maken**
 
 1. Klik in het productmenu op **[!UICONTROL Settings]** > **[!UICONTROL Adobe Analytics]** > **[!UICONTROL SAINT Classification Feeds]**.
-1. Voor de [!DNL SAINT Classification Feeds] pagina, klik **[!UICONTROL Create SAINT Feed]**.
-1. In het [!DNL Create Feed] dialoogvakje, op het de tekstgebied van de Naam **van het** Diervoer, ga de nieuwe voedernaam in, en klik dan **[!UICONTROL Next]**.
+1. Klik op [!DNL SAINT Classification Feeds] op de pagina.**[!UICONTROL Create SAINT Feed]**
+1. Voer in het dialoogvenster [!DNL Create Feed] in het tekstveld **Naam van feed** de nieuwe naam van de feed in en klik vervolgens op **[!UICONTROL Next]**.
 
-   Op dit punt, wordt het voer bewaard en aan de [!DNL SAINT Classification Feed] pagina toegevoegd. Als u kiest, kunt u weggaan, en het voer uitgeven later om de tovenaar te voltooien.
-1. Voor de [!DNL Authentication] pagina, specificeer de het bedrijfnaam van de Analyse van Adobe, gebruikersnaam, en Webgeheim op de respectieve tekstgebieden, en klik dan **[!UICONTROL Next]**.
+   Op dit punt wordt de feed opgeslagen en toegevoegd aan de pagina [!DNL SAINT Classification Feed]. Als u dit wenst, kunt u de feed later afsluiten en bewerken om de wizard te voltooien.
+1. Geef op de pagina [!DNL Authentication] de naam van het Adobe Analytics-bedrijf, de gebruikersnaam en het webgeheim op in de desbetreffende tekstvelden en klik op **[!UICONTROL Next]**.
 
-   Zorg ervoor dat het gemachtigd is om het Web API met de Analyse van Adobe te gebruiken.
-1. Voor de **[!UICONTROL Report Suite]** pagina, kies een rapportreeks en zijn reeks van classificatiegegevens, en klik dan **[!UICONTROL Next]**.
-1. Voor de [!DNL Field Maps] pagina, de classificaties van de Analyse van kaartAdobe met plaats zoeken/merchandising de gebieden van meta- gegevens, en klikken dan **[!UICONTROL Next]**.
+   Zorg ervoor dat het geautoriseerd is om de Web API met Adobe Analytics te gebruiken.
+1. Kies op de pagina **[!UICONTROL Report Suite]** een rapportsuite en de set met classificatiegegevens en klik op **[!UICONTROL Next]**.
+1. Wijs Adobe Analytics-classificaties op de pagina [!DNL Field Maps] toe met metagegevensvelden voor zoeken/verhandelen van sites en klik vervolgens op **[!UICONTROL Next]**.
 
-   Om de classificaties van de Analyse van Adobe aan te passen, klik de Classificaties van de Analyse van Adobe aan login aan de Analyse van Adobe. **[!UICONTROL Edit]** Wanneer u klaar bent met het aanbrengen van uw veranderingen, klik **[!UICONTROL Refresh Classifications]** om de keuzen van classificaties te verfrissen.
-1. Voor de [!DNL Search Criteria] pagina, kunnen de gegevens van plaatsonderzoek/merchandising worden gefiltreerd alvorens het aan SAINT van de Analyse van Adobe wordt voorgelegd. Construeer hier filterregels gebruikend de interface van de regelbouwer, en klik dan **[!UICONTROL Next]**.
-1. Voor de [!DNL Configure FTP] pagina, selecteer de server van FTP. Specificeer de frequentie voor hoe vaak u gegevens wilt uploaden, en dan klikken **[!UICONTROL Next]**.
+   Als u de Adobe Analytics-classificaties wilt aanpassen, klikt u op **[!UICONTROL Edit]** Adobe Analytics-classificaties om u aan te melden bij Adobe Analytics. Wanneer u klaar bent met het aanbrengen van uw veranderingen, klik **[!UICONTROL Refresh Classifications]** om de keuzen van classificaties te verfrissen.
+1. Op de [!DNL Search Criteria] pagina, kunnen de gegevens van plaatsonderzoek/handel worden gefiltreerd alvorens het aan de SAINT van Adobe Analytics wordt voorgelegd. Construct hier filterregels gebruikend de interface van de regelbouwer, en klik dan **[!UICONTROL Next]**.
+1. Selecteer op de pagina [!DNL Configure FTP] de FTP-server. Geef op hoe vaak u gegevens wilt uploaden en klik op **[!UICONTROL Next]**.
 
-   Als beste praktijken, heeft elk voer zijn eigen rekening van FTP om toevallig verloren van gegevens te vermijden. U kunt een nieuwe rekening van FTP van de Analyse van Adobe hier tot stand brengen.
-1. Voor de [!DNL Verification] pagina, klik **[!UICONTROL Show Data View]** om de vertegenwoordiging van de gegevensmening van de output te herzien. Als om het even welke daadwerkelijke voederdossiers bestaan, zijn zij vermeld hier en zijn beschikbaar voor u om te downloaden.
+   Als beste praktijken, heeft elke voer zijn eigen rekening van FTP om toevallig verlies van gegevens te vermijden. U kunt hier een nieuwe Adobe Analytics FTP-account maken.
+1. Klik op [!DNL Verification] op de pagina **[!UICONTROL Show Data View]** om de representatie van de uitvoer in de gegevensweergave te bekijken. Als er werkelijke feed-bestanden bestaan, worden deze hier weergegeven en kunt u ze downloaden.
 1. Klik op **[!UICONTROL Close]**.
 
-## Een Adobe Analytics SAINT-feed bewerken {#task_5BF34D02D0D14359B1CF4B3C1B0ACC84}
+## Een Adobe Analytics SAINT-feed {#task_5BF34D02D0D14359B1CF4B3C1B0ACC84} bewerken
 
-U kunt alle aspecten van een bestaand voer van SAINT uitgeven dat u hebt gecreeerd.
+U kunt alle aspecten van een bestaande SAINT-feed bewerken die u hebt gemaakt.
 
-**Om een voer van de SAINT van de Analyse van Adobe uit te geven**
+**Een Adobe Analytics SAINT-feed bewerken**
 
 1. Klik in het productmenu op **[!UICONTROL Settings]** > **[!UICONTROL Adobe Analytics]** > **[!UICONTROL SAINT Classification Feeds]**.
-1. Voor de [!DNL Saint Classification Feeds] pagina, onder de **[!UICONTROL Name]** kolom, in de drop-down lijst naast een voer, klik **[!UICONTROL Edit feed]**.
-1. In het de voederdialoogvakje van de SAINT, op het de tekstgebied van de Naam **van het** GeVOER, ga de nieuwe voedernaam in, en klik dan **[!UICONTROL Next]**.
+1. Klik op de pagina [!DNL Saint Classification Feeds] onder de kolom **[!UICONTROL Name]** in de vervolgkeuzelijst naast een feed op **[!UICONTROL Edit feed]**.
+1. Voer in het tekstveld **Naam feed** in het dialoogvenster SAINT-feed de nieuwe naam in en klik op **[!UICONTROL Next]**.
 
-   Op dit punt, wordt het voer bewaard en aan de [!DNL SAINT Classification Feed] pagina toegevoegd. Als u kiest, kunt u weggaan, en het voer uitgeven later om de tovenaar te voltooien.
-1. Voor de [!DNL Authentication] pagina, specificeer de het bedrijfnaam van de Analyse van Adobe, gebruikersnaam, en Webgeheim op de respectieve tekstgebieden, en klik dan **[!UICONTROL Next]**.
+   Op dit punt wordt de feed opgeslagen en toegevoegd aan de pagina [!DNL SAINT Classification Feed]. Als u dit wenst, kunt u de feed later afsluiten en bewerken om de wizard te voltooien.
+1. Geef op de pagina [!DNL Authentication] de naam van het Adobe Analytics-bedrijf, de gebruikersnaam en het webgeheim op in de desbetreffende tekstvelden en klik op **[!UICONTROL Next]**.
 
-   Zorg ervoor dat het gemachtigd is om het Web API met de Analyse van Adobe te gebruiken.
-1. Voor de **[!UICONTROL Report Suite]** pagina, kies een rapportreeks en zijn reeks van classificatiegegevens, en klik dan **[!UICONTROL Next]**.
-1. Voor de [!DNL Field Maps] pagina, de classificaties van de Analyse van kaartAdobe met plaats zoeken/merchandising de gebieden van meta- gegevens, en klikken dan **[!UICONTROL Next]**.
+   Zorg ervoor dat het geautoriseerd is om de Web API met Adobe Analytics te gebruiken.
+1. Kies op de pagina **[!UICONTROL Report Suite]** een rapportsuite en de set met classificatiegegevens en klik op **[!UICONTROL Next]**.
+1. Wijs Adobe Analytics-classificaties op de pagina [!DNL Field Maps] toe met metagegevensvelden voor zoeken/verhandelen van sites en klik vervolgens op **[!UICONTROL Next]**.
 
-   Om de classificaties van de Analyse van Adobe aan te passen, klik de Classificaties van de Analyse van Adobe aan login aan de Analyse van Adobe. **[!UICONTROL Edit]** Wanneer u klaar bent met het aanbrengen van uw veranderingen, klik **[!UICONTROL Refresh Classifications]** om de keuzen van classificaties te verfrissen.
-1. Voor de [!DNL Search Criteria] pagina, kunnen de gegevens van plaatsonderzoek/merchandising worden gefiltreerd alvorens het aan SAINT van de Analyse van Adobe wordt voorgelegd. Construeer hier filterregels gebruikend de interface van de regelbouwer, en klik dan **[!UICONTROL Next]**.
-1. Voor de [!DNL Configure FTP] pagina, selecteer de server van FTP. Specificeer de frequentie voor hoe vaak u gegevens wilt uploaden, en dan klikken **[!UICONTROL Next]**.
+   Als u de Adobe Analytics-classificaties wilt aanpassen, klikt u op **[!UICONTROL Edit]** Adobe Analytics-classificaties om u aan te melden bij Adobe Analytics. Wanneer u klaar bent met het aanbrengen van uw veranderingen, klik **[!UICONTROL Refresh Classifications]** om de keuzen van classificaties te verfrissen.
+1. Op de [!DNL Search Criteria] pagina, kunnen de gegevens van plaatsonderzoek/handel worden gefiltreerd alvorens het aan de SAINT van Adobe Analytics wordt voorgelegd. Construct hier filterregels gebruikend de interface van de regelbouwer, en klik dan **[!UICONTROL Next]**.
+1. Selecteer op de pagina [!DNL Configure FTP] de FTP-server. Geef op hoe vaak u gegevens wilt uploaden en klik op **[!UICONTROL Next]**.
 
-   Als beste praktijken, heeft elk voer zijn eigen rekening van FTP om toevallig verloren van gegevens te vermijden. U kunt een nieuwe rekening van FTP van de Analyse van Adobe hier tot stand brengen.
-1. Voor de [!DNL Verification] pagina, klik **[!UICONTROL Show Data View]** om de vertegenwoordiging van de gegevensmening van de output te herzien. Als om het even welke daadwerkelijke voederdossiers bestaan, zijn zij vermeld hier en zijn beschikbaar voor u om te downloaden.
+   Als beste praktijken, heeft elke voer zijn eigen rekening van FTP om toevallig verlies van gegevens te vermijden. U kunt hier een nieuwe Adobe Analytics FTP-account maken.
+1. Klik op [!DNL Verification] op de pagina **[!UICONTROL Show Data View]** om de representatie van de uitvoer in de gegevensweergave te bekijken. Als er werkelijke feed-bestanden bestaan, worden deze hier weergegeven en kunt u ze downloaden.
 1. Klik op **[!UICONTROL Close]**.
 
-## Een Adobe Analytics SAINT-feed verwijderen {#task_5319B1F4CA1A406393CFD7AE97258CEB}
+## Een Adobe Analytics-SAINT-feed {#task_5319B1F4CA1A406393CFD7AE97258CEB} verwijderen
 
-U kunt een bestaand voer van de SAINT van de Analyse van Adobe schrappen dat u niet meer nodig hebt of gebruikt.
+U kunt een bestaande Adobe Analytics SAINT-feed verwijderen die u niet meer nodig hebt of gebruikt.
 
-**Om een voer van de SAINT van de Analyse van Adobe te schrappen**
-
-1. Klik in het productmenu op **[!UICONTROL Settings]** > **[!UICONTROL Adobe Analytics]** > **[!UICONTROL SAINT Classification Feeds]**.
-1. Voor de [!DNL Saint Classification Feeds] pagina, onder de **[!UICONTROL Name]** kolom, in de drop-down lijst naast een voer dat u wilt verwijderen, klik **[!UICONTROL Delete feed]**.
-1. In de de dialoogdoos van de Schrapping, klik **ja** om de voederschrapping te verifiëren.
-
-## Een Adobe Analytics SAINT-voederbestand bekijken {#task_F0C8BADD25E14E5DB30BF31D1F879FDB}
-
-U kunt de [!DNL Verification] pagina van een bestaand voer van SAINT openen om de vertegenwoordiging van de gegevensmening van de output te herzien.
-
-Als om het even welke daadwerkelijke voederdossiers bestaan, zijn zij vermeld hier en zijn beschikbaar voor u om als tekstdossier te downloaden.
-
-**Om een het voederdossier van SAINT van de Analyse van Adobe te bekijken**
+**Een Adobe Analytics SAINT-feed verwijderen**
 
 1. Klik in het productmenu op **[!UICONTROL Settings]** > **[!UICONTROL Adobe Analytics]** > **[!UICONTROL SAINT Classification Feeds]**.
-1. Voor de [!DNL Saint Classification Feeds] pagina, onder de **[!UICONTROL Name]** kolom, in de drop-down lijst naast een voer, klik **[!UICONTROL View Feed Files]**.
-1. (Facultatief) klik **[!UICONTROL Download File]** om het voederdossier als tekstdossier op te slaan.
-1. Klik **[!UICONTROL Close]** om op de [!DNL SAINT Classification Feeds] pagina terug te komen.
+1. Klik op [!DNL Saint Classification Feeds] op de pagina onder de kolom **[!UICONTROL Name]** in de vervolgkeuzelijst naast een feed die u wilt verwijderen op **[!UICONTROL Delete feed]**.
+1. Klik in het dialoogvenster Verwijderen op **Ja** om de feed-verwijdering te controleren.
 
-## Het testen van een voer van de SAINT van de Analyse van Adobe {#task_9864D69BE3824FC29C10B36EE4855D25}
+## Een Adobe Analytics SAINT-bestand {#task_F0C8BADD25E14E5DB30BF31D1F879FDB} weergeven
 
-U kunt een bestaand voer van de SAINT van de Analyse van Adobe testen zonder dossier uploaden.
+U kunt de pagina [!DNL Verification] van een bestaande voer van SAINT openen om de vertegenwoordiging van de gegevensmening van de output te herzien.
 
-Zie het [Produceren van en het uploaden van een voer](../c-about-settings-menu/c-about-adobe-analytics-menu.md#task_47AED946AA964334A877FDC8D4F6F00A)van SAINT van de Analyse van Adobe.
+Als er werkelijke feed-bestanden bestaan, worden deze hier weergegeven en kunt u ze downloaden als tekstbestand.
 
-Zie het [Bekijken van een het voederdossier](../c-about-settings-menu/c-about-adobe-analytics-menu.md#task_F0C8BADD25E14E5DB30BF31D1F879FDB)van SAINT van de Analyse van Adobe.
-
-**Om een het voederdossier van SAINT van de Analyse van Adobe te testen**
+**Een Adobe Analytics SAINT-feed-bestand weergeven**
 
 1. Klik in het productmenu op **[!UICONTROL Settings]** > **[!UICONTROL Adobe Analytics]** > **[!UICONTROL SAINT Classification Feeds]**.
-1. Voor de [!DNL Saint Classification Feeds] pagina, onder de **[!UICONTROL Name]** kolom, in de drop-down lijst naast een voer, klik **[!UICONTROL Test Feed (No file upload)]**.
-1. Wanneer het voer eindigt verwerkend, van de drop-down lijst van de voedernaam, klik **[!UICONTROL View Feed Files]**.
-1. Voor de [!DNL Verification] pagina, klik **[!UICONTROL Download File]** om het voederdossier te downloaden.
-1. Klik **[!UICONTROL Close]** om op de [!DNL SAINT Classification Feeds] pagina terug te komen.
+1. Klik op de pagina [!DNL Saint Classification Feeds] onder de kolom **[!UICONTROL Name]** in de vervolgkeuzelijst naast een feed op **[!UICONTROL View Feed Files]**.
+1. (Optioneel) Klik op **[!UICONTROL Download File]** om het hoofdbestand op te slaan als een tekstbestand.
+1. Klik op **[!UICONTROL Close]** om terug te keren naar de pagina [!DNL SAINT Classification Feeds].
 
-## Het produceren van en het uploaden van een voer van de SAINT van de Analyse van Adobe {#task_47AED946AA964334A877FDC8D4F6F00A}
+## Een Adobe Analytics SAINT-feed {#task_9864D69BE3824FC29C10B36EE4855D25} testen
 
-U kunt voederdossiers voor een bestaand voer van de Analyse van Adobe produceren en uploaden dat u hebt gecreeerd.
+U kunt een bestaande Adobe Analytics SAINT-feed testen zonder bestanden te uploaden.
 
-Zie het [Testen van een voer](../c-about-settings-menu/c-about-adobe-analytics-menu.md#task_9864D69BE3824FC29C10B36EE4855D25)van de SAINT van de Analyse van Adobe.
+Zie [Een Adobe Analytics-SAINT-feed genereren en uploaden](../c-about-settings-menu/c-about-adobe-analytics-menu.md#task_47AED946AA964334A877FDC8D4F6F00A).
 
-Zie het [Bekijken van een het voederdossier](../c-about-settings-menu/c-about-adobe-analytics-menu.md#task_F0C8BADD25E14E5DB30BF31D1F879FDB)van SAINT van de Analyse van Adobe.
+Zie [Een Adobe Analytics SAINT feed-bestand weergeven](../c-about-settings-menu/c-about-adobe-analytics-menu.md#task_F0C8BADD25E14E5DB30BF31D1F879FDB).
 
-**Om een het voederdossier van SAINT van de Analyse van Adobe te produceren en te uploaden**
+**Een Adobe Analytics SAINT-feed testen**
 
 1. Klik in het productmenu op **[!UICONTROL Settings]** > **[!UICONTROL Adobe Analytics]** > **[!UICONTROL SAINT Classification Feeds]**.
-1. Voor de [!DNL Saint Classification Feeds] pagina, onder de **[!UICONTROL Name]** kolom, in de drop-down lijst naast een voer, klik **[!UICONTROL Generate and Upload Feed]**.
-1. Wanneer het voer eindigt verwerkend, van de drop-down lijst van de voedernaam, klik **[!UICONTROL View Feed Files]**.
-1. Voor de [!DNL Verification] pagina, klik **[!UICONTROL Download File]** om het voederdossier te downloaden.
-1. Klik **[!UICONTROL Close]** om op de [!DNL SAINT Classification Feeds] pagina terug te komen.
+1. Klik op de pagina [!DNL Saint Classification Feeds] onder de kolom **[!UICONTROL Name]** in de vervolgkeuzelijst naast een feed op **[!UICONTROL Test Feed (No file upload)]**.
+1. Wanneer de feed klaar is met verwerken, klikt u in de vervolgkeuzelijst van de naam van de feed op **[!UICONTROL View Feed Files]**.
+1. Klik op [!DNL Verification] op **[!UICONTROL Download File]** om het feed-bestand te downloaden.
+1. Klik op **[!UICONTROL Close]** om terug te keren naar de pagina [!DNL SAINT Classification Feeds].
+
+## Een Adobe Analytics-SAINT-feed {#task_47AED946AA964334A877FDC8D4F6F00A} genereren en uploaden
+
+U kunt feed-bestanden genereren en uploaden voor een bestaande Adobe Analytics-feed die u hebt gemaakt.
+
+Zie [Een Adobe Analytics SAINT-feed testen](../c-about-settings-menu/c-about-adobe-analytics-menu.md#task_9864D69BE3824FC29C10B36EE4855D25).
+
+Zie [Een Adobe Analytics SAINT feed-bestand weergeven](../c-about-settings-menu/c-about-adobe-analytics-menu.md#task_F0C8BADD25E14E5DB30BF31D1F879FDB).
+
+**Een Adobe Analytics SAINT-feed-bestand genereren en uploaden**
+
+1. Klik in het productmenu op **[!UICONTROL Settings]** > **[!UICONTROL Adobe Analytics]** > **[!UICONTROL SAINT Classification Feeds]**.
+1. Klik op de pagina [!DNL Saint Classification Feeds] onder de kolom **[!UICONTROL Name]** in de vervolgkeuzelijst naast een feed op **[!UICONTROL Generate and Upload Feed]**.
+1. Wanneer de feed klaar is met verwerken, klikt u in de vervolgkeuzelijst van de naam van de feed op **[!UICONTROL View Feed Files]**.
+1. Klik op [!DNL Verification] op **[!UICONTROL Download File]** om het feed-bestand te downloaden.
+1. Klik op **[!UICONTROL Close]** om terug te keren naar de pagina [!DNL SAINT Classification Feeds].

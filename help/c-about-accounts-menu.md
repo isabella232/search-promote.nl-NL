@@ -1,24 +1,27 @@
 ---
-description: De Rekeningen van het gebruik op het productmenu om een rekening te selecteren die u tot toegang hebt en wilt gebruiken.
-seo-description: De Rekeningen van het gebruik op het productmenu om een rekening te selecteren die u tot toegang hebt en wilt gebruiken.
-seo-title: Informatie over het menu Accounts
+description: Gebruik Accounts in het productmenu om een account te selecteren die u wilt openen en gebruiken.
+seo-description: Gebruik Accounts in het productmenu om een account te selecteren die u wilt openen en gebruiken.
+seo-title: Het menu Accounts
 solution: Target
-title: Informatie over het menu Accounts
+title: Het menu Accounts
 topic: Settings,Site search and merchandising
 uuid: 7cfc1b68-5126-484a-8a1d-54995a8fd19b
 translation-type: tm+mt
 source-git-commit: ef818327e1cdaad79ac47575a8dfba1de3dc5c2e
+workflow-type: tm+mt
+source-wordcount: '188'
+ht-degree: 0%
 
 ---
 
 
 # Informatie over het menu Accounts{#about-the-accounts-menu}
 
-De Rekeningen van het gebruik op het productmenu om een rekening te selecteren die u tot toegang hebt en wilt gebruiken.
+Gebruik Accounts in het productmenu om een account te selecteren die u wilt openen en gebruiken.
 
-## Een andere account selecteren voor gebruik {#task_03C0FE918E2D44529CDC3B8DB75D1B26}
+## Een ander account selecteren om {#task_03C0FE918E2D44529CDC3B8DB75D1B26} te gebruiken
 
-Gebruik de [!DNL Select Account] pagina om de rekening te selecteren die u wilt gebruiken en beheren.
+Gebruik de pagina [!DNL Select Account] om de account te selecteren die u wilt gebruiken en beheren.
 
 <!-- 
 
@@ -26,17 +29,17 @@ t_selecting_a_different_account_to_use.xml
 
  -->
 
-Nadat u een account hebt geselecteerd, wordt de pagina Home-pagina voor zoeken/verkopen op de site van de account weergegeven en kunt u ermee beginnen te werken. De geselecteerde accountnaam wordt in de rechterbovenhoek van de pagina weergegeven.
+Nadat u een account hebt geselecteerd, wordt de homepage van de website van het account weergegeven en kunt u ermee beginnen te werken. De geselecteerde accountnaam wordt in de rechterbovenhoek van de pagina weergegeven.
 
-**Om een andere account te selecteren die u wilt gebruiken**
+**Een ander account selecteren voor gebruik**
 
-1. Doe één van het volgende:
+1. Voer een van de volgende handelingen uit:
 
    * Klik in het productmenu op **[!UICONTROL Accounts]**.
-   * In the upper-right corner of the page, click **[!UICONTROL Select Account]**.
+   * Klik in de rechterbovenhoek van de pagina op **[!UICONTROL Select Account]**.
 
-1. Op de [!DNL Select Account] pagina, doe om het even welke volgend:
+1. Voer op de pagina [!DNL Select Account] een van de volgende handelingen uit:
 
-   * In de lijst, onder de [!DNL Name] kolomrubriek, klik een rekeningsnaam die u wilt beginnen te gebruiken en te leiden.
-   * In de lijst, onder de [!DNL Number] kolomrubriek, klik een rekeningsaantal dat u wilt beginnen te gebruiken en te leiden.
+   * Klik in de tabel onder de kolomkop [!DNL Name] op de accountnaam die u wilt gebruiken en beheren.
+   * Klik in de tabel onder de kolomkop [!DNL Number] op een accountnummer dat u wilt gebruiken en beheren.
 

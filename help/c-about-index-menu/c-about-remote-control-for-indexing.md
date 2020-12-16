@@ -1,13 +1,16 @@
 ---
 description: Wanneer uw website verandert, kunt u een manuscript of een programma in werking stellen verzoekend dat de onderzoeksrobot een index in werking stelt gebruikend Verre Controle.
 seo-description: Wanneer uw website verandert, kunt u een manuscript of een programma in werking stellen verzoekend dat de onderzoeksrobot een index in werking stelt gebruikend Verre Controle.
-seo-title: Informatie over afstandsbediening voor indexering
+seo-title: Over afstandsbediening voor indexering
 solution: Target
-title: Informatie over afstandsbediening voor indexering
+title: Over afstandsbediening voor indexering
 topic: Index,Site search and merchandising
 uuid: 20e230c6-5c1a-4bf4-bff3-b8236d14ab21
 translation-type: tm+mt
 source-git-commit: f21a3f7fe0aeaab517a5ca36da43594873b3e69a
+workflow-type: tm+mt
+source-wordcount: '1064'
+ht-degree: 0%
 
 ---
 
@@ -16,20 +19,20 @@ source-git-commit: f21a3f7fe0aeaab517a5ca36da43594873b3e69a
 
 Wanneer uw website verandert, kunt u een manuscript of een programma in werking stellen verzoekend dat de onderzoeksrobot een index in werking stelt gebruikend Verre Controle.
 
-## Het gebruiken van Verre Controle voor het Indexeren {#concept_C79B322190E84106A434E5C6D4A4118F}
+## Afstandsbediening gebruiken voor indexering {#concept_C79B322190E84106A434E5C6D4A4118F}
 
-Het verre controle indexerende verzoek komt typisch uit een manuscript of een programma dat op uw server wordt gevestigd.
+Het indexeringsverzoek van de afstandsbediening komt typisch uit een manuscript of een programma dat op uw server wordt gevestigd.
 
-De robot voert de zelfde het indexeren stappen uit alsof het manueel van het [!DNL Index] menu was begonnen. Om een ver controleverzoek voor te leggen, vormt u de noodzakelijke wachtwoord en reactiekoorden.
+De robot voert dezelfde indexeringsstappen uit alsof deze handmatig was gestart in het menu [!DNL Index]. Om een verzoek van de verre controle voor te leggen, vormt u het noodzakelijke wachtwoord en reactietekenreeksen.
 
-## Hoe te om een ver controleverzoek te maken {#section_42FAB2BAB25A4E24BEA69566C6D1C70F}
+## Hoe te om een verre controleverzoek {#section_42FAB2BAB25A4E24BEA69566C6D1C70F} te doen
 
-Om een verzoek van de verre controle te maken, gebruik de volgende formaatvoorbeelden die op de plaats van uw gegevenscentrum worden gebaseerd:
+Als u een verzoek voor een externe besturing wilt indienen, gebruikt u de volgende indelingsvoorbeelden op basis van de locatie van uw datacenter:
 
 <table> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> <p>Datacenterlocatie </p> </th> 
+   <th colname="col1" class="entry"> <p>Locatie van datacenter </p> </th> 
    <th colname="col2" class="entry"> <p>Voorbeeld </p> </th> 
   </tr> 
  </thead>
@@ -54,52 +57,52 @@ of
 <table> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> <p>Koord en waarde </p> </th> 
+   <th colname="col1" class="entry"> <p>Tekenreeks en waarde </p> </th> 
    <th colname="col2" class="entry"> <p>Beschrijving </p> </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> sp_a= sp9999999 </span> </p> </td> 
-   <td colname="col2"> <p> Je rekeningnummer. </p> <p>U kunt uw rekeningnummer vinden onder <span class="uicontrol"> Instellingen <b></b> &gt; </span> Accountopties-opties <span class="uicontrol"> <b>&gt;</b> </span> <span class="uicontrol"> <b></b> </span>Accountinstellingen. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> sp_a= sp99999999  </span> </p> </td> 
+   <td colname="col2"> <p> Je accountnummer. </p> <p>U kunt uw accountnummer vinden onder <span class="uicontrol"> <b>Instellingen</b> </span> &gt; <span class="uicontrol"> <b>Accountopties</b> </span> &gt; <span class="uicontrol"> <b>Accountinstellingen</b> </span>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> sp_lines= N </span> </p> </td> 
-   <td colname="col2"> <p>Laat u controleren het statuut van een lopende index kruipt. </p> <p> <span class="codeph">  N </span> is of een positief geheel of <span class="codeph"> allen </span>. Als dit een numerieke waarde is, zijn de laatste <span class="codeph"> N </span> lijnen van het overeenkomstige dossier van het indexlogboek inbegrepen in de reactie JSON. </p> <p>Als de waarde <span class="codeph"> allen is </span>, is het volledige dossier teruggekeerd. </p> <p>Als de waarde <span class="codeph"> 0 is </span>, dan is geen logboekinformatie teruggekeerd. Deze waarde is het gebrek voor een lopende vraag van de indexstatus. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> sp_lines= N  </span> </p> </td> 
+   <td colname="col2"> <p>Hiermee kunt u de status van een actieve index horizontaal schuiven. </p> <p> <span class="codeph">  N  </span> is of een positief geheel of  <span class="codeph"> allen  </span>. Als dit een numerieke waarde is, worden de laatste <span class="codeph"> N </span> regels van het corresponderende indexlogbestand opgenomen in het JSON-antwoord. </p> <p>Als de waarde <span class="codeph"> alle </span> is, wordt het volledige dossier teruggekeerd. </p> <p>Als de waarde <span class="codeph"> 0 </span> is, wordt geen logboekinformatie teruggegeven. Deze waarde is de standaardwaarde voor een actieve indexstatusquery. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> sp_operation= op </span> </p> </td> 
-   <td colname="col2"> <p>Laat u één van de volgende het indexeren verrichtingen specificeren die u wilt lopen: </p> <p> 
+   <td colname="col1"> <p> <span class="codeph"> sp_operation= op  </span> </p> </td> 
+   <td colname="col2"> <p>Hier kunt u een van de volgende indexeringsbewerkingen opgeven die u wilt uitvoeren: </p> <p> 
      <ul id="ul_6CA190AC41694BC293FC7C6BABA629FE"> 
-      <li id="li_EFC76E31D47E473F9A56B2EBA8A97CA1"> <span class="codeph"> full_index </span> <p>De zoekrobot voert een volledige index van je website uit. </p> </li> 
-      <li id="li_A9ACE21718804A21B3DA7B84AB6729D3"> <span class="codeph"> incrementele_index </span> <p>De onderzoeksrobot stelt een stijgende index in werking gebruikend de configuratie die onder <span class="uicontrol"> Index <b></b> &gt; de </span> Incrementele Index <span class="uicontrol"> &gt; <b></b> </span> <span class="uicontrol"> <b></b></span>Configuratie wordt geplaatst. </p> </li> 
-      <li id="li_722FE409AE454AD48ACE95C4CDC7A00B"> <span class="codeph"> vertical_index </span> <p>De onderzoeksrobot stelt een verticale update in werking gebruikend de configuratie die onder <span class="uicontrol"> Index <b></b> &gt; </span> Verticale Update <span class="uicontrol"> &gt; <b></b> </span> <span class="uicontrol"> <b></b></span>Configuratie wordt geplaatst. </p> <p>Zie <a href="../c-about-index-menu/c-about-vertical-updates.md#concept_E65A70C9C2E04804BF24FBE1B3CAD899" format="dita" scope="local"> Verticale update</a>. </p> </li> 
-      <li id="li_A40B513CE17043A4925CE3D4DE0B48A4"> <span class="codeph"> script_index </span> <p>De onderzoeksrobot stelt een stijgende index in werking gebruikend het tekstdossier dat onder <span class="uicontrol"> Index <b></b> &gt; </span> Scripted Index <span class="uicontrol"> &gt; <b></b> </span> <span class="uicontrol"> <b></b></span>Configuratie wordt gespecificeerd. </p> </li> 
-      <li id="li_A0BC7F1373B14393997BAB7690FD3EF7"> <span class="codeph"> full_staged_index </span> <p>De zoekrobot voert een volledig gefaseerde index van je website uit. </p> </li> 
-      <li id="li_47753E358457443A95B384A278FACA83"> <span class="codeph"> incrementele_gefaseerde_index </span> <p>De onderzoeksrobot stelt een stijgende gefaseerde index in werking gebruikend de configuratie die onder <span class="uicontrol"> Index <b></b> &gt; </span> Incremental Index <span class="uicontrol"> &gt; <b></b> </span> <span class="uicontrol"> <b></b></span>Configuratie wordt geplaatst. </p> </li> 
-      <li id="li_C8B5F8F1208E438ABEFDF9129A6B14A3"> <span class="codeph"> vertical_staged_index </span> <p>De onderzoeksrobot stelt een verticale gefaseerde update in werking gebruikend de configuratie die onder <span class="uicontrol"> Index <b></b> &gt; </span> Verticale Update <span class="uicontrol"> &gt; <b></b> </span> <span class="uicontrol"> <b></b></span>Configuratie wordt geplaatst. </p> </li> 
-     </ul> </p> <p>Opmerking:  Om Verticale Updates te gebruiken, kunt u het moeten hebben toegelaten in uw rekening door uw de rekeningsvertegenwoordiger van Adobe of door de Steun van Adobe. </p> <p>Zie <a href="../c-about-index-menu/c-about-vertical-updates.md#concept_E65A70C9C2E04804BF24FBE1B3CAD899" format="dita" scope="local"> over Verticale update </a>. </p> <p>U kunt <span class="codeph"> _saved </span> aan om het even welke bovengenoemde <span class="codeph"> sp_operation </span> waarden toevoegen om de onderzoeksrobot te hebben proberen om bewaarde inhoud te gebruiken. Bijvoorbeeld, kon u het volgende specificeren: </p> <p> <code class="syntax html"> sp_operation=full_index_saved </code> </p> <p>of </p> <p> <code class="syntax html"> sp_operation=full_staged_index_saved </code> </p> <p>Of, u kunt <span class="codeph"> _status </span> aan om het even welke bovengenoemde <span class="codeph"> sp_operation </span> waarden toevoegen om een statusrapport voor de huidige, of meest recente, verrichting te verzoeken. Bijvoorbeeld, kon u het volgende specificeren: </p> <p> <code class="syntax html"> sp_operation=full_index_status </code> </p> <p>of </p> <p> <code class="syntax html"> sp_operation=full_staged_index_status </code> </p> <p>en de resultaten zijn teruggekeerd als voorwerp JSON. Omvat <span class="codeph"> sp_lines=N </span> om de lijnen van N van het bijbehorende logboekdossier te omvatten. Als N negatief is, zijn de laatste lijnen van N inbegrepen. </p> </td> 
+      <li id="li_EFC76E31D47E473F9A56B2EBA8A97CA1"> <span class="codeph"> full_index  </span> <p>De zoekrobot voert een volledige index van uw website uit. </p> </li> 
+      <li id="li_A9ACE21718804A21B3DA7B84AB6729D3"> <span class="codeph"> incrementele_index  </span> <p>De zoekrobot voert een incrementele index uit met de configuratie die is ingesteld onder <span class="uicontrol"> <b>Index</b> </span> &gt; <span class="uicontrol"> <b>Incrementele index</b> </span> &gt; <span class="uicontrol"> <b>Configuration</b></span>. </p> </li> 
+      <li id="li_722FE409AE454AD48ACE95C4CDC7A00B"> <span class="codeph"> vertical_index  </span> <p>De zoekrobot voert een verticale update uit met behulp van de configuratie die is ingesteld onder <span class="uicontrol"> <b>Index</b> </span> &gt; <span class="uicontrol"> <b>Vertical Update</b> </span> &gt; <span class="uicontrol"> <b>Configuration</b></span>. </p> <p>Zie <a href="../c-about-index-menu/c-about-vertical-updates.md#concept_E65A70C9C2E04804BF24FBE1B3CAD899" format="dita" scope="local"> Verticale update</a>. </p> </li> 
+      <li id="li_A40B513CE17043A4925CE3D4DE0B48A4"> <span class="codeph"> script_index  </span> <p>De zoekrobot voert een incrementele index uit met behulp van het tekstbestand dat is opgegeven onder <span class="uicontrol"> <b>Index</b> </span> &gt; <span class="uicontrol"> <b>Scripted Index</b> </span> &gt; <span class="uicontrol"> <b>Configuration</b></span>. </p> </li> 
+      <li id="li_A0BC7F1373B14393997BAB7690FD3EF7"> <span class="codeph"> full_staged_index  </span> <p>De zoekrobot voert een volledige gefaseerde index van uw website uit. </p> </li> 
+      <li id="li_47753E358457443A95B384A278FACA83"> <span class="codeph"> incrementele_gestaged_index  </span> <p>De zoekrobot voert een incrementele gefaseerde index uit met behulp van de configuratie die is ingesteld onder <span class="uicontrol"> <b>Index</b> </span> &gt; <span class="uicontrol"> <b>Incrementele index</b> </span> &gt; <span class="uicontrol"> <b>Configuration</b></span>. </p> </li> 
+      <li id="li_C8B5F8F1208E438ABEFDF9129A6B14A3"> <span class="codeph"> vertical_staged_index  </span> <p>De zoekrobot voert een verticale gefaseerde update uit met behulp van de configuratie die is ingesteld onder <span class="uicontrol"> <b>Index</b> </span> &gt; <span class="uicontrol"> <b>Vertical Update</b> </span> &gt; <span class="uicontrol"> <b>Configuration</b></span>. </p> </li> 
+     </ul> </p> <p>Opmerking:  Als u de functie Verticale updates wilt gebruiken, moet u deze mogelijk inschakelen in uw account door uw Adobe-accountvertegenwoordiger of door Adobe Support. </p> <p>Zie <a href="../c-about-index-menu/c-about-vertical-updates.md#concept_E65A70C9C2E04804BF24FBE1B3CAD899" format="dita" scope="local"> Verticale update </a>. </p> <p>U kunt <span class="codeph"> _saved </span> aan om het even welk bovengenoemd <span class="codeph"> sp_operation </span> waarden toevoegen om de onderzoeksrobot te hebben proberen om bewaarde inhoud te gebruiken. U kunt bijvoorbeeld het volgende opgeven: </p> <p> <code class="syntax html"> sp_operation=full_index_saved </code> </p> <p>of </p> <p> <code class="syntax html"> sp_operation=full_staged_index_saved </code> </p> <p>Of u kunt <span class="codeph"> _status </span> aan om het even welk bovengenoemd <span class="codeph"> sp_operation </span> waarden toevoegen om een statusrapport voor de huidige, of meest recente, verrichting te verzoeken. U kunt bijvoorbeeld het volgende opgeven: </p> <p> <code class="syntax html"> sp_operation=full_index_status </code> </p> <p>of </p> <p> <code class="syntax html"> sp_operation=full_staged_index_status </code> </p> <p>en de resultaten worden geretourneerd als een JSON-object. Neem <span class="codeph"> sp_lines=N </span> op om N-regels van het gekoppelde logbestand op te nemen. Als N negatief is, worden de laatste lijnen van N inbegrepen. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> sp_operation= handlive </span> </p> </td> 
-   <td colname="col2"> <p> Laat u ver duwen levende een gefaseerde index. </p> <p>Om het even welke poging om <span class="codeph"> _saved </span> aan de duw levende verrichting toe te voegen wordt genegeerd. </p> <p>Wanneer u een <span class="codeph"> buig levende </span> verrichting in werking stelt O.K., Prioriteit, of het koord van de de reactietekst van de Fout is teruggekeerd aan de server. U specificeert deze antwoordkoorden op de <span class="wintitle"> Verre </span> pagina van de Controle. </p> <p>Zie <a href="../c-about-index-menu/c-about-remote-control-for-indexing.md#task_57C296258404448DA7A5ADC9B7232391" format="dita" scope="local"> het Vormen Verre Controle voor het indexeren</a>. </p> <p>Als u levend duwt wanneer er geen gefaseerde index is, gebeurt niets en het O.K. reactiekoord is teruggekeerd. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> sp_operation= push live  </span> </p> </td> 
+   <td colname="col2"> <p> Hiermee kunt u live gaan met een gefaseerde index. </p> <p>Elke poging om <span class="codeph"> _saved </span> aan de duw levende verrichting toe te voegen wordt genegeerd. </p> <p>Wanneer u een <span class="codeph"> live </span>-bewerking uitvoert, wordt een teksttekenreeks voor de reactie OK, Priority of Error geretourneerd aan de server. U geeft deze responstekenreeksen op de pagina <span class="wintitle"> Externe besturing </span> op. </p> <p>Zie <a href="../c-about-index-menu/c-about-remote-control-for-indexing.md#task_57C296258404448DA7A5ADC9B7232391" format="dita" scope="local"> Vormende Verre Controle voor het indexeren</a>. </p> <p>Als u live drukt wanneer er geen gefaseerde index is, gebeurt er niets en wordt de antwoordtekenreeks OK geretourneerd. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> sp_password= xxxxxx </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> sp_password= xxxxxx  </span> </p> </td> 
    <td colname="col2"> <p>Het wachtwoord voor de afstandsbediening. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Het onderzoek keert gegevens in de vorm van een juiste reactie van HTTP terug. De volledige reactie is samengesteld uit een HTTP- status, HTTP- reactiekopballen, een lege lijn, en het reactiekoord.
+Met Zoeken worden gegevens geretourneerd in de vorm van een juiste HTTP-reactie. De volledige reactie bestaat uit een HTTP-status, HTTP-antwoordheaders, een lege regel en de antwoordtekenreeks.
 
-Bijvoorbeeld, veronderstel dat u het volgende verre controleverzoek uitvoert:
+Stel dat u de volgende aanvraag voor besturing op afstand uitvoert:
 
 ```
 https://center.atomz.com/search/cgiindex.tk?sp_a=sp99999999&sp_password=my-password&sp_operation=full_index
 ```
 
-Het volgende is de reactie van de server:
+Hier volgt de reactie van de server:
 
 ```
 Status: 200 OK 
@@ -107,13 +110,13 @@ Content-type: text/plain
 OK
 ```
 
-Of, veronderstel dat u het volgende verzoek van de verre controlestatus uitvoert:
+Of stel dat u de volgende aanvraag voor de status van de afstandsbediening uitvoert:
 
 ```
 https://center.atomz.com/search/cgiindex.tk?sp_a=sp99999999&sp_password=my-password&sp_operation=full_index_status
 ```
 
-De reactie van de server zou als het volgende kunnen kijken:
+De reactie van de server kan er als volgt uitzien:
 
 ```
 Status: 200 OK 
@@ -133,7 +136,7 @@ Content-type: application/json; charset=utf-8
 }
 ```
 
-Om de eerste tien lijnen van de logboeklijst te krijgen die met deze indexverrichting, samen met zijn status wordt geassocieerd, wordt de volgende vraag gebruikt:
+Om de eerste tien regels van de logboeklijst te krijgen die met deze indexverrichting, samen met zijn status wordt geassocieerd, wordt de volgende vraag gebruikt:
 
 ```
 https://center.atomz.com/search/cgiindex.tk?sp_a=sp99999999&sp_password=my-password&sp_operation=full_index_status&sp_lines=10
@@ -172,11 +175,11 @@ Content-type: application/json; charset=utf-8
 }
 ```
 
-Noteer de `offset` waarde. Deze waarde identificeert de dossier-compensatie positie in het logboekdossier waar het lezen verliet. Om de *volgende* tien lijnen in het dossier te lezen, zou u, in dit voorbeeld, `&sp_offset=672` in het verzoek omvatten dat naar de server wordt verzonden.
+Noteer de waarde `offset`. Deze waarde geeft de positie van de bestandsverschuiving aan in het logbestand waar het lezen is gestopt. Als u de *next* tien regels in het bestand wilt lezen, neemt u in dit voorbeeld `&sp_offset=672` op in het verzoek dat naar de server wordt verzonden.
 
-Gebruikend `sp_offset`, kunt u effectief door een logboekdossier pagineren.
+Met `sp_offset` kunt u effectief door een logbestand bladeren.
 
-Om de *laatste* tien lijnen van het logboek, samen met de status te krijgen, specificeer de telling als negatief aantal. Bijvoorbeeld, specificeer `sp_lines=` met een waarde van `-10` zoals in het volgende:
+Om *last* tien lijnen van het logboek, samen met de status te krijgen, specificeer de telling als negatief aantal. Geef bijvoorbeeld `sp_lines=` op met de waarde `-10`, zoals in het volgende voorbeeld:
 
 ```
 https://center.atomz.com/search/cgiindex.tk?sp_a=sp99999999&sp_password=my-password&sp_operation=full_index_status&sp_lines=-10
@@ -214,40 +217,40 @@ Content-type: application/json; charset=utf-8
 }
 ```
 
-Merk op dat er geen hier teruggekeerde waarde is, aangezien deze verrichting aan het eind van het dossier beëindigde, en er niet meer te lezen lijnen zijn. `offset`
+Er wordt hier geen `offset`-waarde geretourneerd, aangezien deze bewerking aan het einde van het bestand is voltooid en er geen regels meer zijn om te lezen.
 
-## Vormende Verre Controle voor het indexeren {#task_57C296258404448DA7A5ADC9B7232391}
+## Het vormen Verre Controle voor het indexeren {#task_57C296258404448DA7A5ADC9B7232391}
 
-Wanneer uw website verandert, kunt u Afstandsbediening gebruiken om een manuscript of een programma van uw server in werking te stellen, verzoekend dat de onderzoeksrobot een index in werking stelt.
+Wanneer uw website verandert, kunt u de Controle van de Verre gebruiken om een manuscript of een programma van uw server in werking te stellen, verzoekend dat de onderzoekersrobot een index in werking stelt.
 
 **Om Verre Controle voor het indexeren te vormen**
 
 1. Klik in het productmenu op **[!UICONTROL Index]** > **[!UICONTROL Remote Control]**.
-1. Voor de [!DNL Remote Control] pagina, plaats elke optie van het configuratiegebied om een indexerend verzoek van uw server automatisch te kunnen voorleggen om uw website te indexeren.
+1. Stel op de pagina [!DNL Remote Control] elke optie voor het configuratieveld zo in dat een indexeringsverzoek van uw server automatisch kan worden verzonden om uw website te indexeren.
 
    <table> 
     <thead> 
     <tr> 
-    <th colname="col1" class="entry"> <p>Optie </p> </th> 
+    <th colname="col1" class="entry"> <p>Option </p> </th> 
     <th colname="col2" class="entry"> <p>Beschrijving </p> </th> 
     </tr> 
     </thead>
     <tbody> 
     <tr> 
     <td colname="col1"> <p>Wachtwoord voor afstandsbediening </p> </td> 
-    <td colname="col2"> <p>Specificeer het verre controlewachtwoord. </p> <p> De wachtwoorden zijn hoofdlettergevoelig, minstens zes lange karakters, en moeten minstens één brief omvatten. Het is raadzaam om ook ten minste één nummer op te nemen. </p> <p>Gebruik uw wachtwoord voor aanmelding bij het zoeken naar/verkopen van sites niet. </p> <p>Uw wachtwoord wordt gebruikt in elk verzoek van de verre controle. </p> </td> 
+    <td colname="col2"> <p>Geef het wachtwoord voor de afstandsbediening op. </p> <p> Wachtwoorden zijn hoofdlettergevoelig, hebben ten minste zes tekens en moeten ten minste één letter bevatten. U wordt aangeraden ten minste één nummer op te nemen. </p> <p>Gebruik geen aanmeldingswachtwoord voor het zoeken/verhandelen van uw site. </p> <p>Uw wachtwoord wordt gebruikt in elke aanvraag voor een afstandsbediening. </p> </td> 
     </tr> 
     <tr> 
-    <td colname="col1"> <p>OK-antwoordenreeks </p> </td> 
-    <td colname="col2"> <p>Laat u een O.K. koord van de reactietekst specificeren als de gevraagde indexverrichting met succes begint. In dergelijke gevallen, keert de onderzoeksrobot uw O.K. reactiekoord aan de server terug. </p> </td> 
+    <td colname="col1"> <p>REACTIE-tekenreeks OK </p> </td> 
+    <td colname="col2"> <p>Hier geeft u een teksttekenreeks op met een OK-antwoord als de gevraagde indexbewerking is geslaagd. In dergelijke gevallen retourneert de zoekrobot de antwoordtekenreeks OK aan de server. </p> </td> 
     </tr> 
     <tr> 
-    <td colname="col1"> <p>String voor prioritaire respons </p> </td> 
-    <td colname="col2"> <p>Als een andere indexerende verrichting lopend is wanneer het verre verzoek wordt gedaan, kan de onderzoeksrobot niet de gevraagde index uitvoeren. In dergelijke gevallen, is uw Prioritaire koord van de reactietekst teruggekeerd aan de server. </p> </td> 
+    <td colname="col1"> <p>Reactiereeks prioriteit </p> </td> 
+    <td colname="col2"> <p>Als een andere indexeringsbewerking wordt uitgevoerd op het moment dat de externe aanvraag wordt ingediend, kan de zoekrobot de gevraagde index niet uitvoeren. In dergelijke gevallen wordt de tekenreeks voor de prioritaire reactie geretourneerd aan de server. </p> </td> 
     </tr> 
     <tr> 
-    <td colname="col1"> <p>Foutresponskoord </p> </td> 
-    <td colname="col2"> <p>Laat u een koord van de reactietekst van de Fout specificeren als uw wachtwoord onjuist is, of als een andere fout voorkomt. In dergelijke gevallen, keert de onderzoeksrobot uw het reactiekoord van de Fout terug naar de server terug. </p> </td> 
+    <td colname="col1"> <p>Respons fout </p> </td> 
+    <td colname="col2"> <p>Hier geeft u een tekstreeks met foutreacties op. Als uw wachtwoord onjuist is of als er een andere fout optreedt. In dergelijke gevallen retourneert de zoekrobot de antwoordtekenreeks Error weer naar de server. </p> </td> 
     </tr> 
     </tbody> 
     </table>

@@ -21,7 +21,7 @@ ht-degree: 0%
 
 * Opmerkingen bij de release van Adobe Marketing Cloud: bevat nieuwe functies, oplossingen en bekende problemen in alle oplossingen voor Marketingen Cloud. De versies van de eigenschap komen in de Lente en de Herfst voor, met onderhoudsversies die maandelijks voorkomen.
 
-   **Vroege toegang**: Meld u aan voor de [Adobe Priority Product Update](https://campaign.adobe.com/webApp/adbePriorityProductSubscribe) om opmerkingen bij de release van Adobe Marketing Cloud één week voor elke release te ontvangen.
+   **Vroege toegang**: Meld u aan voor de  [Adobe Priority Product ](https://campaign.adobe.com/webApp/adbePriorityProductSubscribe) Updateom een week voor elke release opmerkingen bij de release van Adobe Marketing Cloud te ontvangen.
 
 * In de nieuwste release Adobe Search&amp;Promote worden opmerkingen weergegeven:
 
@@ -35,4 +35,4 @@ ht-degree: 0%
 
 [Adobe Search&amp;Promote-website](https://www.adobe.com/solutions/testing-targeting/search-driven-merchandising.html)
 
-[Industry Insights](https://blogs.adobe.com/digitalmarketing/) - Het blog Adobe voor digitale marketing.
+[Industry Insights](https://blogs.adobe.com/digitalmarketing/)  - Het blog Adobe voor digitale marketing.

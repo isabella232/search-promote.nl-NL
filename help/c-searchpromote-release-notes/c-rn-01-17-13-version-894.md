@@ -8,11 +8,14 @@ topic: Release Notes,Site search and merchandising
 uuid: a9d550f6-0a23-4c71-b123-c31b997e7384
 translation-type: tm+mt
 source-git-commit: ffdec2cfcb30e733c664a7d1ca23868b7a9a9aa5
+workflow-type: tm+mt
+source-wordcount: '261'
+ht-degree: 0%
 
 ---
 
 
-# Opmerkingen bij de release van 8.9.4 doorzoeken en promoten (17-01-2013){#search-promote-release-notes}
+# Opmerkingen bij de release van Search&amp;Promote 8.9.4 (17-01-2013){#search-promote-release-notes}
 
 <table> 
  <thead> 
@@ -24,11 +27,11 @@ source-git-commit: ffdec2cfcb30e733c664a7d1ca23868b7a9a9aa5
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Regels </p> </td> 
-   <td colname="col2"> <p> Toegevoegd de capaciteit om gealigneerde nota's tot stand te brengen wanneer u de Regels van de Schoonmaak van de Vraag, Regels pre-Onderzoek, en Regels na-Onderzoek creeert. In het veld Notities kunt u de regels documenteren en uitleggen. </p> <p>Zie <a href="../c-about-rules-menu/c-about-query-cleaning-rules.md#concept_17F3CDDC3C8A4128AF092A82B777B86C" format="dita" scope="local"> Informatie over de regels</a>voor het opschonen van query's. </p> <p>Zie <a href="../c-about-rules-menu/c-about-pre-search-rules.md#concept_5BF84BB6FACB4645BA9CB7496A01CD1F" format="dita" scope="local"> Informatie over regels</a>voor voorzoeken. </p> <p>Zie <a href="../c-about-rules-menu/c-about-post-search-rules.md#concept_AF6ADFCC0ADF4A788003964939917FDE" format="dita" scope="local"> Informatie over regels</a>voor na het zoeken. </p> </td> 
+   <td colname="col2"> <p> Toegevoegd de capaciteit om gealigneerde nota's tot stand te brengen wanneer u de Regels van de Schoonmaak van de Vraag, Regels pre-Onderzoek, en Regels na-Onderzoek creeert. In het veld Notities kunt u de regels documenteren en uitleggen. </p> <p>Zie <a href="../c-about-rules-menu/c-about-query-cleaning-rules.md#concept_17F3CDDC3C8A4128AF092A82B777B86C" format="dita" scope="local"> Info over Regels voor het opschonen van query</a>. </p> <p>Zie <a href="../c-about-rules-menu/c-about-pre-search-rules.md#concept_5BF84BB6FACB4645BA9CB7496A01CD1F" format="dita" scope="local"> Informatie over regels voor voorzoeken</a>. </p> <p>Zie <a href="../c-about-rules-menu/c-about-post-search-rules.md#concept_AF6ADFCC0ADF4A788003964939917FDE" format="dita" scope="local"> Informatie over Post-Search Regels</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Zoeken met instructies </p> </td> 
-   <td colname="col2"> <p> Toegevoegde tags voor Zoeken met instructies om de totale tijd aan te geven waarin een zoekopdracht is uitgevoerd. </p> <p> <span class="codeph"> &lt;guided-search-time&gt;</span> - Geeft aan hoe lang de zoekopdracht heeft geduurd. De geretourneerde waarde voor de zoektijd wordt opgegeven in ms. </p> <p> <span class="codeph"> &lt;guided-fall-through-search&gt;</span> - Retourneert het aantal zoekopdrachten met kernen dat wordt gebruikt om de pagina met zoekresultaten samen te stellen. </p> <p> <span class="codeph"> &lt;guided-if-fall-through-search&gt;</span> - Test of het aantal kernzoekopdrachten groter is dan 1. </p> <p>Zie ook Diverse Taal in sjabloonlabels <a href="../c-appendices/c-templates.md#reference_F1BBF616BCEC4AD7B2548ECD3CA74C64" format="dita" scope="local"> van de</a>presentatie. </p> </td> 
+   <td colname="col2"> <p> Toegevoegde tags voor Zoeken met instructies om de totale tijd aan te geven waarin een zoekopdracht is uitgevoerd. </p> <p> <span class="codeph"> &lt;guided-search-time&gt;</span> - Geeft aan hoe lang de zoekopdracht heeft geduurd. De geretourneerde waarde voor de zoektijd wordt opgegeven in ms. </p> <p> <span class="codeph"> &lt;guided-fall-through-searches&gt;</span> - Geeft als resultaat het aantal zoekopdrachten in de kernen die worden gebruikt om de pagina met zoekresultaten samen te stellen. </p> <p> <span class="codeph"> &lt;guided-if-fall-through-search&gt;</span> - Test of het aantal kernzoekopdrachten groter is dan 1. </p> <p>Zie ook Diverse Taal in <a href="../c-appendices/c-templates.md#reference_F1BBF616BCEC4AD7B2548ECD3CA74C64" format="dita" scope="local"> de malplaatjemarkeringen van de Presentatie</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -47,7 +50,7 @@ source-git-commit: ffdec2cfcb30e733c664a7d1ca23868b7a9a9aa5
 
    Zie [Informatie over bedrijfsregels](../c-about-rules-menu/c-about-business-rules.md#concept_2A93D76216754D3D8412CDEA00BD26BD).
 
-* De mogelijkheid om in te verwijderen [!DNL Breadcrumbs] werkte niet de hele tijd.
+* De mogelijkheid om in [!DNL Breadcrumbs] te verwijderen werkte niet de hele tijd.
 
    Zie [Informatie over broodkruimels](../c-about-design-menu/c-about-breadcrumbs.md#concept_FB8A943C594A4A1593B118141DA61F03).
 
@@ -55,5 +58,5 @@ source-git-commit: ffdec2cfcb30e733c664a7d1ca23868b7a9a9aa5
 
    Zie [Informatie over rangschikkingsregels](../c-about-rules-menu/c-about-ranking-rules.md#concept_F555C076759B4E81B925441CFE707397).
 
-   Zie [Informatie over de index](../c-about-index-menu/c-about-re-rank-index.md#concept_147B0A9FCD51451787DA898E06F7C692)opnieuw weergeven.
+   Zie [Over de index opnieuw plaatsen](../c-about-index-menu/c-about-re-rank-index.md#concept_147B0A9FCD51451787DA898E06F7C692).
 

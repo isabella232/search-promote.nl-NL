@@ -4,12 +4,12 @@ seo-title: Adobe &Zoeken;amp;Technische documentatie en zelfhulp bevorderen
 description: Technische documentatie en zelfhulpmaterialen voor Adobe zoeken&amp;Promoten
 seo-description: Technische documentatie, opmerkingen bij de release en zelfhulp voor Adobe Search&amp;Promoten
 solution: Target
-topic: Site search and merchandising
+topic: Zoeken en verhandelen van sites
 uuid: bb1c49be-7cfd-485a-a848-c5dc8733b009
 translation-type: tm+mt
-source-git-commit: dcbee1a3092f46db8f19e0b14f55cafac5fdbc13
+source-git-commit: ce3b55f0265c52670a81a17b9eff79309ff32bc0
 workflow-type: tm+mt
-source-wordcount: '157'
+source-wordcount: '161'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,11 @@ ht-degree: 0%
 
 # Adobe Search&amp;Promote {#search-promote-documentation}
 
+<!-- ## [Option 1: Lorem Ipsum FAQ announcement](#lorem-ipsum) -->
+
 ## Nieuws en aankondigingen {#topic_02625547D07F411DBAC9593FCBD4741B}
+
+<!-- * [Option 2: Lorem ipsum FAQ announcement](anchor) -->
 
 * Opmerkingen bij de release van Adobe Marketing Cloud: bevat nieuwe functies, oplossingen en bekende problemen in alle oplossingen voor Marketingen Cloud. De versies van de eigenschap komen in de Lente en de Herfst voor, met onderhoudsversies die maandelijks voorkomen.
 

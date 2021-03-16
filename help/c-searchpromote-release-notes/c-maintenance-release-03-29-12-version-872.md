@@ -1,15 +1,13 @@
 ---
-description: 'null'
-seo-description: 'null'
-seo-title: '&Zoeken;amp;Opmerkingen bij de release 8.7.2 promoten (29-03-2012)'
+description: '&Zoeken;amp;Opmerkingen bij de release 8.7.2 promoten.'
 solution: Target
 title: '&Zoeken;amp;Opmerkingen bij de release 8.7.2 promoten (29-03-2012)'
-topic: Release Notes,Site search and merchandising
+topic: Opmerkingen bij de release, zoeken en verhandelen op de site
 uuid: e8454d47-6444-4136-92d7-35b90bfb12ca
 translation-type: tm+mt
-source-git-commit: ffdec2cfcb30e733c664a7d1ca23868b7a9a9aa5
+source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
 workflow-type: tm+mt
-source-wordcount: '117'
+source-wordcount: '121'
 ht-degree: 0%
 
 ---

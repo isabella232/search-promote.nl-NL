@@ -1,16 +1,14 @@
 ---
 description: U kunt Facets gebruiken om uw presentatielaag aan te passen en uw gebruikers van een Geleide Onderzoek te voorzien die hen neer in hun onderzoeksresultaten laat bogen.
-seo-description: U kunt Facets gebruiken om uw presentatielaag aan te passen en uw gebruikers van een Geleide Onderzoek te voorzien die hen neer in hun onderzoeksresultaten laat bogen.
-seo-title: Informatie over facetten
 solution: Target
 subtopic: Navigation
 title: Informatie over facetten
-topic: Design,Site search and merchandising
+topic: Ontwerpen, zoeken en verhandelen van sites
 uuid: 28bc4d4d-a84c-4a77-befb-b0fb3bbdb966
 translation-type: tm+mt
-source-git-commit: 52c8d7985e7cb0aa35be1deabeb7cb92a55f07c2
+source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
 workflow-type: tm+mt
-source-wordcount: '3855'
+source-wordcount: '3832'
 ht-degree: 0%
 
 ---
@@ -50,7 +48,7 @@ U kunt de sjabloontag `<guided-facet-value/>` van de presentatie gebruiken om de
 
 Zie [Labels voor presentatiesjablonen](../c-appendices/c-templates.md#reference_F1BBF616BCEC4AD7B2548ECD3CA74C64).
 
-Het volgende codevoorbeeld is een voorbeeld van hoe te om een datumwaaier op een pagina voor te stellen. Als deze optie is geselecteerd, wordt het bestaande datumbereik weergegeven. anders wordt er een eenvoudig invoerformulier weergegeven . Wanneer het formulier wordt verzonden, wordt eenvoudige validatie uitgevoerd. De browser wordt vervolgens naar een nieuwe URL gestuurd die twee nieuwe parameters bevat:
+Het volgende codevoorbeeld is een voorbeeld van hoe te om een datumwaaier op een pagina voor te stellen. Als deze optie is geselecteerd, wordt het bestaande datumbereik weergegeven. anders wordt er een eenvoudig invoerformulier weergegeven . Wanneer het formulier wordt verzonden, wordt eenvoudige validatie uitgevoerd. Vervolgens wordt de browser naar een nieuwe URL gestuurd die twee nieuwe parameters bevat:
 
 * `q#` - Geeft het geselecteerde datumbereik aan dat is samengesteld uit de twee invoervelden.
 * `x#` - Namen van facet. In dit voorbeeld krijgt de datumbereikfacet de naam &quot;modified&quot;.
@@ -642,7 +640,7 @@ Als u broodkruimels in uw onderzoek gebruikt, moet u het gedrag aan **Ga naar** 
 
 1. Klik in het productmenu op **[!UICONTROL Design]** > **[!UICONTROL Navigation]** > **[!UICONTROL Breadcrumbs]**.
 1. Klik op de [!DNL Breadcrumbs] pagina&#39;s **[!UICONTROL Edit]** op de naam van de broodkruimel waarvan u het gedrag wilt bijwerken.
-1. Selecteer **Ga naar** in de vervolgkeuzelijst [!DNL Edit Breadcrumb] op de pagina &lt;a0/>.[!DNL Behavior]
+1. Selecteer **Ga naar** in de vervolgkeuzelijst [!DNL Edit Breadcrumb] op de pagina [!DNL Behavior].
 1. Klik op **[!UICONTROL Save Changes]**.
 
 ## Een facet {#task_457EDC49983F4F7781873703AF574DA5} bewerken

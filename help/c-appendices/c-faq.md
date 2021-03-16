@@ -1,15 +1,13 @@
 ---
-description: 'null'
-seo-description: 'null'
-seo-title: Veelgestelde vragen
+description: Veelgestelde vragen lezen over Zoeken&amp;Promoten
 solution: Target
 title: Veelgestelde vragen
-topic: Appendices,Site search and merchandising
+topic: Bijlagen,zoeken en verhandelen van sites
 uuid: 4ce454a4-e770-4587-91a0-a25491818ac6
 translation-type: tm+mt
-source-git-commit: 4270ea66ba645ad0f71c9c8b5c2a1fcc6eb02ad2
+source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
 workflow-type: tm+mt
-source-wordcount: '8639'
+source-wordcount: '8648'
 ht-degree: 0%
 
 ---

@@ -1,15 +1,13 @@
 ---
-description: 'null'
-seo-description: 'null'
-seo-title: Sjablonen
+description: Leer over het gebruiken van presentatie en malplaatjemarkeringen in Onderzoek&amp;Bevorderen.
 solution: Target
 title: Sjablonen
-topic: Appendices,Site search and merchandising
+topic: Bijlagen,zoeken en verhandelen van sites
 uuid: 78299032-dc23-4dfe-b68f-cd57b2b6d7d8
 translation-type: tm+mt
-source-git-commit: ca4156f80d7dbb85d2d56b6caf7c0f560299d86e
+source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
 workflow-type: tm+mt
-source-wordcount: '15139'
+source-wordcount: '15153'
 ht-degree: 1%
 
 ---
@@ -82,7 +80,7 @@ Declaraties zijn speciale labels voor declaraties met instructies die u boven aa
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col01"> <p>3 </p> </td> 
+   <td colname="col01"> <p>1 </p> </td> 
    <td colname="col1"> <p> 
      <!--In search-eng 1/31/13--> <span class="codeph"> &lt;guided-results&gt;&lt;/guided-results&gt; </span> </p> </td> 
    <td colname="col2"> <p>De tag met instructies-resultaten definieert de grenzen van een resultatenlus. Om het even welke reeks resultaten kan worden betreden door een <span class="codeph"> gsname </span> attribuut te specificeren. Als er geen <span class="codeph"> gsname </span> is opgegeven, worden de standaardzoekresultaten weergegeven. </p> </td> 
@@ -94,7 +92,7 @@ Declaraties zijn speciale labels voor declaraties met instructies die u boven aa
    <td colname="col2"> <p>Als u een koppeling naar een bepaald resultaat wilt maken, gebruikt u de tag <span class="codeph"> guided-result-link </span>. Als u een <span class="codeph"> gsname </span>-kenmerk definieert, kunt u een veld uit de index gebruiken in plaats van de standaard "loc"-tag die naar de "search-url" verwijst. Andere kenmerken, zoals klasse en doel, kunnen ook worden doorgegeven. Deze worden uitgevoerd in de resulterende ankertag. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col01"> <p>3 </p> </td> 
+   <td colname="col01"> <p>1 </p> </td> 
    <td colname="col1"> <p> 
      <!--In search-eng 1/31/13--> <span class="codeph"> &lt;guided-result-img gsname="fieldname"&gt; </span> </p> </td> 
    <td colname="col2"> <p>De <span class="codeph"> &lt;guided-result-img&gt; </span>-tag helpt afbeeldingstags te maken in plaats van variabelen in te sluiten in een onbewerkte <span class="codeph">-tag </span>. </p> <p>Geef het veld op dat moet worden gebruikt voor het afbeeldingspad in het <span class="codeph">-kenmerk gsname </span>. Het resultaat is een <span class="codeph"> img </span>-tag met alle standaard HTML-kenmerken die u hebt gedefinieerd, doorgegeven. In het volgende voorbeeld: </p> <p> <code class="syntax html"> &lt;guided-result-img&nbsp;gsname="thumbnail" 
@@ -105,7 +103,7 @@ Declaraties zijn speciale labels voor declaraties met instructies die u boven aa
    <td colname="col01"> <p>4 </p> </td> 
    <td colname="col1"> <p> 
      <!--Updated to match search-eng version, 1/31/13; search-eng version does not have [escape...] Added ijson on 8/28/2015--> <span class="codeph"> &lt;guided-result-field gsname="fieldname"&gt; </span> </p> </td> 
-   <td colname="col2"> <p> Alle informatie die in de resultaten wordt weergegeven, wordt weergegeven als een <span class="codeph"> </span>-tag &lt;a1/&gt; (behalve wanneer u automatische genererende tags gebruikt, zoals de <span class="codeph"> &lt;guided-result-img&gt; </span>-tag). </p> <p>Geef de naam van het veld Zoekindex op in <span class="codeph"> gsname </span>. De exacte tekenreeks die wordt doorgegeven, wordt in de sjabloon uitgevoerd. </p> <p>U kunt een vluchtoptie specificeren als u dit gebied op een andere manier van wat in het vervoermalplaatje werd gespecificeerd wilt ontsnapt. </p> <p>Deze codering wordt toegepast boven op de codering die in de transportsjabloon is opgegeven. </p> </td> 
+   <td colname="col2"> <p> Alle informatie die in de resultaten wordt weergegeven, wordt weergegeven als een <span class="codeph"> </span>-tag  (behalve wanneer u automatische genererende tags gebruikt, zoals de <span class="codeph"> &lt;guided-result-img&gt; </span>-tag). </p> <p>Geef de naam van het veld Zoekindex op in <span class="codeph"> gsname </span>. De exacte tekenreeks die wordt doorgegeven, wordt in de sjabloon uitgevoerd. </p> <p>U kunt een vluchtoptie specificeren als u dit gebied op een andere manier van wat in het vervoermalplaatje werd gespecificeerd wilt ontsnapt. </p> <p>Deze codering wordt toegepast boven op de codering die in de transportsjabloon is opgegeven. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>5 </p> </td> 
@@ -277,7 +275,7 @@ Zie [Informatie over dynamische factoren](../c-about-design-menu/c-about-dynamic
       &nbsp;&nbsp;&nbsp;&nbsp;&lt;guided-facet-display-name/&gt; 
       &nbsp;&nbsp;&nbsp;&nbsp;... 
       &nbsp;&nbsp;&nbsp;&nbsp;&lt;/guided-facet&gt; 
-      &nbsp;&nbsp;&lt;/guided-facet-rail&gt; </code> </p> <p>Merk op dat de volgende markeringen <span class="codeph"> gsname </span> geen attribuut nodig hebben wanneer binnen <span class="codeph"> </span> &lt;a3/&gt; markering &lt;a3 als waarde dynamisch bepaald bij onderzoekstijdstip is en behoorlijk substitueert: </p> 
+      &nbsp;&nbsp;&lt;/guided-facet-rail&gt; </code> </p> <p>Merk op dat de volgende markeringen <span class="codeph"> gsname </span> geen attribuut nodig hebben wanneer binnen <span class="codeph"> </span>  markering &lt;a3 als waarde dynamisch bepaald bij onderzoekstijdstip is en behoorlijk substitueert: </p> 
     <ul id="ul_5B5ACAFD2B8848DDB27471AB9DA7BE6E"> 
      <li id="li_5A07E78D51FE4708879DD742C877FFFF">met instructies </li> 
      <li id="li_B875DCACD7AB4FC890A456A6939AB657">guided-facet-display-name </li> 
@@ -350,7 +348,7 @@ Zie [Informatie over dynamische factoren](../c-about-design-menu/c-about-dynamic
    <td colname="col01"> <p>8 </p> </td> 
    <td colname="col1"> <p> 
      <!--Added 7/15/2014--> <span class="codeph"> &lt;guided-if&gt;&lt;/guided-if&gt; </span> </p> </td> 
-   <td colname="col2"> <p>Deze voorwaardelijke tag is waar wanneer het facet meerdere selecties heeft. Gebruik de tag om de weergave van het facet te wijzigen binnen <span class="codeph"> </span>- of <span class="codeph"> </span>-tags &lt;a3/&gt;. </p> <p> 
+   <td colname="col2"> <p>Deze voorwaardelijke tag is waar wanneer het facet meerdere selecties heeft. Gebruik de tag om de weergave van het facet te wijzigen binnen <span class="codeph"> </span>- of <span class="codeph"> </span>-tags . </p> <p> 
 
     &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;lt;guided-if-facet-multiselect&amp;gt;
     &amp;nbsp;...
@@ -365,7 +363,7 @@ Zie [Informatie over dynamische factoren](../c-about-design-menu/c-about-dynamic
    <td colname="col01"> <p>9 </p> </td> 
    <td colname="col1"> <p> 
      <!--In search-eng version 1/31/13--> <span class="codeph"> &lt;guided-facet-values&gt; facetname  </span>"]&gt;&lt;/guided-facet-values&gt; </span><span class="varname"> </span></p> </td> 
-   <td colname="col2"> <p>Dit is de iteratortag van de facetwaardelus. U kunt het binnen de context van een genoemd <span class="codeph"> Geleide-facet </span> blok bepalen, in welk geval u <span class="codeph"> <span class="varname"> gsname </span> </span> kunt weglaten. Of u kunt het buiten elk <span class="codeph">-blok met instructies-facet </span> definiëren, maar u moet het <span class="codeph"> <span class="varname"> gsname </span> </span> &lt;a5/&gt;-kenmerk gebruiken om te bepalen welke set met facetwaarden wordt weergegeven. </p> <p>U kunt deze tag ook gebruiken om de waarden van facetten weer te geven buiten de context van een benoemd <span class="codeph">-blok met instructies-facet </span>. U verwijst rechtstreeks naar een specifiek facet door het <span class="codeph"> <span class="varname"> gsname </span> </span> attribuut te gebruiken. </p> <p> <code class="syntax html"> &lt;script&gt; 
+   <td colname="col2"> <p>Dit is de iteratortag van de facetwaardelus. U kunt het binnen de context van een genoemd <span class="codeph"> Geleide-facet </span> blok bepalen, in welk geval u <span class="codeph"> <span class="varname"> gsname </span> </span> kunt weglaten. Of u kunt het buiten elk <span class="codeph">-blok met instructies-facet </span> definiëren, maar u moet het <span class="codeph"> <span class="varname"> gsname </span> </span> -kenmerk gebruiken om te bepalen welke set met facetwaarden wordt weergegeven. </p> <p>U kunt deze tag ook gebruiken om de waarden van facetten weer te geven buiten de context van een benoemd <span class="codeph">-blok met instructies-facet </span>. U verwijst rechtstreeks naar een specifiek facet door het <span class="codeph"> <span class="varname"> gsname </span> </span> attribuut te gebruiken. </p> <p> <code class="syntax html"> &lt;script&gt; 
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;registerFacetValues('category',&nbsp;'&lt;guided-facet-values&nbsp;gsname="category"&gt;&lt;guided-facet-value/&gt;,&lt;/guided-facet-values&gt;'); 
       &lt;/script&gt; </code> </p> </td> 
   </tr> 
@@ -456,7 +454,7 @@ Zie [Informatie over dynamische factoren](../c-about-design-menu/c-about-dynamic
    <td colname="col01"> <p>17 </p> </td> 
    <td colname="col1"> <p> <code> &lt;guided-if-facet-selected [gsname="facetname"]&gt; 
       &lt;guided-else-facet-selected&gt;&lt;/guided-if-facet-selected&gt; </code> </p> </td> 
-   <td colname="col2"> <p>Deze voorwaardelijke tag is waar wanneer ten minste één keer op het facet wordt geklikt en er momenteel een facetwaarde is geselecteerd. Het kan worden gebruikt om HTML- of gs-tags weer te geven of te verbergen, afhankelijk van het feit of op een facet wordt geklikt. </p> <p> <code class="syntax html"> &lt;guided-facet&nbsp;gsname="category"&gt; 
+   <td colname="col2"> <p>Deze voorwaardelijke tag is waar wanneer ten minste één keer op het facet wordt geklikt en er momenteel een facetwaarde is geselecteerd. Het kan worden gebruikt om HTML- of tags gs weer te geven of te verbergen, afhankelijk van het feit of op een facet wordt geklikt. </p> <p> <code class="syntax html"> &lt;guided-facet&nbsp;gsname="category"&gt; 
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;guided-if-facet-selected&gt; 
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This&nbsp;facet&nbsp;has&nbsp;been&nbsp;selected.&nbsp;&nbsp;You&nbsp;can&nbsp;no&nbsp;longer&nbsp;refine&nbsp;it. 
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;guided-else-facet-selected&gt; 
@@ -622,7 +620,7 @@ Zie [Informatie over broodkruimels](../c-about-design-menu/c-about-breadcrumbs.m
       &lt;/guided-breadcrumb&gt; </code> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col01"> <p>3 </p> </td> 
+   <td colname="col01"> <p>1 </p> </td> 
    <td colname="col1"> <p> 
      <!--Updated to search-eng version, 2/1/2013--> <span class="codeph"> &lt;guided-breadcrumb-value /&gt; </span> </p> </td> 
    <td colname="col2"> <p>De waardetag drukt uit de getransformeerde waarde van de huidige broodkruimeliteratie. Het wordt alleen gebruikt in de context van een <span class="codeph">-blok met instructies-breadcrumb </span>. </p> <p> <code class="syntax html"> &lt;guided-breadcrumb&gt; 
@@ -678,7 +676,7 @@ Zie [Menu&#39;s](../c-about-design-menu/c-about-menus.md#concept_68123CE5CF4447B
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col01"> <p>3 </p> </td> 
+   <td colname="col01"> <p>1 </p> </td> 
    <td colname="col1"> <p> 
      <!--Matched search-eng version, 2/1/2013--> <span class="codeph"> &lt;guided-menu gsname="menuname"&gt;&lt;/guided-menu&gt; </span> </p> </td> 
    <td colname="col2"> <p>Dit is de iteratortag van de menumarteruslus. Gebruik het <span class="codeph"> gsname </span> attribuut om te identificeren welke reeks menupunten wordt getoond. </p> </td> 
@@ -956,7 +954,7 @@ Zie [Bedoelde u](../c-about-linguistics-menu/c-about-did-you-mean.md#concept_7D4
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col01"> <p>3 </p> </td> 
+   <td colname="col01"> <p>1 </p> </td> 
    <td colname="col1"> <p> 
      <!--Matches search-eng version, 2/1/2013--> <span class="codeph"> &lt;guided-suggestions&gt;&lt;/guided-suggestions&gt; </span> </p> </td> 
    <td colname="col2"> <p>Dit is de lustag voor het doorlopen van de suggesties. </p> </td> 
@@ -1078,7 +1076,7 @@ Gebruik de volgende labels om de winkel waarin een gebruiker zich momenteel bevi
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col01"> <p>3 </p> </td> 
+   <td colname="col01"> <p>1 </p> </td> 
    <td colname="col1"> <p> <span class="codeph"> &lt;guided-store /&gt; </span> </p> </td> 
    <td colname="col2"> <p>Hiermee wordt de huidige winkel uitgevoerd. </p> </td> 
   </tr> 
@@ -1088,7 +1086,7 @@ Gebruik de volgende labels om de winkel waarin een gebruiker zich momenteel bevi
    <td colname="col2"> <p>Detecteert of de gebruiker zich in een winkel bevindt. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col01"> <p>3 </p> </td> 
+   <td colname="col01"> <p>1 </p> </td> 
    <td colname="col1"> <p> <span class="codeph"> &lt;guided-if-store gsname="store"&gt; &lt;guided-else-store&gt; &lt;/guided-if-store&gt; </span> </p> </td> 
    <td colname="col2"> <p>Detecteert of de gebruiker zich in de opslag bevindt die door de parameter <span class="codeph"> gsname </span> wordt opgegeven. </p> </td> 
   </tr> 
@@ -1153,7 +1151,7 @@ U kunt elk van de volgende lusindicatoren in om het even welk van deze lusjeblok
    <td colname="col2"> <p>Deze voorwaarde is waar wanneer de huidige herhaling de laatste herhaling van de lijn is. Dat betekent niet noodzakelijkerwijs het laatste resultaat of de laatste pagina, maar de laatste die in de huidige context (pagina) wordt getoond. Als de bezoeker van de site zich op pagina 1 bevindt van een resultatenset die 200 resultaten bevat maar slechts 10 resultaten per pagina bevat, is de laatste herhaling resultaat 10 in plaats van resultaat 200. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col01"> <p>3 </p> </td> 
+   <td colname="col01"> <p>1 </p> </td> 
    <td colname="col1"> <p> 
      <!--Updated to match search-eng version, 2/1/2013--> <code> &lt;guided-if[-not]-odd&gt;&lt;guided-else[-not]-odd&gt; 
       &lt;/guided-if[-not]-odd&gt; </code> </p> </td> 
@@ -1225,7 +1223,7 @@ De volgende labels zijn beschikbaar zodat u meer geavanceerde dingen kunt doen m
        </code> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col01"> <p>3 </p> </td> 
+   <td colname="col01"> <p>1 </p> </td> 
    <td colname="col1"> <p> 
      <!--Updated to match search-eng, 2/1/2013--> <span class="codeph"> &lt;guided-query-param gsname="query_parameter"&gt; </span> </p> </td> 
    <td colname="col2"> <p>Hiermee kunt u de bestaande waarde ophalen van een queryparameter die zich op de URL bevindt. Als de parameter niet bestaat, wordt met deze tag een lege tekenreeks geretourneerd. Als u geen escape-optie opgeeft, wordt de geretourneerde tekenreeks automatisch als HTML-escape weergegeven, kunt u HTML- of URL-escape opgeven. </p> <p>Voorbeeld: </p> <p> 
@@ -1650,7 +1648,7 @@ Zie [Over Resultaatlustags](../c-appendices/c-templates.md#section_D4DC7B4560144
   <tr> 
    <td colname="col01"> <p>13 </p> </td> 
    <td colname="col1"> <p> <span class="codeph"> &lt;search-display-field-value date-format="date-format-string" gmt="yes/no" language="0/language-id" encoding="html/javascript/json/perl/url/none"&gt; </span> </p> </td> 
-   <td colname="col2"> <p>Deze tag geeft de waarde van het metagegevensveld weer (url, title, desc, keys, target, body, alt, date, charset en taal of velden gedefinieerd onder <span class="uicontrol"> Opties </span> &gt; <span class="uicontrol"> Metagegevens </span> &gt; <span class="uicontrol"> Definities </span>) voor de huidige <span class="codeph"> &lt;search-display-field-values&gt; </span>. Deze tag is alleen geldig binnen een <span class="codeph"> &lt;search-display-field-values&gt; </span> lus. De <span class="codeph"> datum-notatie </span>, <span class="codeph"> gmt </span> en <span class="codeph"> taal </span> zijn alleen relevant als het inhoudstype van de veldnaam die is opgegeven in de insluitende <span class="codeph"> &lt;search-display-field-values&gt; </span> tag <span class="codeph"> datum </span> is. Het <span class="codeph"> date-format </span>-kenmerk heeft een UNIX-stijl datumnotatietekenreeks zoals <span class="codeph"> "%A </span>, <span class="codeph"> %B </span> <span class="codeph"> %d </span>, <span class="codeph"> %Y </span>" (voor "maandag, juli 25, 2016"). Het <span class="codeph"> gmt </span> attribuut is standaard <span class="codeph"> ja </span> en bepaalt of het tijdgedeelte van de datumtekenreeks wordt uitgevoerd in GMT ( <span class="codeph"> ja </span>) of de tijdzone van de account ( <span class="codeph"> nr </span>). </p> <p>Het <span class="codeph"> taalattribuut </span> controleert de taal en de scèneovereenkomsten van het koord van de outputdatum. <span class="codeph"> 0  </span> (de standaardwaarde) betekent "Account Language gebruiken". Elke andere <span class="codeph"> taal </span> waarde wordt geïnterpreteerd als een specifieke taalherkenningsteken, bijvoorbeeld <span class="codeph"> en_US </span> betekent "Engels (Verenigde Staten)". </p> <p>Het optionele <span class="codeph">-kenmerk codering </span> bepaalt of de uitvoer wordt gecodeerd als HTML, gecodeerd als JavaScript, gecodeerd als Perl, gecodeerd als URL of niet gecodeerd als uitvoer op de resultatenpagina. De standaardwaarde van <span class="codeph"> het coderen </span> is <span class="codeph"> html </span>. Normaal gesproken hoeft u het coderingskenmerk niet op te geven. </p> </td> 
+   <td colname="col2"> <p>Deze tag geeft de waarde van het metagegevensveld weer (url, title, desc, keys, target, body, alt, date, charset en taal of velden gedefinieerd onder <span class="uicontrol"> Opties </span> &gt; <span class="uicontrol"> Metagegevens </span> &gt; <span class="uicontrol"> Definities </span>) voor de huidige <span class="codeph"> &lt;search-display-field-values&gt; </span>. Deze tag is alleen geldig binnen een <span class="codeph"> &lt;search-display-field-values&gt; </span> lus. De <span class="codeph"> datum-notatie </span>, <span class="codeph"> gmt </span> en <span class="codeph"> taal </span> zijn alleen relevant als het inhoudstype van de veldnaam die is opgegeven in de insluitende <span class="codeph"> &lt;search-display-field-values&gt; </span> tag  datum <span class="codeph"> datum </span> is. Het <span class="codeph"> date-format </span>-kenmerk heeft een UNIX-stijl datumnotatietekenreeks zoals <span class="codeph"> "%A </span>, <span class="codeph"> %B </span> <span class="codeph"> %d </span>, <span class="codeph"> %Y </span>" (voor "maandag, juli 25, 2016"). Het <span class="codeph"> gmt </span> attribuut is standaard <span class="codeph"> ja </span> en bepaalt of het tijdgedeelte van de datumtekenreeks wordt uitgevoerd in GMT ( <span class="codeph"> ja </span>) of de tijdzone van de account ( <span class="codeph"> nr </span>). </p> <p>Het <span class="codeph"> taalattribuut </span> controleert de taal en de scèneovereenkomsten van het koord van de outputdatum. <span class="codeph"> 0  </span> (de standaardwaarde) betekent "Account Language gebruiken". Elke andere <span class="codeph"> taal </span> waarde wordt geïnterpreteerd als een specifieke taalherkenningsteken, bijvoorbeeld <span class="codeph"> en_US </span> betekent "Engels (Verenigde Staten)". </p> <p>Het optionele <span class="codeph">-kenmerk codering </span> bepaalt of de uitvoer wordt gecodeerd als HTML, gecodeerd als JavaScript, gecodeerd als Perl, gecodeerd als URL of niet gecodeerd als uitvoer op de resultatenpagina. De standaardwaarde van <span class="codeph"> het coderen </span> is <span class="codeph"> html </span>. Normaal gesproken hoeft u het coderingskenmerk niet op te geven. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>14 </p> </td> 
@@ -1717,7 +1715,7 @@ Zie [Over Resultaatlustags](../c-appendices/c-templates.md#section_D4DC7B4560144
    <td colname="col2"> <p> Deze tags bevatten de HTML tussen de tags als de volgende aanroep van <span class="codeph"> &lt;search-description&gt; </span> tekst uit de documentbeschrijving retourneert (of niet retourneert). </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col01"> <p>3 </p> </td> 
+   <td colname="col01"> <p>1 </p> </td> 
    <td colname="col1"> <p> <span class="codeph"> &lt;search-if-bodytext&gt; ...  &lt;/search-if-bodytext&gt; </span> </p> <p> <span class="codeph"> &lt;search-if-not-bodytext&gt; ...  &lt;/search-if-not-bodytext&gt; </span> </p> </td> 
    <td colname="col2"> <p>Deze tags bevatten de HTML tussen de tags als de volgende aanroep van <span class="codeph"> &lt;search-body text&gt; </span> tekst uit de hoofdtekst van het document retourneert (of niet retourneert). </p> </td> 
   </tr> 
@@ -1734,7 +1732,7 @@ Zie [Over Resultaatlustags](../c-appendices/c-templates.md#section_D4DC7B4560144
   <tr> 
    <td colname="col01"> <p>6 </p> </td> 
    <td colname="col1"> <p> <span class="codeph"> &lt;search-if-score lower="XX" upper="yy" rank="dynamic/static/dynamic-raw/static-raw/final-raw"&gt; ...  &lt;/search-if-score&gt; </span> </p> <p> <span class="codeph"> &lt;search-if-not-score lower="XX" upper="yy" rank="dynamic/static"&gt; ...  &lt;/search-if-not-score&gt; </span> </p> </td> 
-   <td colname="col2"> <p>Deze tags bevatten de HTML tussen de tags als de score van het huidige resultaat al dan niet ligt tussen XX en YY. Nuttig voor het toevoegen van opsommingstekens of afbeeldingen om aan te geven hoe relevant het resultaat is. Als u een randetype gebied onder <span class="uicontrol"> Opties </span> &gt; <span class="uicontrol"> Metagegevens </span> &gt; <span class="uicontrol"> Definities </span> hebt gedefinieerd, kunt u de dynamische paginagrate controleren door het randeattribuut in te stellen op dynamisch ( <span class="codeph"> &lt;search-if-score rank="dynamic" lower=XX=YY&gt; </span>). U kunt de statische paginatieregel controleren door het randeattribuut in te stellen op statisch ( <span class="codeph"> &lt;search-if-score rank="static" lower=XX upper=YY&gt; </span>). </p> </td> 
+   <td colname="col2"> <p>Deze tags bevatten de HTML tussen de tags als de score van het huidige resultaat al dan niet ligt tussen XX en YY. Nuttig voor het toevoegen van opsommingstekens of afbeeldingen om aan te geven hoe relevant het resultaat is. Als u een rank-type gebied onder <span class="uicontrol"> Opties </span> &gt; <span class="uicontrol"> Meta-gegevens </span> &gt; <span class="uicontrol"> Definities </span> hebt bepaald, kunt u de dynamische paginatieregel controleren door het rank attribuut aan dynamisch ( <span class="codeph"> &lt;search-if-score rank="dynamic" lower=XX=YY&gt; </span>) te plaatsen. U kunt de statische paginatieregel controleren door het randeattribuut in te stellen op statisch ( <span class="codeph"> &lt;search-if-score rank="static" lower=XX upper=YY&gt; </span>). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>7 </p> </td> 
@@ -1939,10 +1937,10 @@ Met de volgende geavanceerde tags worden de uitvoerveldwaarden en verwante gegev
   <tr> 
    <td colname="col01"> <p>2 </p> </td> 
    <td colname="col1"> <p> <span class="codeph"> &lt;search-field-value-list-count name="field-name" value="field-value" results="yes/no"&gt; </span> </p> </td> 
-   <td colname="col2"> <p>Deze markering toont telinformatie voor een bepaalde onderzoek-gebied-waarde-lijst. Er zijn drie verschillende toepassingen voor deze tag. Als alleen het kenmerk "name" wordt opgegeven, geeft deze tag als uitvoer het aantal unieke waarden voor het benoemde veld binnen de volledige resultatenset. Als de kenmerken "name" en "value" beide worden opgegeven, genereert dit label ofwel het totale aantal van de opgegeven waarde binnen de volledige resultatenset (voor results="no"), ofwel het totale aantal resultaten dat de opgegeven waarde bevat in de volledige resultatenset (voor results="yes"). De standaardwaarde van "resultaten" is "nee". Opmerking: Voor niet-list-type velden zijn results="yes" en results="no" gelijk. De waarde van "results" wordt genegeerd als het kenmerk "value" niet wordt opgegeven. Met deze tag wordt alleen uitvoer gegenereerd voor velden die zijn opgegeven door de CGI-parameters </span> sp-sfvl-field &lt;a1/&gt; in de zoekquery.<span class="codeph"> </span></p> </td> 
+   <td colname="col2"> <p>Deze markering toont telinformatie voor een bepaalde onderzoek-gebied-waarde-lijst. Er zijn drie verschillende toepassingen voor deze tag. Als alleen het kenmerk "name" wordt opgegeven, geeft deze tag als uitvoer het aantal unieke waarden voor het benoemde veld binnen de volledige resultatenset. Als de kenmerken "name" en "value" beide worden opgegeven, genereert dit label ofwel het totale aantal van de opgegeven waarde binnen de volledige resultatenset (voor results="no"), ofwel het totale aantal resultaten dat de opgegeven waarde bevat in de volledige resultatenset (voor results="yes"). De standaardwaarde van "resultaten" is "nee". Opmerking: Voor niet-list-type velden zijn results="yes" en results="no" gelijk. De waarde van "results" wordt genegeerd als het kenmerk "value" niet wordt opgegeven. Met deze tag wordt alleen uitvoer gegenereerd voor velden die zijn opgegeven door de CGI-parameters </span> sp-sfvl-field <span class="codeph"> in de zoekquery. </span></p> </td> 
   </tr> 
   <tr> 
-   <td colname="col01"> <p>3 </p> </td> 
+   <td colname="col01"> <p>1 </p> </td> 
    <td colname="col1"> <p> <span class="codeph"> &lt;search-if-field-value-list-count name="field-name" value="field-value"&gt; ...  &lt;/search-if-field-value-list-count&gt; </span> </p> <p> <span class="codeph"> &lt;search-if-not-field-value-list-count name="field-name" value="field-value"&gt; ...  &lt;/search-if-not-field-value-list-count&gt; </span> </p> </td> 
    <td colname="col2"> <p>Deze tags geven de HTML tussen de tags weer als de equivalente aanroep van <span class="codeph"> &lt;search-field-value-list-count name="field-name" value="field-value"&gt; </span> met de opgegeven kenmerken een waarde groter dan nul zou (of niet) retourneren. </p> </td> 
   </tr> 
@@ -2015,7 +2013,7 @@ Suggestie biedt een gebruiksvriendelijke &quot;Bedoelde u?&quot; dienst voor het
   <tr> 
    <td colname="col01"> <p>2 </p> </td> 
    <td colname="col1"> <p> <span class="codeph"> &lt;search-suggestions&gt; ...  &lt;/search-suggestions&gt; </span> </p> </td> 
-   <td colname="col2"> <p>Met deze tag wordt de lus "Suggest" gegenereerd, die een lijst bevat met voorgestelde zoektermen (bijvoorbeeld "bedoeling", "voorgenomen" en "bedoeling" voor een query die oorspronkelijk is ingevoerd als "bedoeling"). Bij het genereren van de lijst met termen worden geneste HTML- en/of sjabloontags maximaal vijf keer door het zoekprogramma herhaald. Dit is het maximumaantal suggesties. Gebruik het kenmerk Count om het aantal gegenereerde suggesties (tussen 0 en 5) op te geven. </p> <p>De <span class="codeph"> &lt;search-Suggesties&gt; </span>-tag kan meerdere keren op de pagina worden weergegeven om de lijst met suggesties te herhalen. Meerdere suggesties worden gesorteerd op basis van het aantal resultaten dat elk resultaat oplevert. </p> <p>Plaats de <span class="codeph"> &lt;search-Suggesties&gt; </span>-tag tussen open en close <span class="codeph"> &lt;search-if-Suggesties&gt; </span>-tags. </p> </td> 
+   <td colname="col2"> <p>Met deze tag wordt de lus "Suggest" gegenereerd, die een lijst bevat met voorgestelde zoektermen (bijvoorbeeld "bedoeling", "voorgenomen" en "bedoeling" voor een query die oorspronkelijk is ingevoerd als "bedoeling"). Bij het genereren van de lijst met termen worden geneste HTML- en/of sjabloontags maximaal vijf keer door het zoekprogramma herhaald. Dit is het maximumaantal suggesties. Gebruik het kenmerk Count om het aantal gegenereerde suggesties (tussen 0 en 5) op te geven. </p> <p>De <span class="codeph"> &lt;search-Suggesties&gt; </span>-tag kan meerdere keren op de pagina worden weergegeven om de lijst met suggesties te herhalen. Meerdere suggesties worden gesorteerd op basis van het aantal resultaten dat elk resultaat oplevert. </p> <p>De <span class="codeph"> &lt;search-Suggesties&gt; </span>-tag nesten tussen open en close <span class="codeph"> &lt;search-if-Suggesties&gt; </span>-tags. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>3 </p> </td> 
@@ -2074,7 +2072,7 @@ Met de volgende tags wordt een tekenreeks uitgevoerd naar de HTML op dat punt in
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col01"> <p>3 </p> </td> 
+   <td colname="col01"> <p>1 </p> </td> 
    <td colname="col1"> <p> <span class="codeph"> &lt;search-body&gt; </span> </p> </td> 
    <td colname="col2"> <p>De HTML-body-tag met de instellingen voor Kleur van koppeling zoeken die de sectie Standaard zoeken onder de koppeling Sjabloon instelt. Voeg een achtergrondkenmerk aan deze tag toe om achtergrondafbeeldingen op de resultatenpagina weer te geven. Alle kleurkenmerken die aan deze tag worden toegevoegd, overschrijven de instellingen in de sectie Standaard zoeken in kleur. </p> </td> 
   </tr> 
@@ -2243,7 +2241,7 @@ Tags waarmee u voorwaardelijk HTML tussen de tags kunt opnemen.
    <td colname="col2"> <p>Deze labels bevatten HTML als er aan de vorige of volgende pagina (of geen) resultaten zijn gekoppeld. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col01"> <p>3 </p> </td> 
+   <td colname="col01"> <p>1 </p> </td> 
    <td colname="col1"> <p> <span class="codeph"> &lt;search-if-sort-by-score&gt; ...  &lt;/search-if-sort-by-score&gt; </span> </p> <p> <span class="codeph"> &lt;search-if-not-sort-by-score&gt; ...  &lt;/search-if-not-sort-by-score&gt; </span> </p> <p> <span class="codeph"> &lt;search-if-sort-by-date&gt; ...  &lt;/search-if-sort-by-date&gt; </span> </p> <p> <span class="codeph"> &lt;search-if-not-sort-by-date&gt; ...  &lt;/search-if-not-sort-by-date&gt; </span> </p> </td> 
    <td colname="col2"> <p>Deze labels bevatten HTML als de huidige pagina al dan niet op relevantie of datum is gesorteerd. </p> </td> 
   </tr> 
@@ -2294,14 +2292,14 @@ Tags waarmee u de standaardselectiestatus voor selectievakjes, keuzerondjes en k
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col01"> <p>3 </p> </td> 
+   <td colname="col01"> <p>1 </p> </td> 
    <td colname="col1"> <p> <span class="codeph"> &lt;search-input&gt; </span> </p> </td> 
    <td colname="col2"> <p>Wordt gebruikt in een sjabloon in plaats van een <span class="codeph"> &lt;input&gt; </span>-tag. Wanneer de tag naar de browser wordt geschreven, wordt <span class="codeph">-invoer </span> vervangen door <span class="codeph">-zoekinvoer </span> en wordt alle andere informatie in de tag 'as-is' uitgevoerd. Als de <span class="codeph">-naam </span> in de tag als CGI-parameter wordt vermeld en als de <span class="codeph">-waarde </span> in de tag de waarde voor die CGI-parameter is, wordt bovendien het woord <span class="codeph"> gecontroleerd </span> toegevoegd aan het einde van de tag. Op deze manier kunt u automatisch de status van het standaardkeuzerondje of selectievakje in uw zoekresultaat gelijk maken aan die van de huidige query. </p> <p>De HTML-code voor een selectievakje kan er bijvoorbeeld als volgt uitzien: </p> <p> <span class="codeph"> &lt;input type="checkbox" name="sp_w" value="exact"&gt;Geen overeenkomende geluiden  </span> </p> <p>De overeenkomstige malplaatjecode voor dat checkbox is het volgende: </p> <p> <span class="codeph"> &lt;search-input type="checkbox" name="sp_w" value="exact"&gt;Geen overeenkomende geluiden  </span> </p> <p>Als de CGI-parametertekenreeks voor de query <span class="codeph"> sp_w=exact </span> bevat, ziet de tag die naar de browser wordt geschreven met de zoekresultaten er als volgt uit (het woord <span class="codeph"> ingeschakeld </span> wordt ingevoegd aan het einde van de tag): </p> <p> <span class="codeph"> &lt;input type="checkbox" name="sp_w" value="exact" checked=""&gt;Geen overeenkomende geluiden  </span> </p> <p>Als de CGI-parametertekenreeks voor de query geen <span class="codeph"> sp_w=exact </span> bevat, ziet de tag die met de zoekresultaten naar de browser wordt geschreven er als volgt uit (het woord <span class="codeph"> ingeschakeld </span> is niet opgenomen in de tag): </p> <p> <span class="codeph"> &lt;input type="checkbox" name="sp_w" value="exact"&gt;Geen overeenkomende geluiden  </span> </p> <p>De tag <span class="codeph"> &lt;search-input&gt; </span> is handig om selectievakjes en keuzerondjes in uw zoeksjabloon te plaatsen. Als u selectievakjes of keuzerondjes hebt die u aan <span class="codeph"> &lt;form&gt; </span> in uw zoeksjabloon wilt toevoegen, gebruikt u <span class="codeph"> &lt;search-input...&gt; </span> in plaats van <span class="codeph"> &lt;input...&gt; </span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>2 </p> </td> 
    <td colname="col1"> <p> <span class="codeph"> &lt;search-select&gt; ...  &lt;/search-select&gt; </span> </p> <p> <span class="codeph"> &lt;search-option&gt; ...  &lt;/search-option&gt; </span> </p> </td> 
-   <td colname="col2"> <p>Vervolgkeuzelijsten in een <span class="codeph"> &lt;form&gt; </span>-tag worden gestart met een <span class="codeph"> &lt;select&gt; </span>-tag en eindigen met een <span class="codeph"> &lt;/select&gt; </span>-tag. De <span class="codeph">-naam </span> voor de bijbehorende CGI-parameter wordt vermeld in de <span class="codeph"> &lt;select&gt; </span>-tag. Na de <span class="codeph"> &lt;select&gt; </span>-tag volgt een lijst met <span class="codeph"> &lt;option&gt; </span>-tags die de waarden opgeven die in het lijstvak moeten worden weergegeven. </p> <p>De <span class="codeph"> &lt;search-select&gt; </span>, <span class="codeph"> &lt;/search-select&gt; </span>, <span class="codeph"> &lt;search-option&gt; </span> en <span class="codeph"> &lt;/search-option&gt; </span> &lt;a7/&gt; bieden vergelijkbare functionaliteit als de <span class="codeph"> &lt;search-input&gt; </span>-tag. Het woord <span class="codeph"> geselecteerd </span> wordt dus automatisch toegevoegd aan het einde van de <span class="codeph"> &lt;option&gt; </span>-tag die naar de browser wordt verzonden als de <span class="codeph">-naam </span> in <span class="codeph"> </span> &lt;a7/&gt;-tag als CGI-parameter wordt vermeld en als de <span class="codeph">-waarde </span> van die CGI-parameter is vermeld als <span class="codeph"> waarde </span> in een bepaalde <span class="codeph"> &lt;search-option&gt; </span> markering. Op deze manier kunt u de standaardkeuzelijst in uw zoekresultaat automatisch gelijk maken aan de huidige query. </p> <p>Een keuzelijst die standaard bijvoorbeeld als volgt wordt weergegeven: </p> <p> <code class="syntax html"> &lt;select&nbsp;name="sp_x"&nbsp;size=1&gt; 
+   <td colname="col2"> <p>Vervolgkeuzelijsten in een <span class="codeph"> &lt;form&gt; </span>-tag worden gestart met een <span class="codeph"> &lt;select&gt; </span>-tag en eindigen met een <span class="codeph"> &lt;/select&gt; </span>-tag. De <span class="codeph">-naam </span> voor de bijbehorende CGI-parameter wordt vermeld in de <span class="codeph"> &lt;select&gt; </span>-tag. Na de <span class="codeph"> &lt;select&gt; </span>-tag volgt een lijst met <span class="codeph"> &lt;option&gt; </span>-tags die de waarden opgeven die in het lijstvak moeten worden weergegeven. </p> <p>De <span class="codeph"> &lt;search-select&gt; </span>, <span class="codeph"> &lt;/search-select&gt; </span>, <span class="codeph"> &lt;search-option&gt; </span> en <span class="codeph"> &lt;/search-option&gt; </span>  bieden vergelijkbare functionaliteit als de <span class="codeph"> &lt;search-input&gt; </span>-tag. Het woord <span class="codeph"> geselecteerd </span> wordt dus automatisch toegevoegd aan het einde van de <span class="codeph"> &lt;option&gt; </span>-tag die naar de browser wordt verzonden als de <span class="codeph">-naam </span> in <span class="codeph"> </span> -tag als CGI-parameter wordt vermeld en als de <span class="codeph">-waarde </span> van die CGI-parameter is vermeld als <span class="codeph"> waarde </span> in een bepaalde <span class="codeph"> &lt;search-option&gt; </span> markering. Op deze manier kunt u de standaardkeuzelijst in uw zoekresultaat automatisch gelijk maken aan de huidige query. </p> <p>Een keuzelijst die standaard bijvoorbeeld als volgt wordt weergegeven: </p> <p> <code class="syntax html"> &lt;select&nbsp;name="sp_x"&nbsp;size=1&gt; 
       &lt;option&nbsp;value="any"&nbsp;selected&gt;Anywhere&lt;/option&gt; 
       &lt;option&nbsp;value="title"&gt;Title&lt;/option&gt; 
       &lt;option&nbsp;value="desc"&gt;Description&lt;/option&gt; 

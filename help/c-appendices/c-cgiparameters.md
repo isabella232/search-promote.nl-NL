@@ -1,15 +1,13 @@
 ---
-description: 'null'
-seo-description: 'null'
-seo-title: CGI-parameters
+description: Leer hoe u verschillende CGI-parameters kunt gebruiken.
 solution: Target
 title: CGI-parameters
-topic: Appendices,Site search and merchandising
+topic: Bijlagen,zoeken en verhandelen van sites
 uuid: a5f43547-bc15-44aa-ba23-6b8b573e09d2
 translation-type: tm+mt
-source-git-commit: 930ceebc6c35006c6b8bc96bc799b3242b6818e1
+source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
 workflow-type: tm+mt
-source-wordcount: '1934'
+source-wordcount: '1943'
 ht-degree: 0%
 
 ---
@@ -55,7 +53,7 @@ Elke keer dat de SEO-indeling wordt gebruikt om een aanvraag te verzenden, worde
 | collectie | `collection=string` | Geeft de verzameling op die voor de zoekopdracht moet worden gebruikt.  Deze parameter brengt aan de `sp_k` achterste onderzoeksparameter in kaart.  Zie [CGI-parameters voor achtergrondzoeken](../c-appendices/c-cgiparameters.md#reference_582E85C3886740C98FE88CA9DF7918E8). |
 | aantal | `count=number` | Hiermee geeft u het totale aantal resultaten op dat wordt weergegeven.  De standaardwaarde wordt gedefinieerd in [!UICONTROL Settings ] > [!UICONTROL Searching ] > [!UICONTROL Searches ]. .  Deze parameter brengt aan de `sp_c` achterste onderzoeksparameter in kaart.  Zie [CGI-parameters voor achtergrondzoeken](../c-appendices/c-cgiparameters.md#reference_582E85C3886740C98FE88CA9DF7918E8). |
 | page | `page=number` | Geeft de pagina met resultaten aan die worden geretourneerd. |
-| rangschikken | `rank=field` | Hiermee geeft u het rangtelveld op dat moet worden gebruikt voor statische waarderingen.  Het veld moet een veld van het type Rank zijn met een relevantie groter dan 0.  Deze parameter verwijst naar de backend-parameter `sp_sr`.  Zie [CGI-parameters voor achtergrondzoeken](../c-appendices/c-cgiparameters.md#reference_582E85C3886740C98FE88CA9DF7918E8). |
+| rangschikken | `rank=field` | Hiermee geeft u het veld met rangorde op dat u wilt gebruiken voor statische rangschikking.  Het veld moet een veld van het type Rank zijn met een relevantie groter dan 0.  Deze parameter verwijst naar de backend-parameter `sp_sr`.  Zie [CGI-parameters voor achtergrondzoeken](../c-appendices/c-cgiparameters.md#reference_582E85C3886740C98FE88CA9DF7918E8). |
 | sorteren | `sort=number` | Hiermee geeft u de sorteervolgorde op.<br>&quot;0&quot; is de standaardwaarde en sorteert op relevantiescore; &quot;1&quot; sorteert op datum; &quot;-1&quot; wordt niet gesorteerd.  Gebruikers kunnen een veldnaam opgeven voor de waarde van de parameter `sp_s`.  De resultaten worden bijvoorbeeld met `sp_s=title` gesorteerd op basis van de waarden in het titelveld. Wanneer een veldnaam wordt gebruikt voor de waarde van een parameter ` sp_s `, worden de resultaten gesorteerd door dat veld en vervolgens gesubsorteerd op relevantie.  Klik op [!UICONTROL Settings ] > [!UICONTROL Metadata ] > [!UICONTROL Definitions ] om deze functie in te schakelen. Voor de pagina van Definities, klik [!UICONTROL Add New Field ] of klik [!UICONTROL Edit ] voor een bepaalde gebiedsnaam. Selecteer [!UICONTROL Ascending ] of [!UICONTROL Descending ] in de vervolgkeuzelijst [!UICONTROL Sorting ]. Deze parameter brengt aan de `sp_s` achterste onderzoeksparameter in kaart. <br>Zie CGI-parameters voor  [achtergrondzoekopdrachten].(../c-appendices/c-cgiparameters.md#reference_582E85C3886740C98FE88CA9DF7918E8). |
 
 ## CGI-parameters voor achtergrondzoekopdrachten {#reference_582E85C3886740C98FE88CA9DF7918E8}
@@ -75,7 +73,7 @@ U kunt de parameters van het achterste onderzoekCGI van de volgende lijst select
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>3 </p> </td> 
+   <td colname="col1"> <p>1 </p> </td> 
    <td colname="col2"> <p>sp_a </p> </td> 
    <td colname="col03"> <p> </p> </td> 
    <td colname="col3"> <p> <code>sp_a= string </code> </p> </td> 
@@ -89,7 +87,7 @@ U kunt de parameters van het achterste onderzoekCGI van de volgende lijst select
    <td colname="col4"> <p>Als <code>sp_advanced=1 </code> met een vraag wordt voorgelegd, dan wordt al code tussen de <code>&lt;search-if-advanced&gt; </code> markering en <code>&lt;/search-if-advanced&gt; </code> markering in het onderzoeksmalplaatje gebruikt voor het onderzoeksformulier. Alle code tussen de tag <code>&lt;search-if-not-advanced&gt; </code> en de tag <code>&lt;/search-if-not-advanced&gt; </code> wordt genegeerd. Als <code>sp_advanced=0 </code> (of een andere waarde) wordt verzonden, wordt het sjabloonblok &lt;search-if-advanced&gt; genegeerd en wordt het sjabloonblok &lt;search-if-not-advanced&gt; gebruikt. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>3 </p> </td> 
+   <td colname="col1"> <p>1 </p> </td> 
    <td colname="col2"> <p>sp_c </p> </td> 
    <td colname="col03"> <p> </p> </td> 
    <td colname="col3"> <p> <code>sp_c= number </code> </p> </td> 

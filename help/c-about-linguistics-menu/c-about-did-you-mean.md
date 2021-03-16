@@ -1,15 +1,13 @@
 ---
 description: U kunt vormen Bedoelde u zodat de klanten suggesties voor geldige onderzoekstermijnen krijgen wanneer zij onderzoeken hebben geprobeerd die ontbroken hebben. Suggesties worden gevormd door spelling te zoeken en correcties in de zoektermen te typen die resulteren in een geldige zoekopdracht.
-seo-description: U kunt vormen Bedoelde u zodat de klanten suggesties voor geldige onderzoekstermijnen krijgen wanneer zij onderzoeken hebben geprobeerd die ontbroken hebben. Suggesties worden gevormd door spelling te zoeken en correcties in de zoektermen te typen die resulteren in een geldige zoekopdracht.
-seo-title: Info Bedoelde je
 solution: Target
 title: Info Bedoelde je
-topic: Linguistics,Site search and merchandising
+topic: Taalkunde, zoeken en verhandelen van sites
 uuid: c5973541-3d6b-4fc9-bad4-66d4d3559fe8
 translation-type: tm+mt
-source-git-commit: ef818327e1cdaad79ac47575a8dfba1de3dc5c2e
+source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
 workflow-type: tm+mt
-source-wordcount: '776'
+source-wordcount: '733'
 ht-degree: 0%
 
 ---

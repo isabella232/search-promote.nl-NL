@@ -1,15 +1,13 @@
 ---
 description: Met Simulator kunt u zien hoe uw zoekopdracht eruit zou zien als u alles wat momenteel gefaseerd is, live zou duwen.
-seo-description: Met Simulator kunt u zien hoe uw zoekopdracht eruit zou zien als u alles wat momenteel gefaseerd is, live zou duwen.
-seo-title: Info Simulator
 solution: Target
 title: Info Simulator
-topic: Simulator,Site search and merchandising
+topic: Simulator, zoeken en verhandelen van sites
 uuid: 7ec8f5b9-3ab3-4b9a-bf8a-65d0ca1dfddb
 translation-type: tm+mt
-source-git-commit: 91ddead9f73b73ea1a20e26582998966f801d6ff
+source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
 workflow-type: tm+mt
-source-wordcount: '398'
+source-wordcount: '380'
 ht-degree: 0%
 
 ---

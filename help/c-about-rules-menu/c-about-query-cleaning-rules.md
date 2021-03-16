@@ -1,15 +1,13 @@
 ---
 description: De Regels van de Schoonmaak van de Vraag van het gebruik om de inkomende vraag te analyseren en te wijzigen.
-seo-description: De Regels van de Schoonmaak van de Vraag van het gebruik om de inkomende vraag te analyseren en te wijzigen.
-seo-title: Info over Regels voor het opschonen van query's
 solution: Target
 title: Info over Regels voor het opschonen van query's
-topic: Rules,Site search and merchandising
+topic: Regels, zoeken en verhandelen van sites
 uuid: 683af81f-f7c0-45f8-9212-e5e7cb82ccca
 translation-type: tm+mt
-source-git-commit: d07cdc2c88f93eed4cecb0ee8818f7fdea06ee9d
+source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
 workflow-type: tm+mt
-source-wordcount: '1611'
+source-wordcount: '1601'
 ht-degree: 0%
 
 ---
@@ -122,7 +120,7 @@ Zie [Informatie over sjablonen](../c-about-design-menu/c-about-templates.md#conc
       </tr> 
       <tr> 
       <td colname="col1"> <p>Backend-parameter </p> </td> 
-      <td colname="col2"> <p>Binnenkomende vraagparameters worden uiteindelijk vertaald in achterste parameters die worden gebruikt om het onderzoek uit te voeren. </p> <p>Zie <a href="../c-appendices/c-cgiparameters.md#reference_582E85C3886740C98FE88CA9DF7918E8" type="reference" format="dita" scope="local"> CGI-parameters voor achtergrondzoekopdrachten </a>. </p> <p>Achterste parameters worden niet weergegeven op navigatie-elementen. Dientengevolge, kunt u om het even welke extra parameters verbergen die u op een onderzoek van uw klanten wilt toepassen. Acties met betrekking tot parameters van het achterste deel zijn te laat bindend; dat wil zeggen, ze worden toegepast vlak voordat de zoekopdracht wordt verzonden. </p> </td> 
+      <td colname="col2"> <p>Binnenkomende vraagparameters worden uiteindelijk vertaald in achterste parameters die worden gebruikt om het onderzoek uit te voeren. </p> <p>Zie <a href="../c-appendices/c-cgiparameters.md#reference_582E85C3886740C98FE88CA9DF7918E8" type="reference" format="dita" scope="local"> CGI-parameters voor achtergrondzoekopdrachten </a>. </p> <p>Achterste parameters worden niet weergegeven op navigatie-elementen. Dientengevolge, kunt u om het even welke extra parameters verbergen die u op een onderzoek van uw klanten wilt toepassen. Acties betreffende parameters van het achterste deel zijn te laat bindend; dat wil zeggen, ze worden toegepast vlak voordat de zoekopdracht wordt verzonden. </p> </td> 
       </tr> 
       <tr> 
       <td colname="col1"> <p>Facet </p> </td> 

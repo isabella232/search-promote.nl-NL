@@ -1,42 +1,45 @@
 ---
-title: 'Lorem Ipsum '
-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vulputate nulla quis libero sagittis sollicitudine.
-solution: Target
+title: Adobe Search&Promote-aankondiging van einde service
+description: Meer weten over de aankondiging van het einde van de service van Adobe Search&Promote?
+feature: null
+role: Beheerder, Business Practice, Data Engineer, Developer
 hide: true
 hidefromtoc: true
 translation-type: tm+mt
-source-git-commit: ce3b55f0265c52670a81a17b9eff79309ff32bc0
+source-git-commit: aa10a950262e5d1828da3d2e417dd5a5b752029b
 workflow-type: tm+mt
-source-wordcount: '279'
+source-wordcount: '330'
 ht-degree: 0%
 
 ---
 
 
-# Lorem Ipsum
+# Adobe Search&amp;Promote-aankondiging van einde service
 
-## Lorem ipsum dolor sit amet
+## Veelgestelde vragen over einde-service voor Search&amp;Promote
 
-Consectetur adipiscing elit. Etiam vulputate nulla quis libero sagittis sollicitudine. Quisque pellentesque enim sit amet maximus commodo. Suspendisse vitae risus volutpat, Vehicle orci a, placerat nulla. Curabitur ullamcorper quis dolor ac lacinia. Fusce aliquet egestas mi nec facilitisis.
+### **_Op welke datum zal Search&amp;Promote niet langer actief zijn?_**
 
-Donec neque odio, scelerisque gebruikte odio a, consectetur efficiency ex. Nunc sodales vitae turpis non rutrum. Mauris imperdieetsollicitudin leo vel efficiency. Quisque mattis nulla eget nulla ornare, ac tempor lorem maximus. In Facisis nisl elit, et vulputate nunc maximus quis.
+Het einde van de dienst voor Search&amp;Promote is gepland voor 1 augustus 2022. Op die datum is de beheergebruikersinterface van de Search&amp;Promote niet meer toegankelijk en leveren aanvragen aan Search&amp;Promote-API&#39;s niet langer resultaten. Vóór deze datum, zal de dienst volledig beschikbaar en functioneel zijn.
 
-### **_Lorem ipsum dolor sit amet, consectetur adipiscing elit?_**
+### **_Wat gebeurt er als een zoekopdracht of een andere API-aanvraag wordt gedaan aan Search&amp;Promote?_**
 
-In rutrum metus bij metusvolutpat-sodales. Donec imperfood augue nec ipsum vestibulum, in elementum ante egestas. Duis sodales ligula maximus ex auctor, op de veilingmeester malesuada.
+Zoekopdrachten en andere API-verzoeken aan Search&amp;Promote zullen niet langer resultaten opleveren. Aanvragen kunnen resulteren in een fout &#39;Host niet gevonden&#39;, een 3xx HTTP-omleiding of een HTTP-fout zoals 404, 408 of een andere HTTP-foutcode.
 
-### **_Pellentesque fringilla purus convallis, sollicitudin leo sit amet, condimentum ex?_**
+### **_Beschikt Adobe over alternatieve mogelijkheden voor het zoeken naar locaties en de handel?_**
 
-Quisque a magna dictum, molestie mauris at, iaculis leo. Pellentesque vel erat ac tellus voertuig ultricies. Morbi condimentum ligula ut condimentum gevolgat.
+Ja. Voor product en handel onderzoek, [Levend Onderzoek van Magento Commerce](https://blog.adobe.com/en/publish/2020/11/23/new-ai-capabilities-for-magento-commerce-improve-retail.html) is de onderzoekstoepassing van Adobe vooruit. Live zoeken vanuit Magento Commerce is bedoeld om in de eerste helft van 2021 te worden gestart.
 
-### **_Curabitur id nunc at massa fringilla condimentum?_**
+### **_Kan Adobe om het even welke kaders of platforms adviseren die eigenschappen gelijkend op Search&amp;Promote aanbieden?_**
 
-Morbi eu nisl nec urna aliquet laoreet. Suspendesse luctus nisl in bibendum scelerisque. Pellentesque sit amet lacus vel erat convallis ornare. Quisque gravida eros eu dapibus tempor.
+Ja. Als de functie Search&amp;Promote van essentieel belang is voor uw marketingstrategie, moet u rekening houden met de vele open-sourceframeworks die er zijn voor energiezoekopdrachten, zoals [Apache Solr](https://solr.apache.org/) en [Elastic Free en Open](https://www.elastic.co/about/free-and-open).
 
-### **_Massa fringilla condimentum_**
+Bovendien bieden zowel [AWS](https://aws.amazon.com/cloudsearch/) als [Microsoft® Azure](https://azure.microsoft.com/en-us/services/search/) mogelijkheden voor cloud-native zoekopdrachten op hun respectievelijke cloudplatforms. U kunt beide opties integreren in Adobe Experience Manager Sites om het zoeken naar sites en meer mogelijk te maken.
 
-Morbi eu nisl nec urna aliquet laoreet. Suspendesse luctus nisl in bibendum scelerisque. Pellentesque sit amet lacus vel erat convallis ornare. Quisque gravida eros eu dapibus tempor.
+### **_Met wie kan ik contact opnemen voor meer informatie?_**
 
-### **_Nam et sem ac quam sollicitudin egestas et sit amet ligula?_**
+Neem contact op met uw Customer Success Manager (CSM) met vragen of neem contact op met het Adobe-team op [searchquestions@adobe.com](mailto:searchquestions@adobe.com).
 
-Ut id libero at velit porttitor lacinia sagittis sit amet metus. Nulla Vehicle Odio Molis dolor facilisis tempor. Morbi sit amet felis sit amet dolor varius vehicle. Nulla vel leo gebruikte purus varius rhoncus.
+### **_Kan ik mijn geldige Search&amp;Promote nog verlengen voor het einde van de service?_**
+
+Ja. Werk samen met uw Adobe-vertegenwoordiger om uw licentie uiterlijk op 1 augustus 2022 te vernieuwen met een einddatum voor de overeenkomst.

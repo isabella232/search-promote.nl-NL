@@ -1,15 +1,13 @@
 ---
 description: U kunt gemeenschappelijke uitdrukkingen bepalen die op uw website worden gebruikt zodat wanneer een klant een onderzoeksvraag ingaat, zij geen citaten hoeven in te gaan rond om het even welke uitdrukkingen u hebt bepaald.
-seo-description: U kunt gemeenschappelijke uitdrukkingen bepalen die op uw website worden gebruikt zodat wanneer een klant een onderzoeksvraag ingaat, zij geen citaten hoeven in te gaan rond om het even welke uitdrukkingen u hebt bepaald.
-seo-title: Informatie over algemene woordgroepen
 solution: Target
 title: Informatie over algemene woordgroepen
-topic: Linguistics,Site search and merchandising
+topic: Taalkunde, zoeken en verhandelen van sites
 uuid: 0f980a22-d826-4476-97de-0e9c14549bc8
 translation-type: tm+mt
-source-git-commit: 8efa90ac2927b263b7d48ccbf25d4b0e917dac79
+source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
 workflow-type: tm+mt
-source-wordcount: '1216'
+source-wordcount: '1183'
 ht-degree: 0%
 
 ---

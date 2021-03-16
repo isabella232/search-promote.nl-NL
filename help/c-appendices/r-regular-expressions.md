@@ -1,15 +1,13 @@
 ---
 description: Een vernieuwingsfunctie voor de syntaxis en regels voor het maken van reguliere expressies.
-seo-description: Een vernieuwingsfunctie voor de syntaxis en regels voor het maken van reguliere expressies.
-seo-title: Reguliere expressies
 solution: Target
 title: Reguliere expressies
-topic: Appendices,Site search and merchandising
+topic: Bijlagen,zoeken en verhandelen van sites
 uuid: 369b54f6-372a-41de-bb5d-3ae0bd640199
 translation-type: tm+mt
-source-git-commit: 7b883870bb16284d8070a21547cdb62cc79d7632
+source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
 workflow-type: tm+mt
-source-wordcount: '1058'
+source-wordcount: '1050'
 ht-degree: 0%
 
 ---
@@ -73,7 +71,7 @@ Zie ook [Een incrementele index van een gefaseerde website configureren](../c-ab
   <tr> 
    <td colname="col1"> </td> 
    <td colname="col2"> <p> (tekst) </p> </td> 
-   <td colname="col3"> <p> Groepering van tekst, of om de grenzen van een alternatief te plaatsen of achterverwijzingen te maken waar de Nth groep op RHS van RewriteRule met $N wordt gebruikt) </p> </td> 
+   <td colname="col3"> <p> Groepering van tekst, of om de grenzen van een alternatief te plaatsen of achterverwijzingen te maken waar de Nde groep op RHS van RewriteRule met $N wordt gebruikt) </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Ankers</b> </p> </td> 

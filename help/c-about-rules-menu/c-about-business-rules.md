@@ -1,15 +1,13 @@
 ---
 description: U kunt de BedrijfsRegels gebruiken om uw onderzoek te ruilen.
-seo-description: U kunt de BedrijfsRegels gebruiken om uw onderzoek te ruilen.
-seo-title: Informatie over bedrijfsregels
 solution: Target
 title: Informatie over bedrijfsregels
-topic: Rules,Site search and merchandising
+topic: Regels, zoeken en verhandelen van sites
 uuid: f2186f54-7a39-4f46-bb29-5115d5a17f07
 translation-type: tm+mt
-source-git-commit: fc1f0b15a15a9d0308494fc23c5b4258442c8aab
+source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
 workflow-type: tm+mt
-source-wordcount: '3127'
+source-wordcount: '3120'
 ht-degree: 0%
 
 ---
@@ -74,7 +72,7 @@ De volgende stappen veronderstellen u de Visuele Bouwer van de Regel gebruikt.
 
    * Klik in het productmenu op **[!UICONTROL Rules]** > **[!UICONTROL Business Rules]**. Klik op [!DNL Business Rules] op de pagina.**[!UICONTROL Add New Rule]**
 
-   * Klik in het productmenu op **[!UICONTROL Simulator]**. Klik op **[!UICONTROL Simulator for Today]** rechts van het vervolgkeuzemenu **[!UICONTROL Options]** op de pagina &lt;a0/>.**[!UICONTROL Add New Rule]**
+   * Klik in het productmenu op **[!UICONTROL Simulator]**. Klik op **[!UICONTROL Simulator for Today]** rechts van het vervolgkeuzemenu **[!UICONTROL Options]** op de pagina **[!UICONTROL Add New Rule]**.
 
       Als de optie **[!UICONTROL Add New Rule]** niet zichtbaar is op de pagina, klikt u in de vervolgkeuzelijst **[!UICONTROL Options]** op **[!UICONTROL Simulate Staged]**.
 

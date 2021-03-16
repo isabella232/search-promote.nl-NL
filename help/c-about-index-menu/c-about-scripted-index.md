@@ -1,16 +1,14 @@
 ---
 description: Met Scripted Index kunt u stijgende indexeringsopties schrijven, bijwerken en handhaven zonder de behoefte aan login. De zoekrobot leest instructies uit een tekstbestand dat op uw server wordt gehost.
-seo-description: Met Scripted Index kunt u stijgende indexeringsopties schrijven, bijwerken en handhaven zonder de behoefte aan login. De zoekrobot leest instructies uit een tekstbestand dat op uw server wordt gehost.
-seo-title: Over Scriptindex
 solution: Target
 subtopic: Scripted Index
 title: Over Scriptindex
-topic: Index,Site search and merchandising
+topic: Index, zoeken en verhandelen van sites
 uuid: 51e726ad-414b-4cbd-8a68-fefc3cf9b565
 translation-type: tm+mt
-source-git-commit: 552f93f1f630c64bbe3d5c8a87c4f5895ae6868c
+source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
 workflow-type: tm+mt
-source-wordcount: '1761'
+source-wordcount: '1730'
 ht-degree: 0%
 
 ---
@@ -163,7 +161,7 @@ Zie ook [Informatie over URL-maskers](../c-about-settings-menu/c-about-crawling-
 
 ## Voorbeeld van scriptbestand {#section_9F580F20E7214751B157A28B392BD64E}
 
-In het volgende voorbeeld van het manuscriptdossier, verwerkt de onderzoeksrobot de blokken op voorwaarde dat date-specifiers de datum-specifier van het onlangs verwerkte blok post-date. Als dat het geval is, vinden de volgende indexeringsverrichtingen plaats:
+In het volgende scriptbestandvoorbeeld verwerkt de zoekrobot de blokken op voorwaarde dat de date-specifiers de date-specifier van het laatst verwerkte blok zijn. Als dat het geval is, vinden de volgende indexeringsverrichtingen plaats:
 
 * Verwijdert `y2k-problems.html` uit de index.
 * Voegt `no-y2k-problems.html` aan de onderzoeksindex toe en volgt geen van de verbindingen voor `no-y2k-problems.html`.
@@ -253,7 +251,7 @@ Het indexschema is alleen van toepassing op uw live index. u kunt gefaseerde inc
 
 ## Een gescripte incrementele index van een actieve of gefaseerde website uitvoeren {#task_6E6FC76EE1E84A5FADB3B67AD7B1DACB}
 
-U kunt Scripted Incrementele Index gebruiken om &quot;stukken&quot; van uw actieve of gefaseerde website te indexeren, zoals een verzameling pagina&#39;s die vaak worden gewijzigd, zonder dat u zich hoeft aan te melden.
+U kunt Scripted Incremental Index gebruiken om &quot;stukken&quot;van uw levende of gefaseerde website, zoals een inzameling van vaak veranderde pagina&#39;s te indexeren, allen zonder de behoefte om binnen te registreren.
 
 Als u deze functie wilt gebruiken, moet u een gescript incrementeel indextekstbestand configureren.
 

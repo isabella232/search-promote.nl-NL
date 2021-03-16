@@ -1,16 +1,14 @@
 ---
 description: In het menu Mijn profiel kunt u persoonlijke gegevens, voorkeuren, aanmeldingswachtwoord en toegangsrechten instellen.
-seo-description: In het menu Mijn profiel kunt u persoonlijke gegevens, voorkeuren, aanmeldingswachtwoord en toegangsrechten instellen.
-seo-title: Het menu Mijn profiel
 solution: Target
 subtopic: My Profile
 title: Het menu Mijn profiel
-topic: Settings,Site search and merchandising
+topic: Instellingen, zoeken en verhandelen van sites
 uuid: 6a0a4e57-59fa-48fb-b712-eb16a9f47c3a
 translation-type: tm+mt
-source-git-commit: f21a3f7fe0aeaab517a5ca36da43594873b3e69a
+source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
 workflow-type: tm+mt
-source-wordcount: '1071'
+source-wordcount: '1055'
 ht-degree: 0%
 
 ---
@@ -109,7 +107,7 @@ Zie [Uw toegangsrechten bekijken](../c-about-settings-menu/c-about-my-profile-me
 
 U kunt ervoor kiezen uw aanmelding voor Adobe te annuleren. Als u uw aanmelding annuleert, hebt u geen toegang tot dit account of een andere Adobe-account met de weergegeven aanmeldings-e-mail.
 
-Als eigenaar van een account kunt u, voordat u uw aanmelding kunt annuleren, de eigendom van een account overdragen aan een andere actieve gebruiker. Wanneer deze actie is voltooid, kunt u de aanmelding net als elke andere gebruiker van de account annuleren.
+Als eigenaar van een account kunt u, voordat u uw aanmelding kunt annuleren, de eigendom van een account overdragen naar een andere actieve gebruiker van een account. Wanneer deze actie is voltooid, kunt u de aanmelding net als elke andere gebruiker van de account annuleren.
 
 Zie [Accounteigendom overdragen aan een andere accountgebruiker](../c-about-settings-menu/c-about-account-options-menu.md#task_47E3C66CC6374274830DA10171E0CF17).
 

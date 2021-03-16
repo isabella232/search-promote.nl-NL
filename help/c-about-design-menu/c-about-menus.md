@@ -1,16 +1,14 @@
 ---
 description: Met menu's kunt u de presentatielaag aanpassen.
-seo-description: Met menu's kunt u de presentatielaag aanpassen.
-seo-title: Menu's
 solution: Target
 subtopic: Navigation
 title: Menu's
-topic: Design,Site search and merchandising
+topic: Ontwerpen, zoeken en verhandelen van sites
 uuid: 011050cd-21b6-4150-9503-18fa3f771626
 translation-type: tm+mt
-source-git-commit: 552f93f1f630c64bbe3d5c8a87c4f5895ae6868c
+source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
 workflow-type: tm+mt
-source-wordcount: '763'
+source-wordcount: '757'
 ht-degree: 1%
 
 ---

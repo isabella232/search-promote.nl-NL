@@ -1,15 +1,13 @@
 ---
 description: U kunt Uitgesloten woorden gebruiken om veelgebruikte woordgroepen en veelgebruikte woorden, zoals "a" en "het", op te geven die u uit zoekresultaten wilt weglaten.
-seo-description: U kunt Uitgesloten woorden gebruiken om veelgebruikte woordgroepen en veelgebruikte woorden, zoals "a" en "het", op te geven die u uit zoekresultaten wilt weglaten.
-seo-title: Info over Uitgesloten woorden
 solution: Target
 title: Info over Uitgesloten woorden
-topic: Linguistics,Site search and merchandising
+topic: Taalkunde, zoeken en verhandelen van sites
 uuid: 1c879462-1b19-44f6-a3b2-20aa786b3221
 translation-type: tm+mt
-source-git-commit: 46cdbdf94ba8f92dba7d03ce80b25a2ae73b228a
+source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
 workflow-type: tm+mt
-source-wordcount: '713'
+source-wordcount: '688'
 ht-degree: 0%
 
 ---
@@ -37,7 +35,7 @@ Sommige sites bevatten specifieke zinnen op de meeste of alle pagina&#39;s. Een 
 
 ![](assets/excluded_words_2.jpg)
 
-Wanneer een woordgroep wordt uitgesloten, worden de afzonderlijke woorden waaruit deze bestaat nog steeds gebruikt als zoektermen. Alleen wanneer een bezoeker de exacte woorden zoekt, in de exacte volgorde van een uitgesloten woordgroep, is de woordgroep die is uitgesloten van de zoekresultaten. Met behulp van het bovenstaande voorbeeld worden het woord &quot;the&quot; en de woorden &quot;new york&quot; uitgesloten als een klant naar het &quot;new york ballet&quot; heeft gezocht. alleen pagina&#39;s met het woord &quot;ballet&quot; worden geretourneerd als zoekresultaat. Bij een zoekopdracht naar &quot;nieuwe gebouwen&quot; of &quot;duke of york&quot; worden echter nog steeds pagina&#39;s gevonden die respectievelijk het woord &quot;nieuw&quot; of &quot;geur&quot; bevatten.
+Wanneer een woordgroep wordt uitgesloten, worden de afzonderlijke woorden waaruit deze bestaat nog steeds gebruikt als zoektermen. Alleen wanneer een bezoeker de exacte woorden zoekt, in de exacte volgorde van een uitgesloten woordgroep, is de woordgroep die is uitgesloten van de zoekresultaten. In het bovenstaande voorbeeld worden het woord &quot;the&quot; en de zinsnede &quot;new york&quot; uitgesloten als een klant naar het &quot;new york ballet&quot; heeft gezocht. alleen pagina&#39;s met het woord &quot;ballet&quot; worden geretourneerd als zoekresultaat. Bij een zoekopdracht naar &quot;nieuwe gebouwen&quot; of &quot;duke of york&quot; worden echter nog steeds pagina&#39;s gevonden die respectievelijk het woord &quot;nieuw&quot; of &quot;geur&quot; bevatten.
 
 ## Uitgesloten woorden {#task_60BF6BB7A66C48479D2BBB32C0F38CDE} configureren
 

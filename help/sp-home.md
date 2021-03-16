@@ -1,15 +1,13 @@
 ---
 title: Adobe &Zoeken;amp;Technische documentatie bevorderen
-seo-title: Adobe &Zoeken;amp;Technische documentatie en zelfhulp bevorderen
 description: Technische documentatie en zelfhulpmaterialen voor Adobe zoeken&amp;Promoten
-seo-description: Technische documentatie, opmerkingen bij de release en zelfhulp voor Adobe Search&amp;Promoten
 solution: Target
 topic: Zoeken en verhandelen van sites
 uuid: bb1c49be-7cfd-485a-a848-c5dc8733b009
 translation-type: tm+mt
-source-git-commit: ce3b55f0265c52670a81a17b9eff79309ff32bc0
+source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
 workflow-type: tm+mt
-source-wordcount: '161'
+source-wordcount: '145'
 ht-degree: 0%
 
 ---
@@ -17,15 +15,13 @@ ht-degree: 0%
 
 # Adobe Search&amp;Promote {#search-promote-documentation}
 
-<!-- ## [Option 1: Lorem Ipsum FAQ announcement](#lorem-ipsum) -->
-
 ## Nieuws en aankondigingen {#topic_02625547D07F411DBAC9593FCBD4741B}
 
-<!-- * [Option 2: Lorem ipsum FAQ announcement](anchor) -->
+* **Let op:** [Adobe Search&amp;Promote-aankondiging](/help/sp-eol.md) van einde service.
 
 * Opmerkingen bij de release van Adobe Marketing Cloud: bevat nieuwe functies, oplossingen en bekende problemen in alle oplossingen voor Marketingen Cloud. De versies van de eigenschap komen in de Lente en de Herfst voor, met onderhoudsversies die maandelijks voorkomen.
 
-   **Vroege toegang**: Meld u aan voor de  [Adobe Priority Product ](https://campaign.adobe.com/webApp/adbePriorityProductSubscribe) Updateom een week voor elke release opmerkingen bij de release van Adobe Marketing Cloud te ontvangen.
+   Vroege toegang: Meld u aan voor de [Adobe Priority Product Update](https://campaign.adobe.com/webApp/adbePriorityProductSubscribe) om opmerkingen bij de release van Adobe Marketing Cloud één week voor elke release te ontvangen.
 
 * In de nieuwste release Adobe Search&amp;Promote worden opmerkingen weergegeven:
 

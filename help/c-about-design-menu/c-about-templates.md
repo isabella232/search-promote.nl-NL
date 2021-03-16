@@ -1,15 +1,13 @@
 ---
 description: U kunt Sjablonen gebruiken om uw presentatiesjablonen en transportsjablonen te beheren.
-seo-description: U kunt Sjablonen gebruiken om uw presentatiesjablonen en transportsjablonen te beheren.
-seo-title: Informatie over sjablonen
 solution: Target
 title: Informatie over sjablonen
-topic: Design,Site search and merchandising
+topic: Ontwerpen, zoeken en verhandelen van sites
 uuid: f5805d3e-43bf-4e13-95df-b6bd6b762d11
 translation-type: tm+mt
-source-git-commit: 60cedaac1846e384a37699a42bf7fda33828e1c0
+source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
 workflow-type: tm+mt
-source-wordcount: '2661'
+source-wordcount: '2652'
 ht-degree: 0%
 
 ---

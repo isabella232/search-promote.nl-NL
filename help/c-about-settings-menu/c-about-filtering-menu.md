@@ -1,16 +1,14 @@
 ---
 description: Gebruik het menu Filteren om scripts te gebruiken waarmee de inhoud van een webdocument wordt gewijzigd voordat het wordt geïndexeerd.
-seo-description: Gebruik het menu Filteren om scripts te gebruiken waarmee de inhoud van een webdocument wordt gewijzigd voordat het wordt geïndexeerd.
-seo-title: Het menu Filteren
 solution: Target
 subtopic: Filtering
 title: Het menu Filteren
-topic: Settings,Site search and merchandising
+topic: Instellingen, zoeken en verhandelen van sites
 uuid: ebb08fa8-4e17-417d-868b-11fc2af9f284
 translation-type: tm+mt
-source-git-commit: f21a3f7fe0aeaab517a5ca36da43594873b3e69a
+source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
 workflow-type: tm+mt
-source-wordcount: '4026'
+source-wordcount: '4008'
 ht-degree: 0%
 
 ---
@@ -472,7 +470,7 @@ U kunt HTML-tags invoegen, irrelevante inhoud verwijderen en zelfs nieuwe HTML-m
 
 Het beëindigingsmanuscript wordt in werking gesteld eenmaal nadat alle documenten worden geïndexeerd. U kunt het beëindigingsmanuscript gebruiken om statusberichten van het het filtreren manuscript aan het indexlogboek te drukken. U of drukt de berichten aan STDERR, of als subroutine `_search_debug_log()`.
 
-Sommige opties voor de GIF-scheidingsopdrachtregel die u kunt gebruiken in de modus **[!UICONTROL Expert (diff)]** op de pagina Script-script voor gefaseerde beëindiging, zijn onder andere:
+Sommige opties voor GNU diff-opdrachtregels die u kunt gebruiken in de modus **[!UICONTROL Expert (diff)]** op de pagina Script-script voor gefaseerde beëindiging, zijn onder andere:
 
 <table> 
  <thead> 

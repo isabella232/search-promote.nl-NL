@@ -1,15 +1,13 @@
 ---
-description: 'null'
-seo-description: 'null'
-seo-title: '&Zoeken;amp;Opmerkingen bij de release 8.9.1 promoten (16-08-2012)'
+description: '&Zoeken;amp;Opmerkingen bij de release 8.9.1 promoten.'
 solution: Target
 title: '&Zoeken;amp;Opmerkingen bij de release 8.9.1 promoten (16-08-2012)'
-topic: Release Notes,Site search and merchandising
+topic: Opmerkingen bij de release, zoeken en verhandelen op de site
 uuid: 6f3284ed-660f-477f-a863-b961b185eaf3
 translation-type: tm+mt
-source-git-commit: ef818327e1cdaad79ac47575a8dfba1de3dc5c2e
+source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
 workflow-type: tm+mt
-source-wordcount: '137'
+source-wordcount: '141'
 ht-degree: 0%
 
 ---
@@ -29,6 +27,6 @@ ht-degree: 0%
 * Oplossing voor een fout in gescripte filters die een zoekfout kon vastlopen.
 * Probleem verholpen waarbij er niets zou gebeuren wanneer u met de rechtermuisknop [!DNL Banner] had geklikt en vervolgens [!DNL Select Different Banner from visual rule builder] had geklikt.
 
-* Verschillende problemen met het live duwen van gefaseerde bedrijfsregels zijn opgelost.
+* Verschillende problemen verholpen waarbij de gefaseerde regels voor bedrijven live werden toegepast.
 * Probleem verholpen waarbij bannertags niet worden doorzocht.
 

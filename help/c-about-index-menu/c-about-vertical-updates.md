@@ -1,16 +1,14 @@
 ---
 description: U kunt Verticale update gebruiken om delen van uw index snel bij te werken zonder dat u grote hoeveelheden gegevens hoeft te verwerken.
-seo-description: U kunt Verticale update gebruiken om delen van uw index snel bij te werken zonder dat u grote hoeveelheden gegevens hoeft te verwerken.
-seo-title: Info Verticale update
 solution: Target
 subtopic: Vertical Update
 title: Info Verticale update
-topic: Index,Site search and merchandising
+topic: Index, zoeken en verhandelen van sites
 uuid: ded09e89-5a52-4e8c-a6f7-3e25b4191183
 translation-type: tm+mt
-source-git-commit: f21a3f7fe0aeaab517a5ca36da43594873b3e69a
+source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
 workflow-type: tm+mt
-source-wordcount: '775'
+source-wordcount: '757'
 ht-degree: 0%
 
 ---

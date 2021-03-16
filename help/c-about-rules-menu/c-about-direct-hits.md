@@ -1,15 +1,13 @@
 ---
 description: Met directe treffers kunt u een klant omleiden naar een opgegeven URL wanneer de klant naar een overeenkomstige term zoekt. Met dit soort functionaliteit kunt u de navigatie van de zoekopdracht op uw website verbeteren.
-seo-description: Met directe treffers kunt u een klant omleiden naar een opgegeven URL wanneer de klant naar een overeenkomstige term zoekt. Met dit soort functionaliteit kunt u de navigatie van de zoekopdracht op uw website verbeteren.
-seo-title: Info over Direct Hits
 solution: Target
 title: Info over Direct Hits
-topic: Rules,Site search and merchandising
+topic: Regels, zoeken en verhandelen van sites
 uuid: 374d63c8-2b82-4165-b543-05b587757baa
 translation-type: tm+mt
-source-git-commit: ef818327e1cdaad79ac47575a8dfba1de3dc5c2e
+source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
 workflow-type: tm+mt
-source-wordcount: '432'
+source-wordcount: '400'
 ht-degree: 1%
 
 ---

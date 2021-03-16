@@ -1,16 +1,14 @@
 ---
 description: Gebruik het menu Accountopties om uw accountinstellingen bij te werken, voorkeuren voor winkelen in te stellen of uw eigen zoek-&stempel te verwijderen;amp;Account promoten.
-seo-description: Gebruik het menu Accountopties om uw accountinstellingen bij te werken, voorkeuren voor winkelen in te stellen of uw eigen zoek-&stempel te verwijderen;amp;Account promoten.
-seo-title: Het menu Accountopties
 solution: Target
 subtopic: Account Options
 title: Het menu Accountopties
-topic: Settings,Site search and merchandising
+topic: Instellingen, zoeken en verhandelen van sites
 uuid: 0f830033-de9e-4197-8d76-906c818662eb
 translation-type: tm+mt
-source-git-commit: f21a3f7fe0aeaab517a5ca36da43594873b3e69a
+source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
 workflow-type: tm+mt
-source-wordcount: '1684'
+source-wordcount: '1662'
 ht-degree: 0%
 
 ---
@@ -226,7 +224,7 @@ Als u [!DNL Adobe Analytics] gebruikt voor het bijhouden van sitebezoekers, kunt
       </tr> 
       <tr> 
       <td colname="col1"> <p>Aangepaste parameters </p> </td> 
-      <td colname="col2"> <p>Hiermee kunt u aangepaste parameters toevoegen aan de Adobe Analytics-omleidings-URL. </p> </td> 
+      <td colname="col2"> <p>Hiermee kunt u aangepaste parameters toevoegen aan de Adobe Analytics Redirect URL. </p> </td> 
       </tr> 
       <tr> 
       <td colname="col1"> <p>Het hoofdlettergebruik van alle aangepaste waarden instellen op </p> </td> 

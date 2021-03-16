@@ -1,16 +1,14 @@
 ---
 description: Met Incrementele index kunt u "stukken" van uw actieve of gefaseerde website indexeren, zoals een verzameling pagina's die vaak worden gewijzigd.
-seo-description: Met Incrementele index kunt u "stukken" van uw actieve of gefaseerde website indexeren, zoals een verzameling pagina's die vaak worden gewijzigd.
-seo-title: Informatie over incrementele index
 solution: Target
 subtopic: Incremental Index
 title: Informatie over incrementele index
-topic: Index,Site search and merchandising
+topic: Index, zoeken en verhandelen van sites
 uuid: b1ee9b08-dcbe-4ffe-b0b4-d379daaac9b5
 translation-type: tm+mt
-source-git-commit: 552f93f1f630c64bbe3d5c8a87c4f5895ae6868c
+source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
 workflow-type: tm+mt
-source-wordcount: '1377'
+source-wordcount: '1357'
 ht-degree: 0%
 
 ---

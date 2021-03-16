@@ -1,15 +1,13 @@
 ---
 description: Met Banners kunt u de banneradvertenties op uw website beheren.
-seo-description: Met Banners kunt u de banneradvertenties op uw website beheren.
-seo-title: Informatie over banners
 solution: Target
 title: Informatie over banners
-topic: Design,Site search and merchandising
+topic: Ontwerpen, zoeken en verhandelen van sites
 uuid: 653b567d-5cf3-41a0-a260-a6912d0fd20d
 translation-type: tm+mt
-source-git-commit: 552f93f1f630c64bbe3d5c8a87c4f5895ae6868c
+source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
 workflow-type: tm+mt
-source-wordcount: '4810'
+source-wordcount: '4801'
 ht-degree: 0%
 
 ---
@@ -319,7 +317,7 @@ Zie [Toegang tot uw Adobe Dynamic Media Classic-account configureren](../c-about
       </tr> 
       <tr> 
       <td colname="col1"> <p>Hoogte </p> </td> 
-      <td colname="col2"> <p>Hiermee bepaalt u de hoogte van het digitale element, in pixels. Deze dimensie is de hoogte waarop het middel wordt gezien door klanten die uw website bezoeken. </p> <p>Deze optie is niet van toepassing op Flash-sjablonen. </p> </td> 
+      <td colname="col2"> <p>Hiermee geeft u de hoogte van het digitale element op, in pixels. Deze dimensie is de hoogte waarop het middel wordt gezien door klanten die uw website bezoeken. </p> <p>Deze optie is niet van toepassing op Flash-sjablonen. </p> </td> 
       </tr> 
     </tbody> 
     </table>
@@ -368,7 +366,7 @@ Zie [Toegang tot uw Adobe Dynamic Media Classic-account configureren](../c-about
 
    **Opties voor Tekst vervangen**
 
-   De opties voor Tekst vervangen worden alleen weergegeven als u een Flash-sjabloon kiest voor de banner die bewerkbare tekstlagen heeft.
+   De opties voor Tekst vervangen worden alleen weergegeven als u een Flash-sjabloon kiest voor uw banner die bewerkbare tekstlagen heeft.
 
    Wijzigingen die u aanbrengt in tekst in de sjabloon Flash, worden weergegeven in het voorvertoningsvenster.
 
@@ -438,7 +436,7 @@ Zie [Toegang tot uw Adobe Dynamic Media Classic-account configureren](../c-about
 
    >[!NOTE]
    >
-   >Als u de uploadfunctionaliteit in de Scene7 Asset Viewer wilt gebruiken, moet u ervoor zorgen dat de rol &quot;SPS Company Admin&quot; al is ingesteld voor de Scene7-account die u gebruikt.
+   >Als u de uploadfunctionaliteit wilt gebruiken in de Scene7 Asset Viewer, moet u ervoor zorgen dat de rol van &quot;SPS Company Admin&quot; al is ingesteld voor de Scene7-account die u gebruikt.
 
    Zie [Beheerinstellingen](https://help.adobe.com/en_US/scene7/using/WS662101DF-D697-47a7-A7D8-B52FD8E94438.html) in de gebruikershandleiding van het Scene7 Publishing System.
 
@@ -758,6 +756,6 @@ Zie [Werkgebiedinstellingen leegmaken live](../c-about-staging.md#task_44306783B
 
 1. Klik in de vervolgkeuzelijst **[!UICONTROL Bulk Actions]** op **[!UICONTROL Push live]**.
 1. Klik in het dialoogvenster [!DNL Confirmation Action] op **[!UICONTROL OK]**.
-1. (Optioneel) Klik op de pagina [!DNL Banners] om de aangebrachte wijzigingen ongedaan te maken.**[!UICONTROL History]**
+1. (Optioneel) Klik op de pagina [!DNL Banners] om de aangebrachte wijzigingen te herstellen.**[!UICONTROL History]**
 
    Zie [De optie Historie gebruiken](../t-using-the-history-option.md#task_70DD3F87A67242BBBD2CB27156F43002).

@@ -1,16 +1,14 @@
 ---
 description: Gebruik het menu Adobe Analytics om Adobe Analytics-metrische verificatie in te stellen, Adobe Analytics-metriek van een rapportsuite te beheren of gebruik SAINT om Adobe Analytics-rapporten te verbeteren via de acceptatie van tabelgegevens van externe bronnen.
-seo-description: Gebruik het menu Adobe Analytics om Adobe Analytics-metrische verificatie in te stellen, Adobe Analytics-metriek van een rapportsuite te beheren of gebruik SAINT om Adobe Analytics-rapporten te verbeteren via de acceptatie van tabelgegevens van externe bronnen.
-seo-title: Het menu Adobe Analytics
 solution: Target
 subtopic: Adobe Analytics
 title: Het menu Adobe Analytics
-topic: Settings,Site search and merchandising
+topic: Instellingen, zoeken en verhandelen van sites
 uuid: 5536edf1-d3a4-47af-a307-6e46f385f738
 translation-type: tm+mt
-source-git-commit: f21a3f7fe0aeaab517a5ca36da43594873b3e69a
+source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
 workflow-type: tm+mt
-source-wordcount: '3448'
+source-wordcount: '3412'
 ht-degree: 0%
 
 ---
@@ -130,7 +128,7 @@ Zie [Geavanceerde Adobe Analytics-opties configureren](../c-about-settings-menu/
       </tr> 
       <tr> 
       <td colname="col1"> <p>Naam kruisverwijzingsveld </p> </td> 
-      <td colname="col2"> <p>Specificeert een meta-gegevensgebied de waarvan waarden als "sleutels"in de gegevens van de Reeks van het Rapport worden gebruikt. </p> <p>Als er geen waarde is geselecteerd ("— Geen —"), zijn de gegevens van deze rapportsuite niet beschikbaar voor gebruik in rangtelberekeningen ( <span class="uicontrol"> <b>Regels</b> </span> &gt; <span class="uicontrol"> <b> &lt;a5/&gt; </span> &gt; <span class="uicontrol"> <b>Regels bewerken</b> &lt;a1 1/&gt;).</span></b> </span></p> <p>Wanneer u een waarde selecteert, worden de waarden van dit veld gebruikt om te verwijzen naar documenten voor het zoeken/verhandelen van sites met de Adobe Analytics-gegevens van deze rapportsuite. Hierbij wordt de geselecteerde waarde voor Rapporttype gebruikt die u eerder hebt ingesteld. </p> </td> 
+      <td colname="col2"> <p>Specificeert een meta-gegevensgebied de waarvan waarden als "sleutels"in de gegevens van de Reeks van het Rapport worden gebruikt. </p> <p>Als er geen waarde is geselecteerd ("— Geen —"), zijn de gegevens van deze rapportsuite niet beschikbaar voor gebruik in rangtelberekeningen ( <span class="uicontrol"> <b>Regels</b> </span> &gt; <span class="uicontrol"> <b> </b> </span> &gt; <span class="uicontrol"> <b>Regels bewerken</b> &lt;a1 1/&gt;).</span> </p> <p>Wanneer u een waarde selecteert, worden de waarden van dit veld gebruikt om te verwijzen naar documenten voor het zoeken/verhandelen van sites met de Adobe Analytics-gegevens van deze rapportsuite. Hierbij wordt de geselecteerde waarde voor Rapporttype gebruikt die u eerder hebt ingesteld. </p> </td> 
       </tr> 
       <tr> 
       <td colname="col1"> <p>Rapport met zoektermen </p> </td> 
@@ -369,7 +367,7 @@ U kunt bijvoorbeeld zoeken en verhandelen op de site gebruiken om gegevens op te
 
 1. Klik in het productmenu op **[!UICONTROL Settings]** > **[!UICONTROL Adobe Analytics]** > **[!UICONTROL SAINT Classification Feeds]**.
 1. Klik op [!DNL SAINT Classification Feeds] op de pagina.**[!UICONTROL Create SAINT Feed]**
-1. Voer in het dialoogvenster [!DNL Create Feed] in het tekstveld **Naam van feed** de nieuwe naam van de feed in en klik vervolgens op **[!UICONTROL Next]**.
+1. Voer in het dialoogvenster [!DNL Create Feed] in het tekstveld **Naam van feed** de nieuwe naam van de feed in en klik op **[!UICONTROL Next]**.
 
    Op dit punt wordt de feed opgeslagen en toegevoegd aan de pagina [!DNL SAINT Classification Feed]. Als u dit wenst, kunt u de feed later afsluiten en bewerken om de wizard te voltooien.
 1. Geef op de pagina [!DNL Authentication] de naam van het Adobe Analytics-bedrijf, de gebruikersnaam en het webgeheim op in de desbetreffende tekstvelden en klik op **[!UICONTROL Next]**.

@@ -1,16 +1,14 @@
 ---
 description: U kunt SEO-metatags (Search Engine Optimization, optimalisatie van zoekprogramma's) gebruiken om bepaalde elementen van uw pagina's af te stemmen en zo de plaatsing van zoekprogramma's te verbeteren.
-seo-description: U kunt SEO-metatags (Search Engine Optimization, optimalisatie van zoekprogramma's) gebruiken om bepaalde elementen van uw pagina's af te stemmen en zo de plaatsing van zoekprogramma's te verbeteren.
-seo-title: Info SEO
 solution: Target
 subtopic: SEO
 title: Info SEO
-topic: Settings,Site search and merchandising
+topic: Instellingen, zoeken en verhandelen van sites
 uuid: 5c5d64f5-fe79-4489-85c6-399d1437f2c4
 translation-type: tm+mt
-source-git-commit: f21a3f7fe0aeaab517a5ca36da43594873b3e69a
+source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
 workflow-type: tm+mt
-source-wordcount: '1226'
+source-wordcount: '1206'
 ht-degree: 0%
 
 ---
@@ -24,7 +22,7 @@ U kunt SEO-metatags (Search Engine Optimization, optimalisatie van zoekprogramma
 
 U kunt elk element definiëren als een stuk begintekst gevolgd door een lijst met woorden. De lijst met woorden kan het volgende bevatten:
 
-* Veelgebruikte zoektermen worden op uw site weergegeven gedurende een geselecteerde tijdsperiode (bijvoorbeeld &#39;vorige maand&#39;), afhankelijk van uw aangepaste uitsluitingen.
+* Veelgebruikte zoektermen worden op uw site weergegeven over een geselecteerde tijdsperiode (bijvoorbeeld &#39;vorige maand&#39;), afhankelijk van uw aangepaste uitsluitingen.
 * Waardesets van een of meer velden uit de zoekopdracht waaruit de pagina afkomstig is.
 * Statische woorden en woordgroepen die u in een lijst definieert
 

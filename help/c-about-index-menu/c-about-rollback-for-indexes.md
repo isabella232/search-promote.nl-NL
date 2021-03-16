@@ -1,16 +1,14 @@
 ---
 description: Met Terugdraaien kunt u een back-up maken van door u gegenereerde indexen van websites en deze archiveren. U kunt ook de back-up van een index op elk gewenst moment herstellen.
-seo-description: Met Terugdraaien kunt u een back-up maken van door u gegenereerde indexen van websites en deze archiveren. U kunt ook de back-up van een index op elk gewenst moment herstellen.
-seo-title: Over Terugdraaien voor indexen
 solution: Target
 subtopic: Rollback
 title: Over Terugdraaien voor indexen
-topic: Index,Site search and merchandising
+topic: Index, zoeken en verhandelen van sites
 uuid: abed878a-71b3-4122-9822-7410f4427a9a
 translation-type: tm+mt
-source-git-commit: f21a3f7fe0aeaab517a5ca36da43594873b3e69a
+source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
 workflow-type: tm+mt
-source-wordcount: '866'
+source-wordcount: '840'
 ht-degree: 0%
 
 ---

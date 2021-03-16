@@ -1,16 +1,14 @@
 ---
 description: Gebruik het menu Gebruikers om gebruikers weer te geven en toe te voegen, rollen weer te geven en toe te voegen of rollidmaatschap te wijzigen. U moet een gebruiker van de plaatsonderzoek/handel met beheerdervoorrechten zijn om het even welke taken op het menu van Gebruikers uit te voeren.
-seo-description: Gebruik het menu Gebruikers om gebruikers weer te geven en toe te voegen, rollen weer te geven en toe te voegen of rollidmaatschap te wijzigen. U moet een gebruiker van de plaatsonderzoek/handel met beheerdervoorrechten zijn om het even welke taken op het menu van Gebruikers uit te voeren.
-seo-title: Het menu Gebruikers
 solution: Target
 subtopic: Users
 title: Het menu Gebruikers
-topic: Settings,Site search and merchandising
+topic: Instellingen, zoeken en verhandelen van sites
 uuid: 6242b73c-5e8a-44b7-9942-0684530940bc
 translation-type: tm+mt
-source-git-commit: f21a3f7fe0aeaab517a5ca36da43594873b3e69a
+source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
 workflow-type: tm+mt
-source-wordcount: '1487'
+source-wordcount: '1450'
 ht-degree: 0%
 
 ---

@@ -1,16 +1,14 @@
 ---
 description: Met Dynamische factoren kunt u automatisch nieuwe bereikselecties maken op het moment van de zoekopdracht. U kunt desgewenst elk dynamisch gezichtsveld koppelen aan maximaal één tabelnaam in uw Adobe Zoeken&amp;Promote account. U past die tabelrelaties tijdens het zoeken toe op alle dynamische facetvelden die bij de zoekopdracht zijn betrokken.
-seo-description: Met Dynamische factoren kunt u automatisch nieuwe bereikselecties maken op het moment van de zoekopdracht. U kunt desgewenst elk dynamisch gezichtsveld koppelen aan maximaal één tabelnaam in uw Adobe Zoeken&amp;Promote account. U past die tabelrelaties tijdens het zoeken toe op alle dynamische facetvelden die bij de zoekopdracht zijn betrokken.
-seo-title: Dynamische factoren
 solution: Target
 subtopic: Navigation
 title: Dynamische factoren
-topic: Design,Site search and merchandising
+topic: Ontwerpen, zoeken en verhandelen van sites
 uuid: 1ea91c22-dcc2-4173-aa50-ce618ad0a99c
 translation-type: tm+mt
-source-git-commit: ffdec2cfcb30e733c664a7d1ca23868b7a9a9aa5
+source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
 workflow-type: tm+mt
-source-wordcount: '1112'
+source-wordcount: '1062'
 ht-degree: 0%
 
 ---

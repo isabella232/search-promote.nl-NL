@@ -1,16 +1,14 @@
 ---
 description: Met het menu Regels herschrijven kunt u de regels voor het doorzoeken en doorzoeken van URL's en titels instellen.
-seo-description: Met het menu Regels herschrijven kunt u de regels voor het doorzoeken en doorzoeken van URL's en titels instellen.
-seo-title: Het menu Regels herschrijven
 solution: Target
 subtopic: Rewrite Rules
 title: Het menu Regels herschrijven
-topic: Settings,Site search and merchandising
+topic: Instellingen, zoeken en verhandelen van sites
 uuid: 77ee84dd-fdba-4d34-ae8e-2fe786599800
 translation-type: tm+mt
-source-git-commit: f21a3f7fe0aeaab517a5ca36da43594873b3e69a
+source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
 workflow-type: tm+mt
-source-wordcount: '10216'
+source-wordcount: '10202'
 ht-degree: 0%
 
 ---
@@ -701,7 +699,7 @@ Vlaggen staan tussen haakjes `[]`en meerdere markeringen worden door komma&#39;s
   </tr> 
   <tr> 
    <td colname="col1"> <p> 'env|E=VAR:VAL' </p> </td> 
-   <td colname="col2"> <p>Omgevingsvariabele instellen. </p> <p> Maakt een omgevingsvariabele "VAR" die is ingesteld op de waarde VAL, waarbij VAL reguliere expressies backreferences, $N en %N kan bevatten, die wordt uitgebreid. U kunt deze markering meerdere keren gebruiken om meerdere variabelen in te stellen. Er kan later naar de variabelen worden verwezen in het volgende patroon van RewriteCond via %{VAR}. Met deze markering kunt u gegevens uit titels verwijderen en onthouden. </p> </td> 
+   <td colname="col2"> <p>Omgevingsvariabele instellen. </p> <p> Maakt een omgevingsvariabele "VAR" die is ingesteld op de waarde VAL, waarbij VAL reguliere expressies backreferences, $N en %N kan bevatten, die wordt uitgebreid. U kunt deze markering meerdere keren gebruiken om meerdere variabelen in te stellen. Er kan later naar de variabelen worden verwezen in het volgende RewriteCond-patroon via %{VAR}. Met deze markering kunt u gegevens uit titels verwijderen en onthouden. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -1056,7 +1054,7 @@ Het patroon van de Vervanging herschrijft URL gebruikend de eerste backreference
 
 **RewriteCond** onderzoekt veranderlijke sessionid `(%{sessionid})`. Als het ten minste één teken bevat (.+), dan de overeenkomsten RewriteRule.
 
-Als de zoekquery dus `"https://search.atomz.com/search/?sp_a=sp99999999&sp_q=word&sessionid=5678"` is, worden alle URL&#39;s van het zoekresultaat herschreven zodat de waarde &quot;sessionid&quot; 5678 is in plaats van de waarde &quot;sessionid&quot; die de zoekrobot tegenkwam toen deze door uw site kruiste en de koppelingen opsloeg.
+Als de zoekquery dus `"https://search.atomz.com/search/?sp_a=sp99999999&sp_q=word&sessionid=5678"` is, worden alle URL&#39;s van zoekresultaten herschreven zodat de waarde &quot;sessionid&quot; 5678 is in plaats van de waarde &quot;sessionid&quot; die de zoekrobot tegenkwam toen deze door uw site kruipde en de koppelingen opsloeg.
 
 **Erkenning**
 
@@ -1125,7 +1123,7 @@ RewriteRule
 
 Wanneer een titel wordt ontmoet, probeert het plaatsonderzoek/het koopproces om het aan het Patroon van elke kruiperregel aan te passen. Als het patroon overeenkomt, zoekt de engine voor herschrijven naar de overeenkomende richtlijnen voor herschrijvenCond. Als er geen voorwaarden aanwezig zijn, wordt de titel vervangen door een nieuwe waarde die wordt samengesteld uit de vervangende tekenreeks en gaat deze verder met de volgende regel in de regelset. Indien er voorwaarden bestaan, worden ze verwerkt in de volgorde waarin ze worden vermeld. De engine voor herschrijven probeert een voorwaardepatroon (CondPattern) af te stemmen op een testtekenreeks (TestString). Als de twee gelijke, dan wordt de volgende voorwaarde verwerkt tot geen meer voorwaarden beschikbaar zijn. Als alle voorwaarden overeenkomen, wordt de URL vervangen door de Substitutie die in de regel is opgegeven. Als niet aan de voorwaarde wordt voldaan, ontbreekt de volledige reeks voorwaarden en de overeenkomstige regel.
 
-## Directive {#section_3BF2B0FF89F74A26AE79D68FA3184B9B} herschrijven
+## RewriteRule, instructie {#section_3BF2B0FF89F74A26AE79D68FA3184B9B}
 
 Elke instructie RewriteRule definieert één herschrijfregel. Regels worden toegepast in de volgorde waarin ze worden weergegeven. Een herschrijfregel heeft de volgende vorm:
 

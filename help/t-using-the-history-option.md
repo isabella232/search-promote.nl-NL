@@ -1,15 +1,13 @@
 ---
-description: U kunt Historie gebruiken om een lijst te bekijken met alle revisies die zijn aangebracht op een geïmplementeerde functie, zoals een facet, broodkruimel, banner of sjabloon, om er een paar te noemen.
-seo-description: U kunt Historie gebruiken om een lijst te bekijken met alle revisies die zijn aangebracht op een geïmplementeerde functie, zoals een facet, broodkruimel, banner of sjabloon, om er een paar te noemen.
-seo-title: De optie Historie gebruiken
+description: U kunt Historie gebruiken om een lijst te bekijken van alle revisies die aan een geïmplementeerde functie zijn aangebracht, zoals een facet, broodkruimel, banner of sjabloon, om er een paar te noemen.
 solution: Target
 title: De optie Historie gebruiken
-topic: Using History,Site search and merchandising
+topic: Historie gebruiken, zoeken en verhandelen van sites
 uuid: 48b9ee9d-cd61-41e7-b8c3-5f1665b9a9cb
 translation-type: tm+mt
-source-git-commit: 52c8d7985e7cb0aa35be1deabeb7cb92a55f07c2
+source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
 workflow-type: tm+mt
-source-wordcount: '263'
+source-wordcount: '234'
 ht-degree: 0%
 
 ---
@@ -17,7 +15,7 @@ ht-degree: 0%
 
 # De optie Historie gebruiken{#using-the-history-option}
 
-U kunt Historie gebruiken om een lijst te bekijken met alle revisies die zijn aangebracht op een geïmplementeerde functie, zoals een facet, broodkruimel, banner of sjabloon, om er een paar te noemen.
+U kunt Historie gebruiken om een lijst te bekijken van alle revisies die aan een geïmplementeerde functie zijn aangebracht, zoals een facet, broodkruimel, banner of sjabloon, om er een paar te noemen.
 
 De geschiedenis toont u het volgende voor een bepaalde eigenschap:
 

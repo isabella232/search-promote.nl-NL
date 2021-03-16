@@ -1,16 +1,14 @@
 ---
 description: Met het menu Zoeken kunt u uitgesloten woorden, verzamelingen, beperkingen, voorvertoningen en kaders instellen.
-seo-description: Met het menu Zoeken kunt u uitgesloten woorden, verzamelingen, beperkingen, voorvertoningen en kaders instellen.
-seo-title: Het menu Zoeken
 solution: Target
 subtopic: Searching
 title: Het menu Zoeken
-topic: Settings,Site search and merchandising
+topic: Instellingen, zoeken en verhandelen van sites
 uuid: 072111fc-a32b-4acb-8337-cb21bcdb5542
 translation-type: tm+mt
-source-git-commit: 552f93f1f630c64bbe3d5c8a87c4f5895ae6868c
+source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
 workflow-type: tm+mt
-source-wordcount: '11182'
+source-wordcount: '11170'
 ht-degree: 0%
 
 ---
@@ -215,7 +213,7 @@ Zie [Informatie over sjablonen](../c-about-design-menu/c-about-templates.md#conc
       </tr> 
       <tr> 
       <td colname="col1"> <p>Account </p> </td> 
-      <td colname="col2"> <p>Deze optie is alleen beschikbaar als u <span class="uicontrol"> Search&amp;Promote </span> als bron hebt gekozen. </p> <p>Hiermee kunt u de site selecteren die u wilt doorzoeken/verhandelen. Doorgaans wordt gezocht in de account die u momenteel gebruikt. Uw presentatiesjabloon kan echter een back-end zoekopdracht voor al uw andere accounts gebruiken. </p> </td> 
+      <td colname="col2"> <p>Deze optie is alleen beschikbaar als u <span class="uicontrol"> Search&amp;Promote </span> als bron hebt gekozen. </p> <p>Hiermee kunt u de site selecteren die u wilt doorzoeken/verhandelen. Doorgaans wordt gezocht in de account die u momenteel gebruikt. Uw presentatiesjabloon kan echter een back-end zoekopdracht naar al uw andere accounts gebruiken. </p> </td> 
       </tr> 
       <tr> 
       <td colname="col1"> <p>Servernaam/IP </p> </td> 
@@ -818,7 +816,7 @@ Typ elk include-masker of sluit het masker uit op één regel.
 
 ## URL-masker of IP-adresmaskerbeperkingen {#task_E6FF2DD83E8D4B00A0E2809DC13A56C9} toevoegen
 
-U kunt beperkingsinstellingen opgeven als &quot;Referrer-URL-maskers&quot; of &quot;IP-adresmaskers&quot;. Beide typen beperkingen bevatten maskers om zoekopdrachten toe te staan en maskers uit te sluiten om ze te weigeren. Een zoekopdracht is toegestaan als deze zowel aan de URL van de verwijzer als aan de criteria voor IP-adresbeperking voldoet.
+U kunt beperkingsinstellingen opgeven als &quot;Referrer-URL-maskers&quot; of &quot;IP-adresmaskers&quot;. Beide typen beperkingen bevatten maskers om zoekopdrachten toe te staan en maskers uit te sluiten om ze te weigeren. Een zoekopdracht is toegestaan als deze zowel aan de URL van de referentie als aan de criteria voor IP-adresbeperking voldoet.
 
 <!-- 
 
@@ -1143,7 +1141,7 @@ t_creating_a_feed.xml
     </thead>
     <tbody> 
       <tr> 
-      <td colname="col1"> <p>3 </p> </td> 
+      <td colname="col1"> <p>1 </p> </td> 
       <td colname="col2"> <p>Naam van feed </p> </td> 
       <td colname="col3"> <p>Hier geeft u de naam van de feed op. </p> </td> 
       </tr> 
@@ -1201,7 +1199,7 @@ t_creating_a_feed.xml
     </thead>
     <tbody> 
       <tr> 
-      <td colname="col1"> <p>3 </p> </td> 
+      <td colname="col1"> <p>1 </p> </td> 
       <td colname="col2"> <p>Naam van feed </p> </td> 
       <td colname="col3"> <p>Hier geeft u de naam van de feed op. </p> </td> 
       </tr> 
@@ -1266,7 +1264,7 @@ t_creating_a_feed.xml
     </thead>
     <tbody> 
       <tr> 
-      <td colname="col1"> <p>3 </p> </td> 
+      <td colname="col1"> <p>1 </p> </td> 
       <td colname="col2"> <p>Naam van feed </p> </td> 
       <td colname="col3"> <p>Hier geeft u de naam van de feed op. </p> </td> 
       </tr> 

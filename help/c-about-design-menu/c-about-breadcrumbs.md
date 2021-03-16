@@ -1,16 +1,14 @@
 ---
 description: Broodkruimels zijn navigatiebesturingselementen die u aan uw website kunt toevoegen. De broodkruimel geeft klanten terugkoppelen over waar zij binnen een reeks van onderzoeksresultaten zijn. Het helpt hen ook snel terug naar een vorige stap.
-seo-description: Broodkruimels zijn navigatiebesturingselementen die u aan uw website kunt toevoegen. De broodkruimel geeft klanten terugkoppelen over waar zij binnen een reeks van onderzoeksresultaten zijn. Het helpt hen ook snel terug naar een vorige stap.
-seo-title: Info Broodkruimels
 solution: Target
 subtopic: Navigation
 title: Info Broodkruimels
-topic: Design,Site search and merchandising
+topic: Ontwerpen, zoeken en verhandelen van sites
 uuid: 3e630a72-a631-4f4f-8aa5-adf2882cdf1c
 translation-type: tm+mt
-source-git-commit: 7f1b5d94e8002992d62ec1e3dce11f9c5605fde8
+source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
 workflow-type: tm+mt
-source-wordcount: '789'
+source-wordcount: '755'
 ht-degree: 1%
 
 ---
@@ -97,7 +95,7 @@ t_adding_a_new_breadcrumb.xml
       <tr> 
       <td colname="col1"> <p>Door gebruiker gedefinieerde kruimels inschakelen </p> </td> 
       <td colname="col2"> <p>Schakel deze optie in om de door de gebruiker gedefinieerde items in breadcrumbs te gebruiken met de parameters <span class="codeph"> uX=[name]&amp;[name]=[value] </span> in de URL. U kunt verwerkingsregels gebruiken om deze parameters op de gewenste manier af te handelen. </p> <p>Als deze functie bijvoorbeeld is ingeschakeld en u de URL hebt, <code> https://search.host.com/?1=category&amp;q1=Clothes&amp;u2= 
-          type&amp;type=Men&amp;x3=kind&amp;q3=Sweater </code> als u facetten <span class="codeph"> <span class="varname"> categorie </span> </span> en <span class="codeph"> <span class="varname"> soort </span> </span> &lt;a8/&gt; hebt, ziet uw breadcrumb eruit als <span class="codeph"> Kleuren &gt; Mannen &gt; Zwevend </span>. </p> </td> 
+          type&amp;type=Men&amp;x3=kind&amp;q3=Sweater </code> als u facetten <span class="codeph"> <span class="varname"> categorie </span> </span> en <span class="codeph"> <span class="varname"> soort </span> </span>  hebt, ziet uw breadcrumb eruit als <span class="codeph"> Kleuren &gt; Mannen &gt; Zwevend </span>. </p> </td> 
       </tr> 
       <tr> 
       <td colname="col1"> <p>Door gebruiker gedefinieerde mapnamen </p> </td> 

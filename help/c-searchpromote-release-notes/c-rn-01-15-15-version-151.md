@@ -1,15 +1,13 @@
 ---
-description: 'null'
-seo-description: 'null'
-seo-title: '&Zoeken;amp;Opmerkingen bij de release 15.1.1 promoten (15-01-2015)'
+description: '&Zoeken;amp;Opmerkingen bij de release 15.1.1 promoten.'
 solution: Target
 title: '&Zoeken;amp;Opmerkingen bij de release 15.1.1 promoten (15-01-2015)'
-topic: Release Notes,Site search and merchandising
+topic: Opmerkingen bij de release, zoeken en verhandelen op de site
 uuid: 070f9c46-426f-4ca1-80c7-8ca53d40a402
 translation-type: tm+mt
-source-git-commit: ef818327e1cdaad79ac47575a8dfba1de3dc5c2e
+source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
 workflow-type: tm+mt
-source-wordcount: '237'
+source-wordcount: '241'
 ht-degree: 0%
 
 ---

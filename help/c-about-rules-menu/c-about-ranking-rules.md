@@ -1,16 +1,14 @@
 ---
 description: U kunt Rangschikkingsregels gebruiken om de relatieve positie of rangschikking van de zoekresultaten van een klant te bepalen op basis van de inhoud van de metatag en de gerelateerde Adobe Analytics-meetgegevens.
-seo-description: U kunt Rangschikkingsregels gebruiken om de relatieve positie of rangschikking van de zoekresultaten van een klant te bepalen op basis van de inhoud van de metatag en de gerelateerde Adobe Analytics-meetgegevens.
-seo-title: Info over Rangschikkingsregels
 solution: Target
 subtopic: Ranking Rules
 title: Info over Rangschikkingsregels
-topic: Rules,Site search and merchandising
+topic: Regels, zoeken en verhandelen van sites
 uuid: 21962f9a-1d9c-442f-a6c4-5f452436c640
 translation-type: tm+mt
-source-git-commit: 552f93f1f630c64bbe3d5c8a87c4f5895ae6868c
+source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
 workflow-type: tm+mt
-source-wordcount: '4647'
+source-wordcount: '4621'
 ht-degree: 0%
 
 ---
@@ -26,7 +24,7 @@ U definieert waarderingsregels om de relatieve plaatsing van de documenten in de
 
 U kunt webpagina&#39;s instellen die metatags met de gewenste kenmerken bevatten, zoals een bepaalde merknaam of prijs, of webpagina&#39;s die wenselijke prestatie-indicatoren van Adobe Analytics hebben, zoals unieke viewers, om een hogere positie te krijgen dan webpagina&#39;s die dat niet doen. De &quot;wenselijke&quot;kenmerken worden gemakkelijk bijgewerkt door het toevoegen of het uitgeven van het Rangschikken Regels en dan uw website opnieuw te indexeren.
 
-Als u meerdere metatags van het type &quot;rank&quot; hebt gedefinieerd, kunt u aparte verzamelingen regels maken die u kunt gebruiken voor het berekenen van de verschillende velden in de rang. U kunt een groep met rangtelregels toevoegen die u vervolgens kunt toewijzen aan een van de gedefinieerde Rank-velden. De groepen van de regel bevatten normaal één of meerdere regeldefinities, maar kunnen ook naar andere groepen van de Regel verwijzen, zodat kunt u één of meerdere groepen algemeen gebruikte regels tot stand brengen die tijdens de berekening van uw veelvoudige ranks worden gedeeld.
+Als u meerdere metatags van het type &quot;rank&quot; hebt gedefinieerd, kunt u aparte verzamelingen regels maken die u kunt gebruiken voor het berekenen van de verschillende velden in de rang. U kunt een groep met rangtelregels toevoegen die u vervolgens kunt toewijzen aan een van de gedefinieerde Rank-velden. De groepen van de regel bevatten normaal één of meerdere regeldefinities, maar kunnen ook naar andere groepen van de Regel verwijzen, zodat kunt u één of meerdere groepen algemeen gebruikte regels tot stand brengen die tijdens de berekening van uw veelvoudige ranken worden gedeeld.
 
 Zie [Een rangschikkingsregelgroep toevoegen](../c-about-rules-menu/c-about-ranking-rules.md#task_B65081B3CC9E4330A7FEE77B7BCD36C8).
 
@@ -140,7 +138,7 @@ Zie de optietabel in [Een rangschikkingsregel toevoegen](../c-about-rules-menu/c
 
 In de sectie Waarden/spaties van de Add het Rangschikken pagina van de Regel of de Edit het Rangschikken pagina van de Regel, kunt u `search_get_age_rank` met douane-gemaakte regels slechts gebruiken. Zorg er daarom voor dat u **Aangepast** kiest in de vervolgkeuzelijst Waarden/spaties. Wanneer de regel de ouderrangschikkende functie gebruikt, worden geen ruimten toegestaan in het waardegedeelte van de regel. Zorg ervoor dat er geen spaties voorkomen in de functieargumenten of daartussen. En er zijn geen spaties tussen wiskundige of voorwaardelijke operatoren.
 
-Hieronder ziet u een voorbeeld van een regel voor waarden/ranks, een regel die aan een tekstveld is gekoppeld:
+Hieronder ziet u een voorbeeld van een regel voor waarden/ranks, een regel die is gekoppeld aan een tekstveld:
 
 `regexp .* search_get_age_rank({other_field}#365#0.20)`
 

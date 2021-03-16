@@ -1,15 +1,13 @@
 ---
 description: U kunt Regels na het Onderzoek gebruiken om de resultaten van een onderzoek te onderzoeken en te bepalen hoe het onderzoek de getoonde inhoud beïnvloedt.
-seo-description: U kunt Regels na het Onderzoek gebruiken om de resultaten van een onderzoek te onderzoeken en te bepalen hoe het onderzoek de getoonde inhoud beïnvloedt.
-seo-title: Over regels voor achteraf zoeken
 solution: Target
 title: Over regels voor achteraf zoeken
-topic: Rules,Site search and merchandising
+topic: Regels, zoeken en verhandelen van sites
 uuid: 312d1e4a-f5b6-4629-8645-17e6f6c09fc4
 translation-type: tm+mt
-source-git-commit: d07cdc2c88f93eed4cecb0ee8818f7fdea06ee9d
+source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
 workflow-type: tm+mt
-source-wordcount: '2121'
+source-wordcount: '2102'
 ht-degree: 0%
 
 ---
@@ -143,7 +141,7 @@ U kunt [!DNL Post-Search Rules] gebruiken om te selecteren welke presentatiesjab
       </tr> 
       <tr> 
       <td colname="col1"> <p>Achterste parameter van sjabloon </p> </td> 
-      <td colname="col2"> <p>Binnenkomende vraagparameters worden uiteindelijk vertaald in achterste parameters die worden gebruikt om het onderzoek uit te voeren. </p> <p>Zie <a href="../c-appendices/c-cgiparameters.md#reference_582E85C3886740C98FE88CA9DF7918E8" type="reference" format="dita" scope="local"> CGI-parameters voor achtergrondzoekopdrachten </a>. </p> <p>Achterste parameters worden niet weergegeven op navigatie-elementen. Dientengevolge, kunt u om het even welke extra parameters verbergen die u op een onderzoek van uw klanten wilt toepassen. </p> <p>De parameter is lokaal voor een specifieke zoekopdracht in een presentatiesjabloon. Acties met betrekking tot parameters van het achterste deel zijn te laat bindend; dat wil zeggen, ze worden toegepast vlak voordat de zoekopdracht wordt verzonden. </p> </td> 
+      <td colname="col2"> <p>Binnenkomende vraagparameters worden uiteindelijk vertaald in achterste parameters die worden gebruikt om het onderzoek uit te voeren. </p> <p>Zie <a href="../c-appendices/c-cgiparameters.md#reference_582E85C3886740C98FE88CA9DF7918E8" type="reference" format="dita" scope="local"> CGI-parameters voor achtergrondzoekopdrachten </a>. </p> <p>Achterste parameters worden niet weergegeven op navigatie-elementen. Dientengevolge, kunt u om het even welke extra parameters verbergen die u op een onderzoek van uw klanten wilt toepassen. </p> <p>De parameter is lokaal voor een specifieke zoekopdracht in een presentatiesjabloon. Acties betreffende parameters van het achterste deel zijn te laat bindend; dat wil zeggen, ze worden toegepast vlak voordat de zoekopdracht wordt verzonden. </p> </td> 
       </tr> 
       <tr> 
       <td colname="col1"> <p>Doelsjabloon </p> </td> 

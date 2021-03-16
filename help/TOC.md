@@ -7,9 +7,9 @@ audience: end-user
 user-guide-title: Adobe zoeken&amp;Handleiding voor promoten
 breadcrumb-title: Adobe zoeken&amp;Handleiding voor promoten
 translation-type: tm+mt
-source-git-commit: 4d86ec6033843099c61a4af4f87a9963fe87d649
+source-git-commit: 1914d67d2634cb13368ab72d54da7da5988de13f
 workflow-type: tm+mt
-source-wordcount: '261'
+source-wordcount: '255'
 ht-degree: 0%
 
 ---
@@ -17,8 +17,8 @@ ht-degree: 0%
 
 # Handleiding voor zoeken en promoten van Adobe {#using}
 
-+ {#attention}
-   + [Adobe Search&amp;Promote-aankondiging van einde service](sp-eol.md)
+<!-- + Attention {#attention}
+  + [Adobe Search&amp;Promote End-of-Service Announcement](sp-eol.md) -->
 + [Overzicht van de Search&amp;Promote](sp-home.md)
 + Opmerkingen bij de release {#release-notes}
    + [Opmerkingen bij de release van Search&amp;Promote 18.1.1 (02/13/2018)](c-searchpromote-release-notes/c-rn-02-13-18-version-1811.md)

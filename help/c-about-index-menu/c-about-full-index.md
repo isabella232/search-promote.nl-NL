@@ -1,16 +1,14 @@
 ---
 description: Met Volledige index kunt u alle pagina's van uw gefaseerde of live website indexeren. Indexering helpt uw klanten gemakkelijker te vinden wat zij zoeken of wat zij wanneer zij een onderzoek uitvoeren nodig hebben.
-seo-description: Met Volledige index kunt u alle pagina's van uw gefaseerde of live website indexeren. Indexering helpt uw klanten gemakkelijker te vinden wat zij zoeken of wat zij wanneer zij een onderzoek uitvoeren nodig hebben.
-seo-title: Info over Volledige index
 solution: Target
 subtopic: Full Index
 title: Info over Volledige index
-topic: Index,Site search and merchandising
+topic: Index, zoeken en verhandelen van sites
 uuid: dce1eafd-5aea-4945-8305-8f9e7dc392df
 translation-type: tm+mt
-source-git-commit: 7af85dd37f06fe506e5f57e28a25385ca7ab3db5
+source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
 workflow-type: tm+mt
-source-wordcount: '795'
+source-wordcount: '760'
 ht-degree: 0%
 
 ---

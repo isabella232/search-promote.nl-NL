@@ -1,15 +1,13 @@
 ---
 description: Gebruik het menu Ontwerp om de presentatie voor uw pagina met zoekresultaten samen te stellen.
-seo-description: Gebruik het menu Ontwerp om de presentatie voor uw pagina met zoekresultaten samen te stellen.
-seo-title: De pagina met zoekresultaten ontwerpen
 solution: Target
 title: De pagina met zoekresultaten ontwerpen
-topic: Design,Site search and merchandising
+topic: Ontwerpen, zoeken en verhandelen van sites
 uuid: 61cb3ead-705e-45b7-a365-2c694d160d0a
 translation-type: tm+mt
-source-git-commit: ef818327e1cdaad79ac47575a8dfba1de3dc5c2e
+source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
 workflow-type: tm+mt
-source-wordcount: '69'
+source-wordcount: '56'
 ht-degree: 0%
 
 ---

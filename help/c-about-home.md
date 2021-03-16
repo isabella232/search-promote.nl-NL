@@ -1,15 +1,13 @@
 ---
 description: U kunt Home gebruiken om een verscheidenheid van rapportwidgets te bekijken die u een snel overzicht van uw Onderzoek&amp geven;amp;Promote rekening.
-seo-description: U kunt Home gebruiken om een verscheidenheid van rapportwidgets te bekijken die u een snel overzicht van uw Onderzoek&amp geven;amp;Promote rekening.
-seo-title: Info over Home
 solution: Target
 title: Info over Home
-topic: Home,Site search and merchandising
+topic: Home,zoeken en verhandelen van sites
 uuid: 5d4dbf5e-954d-46ae-a822-18a58af60de6
 translation-type: tm+mt
-source-git-commit: 91ddead9f73b73ea1a20e26582998966f801d6ff
+source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
 workflow-type: tm+mt
-source-wordcount: '470'
+source-wordcount: '449'
 ht-degree: 0%
 
 ---

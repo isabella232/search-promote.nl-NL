@@ -1,15 +1,13 @@
 ---
 description: U kunt woordenboeken gebruiken om een verzameling woordenboeken en de bijbehorende synoniemen en woordafbrekingen te beheren.
-seo-description: U kunt woordenboeken gebruiken om een verzameling woordenboeken en de bijbehorende synoniemen en woordafbrekingen te beheren.
-seo-title: Informatie over woordenboeken
 solution: Target
 title: Informatie over woordenboeken
-topic: Linguistics,Site search and merchandising
+topic: Taalkunde, zoeken en verhandelen van sites
 uuid: d4463896-30fe-4385-a283-c930c8264a02
 translation-type: tm+mt
-source-git-commit: 4531970404c189ffa1d4359d1431c97df893ba35
+source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
 workflow-type: tm+mt
-source-wordcount: '2475'
+source-wordcount: '2462'
 ht-degree: 0%
 
 ---
@@ -23,7 +21,7 @@ U kunt woordenboeken gebruiken om een verzameling woordenboeken en de bijbehoren
 
 Synoniemen zijn woorden met dezelfde of vergelijkbare betekenis, zoals broek, spijkerbroeken, broeken en punaises, of die woorden kopen, kopen, verwerven en bestellen.
 
-Hyponiemen zijn synoniemen in één richting en bieden een oplossing wanneer synoniemen niet geschikt zijn. Een zoekterm voor een apparel Retail-site is bijvoorbeeld &#39;broek&#39;. Echter, jeans worden niet weergegeven in de zoekresultaten. In dat geval kunt u een hyponiem gebruiken om jeans aan een broek te koppelen, maar om een zoekopdracht naar jeans toe te staan alleen jeans te retourneren. Gebruik woordafbrekingen om ook een overeenkomst te bieden voor producten die worden gestopt of voor concurrentievoorwaarden. Deze strategie zorgt voor minimale gevolgen voor andere zoekresultaten. Als het product &quot;S2000&quot; bijvoorbeeld wordt stopgezet en de &quot;S3000&quot; de opvolger is, gebruikt u een hyponiem in plaats van een synoniem om ervoor te zorgen dat de zoekresultaten voor &quot;S3000&quot; geen overbodige &quot;S2000&quot;-resultaten bevatten.
+Hyponiemen zijn synoniemen in één richting en bieden een oplossing wanneer synoniemen niet geschikt zijn. Een zoekterm voor een apparel Retail-site is bijvoorbeeld &#39;broek&#39;. Echter, jeans worden niet weergegeven in de zoekresultaten. In dat geval kunt u een hyponiem gebruiken om jeans aan een broek te koppelen, maar om een zoekopdracht naar jeans toe te staan om alleen jeans te retourneren. Gebruik woordafbrekingen om ook een overeenkomst te bieden voor producten die worden gestopt of voor concurrentievoorwaarden. Deze strategie zorgt voor minimale gevolgen voor andere zoekresultaten. Als het product &quot;S2000&quot; bijvoorbeeld wordt stopgezet en de &quot;S3000&quot; de opvolger is, gebruikt u een hyponiem in plaats van een synoniem om ervoor te zorgen dat de zoekresultaten voor &quot;S3000&quot; geen overbodige &quot;S2000&quot;-resultaten bevatten.
 
 Met synoniemen en woordafbrekingen kunnen klanten relevante zoekresultaten vinden wanneer ze niet-exacte overeenkomende termen invoeren die niet op de webpagina&#39;s voorkomen. Als bijvoorbeeld het woord &quot;broek&quot; op de hele website wordt gebruikt, kunt u een synoniem maken dat &quot;broek&quot; en &quot;broek&quot; aan elkaar bindt. Wanneer klanten op hun beurt zoeken naar &#39;broek&#39;, worden de zoekresultaten geretourneerd die verwant zijn aan een broek.
 

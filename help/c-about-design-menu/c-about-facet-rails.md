@@ -1,16 +1,14 @@
 ---
 description: Gebruik Facet Rail om groepen facetten op een webpagina opnieuw te ordenen.
-seo-description: Gebruik Facet Rail om groepen facetten op een webpagina opnieuw te ordenen.
-seo-title: Info over Facet Rail
 solution: Target
 subtopic: Navigation
 title: Info over Facet Rail
-topic: Design,Site search and merchandising
+topic: Ontwerpen, zoeken en verhandelen van sites
 uuid: 6da2bd67-8c20-4955-9836-bc8ba88546c5
 translation-type: tm+mt
-source-git-commit: 6b3aa733b0dfaace956f0ffc25f433fefd21e15f
+source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
 workflow-type: tm+mt
-source-wordcount: '791'
+source-wordcount: '781'
 ht-degree: 0%
 
 ---

@@ -1,15 +1,13 @@
 ---
 description: Gebruik Accounts in het productmenu om een account te selecteren die u wilt openen en gebruiken.
-seo-description: Gebruik Accounts in het productmenu om een account te selecteren die u wilt openen en gebruiken.
-seo-title: Het menu Accounts
 solution: Target
 title: Het menu Accounts
-topic: Settings,Site search and merchandising
+topic: Instellingen, zoeken en verhandelen van sites
 uuid: 7cfc1b68-5126-484a-8a1d-54995a8fd19b
 translation-type: tm+mt
-source-git-commit: ef818327e1cdaad79ac47575a8dfba1de3dc5c2e
+source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
 workflow-type: tm+mt
-source-wordcount: '188'
+source-wordcount: '172'
 ht-degree: 0%
 
 ---

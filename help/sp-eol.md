@@ -3,12 +3,12 @@ title: Adobe Search&Promote-aankondiging van einde service
 description: Meer weten over de aankondiging van het einde van de service van Adobe Search&Promote?
 feature: null
 role: Beheerder, Business Practice, Data Engineer, Developer
-hide: true
+hide: false
 hidefromtoc: true
 translation-type: tm+mt
-source-git-commit: 1914d67d2634cb13368ab72d54da7da5988de13f
+source-git-commit: 5f9f371274f591f746d43ea1dfe33ceeda3513c9
 workflow-type: tm+mt
-source-wordcount: '330'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---

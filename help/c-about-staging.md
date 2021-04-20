@@ -2,7 +2,7 @@
 description: Met Staging kunt u wijzigingen in de instellingen en configuraties testen en voorvertonen zonder dat dit invloed heeft op de actieve index.
 solution: Target
 title: Informatie over Staging
-topic: Staging, zoeken en verhandelen van sites
+topic: Staging,Site search and merchandising
 uuid: 2e5889a6-2e9c-4ac7-9d6e-d35e7cafda5b
 translation-type: tm+mt
 source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f

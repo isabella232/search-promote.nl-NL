@@ -2,7 +2,7 @@
 description: Leer over het gebruiken van presentatie en malplaatjemarkeringen in Onderzoek&amp;Bevorderen.
 solution: Target
 title: Sjablonen
-topic: Bijlagen,zoeken en verhandelen van sites
+topic: Appendices,Site search and merchandising
 uuid: 78299032-dc23-4dfe-b68f-cd57b2b6d7d8
 translation-type: tm+mt
 source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f

@@ -2,7 +2,7 @@
 description: Gebruik Regels voor voorzoeken om de binnenkomende query te analyseren en te bepalen welke presentatiesjabloon moet worden gebruikt. Regels voor voorzoeken worden voor elke query op volgorde uitgevoerd. U kunt slepen en neerzetten gebruiken om de volgorde van de regels te wijzigen. De werkelijke volgorde verandert pas wanneer u de volgorde opslaat.
 solution: Target
 title: Over regels voor vooraf zoeken
-topic: Regels, zoeken en verhandelen van sites
+topic: Rules,Site search and merchandising
 uuid: e75f9d9e-e8ca-4184-bf79-b1fdadb5c0fe
 translation-type: tm+mt
 source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f

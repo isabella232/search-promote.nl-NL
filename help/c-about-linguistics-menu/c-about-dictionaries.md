@@ -2,7 +2,7 @@
 description: U kunt woordenboeken gebruiken om een verzameling woordenboeken en de bijbehorende synoniemen en woordafbrekingen te beheren.
 solution: Target
 title: Informatie over woordenboeken
-topic: Taalkunde, zoeken en verhandelen van sites
+topic: Linguistics,Site search and merchandising
 uuid: d4463896-30fe-4385-a283-c930c8264a02
 translation-type: tm+mt
 source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f

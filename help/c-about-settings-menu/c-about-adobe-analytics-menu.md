@@ -3,7 +3,7 @@ description: Gebruik het menu Adobe Analytics om Adobe Analytics-metrische verif
 solution: Target
 subtopic: Adobe Analytics
 title: Het menu Adobe Analytics
-topic: Instellingen, zoeken en verhandelen van sites
+topic: Settings,Site search and merchandising
 uuid: 5536edf1-d3a4-47af-a307-6e46f385f738
 translation-type: tm+mt
 source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f

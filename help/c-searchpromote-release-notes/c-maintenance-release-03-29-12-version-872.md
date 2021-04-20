@@ -2,7 +2,7 @@
 description: '&Zoeken;amp;Opmerkingen bij de release 8.7.2 promoten.'
 solution: Target
 title: '&Zoeken;amp;Opmerkingen bij de release 8.7.2 promoten (29-03-2012)'
-topic: Opmerkingen bij de release, zoeken en verhandelen op de site
+topic: Release Notes,Site search and merchandising
 uuid: e8454d47-6444-4136-92d7-35b90bfb12ca
 translation-type: tm+mt
 source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f

@@ -2,7 +2,7 @@
 description: '&Zoeken;amp;Opmerkingen bij de release 15.3.1 promoten.'
 solution: Target
 title: '&Zoeken;amp;Opmerkingen bij de release 15.3.1 promoten (24-03-2015)'
-topic: Opmerkingen bij de release, zoeken en verhandelen op de site
+topic: Release Notes,Site search and merchandising
 uuid: f02da5a4-2207-4603-aa05-5cff7be16dd5
 translation-type: tm+mt
 source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f

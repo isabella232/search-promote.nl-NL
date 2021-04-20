@@ -2,7 +2,7 @@
 description: Een vernieuwingsfunctie voor de syntaxis en regels voor het maken van reguliere expressies.
 solution: Target
 title: Reguliere expressies
-topic: Bijlagen,zoeken en verhandelen van sites
+topic: Appendices,Site search and merchandising
 uuid: 369b54f6-372a-41de-bb5d-3ae0bd640199
 translation-type: tm+mt
 source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f

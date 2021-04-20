@@ -2,7 +2,7 @@
 description: Wanneer uw website verandert, kunt u een manuscript of een programma in werking stellen verzoekend dat de onderzoeksrobot een index in werking stelt gebruikend Verre Controle.
 solution: Target
 title: Over afstandsbediening voor indexering
-topic: Index, zoeken en verhandelen van sites
+topic: Index,Site search and merchandising
 uuid: 20e230c6-5c1a-4bf4-bff3-b8236d14ab21
 translation-type: tm+mt
 source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f

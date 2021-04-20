@@ -2,7 +2,7 @@
 description: U kunt de datumnotaties definiëren die worden gebruikt wanneer een veld met een gegevenstype "date" wordt geparseerd en geïndexeerd.
 solution: Target
 title: Datumnotaties
-topic: Bijlagen,zoeken en verhandelen van sites
+topic: Appendices,Site search and merchandising
 uuid: 148914b5-33ef-41db-8404-67c03f6f0832
 translation-type: tm+mt
 source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f

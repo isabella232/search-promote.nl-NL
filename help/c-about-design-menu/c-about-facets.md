@@ -3,7 +3,7 @@ description: U kunt Facets gebruiken om uw presentatielaag aan te passen en uw g
 solution: Target
 subtopic: Navigation
 title: Informatie over facetten
-topic: Ontwerpen, zoeken en verhandelen van sites
+topic: Design,Site search and merchandising
 uuid: 28bc4d4d-a84c-4a77-befb-b0fb3bbdb966
 translation-type: tm+mt
 source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f

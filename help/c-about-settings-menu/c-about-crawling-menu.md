@@ -3,7 +3,7 @@ description: Met het menu Crawling stelt u de datum- en URL-maskers, wachtwoorde
 solution: Target
 subtopic: Crawling
 title: Het menu Crawling
-topic: Instellingen, zoeken en verhandelen van sites
+topic: Settings,Site search and merchandising
 uuid: a58c03bf-90f7-4b5b-91ff-988b95c246b0
 translation-type: tm+mt
 source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f

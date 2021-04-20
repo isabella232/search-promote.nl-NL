@@ -2,7 +2,7 @@
 description: Gebruik het menu Rapporten om rapporten van de onderzoeksvragen van klanten te bekijken of terug te stellen.
 solution: Target
 title: Het menu Rapporten
-topic: Rapporten, zoeken en verhandelen van sites
+topic: Reports,Site search and merchandising
 uuid: 3ea856d7-dc07-455f-8dc7-c7f7f56355d7
 translation-type: tm+mt
 source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f

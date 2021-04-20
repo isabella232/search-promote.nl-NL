@@ -3,7 +3,7 @@ description: Gebruik het menu Accountopties om uw accountinstellingen bij te wer
 solution: Target
 subtopic: Account Options
 title: Het menu Accountopties
-topic: Instellingen, zoeken en verhandelen van sites
+topic: Settings,Site search and merchandising
 uuid: 0f830033-de9e-4197-8d76-906c818662eb
 translation-type: tm+mt
 source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f

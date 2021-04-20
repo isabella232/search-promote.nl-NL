@@ -3,7 +3,7 @@ description: Met Terugdraaien kunt u een back-up maken van door u gegenereerde i
 solution: Target
 subtopic: Rollback
 title: Over Terugdraaien voor indexen
-topic: Index, zoeken en verhandelen van sites
+topic: Index,Site search and merchandising
 uuid: abed878a-71b3-4122-9822-7410f4427a9a
 translation-type: tm+mt
 source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f

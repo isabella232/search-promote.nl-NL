@@ -2,7 +2,7 @@
 description: Met Proximity Search kunt u een unieke locatie koppelen aan elke pagina op uw website en vervolgens de resultaten zoeken en sorteren op afstand (afstand) van een bepaalde locatie.
 solution: Target
 title: Informatie over zoeken op nabijheid
-topic: Bijlagen,zoeken en verhandelen van sites
+topic: Appendices,Site search and merchandising
 uuid: 24fc9265-3400-46a7-b6e0-4de5b049a39a
 translation-type: tm+mt
 source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f

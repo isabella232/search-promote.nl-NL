@@ -2,7 +2,7 @@
 description: U kunt de uitbreiding van onderzoeksvraagresultaten met voeten treden.
 solution: Target
 title: Info over Overschrijvingen voor Query-uitbreiding
-topic: Taalkunde, zoeken en verhandelen van sites
+topic: Linguistics,Site search and merchandising
 uuid: dfe18004-b8fd-4889-b01c-72a3b0c82b9c
 translation-type: tm+mt
 source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f

@@ -2,7 +2,7 @@
 description: Met Woorden en taal kunt u bepalen hoe de zoektermen overeenkomen met de inhoud van uw webpagina's.
 solution: Target
 title: Woorden en taal
-topic: Taalkunde, zoeken en verhandelen van sites
+topic: Linguistics,Site search and merchandising
 uuid: 793d7a40-4609-44b8-a170-536eb1434537
 translation-type: tm+mt
 source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f

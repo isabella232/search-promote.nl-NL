@@ -3,7 +3,7 @@ description: Met Incrementele index kunt u "stukken" van uw actieve of gefaseerd
 solution: Target
 subtopic: Incremental Index
 title: Informatie over incrementele index
-topic: Index, zoeken en verhandelen van sites
+topic: Index,Site search and merchandising
 uuid: b1ee9b08-dcbe-4ffe-b0b4-d379daaac9b5
 translation-type: tm+mt
 source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f

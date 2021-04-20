@@ -2,7 +2,7 @@
 description: De Regels van de Schoonmaak van de Vraag van het gebruik om de inkomende vraag te analyseren en te wijzigen.
 solution: Target
 title: Info over Regels voor het opschonen van query's
-topic: Regels, zoeken en verhandelen van sites
+topic: Rules,Site search and merchandising
 uuid: 683af81f-f7c0-45f8-9212-e5e7cb82ccca
 translation-type: tm+mt
 source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f

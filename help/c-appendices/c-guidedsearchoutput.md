@@ -2,7 +2,7 @@
 description: Leer hoe u uitvoer in elke op tekst gebaseerde indeling kunt aanpassen, inclusief XML of JSON.
 solution: Target
 title: Uitvoer van Begeleide zoekfunctie
-topic: Bijlagen,zoeken en verhandelen van sites
+topic: Appendices,Site search and merchandising
 uuid: 234fd563-f249-42b0-88ca-c89b44f8df77
 translation-type: tm+mt
 source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f

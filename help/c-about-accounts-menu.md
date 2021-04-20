@@ -2,7 +2,7 @@
 description: Gebruik Accounts in het productmenu om een account te selecteren die u wilt openen en gebruiken.
 solution: Target
 title: Het menu Accounts
-topic: Instellingen, zoeken en verhandelen van sites
+topic: Settings,Site search and merchandising
 uuid: 7cfc1b68-5126-484a-8a1d-54995a8fd19b
 translation-type: tm+mt
 source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f

@@ -2,7 +2,7 @@
 description: Als u nog nooit eerder met Search&Promote en dynamische navigatie hebt gewerkt, kunt u hier aan de slag met uw account. U leert onder andere hoe u uw website kunt indexeren en hoe u de vormgeving van de zoekresultaten kunt aanpassen.
 solution: Target
 title: Aan de slag
-topic: Aan de slag, zoeken en verhandelen van sites
+topic: Getting Started,Site search and merchandising
 uuid: 816ad003-15c9-4e44-b09d-cab284518634
 translation-type: tm+mt
 source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f

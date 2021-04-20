@@ -2,7 +2,7 @@
 description: U kunt Historie gebruiken om een lijst te bekijken van alle revisies die aan een geïmplementeerde functie zijn aangebracht, zoals een facet, broodkruimel, banner of sjabloon, om er een paar te noemen.
 solution: Target
 title: De optie Historie gebruiken
-topic: Historie gebruiken, zoeken en verhandelen van sites
+topic: Using History,Site search and merchandising
 uuid: 48b9ee9d-cd61-41e7-b8c3-5f1665b9a9cb
 translation-type: tm+mt
 source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f

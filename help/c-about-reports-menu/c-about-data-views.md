@@ -2,7 +2,7 @@
 description: In de weergave Gegevens worden de zoekresultaten weergegeven met de metavelden. Elke kolom is een metabeld en elke rij is het resultaat van een zoekopdracht. Pas de Weergaven van Gegevens aan door kolommen te kiezen en opnieuw te rangschikken. Gegevensweergaven kunnen ook aangepaste titels en beschrijvingen hebben.
 solution: Target
 title: Gegevens
-topic: Rapporten, zoeken en verhandelen van sites
+topic: Reports,Site search and merchandising
 uuid: 18930551-960d-40c2-b5b7-0807a2e11134
 translation-type: tm+mt
 source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f

@@ -3,7 +3,7 @@ description: Gebruik Facet Rail om groepen facetten op een webpagina opnieuw te 
 solution: Target
 subtopic: Navigation
 title: Info over Facet Rail
-topic: Ontwerpen, zoeken en verhandelen van sites
+topic: Design,Site search and merchandising
 uuid: 6da2bd67-8c20-4955-9836-bc8ba88546c5
 translation-type: tm+mt
 source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f

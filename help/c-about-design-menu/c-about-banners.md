@@ -2,7 +2,7 @@
 description: Met Banners kunt u de banneradvertenties op uw website beheren.
 solution: Target
 title: Informatie over banners
-topic: Ontwerpen, zoeken en verhandelen van sites
+topic: Design,Site search and merchandising
 uuid: 653b567d-5cf3-41a0-a260-a6912d0fd20d
 translation-type: tm+mt
 source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f

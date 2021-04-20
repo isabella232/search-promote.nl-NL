@@ -2,7 +2,7 @@
 description: U kunt de BedrijfsRegels gebruiken om uw onderzoek te ruilen.
 solution: Target
 title: Informatie over bedrijfsregels
-topic: Regels, zoeken en verhandelen van sites
+topic: Rules,Site search and merchandising
 uuid: f2186f54-7a39-4f46-bb29-5115d5a17f07
 translation-type: tm+mt
 source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f

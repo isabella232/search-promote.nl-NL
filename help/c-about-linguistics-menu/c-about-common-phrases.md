@@ -2,7 +2,7 @@
 description: U kunt gemeenschappelijke uitdrukkingen bepalen die op uw website worden gebruikt zodat wanneer een klant een onderzoeksvraag ingaat, zij geen citaten hoeven in te gaan rond om het even welke uitdrukkingen u hebt bepaald.
 solution: Target
 title: Informatie over algemene woordgroepen
-topic: Taalkunde, zoeken en verhandelen van sites
+topic: Linguistics,Site search and merchandising
 uuid: 0f980a22-d826-4476-97de-0e9c14549bc8
 translation-type: tm+mt
 source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f

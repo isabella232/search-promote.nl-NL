@@ -3,7 +3,7 @@ description: U kunt diverse gebieden van auto-aanvullen vormen om de generatie v
 solution: Target
 subtopic: Auto-Complete
 title: Info Automatisch aanvullen
-topic: Ontwerpen, zoeken en verhandelen van sites
+topic: Design,Site search and merchandising
 uuid: 3dfdd14d-2044-4f01-a5bc-fcb2eb0d5068
 translation-type: tm+mt
 source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f

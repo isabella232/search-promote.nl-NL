@@ -2,7 +2,7 @@
 description: U kunt Uitgesloten woorden gebruiken om veelgebruikte woordgroepen en veelgebruikte woorden, zoals "a" en "het", op te geven die u uit zoekresultaten wilt weglaten.
 solution: Target
 title: Info over Uitgesloten woorden
-topic: Taalkunde, zoeken en verhandelen van sites
+topic: Linguistics,Site search and merchandising
 uuid: 1c879462-1b19-44f6-a3b2-20aa786b3221
 translation-type: tm+mt
 source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f

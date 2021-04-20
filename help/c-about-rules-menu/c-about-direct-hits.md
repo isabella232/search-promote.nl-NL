@@ -2,7 +2,7 @@
 description: Met directe treffers kunt u een klant omleiden naar een opgegeven URL wanneer de klant naar een overeenkomstige term zoekt. Met dit soort functionaliteit kunt u de navigatie van de zoekopdracht op uw website verbeteren.
 solution: Target
 title: Info over Direct Hits
-topic: Regels, zoeken en verhandelen van sites
+topic: Rules,Site search and merchandising
 uuid: 374d63c8-2b82-4165-b543-05b587757baa
 translation-type: tm+mt
 source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f

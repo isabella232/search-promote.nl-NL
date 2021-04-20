@@ -2,7 +2,7 @@
 description: U kunt vormen Bedoelde u zodat de klanten suggesties voor geldige onderzoekstermijnen krijgen wanneer zij onderzoeken hebben geprobeerd die ontbroken hebben. Suggesties worden gevormd door spelling te zoeken en correcties in de zoektermen te typen die resulteren in een geldige zoekopdracht.
 solution: Target
 title: Info Bedoelde je
-topic: Taalkunde, zoeken en verhandelen van sites
+topic: Linguistics,Site search and merchandising
 uuid: c5973541-3d6b-4fc9-bad4-66d4d3559fe8
 translation-type: tm+mt
 source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f

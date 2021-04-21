@@ -3,16 +3,16 @@ description: Met het menu Zoeken kunt u uitgesloten woorden, verzamelingen, bepe
 solution: Target
 subtopic: Searching
 title: Het menu Zoeken
-topic: Settings,Site search and merchandising
+topic-legacy: Settings,Site search and merchandising
 uuid: 072111fc-a32b-4acb-8337-cb21bcdb5542
+exl-id: 4cb70240-051b-4bf3-ae2a-b151acc7cba1
 translation-type: tm+mt
-source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
+source-git-commit: 7559f5f7437d46e3510d4659772308666425ec96
 workflow-type: tm+mt
-source-wordcount: '11170'
+source-wordcount: '11165'
 ht-degree: 0%
 
 ---
-
 
 # Informatie over het menu Zoeken{#about-the-searching-menu}
 
@@ -816,7 +816,7 @@ Typ elk include-masker of sluit het masker uit op één regel.
 
 ## URL-masker of IP-adresmaskerbeperkingen {#task_E6FF2DD83E8D4B00A0E2809DC13A56C9} toevoegen
 
-U kunt beperkingsinstellingen opgeven als &quot;Referrer-URL-maskers&quot; of &quot;IP-adresmaskers&quot;. Beide typen beperkingen bevatten maskers om zoekopdrachten toe te staan en maskers uit te sluiten om ze te weigeren. Een zoekopdracht is toegestaan als deze zowel aan de URL van de referentie als aan de criteria voor IP-adresbeperking voldoet.
+U kunt beperkingsinstellingen opgeven als &quot;Referrer-URL-maskers&quot; of &quot;IP-adresmaskers&quot;. Beide typen beperkingen bevatten maskers om zoekopdrachten toe te staan en maskers uit te sluiten om ze te weigeren. Een zoekopdracht is toegestaan als deze zowel aan de URL van de verwijzer als aan de criteria voor IP-adresbeperking voldoet.
 
 <!-- 
 
@@ -1069,7 +1069,7 @@ t_creating_a_feed.xml
     </thead>
     <tbody> 
       <tr> 
-      <td colname="col1"> <p>3 </p> </td> 
+      <td colname="col1"> <p>1 </p> </td> 
       <td colname="col2"> <p>Naam van feed </p> </td> 
       <td colname="col3"> <p>Hier geeft u de naam van de feed op. </p> </td> 
       </tr> 
@@ -1090,7 +1090,7 @@ t_creating_a_feed.xml
         </ol> </p> <p> <b>Geavanceerd gebruik</b> </p> <p>Nadat u de eerste negen vereiste voedervelden hebt toegewezen, zoals hierboven is beschreven, kunt u uw eigen aangepaste velden maken. Klik in de vervolgkeuzelijst <span class="wintitle"> Voedervelden </span> op <span class="uicontrol"> Aangepast </span>. Voer in het bijbehorende tekstveld een aangepaste tagnaam voor dat veld in. Deze aangepaste optie is handig als een feed speciale leveranciersspecifieke velden nodig heeft. </p> <p> <p>Opmerking:  Hoewel in de specificaties van de Aanbeveling Feed wordt bepaald dat elke veldnaam moet worden voorafgegaan door "entiteit", is dit in dit geval niet nodig. </p> </p> <p>U kunt ook een aangepast metagegevensveld maken. Klik in de vervolgkeuzelijst <span class="wintitle"> Metagegevensvelden </span> op <span class="uicontrol"> Aangepast </span>. Voer in het bijbehorende tekstveld een aangepaste veldwaarde voor metagegevens in. De waarde wordt ingevoegd in de vooraf gegenereerde sjabloon en kan ook worden gebruikt om aangepaste zoeksjabloontags te injecteren. </p> <p>Zie <a href="../c-appendices/c-templates.md#reference_F7AA3FF602314E42842BBC740D2CA1A4" type="reference" format="dita" scope="local"> Sjabloonlabels zoeken </a>. </p> </td> 
       </tr> 
       <tr> 
-      <td colname="col1"> <p>3 </p> </td> 
+      <td colname="col1"> <p>1 </p> </td> 
       <td colname="col2"> <p>Zoekcriteria </p> </td> 
       <td colname="col3"> <p>Wanneer de voederdossiers worden geproduceerd, wordt een onderzoeksvraag gebruikt om de gegevens te filtreren. In dit deelvenster definieert u de filters die worden gebruikt voor de zoekquery. </p> 
         <ul id="ul_799ECF61C03A44878C7182F8B88CC3AD"> 
@@ -1157,7 +1157,7 @@ t_creating_a_feed.xml
         </ul> <p>Voor algemene feeds moet een speciale CGI-parameter worden opgegeven. Om het speciale malplaatje te binden dat met dit voer wordt geassocieerd, bepaalt u <span class="codeph"> sp_t </span> parameter. Plaats de waarde van <span class="codeph"> sp_t </span> aan de naam van het dossier van het vervoermalplaatje. Als u bijvoorbeeld een transportsjabloonbestand met de naam <span class="codeph"> super_feed.tpl </span> hebt toegevoegd, maakt u een aangepaste CGI-zoekparameter met de naam <span class="codeph"> sp_t=super_feed </span>. Het tekstvak voor het invoeren van <span class="codeph"> sp_t </span> verschijnt pas als u <span class="uicontrol"> Vrije vorm </span> in de vervolgkeuzelijst <span class="wintitle"> Metaveld </span> selecteert. </p> </td> 
       </tr> 
       <tr> 
-      <td colname="col1"> <p>3 </p> </td> 
+      <td colname="col1"> <p>1 </p> </td> 
       <td colname="col2"> <p>Bestandsverzending </p> </td> 
       <td colname="col3"> <p>Hier kunt u het schema configureren voor het verzenden van de feed-bestanden en de methode instellen die u wilt gebruiken om de bestanden te uploaden. </p> 
         <ul id="ul_30E830C41F6A4526822AF1FD3083075A"> 
@@ -1209,7 +1209,7 @@ t_creating_a_feed.xml
       <td colname="col3"> <p>Hiermee kunt u leveranciersspecifieke feed-velden toewijzen aan de velden voor zoeken/verhandelen van metagegevens op de site. Deze toewijzingsstap in de wizard is belangrijk omdat Feeds hiermee de informatie kan correleren tussen de velden in de index en de velden in de gegevens van de feed. In de meeste gevallen, behalve voor <span class="wintitle"> Algemene feeds </span>, worden de correlaties opgeslagen in een dynamisch gegenereerde zoeksjabloon. </p> <p>Elke rij in de tabel Veldkaarten vertegenwoordigt een veldtoewijzing. Klik in de kolom <span class="wintitle"> </span> toevoegen/verwijderen van de tabel op <span class="uicontrol"> + </span> om een nieuwe veldtoewijzingsrij toe te voegen; Klik <span class="uicontrol"> - </span> om de momenteel geselecteerde rij van de gebiedstoewijzing uit de lijst te schrappen. Als u een feed-veld wilt koppelen aan een metagegevensveld voor zoeken/verkopen van sites, gebruikt u de desbetreffende vervolgkeuzelijsten om de gewenste velden te kiezen. </p> <p> <b>Geavanceerd gebruik</b> </p> <p>U kunt uw eigen aangepaste velden maken. Klik in de vervolgkeuzelijst <span class="wintitle"> Voedervelden </span> op <span class="uicontrol"> Aangepast </span>. Voer in het bijbehorende tekstveld een aangepaste tagnaam voor dat veld in. Deze aangepaste optie is handig als een feed speciale leveranciersspecifieke velden nodig heeft. </p> <p>U kunt ook een aangepast metagegevensveld maken. Klik in de vervolgkeuzelijst <span class="wintitle"> Metagegevensvelden </span> op <span class="uicontrol"> Aangepast </span>. Voer in het bijbehorende tekstveld een aangepaste veldwaarde voor metagegevens in. De waarde wordt ingevoegd in de vooraf gegenereerde sjabloon en kan ook worden gebruikt om aangepaste zoeksjabloontags te injecteren. </p> <p>Zie <a href="../c-appendices/c-templates.md#reference_F7AA3FF602314E42842BBC740D2CA1A4" type="reference" format="dita" scope="local"> Sjabloonlabels zoeken </a>. </p> </td> 
       </tr> 
       <tr> 
-      <td colname="col1"> <p>3 </p> </td> 
+      <td colname="col1"> <p>1 </p> </td> 
       <td colname="col2"> <p>Zoekcriteria </p> </td> 
       <td colname="col3"> <p>Wanneer de voederdossiers worden geproduceerd, wordt een onderzoeksvraag gebruikt om de gegevens te filtreren. In dit deelvenster definieert u de filters die worden gebruikt voor de zoekquery. </p> 
         <ul id="ul_8179321A58BB4C72B0CDB2B2BEC58FE4"> 
@@ -1274,7 +1274,7 @@ t_creating_a_feed.xml
       <td colname="col3"> <p>Hiermee kunt u leveranciersspecifieke feed-velden toewijzen aan de velden voor zoeken/verhandelen van metagegevens op de site. Deze toewijzingsstap in de wizard is belangrijk omdat Feeds hiermee de informatie kan correleren tussen de velden in de index en de velden in de gegevens van de feed. In de meeste gevallen, behalve voor <span class="wintitle"> Algemene feeds </span>, worden de correlaties opgeslagen in een dynamisch gegenereerde zoeksjabloon. </p> <p>Elke rij in de tabel Veldkaarten vertegenwoordigt een veldtoewijzing. Klik in de kolom Toevoegen/Verwijderen van de tabel op <span class="uicontrol"> + </span> om een nieuwe veldtoewijzingsrij toe te voegen. Klik <span class="uicontrol"> - </span> om de momenteel geselecteerde rij van de gebiedstoewijzing van de lijst te schrappen. Als u een veld Voeding aan een metagegevensveld wilt koppelen, gebruikt u de desbetreffende vervolgkeuzelijsten om de gewenste velden te kiezen. </p> <p> <b>Geavanceerd gebruik</b> </p> <p>U kunt uw eigen aangepaste velden maken. Klik in de vervolgkeuzelijst <span class="wintitle"> Voedervelden </span> op <span class="uicontrol"> Aangepast </span>. Voer in het bijbehorende tekstveld een aangepaste tagnaam voor dat veld in. Deze aangepaste optie is handig als een feed speciale leveranciersspecifieke velden nodig heeft. </p> <p>U kunt ook een aangepast metagegevensveld maken. Klik in de vervolgkeuzelijst <span class="wintitle"> Metagegevensvelden </span> op <span class="uicontrol"> Aangepast </span>. Voer in het bijbehorende tekstveld een aangepaste veldwaarde voor metagegevens in. De waarde wordt ingevoegd in de vooraf gegenereerde sjabloon en kan ook worden gebruikt om aangepaste zoeksjabloontags te injecteren. </p> <p>Zie <a href="../c-appendices/c-templates.md#reference_F7AA3FF602314E42842BBC740D2CA1A4" type="reference" format="dita" scope="local"> Sjabloonlabels zoeken </a>. </p> </td> 
       </tr> 
       <tr> 
-      <td colname="col1"> <p>3 </p> </td> 
+      <td colname="col1"> <p>1 </p> </td> 
       <td colname="col2"> <p>Zoekcriteria </p> </td> 
       <td colname="col3"> <p>Wanneer de voederdossiers worden geproduceerd, wordt een onderzoeksvraag gebruikt om de gegevens te filtreren. In dit deelvenster definieert u de filters die worden gebruikt voor de zoekquery. </p> 
         <ul id="ul_994585E89A044BD3A89A99D30F277432"> 

@@ -3,16 +3,16 @@ description: Met Volledige index kunt u alle pagina's van uw gefaseerde of live 
 solution: Target
 subtopic: Full Index
 title: Info over Volledige index
-topic: Index,Site search and merchandising
+topic-legacy: Index,Site search and merchandising
 uuid: dce1eafd-5aea-4945-8305-8f9e7dc392df
+exl-id: cb702bd6-8702-469b-8ce9-0368ccdd55d9
 translation-type: tm+mt
-source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
+source-git-commit: 7559f5f7437d46e3510d4659772308666425ec96
 workflow-type: tm+mt
-source-wordcount: '760'
+source-wordcount: '755'
 ht-degree: 0%
 
 ---
-
 
 # Info over Volledige index{#about-full-index}
 
@@ -117,4 +117,3 @@ U kunt logboeken niet exporteren of opslaan. Het logboek blijft beschikbaar voor
    * Gebruik de navigatieopties **[!UICONTROL First]**, **[!UICONTROL Prev]**, **[!UICONTROL Next]**, **[!UICONTROL Last]**, of **[!UICONTROL Go to line]** om door het logboek te bewegen.
 
    * Gebruik de weergaveopties **[!UICONTROL Errors only]**, **[!UICONTROL Wrap line]** of **[!UICONTROL Show]** om te verfijnen wat u ziet.
-

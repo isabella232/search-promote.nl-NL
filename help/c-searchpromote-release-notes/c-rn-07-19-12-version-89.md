@@ -2,16 +2,16 @@
 description: '&Zoeken;amp;Opmerkingen bij de release 8.9 promoten.'
 solution: Target
 title: '&Zoeken;amp;Opmerkingen bij de release 8.9 promoten (19-07-2012)'
-topic: Release Notes,Site search and merchandising
+topic-legacy: Release Notes,Site search and merchandising
 uuid: 3853c75d-19ed-4e36-9e81-dcbffe5f5b0c
+exl-id: d61bf0ee-60a9-4c89-8381-5514ba85cb99
 translation-type: tm+mt
-source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
+source-git-commit: 7559f5f7437d46e3510d4659772308666425ec96
 workflow-type: tm+mt
-source-wordcount: '287'
+source-wordcount: '281'
 ht-degree: 0%
 
 ---
-
 
 # Opmerkingen bij de release van Search&amp;Promote 8.9 (19-07-2012){#search-promote-release-notes}
 
@@ -39,4 +39,3 @@ ht-degree: 0%
 * Als u op Bewerken op bepaalde banners klikt, wordt de pagina Bewerken niet weergegeven.
 * Het opnieuw rangschikken van updatecode kan soms buitengewoon langzaam zijn.
 * Het verwijderen of duwen van een facetitem werkte niet als de facetnaam een combinatie-hoofdletter gebruikte.
-

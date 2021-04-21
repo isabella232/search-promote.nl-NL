@@ -2,16 +2,16 @@
 description: Meer informatie over zoekformulieren in Zoeken&amp;Promoten
 solution: Target
 title: Zoeken in formulieren
-topic: Appendices,Site search and merchandising
+topic-legacy: Appendices,Site search and merchandising
 uuid: 91153e3a-c437-47f3-8c2a-d9ac02965b8c
+exl-id: 9771a19d-86a8-41db-9c80-d734fbd10ab7
 translation-type: tm+mt
-source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
+source-git-commit: 7559f5f7437d46e3510d4659772308666425ec96
 workflow-type: tm+mt
-source-wordcount: '2931'
+source-wordcount: '2926'
 ht-degree: 0%
 
 ---
-
 
 # Formulieren zoeken{#search-forms}
 
@@ -130,7 +130,7 @@ Het configureren van framesets verloopt als volgt:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>3 </p> </td> 
+   <td colname="col1"> <p>1 </p> </td> 
    <td colname="col02"> <p>Voeg het formulier toe aan het gewenste frame op uw webpagina. </p> </td> 
    <td colname="col2"> <p> <a href="#section_BAA8A502BB2243F8B5FF9783CDF2BFFD" type="section" format="dita" scope="local"> De code van het zoekformulier toevoegen aan een frame in uw...  </a> </p> </td> 
   </tr> 
@@ -140,7 +140,7 @@ Het configureren van framesets verloopt als volgt:
    <td colname="col2"> <p> <a scope="local" href="#section_532CACB90888467093D95EACB64FDFA1" type="section" format="dita"> Het doelframe instellen voor de pagina met zoekresultaten  </a> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>3 </p> </td> 
+   <td colname="col1"> <p>1 </p> </td> 
    <td colname="col02"> <p>Stel het doel in voor koppelingen die op de pagina met zoekresultaten worden gemaakt. </p> </td> 
    <td colname="col2"> <p> <a scope="local" href="#section_523248C5AC424D878321C21A23A5CD66" type="section" format="dita"> Het doel instellen voor koppelingen die zijn gemaakt op basis van de zoekresultaten...  </a> </p> </td> 
   </tr> 
@@ -920,4 +920,3 @@ Sorry, no matches were found containing <b><SEARCH-QUERY>.</b>
 </SEARCH-IF-ADVANCED> 
 </form>
 ```
-

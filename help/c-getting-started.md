@@ -2,16 +2,16 @@
 description: Als u nog nooit eerder met Search&Promote en dynamische navigatie hebt gewerkt, kunt u hier aan de slag met uw account. U leert onder andere hoe u uw website kunt indexeren en hoe u de vormgeving van de zoekresultaten kunt aanpassen.
 solution: Target
 title: Aan de slag
-topic: Getting Started,Site search and merchandising
+topic-legacy: Getting Started,Site search and merchandising
 uuid: 816ad003-15c9-4e44-b09d-cab284518634
+exl-id: f2772d7a-b558-403e-9e77-8c87302e2b02
 translation-type: tm+mt
-source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
+source-git-commit: 7559f5f7437d46e3510d4659772308666425ec96
 workflow-type: tm+mt
-source-wordcount: '1028'
+source-wordcount: '1022'
 ht-degree: 0%
 
 ---
-
 
 # Aan de slag{#getting-started}
 
@@ -142,4 +142,3 @@ Er zijn veel extra opties waarmee u de zoekervaring van uw klant volledig kunt a
 * Configureer woordenboeken waarmee u groepen gerelateerde woorden kunt opgeven (bijvoorbeeld aanschaffen, kopen en aanschaffen). Deze verwante woorden helpen om relevante resultaten terug te keren zelfs wanneer de het onderzoeksvraag van een klant niet precies de terminologie aanpast die op uw Web-pagina&#39;s wordt gebruikt. Met het synoniem dat in het bovenstaande voorbeeld wordt gebruikt, keert de het onderzoeksvraag van een klant van &quot;aankoop&quot;pagina&#39;s terug die het woord &quot;kopen&quot;bevatten.
 
    Zie [Informatie over woordenboeken](c-about-linguistics-menu/c-about-dictionaries.md#concept_B8028B71EC8144669614C64578EDB034).
-

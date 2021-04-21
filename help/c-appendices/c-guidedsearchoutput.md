@@ -2,16 +2,16 @@
 description: Leer hoe u uitvoer in elke op tekst gebaseerde indeling kunt aanpassen, inclusief XML of JSON.
 solution: Target
 title: Uitvoer van Begeleide zoekfunctie
-topic: Appendices,Site search and merchandising
+topic-legacy: Appendices,Site search and merchandising
 uuid: 234fd563-f249-42b0-88ca-c89b44f8df77
+exl-id: 5e36b30f-defb-4a28-8516-53cea81d44c2
 translation-type: tm+mt
-source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
+source-git-commit: 7559f5f7437d46e3510d4659772308666425ec96
 workflow-type: tm+mt
-source-wordcount: '6289'
+source-wordcount: '6284'
 ht-degree: 0%
 
 ---
-
 
 # Uitvoer met instructies voor zoeken{#guided-search-output}
 
@@ -106,7 +106,7 @@ De volgende lijst beschrijft de standaard &quot;uit-van-de-doos&quot;parameters 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> rangschikken  </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> rank= veld  </span> </p> </td> 
-   <td colname="col3"> <p> Hiermee geeft u het veld met rangorde op dat u wilt gebruiken voor statische rangschikking. Het veld moet een veld van het type Rank zijn met een relevantie groter dan 0. Deze parameter brengt aan de <span class="codeph"> sp_sr </span> achterste parameter in kaart. </p> </td> 
+   <td colname="col3"> <p> Hiermee geeft u het rangtelveld op dat moet worden gebruikt voor statische waarderingen. Het veld moet een veld van het type Rank zijn met een relevantie groter dan 0. Deze parameter brengt aan de <span class="codeph"> sp_sr </span> achterste parameter in kaart. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> gs_store  </span> </p> </td> 
@@ -3005,4 +3005,3 @@ Hier volgt een voorbeeld van een presentatiesjabloon dat wordt gebruikt om de vo
  
 </customer-results> 
 ```
-

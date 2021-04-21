@@ -2,16 +2,16 @@
 description: In de weergave Gegevens worden de zoekresultaten weergegeven met de metavelden. Elke kolom is een metabeld en elke rij is het resultaat van een zoekopdracht. Pas de Weergaven van Gegevens aan door kolommen te kiezen en opnieuw te rangschikken. Gegevensweergaven kunnen ook aangepaste titels en beschrijvingen hebben.
 solution: Target
 title: Gegevens
-topic: Reports,Site search and merchandising
+topic-legacy: Reports,Site search and merchandising
 uuid: 18930551-960d-40c2-b5b7-0807a2e11134
+exl-id: 9ef5eaef-85d6-41e9-af44-b4775755e5bf
 translation-type: tm+mt
-source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
+source-git-commit: 7559f5f7437d46e3510d4659772308666425ec96
 workflow-type: tm+mt
-source-wordcount: '1023'
+source-wordcount: '1018'
 ht-degree: 0%
 
 ---
-
 
 # Informatie over gegevensweergaven{#about-data-views}
 
@@ -185,4 +185,3 @@ De gegevensweergave die u selecteert, wordt geopend in een apart browservenster.
    * Klik op de pagina [!DNL Data Views] in de kolom [!DNL Title] van de tabel op de naam van een gegevensweergave die u wilt openen.
 
    * Klik op de pagina [!DNL Data Views] in de kolom [!DNL Actions] van de tabel op **[!UICONTROL View]** in de rij met de gegevensweergave die u wilt openen.
-

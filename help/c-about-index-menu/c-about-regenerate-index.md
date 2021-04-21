@@ -3,16 +3,16 @@ description: U kunt Index opnieuw genereren gebruiken om de index van uw website
 solution: Target
 subtopic: Regenerate Index
 title: Info Index opnieuw genereren
-topic: Index,Site search and merchandising
+topic-legacy: Index,Site search and merchandising
 uuid: 9d1f1d88-0453-4422-a625-a348febbf224
+exl-id: 4155a52c-33f6-4f54-b69b-2a092530f7aa
 translation-type: tm+mt
-source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
+source-git-commit: 7559f5f7437d46e3510d4659772308666425ec96
 workflow-type: tm+mt
-source-wordcount: '398'
+source-wordcount: '393'
 ht-degree: 1%
 
 ---
-
 
 # Info Index opnieuw genereren{#about-regenerate-index}
 
@@ -75,4 +75,3 @@ U kunt logboeken niet exporteren of opslaan. Het logboek blijft echter beschikba
    * Gebruik de navigatieopties **[!UICONTROL First]**, **[!UICONTROL Prev]**, **[!UICONTROL Next]**, **[!UICONTROL Last]**, of **[!UICONTROL Go to line]** om door het logboek te bewegen.
 
    * Gebruik de weergaveopties **[!UICONTROL Errors only]**, **[!UICONTROL Wrap line]** of **[!UICONTROL Show]** om te verfijnen wat u ziet.
-

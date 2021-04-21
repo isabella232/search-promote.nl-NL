@@ -3,16 +3,16 @@ description: Met Scripted Index kunt u stijgende indexeringsopties schrijven, bi
 solution: Target
 subtopic: Scripted Index
 title: Over Scriptindex
-topic: Index,Site search and merchandising
+topic-legacy: Index,Site search and merchandising
 uuid: 51e726ad-414b-4cbd-8a68-fefc3cf9b565
+exl-id: e1d14cd5-4885-4e3a-bc5f-fe0b6a4df15e
 translation-type: tm+mt
-source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
+source-git-commit: 7559f5f7437d46e3510d4659772308666425ec96
 workflow-type: tm+mt
-source-wordcount: '1730'
+source-wordcount: '1725'
 ht-degree: 0%
 
 ---
-
 
 # Info over Scriptindex{#about-scripted-index}
 
@@ -286,4 +286,3 @@ U kunt logboeken niet exporteren of opslaan. Het logboek blijft echter beschikba
    * Gebruik de navigatieopties **[!UICONTROL First]**, **[!UICONTROL Prev]**, **[!UICONTROL Next]**, **[!UICONTROL Last]**, of **[!UICONTROL Go to line]** om door het logboek te bewegen.
 
    * Gebruik de weergaveopties **[!UICONTROL Errors only]**, **[!UICONTROL Wrap line]** of **[!UICONTROL Show]** om te verfijnen wat u ziet.
-

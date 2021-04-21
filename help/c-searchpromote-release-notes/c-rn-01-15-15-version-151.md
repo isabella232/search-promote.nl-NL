@@ -2,16 +2,16 @@
 description: '&Zoeken;amp;Opmerkingen bij de release 15.1.1 promoten.'
 solution: Target
 title: '&Zoeken;amp;Opmerkingen bij de release 15.1.1 promoten (15-01-2015)'
-topic: Release Notes,Site search and merchandising
+topic-legacy: Release Notes,Site search and merchandising
 uuid: 070f9c46-426f-4ca1-80c7-8ca53d40a402
+exl-id: 6176ce1e-aafe-4a46-a564-57c3ac4632ef
 translation-type: tm+mt
-source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
+source-git-commit: 7559f5f7437d46e3510d4659772308666425ec96
 workflow-type: tm+mt
-source-wordcount: '241'
+source-wordcount: '235'
 ht-degree: 0%
 
 ---
-
 
 # Opmerkingen bij de release van Search&amp;Promote 15.1.1 (15-01-2015){#search-promote-release-notes}
 
@@ -34,4 +34,3 @@ ht-degree: 0%
 * Vragen met niet-nul `sp_i` waarden worden niet meer uitgevoerd door de [!DNL Adobe Analytics] redirector.
 
    Zie rij 15 in de lijst in [Achterste onderzoek CGI parameters](../c-appendices/c-cgiparameters.md#reference_582E85C3886740C98FE88CA9DF7918E8).
-

@@ -2,16 +2,16 @@
 description: '&Zoeken;amp;Opmerkingen bij de release 8.15.0 promoten.'
 solution: Target
 title: '&Zoeken;amp;Opmerkingen bij de release 8.15.0 promoten (19-6-2014)'
-topic: Release Notes,Site search and merchandising
+topic-legacy: Release Notes,Site search and merchandising
 uuid: bb250450-48b4-4563-84b9-66f2c3dc063a
+exl-id: 57476f25-903c-4452-a3e9-adffd229ba5e
 translation-type: tm+mt
-source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
+source-git-commit: 7559f5f7437d46e3510d4659772308666425ec96
 workflow-type: tm+mt
-source-wordcount: '112'
+source-wordcount: '106'
 ht-degree: 0%
 
 ---
-
 
 # Opmerkingen bij de release van Search&amp;Promote 8.15.0 (19-6-2014){#search-promote-release-notes}
 
@@ -27,4 +27,3 @@ ht-degree: 0%
 * De kenmerklader genereerde een fout van 404.
 * Als SPIN probeerde om een malplaatje te produceren dat te groot was, werd een alarm getoond.
 * De Chinese, Koreaanse en Japanse morfologische analysator zijn bijgewerkt.
-

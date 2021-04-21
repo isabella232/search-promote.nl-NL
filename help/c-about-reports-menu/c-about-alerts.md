@@ -2,16 +2,16 @@
 description: De pagina Waarschuwingen biedt een centrale plaats voor het weergeven en beheren van alle waarschuwingen die met uw account te maken hebben.
 solution: Target
 title: Informatie over waarschuwingen
-topic: Reports,Site search and merchandising
+topic-legacy: Reports,Site search and merchandising
 uuid: 94524563-f9a6-40cf-89f3-e80b1d0113c7
+exl-id: b6d637c9-2a2c-49b3-828b-3ae272bf28aa
 translation-type: tm+mt
-source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
+source-git-commit: 7559f5f7437d46e3510d4659772308666425ec96
 workflow-type: tm+mt
-source-wordcount: '434'
+source-wordcount: '429'
 ht-degree: 0%
 
 ---
-
 
 # Info over Waarschuwingen{#about-alerts}
 
@@ -50,4 +50,3 @@ De pagina Waarschuwingen biedt een centrale plaats voor het weergeven en beheren
    * Als u alle weergegeven waarschuwingen wilt selecteren, schakelt u het selectievakje boven aan de linkerkolom in.
 
       Als u alle bijbehorende waarschuwingen in plaats van één pagina wilt selecteren, selecteert u in de vervolgkeuzelijst aan de rechterkant **[!UICONTROL All Alerts]** en schakelt u vervolgens het selectievakje boven aan de kolom in.
-

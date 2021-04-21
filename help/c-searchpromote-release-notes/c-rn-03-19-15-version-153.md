@@ -2,16 +2,16 @@
 description: '&Zoeken;amp;Opmerkingen bij de release 15.3.1 promoten.'
 solution: Target
 title: '&Zoeken;amp;Opmerkingen bij de release 15.3.1 promoten (24-03-2015)'
-topic: Release Notes,Site search and merchandising
+topic-legacy: Release Notes,Site search and merchandising
 uuid: f02da5a4-2207-4603-aa05-5cff7be16dd5
+exl-id: 2d254275-f777-45e5-a838-b6a35365a6dd
 translation-type: tm+mt
-source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
+source-git-commit: 7559f5f7437d46e3510d4659772308666425ec96
 workflow-type: tm+mt
-source-wordcount: '260'
+source-wordcount: '254'
 ht-degree: 0%
 
 ---
-
 
 # Opmerkingen bij de release van Search&amp;Promote 15.3.1 (24-03-2015){#search-promote-release-notes}
 
@@ -43,4 +43,3 @@ ht-degree: 0%
 * MDI-velden kunnen worden gevuld zonder dat er een scriptfilter moet worden toegepast.
 * Onjuiste codering in suggesties.
 * trigger &#39;&#39;other facet selected&#39;&#39; werkt nu correct met complexe bedrijfsregels.
-

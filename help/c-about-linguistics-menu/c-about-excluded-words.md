@@ -2,16 +2,16 @@
 description: U kunt Uitgesloten woorden gebruiken om veelgebruikte woordgroepen en veelgebruikte woorden, zoals "a" en "het", op te geven die u uit zoekresultaten wilt weglaten.
 solution: Target
 title: Info over Uitgesloten woorden
-topic: Linguistics,Site search and merchandising
+topic-legacy: Linguistics,Site search and merchandising
 uuid: 1c879462-1b19-44f6-a3b2-20aa786b3221
+exl-id: d553b776-907a-4f4a-8481-b36dc0cb75c9
 translation-type: tm+mt
-source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
+source-git-commit: 7559f5f7437d46e3510d4659772308666425ec96
 workflow-type: tm+mt
-source-wordcount: '688'
+source-wordcount: '683'
 ht-degree: 0%
 
 ---
-
 
 # Info over Uitgesloten woorden{#about-excluded-words}
 
@@ -23,7 +23,7 @@ Zie ook [Informatie over zoekopdrachten](../c-about-settings-menu/c-about-search
 
 Zonder Uitgesloten woorden kunnen zoekopdrachten met deze woorden vele irrelevante resultaten opleveren. Wanneer u woorden en woordgroepen uitschakelt, worden de zoekresultaten weggelaten die alleen overeenkomen met de uitgesloten termen die u hebt opgegeven. Als een zoekquery een uitgesloten woord bevat, worden alleen de niet-uitgesloten woorden gebruikt om documenten te zoeken.
 
-Uitgesloten zoekwoorden worden niet gemarkeerd in de zoekresultaten. De relevantiescore van elk resultaat wordt echter beïnvloed door de uitgesloten woorden. Uitgesloten woorden worden dus genegeerd bij het zoeken naar documenten, maar worden nog steeds gebruikt bij het plaatsen van de volgorde van de documenten op de pagina met zoekresultaten. Voordat de effecten van de instellingen voor Uitgesloten woorden (of wijzigingen in deze instellingen) beschikbaar zijn voor klanten, moet u de index van de site opnieuw genereren.
+Uitgesloten zoekwoorden worden niet gemarkeerd in de zoekresultaten. De relevantiescore van elk resultaat wordt echter beïnvloed door de uitgesloten woorden. Met andere woorden, uitgesloten woorden worden genegeerd bij het zoeken naar documenten, maar worden nog steeds gebruikt bij het plaatsen van de volgorde van de documenten op de pagina met zoekresultaten. Voordat de effecten van de instellingen voor Uitgesloten woorden (of wijzigingen in deze instellingen) beschikbaar zijn voor klanten, moet u de index van de site opnieuw genereren.
 
 Wanneer u woorden invoert om deze uit te sluiten van de zoekresultaten, scheidt u woorden of woordgroepen met komma&#39;s van elkaar. U kunt een of meer woorden per regel uitsluiten. Hier volgt een voorbeeld van uitgesloten woorden op afzonderlijke regels en gedeeld door komma&#39;s.
 
@@ -73,4 +73,3 @@ U kunt zoekresultaten weergeven wanneer alle woorden in de zoekopdracht van de k
    * Klik op **[!UICONTROL Push Live]**.
 
       Zie [Werkgebiedinstellingen leegmaken live](../c-about-staging.md#task_44306783B4C0408AAA58B471DAF2D9A4).
-

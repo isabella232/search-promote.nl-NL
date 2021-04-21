@@ -3,16 +3,16 @@ description: Gebruik het menu Metagegevens om zoekdefinities en indexinjecties a
 solution: Target
 subtopic: Metadata
 title: Het menu Metagegevens
-topic: Settings,Site search and merchandising
+topic-legacy: Settings,Site search and merchandising
 uuid: f12fc863-a140-45e8-b219-3dbfdef099cd
+exl-id: 53d62da9-c5bd-4c4a-bb89-743704f66f7f
 translation-type: tm+mt
-source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
+source-git-commit: 7559f5f7437d46e3510d4659772308666425ec96
 workflow-type: tm+mt
-source-wordcount: '8029'
+source-wordcount: '8024'
 ht-degree: 0%
 
 ---
-
 
 # Informatie over het menu Metagegevens{#about-the-metadata-menu}
 
@@ -513,7 +513,7 @@ Zie ook [Informatie over het gebruik van Voorvertoning wanneer u een kenmerk toe
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>3 </p> </td> 
+   <td colname="col1"> <p>1 </p> </td> 
    <td colname="col2"> <p>Download de gegevensbron. </p> </td> 
    <td colname="col3"> <p>Voor configuraties met tekst en feed is het een eenvoudige bestandsdownload. </p> </td> 
   </tr> 
@@ -531,7 +531,7 @@ Zie ook [Informatie over het gebruik van Voorvertoning wanneer u een kenmerk toe
       .... </code> </p> <p>Voor de toewijzing van de configuratie moet één veld zijn geïdentificeerd als primaire sleutel. Deze toewijzing vormt de sleutel die wordt gebruikt wanneer de gegevens van het geheime voorgeheugen worden gehaald. </p> <p>De schuifregelaar herkent de URL <span class="codeph">-index: </span> schemaprefix, die tot de plaatselijk caching gegevens kan dan toegang hebben. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>3 </p> </td> 
+   <td colname="col1"> <p>1 </p> </td> 
    <td colname="col2"> <p>De documentset in de cache horizontaal schuiven. </p> </td> 
    <td colname="col3"> <p>De <span class="codeph">-index: </span> de verbindingen worden toegevoegd aan de kruipende lijst, en in de normale kruipende opeenvolging verwerkt. </p> </td> 
   </tr> 
@@ -628,7 +628,7 @@ Voordat de effecten van de nieuwe en ingeschakelde definitie zichtbaar zijn voor
       </tr> 
       <tr> 
       <td colname="col1"> <p>Adres van gastheer </p> </td> 
-      <td colname="col2"> <p>Hier geeft u het adres op van de serverhost waarop de gegevens zich bevinden. </p> <p>U kunt desgewenst een volledig URI-pad (Uniform Resource Identifier) opgeven naar het gegevensbrondocument, zoals in de volgende voorbeelden: </p> <p> <code otherprops="syntax html"> https://www.somewhere.com/some_path/some_file.tsv </code> </p> <p>of </p> <p> <code class="syntax html"> ftp://user:password@ftpserver.somewhere.com/some_path/some_file.csv </code> </p> <p>URI wordt verdeeld in de aangewezen ingangen voor het Adres van de Gastheer, de Weg van het Dossier, het Protocol, en, naar keuze, de gebieden van de Gebruikersnaam, en van het Wachtwoord </p> </td> 
+      <td colname="col2"> <p>Hier geeft u het adres op van de serverhost waarop de gegevens zich bevinden. </p> <p>U kunt desgewenst een volledig URI-pad (Uniform Resource Identifier) opgeven naar het gegevensbrondocument, zoals in de volgende voorbeelden: </p> <p> <code otherprops="syntax html"> https://www.somewhere.com/some_path/some_file.tsv </code> </p> <p>of </p> <p> <code class="syntax html"> ftp://user:password@ftpserver.somewhere.com/some_path/some_file.csv </code> </p> <p>URI wordt verdeeld in de aangewezen ingangen voor de gebieden van het Adres van de Gastheer, van de Weg van het Dossier, van het Protocol, en, naar keuze, Gebruikersnaam, en van het Wachtwoord </p> </td> 
       </tr> 
       <tr> 
       <td colname="col1"> <p>Bestandspad </p> </td> 

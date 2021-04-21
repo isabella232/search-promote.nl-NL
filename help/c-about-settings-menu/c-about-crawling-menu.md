@@ -3,16 +3,16 @@ description: Met het menu Crawling stelt u de datum- en URL-maskers, wachtwoorde
 solution: Target
 subtopic: Crawling
 title: Het menu Crawling
-topic: Settings,Site search and merchandising
+topic-legacy: Settings,Site search and merchandising
 uuid: a58c03bf-90f7-4b5b-91ff-988b95c246b0
+exl-id: 22dbbc30-bf1c-4d51-8fb0-708115ba844b
 translation-type: tm+mt
-source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
+source-git-commit: 7559f5f7437d46e3510d4659772308666425ec96
 workflow-type: tm+mt
-source-wordcount: '11016'
+source-wordcount: '11011'
 ht-degree: 0%
 
 ---
-
 
 # Informatie over het menu Crawling{#about-the-crawling-menu}
 
@@ -1020,7 +1020,7 @@ Zie ook [Indexconnector](../c-about-settings-menu/c-about-crawling-menu.md#conce
       .... </code> </p> <p>Voor de toewijzing van de configuratie moet één veld zijn geïdentificeerd als primaire sleutel. Deze toewijzing vormt de sleutel die wordt gebruikt wanneer de gegevens van het geheime voorgeheugen worden gehaald. </p> <p>De schuifregelaar herkent de URL <span class="codeph">-index: </span> schemaprefix, die tot de plaatselijk caching gegevens kan dan toegang hebben. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>3 </p> </td> 
+   <td colname="col1"> <p>1 </p> </td> 
    <td colname="col2"> <p>De documentset in de cache horizontaal schuiven. </p> </td> 
    <td colname="col3"> <p>De <span class="codeph">-index: </span> de verbindingen worden toegevoegd aan de kruipende lijst, en in de normale kruipende opeenvolging verwerkt. </p> </td> 
   </tr> 

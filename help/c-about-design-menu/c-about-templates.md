@@ -2,16 +2,16 @@
 description: U kunt Sjablonen gebruiken om uw presentatiesjablonen en transportsjablonen te beheren.
 solution: Target
 title: Informatie over sjablonen
-topic: Design,Site search and merchandising
+topic-legacy: Design,Site search and merchandising
 uuid: f5805d3e-43bf-4e13-95df-b6bd6b762d11
+exl-id: 846f34b3-9857-494e-9010-3db0b48412d3
 translation-type: tm+mt
-source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
+source-git-commit: 7559f5f7437d46e3510d4659772308666425ec96
 workflow-type: tm+mt
-source-wordcount: '2652'
+source-wordcount: '2647'
 ht-degree: 0%
 
 ---
-
 
 # Info over Sjablonen{#about-templates}
 
@@ -693,4 +693,3 @@ Zie [Voorvertoning van de presentatiesjabloon geminimaliseerd](../c-about-design
    * Klik op **[!UICONTROL Push Live]**.
 
       Zie [Werkgebiedinstellingen leegmaken live](../c-about-staging.md#task_44306783B4C0408AAA58B471DAF2D9A4).
-

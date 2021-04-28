@@ -5,14 +5,14 @@ feature: null
 role: Administrator,Business Practitioner,Data Engineer,Developer
 hide: true
 hidefromtoc: true
+exl-id: 1e062554-090b-4275-8595-8ae4233c58d7
 translation-type: tm+mt
-source-git-commit: 681e3e6768f214759598482526ce7ffba27e860e
+source-git-commit: 1562d46d096206f21228cb8ca9cbd8cec406e8dc
 workflow-type: tm+mt
-source-wordcount: '330'
+source-wordcount: '324'
 ht-degree: 0%
 
 ---
-
 
 # Adobe Search&amp;Promote-aankondiging van einde service
 
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 ### **_Op welke datum zal Search&amp;Promote niet langer actief zijn?_**
 
-Het einde van de dienst voor Search&amp;Promote is gepland voor 1 augustus 2022. Op die datum is de beheergebruikersinterface van de Search&amp;Promote niet meer toegankelijk en leveren aanvragen aan Search&amp;Promote-API&#39;s niet langer resultaten. Vóór deze datum, zal de dienst volledig beschikbaar en functioneel zijn.
+End-of-Service for Search&amp;Promote is gepland voor **1 september 2022**. Op die datum is de beheergebruikersinterface van de Search&amp;Promote niet meer toegankelijk en leveren aanvragen aan Search&amp;Promote-API&#39;s niet langer resultaten. Vóór deze datum, zal de dienst volledig beschikbaar en functioneel zijn.
 
 ### **_Wat gebeurt er als een zoekopdracht of een andere API-aanvraag wordt gedaan aan Search&amp;Promote?_**
 
@@ -42,4 +42,4 @@ Neem contact op met uw Customer Success Manager (CSM) met vragen of neem contact
 
 ### **_Kan ik mijn geldige Search&amp;Promote nog verlengen voor het einde van de service?_**
 
-Ja. Werk samen met uw Adobe-vertegenwoordiger om uw licentie uiterlijk op 1 augustus 2022 te vernieuwen met een einddatum voor de overeenkomst.
+Ja. Werk samen met uw Adobe-vertegenwoordiger om uw licentie te vernieuwen met een einddatum van het contract uiterlijk op **1 september 2022**.

@@ -3,13 +3,11 @@ title: Adobe Search&Promote-aankondiging van einde service
 description: Meer weten over de aankondiging van het einde van de service van Adobe Search&Promote?
 feature: null
 role: Administrator,Business Practitioner,Data Engineer,Developer
-hide: true
-hidefromtoc: true
 exl-id: 1e062554-090b-4275-8595-8ae4233c58d7
 translation-type: tm+mt
-source-git-commit: 1562d46d096206f21228cb8ca9cbd8cec406e8dc
+source-git-commit: 99d23647ba5d30ed90d9e8ac377d627f6266c618
 workflow-type: tm+mt
-source-wordcount: '324'
+source-wordcount: '325'
 ht-degree: 0%
 
 ---
@@ -20,7 +18,7 @@ ht-degree: 0%
 
 ### **_Op welke datum zal Search&amp;Promote niet langer actief zijn?_**
 
-End-of-Service for Search&amp;Promote is gepland voor **1 september 2022**. Op die datum is de beheergebruikersinterface van de Search&amp;Promote niet meer toegankelijk en leveren aanvragen aan Search&amp;Promote-API&#39;s niet langer resultaten. Vóór deze datum, zal de dienst volledig beschikbaar en functioneel zijn.
+End-of-Service for Adobe Search&amp;Promote is gepland voor **1 september 2022**. Op die datum is de beheergebruikersinterface van de Search&amp;Promote niet meer toegankelijk en leveren aanvragen aan Search&amp;Promote-API&#39;s niet langer resultaten. Vóór deze datum, zal de dienst volledig beschikbaar en functioneel zijn.
 
 ### **_Wat gebeurt er als een zoekopdracht of een andere API-aanvraag wordt gedaan aan Search&amp;Promote?_**
 

@@ -7,9 +7,9 @@ topic-legacy: Settings,Site search and merchandising
 uuid: 77ee84dd-fdba-4d34-ae8e-2fe786599800
 exl-id: cff17ead-6997-4ff6-a995-7ca020b06d50
 translation-type: tm+mt
-source-git-commit: 7559f5f7437d46e3510d4659772308666425ec96
+source-git-commit: aa095add9eb656913792b3f14001dda66cdd7d67
 workflow-type: tm+mt
-source-wordcount: '10197'
+source-wordcount: '10178'
 ht-degree: 0%
 
 ---
@@ -281,14 +281,14 @@ t_adding_a_crawl_list_store_url_rule.xml
 
  -->
 
-**Om toe te voegen kruipt lijst opslagURL regels**
+**U voegt als volgt de URL-regels van de vervagingsopslag toe:**
 
 1. Klik in het productmenu op **[!UICONTROL Settings]** > **[!UICONTROL Rewrite Rules]** > **[!UICONTROL Crawl List Store URL Rules]**.
 1. Voer in het veld [!DNL Crawl List Store URL Rules] de gewenste regels in.
 
    Lege regels en commentaarregels die beginnen met een &#39;#&#39; (hash) teken zijn toegestaan.
-1. (Optioneel) Voer in het veld [!DNL Test Crawl List Store URL Rules] op de pagina [!DNL Crawl List Store URL Rules] een test-URL in waarvan u de horizontale regels wilt testen en klik vervolgens op **Test**.
-1. Klik **Wijzigingen opslaan**.
+1. (Optioneel) Voer in het veld [!DNL Test Crawl List Store URL Rules] op de pagina [!DNL Crawl List Store URL Rules] een test-URL in waarvan u de horizontaal schuivende regels wilt testen en klik op **[!UICONTROL Test]**.
+1. Klik op **[!UICONTROL Save Changes]**.
 1. (Optioneel) Maak de gefaseerde site-index opnieuw als u een voorvertoning van de resultaten wilt zien.
 
    Zie [Een incrementele index van een gefaseerde website configureren](../c-about-index-menu/c-about-incremental-index.md#task_46A367B0786C4C90BFFA5D3F95FD86C0).
@@ -566,14 +566,14 @@ t_adding_crawl_list_retrieve_url_rules.xml
 
  -->
 
-**Om toe te voegen kruipt lijst wint URL-regels terug**
+**Om toe te voegen kruipt lijst wint URL-regels terug:**
 
 1. Klik in het productmenu op **[!UICONTROL Settings]** > **[!UICONTROL Rewrite Rules]** > **[!UICONTROL Crawl List Retrieve URL Rules]**.
 1. Voer in het veld [!DNL Crawl List Retrieve URL Rules] de gewenste regels in.
 
    Lege regels en commentaarregels die beginnen met een &#39;#&#39; (hash) teken zijn toegestaan.
-1. (Optioneel) Voer in het veld [!DNL Test Crawl List Retrieve URL Rules] op de pagina [!DNL Crawl List Retrieve URL Rules] een test-URL in waarvan u de horizontale regels wilt testen en klik vervolgens op **Test**.
-1. Klik **Wijzigingen opslaan**.
+1. (Optioneel) Voer in het veld [!DNL Test Crawl List Retrieve URL Rules] op de pagina [!DNL Crawl List Retrieve URL Rules] een test-URL in waarvan u de horizontaal schuivende regels wilt testen en klik op **[!UICONTROL Test]**.
+1. Klik op **[!UICONTROL Save Changes]**.
 1. (Optioneel) Maak de gefaseerde site-index opnieuw als u een voorvertoning van de resultaten wilt zien.
 
    Zie [Een incrementele index van een gefaseerde website configureren](../c-about-index-menu/c-about-incremental-index.md#task_46A367B0786C4C90BFFA5D3F95FD86C0).
@@ -637,22 +637,21 @@ RewriteRule Pattern Substitution [Flags]
 
 Zie [Gewone uitdrukkingen](../c-appendices/r-regular-expressions.md#reference_B5BA7D61D82E4109A01D2A2D964E3A6A).
 
-U kunt het teken &#39;not&#39; (&#39;!&#39;) gebruiken als u een voorvoegsel voor het patroon wilt toevoegen. Met het teken &#39;not&#39; kunt u een patroon negeren. Dit betekent dat u alleen waar hoeft te zijn als de huidige titel NIET overeenkomt met het patroon. Het teken &#39;not&#39; kan worden gebruikt wanneer een negatief patroon beter kan worden weergegeven of als een laatste standaardregel. Opmerking: U kunt niet zowel het teken &quot;niet&quot; als de gegroepeerde jokertekens in een patroon gebruiken. Daarnaast kunt u geen negatiefpatroon gebruiken wanneer de vervangende tekenreeks $N bevat.
+U kunt het teken &#39;not&#39; (&#39;!&#39;) gebruiken als u een voorvoegsel voor het patroon wilt toevoegen. Met het teken &#39;not&#39; kunt u een patroon negeren. Dit betekent dat u alleen waar hoeft te zijn als de huidige titel NIET overeenkomt met het patroon. Het teken &#39;not&#39; kan worden gebruikt wanneer een negatief patroon beter kan worden weergegeven of als een laatste standaardregel. Opmerking: U kunt niet zowel het teken &quot;niet&quot; als de gegroepeerde jokertekens in een patroon gebruiken. Bovendien kunt u geen ontkend patroon gebruiken wanneer het vervangingskoord `$N` bevat.
 
 U kunt ronde haakjes gebruiken om een achterverwijzing te maken, waarnaar kan worden verwezen door de Vervangend en CondPattern.
 
-**** VervangingDe titel wordt vervangen door de vervangende tekenreeks. De tekenreeks kan het volgende bevatten:
+Vervanging - De titel wordt vervangen door de vervangende tekenreeks. De tekenreeks kan het volgende bevatten:
 
 Onbewerkte tekst - Tekst die ongewijzigd wordt doorgegeven.
 
 Backreferences bieden toegang tot de gegroepeerde delen (tussen haakjes) van het Patroon of het CondPattern. Hieronder vindt u twee typen terugverwijzingen:
 
-* RewriteRule Backreferences
+* RewriteRule Backreferences - Deze gelijke backreferences in het overeenkomstige Patroon RewriteRule en nemen de vorm $N (0 &lt;= N &lt;= 9).
 
-   Deze gelijke backreferences in het overeenkomstige Patroon RewriteRule en hebben de vorm $N (0 &lt;= N &lt;= 9). Bijvoorbeeld: `RewriteRule ^My[[:blank:]] (.*)$ ${toupper: $1}`
-* HerwriteCond Backreferences
+   Bijvoorbeeld: `RewriteRule ^My[[:blank:]] (.*)$ ${toupper: $1}`
 
-   Deze gelijke backreferences in het laatst overeenkomende RewriteCond CondPattern en hebben de vorm %N (0 &lt;= N &lt;= 9).
+* RewriteCond Backreferences - Deze overeenkomsten backreferences in the last match RewriteCond Cond CondPattern en hebben de vorm %N (0 &lt;= N &lt;= 9).
 
 Variabelen Dit zijn variabelen van de vorm %{NAME_OF_VARIABLE} waar NAME_OF_VARIABLE een tekenreeks voor de naam van een gedefinieerde variabele kan zijn. Zie de markering `[E]` voor meer informatie over het instellen van omgevingsvariabelen.
 
@@ -720,8 +719,11 @@ Onbewerkte tekst - Tekst die ongewijzigd wordt doorgegeven.
 
 Backreferences bieden toegang tot de gegroepeerde delen (tussen haakjes) van het Patroon of het CondPattern. Er zijn twee typen terugverwijzingen:
 
-* RewriteRule Backreferences Deze gelijke backreferences in het overeenkomstige Patroon RewriteRule en nemen de vorm $N (0 &lt;= N &lt;= 9). Bijvoorbeeld: `RewriteRule ^My[[:blank:]] (.*)$ ${toupper: $1}`
-* RewriteCond Backreferences Deze overeenkomsten backreferences in the last match RewriteCond Cond CondPattern en hebben de vorm %N (0 &lt;= N &lt;= 9).
+* RewriteRule Backreferences - Deze gelijke backreferences in het overeenkomstige Patroon RewriteRule en nemen de vorm $N (0 &lt;= N &lt;= 9).
+
+   Bijvoorbeeld: `RewriteRule ^My[[:blank:]] (.*)$ ${toupper: $1}`
+
+* RewriteCond Backreferences - Deze overeenkomsten backreferences in the last match RewriteCond Cond CondPattern en hebben de vorm %N (0 &lt;= N &lt;= 9).
 
 Variabelen Dit zijn variabelen van de vorm %{NAME_OF_VARIABLE} waar NAME_OF_VARIABLE een tekenreeks voor de naam van een gedefinieerde variabele kan zijn. Zie de markering `[E]` voor meer informatie over het instellen van omgevingsvariabelen.
 
@@ -797,7 +799,15 @@ RewriteRule  ^My[[:blank:]]Company[[:blank:]]-[[:blank:]]
 <b>$1</b>}
 ```
 
-Het patroon van de regel `(^My[[:blank:]]Company[[:blank:]]-[[:blank:]] (.*))` bevat een backreference `(.*)` die de titelinhoud aanpast die &quot;Mijn Bedrijf-&quot;volgt. Houd er rekening mee dat de omringing van een gedeelte van een patroon met haakje ( ) een achterverwijzing maakt waarnaar door de Substitutie kan worden verwezen. In dit voorbeeld herschrijft de Substitutie (${toupper:**$1**) die backreference (**$1**) gebruikend de toupperfunctie.
+Het patroon van de regel
+
+`(^My[[:blank:]]Company[[:blank:]]-[[:blank:]] (.*))`
+
+bevat een backreference `(.*)` die de titelinhoud aanpast die &quot;Mijn Bedrijf-&quot;volgt. Houd er rekening mee dat de omringing van een gedeelte van een patroon met haakje ( ) een achterverwijzing maakt waarnaar door de Substitutie kan worden verwezen. In dit voorbeeld wordt de optie Vervangen
+
+`(${toupper:**$1**})`
+
+herschrijft die backreference (`**$1**`) gebruikend de toupperfunctie.
 
 Zo wordt een titel van het formulier &quot;Mijn bedrijf - Welkom&quot; herschreven als &quot;WELCOME&quot;.
 
@@ -815,14 +825,14 @@ t_adding_crawl_title_rules.xml
 
  -->
 
-**Om te toevoegen kruipt titelregels**
+**U voegt als volgt de regels voor horizontaal schuivende titels toe:**
 
 1. Klik in het productmenu op **[!UICONTROL Settings]** > **[!UICONTROL Rewrite Rules]** > **[!UICONTROL Crawl Title Rules]**.
 1. Voer in het veld [!DNL Crawl Title Rules] de gewenste regels in.
 
    Lege regels en commentaarregels die beginnen met een &#39;#&#39; (hash) teken zijn toegestaan.
-1. (Optioneel) Voer in het veld [!DNL Test Crawl Title Rules] op de pagina [!DNL Crawl Title Rules] een test-URL in waarvan u de zoekregels wilt testen en klik vervolgens op **Test**.
-1. Klik **Wijzigingen opslaan**.
+1. (Optioneel) Voer in het veld [!DNL Test Crawl Title Rules] op de pagina [!DNL Crawl Title Rules] een test-URL in waarvan u de zoekregels wilt testen en klik vervolgens op **[!UICONTROL Test]**.
+1. Klik op **[!UICONTROL Save Changes]**.
 1. (Optioneel) Maak de gefaseerde site-index opnieuw als u een voorvertoning van de resultaten wilt zien.
 
    Zie [Een incrementele index van een gefaseerde website configureren](../c-about-index-menu/c-about-incremental-index.md#task_46A367B0786C4C90BFFA5D3F95FD86C0).
@@ -983,15 +993,17 @@ Onbewerkte tekst: Tekst die ongewijzigd wordt doorgegeven.
 
 Backreferences bieden toegang tot de gegroepeerde delen (tussen haakjes) van het Patroon of het CondPattern. Er zijn twee typen terugverwijzingen:
 
-* ** RewriteRule Backreferences** Deze gelijke backreferences in het overeenkomstige Patroon RewriteRule en nemen de vorm $N (0 &lt;= N &lt;= 9). Bijvoorbeeld: `RewriteRule ^My[[:blank:]] (.*)$ ${toupper: $1}`
+* RewriteRule Backreferences - Deze gelijke backreferences in het overeenkomstige Patroon RewriteRule en nemen de vorm $N (0 &lt;= N &lt;= 9).
 
-* **RewriteCond** BackreferencesDeze overeenkomsten backreferences in the last match RewriteCond Cond Cond Pattern en hebben de vorm %N (0  &lt;>
+   Bijvoorbeeld: `RewriteRule ^My[[:blank:]] (.*)$ ${toupper: $1}`
+
+* RewriteCond Backreferences - Deze overeenkomsten backreferences in the last match RewriteCond Cond CondPattern en hebben de vorm %N (0 &lt;= N &lt;= 9).
 
 Variabelen Dit zijn variabelen van de vorm %{NAME_OF_VARIABLE} waar NAME_OF_VARIABLE een tekenreeks voor de naam van een gedefinieerde variabele kan zijn. Zie de markering RewriteRule *`[E]`* voor meer informatie over het plaatsen van variabelen.
 
 >[!NOTE]
 >
->Regels voor herschrijven maken over het algemeen gebruik van variabelen. Alle CGI-parameters van de huidige URL worden automatisch omgezet in variabelen. De zoek-URL `"https://search.atomz.com/search/?sp_a=sp00000000&sp_q="Product"&session=1234&id=5678"` levert bijvoorbeeld automatisch vier variabelen, waarnaar in de herschrijfregels kan worden verwezen. In dit voorbeeld wordt één variabele &quot;session&quot; genoemd en de waarde ervan is &quot;1234&quot;, terwijl een andere variabele &quot;id&quot; wordt genoemd en de waarde &quot;5678&quot; is. (De andere twee variabelen zijn `sp_a` en `sp_q`.) U moet alle benodigde variabelen als verborgen velden doorgeven vanuit het zoekformulier op uw webpagina. In dit voorbeeld, zou u de &quot;zitting&quot;en &quot;identiteitskaart&quot;waarden moeten overgaan, die de gebruiker identificeren van de Website die het onderzoek uitvoert. Als u een verborgen veld wilt doorgeven op het zoekformulier, gebruikt u een tag zoals `<input type=hidden name="session" value="1234">`.
+>Regels voor herschrijven maken over het algemeen gebruik van variabelen. Alle CGI-parameters van de huidige URL worden automatisch omgezet in variabelen. Bijvoorbeeld, verstrekt het onderzoek URL `"https://search.atomz.com/search/?sp_a=sp00000000&sp_q="Product"&session=1234&id=5678"` automatisch vier variabelen, die in herschrijven regels kunnen worden van verwijzingen voorzien. In dit voorbeeld wordt één variabele &quot;session&quot; genoemd en de waarde ervan is &quot;1234&quot;, terwijl een andere variabele &quot;id&quot; wordt genoemd en de waarde &quot;5678&quot; is. (De andere twee variabelen zijn `sp_a` en `sp_q`.) U moet alle benodigde variabelen als verborgen velden doorgeven vanuit het zoekformulier op uw webpagina. In dit voorbeeld, zou u de &quot;zitting&quot;en &quot;identiteitskaart&quot;waarden moeten overgaan, die de gebruiker identificeren van de Website die het onderzoek uitvoert. Als u een verborgen veld wilt doorgeven op het zoekformulier, gebruikt u een tag zoals `<input type=hidden name="session" value="1234">`.
 
 Functies Dit zijn functies van de vorm ${NAME_OF_FUNCTION:key} waar NAME_OF_FUNCTION is:
 
@@ -1070,14 +1082,15 @@ t_adding_search_url_rules.xml
 
  -->
 
-**URL-regels voor zoeken toevoegen**
+**URL-regels voor zoeken toevoegen:**
 
 1. Klik in het productmenu op **[!UICONTROL Settings]** > **[!UICONTROL Rewrite Rules]** > **[!UICONTROL Search URL Rules]**.
 1. Voer in het veld [!DNL Search URL Rules] de gewenste regels in.
 
    Lege regels en commentaarregels die beginnen met een &#39;#&#39; (hash) teken zijn toegestaan.
-1. (Optioneel) Voer in het veld [!DNL Test Search URL Rules] op de pagina [!DNL Search URL Rules] een test-URL in waarvan u de horizontale regels wilt testen en klik vervolgens op **Test**.
-1. Klik **Wijzigingen opslaan**.
+
+1. (Optioneel) Voer in het veld [!DNL Test Search URL Rules] op de pagina [!DNL Search URL Rules] een test-URL in waarvan u de horizontaal schuivende regels wilt testen en klik op **[!UICONTROL Test]**.
+1. Klik op **[!UICONTROL Save Changes]**.
 1. (Optioneel) Maak de gefaseerde site-index opnieuw als u een voorvertoning van de resultaten wilt zien.
 
    Zie [Een incrementele index van een gefaseerde website configureren](../c-about-index-menu/c-about-incremental-index.md#task_46A367B0786C4C90BFFA5D3F95FD86C0).
@@ -1143,9 +1156,11 @@ U kunt ronde haakjes gebruiken om een achterverwijzing te maken, waarnaar kan wo
 
 Onbewerkte tekst - Tekst die ongewijzigd wordt doorgegeven.
 
-**** BackreferencesBiedt toegang tot de gegroepeerde onderdelen (tussen haakjes) van het Patroon of CondPattern. Hieronder vindt u twee typen terugverwijzingen:
+* Backreferences - Biedt toegang tot de gegroepeerde onderdelen (tussen haakjes) van het Patroon of CondPattern. Hieronder vindt u twee typen terugverwijzingen:
 
-* **RewriteRule** BackreferencesDeze gelijke backreferences in het overeenkomstige RewriteRule Pattern en nemen de vorm $N (0  &lt;> Bijvoorbeeld: `RewriteRule ^My[[:blank:]] (.*)$ ${toupper: $1}`
+* RewriteRule Backreferences - Deze gelijke backreferences in het overeenkomstige Patroon RewriteRule en nemen de vorm $N (0 &lt;= N &lt;= 9).
+
+   Bijvoorbeeld: `RewriteRule ^My[[:blank:]] (.*)$ ${toupper: $1}`
 
 * ** HerwriteCond Backreferences** Deze gelijke backreferences in the last match RewriteCond CondPattern en hebben de vorm %N (0 &lt;= N &lt;= 9).
 
@@ -1213,9 +1228,11 @@ Onbewerkte tekst - Tekst die ongewijzigd wordt doorgegeven.
 
 Backreferences bieden toegang tot de gegroepeerde delen (tussen haakjes) van het Patroon of het CondPattern. Er zijn twee typen terugverwijzingen:
 
-* **RewriteRule** BackreferencesDeze gelijke backreferences in het overeenkomstige RewriteRule Pattern en nemen de vorm $N (0  &lt;> Bijvoorbeeld: `RewriteRule ^My[[:blank:]] (.*)$ ${toupper: $1}`
+* RewriteRule Backreferences - Deze gelijke backreferences in het overeenkomstige Patroon RewriteRule en nemen de vorm $N (0 &lt;= N &lt;= 9).
 
-* **RewriteCond** BackreferencesDeze overeenkomsten backreferences in the last match RewriteCond Cond Cond Pattern en hebben de vorm %N (0  &lt;>
+   Bijvoorbeeld: `RewriteRule ^My[[:blank:]] (.*)$ ${toupper: $1}`
+
+* RewriteCond Backreferences - Deze overeenkomsten backreferences in the last match RewriteCond Cond CondPattern en hebben de vorm %N (0 &lt;= N &lt;= 9).
 
 **** VariabelenDit zijn variabelen van de vorm %{NAME_OF_VARIABLE} waar NAME_OF_VARIABLE een koord voor de naam van een bepaalde variabele kan zijn. Zie de markering `[E]` voor meer informatie over het instellen van omgevingsvariabelen. Variabelen kunnen ook worden gedefinieerd in het zoekformulier dat de zoekresultaten heeft gegenereerd.
 
@@ -1291,7 +1308,11 @@ RewriteRule  ^My[[:blank:]]Company[[:blank:]]-[[:blank:]]
 <b>$1</b>} 
 ```
 
-Het patroon van de regel `(^My[[:blank:]]Company[[:blank:]]-[[:blank:]] (.*))` bevat een backreference **`(.*)`** die de titelinhoud aanpast die &quot;Mijn Bedrijf-&quot;volgt. Houd er rekening mee dat de omringing van een gedeelte van een patroon met haakje ( ) een achterverwijzing maakt waarnaar door de Substitutie kan worden verwezen. In dit voorbeeld herschrijft de Substitutie (${toupper:**$1**) die backreference (**$1**) gebruikend de toupperfunctie.
+Het patroon van de regel `(^My[[:blank:]]Company[[:blank:]]-[[:blank:]] (.*))` bevat een backreference **`(.*)`** die de titelinhoud aanpast die &quot;Mijn Bedrijf-&quot;volgt. Houd er rekening mee dat de omringing van een gedeelte van een patroon met haakje ( ) een achterverwijzing maakt waarnaar door de Substitutie kan worden verwezen. In dit voorbeeld wordt de optie Vervangen
+
+`(${toupper:**$1**})`
+
+herschrijft die backreference (**$1**) gebruikend de toupperfunctie.
 
 Zo wordt een titel van het formulier &quot;Mijn bedrijf - Welkom&quot; herschreven als &quot;WELCOME&quot;.
 
@@ -1309,14 +1330,14 @@ t_adding_search_title_rules.xml
 
  -->
 
-**Lijnen met zoektitels toevoegen**
+**Ga als volgt te werk om regels voor zoektitels toe te voegen:**
 
 1. Klik in het productmenu op **[!UICONTROL Settings]** > **[!UICONTROL Rewrite Rules]** > **[!UICONTROL Search Title Rules]**.
 1. Voer in het veld [!DNL Search Title Rules] de gewenste regels in.
 
    Lege regels en commentaarregels die beginnen met een &#39;#&#39; (hash) teken zijn toegestaan.
-1. (Optioneel) Voer in het veld [!DNL Test Search Title Rules] op de pagina [!DNL Search Title Rules] een testtitel in en klik vervolgens op **Test**.
-1. Klik **Wijzigingen opslaan**.
+1. (Optioneel) Voer in het veld [!DNL Test Search Title Rules] op de pagina [!DNL Search Title Rules] een testtitel in en klik vervolgens op **[!UICONTROL Test]**.
+1. Klik op **[!UICONTROL Save Changes]**.
 1. (Optioneel) Maak de gefaseerde site-index opnieuw als u een voorvertoning van de resultaten wilt zien.
 
    Zie [Een incrementele index van een gefaseerde website configureren](../c-about-index-menu/c-about-incremental-index.md#task_46A367B0786C4C90BFFA5D3F95FD86C0).

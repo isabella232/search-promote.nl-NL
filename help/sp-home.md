@@ -5,8 +5,7 @@ solution: Target
 topic-legacy: Site search and merchandising
 uuid: bb1c49be-7cfd-485a-a848-c5dc8733b009
 exl-id: 6920dbf0-beeb-4723-8178-4da37f0b03ed
-translation-type: tm+mt
-source-git-commit: c52719f476a61592b11bf1182a1bfe3525488817
+source-git-commit: bd8341e6bd955dbf5496351594938b65e1bd2948
 workflow-type: tm+mt
 source-wordcount: '141'
 ht-degree: 0%
@@ -17,7 +16,7 @@ ht-degree: 0%
 
 ## Nieuws en aankondigingen {#topic_02625547D07F411DBAC9593FCBD4741B}
 
-* **AANWEZIGHEID**  -  [Adobe Search&amp;Promote-kennisgeving](/help/sp-eol.md).
+* **BELANGRIJK:** [Adobe Search&amp;Promote-aankondiging](/help/sp-eol.md) van einde service.
 
 * Opmerkingen bij de release van Adobe Marketing Cloud: bevat nieuwe functies, oplossingen en bekende problemen in alle oplossingen voor Marketingen Cloud. De versies van de eigenschap komen in de Lente en de Herfst voor, met onderhoudsversies die maandelijks voorkomen.
 
@@ -25,7 +24,7 @@ ht-degree: 0%
 
 * In de nieuwste release Adobe Search&amp;Promote worden opmerkingen weergegeven:
 
-   [Opmerkingen bij de release](/help/c-searchpromote-release-notes/c-rn-02-13-18-version-1811.md)
+[Opmerkingen bij de release](/help/c-searchpromote-release-notes/c-rn-02-13-18-version-1811.md)
 
 ## Whitepaper {#topic_EED10B7F7E8D4A9A8F759FE24C461937}
 
@@ -35,4 +34,4 @@ ht-degree: 0%
 
 [Adobe Search&amp;Promote-website](https://www.adobe.com/solutions/testing-targeting/search-driven-merchandising.html)
 
-[Industry Insights](https://blogs.adobe.com/digitalmarketing/)  - Het blog Adobe voor digitale marketing.
+[Industry Insights](https://blog.adobe.com/en/topics/digital-transformation.html)  - Het blog Adobe voor digitale marketing.

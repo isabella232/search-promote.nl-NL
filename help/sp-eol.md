@@ -4,7 +4,7 @@ description: Meer weten over de aankondiging van het einde van de service van Ad
 feature: null
 role: Administrator,Business Practitioner,Data Engineer,Developer
 exl-id: 1e062554-090b-4275-8595-8ae4233c58d7
-source-git-commit: 27dca9caf3e59d5ed20fdea3d5ef279bd5aac097
+source-git-commit: cffbd6a62e1ffe1f5fe1f2f6123e8bc5199b55dc
 workflow-type: tm+mt
 source-wordcount: '340'
 ht-degree: 0%
@@ -39,4 +39,4 @@ Neem contact op met uw Customer Success Manager (CSM) met vragen of neem contact
 
 ### **_Kan ik mijn geldige Search&amp;Promote nog verlengen voor het einde van de service?_**
 
-Ja. Werk samen met uw Adobe-vertegenwoordiger om uw licentie te vernieuwen met een einddatum van het contract uiterlijk op **1 september 2022**.
+Ja. Werk samen met uw Adobe-vertegenwoordiger om uw licentie uiterlijk **August 31, 2022** te vernieuwen met een einddatum van het contract.

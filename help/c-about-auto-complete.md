@@ -6,25 +6,24 @@ title: Info Automatisch aanvullen
 topic-legacy: Design,Site search and merchandising
 uuid: 3dfdd14d-2044-4f01-a5bc-fcb2eb0d5068
 exl-id: a1d08c0a-6c68-4da2-88d2-fe953d333536
-translation-type: tm+mt
-source-git-commit: 7559f5f7437d46e3510d4659772308666425ec96
+source-git-commit: 95bf92df17d7832df72e8d883a22f9063e53a18d
 workflow-type: tm+mt
-source-wordcount: '1494'
+source-wordcount: '1486'
 ht-degree: 1%
 
 ---
 
-# Info over Automatisch aanvullen{#about-auto-complete}
+# Info Automatisch aanvullen{#about-auto-complete}
 
 U kunt diverse gebieden van auto-aanvullen vormen om de generatie van het auto-aanvullen toegelaten onderzoeksformulier te controleren, en het dossier autocomplete_data.js, dat als deel van de auto-aanvullen toegelaten onderzoeksvorm inbegrepen is.
 
-## Info over automatisch aanvullen {#concept_093A9CD754864BA79B456FE4BEB64578}
+## Info Automatisch aanvullen {#concept_093A9CD754864BA79B456FE4BEB64578}
 
 Het bestand [!DNL autocomplete_data.js] wordt opnieuw gegenereerd en naar het netwerk met zoekinhoud gepubliceerd telkens wanneer er wijzigingen worden aangebracht die de pagina Setup automatisch aanvullen heeft opgeslagen.
 
 ## Automatisch aanvullen configureren {#task_F491F2BFC4D24A61BBDC48B9059C11BB}
 
-U kunt de opties configureren en instellen die het genereren bepalen van het automatisch aanvullen van het ingeschakelde zoekformulier en het bestand.
+U kunt de opties configureren en instellen die het genereren van het automatisch ingevulde zoekformulier en het bestand bepalen.
 
 <!-- 
 
@@ -97,7 +96,7 @@ Zie [Automatisch aanvullen van CSS](c-about-auto-complete.md#task_EECE35DEB6C94F
 1. Klik op **[!UICONTROL Save Changes]**.
 1. (Optioneel) Voer een van de volgende handelingen uit:
 
-   * Klik **[!UICONTROL History]** om het even welke veranderingen terug te keren die u hebt aangebracht.
+   * Klik **[!UICONTROL History]** als u om het even welke veranderingen wilt terugkeren die u hebt aangebracht.
 
       Zie [De optie Historie gebruiken](t-using-the-history-option.md#task_70DD3F87A67242BBBD2CB27156F43002).
 
@@ -109,7 +108,7 @@ Zie [Automatisch aanvullen van CSS](c-about-auto-complete.md#task_EECE35DEB6C94F
 
       Zie [Werkgebiedinstellingen leegmaken live](c-about-staging.md#task_44306783B4C0408AAA58B471DAF2D9A4).
 
-## Automatisch aanvullen van woordenlijst {#task_1F8E0F346263443383F8CFD2C7AB35D4} configureren
+## Woordenlijst automatisch aanvullen configureren {#task_1F8E0F346263443383F8CFD2C7AB35D4}
 
 Configureer de lijst met woorden en woordgroepen die automatisch aanvullen als suggesties aan de klant weergeeft.
 
@@ -174,7 +173,7 @@ Zie [Automatisch aanvullen van CSS](c-about-auto-complete.md#task_EECE35DEB6C94F
       </tr> 
       <tr> 
       <td colname="col1"> <p>Bijwerken op nieuwe index </p> </td> 
-      <td colname="col2"> <p>Automatisch aanvullen van woordenlijst wordt automatisch opnieuw gegenereerd nadat de account opnieuw is geïndexeerd. </p> </td> 
+      <td colname="col2"> <p>Automatisch aanvullen van woordenlijst wordt automatisch opnieuw gegenereerd nadat elke account opnieuw is gecompileerd. </p> </td> 
       </tr> 
     </tbody> 
    </table>
@@ -182,7 +181,7 @@ Zie [Automatisch aanvullen van CSS](c-about-auto-complete.md#task_EECE35DEB6C94F
 1. Klik op **[!UICONTROL Save Changes]**.
 1. (Optioneel) Voer een van de volgende handelingen uit:
 
-   * Klik **[!UICONTROL History]** om het even welke veranderingen terug te keren die u hebt aangebracht.
+   * Klik **[!UICONTROL History]** als u om het even welke veranderingen wilt terugkeren die u hebt aangebracht.
    * Klik op **[!UICONTROL Preview Word List]** om de aangebrachte wijzigingen op te slaan en open vervolgens de pagina [!DNL Auto-Complete Word List Preview] waar u de lijst met automatisch aangevulde suggesties kunt bekijken. Gebruik de navigatieopties boven aan de pagina om de weergegeven lijst te bekijken en te verfijnen. Als u klaar bent, klikt u op **[!UICONTROL Close]** om terug te keren naar de pagina [!DNL Auto-Complete Word List].
 
       Zie [De optie Historie gebruiken](t-using-the-history-option.md#task_70DD3F87A67242BBBD2CB27156F43002).
@@ -195,7 +194,7 @@ Zie [Automatisch aanvullen van CSS](c-about-auto-complete.md#task_EECE35DEB6C94F
 
       Zie [Werkgebiedinstellingen leegmaken live](c-about-staging.md#task_44306783B4C0408AAA58B471DAF2D9A4).
 
-## CSS automatisch aanvullen {#task_EECE35DEB6C94F4A8A5B42B4DED76D96} configureren
+## CSS automatisch aanvullen configureren {#task_EECE35DEB6C94F4A8A5B42B4DED76D96}
 
 Gebruik CSS automatisch aanvullen om de automatisch aangevulde CSS-stijlpagina te configureren die u wilt gebruiken.
 
@@ -207,7 +206,7 @@ t_configuring_auto-complete_css.xml
 
 CSS automatisch aanvullen bestuurt de inhoud van [!DNL autocomplete_styles.css], die als deel van de auto-aanvullen toegelaten onderzoeksvorm inbegrepen is. Met de CSS die u hier opgeeft, wordt de visuele presentatie van de lijst met automatisch aangevulde suggesties bepaald. Raadpleeg de volgende secties voor een voorbeeld van de mogelijke visuele presentatieideeën:
 
-[https://developer.yahoo.com/yui/examples/autocomplete/ac_skinning.html](https://developer.yahoo.com/yui/examples/autocomplete/ac_skinning.html).
+<!-- 404 DEAD LINK [https://developer.yahoo.com/yui/examples/autocomplete/ac_skinning.html](https://developer.yahoo.com/yui/examples/autocomplete/ac_skinning.html). -->
 
 [Word-lijst](c-about-auto-complete.md#task_1F8E0F346263443383F8CFD2C7AB35D4) automatisch aanvullen configureren.
 
@@ -240,7 +239,7 @@ Zie [De HTML-code van het zoekformulier kopiëren naar..](c-about-auto-complete.
 
       Zie [Werkgebiedinstellingen leegmaken live](c-about-staging.md#task_44306783B4C0408AAA58B471DAF2D9A4).
 
-## Een voorbeeld van het zoekformulier bekijken zoals het op uw website wordt weergegeven {#task_437B35EFA5424603A08AF8E79E6B4714}
+## Een voorbeeld bekijken van het zoekformulier zoals het op uw website wordt weergegeven {#task_437B35EFA5424603A08AF8E79E6B4714}
 
 Op basis van uw configuratie van CSS automatisch aanvullen en automatisch aanvullen kunt u een voorbeeld bekijken van het zoekformulier als u de HTML-code aan uw website wilt toevoegen.
 
@@ -271,7 +270,7 @@ Zie [Geavanceerde sjablooncode voor zoekformulieren](c-appendices/c-searchforms.
 1. Klik in het productmenu op **[!UICONTROL Design]** > **[!UICONTROL Auto-Complete]** > **[!UICONTROL Search Form]**.
 1. (Optioneel) Klik op **[!UICONTROL HTML code]** om de HTML weer te geven die u kopieert en plakt op de pagina&#39;s van uw website.
 
-## De HTML-code van het zoekformulier kopiëren naar de pagina&#39;s van uw website {#task_A3A01EA800F24C0AA33902387E0362C7}
+## De HTML-code van het zoekformulier naar de pagina&#39;s van uw website kopiëren {#task_A3A01EA800F24C0AA33902387E0362C7}
 
 Op basis van uw configuratie van CSS automatisch aanvullen en automatisch aanvullen kunt u een voorbeeld bekijken van het zoekformulier als u de HTML-code aan uw website wilt toevoegen.
 

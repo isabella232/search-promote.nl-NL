@@ -5,15 +5,14 @@ title: Zoeken in formulieren
 topic-legacy: Appendices,Site search and merchandising
 uuid: 91153e3a-c437-47f3-8c2a-d9ac02965b8c
 exl-id: 9771a19d-86a8-41db-9c80-d734fbd10ab7
-translation-type: tm+mt
-source-git-commit: 7559f5f7437d46e3510d4659772308666425ec96
+source-git-commit: 95bf92df17d7832df72e8d883a22f9063e53a18d
 workflow-type: tm+mt
-source-wordcount: '2926'
+source-wordcount: '2899'
 ht-degree: 0%
 
 ---
 
-# Formulieren zoeken{#search-forms}
+# Zoeken in formulieren{#search-forms}
 
 ## Verzamelingen gebruiken in zoekformulieren {#reference_5A079AEEEFB84457892EF0870D0605C3}
 
@@ -103,9 +102,9 @@ De tag `<search-input>` geeft een tag `<input>` en bevat het kenmerk `checked` a
 
 U kunt uw framesets configureren om te werken met zoeken/verkopen van sites.
 
-Raadpleeg de volgende URL voor meer informatie over HTML-frames en het HTML-framesetelement:
+<!-- 404 DEAD LINK To learn more about HTML frames and the HTML frameset element, see the following URL:
 
-[https://www.w3schools.com/html/html_frames.asp](https://www.w3schools.com/html/html_frames.asp)
+[https://www.w3schools.com/html/html_frames.asp](https://www.w3schools.com/html/html_frames.asp) -->
 
 Als uw site frames gebruikt, kunt u een doelframe opgeven voor koppelingen naar zoekresultaten. Het standaarddoel is _self, waarmee koppelingen in het huidige frame of browservenster worden geopend. In plaats daarvan kunt u specifieke doelen voor de site of de browser opgeven:
 
@@ -130,7 +129,7 @@ Het configureren van framesets verloopt als volgt:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>1 </p> </td> 
+   <td colname="col1"> <p>3 </p> </td> 
    <td colname="col02"> <p>Voeg het formulier toe aan het gewenste frame op uw webpagina. </p> </td> 
    <td colname="col2"> <p> <a href="#section_BAA8A502BB2243F8B5FF9783CDF2BFFD" type="section" format="dita" scope="local"> De code van het zoekformulier toevoegen aan een frame in uw...  </a> </p> </td> 
   </tr> 
@@ -140,7 +139,7 @@ Het configureren van framesets verloopt als volgt:
    <td colname="col2"> <p> <a scope="local" href="#section_532CACB90888467093D95EACB64FDFA1" type="section" format="dita"> Het doelframe instellen voor de pagina met zoekresultaten  </a> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>1 </p> </td> 
+   <td colname="col1"> <p>3 </p> </td> 
    <td colname="col02"> <p>Stel het doel in voor koppelingen die op de pagina met zoekresultaten worden gemaakt. </p> </td> 
    <td colname="col2"> <p> <a scope="local" href="#section_523248C5AC424D878321C21A23A5CD66" type="section" format="dita"> Het doel instellen voor koppelingen die zijn gemaakt op basis van de zoekresultaten...  </a> </p> </td> 
   </tr> 
@@ -179,7 +178,7 @@ Het configureren van framesets verloopt als volgt:
 
    ![](assets/frames1.gif)
 
-## Doelframe instellen voor pagina {#section_532CACB90888467093D95EACB64FDFA1} met zoekresultaten
+## Het doelframe instellen voor de pagina met zoekresultaten {#section_532CACB90888467093D95EACB64FDFA1}
 
 Als u de code van het zoekformulier net als hierboven in het verticale navigatieframe hebt geplaatst, kunt u de zoekresultaten in het grotere hoofdframe weergeven. In dit voorbeeld roept u het hoofdframe &#39;body&#39; op en stelt u dit in als het doelframe.
 
@@ -197,7 +196,7 @@ Als u de code van het zoekformulier net als hierboven in het verticale navigatie
 
 Wanneer een klant uw website zoekt, worden de zoekresultaten weergegeven in het hoofdframe van de webpagina.
 
-## Doel instellen voor koppelingen die worden gemaakt op de pagina {#section_523248C5AC424D878321C21A23A5CD66} met zoekresultaten
+## Het doel instellen voor koppelingen die zijn gemaakt op de pagina met zoekresultaten {#section_523248C5AC424D878321C21A23A5CD66}
 
 U kunt het doelframe instellen door de sjabloon rechtstreeks te bewerken.
 
@@ -235,7 +234,7 @@ Als u bijvoorbeeld het doeldoelframe `_blank` wilt instellen, kunt u de sjabloon
 
 Wanneer een bezoeker van de site een koppeling met zoekresultaten kiest, wordt de gekoppelde pagina nu in een nieuw, leeg venster geopend.
 
-## De pagina&#39;s van navigatieframes bewerken om te voorkomen dat deze worden geïndexeerd {#section_C62E5F0EE1294D5EBD97E123E54433FC}
+## De pagina&#39;s van navigatieframes bewerken om te voorkomen dat ze worden geïndexeerd {#section_C62E5F0EE1294D5EBD97E123E54433FC}
 
 Meestal wilt u niet dat navigatieframes worden geïndexeerd met de zoekresultaten. Voor deze functionaliteit kunt u de metatag `noindex` aan deze pagina&#39;s toevoegen.
 
@@ -433,7 +432,7 @@ Zie [De HTML-code van het zoekformulier kopiëren naar..](../c-about-auto-comple
  </tbody> 
 </table>
 
-## Geavanceerde HTML-code voor zoekformulieren {#reference_9AAD4A46B68D4D48865508982CB86DB9}
+## HTML-code van geavanceerd zoekformulier {#reference_9AAD4A46B68D4D48865508982CB86DB9}
 
 De HTML-formuliercode die wordt gebruikt voor het maken van het geavanceerde zoekformulier dat boven aan het onderwerp van het geavanceerde zoekformulier in het voorbeeld wordt weergegeven.
 

@@ -6,19 +6,18 @@ title: Het menu Crawling
 topic-legacy: Settings,Site search and merchandising
 uuid: a58c03bf-90f7-4b5b-91ff-988b95c246b0
 exl-id: 22dbbc30-bf1c-4d51-8fb0-708115ba844b
-translation-type: tm+mt
-source-git-commit: 7559f5f7437d46e3510d4659772308666425ec96
+source-git-commit: 95bf92df17d7832df72e8d883a22f9063e53a18d
 workflow-type: tm+mt
-source-wordcount: '11011'
+source-wordcount: '11015'
 ht-degree: 0%
 
 ---
 
-# Informatie over het menu Crawling{#about-the-crawling-menu}
+# Het menu Crawling{#about-the-crawling-menu}
 
 Met het menu Crawling stelt u de datum- en URL-maskers, wachtwoorden, inhoudstypen, verbindingen, formulierdefinities en URL-invoerpunten in.
 
-## Info over URL-invoerpunten {#concept_5D857E3B5C124E85BC0B5AE77A509573}
+## Informatie over URL-invoerpunten {#concept_5D857E3B5C124E85BC0B5AE77A509573}
 
 De meeste websites hebben één primair ingangspunt of homepage dat een klant aanvankelijk bezoekt. Dit belangrijkste ingangspunt is het URL adres waarvan de onderzoeksrobot begint indexkruipen. Als uw website echter meerdere domeinen of subdomeinen heeft, of als delen van uw site niet zijn gekoppeld vanuit het primaire ingangspunt, kunt u URL-ingangen gebruiken om meer ingangspunten toe te voegen.
 
@@ -301,7 +300,7 @@ Een komma is niet geldig als scheidingsteken tussen het masker en het trefwoord.
  </tbody> 
 </table>
 
-## URL-maskers toevoegen om delen van uw website te indexeren of niet te indexeren {#task_E1AFC17C746048B8843013D979E082C1}
+## URL-maskers toevoegen om delen van uw website te indexeren of niet {#task_E1AFC17C746048B8843013D979E082C1}
 
 Met [!DNL URL Masks] kunt u bepalen welke delen van uw website u wilt of niet wilt kruipen en indexeren.
 
@@ -341,7 +340,7 @@ Zie [Een incrementele index van een gefaseerde website configureren](../c-about-
 
       Zie [Werkgebiedinstellingen leegmaken live](../c-about-staging.md#task_44306783B4C0408AAA58B471DAF2D9A4).
 
-## Informatie over Datummaskers {#concept_F4F1F58A646F4A86B8650EC46FDCEF66}
+## Datummaskers {#concept_F4F1F58A646F4A86B8650EC46FDCEF66}
 
 U kunt Datummaskers gebruiken om bestanden op te nemen in of uit te sluiten van uw zoekresultaten op basis van de leeftijd van het bestand.
 
@@ -518,7 +517,7 @@ Een komma is niet geldig als scheidingsteken tussen het masker en het trefwoord.
  </tbody> 
 </table>
 
-## Datummaskers toevoegen om delen van uw website {#task_0010543C55F648D2B5DEFEFAD60FAF04} te indexeren of niet
+## Datummaskers toevoegen om delen van uw website te indexeren of niet {#task_0010543C55F648D2B5DEFEFAD60FAF04}
 
 U kunt Datummaskers gebruiken om bestanden op te nemen in of uit te sluiten van zoekresultaten van klanten op basis van de leeftijd van de bestanden.
 
@@ -597,7 +596,7 @@ https://www.mysite.com/path6 name6 password6
 
 In de bovenstaande lijst wordt het eerste wachtwoord gebruikt dat een domein of URL bevat die overeenkomt met de verificatieaanvraag van de server. Zelfs als het bestand op `https://www.mysite.com/path1/path2/index.html` zich in `Realm3` bevindt, bijvoorbeeld, worden `name2` en `password2` gebruikt omdat het wachtwoord dat met URL wordt bepaald boven het wachtwoord is dat met het domein wordt bepaald.
 
-## Wachtwoorden toevoegen voor toegang tot gebieden van uw website waarvoor verificatie {#task_DED19D476FF04B48BB6456D5ECB8628A} is vereist
+## Wachtwoorden toevoegen voor toegang tot gebieden van uw website die verificatie vereisen {#task_DED19D476FF04B48BB6456D5ECB8628A}
 
 U kunt Wachtwoorden gebruiken om met een wachtwoord beveiligde gebieden van uw website te openen en te indexeren.
 
@@ -633,7 +632,7 @@ Zie [Een incrementele index van een gefaseerde website configureren](../c-about-
 
       Zie [Werkgebiedinstellingen leegmaken live](../c-about-staging.md#task_44306783B4C0408AAA58B471DAF2D9A4).
 
-## Informatie over inhoudstypen {#concept_6FEA1355C0374500B4C53090C34A8A07}
+## Over inhoudstypen {#concept_6FEA1355C0374500B4C53090C34A8A07}
 
 U kunt [!DNL Content Types] gebruiken om te selecteren welke types van dossiers die u wilt kruipen en voor deze rekening indexeren.
 
@@ -643,7 +642,7 @@ Voordat de effecten van de instellingen voor inhoudstypen zichtbaar zijn voor kl
 
 Zie [Een incrementele index van een gefaseerde website configureren](../c-about-index-menu/c-about-incremental-index.md#task_46A367B0786C4C90BFFA5D3F95FD86C0).
 
-## MP3-muziekbestanden {#section_AD2E28BEEE3E46629E2B05C34A963673} indexeren
+## MP3-muziekbestanden indexeren {#section_AD2E28BEEE3E46629E2B05C34A963673}
 
 Als u de optie **[!UICONTROL Text in MP3 Music Files]** op de [!DNL Content Types] pagina selecteert, wordt een MP3 dossier gekropen en op één van twee manieren geïndexeerd. De eerste en meest gebruikelijke manier is van een href-ankertag in een HTML-bestand, zoals hieronder:
 
@@ -676,7 +675,7 @@ Als u alleen wilt voorkomen dat bepaalde MP3-bestanden op uw website worden geï
 
    Zie [Informatie over URL-maskers](../c-about-settings-menu/c-about-crawling-menu.md#concept_8039DFC53FF3410AA494D602F71BA164).
 
-## Inhoudstypen selecteren om door te kruipen en te indexeren {#task_CCAC5C67C8BF4AB7B79D34A1495D5EE8}
+## Inhoudstypen selecteren om door te bladeren en te indexeren {#task_CCAC5C67C8BF4AB7B79D34A1495D5EE8}
 
 U kunt [!DNL Content Types] gebruiken om te selecteren welke types van dossiers die u wilt kruipen en voor deze rekening indexeren.
 
@@ -715,7 +714,7 @@ Met Verbindingen kunt u maximaal tien HTTP-verbindingen toevoegen die de zoekrob
 
 Verhoog het aantal verbindingen om de hoeveelheid tijd beduidend te verminderen die het neemt om te voltooien kruipt en index. Houd er echter rekening mee dat elke aanvullende verbinding de belasting op de server verhoogt.
 
-## Verbindingen toevoegen om indexsnelheid {#task_3E9B83E43C1842A19066355A15C4A6FB} te verhogen
+## Verbindingen toevoegen om de indexsnelheid te verhogen {#task_3E9B83E43C1842A19066355A15C4A6FB}
 
 U kunt de hoeveelheid tijd verminderen het duurt om uw website te indexeren door Verbindingen te gebruiken om het aantal gelijktijdige verbindingen van HTTP te verhogen die de kruipper gebruikt. U kunt maximaal tien verbindingen toevoegen.
 
@@ -740,7 +739,7 @@ Houd er rekening mee dat elke extra verbinding de belasting verhoogt die op de s
 
       Zie [Werkgebiedinstellingen leegmaken live](../c-about-staging.md#task_44306783B4C0408AAA58B471DAF2D9A4).
 
-## Informatie over formulierverzending {#concept_CADD5D7CF373497DAA6F8564D7BC8502}
+## Formulierverzending {#concept_CADD5D7CF373497DAA6F8564D7BC8502}
 
 Met Formulierverzending kunt u formulieren op uw website herkennen en verwerken.
 
@@ -966,7 +965,7 @@ Zie [Een incrementele index van een gefaseerde website configureren](../c-about-
 
       Zie [Werkgebiedinstellingen leegmaken live](../c-about-staging.md#task_44306783B4C0408AAA58B471DAF2D9A4).
 
-## Info over Indexconnector {#concept_CA6921E2FBF641F9B4F60C92B32AFA84}
+## Info over Indexaansluiting {#concept_CA6921E2FBF641F9B4F60C92B32AFA84}
 
 Gebruik [!DNL Index Connector] om extra invoerbronnen te definiëren voor het indexeren van XML-pagina&#39;s of een willekeurige feed.
 
@@ -990,7 +989,7 @@ Op de pagina [!DNL Index Connector] ziet u de volgende informatie:
 
 Zie ook [Indexconnector](../c-about-settings-menu/c-about-crawling-menu.md#concept_CA6921E2FBF641F9B4F60C92B32AFA84)
 
-## Hoe het indexeringsproces voor Tekst en Diervoeders configuraties in de Schakelaar {#section_E059A33D61EE4DB0972A37B8A35E9E16} van de Index werkt
+## Hoe het indexeringsproces voor Tekst en Diervoeders configuraties in de Schakelaar van de Index werkt {#section_E059A33D61EE4DB0972A37B8A35E9E16}
 
 <table> 
  <thead> 
@@ -1020,7 +1019,7 @@ Zie ook [Indexconnector](../c-about-settings-menu/c-about-crawling-menu.md#conce
       .... </code> </p> <p>Voor de toewijzing van de configuratie moet één veld zijn geïdentificeerd als primaire sleutel. Deze toewijzing vormt de sleutel die wordt gebruikt wanneer de gegevens van het geheime voorgeheugen worden gehaald. </p> <p>De schuifregelaar herkent de URL <span class="codeph">-index: </span> schemaprefix, die tot de plaatselijk caching gegevens kan dan toegang hebben. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>1 </p> </td> 
+   <td colname="col1"> <p>3 </p> </td> 
    <td colname="col2"> <p>De documentset in de cache horizontaal schuiven. </p> </td> 
    <td colname="col3"> <p>De <span class="codeph">-index: </span> de verbindingen worden toegevoegd aan de kruipende lijst, en in de normale kruipende opeenvolging verwerkt. </p> </td> 
   </tr> 
@@ -1032,7 +1031,7 @@ Zie ook [Indexconnector](../c-about-settings-menu/c-about-crawling-menu.md#conce
  </tbody> 
 </table>
 
-## Hoe het indexeringsproces voor de configuraties van XML in de Schakelaar van de Index {#section_7F1551EA51854C5C99F284CE260526EB} werkt
+## Hoe het indexeringsproces voor de configuraties van XML in de Schakelaar van de Index werkt {#section_7F1551EA51854C5C99F284CE260526EB}
 
 Het indexeringsproces voor de configuratie van XML is gelijkaardig aan het proces voor de configuraties van de Tekst en van de Dia met de volgende kleine veranderingen en de uitzonderingen.
 
@@ -1063,7 +1062,7 @@ RewriteRule (^http.*[.]xml$) index:Adobe?key=$1
 
 Deze regel vertaalt om het even welke URL die met `.xml` in een verbinding van de Schakelaar van de Index beëindigt. De kruipler herkent en herschrijft het `index:` URL-schema. Het downloadproces wordt omgeleid via de Index Connector Apache server op de primaire server. Elk gedownload document wordt gecontroleerd gebruikend het zelfde regelmatige uitdrukkingspatroon dat met Beelden wordt gebruikt. In dit geval wordt het gefabriceerde HTML-document echter niet in de cache opgeslagen. In plaats daarvan, wordt het direct overhandigd aan de kruipler voor indexverwerking.
 
-## Hoe te om veelvoudige Verbindingen van de Index {#section_C2B14C0F06354A57AEF6238FF3814E5D} te vormen
+## Hoe te om veelvoudige Verbindingen van de Index te vormen {#section_C2B14C0F06354A57AEF6238FF3814E5D}
 
 U kunt veelvoudige configuraties van de Schakelaar van de Index voor om het even welke rekening bepalen. De configuraties worden automatisch toegevoegd aan de vervolgkeuzelijst in **[!UICONTROL Settings]** > **[!UICONTROL Crawl]** > **[!UICONTROL URL Entrypoints]**, zoals in de volgende afbeelding wordt getoond:
 
@@ -1124,7 +1123,7 @@ De voorproef verwerkt slechts een gebrek van vijf documenten zoals die door Acct
 
 Voorvertoning ondersteunt geen XML-configuraties omdat dergelijke documenten rechtstreeks worden verwerkt en niet naar de cache worden gedownload.
 
-## Een indexconnectordefinitie {#task_96779B651A654E1F871F55D6DBBC8886} toevoegen
+## Een definitie van een indexaansluiting toevoegen {#task_96779B651A654E1F871F55D6DBBC8886}
 
 Elke configuratie van de Verbinding van de Index bepaalt een gegevensbron en afbeeldingen om de gegevenspunten met elkaar in verband te brengen die voor die bron aan meta-gegevensgebieden in de index worden bepaald.
 
@@ -1326,7 +1325,7 @@ Voordat de effecten van de nieuwe en ingeschakelde definitie zichtbaar zijn voor
       <li id="li_759013EA02CD48BE971A55B0A6A11424"> <code> /record/metadata/meta[@name='title']/@content&amp;nbsp;-&gt;&amp;nbsp;title </code> <p>Het <span class="codeph">-kenmerk content </span> van elk <span class="codeph">-meta </span>-element dat zich in een <span class="codeph">-metagegevenselement </span> bevindt, dat zich in een <span class="codeph">-record </span>-element bevindt, waarvan het naamkenmerk <span class="codeph">-titel </span> is, wordt toegewezen aan het metagegevensveld <span class="codeph">.</span> </p> </li> 
       <li id="li_E741CA59197D462EB2946EDE874AFDC8"> <code> /record/metadata/meta[@name='description']/@content&amp;nbsp;-&gt;&amp;nbsp;desc </code> <p>Het <span class="codeph">-kenmerk content </span> van elk <span class="codeph">-meta </span>-element dat zich in een <span class="codeph">-metagegevenselement </span> bevindt, dat zich in het <span class="codeph">-element </span>-record bevindt, waarvan het naamkenmerk <span class="codeph">-beschrijving </span> is, wordt toegewezen aan het metagegevensveld <span class="codeph"> desc 1/&gt;.</span> </p> </li> 
       <li id="li_E35EAE3D284D46D485D9064D7BB6AB13"> <code> /record/metadata/meta[@name='description']/@content&amp;nbsp;-&gt;&amp;nbsp;body </code> <p>Het <span class="codeph">-kenmerk content </span> van elk <span class="codeph">-meta </span>-element dat zich in een <span class="codeph">-metagegevenselement </span> bevindt, dat zich in het <span class="codeph">-element </span>-record bevindt, waarvan het naamkenmerk <span class="codeph">-beschrijving </span> is, wordt toegewezen aan het metagegevensveld <span class="codeph">.</span> </p> </li> 
-      </ul> </p> <p>XPath is een relatief gecompliceerde notatie. Meer informatie is beschikbaar op de volgende locatie: </p> <p>Zie <a href="https://www.w3schools.com/xpath/" scope="external" format="html"> https://www.w3schools.com/xpath/ </a> </p> </li> 
+      </ul> </p> <p>XPath is een relatief gecompliceerde notatie. Meer informatie is beschikbaar op de volgende locatie: </p> <p>Zie <a href="https://www.w3schools.com/xml/xpath_intro.asp" scope="external" format="html"> https://www.w3schools.com/xpath/ </a> </p> </li> 
       <li id="li_8147075D7ACD4811A7ED335F23FE62A6"> <span class="uicontrol"> Veld  </span> <p>Definieert de waarde van het naamkenmerk die wordt gebruikt voor elke gegenereerde <span class="codeph"> &lt;meta&gt; </span>-tag. </p> </li> 
       <li id="li_2380199D63BF425A919606D8232FA6E2"> <span class="uicontrol"> Metagegevens?  </span> <p>Hiermee wordt <span class="uicontrol"> Veld </span> omgezet in een vervolgkeuzelijst waaruit u gedefinieerde metagegevensvelden voor de huidige account kunt selecteren. </p> <p>De waarde <span class="uicontrol"> Veld </span> kan desgewenst een ongedefinieerd metagegevensveld zijn. Een niet-gedefinieerd metagegevensveld is soms handig om inhoud te maken die wordt gebruikt door <span class="wintitle"> Script filteren </span>. </p> <p>Zie <a href="../c-about-settings-menu/c-about-filtering-menu.md#concept_E56B73D625854AB2A899EF2D56CFCB47" type="concept" format="dita" scope="local"> Scripts filteren </a>. </p> <p>Wanneer de Schakelaar van de Index de documenten van XML met veelvoudige klappen op om het even welk kaartgebied verwerkt, worden de veelvoudige waarden samengevoegd in één enkele waarde in het resulterende caching document. Deze waarden worden standaard gecombineerd met een komma-scheidingsteken. Stel echter dat de corresponderende <span class="wintitle">-veldwaarde </span> een gedefinieerd metagegevensveld is. Bovendien heeft dat gebied <span class="wintitle"> Lijsten van gewenste personen </span> plaatste attribuut. In dit geval wordt de waarde van Lijstscheidingstekens van het veld (het eerste gedefinieerde scheidingsteken) gebruikt bij de samenvoeging. </p> </li> 
       <li id="li_DEA24003E97E406DA2510C43CCFDC70E"> <span class="uicontrol"> Primaire sleutel?  </span> <p>Slechts één kaartdefinitie wordt geïdentificeerd als primaire sleutel. Dit veld wordt de unieke referentie die wordt weergegeven wanneer dit document aan de index wordt toegevoegd. Deze waarde wordt gebruikt in de URL van het document in de index. </p> <p>De <span class="uicontrol"> primaire sleutel </span> waarden moeten uniek over alle documenten zijn die door de configuratie van de Schakelaar van de Index worden vertegenwoordigd - om het even welke gevonden duplicaten zullen worden genegeerd. Als uw brondocumenten geen unieke waarde voor gebruik als <span class="uicontrol"> Primaire Sleutel </span> bevatten, maar twee of meer velden samen <i>can</i> vormen een unieke identificator, kunt u <span class="uicontrol"> Primaire Sleutel </span> bepalen door veelvoudige <span class="uicontrol"> etiketdefinities </span> met een verticale bar ("|") te combineren die de waarden afbakenen. </p> </li> 
@@ -1382,7 +1381,7 @@ Voordat de effecten van de nieuwe en ingeschakelde definitie zichtbaar zijn voor
       <li id="li_FA7DF3D1942248B98660F3D0C82F4563"> <code> /record/metadata/meta[@name='title']/@content&amp;nbsp;-&gt;&amp;nbsp;title </code> <p>Het <span class="codeph">-kenmerk content </span> van elk <span class="codeph">-meta </span>-element dat zich in een <span class="codeph">-metagegevenselement </span> bevindt, dat zich in een <span class="codeph">-record </span>-element bevindt, waarvan het naamkenmerk <span class="codeph">-titel </span> is, wordt toegewezen aan het metagegevensveld <span class="codeph">.</span> </p> </li> 
       <li id="li_D8000A116FF84DE59ED19C656DDD3BC1"> <code> /record/metadata/meta[@name='description']/@content&amp;nbsp;-&gt;&amp;nbsp;desc </code> <p>Het <span class="codeph">-kenmerk content </span> van elk <span class="codeph">-meta </span>-element dat zich in een <span class="codeph">-metagegevenselement </span> bevindt, dat zich in het <span class="codeph">-element </span>-record bevindt, waarvan het naamkenmerk <span class="codeph">-beschrijving </span> is, wordt toegewezen aan het metagegevensveld <span class="codeph"> desc 1/&gt;.</span> </p> </li> 
       <li id="li_7FA6A53DFD3D42A98B7BA17CC29DDB81"> <code> /record/metadata/meta[@name='description']/@content&amp;nbsp;-&gt;&amp;nbsp;body </code> <p>Het <span class="codeph">-kenmerk content </span> van elk <span class="codeph">-meta </span>-element dat zich in een <span class="codeph">-metagegevenselement </span> bevindt, dat zich in het <span class="codeph">-element </span>-record bevindt, waarvan het naamkenmerk <span class="codeph">-beschrijving </span> is, wordt toegewezen aan het metagegevensveld <span class="codeph">.</span> </p> </li> 
-      </ul> </p> <p>XPath is een relatief gecompliceerde notatie. Meer informatie is beschikbaar op de volgende locatie: </p> <p>Zie <a href="https://www.w3schools.com/xpath/" scope="external" format="html"> https://www.w3schools.com/xpath/ </a> </p> </li> 
+      </ul> </p> <p>XPath is een relatief gecompliceerde notatie. Meer informatie is beschikbaar op de volgende locatie: </p> <p>Zie <a href="https://www.w3schools.com/xml/xpath_intro.asp" scope="external" format="html"> https://www.w3schools.com/xpath/ </a> </p> </li> 
       <li id="li_84999D07E0AE4265BC7928BBB49957B9"> <span class="uicontrol"> Veld  </span> <p>Definieert de waarde van het naamkenmerk die wordt gebruikt voor elke gegenereerde &lt;meta&gt;-tag. </p> </li> 
       <li id="li_E125788D0F5242958BD790E26A675C20"> <span class="uicontrol"> Metagegevens?  </span> <p>Hiermee wordt <span class="uicontrol"> Veld </span> omgezet in een vervolgkeuzelijst waaruit u gedefinieerde metagegevensvelden voor de huidige account kunt selecteren. </p> <p>De waarde <span class="uicontrol"> Veld </span> kan desgewenst een ongedefinieerd metagegevensveld zijn. Een niet-gedefinieerd metagegevensveld is soms handig om inhoud te maken die wordt gebruikt door <span class="wintitle"> Script filteren </span>. </p> <p>Zie <a href="../c-about-settings-menu/c-about-filtering-menu.md#concept_E56B73D625854AB2A899EF2D56CFCB47" type="concept" format="dita" scope="local"> Scripts filteren </a>. </p> <p>Wanneer de Schakelaar van de Index de documenten van XML met veelvoudige klappen op om het even welk kaartgebied verwerkt, worden de veelvoudige waarden samengevoegd in één enkele waarde in het resulterende caching document. Deze waarden worden standaard gecombineerd met een komma-scheidingsteken. Stel echter dat de corresponderende <span class="wintitle">-veldwaarde </span> een gedefinieerd metagegevensveld is. Bovendien heeft dat gebied <span class="wintitle"> Lijsten van gewenste personen </span> plaatste attribuut. In dit geval wordt de waarde van Lijstscheidingstekens van het veld (het eerste gedefinieerde scheidingsteken) gebruikt bij de samenvoeging. </p> </li> 
       <li id="li_9F435EFB3EC74B409EC82A851824609F"> <span class="uicontrol"> Primaire sleutel?  </span> <p>Slechts één kaartdefinitie wordt geïdentificeerd als primaire sleutel. Dit veld wordt de unieke referentie die wordt weergegeven wanneer dit document aan de index wordt toegevoegd. Deze waarde wordt gebruikt in de URL van het document in de index. </p> <p>De <span class="uicontrol"> primaire sleutel </span> waarden moeten uniek over alle documenten zijn die door de configuratie van de Schakelaar van de Index worden vertegenwoordigd - om het even welke gevonden duplicaten zullen worden genegeerd. Als uw brondocumenten geen unieke waarde voor gebruik als <span class="uicontrol"> Primaire Sleutel </span> bevatten, maar twee of meer velden samen <i>can</i> vormen een unieke identificator, kunt u <span class="uicontrol"> Primaire Sleutel </span> bepalen door veelvoudige <span class="uicontrol"> etiketdefinities </span> met een verticale bar ("|") te combineren die de waarden afbakenen. </p> </li> 
@@ -1413,7 +1412,7 @@ Voordat de effecten van de nieuwe en ingeschakelde definitie zichtbaar zijn voor
 
       Zie [Werkgebiedinstellingen leegmaken live](../c-about-staging.md#task_44306783B4C0408AAA58B471DAF2D9A4).
 
-## Een indexconnectordefinitie bewerken {#task_DCFC9C6A9964421DB5AB6C25DEE98DE9}
+## Een definitie van een indexaansluiting bewerken {#task_DCFC9C6A9964421DB5AB6C25DEE98DE9}
 
 U kunt een bestaande Indexconnector bewerken die u hebt gedefinieerd.
 
@@ -1444,7 +1443,7 @@ U kunt een bestaande Indexconnector bewerken die u hebt gedefinieerd.
 
       Zie [Werkgebiedinstellingen leegmaken live](../c-about-staging.md#task_44306783B4C0408AAA58B471DAF2D9A4).
 
-## De instellingen van een indexdefinitie {#task_D0B71A7426E54247BDB3468EC576D871} weergeven
+## De instellingen van een definitie van een indexaansluiting weergeven {#task_D0B71A7426E54247BDB3468EC576D871}
 
 U kunt de configuratiemontages van een bestaande definitie van de indexschakelaar herzien.
 
@@ -1455,7 +1454,7 @@ Nadat een definitie van de Schakelaar van de Index aan de [!DNL Index Connector 
 1. Klik in het productmenu op **[!UICONTROL Settings]** > **[!UICONTROL Crawling]** > **[!UICONTROL Index Connector]**.
 1. Op [!DNL Index Connector] pagina, onder [!DNL Actions] kolomrubriek, klik **[!UICONTROL Edit]** voor een de definitienaam van de Schakelaar van de Index waarvan montages u wilt herzien of uitgeven.
 
-## Een indexconnectordefinitie {#task_3AD55DF07FC44A748D0EFDAB7B35699B} kopiëren
+## Een definitie van een indexaansluiting kopiëren {#task_3AD55DF07FC44A748D0EFDAB7B35699B}
 
 U kunt een bestaande definitie van de Schakelaar van de Index kopiëren om als basis voor een nieuwe Schakelaar van de Index te gebruiken die u wilt tot stand brengen.
 
@@ -1483,7 +1482,7 @@ Zie [Een definitie van de Indexconnector bewerken](../c-about-settings-menu/c-ab
 
       Zie [Werkgebiedinstellingen leegmaken live](../c-about-staging.md#task_44306783B4C0408AAA58B471DAF2D9A4).
 
-## De naam van een indexconnectordefinitie wijzigen {#task_5132118FC21B47D99881E0ED425225D7}
+## De naam van een indexverbindingsdefinitie wijzigen {#task_5132118FC21B47D99881E0ED425225D7}
 
 U kunt de naam van een bestaande definitie van de Verbinding van de Index veranderen.
 
@@ -1513,7 +1512,7 @@ Zie [Meerdere URL-ingangspunten toevoegen die u wilt indexeren](../c-about-setti
 
       Zie [Werkgebiedinstellingen leegmaken live](../c-about-staging.md#task_44306783B4C0408AAA58B471DAF2D9A4).
 
-## Een indexconnectordefinitie {#task_6B0BD5D0C09F4597A401B0F3AC7C7EA7} verwijderen
+## Een definitie van een indexaansluiting verwijderen {#task_6B0BD5D0C09F4597A401B0F3AC7C7EA7}
 
 U kunt een bestaande definitie van de Verbinding van de Index schrappen die u niet meer nodig hebt of gebruikt.
 

@@ -6,15 +6,14 @@ title: Het menu Metagegevens
 topic-legacy: Settings,Site search and merchandising
 uuid: f12fc863-a140-45e8-b219-3dbfdef099cd
 exl-id: 53d62da9-c5bd-4c4a-bb89-743704f66f7f
-translation-type: tm+mt
-source-git-commit: 7559f5f7437d46e3510d4659772308666425ec96
+source-git-commit: 95bf92df17d7832df72e8d883a22f9063e53a18d
 workflow-type: tm+mt
-source-wordcount: '8024'
+source-wordcount: '8028'
 ht-degree: 0%
 
 ---
 
-# Informatie over het menu Metagegevens{#about-the-metadata-menu}
+# Het menu Metagegevens{#about-the-metadata-menu}
 
 Gebruik het menu Metagegevens om zoekdefinities en indexinjecties aan te passen.
 
@@ -26,7 +25,7 @@ U kunt de velden bewerken die al vooraf zijn gedefinieerd. U kunt ook nieuwe doo
 
 Zie ook [Informatie over gegevensweergaven](../c-about-reports-menu/c-about-data-views.md#concept_DCA897D074464BC1861AA47B40CC86C3).
 
-## Een nieuw metatag veld {#task_6DF188C0FC7F4831A4444CA9AFA615E5} toevoegen
+## Een nieuw metatag-tagveld toevoegen {#task_6DF188C0FC7F4831A4444CA9AFA615E5}
 
 U kunt uw eigen velden voor metagegevenstag definiëren en toevoegen.
 
@@ -292,7 +291,7 @@ Voordat de effecten van de nieuwe definitie van de meta-tag zichtbaar zijn voor 
 
       Zie [Werkgebiedinstellingen leegmaken live](../c-about-staging.md#task_44306783B4C0408AAA58B471DAF2D9A4).
 
-## Vooraf gedefinieerde of door de gebruiker gedefinieerde metatag-tagvelden {#task_0A7657B63596421BB6DB3ED44F827AB3} bewerken
+## Vooraf gedefinieerde of door de gebruiker gedefinieerde metatagvelden bewerken {#task_0A7657B63596421BB6DB3ED44F827AB3}
 
 U kunt alleen bepaalde velden in vooraf gedefinieerde metatags bewerken of alle velden in metatags bewerken die door de gebruiker zijn gedefinieerd.
 
@@ -326,7 +325,7 @@ Voordat de effecten van de wijzigingen in de metatag zichtbaar zijn voor klanten
 
       Zie [Werkgebiedinstellingen leegmaken live](../c-about-staging.md#task_44306783B4C0408AAA58B471DAF2D9A4).
 
-## Een door de gebruiker gedefinieerd metatag-tagveld {#task_9361EF38B5E743038B6672FA6CF70FD3} verwijderen
+## Een door de gebruiker gedefinieerd metatag-tagveld verwijderen {#task_9361EF38B5E743038B6672FA6CF70FD3}
 
 U kunt een door de gebruiker gedefinieerd meta-tagveld verwijderen dat u niet meer nodig hebt of gebruikt.
 
@@ -446,7 +445,7 @@ replace language https://www.yoursite.com/japanese/intro.txt ja_JP
 
 Zie ook [Inhoudstypen selecteren om door te kruipen en index](../c-about-settings-menu/c-about-crawling-menu.md#task_CCAC5C67C8BF4AB7B79D34A1495D5EE8).
 
-## Veld-injectiedefinities toevoegen {#task_E86566FA1FF74CF68115C0ADA05172AE}
+## Veldinjectiedefinities toevoegen {#task_E86566FA1FF74CF68115C0ADA05172AE}
 
 Met [!DNL Injections] kunt u inhoud invoegen in uw webpagina&#39;s zonder dat u de pagina&#39;s zelf hoeft te bewerken.
 
@@ -472,7 +471,7 @@ U kunt optioneel **[!UICONTROL Test]** op de [!DNL Injections] pagina gebruiken.
 
       Zie [Werkgebiedinstellingen leegmaken live](../c-about-staging.md#task_44306783B4C0408AAA58B471DAF2D9A4).
 
-## Informatie over kenmerklader {#concept_9EF38E98811B42CDA41996432B9AD209}
+## Over kenmerklader {#concept_9EF38E98811B42CDA41996432B9AD209}
 
 Gebruik [!DNL Attribute Loader] om extra invoerbronnen te definiëren om gegevens die van een website zijn gekropen, te vergroten.
 
@@ -501,7 +500,7 @@ Zie ook [Informatie over het configureren van meerdere kenmerklezers](../c-about
 
 Zie ook [Informatie over het gebruik van Voorvertoning wanneer u een kenmerk toevoegt...](../c-about-settings-menu/c-about-metadata-menu.md#section_E9CAB000A94C4D9189786C1EDB1CDB46)
 
-## Hoe het proces van de attributeninjectie voor de configuraties van de Tekst en van het Diervoer in de Loader van Attributen {#section_E059A33D61EE4DB0972A37B8A35E9E16} werkt
+## Hoe het proces van de attributeninjectie voor de configuraties van de Tekst en van het Diervoer in de Loader van Attributen werkt {#section_E059A33D61EE4DB0972A37B8A35E9E16}
 
 <table> 
  <thead> 
@@ -513,7 +512,7 @@ Zie ook [Informatie over het gebruik van Voorvertoning wanneer u een kenmerk toe
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>1 </p> </td> 
+   <td colname="col1"> <p>3 </p> </td> 
    <td colname="col2"> <p>Download de gegevensbron. </p> </td> 
    <td colname="col3"> <p>Voor configuraties met tekst en feed is het een eenvoudige bestandsdownload. </p> </td> 
   </tr> 
@@ -531,7 +530,7 @@ Zie ook [Informatie over het gebruik van Voorvertoning wanneer u een kenmerk toe
       .... </code> </p> <p>Voor de toewijzing van de configuratie moet één veld zijn geïdentificeerd als primaire sleutel. Deze toewijzing vormt de sleutel die wordt gebruikt wanneer de gegevens van het geheime voorgeheugen worden gehaald. </p> <p>De schuifregelaar herkent de URL <span class="codeph">-index: </span> schemaprefix, die tot de plaatselijk caching gegevens kan dan toegang hebben. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>1 </p> </td> 
+   <td colname="col1"> <p>3 </p> </td> 
    <td colname="col2"> <p>De documentset in de cache horizontaal schuiven. </p> </td> 
    <td colname="col3"> <p>De <span class="codeph">-index: </span> de verbindingen worden toegevoegd aan de kruipende lijst, en in de normale kruipende opeenvolging verwerkt. </p> </td> 
   </tr> 
@@ -543,7 +542,7 @@ Zie ook [Informatie over het gebruik van Voorvertoning wanneer u een kenmerk toe
  </tbody> 
 </table>
 
-## Informatie over het configureren van meerdere kenmerklezers {#section_4CC49C74EF294608A184E233F215ADFF}
+## Meerdere kenmerklezers configureren {#section_4CC49C74EF294608A184E233F215ADFF}
 
 U kunt meerdere configuraties van kenmerklader definiëren voor elke account.
 
@@ -572,7 +571,7 @@ Wanneer u een kenmerklader toevoegt, kunt u desgewenst de functie **[!UICONTROL 
 >
 >De functie Kaarten instellen werkt mogelijk niet voor grote XML-gegevenssets omdat de bestandsparser het gehele bestand in het geheugen probeert te lezen. Dit heeft tot gevolg dat u een toestand van onvoldoende geheugen kunt ervaren. Wanneer hetzelfde document echter wordt verwerkt op het moment van indexering, wordt het niet in het geheugen gelezen. In plaats daarvan worden grote documenten onderweg verwerkt en niet helemaal in het geheugen gelezen.
 
-## Informatie over het gebruik van Voorvertoning wanneer u een kenmerklader {#section_E9CAB000A94C4D9189786C1EDB1CDB46} toevoegt
+## Informatie over het gebruik van Voorvertoning wanneer u een kenmerklader toevoegt {#section_E9CAB000A94C4D9189786C1EDB1CDB46}
 
 Kenmerklader-gegevens worden vóór een indexbewerking geladen.
 
@@ -582,7 +581,7 @@ De voorproef verwerkt slechts een gebrek van vijf documenten zoals die door **wo
 
 Voorvertoning ondersteunt geen XML-configuraties omdat dergelijke documenten rechtstreeks worden verwerkt en niet naar de cache worden gedownload.
 
-## Definitie {#task_A735E5EF763343A9B675E1A3B09AFDBC} van kenmerklader toevoegen
+## Een definitie van een kenmerklader toevoegen {#task_A735E5EF763343A9B675E1A3B09AFDBC}
 
 Elke configuratie van de Lader van Attributen bepaalt een gegevensbron en afbeeldingen om de gegevenspunten te relateren die voor die bron aan meta-gegevensgebieden in de index worden bepaald.
 
@@ -770,7 +769,7 @@ Voordat de effecten van de nieuwe en ingeschakelde definitie zichtbaar zijn voor
         <li id="li_759013EA02CD48BE971A55B0A6A11424"> <code class="syntax xml"> /record/metadata/meta[@name='title']/@content&amp;nbsp;-&gt;&amp;nbsp;title </code> <p>Het <span class="codeph">-kenmerk content </span> van elk <span class="codeph">-meta </span>-element dat zich in een <span class="codeph">-metagegevenselement </span> bevindt, dat zich in een <span class="codeph">-record </span>-element bevindt, waarvan het naamkenmerk <span class="codeph">-titel </span> is, wordt toegewezen aan het metagegevensveld <span class="codeph">.</span> </p> </li> 
         <li id="li_E741CA59197D462EB2946EDE874AFDC8"> <code class="syntax xml"> /record/metadata/meta[@name='description']/@content&amp;nbsp;-&gt;&amp;nbsp;desc </code> <p>Het <span class="codeph">-kenmerk content </span> van elk <span class="codeph">-meta </span>-element dat zich in een <span class="codeph">-metagegevenselement </span> bevindt, dat zich in het <span class="codeph">-element </span>-record bevindt, waarvan het naamkenmerk <span class="codeph">-beschrijving </span> is, wordt toegewezen aan het metagegevensveld <span class="codeph"> desc 1/&gt;.</span> </p> </li> 
         <li id="li_E35EAE3D284D46D485D9064D7BB6AB13"> <code class="syntax xml"> /record/metadata/meta[@name='description']/@content&amp;nbsp;-&gt;&amp;nbsp;body </code> <p>Het <span class="codeph">-kenmerk content </span> van elk <span class="codeph">-meta </span>-element dat zich in een <span class="codeph">-metagegevenselement </span> bevindt, dat zich in het <span class="codeph">-element </span>-record bevindt, waarvan het naamkenmerk <span class="codeph">-beschrijving </span> is, wordt toegewezen aan het metagegevensveld <span class="codeph">.</span> </p> </li> 
-        </ul> </p> <p>XPath is een relatief gecompliceerde notatie. Meer informatie is beschikbaar op de volgende locatie: </p> <p>Zie <a href="https://www.w3schools.com/xpath/" scope="external" format="html"> https://www.w3schools.com/xpath/ </a> </p> </li> 
+        </ul> </p> <p>XPath is een relatief gecompliceerde notatie. Meer informatie is beschikbaar op de volgende locatie: </p> <p>Zie <a href="https://www.w3schools.com/xml/xpath_intro.asp" scope="external" format="html"> https://www.w3schools.com/xml/xpath_intro.asp </a> </p> </li> 
       <li id="li_8147075D7ACD4811A7ED335F23FE62A6"> <span class="uicontrol"> Veld  </span> <p>Definieert de waarde van het naamkenmerk die wordt gebruikt voor elke gegenereerde <span class="codeph"> &lt;meta&gt; </span>-tag. </p> </li> 
       <li id="li_2380199D63BF425A919606D8232FA6E2"> <span class="uicontrol"> Metagegevens?  </span> <p>Hiermee wordt <span class="uicontrol"> Veld </span> omgezet in een vervolgkeuzelijst waaruit u gedefinieerde metagegevensvelden voor de huidige account kunt selecteren. </p> <p>De waarde <span class="uicontrol"> Veld </span> kan desgewenst een ongedefinieerd metagegevensveld zijn. Een niet-gedefinieerd metagegevensveld is soms handig om inhoud te maken die wordt gebruikt door <span class="wintitle"> Script filteren </span>. </p> <p>Zie <a href="../c-about-settings-menu/c-about-filtering-menu.md#concept_E56B73D625854AB2A899EF2D56CFCB47" type="concept" format="dita" scope="local"> Scripts filteren </a>. </p> <p>Wanneer de Lader van Attributen de documenten van XML met veelvoudige klappen op om het even welk kaartgebied verwerkt, worden de veelvoudige waarden samengevoegd in één enkele waarde in het resulterende caching document. Deze waarden worden standaard gecombineerd met een komma-scheidingsteken. Stel echter dat de corresponderende <span class="wintitle">-veldwaarde </span> een gedefinieerd metagegevensveld is. Bovendien heeft dat gebied <span class="wintitle"> Lijsten van gewenste personen </span> plaatste attribuut. In dit geval wordt de waarde van Lijstscheidingstekens van het veld (het eerste gedefinieerde scheidingsteken) gebruikt bij de samenvoeging. </p> </li> 
       <li id="li_DEA24003E97E406DA2510C43CCFDC70E"> <span class="uicontrol"> Primaire sleutel?  </span> <p>Er wordt slechts één veld geïdentificeerd als primaire sleutel. Dit veld wordt gebruikt als de "buitenlandse sleutel" die overeenkomt met de kenmerkladingsgegevens en het corresponderende document in de index. </p> </li> 
@@ -798,7 +797,7 @@ Voordat de effecten van de nieuwe en ingeschakelde definitie zichtbaar zijn voor
 
       Zie [Werkgebiedinstellingen leegmaken live](../c-about-staging.md#task_44306783B4C0408AAA58B471DAF2D9A4).
 
-## Definitie {#task_AA2D1B2BCAFA44A6A0C59A0318274E80} van kenmerklader bewerken
+## De definitie van een kenmerklader bewerken {#task_AA2D1B2BCAFA44A6A0C59A0318274E80}
 
 U kunt een bestaande kenmerklader bewerken die u hebt gedefinieerd.
 
@@ -831,7 +830,7 @@ Niet alle opties voor kenmerklader zijn beschikbaar om te worden gewijzigd, zoal
 
       Zie [Werkgebiedinstellingen leegmaken live](../c-about-staging.md#task_44306783B4C0408AAA58B471DAF2D9A4).
 
-## {#task_9B40D5ECFC81411E9480F62A0FD5F2E0} een kenmerklader kopiëren
+## Kenmerklader-definitie kopiëren {#task_9B40D5ECFC81411E9480F62A0FD5F2E0}
 
 U kunt een bestaande definitie van kenmerklader kopiëren en gebruiken als basis voor een nieuwe kenmerklader die u wilt maken.
 
@@ -863,7 +862,7 @@ Zie [Definitie van kenmerklader bewerken](../c-about-settings-menu/c-about-metad
 
       Zie [Werkgebiedinstellingen leegmaken live](../c-about-staging.md#task_44306783B4C0408AAA58B471DAF2D9A4).
 
-## De naam wijzigen van een kenmerkLoader-definitie {#task_58D5DFD7EBC04111BCB91118E4440DB4}
+## De naam van een kenmerkLoader-definitie wijzigen {#task_58D5DFD7EBC04111BCB91118E4440DB4}
 
 U kunt de naam wijzigen van een bestaande definitie van kenmerklader.
 
@@ -891,7 +890,7 @@ U kunt de naam wijzigen van een bestaande definitie van kenmerklader.
 
       Zie [Werkgebiedinstellingen leegmaken live](../c-about-staging.md#task_44306783B4C0408AAA58B471DAF2D9A4).
 
-## Kenmerkladingsgegevens {#task_2F3C55189B0A4049AB2113F2291CC181} laden
+## Kenmerkladingsgegevens laden {#task_2F3C55189B0A4049AB2113F2291CC181}
 
 U kunt de geconfigureerde gegevens van de kenmerklader downloaden naar het zoeken/verhandelen van sites.
 
@@ -934,7 +933,7 @@ De [!DNL Data Load] pagina toont de volgende informatie over de status van uw la
 
 1. Klik op **[!UICONTROL Close]** om terug te keren naar de pagina [!DNL Attribute Loader Definitions].
 
-## Voorvertoning van kenmerkladingsgegevens {#task_735CDCC1D8174B7B9F5B8E0AFA5F0CA0}
+## Voorvertoning van kenmerklader-gegevens {#task_735CDCC1D8174B7B9F5B8E0AFA5F0CA0}
 
 U kunt Voorvertoning gebruiken om de laatst geladen gegevens van kenmerklader weer te geven.
 
@@ -958,7 +957,7 @@ Zie [Kenmerkladingsgegevens laden](../c-about-settings-menu/c-about-metadata-men
    * Klik **[!UICONTROL Download to Desktop]** om de lijst als .xlt dossier te downloaden en te bewaren.
    * Sluit de pagina wanneer u klaar bent met het voorvertonen van de kenmerklader-gegevens en ga terug naar de vorige weergegeven pagina.
 
-## De instellingen van de definitie {#task_EA99A9694FE948ADA82C1DBA0667851B} van een kenmerklader weergeven
+## De instellingen van de definitie van een kenmerklader weergeven {#task_EA99A9694FE948ADA82C1DBA0667851B}
 
 U kunt de configuratie-instellingen van een bestaande definitie van kenmerklader controleren.
 
@@ -973,7 +972,7 @@ Nadat een definitie van de Lader van Attributen aan [!DNL Attribute Loader Defin
 1. Klik in het productmenu op **[!UICONTROL Settings]** > **[!UICONTROL Metadata]** > **[!UICONTROL Attribute Loader]**.
 1. Klik op de pagina [!DNL Attribute Loader] onder de kolomkop [!DNL Actions] op **[!UICONTROL Edit]** voor de definitienaam van een kenmerklader waarvan u de instellingen wilt bekijken of bewerken.
 
-## Logbestand weergeven van de meest recente gegevensbelasting van kenmerklader {#task_9C7D6E34BB6C4A40B7CA3EE36ACB0837}
+## Het logboek weergeven van de meest recente gegevens van Kenmerklader die zijn geladen {#task_9C7D6E34BB6C4A40B7CA3EE36ACB0837}
 
 U kunt [!DNL View Log] gebruiken om het dossier van het de gegevenslogboek van de Lader van Attributen van het meest recente downloadproces te onderzoeken. U kunt de logboekmening ook gebruiken om een lopende download te controleren.
 
@@ -986,7 +985,7 @@ Zie [Kenmerkladingsgegevens laden](../c-about-settings-menu/c-about-metadata-men
 1. Gebruik op de pagina [!DNL Attribute Loader Data Log] de navigatie- en weergaveopties boven en onder aan de pagina om de loggegevens weer te geven.
 1. Als u klaar bent, sluit u de pagina om terug te keren naar de pagina [!DNL Attribute Loader Definitions].
 
-## Definitie {#task_E8980F66888B476E98C228C1D307EDF8} van kenmerklader verwijderen
+## Definitie van een kenmerklader verwijderen {#task_E8980F66888B476E98C228C1D307EDF8}
 
 U kunt een bestaande definitie van kenmerklader verwijderen die u niet meer nodig hebt of gebruikt.
 
